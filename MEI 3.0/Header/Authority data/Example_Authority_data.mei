@@ -1,82 +1,74 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<mei xmlns:xlink="http://www.w3.org/1999/xlink"
-     xmlns="http://www.music-encoding.org/ns/mei"
-     meiversion="3.0.0">
+<mei xmlns:xlink="http://www.w3.org/1999/xlink" xmlns="http://www.music-encoding.org/ns/mei"
+   meiversion="3.0.0">
    <meiHead>
       <fileDesc>
          <titleStmt>
             <title>Example of using authority data I</title>
             <respStmt>
                <resp>Composed by:</resp>
-               <persName role="composer"
-                         authURI="http://d-nb.info/gnd/119057077"
-                         authority="GND"
-                         codedval="119057077">Niels W. Gade</persName>
+               <persName role="composer" authURI="http://d-nb.info/gnd/119057077" authority="GND"
+                  codedval="119057077">Niels W. Gade</persName>
                <resp>Machine-readable transcription by:</resp>
                <persName role="encoder">Maja Hartwig</persName>
             </respStmt>
          </titleStmt>
          <pubStmt>
             <respStmt>
-               <corpName codedval="5115204-6" authURI="http://d-nb.info/gnd" authority="GND">Musikwissenschaftliches Seminar, Detmold</corpName>
+               <corpName codedval="5115204-6" authURI="http://d-nb.info/gnd" authority="GND"
+                  >Musikwissenschaftliches Seminar, Detmold</corpName>
             </respStmt>
             <address>
                <addrLine>Gartenstrasse 20</addrLine>
                <addrLine>32756 <geogName codedval="7004442"
-                            authURI="www.getty.edu/research/tools/vocabularies/tgn"
-                            authority="TGN">Detmold</geogName>
+                     authURI="www.getty.edu/research/tools/vocabularies/tgn" authority="TGN"
+                     >Detmold</geogName>
                </addrLine>
                <addrLine>
                   <geogName codedval="7000084"
-                            authURI="www.getty.edu/research/tools/vocabularies/tgn"
-                            authority="TGN">Germany</geogName>
+                     authURI="www.getty.edu/research/tools/vocabularies/tgn" authority="TGN"
+                     >Germany</geogName>
                </addrLine>
             </address>
             <date isodate="2012-11-06"/>
             <availability>
                <useRestrict>This encoding is in the public domain. However, the sources used to
-						create it may be under copyright. We believe their use by the MEI project for
-						educational and research purposes is covered by the Fair Use doctrine. However, we
-						will remove any material from the project archive when requested to do so by the
-						copyright owner.</useRestrict>
+                  create it may be under copyright. We believe their use by the MEI project for
+                  educational and research purposes is covered by the Fair Use doctrine. However, we
+                  will remove any material from the project archive when requested to do so by the
+                  copyright owner.</useRestrict>
             </availability>
          </pubStmt>
          <seriesStmt>
             <title>MEI Sample Collection</title>
             <respStmt>
                <corpName role="publisher">MEI Project</corpName>
-               <corpName role="funder"
-                         codedval="2007744-0"
-                         authURI="http://d-nb.info/gnd"
-                         authority="GND">German Research
-						Foundation<address>
+               <corpName role="funder" codedval="2007744-0" authURI="http://d-nb.info/gnd"
+                  authority="GND">German Research Foundation<address>
                      <addrLine>Kennedyallee 40</addrLine>
                      <addrLine>
                         <geogName codedval="7005090"
-                                  authURI="www.getty.edu/research/tools/vocabularies/tgn"
-                                  authority="TGN">Bonn</geogName>
+                           authURI="www.getty.edu/research/tools/vocabularies/tgn" authority="TGN"
+                           >Bonn</geogName>
                      </addrLine>
                      <addrLine>
                         <geogName codedval="7000084"
-                                  authURI="www.getty.edu/research/tools/vocabularies/tgn"
-                                  authority="TGN">Germany</geogName>
+                           authURI="www.getty.edu/research/tools/vocabularies/tgn" authority="TGN"
+                           >Germany</geogName>
                      </addrLine>
                   </address>
                </corpName>
-               <corpName role="funder"
-                         codedval="18183-3"
-                         authURI="http://d-nb.info/gnd/18183-3"
-                         authority="Deutsche Nationalbibliothek">National Endowment for the
-						Humanities<address>
+               <corpName role="funder" codedval="18183-3" authURI="http://d-nb.info/gnd/18183-3"
+                  authority="Deutsche Nationalbibliothek">National Endowment for the Humanities<address>
                      <addrLine>1100 Pennsylvania Avenue N.W.</addrLine>
                      <addrLine>
                         <geogName codedval="7013962"
-                                  authURI="www.getty.edu/research/tools/vocabularies/tgn"
-                                  authority="TGN">Washington, DC</geogName> 20004</addrLine>
+                           authURI="www.getty.edu/research/tools/vocabularies/tgn" authority="TGN"
+                           >Washington, DC</geogName> 20004</addrLine>
                      <addrLine>
                         <geogName codedval="7012149"
-                                  authURI="www.getty.edu/research/tools/vocabularies/tgn"
-                                  authority="TGN">United States</geogName>
+                           authURI="www.getty.edu/research/tools/vocabularies/tgn" authority="TGN"
+                           >United States</geogName>
                      </addrLine>
                   </address>
                </corpName>
@@ -92,34 +84,37 @@
                   <title type="subordinate">op. 26</title>
                   <title type="uniform">Lieder, Männerchor, op. 26</title>
                   <respStmt>
-                     <persName role="composer"
-                               authURI="http://d-nb.info/gnd/119057077"
-                               authority="GND"
-                               codedval="119057077">Niels Wilhelm Gade</persName>
+                     <persName role="composer" authURI="http://d-nb.info/gnd/119057077"
+                        authority="GND" codedval="119057077">Niels Wilhelm Gade</persName>
                      <corpName role="dedicatee">Pauliner Sängerverein zu Leipzig</corpName>
                   </respStmt>
                </titleStmt>
                <pubStmt>
                   <publisher>
-                     <corpName authority="GND" authURI="http://d-nb.info/gnd" codedval="6120820-6">Bartholf Senff</corpName>
+                     <corpName authority="GND" authURI="http://d-nb.info/gnd" codedval="6120820-6"
+                        >Bartholf Senff</corpName>
                   </publisher>
                   <pubPlace>
                      <geogName codedval="7012329"
-                               authURI="www.getty.edu/research/tools/vocabularies/tgn"
-                               authority="TGN">Leipzig</geogName>
+                        authURI="www.getty.edu/research/tools/vocabularies/tgn" authority="TGN"
+                        >Leipzig</geogName>
                   </pubPlace>
                   <date>1853</date>
                </pubStmt>
                <physDesc>
                   <titlePage>
                      <p>LIEDER<lb/> für Männerchor<pb/> componirt und<lb/>dem Pauliner Sängerverein
-								<lb/>zu Leipzig<lb/>gewidmet<lb/>von<lb/>NIELS W. GADE.<lb/>op. 26 <lb/>3tes
-								Heft der Lieder für Männerchor. <stack> No. 1 Wanderlied, von E.
-									Geibel.<lb/> No. 2. Heinrich Frauenlob, von O. Roquette.<lb/> No. 3. Die
-									Stundenten, von O. Roquette.<lb/> No. 4. Gondelfahrt, von L.
-									Bechstein.<lb/> No. 5. Das Reh, von L. Uhland </stack> Partitur und
-								Stimmen.<lb/>Eigenthum des Verlegers.<lb/>LEIPZIG, VERLAG VON BARTHOLF
-								SENFF<lb/> Pr. 1 Thlr. 10 Ngr.<lb/>78.</p>
+                        <lb/>zu Leipzig<lb/>gewidmet<lb/>von<lb/>NIELS W. GADE.<lb/>op. 26 <lb/>3tes
+                        Heft der Lieder für Männerchor.</p>
+                     <list>
+                        <li>No. 1 Wanderlied, von E. Geibel.</li>
+                        <li>No. 2. Heinrich Frauenlob, von O. Roquette.</li>
+                        <li>No. 3. Die Stundenten, von O. Roquette.</li>
+                        <li>No. 4. Gondelfahrt, von L. Bechstein.</li>
+                        <li>No. 5. Das Reh, von L. Uhland</li>
+                     </list>
+                     <p>Partitur und Stimmen.<lb/>Eigenthum des Verlegers.<lb/>LEIPZIG, VERLAG VON
+                        BARTHOLF SENFF<lb/> Pr. 1 Thlr. 10 Ngr.<lb/>78.</p>
                   </titlePage>
                   <dimensions unit="cm">8.5 x 11</dimensions>
                   <extent>46 pages</extent>
@@ -133,7 +128,8 @@
       </fileDesc>
       <encodingDesc>
          <editorialDecl>
-            <p>The example demonstrates an encoding of a componentgroup within the workDesc. The music is not encoded.</p>
+            <p>The example demonstrates an encoding of a componentgroup within the workDesc. The
+               music is not encoded.</p>
          </editorialDecl>
       </encodingDesc>
       <workDesc>
@@ -144,15 +140,11 @@
                      <title>Wanderlied</title>
                      <respStmt>
                         <resp>von</resp>
-                        <persName role="lyricist"
-                                  authURI="http://d-nb.info/gnd"
-                                  authority="GND"
-                                  codedval="11853811X">Emanuel Geibel</persName>
+                        <persName role="lyricist" authURI="http://d-nb.info/gnd" authority="GND"
+                           codedval="11853811X">Emanuel Geibel</persName>
                         <resp>komponiert von: </resp>
-                        <persName role="composer"
-                                  authURI="http://d-nb.info/gnd/119057077"
-                                  authority="GND"
-                                  codedval="119057077">Niels Wilhelm Gade</persName>
+                        <persName role="composer" authURI="http://d-nb.info/gnd/119057077"
+                           authority="GND" codedval="119057077">Niels Wilhelm Gade</persName>
                      </respStmt>
                   </titleStmt>
                   <key pname="d" mode="major"/>
@@ -161,36 +153,19 @@
                   <incip>
                      <score>
                         <section>
-                           <scoreDef key.sig="2s"
-                                     meter.count="6"
-                                     meter.unit="8"
-                                     system.leftline="true">
+                           <scoreDef key.sig="2s" meter.count="6" meter.unit="8"
+                              system.leftline="true">
                               <staffGrp barthru="false">
-                                 <staffDef n="1"
-                                           label="Erster Tenor"
-                                           lines="5"
-                                           clef.shape="G"
-                                           clef.line="2"/>
-                                 <staffDef n="2"
-                                           label="Zweiter Tenor"
-                                           lines="5"
-                                           clef.shape="G"
-                                           clef.line="2"/>
-                                 <staffDef n="3"
-                                           label="Erster Bass"
-                                           lines="5"
-                                           clef.shape="F"
-                                           clef.line="4"/>
-                                 <staffDef n="4"
-                                           label="Zweiter Bass"
-                                           lines="5"
-                                           clef.shape="F"
-                                           clef.line="4"/>
-                                 <staffDef n="5"
-                                           label="Dritter Bass"
-                                           lines="5"
-                                           clef.shape="F"
-                                           clef.line="4"/>
+                                 <staffDef n="1" label="Erster Tenor" lines="5" clef.shape="G"
+                                    clef.line="2"/>
+                                 <staffDef n="2" label="Zweiter Tenor" lines="5" clef.shape="G"
+                                    clef.line="2"/>
+                                 <staffDef n="3" label="Erster Bass" lines="5" clef.shape="F"
+                                    clef.line="4"/>
+                                 <staffDef n="4" label="Zweiter Bass" lines="5" clef.shape="F"
+                                    clef.line="4"/>
+                                 <staffDef n="5" label="Dritter Bass" lines="5" clef.shape="F"
+                                    clef.line="4"/>
                               </staffGrp>
                            </scoreDef>
                            <measure n="0" metcon="false" type="upbeat">
@@ -225,7 +200,7 @@
                               </staff>
                               <dynam staff="1 2 3 4 5" tstamp="0.5" place="below">mf</dynam>
                               <dir staff="1" place="above" tstamp="1">ALLEGRO<lb/>(Leise und
-											fröhlich)</dir>
+                                 fröhlich)</dir>
                            </measure>
                            <measure n="1">
                               <staff n="1">
@@ -302,31 +277,12 @@
                                     <note pname="a" oct="2" dur="8" stem.dir="down"/>
                                  </layer>
                               </staff>
-                              <hairpin form="cres"
-                                       staff="1"
-                                       place="above"
-                                       tstamp="2"
-                                       tstamp2="0m+6"/>
-                              <hairpin form="cres"
-                                       staff="2"
-                                       place="above"
-                                       tstamp="2"
-                                       tstamp2="0m+6"/>
-                              <hairpin form="cres"
-                                       staff="3"
-                                       place="above"
-                                       tstamp="2"
-                                       tstamp2="0m+6"/>
-                              <hairpin form="cres"
-                                       staff="4"
-                                       place="above"
-                                       tstamp="2"
-                                       tstamp2="0m+6"/>
-                              <hairpin form="cres"
-                                       staff="5"
-                                       place="above"
-                                       tstamp="2"
-                                       tstamp2="0m+6"/>
+                              <hairpin form="cres" staff="1" place="above" tstamp="2" tstamp2="0m+6"/>
+                              <hairpin form="cres" staff="2" place="above" tstamp="2" tstamp2="0m+6"/>
+                              <hairpin form="cres" staff="3" place="above" tstamp="2" tstamp2="0m+6"/>
+                              <hairpin form="cres" staff="4" place="above" tstamp="2" tstamp2="0m+6"/>
+                              <hairpin form="cres" staff="5" place="above" tstamp="2" tstamp2="0m+6"
+                              />
                            </measure>
                         </section>
                      </score>
@@ -345,15 +301,11 @@
                      <title>Heinrich Frauenlob</title>
                      <respStmt>
                         <resp>von</resp>
-                        <persName role="lyricist"
-                                  authURI="http://d-nb.info/gnd/"
-                                  codedval="119034883"
-                                  authority="GND">Otto Roquette</persName>
+                        <persName role="lyricist" authURI="http://d-nb.info/gnd/"
+                           codedval="119034883" authority="GND">Otto Roquette</persName>
                         <resp>komponiert von:</resp>
-                        <persName role="composer"
-                                  authURI="http://d-nb.info/gnd/119057077"
-                                  authority="GND"
-                                  codedval="119057077">Niels Wilhelm Gade</persName>
+                        <persName role="composer" authURI="http://d-nb.info/gnd/119057077"
+                           authority="GND" codedval="119057077">Niels Wilhelm Gade</persName>
                      </respStmt>
                   </titleStmt>
                   <key pname="g" mode="minor"/>
@@ -361,31 +313,16 @@
                   <meter count="3" unit="4"/>
                   <incip>
                      <score>
-                        <scoreDef meter.count="3"
-                                  meter.unit="4"
-                                  key.sig="2f"
-                                  system.leftline="true">
+                        <scoreDef meter.count="3" meter.unit="4" key.sig="2f" system.leftline="true">
                            <staffGrp barthru="false">
-                              <staffDef n="1"
-                                        lines="5"
-                                        clef.shape="G"
-                                        clef.line="2"
-                                        label="Erster Tenor"/>
-                              <staffDef n="2"
-                                        lines="5"
-                                        clef.shape="G"
-                                        clef.line="2"
-                                        label="Zweiter Tenor"/>
-                              <staffDef n="3"
-                                        lines="5"
-                                        clef.shape="F"
-                                        clef.line="4"
-                                        label="Erster Bass"/>
-                              <staffDef n="4"
-                                        lines="5"
-                                        clef.shape="F"
-                                        clef.line="4"
-                                        label="Zweiter Bass"/>
+                              <staffDef n="1" lines="5" clef.shape="G" clef.line="2"
+                                 label="Erster Tenor"/>
+                              <staffDef n="2" lines="5" clef.shape="G" clef.line="2"
+                                 label="Zweiter Tenor"/>
+                              <staffDef n="3" lines="5" clef.shape="F" clef.line="4"
+                                 label="Erster Bass"/>
+                              <staffDef n="4" lines="5" clef.shape="F" clef.line="4"
+                                 label="Zweiter Bass"/>
                            </staffGrp>
                         </scoreDef>
                         <section>
@@ -486,52 +423,30 @@
                   <titleStmt>
                      <title>Die Studenten</title>
                      <respStmt>
-                        <persName role="lyricist"
-                                  authURI="http://d-nb.info/gnd/"
-                                  codedval="119034883"
-                                  authority="GND">Otto Roquette</persName>
+                        <persName role="lyricist" authURI="http://d-nb.info/gnd/"
+                           codedval="119034883" authority="GND">Otto Roquette</persName>
                         <resp>komponiert von</resp>
-                        <persName role="composer"
-                                  authURI="http://d-nb.info/gnd/119057077"
-                                  authority="GND"
-                                  codedval="119057077">Niels Wilhelm Gade</persName>
+                        <persName role="composer" authURI="http://d-nb.info/gnd/119057077"
+                           authority="GND" codedval="119057077">Niels Wilhelm Gade</persName>
                      </respStmt>
                   </titleStmt>
                   <key pname="e" accid="f" mode="major"/>
                   <meter count="4" unit="4" sym="common"/>
                   <incip>
                      <score>
-                        <scoreDef key.sig="3f"
-                                  meter.count="4"
-                                  meter.unit="4"
-                                  meter.sym="common"
-                                  system.leftline="true">
+                        <scoreDef key.sig="3f" meter.count="4" meter.unit="4" meter.sym="common"
+                           system.leftline="true">
                            <staffGrp>
-                              <staffDef n="1"
-                                        clef.shape="G"
-                                        clef.line="2"
-                                        lines="5"
-                                        label="Erster Tenor"/>
-                              <staffDef n="2"
-                                        clef.shape="G"
-                                        clef.line="2"
-                                        lines="5"
-                                        label="Zweiter Tenor"/>
-                              <staffDef n="3"
-                                        clef.shape="G"
-                                        clef.line="2"
-                                        lines="5"
-                                        label="Erster Bass"/>
-                              <staffDef n="4"
-                                        clef.shape="F"
-                                        clef.line="4"
-                                        lines="5"
-                                        label="Zweiter Bass"/>
-                              <staffDef n="5"
-                                        clef.shape="F"
-                                        clef.line="4"
-                                        lines="5"
-                                        label="Dritter Bass"/>
+                              <staffDef n="1" clef.shape="G" clef.line="2" lines="5"
+                                 label="Erster Tenor"/>
+                              <staffDef n="2" clef.shape="G" clef.line="2" lines="5"
+                                 label="Zweiter Tenor"/>
+                              <staffDef n="3" clef.shape="G" clef.line="2" lines="5"
+                                 label="Erster Bass"/>
+                              <staffDef n="4" clef.shape="F" clef.line="4" lines="5"
+                                 label="Zweiter Bass"/>
+                              <staffDef n="5" clef.shape="F" clef.line="4" lines="5"
+                                 label="Dritter Bass"/>
                            </staffGrp>
                         </scoreDef>
                         <section>
@@ -569,12 +484,8 @@
                            <measure n="1">
                               <staff n="1">
                                  <layer>
-                                    <note pname="b"
-                                          oct="4"
-                                          dur="4"
-                                          stem.dir="down"
-                                          dots="1"
-                                          artic="acc">
+                                    <note pname="b" oct="4" dur="4" stem.dir="down" dots="1"
+                                       artic="acc">
                                        <verse>
                                           <syl wordpos="i" con="d">Wan</syl>
                                        </verse>
@@ -608,12 +519,8 @@
                               </staff>
                               <staff n="2">
                                  <layer>
-                                    <note pname="g"
-                                          oct="4"
-                                          dur="4"
-                                          dots="1"
-                                          stem.dir="up"
-                                          artic="acc"/>
+                                    <note pname="g" oct="4" dur="4" dots="1" stem.dir="up"
+                                       artic="acc"/>
                                     <note pname="a" oct="4" dur="8" stem.dir="up"/>
                                     <note pname="g" oct="4" dur="8" stem.dir="up"/>
                                     <note pname="a" oct="4" dur="8" stem.dir="up"/>
@@ -651,7 +558,7 @@
                      </score>
                      <incipText>
                         <p>Ihr Wandervögel in der Luft, im Aetherglanz, im Sonnenduft, in blauen
-									Himmelswellen,</p>
+                           Himmelswellen,</p>
                      </incipText>
                   </incip>
                   <perfMedium>
@@ -665,15 +572,11 @@
                      <title>Gondelfahrt</title>
                      <respStmt>
                         <resp>von</resp>
-                        <persName role="lyricist"
-                                  authURI="http://d-nb.info/gnd/"
-                                  codedval="118654292"
-                                  authority="GND">Ludwig Bechstein</persName>
+                        <persName role="lyricist" authURI="http://d-nb.info/gnd/"
+                           codedval="118654292" authority="GND">Ludwig Bechstein</persName>
                         <resp>komponiert von:</resp>
-                        <persName role="composer"
-                                  authURI="http://d-nb.info/gnd/119057077"
-                                  authority="GND"
-                                  codedval="119057077">Niels Wilhelm Gade</persName>
+                        <persName role="composer" authURI="http://d-nb.info/gnd/119057077"
+                           authority="GND" codedval="119057077">Niels Wilhelm Gade</persName>
                      </respStmt>
                   </titleStmt>
                   <key pname="f" mode="major"/>
@@ -681,36 +584,18 @@
                   <meter unit="8" count="6"/>
                   <incip>
                      <score>
-                        <scoreDef meter.count="6"
-                                  meter.unit="8"
-                                  key.sig="1f"
-                                  system.leftline="true">
+                        <scoreDef meter.count="6" meter.unit="8" key.sig="1f" system.leftline="true">
                            <staffGrp barthru="false">
-                              <staffDef n="1"
-                                        lines="5"
-                                        clef.line="2"
-                                        clef.shape="G"
-                                        label="Erster Tenor"/>
-                              <staffDef n="2"
-                                        lines="5"
-                                        clef.line="2"
-                                        clef.shape="G"
-                                        label="Zweiter Tenor"/>
-                              <staffDef n="3"
-                                        lines="5"
-                                        clef.line="4"
-                                        clef.shape="F"
-                                        label="Erster Bass"/>
-                              <staffDef n="4"
-                                        lines="5"
-                                        clef.line="4"
-                                        clef.shape="F"
-                                        label="Zweiter Bass"/>
-                              <staffDef n="5"
-                                        lines="5"
-                                        clef.line="4"
-                                        clef.shape="F"
-                                        label="Dritter Bass"/>
+                              <staffDef n="1" lines="5" clef.line="2" clef.shape="G"
+                                 label="Erster Tenor"/>
+                              <staffDef n="2" lines="5" clef.line="2" clef.shape="G"
+                                 label="Zweiter Tenor"/>
+                              <staffDef n="3" lines="5" clef.line="4" clef.shape="F"
+                                 label="Erster Bass"/>
+                              <staffDef n="4" lines="5" clef.line="4" clef.shape="F"
+                                 label="Zweiter Bass"/>
+                              <staffDef n="5" lines="5" clef.line="4" clef.shape="F"
+                                 label="Dritter Bass"/>
                            </staffGrp>
                         </scoreDef>
                         <section>
@@ -774,15 +659,11 @@
                      <title>Das Reh</title>
                      <respStmt>
                         <resp>von</resp>
-                        <persName role="lyricist"
-                                  authURI="http://d-nb.info/gnd/"
-                                  codedval="118625063"
-                                  authority="GND">Ludwig Uhland</persName>
+                        <persName role="lyricist" authURI="http://d-nb.info/gnd/"
+                           codedval="118625063" authority="GND">Ludwig Uhland</persName>
                         <resp>komponiert von:</resp>
-                        <persName role="composer"
-                                  authURI="http://d-nb.info/gnd/119057077"
-                                  authority="GND"
-                                  codedval="119057077">Niels Wilhelm Gade</persName>
+                        <persName role="composer" authURI="http://d-nb.info/gnd/119057077"
+                           authority="GND" codedval="119057077">Niels Wilhelm Gade</persName>
                      </respStmt>
                   </titleStmt>
                   <key pname="e" accid="f" mode="major"/>
@@ -790,32 +671,17 @@
                   <meter count="4" unit="4" sym="common"/>
                   <incip>
                      <score>
-                        <scoreDef key.sig="3f"
-                                  meter.count="4"
-                                  meter.unit="4"
-                                  meter.sym="common"
-                                  system.leftline="true">
+                        <scoreDef key.sig="3f" meter.count="4" meter.unit="4" meter.sym="common"
+                           system.leftline="true">
                            <staffGrp barthru="false">
-                              <staffDef n="1"
-                                        lines="5"
-                                        clef.shape="G"
-                                        clef.line="2"
-                                        label="Erster Tenor"/>
-                              <staffDef n="2"
-                                        lines="5"
-                                        clef.shape="F"
-                                        clef.line="4"
-                                        label="Erster Bass"/>
-                              <staffDef n="3"
-                                        lines="5"
-                                        clef.shape="G"
-                                        clef.line="2"
-                                        label="Zweiter Tenor"/>
-                              <staffDef n="4"
-                                        lines="5"
-                                        clef.shape="F"
-                                        clef.line="4"
-                                        label="Zweiter Bass"/>
+                              <staffDef n="1" lines="5" clef.shape="G" clef.line="2"
+                                 label="Erster Tenor"/>
+                              <staffDef n="2" lines="5" clef.shape="F" clef.line="4"
+                                 label="Erster Bass"/>
+                              <staffDef n="3" lines="5" clef.shape="G" clef.line="2"
+                                 label="Zweiter Tenor"/>
+                              <staffDef n="4" lines="5" clef.shape="F" clef.line="4"
+                                 label="Zweiter Bass"/>
                            </staffGrp>
                         </scoreDef>
                         <section>
@@ -847,7 +713,8 @@
                         </section>
                      </score>
                      <incipText>
-                        <p>Es jagt´ein Jäger früh am Tag, früh am Tag ein Reh durch Wälder und Auen</p>
+                        <p>Es jagt´ein Jäger früh am Tag, früh am Tag ein Reh durch Wälder und
+                           Auen</p>
                      </incipText>
                   </incip>
                   <perfMedium>

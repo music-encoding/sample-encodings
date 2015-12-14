@@ -1,83 +1,73 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<mei xmlns:xlink="http://www.w3.org/1999/xlink"
-     xmlns="http://www.music-encoding.org/ns/mei"
-     meiversion="3.0.0">
+<mei xmlns:xlink="http://www.w3.org/1999/xlink" xmlns="http://www.music-encoding.org/ns/mei"
+   meiversion="3.0.0">
    <meiHead>
       <fileDesc>
          <titleStmt>
             <title>Das musikalische Opfer</title>
             <title type="subordinate">BWV 1079</title>
-            <title type="subordinate">2. Triosonate c-Moll für Flöte, Violine und Basso continuo (1. Satz)</title>
+            <title type="subordinate">2. Triosonate c-Moll für Flöte, Violine und Basso continuo (1.
+               Satz)</title>
             <title type="subordinate">an electronic transcription</title>
             <respStmt>
-               <persName role="creator"
-                         authURI="http://d-nb.info/gnd"
-                         codedval="11850553X"
-                         authority="GND">Johann Sebastian Bach</persName>
+               <persName role="creator" authURI="http://d-nb.info/gnd" codedval="11850553X"
+                  authority="GND">Johann Sebastian Bach</persName>
                <persName role="encoder">Maja Hartwig</persName>
             </respStmt>
          </titleStmt>
          <pubStmt>
             <respStmt>
-               <corpName n="2"
-                         xml:id="corpName2"
-                         codedval="5115204-6"
-                         authURI="http://d-nb.info/gnd"
-                         authority="GND">Musikwissenschaftliches Seminar
-        				<address>
+               <corpName n="2" xml:id="corpName2" codedval="5115204-6"
+                  authURI="http://d-nb.info/gnd" authority="GND">Musikwissenschaftliches Seminar <address>
                      <addrLine>Gartenstrasse 20</addrLine>
                      <addrLine>32756 <geogName codedval="7004442"
-                                  authURI="www.getty.edu/research/tools/vocabularies/tgn"
-                                  authority="TGN">Detmold</geogName>
+                           authURI="www.getty.edu/research/tools/vocabularies/tgn" authority="TGN"
+                           >Detmold</geogName>
                         <geogName codedval="7000084"
-                                  authURI="www.getty.edu/research/tools/vocabularies/tgn"
-                                  authority="TGN">Germany</geogName>
+                           authURI="www.getty.edu/research/tools/vocabularies/tgn" authority="TGN"
+                           >Germany</geogName>
                      </addrLine>
                   </address>
                </corpName>
             </respStmt>
             <availability>
-               <useRestrict> This encoding is in the public domain. However, the sources used
-        				to create it may be under copyright. We believe their use by the MEI project
-        				for educational and research purposes is covered by the Fair Use doctrine.
-        				However, we will remove any material from the project archive when requested
-        				to do so by the copyright owner. </useRestrict>
+               <useRestrict> This encoding is in the public domain. However, the sources used to
+                  create it may be under copyright. We believe their use by the MEI project for
+                  educational and research purposes is covered by the Fair Use doctrine. However, we
+                  will remove any material from the project archive when requested to do so by the
+                  copyright owner. </useRestrict>
             </availability>
          </pubStmt>
          <seriesStmt>
             <title>MEI Sample Collection</title>
             <respStmt>
                <corpName role="publisher">MEI Project</corpName>
-               <corpName role="funder"
-                         codedval="2007744-0"
-                         authURI="http://d-nb.info/gnd"
-                         authority="GND">German Research Foundation<address>
+               <corpName role="funder" codedval="2007744-0" authURI="http://d-nb.info/gnd"
+                  authority="GND">German Research Foundation<address>
                      <addrLine>Kennedyallee 40</addrLine>
                      <addrLine>
                         <geogName codedval="7005090"
-                                  authURI="www.getty.edu/research/tools/vocabularies/tgn"
-                                  authority="TGN">Bonn</geogName>
+                           authURI="www.getty.edu/research/tools/vocabularies/tgn" authority="TGN"
+                           >Bonn</geogName>
                      </addrLine>
                      <addrLine>
                         <geogName codedval="7000084"
-                                  authURI="www.getty.edu/research/tools/vocabularies/tgn"
-                                  authority="TGN">Germany</geogName>
+                           authURI="www.getty.edu/research/tools/vocabularies/tgn" authority="TGN"
+                           >Germany</geogName>
                      </addrLine>
                   </address>
                </corpName>
-               <corpName role="funder"
-                         codedval="18183-3"
-                         authURI="http://d-nb.info/gnd/18183-3"
-                         authority="Deutsche Nationalbibliothek">National Endowment for the Humanities<address>
+               <corpName role="funder" codedval="18183-3" authURI="http://d-nb.info/gnd/18183-3"
+                  authority="Deutsche Nationalbibliothek">National Endowment for the Humanities<address>
                      <addrLine>1100 Pennsylvania Avenue N.W.</addrLine>
                      <addrLine>
                         <geogName codedval="7013962"
-                                  authURI="www.getty.edu/research/tools/vocabularies/tgn"
-                                  authority="TGN">Washington, DC</geogName> 20004</addrLine>
+                           authURI="www.getty.edu/research/tools/vocabularies/tgn" authority="TGN"
+                           >Washington, DC</geogName> 20004</addrLine>
                      <addrLine>
                         <geogName codedval="7012149"
-                                  authURI="www.getty.edu/research/tools/vocabularies/tgn"
-                                  authority="TGN">United States</geogName>
+                           authURI="www.getty.edu/research/tools/vocabularies/tgn" authority="TGN"
+                           >United States</geogName>
                      </addrLine>
                   </address>
                </corpName>
@@ -88,24 +78,23 @@
          </seriesStmt>
          <sourceDesc>
             <source>
-               <identifier type="URI">http://imslp.org/wiki/Musikalisches_Opfer,_BWV_1079_%28Bach,_Johann_Sebastian%29</identifier>
+               <identifier type="URI"
+                  >http://imslp.org/wiki/Musikalisches_Opfer,_BWV_1079_%28Bach,_Johann_Sebastian%29</identifier>
                <titleStmt>
                   <title>Das Musikalische Opfer</title>
                   <title type="subordinate">1. Satz, Trio</title>
                   <title type="work">BWV 1079</title>
-                  <title type="uniform">Musikalisches Opfer &lt;2. Triosonate c-Moll für Flöte, Violine und Basso continuo&gt;</title>
+                  <title type="uniform">Musikalisches Opfer &lt;2. Triosonate c-Moll für Flöte,
+                     Violine und Basso continuo&gt;</title>
                   <respStmt>
-                     <persName role="composer"
-                               authURI="http://d-nb.info/gnd"
-                               codedval="11850553X"
-                               authority="GND">Johann Sebastian Bach</persName>
+                     <persName role="composer" authURI="http://d-nb.info/gnd" codedval="11850553X"
+                        authority="GND">Johann Sebastian Bach</persName>
                   </respStmt>
                </titleStmt>
                <pubStmt>
                   <respStmt>
                      <persName role="editor">Alfred Dörffel (1821–1905)</persName>
-                     <corpName role="publisher">Breitkopf &amp; Härtel
-                                    <geogName>Leipzig</geogName>
+                     <corpName role="publisher">Breitkopf &amp; Härtel <geogName>Leipzig</geogName>
                      </corpName>
                   </respStmt>
                   <date>1885</date>
@@ -131,10 +120,8 @@
             <titleStmt>
                <title>Trio</title>
                <respStmt>
-                  <persName role="composer"
-                            authURI="http://d-nb.info/gnd"
-                            codedval="11850553X"
-                            authority="GND">Johann Sebastian Bach</persName>
+                  <persName role="composer" authURI="http://d-nb.info/gnd" codedval="11850553X"
+                     authority="GND">Johann Sebastian Bach</persName>
                </respStmt>
             </titleStmt>
             <key pname="c" mode="minor"/>
@@ -143,11 +130,8 @@
             <incip>
                <incipCode form="parson">*uddurdduddduduu</incipCode>
                <score>
-                  <scoreDef meter.count="3"
-                            meter.unit="4"
-                            key.sig="3f"
-                            key.mode="minor"
-                            key.pname="c">
+                  <scoreDef meter.count="3" meter.unit="4" key.sig="3f" key.mode="minor"
+                     key.pname="c">
                      <staffGrp symbol="bracket">
                         <staffDef lines="5" n="1" clef.shape="G" clef.line="2">
                            <label>Flauto traverso.</label>
@@ -173,12 +157,7 @@
                                  <note pname="g" oct="4" dur="8" dots="1"/>
                                  <note pname="e" oct="5" dur="16"/>
                               </beam>
-                              <note pname="c"
-                                    oct="5"
-                                    dur="8"
-                                    grace="unknown"
-                                    slur="i1"
-                                    size="cue"/>
+                              <note pname="c" oct="5" dur="8" grace="unknown" slur="i1" size="cue"/>
                               <note pname="b" oct="4" dur="4" dots="1" accid="n" slur="t1"/>
                               <note pname="c" oct="5" dur="8"/>
                            </layer>
@@ -196,15 +175,19 @@
                            </layer>
                         </staff>
                         <trill staff="2" tstamp="2" place="above"/>
-                        <harm staff="3" tstamp="2" place="below">6U+266E</harm>
+                        <harm staff="3" tstamp="2" place="below">
+                           <fb>
+                              <f>6<symbol glyphnum="U+266E"/></f>
+                           </fb>
+                        </harm>
                         <dir staff="1" place="above" tstamp="0.5">Largo.</dir>
                      </measure>
                   </section>
                </score>
             </incip>
-           <creation>
-             <date isodate="1747">1747</date>
-           </creation>
+            <creation>
+               <date isodate="1747">1747</date>
+            </creation>
             <perfMedium>
                <perfResList>
                   <perfRes codedval="wu">Flauto traverso</perfRes>
@@ -223,12 +206,10 @@
                      <title>Instrumentalmusik</title>
                   </term>
                </termList>
-               <classCode xml:id="OCLC_DDC"
-                          authority="OCLC"
-                          authURI="http://www.oclc.org/dewey/resources/summaries/default.htm#700"/>
-               <classCode xml:id="OSWD"
-                          authURI="BSZ"
-                          authority="http://www.bsz-bw.de/cgi-bin/oswd-suche.pl"/>
+               <classCode xml:id="OCLC_DDC" authority="OCLC"
+                  authURI="http://www.oclc.org/dewey/resources/summaries/default.htm#700"/>
+               <classCode xml:id="OSWD" authURI="BSZ"
+                  authority="http://www.bsz-bw.de/cgi-bin/oswd-suche.pl"/>
             </classification>
          </work>
       </workDesc>
@@ -238,7 +219,8 @@
                <persName>Maja Hartwig</persName>
             </respStmt>
             <changeDesc>
-               <p>Transformation to the new schema with <ref target="transformation.xsl" targettype="xsl_stylesheet">transformation.xsl</ref>
+               <p>Transformation to the new schema with <ref target="transformation.xsl"
+                     targettype="xsl_stylesheet">transformation.xsl</ref>
                </p>
             </changeDesc>
             <date isodate="2012-07-18"/>
@@ -262,8 +244,7 @@
          <change n="4">
             <respStmt/>
             <changeDesc>
-               <p>Converted to version 3.0.0 using mei2013To2015.xsl, version
-                  1.0 beta</p>
+               <p>Converted to version 3.0.0 using mei2013To2015.xsl, version 1.0 beta</p>
             </changeDesc>
             <date isodate="2015-10-15"/>
          </change>
@@ -273,11 +254,7 @@
       <body>
          <mdiv>
             <score>
-               <scoreDef meter.count="3"
-                         meter.unit="4"
-                         key.sig="3f"
-                         key.mode="minor"
-                         key.pname="c">
+               <scoreDef meter.count="3" meter.unit="4" key.sig="3f" key.mode="minor" key.pname="c">
                   <staffGrp symbol="bracket">
                      <staffDef n="1" clef.shape="G" clef.line="2">
                         <label>Flauto traverso.</label>
@@ -303,12 +280,7 @@
                               <note pname="g" oct="4" dur="8" dots="1"/>
                               <note pname="e" oct="5" dur="16"/>
                            </beam>
-                           <note pname="c"
-                                 oct="5"
-                                 dur="8"
-                                 grace="unknown"
-                                 slur="i1"
-                                 size="cue"/>
+                           <note pname="c" oct="5" dur="8" grace="unknown" slur="i1" size="cue"/>
                            <note pname="b" oct="4" dur="4" dots="1" accid="n" slur="t1"/>
                            <note pname="c" oct="5" dur="8"/>
                         </layer>
@@ -326,7 +298,11 @@
                         </layer>
                      </staff>
                      <trill staff="2" tstamp="2" place="above"/>
-                     <harm staff="3" tstamp="2" place="below">6U+266E</harm>
+                     <harm staff="3" tstamp="2" place="below">
+                        <fb>
+                           <f>6<symbol glyphnum="U+266E"/></f>
+                        </fb>
+                     </harm>
                      <dir staff="1" place="above" tstamp="0.5">Largo.</dir>
                   </measure>
                   <measure n="2" xml:id="m2">
@@ -339,12 +315,8 @@
                         <layer>
                            <note pname="c" oct="5" dur="4" dots="1"/>
                            <beam>
-                              <note pname="b"
-                                    oct="4"
-                                    dur="16"
-                                    accid="f"
-                                    xml:id="m2_s2_e2"
-                                    stem.dir="up"/>
+                              <note pname="b" oct="4" dur="16" accid="f" xml:id="m2_s2_e2"
+                                 stem.dir="up"/>
                               <note pname="a" oct="4" dur="16"/>
                            </beam>
                            <note pname="c" oct="5" dur="16" grace="unknown" stem.dir="up"/>
@@ -365,16 +337,18 @@
                            <note pname="e" oct="3" dur="8" xml:id="m2_s3_e6"/>
                         </layer>
                      </staff>
-                     <slur staff="2"
-                           startid="#m2_s2_e2"
-                           endid="#m2_s2_e7"
-                           curvedir="below"/>
-                     <slur staff="3"
-                           startid="#m2_s3_e1"
-                           endid="#m2_s3_e6"
-                           curvedir="above"/>
-                     <harm staff="3" place="below" tstamp="1" extender="true">6</harm>
-                     <harm staff="3" place="below" tstamp="3">5U+266D</harm>
+                     <slur staff="2" startid="#m2_s2_e2" endid="#m2_s2_e7" curvedir="below"/>
+                     <slur staff="3" startid="#m2_s3_e1" endid="#m2_s3_e6" curvedir="above"/>
+                     <harm staff="3" place="below" tstamp="1" extender="true">
+                        <fb>
+                           <f>6</f>
+                        </fb>
+                     </harm>
+                     <harm staff="3" place="below" tstamp="3">
+                        <fb>
+                           <f>5<symbol glyphnum="U+266D"/></f>
+                        </fb>
+                     </harm>
                   </measure>
                   <measure n="3" xml:id="m3">
                      <staff n="1">
@@ -383,13 +357,8 @@
                               <note pname="c" oct="5" dur="8" dots="1"/>
                               <note pname="a" oct="5" dur="16"/>
                            </beam>
-                           <note pname="f"
-                                 oct="5"
-                                 dur="8"
-                                 grace="unknown"
-                                 slur="i1"
-                                 size="cue"
-                                 stem.dir="up"/>
+                           <note pname="f" oct="5" dur="8" grace="unknown" slur="i1" size="cue"
+                              stem.dir="up"/>
                            <note pname="e" oct="5" dur="4" dots="1" accid="n" slur="t1"/>
                            <note pname="f" oct="5" dur="8" stem.dir="down"/>
                         </layer>
@@ -428,12 +397,13 @@
                            </beam>
                         </layer>
                      </staff>
-                     <slur staff="3"
-                           startid="#m3_s3_e1"
-                           endid="#m3_s3_e6"
-                           curvedir="above"/>
+                     <slur staff="3" startid="#m3_s3_e1" endid="#m3_s3_e6" curvedir="above"/>
                      <trill staff="1" tstamp="2" place="above"/>
-                     <harm staff="3" tstamp="2" place="below">6U+266E</harm>
+                     <harm staff="3" tstamp="2" place="below">
+                        <fb>
+                           <f>6<symbol glyphnum="U+266E"/></f>
+                        </fb>
+                     </harm>
                   </measure>
                   <measure n="4" xml:id="m4">
                      <staff n="1">
@@ -443,12 +413,7 @@
                               <note pname="e" oct="5" dur="16" accid="f" xml:id="m4_s1_e2"/>
                               <note pname="d" oct="5" dur="16"/>
                            </beam>
-                           <note pname="g"
-                                 oct="5"
-                                 dur="8"
-                                 grace="unknown"
-                                 size="cue"
-                                 stem.dir="up"/>
+                           <note pname="g" oct="5" dur="8" grace="unknown" size="cue" stem.dir="up"/>
                            <beam>
                               <note pname="f" oct="5" dur="8"/>
                               <note pname="e" dur="16" oct="5"/>
@@ -481,25 +446,24 @@
                            </beam>
                         </layer>
                      </staff>
-                     <slur staff="1"
-                           startid="#m4_s1_e2"
-                           endid="#m4_s1_e7"
-                           curvedir="above"/>
-                     <harm staff="3" place="below" tstamp="1">6</harm>
+                     <slur staff="1" startid="#m4_s1_e2" endid="#m4_s1_e7" curvedir="above"/>
+                     <harm staff="3" place="below" tstamp="1">
+                        <fb>
+                           <f>6</f>
+                        </fb>
+                     </harm>
                      <harm staff="3" place="below" tstamp="2">
-                        <stack>6<lb/>5U+266D</stack>
+                        <fb>
+                           <f>6</f>
+                           <f>5<symbol glyphnum="U+266D"/></f>
+                        </fb>
                      </harm>
                   </measure>
                   <measure n="5" xml:id="m5">
                      <staff n="1">
                         <layer>
-                           <note pname="c"
-                                 oct="5"
-                                 dur="16"
-                                 grace="unknown"
-                                 slur="i1"
-                                 stem.dir="up"
-                                 size="cue"/>
+                           <note pname="c" oct="5" dur="16" grace="unknown" slur="i1" stem.dir="up"
+                              size="cue"/>
                            <beam>
                               <note pname="b" oct="4" dur="16" slur="t1" xml:id="m5_s1_e2"/>
                               <note pname="a" oct="4" dur="16" accid="n"/>
@@ -516,21 +480,9 @@
                               <note pname="d" oct="5" dur="16"/>
                            </beam>
                            <beam>
-                              <note pname="e"
-                                    oct="5"
-                                    dur="32"
-                                    grace="unknown"
-                                    xml:id="m5_s2_e3"/>
-                              <note pname="f"
-                                    oct="5"
-                                    dur="32"
-                                    grace="unknown"
-                                    xml:id="m5_s2_e4"/>
-                              <note pname="g"
-                                    oct="5"
-                                    dur="32"
-                                    grace="unknown"
-                                    xml:id="m5_s2_e5"/>
+                              <note pname="e" oct="5" dur="32" grace="unknown" xml:id="m5_s2_e3"/>
+                              <note pname="f" oct="5" dur="32" grace="unknown" xml:id="m5_s2_e4"/>
+                              <note pname="g" oct="5" dur="32" grace="unknown" xml:id="m5_s2_e5"/>
                            </beam>
                            <note pname="f" oct="5" dur="4" dots="1"/>
                            <note pname="e" oct="5" dur="8"/>
@@ -548,18 +500,19 @@
                            </beam>
                         </layer>
                      </staff>
-                     <slur staff="2"
-                           startid="#m5_s2_e3"
-                           endid="#m5_s2_e5"
-                           curvedir="below"/>
-                     <slur staff="3"
-                           startid="#m5_s3_e1"
-                           endid="#m5_s3_e6"
-                           curvedir="below"/>
+                     <slur staff="2" startid="#m5_s2_e3" endid="#m5_s2_e5" curvedir="below"/>
+                     <slur staff="3" startid="#m5_s3_e1" endid="#m5_s3_e6" curvedir="below"/>
                      <trill staff="2" place="below" tstamp="2"/>
-                     <harm staff="3" place="below" tstamp="2">6</harm>
+                     <harm staff="3" place="below" tstamp="2">
+                        <fb>
+                           <f>6</f>
+                        </fb>
+                     </harm>
                      <harm staff="3" place="below" tstamp="3">
-                        <stack>6<lb/>5</stack>
+                        <fb>
+                           <f>6</f>
+                           <f>5</f>
+                        </fb>
                      </harm>
                   </measure>
                   <measure n="6" xml:id="m6">
@@ -570,12 +523,7 @@
                               <note pname="g" oct="4" dur="16"/>
                            </beam>
                            <beam>
-                              <note pname="a"
-                                    oct="4"
-                                    dur="32"
-                                    accid="n"
-                                    grace="unknown"
-                                    slur="i1"/>
+                              <note pname="a" oct="4" dur="32" accid="n" grace="unknown" slur="i1"/>
                               <note pname="b" oct="4" dur="32" grace="unknown" slur="m1"/>
                               <note pname="c" oct="5" dur="32" grace="unknown" slur="m1"/>
                            </beam>
@@ -612,15 +560,18 @@
                            </beam>
                         </layer>
                      </staff>
-                     <slur staff="3"
-                           startid="#m6_s3_e1"
-                           endid="#m6_s3_e6"
-                           curvedir="below"/>
+                     <slur staff="3" startid="#m6_s3_e1" endid="#m6_s3_e6" curvedir="below"/>
                      <harm staff="3" place="below" tstamp="2">
-                        <stack>6<lb/>4</stack>
+                        <fb>
+                           <f>6</f>
+                           <f>4</f>
+                        </fb>
                      </harm>
                      <harm staff="3" place="below" tstamp="3">
-                        <stack>6<lb/>5</stack>
+                        <fb>
+                           <f>6</f>
+                           <f>5</f>
+                        </fb>
                      </harm>
                   </measure>
                   <measure n="7" xml:id="m7">
@@ -670,13 +621,22 @@
                         </layer>
                      </staff>
                      <harm staff="3" place="below" tstamp="1">
-                        <stack>7<lb/>5</stack>
+                        <fb>
+                           <f>7</f>
+                           <f>5</f>
+                        </fb>
                      </harm>
                      <harm staff="3" place="below" tstamp="2">
-                        <stack>5<lb/>3</stack>
+                        <fb>
+                           <f>5</f>
+                           <f>3</f>
+                        </fb>
                      </harm>
                      <harm staff="3" place="below" tstamp="3" extender="true">
-                        <stack>4<lb/>3</stack>
+                        <fb>
+                           <f>4</f>
+                           <f>3</f>
+                        </fb>
                      </harm>
                   </measure>
                   <measure n="8" xml:id="m8">
@@ -720,12 +680,24 @@
                      </staff>
                      <trill staff="1" place="above" tstamp="3"/>
                      <trill staff="2" place="above" tstamp="3"/>
-                     <harm staff="3" place="below" tstamp="1">6</harm>
+                     <harm staff="3" place="below" tstamp="1">
+                        <fb>
+                           <f>6</f>
+                        </fb>
+                     </harm>
                      <harm staff="3" place="below" tstamp="2">
-                        <stack>6<lb/>4</stack>
+                        <fb>
+                           <f>6</f>
+                           <f>4</f>
+                        </fb>
                      </harm>
                      <harm staff="3" place="below" tstamp="3">
-                        <stack>5U+266E<lb/>U+266F</stack>
+                        <fb>
+                           <f>5<symbol glyphnum="U+266E"/></f>
+                           <f>
+                              <symbol glyphnum="U+266F"/>
+                           </f>
+                        </fb>
                      </harm>
                   </measure>
                   <measure n="9" xml:id="m9">
@@ -769,7 +741,11 @@
                            </beam>
                         </layer>
                      </staff>
-                     <harm staff="3" place="below" tstamp="2" extender="true">6</harm>
+                     <harm staff="3" place="below" tstamp="2" extender="true">
+                        <fb>
+                           <f>6</f>
+                        </fb>
+                     </harm>
                   </measure>
                   <measure n="10" xml:id="m10">
                      <staff n="1">
@@ -822,15 +798,23 @@
                            </beam>
                         </layer>
                      </staff>
-                     <harm staff="3" place="below" tstamp="1">7</harm>
-                     <harm staff="3" place="below" tstamp="1.5">6</harm>
-                     <harm staff="3" place="below" tstamp="2">
-                        <stack>6<lb/>5U+266D</stack>
+                     <harm staff="3" place="below" tstamp="1">
+                        <fb>
+                           <f>7</f>
+                        </fb>
                      </harm>
-                     <slur staff="2"
-                           startid="#m10_s2_e5"
-                           endid="#m10_s2_e8"
-                           curvedir="above"/>
+                     <harm staff="3" place="below" tstamp="1.5">
+                        <fb>
+                           <f>6</f>
+                        </fb>
+                     </harm>
+                     <harm staff="3" place="below" tstamp="2">
+                        <fb>
+                           <f>6</f>
+                           <f>5<symbol glyphnum="U+266D"/></f>
+                        </fb>
+                     </harm>
+                     <slur staff="2" startid="#m10_s2_e5" endid="#m10_s2_e8" curvedir="above"/>
                   </measure>
                   <measure n="11" xml:id="m11">
                      <staff n="1">
@@ -878,11 +862,12 @@
                            </beam>
                         </layer>
                      </staff>
-                     <slur staff="2"
-                           startid="#m11_s2_e2"
-                           endid="#m11_s2_e4"
-                           curvedir="below"/>
-                     <harm staff="3" place="below" tstamp="2" extender="true">6</harm>
+                     <slur staff="2" startid="#m11_s2_e2" endid="#m11_s2_e4" curvedir="below"/>
+                     <harm staff="3" place="below" tstamp="2" extender="true">
+                        <fb>
+                           <f>6</f>
+                        </fb>
+                     </harm>
                   </measure>
                   <measure n="12" xml:id="m12">
                      <staff n="1">
@@ -936,14 +921,26 @@
                         </layer>
                      </staff>
                      <slur staff="1" startid="#m12_s1_e5" endid="#m12_s1_e8"/>
-                     <harm staff="3" place="below" tstamp="1">7</harm>
-                     <harm staff="3" place="below" tstamp="1.5">6</harm>
+                     <harm staff="3" place="below" tstamp="1">
+                        <fb>
+                           <f>7</f>
+                        </fb>
+                     </harm>
+                     <harm staff="3" place="below" tstamp="1.5">
+                        <fb>
+                           <f>6</f>
+                        </fb>
+                     </harm>
                      <harm staff="3" place="below" tstamp="2">
-                        <stack>6U+266E<lb/>5U+266D</stack>
+                        <fb>
+                           <f>6<symbol glyphnum="U+266E"/></f>
+                           <f>5<symbol glyphnum="U+266D"/></f>
+                        </fb>
                      </harm>
                      <harm staff="3" place="below" tstamp="3">
-                        <stack>7<lb/>
-                        </stack>
+                        <fb>
+                           <f>7</f>
+                        </fb>
                      </harm>
                   </measure>
                   <measure n="13" xml:id="m13">
@@ -978,7 +975,11 @@
                         </layer>
                      </staff>
                      <slur staff="3" startid="#m13_s3_e1" endid="#m13_s3_e6"/>
-                     <harm staff="3" place="below" tstamp="2">6U+266E</harm>
+                     <harm staff="3" place="below" tstamp="2">
+                        <fb>
+                           <f>6<symbol glyphnum="U+266E"/></f>
+                        </fb>
+                     </harm>
                      <trill staff="1" place="above" tstamp="2"/>
                   </measure>
                   <measure n="14" xml:id="m14">
@@ -1014,17 +1015,18 @@
                            </beam>
                         </layer>
                      </staff>
-                     <slur staff="1"
-                           startid="#m14_s1_e2"
-                           endid="#m14_s1_e7"
-                           curvedir="above"/>
-                     <slur staff="3"
-                           startid="#m14_s3_e2"
-                           endid="#m14_s3_e6"
-                           curvedir="above"/>
-                     <harm staff="3" place="below" tstamp="1">6</harm>
+                     <slur staff="1" startid="#m14_s1_e2" endid="#m14_s1_e7" curvedir="above"/>
+                     <slur staff="3" startid="#m14_s3_e2" endid="#m14_s3_e6" curvedir="above"/>
+                     <harm staff="3" place="below" tstamp="1">
+                        <fb>
+                           <f>6</f>
+                        </fb>
+                     </harm>
                      <harm staff="3" place="below" tstamp="2">
-                        <stack>6<lb/>5U+266D</stack>
+                        <fb>
+                           <f>6</f>
+                           <f>5<symbol glyphnum="U+266D"/></f>
+                        </fb>
                      </harm>
                   </measure>
                   <measure n="15" xml:id="m15">
@@ -1056,12 +1058,7 @@
                               <note pname="g" oct="4" dur="8" dots="1"/>
                               <note pname="e" oct="5" dur="16"/>
                            </beam>
-                           <note pname="c"
-                                 oct="5"
-                                 dur="8"
-                                 slur="i1"
-                                 grace="unknown"
-                                 stem.dir="up"/>
+                           <note pname="c" oct="5" dur="8" slur="i1" grace="unknown" stem.dir="up"/>
                            <note pname="b" oct="4" dots="1" dur="4"/>
                            <note pname="c" oct="5" dur="8"/>
                         </layer>
@@ -1078,11 +1075,12 @@
                            </beam>
                         </layer>
                      </staff>
-                     <slur staff="3"
-                           startid="#m15_s3_e3"
-                           endid="#m15_s3_e6"
-                           curvedir="below"/>
-                     <harm staff="3" place="below" tstamp="2">6♮</harm>
+                     <slur staff="3" startid="#m15_s3_e3" endid="#m15_s3_e6" curvedir="below"/>
+                     <harm staff="3" place="below" tstamp="2">
+                        <fb>
+                           <f>6♮</f>
+                        </fb>
+                     </harm>
                      <trill staff="2" place="above" tstamp="2" tstamp2="1.5"/>
                   </measure>
                   <measure n="16" xml:id="m16">
@@ -1094,12 +1092,7 @@
                               <note pname="g" oct="5" dur="16" slur="m1"/>
                               <note pname="c" oct="6" dur="16" slur="t1"/>
                            </beam>
-                           <note pname="f"
-                                 accid="n"
-                                 oct="5"
-                                 dur="8"
-                                 grace="unknown"
-                                 stem.dir="up"/>
+                           <note pname="f" accid="n" oct="5" dur="8" grace="unknown" stem.dir="up"/>
                            <note pname="e" oct="5" dur="2"/>
                         </layer>
                      </staff>
@@ -1130,17 +1123,18 @@
                            </beam>
                         </layer>
                      </staff>
-                     <slur staff="2"
-                           startid="#m16_s2_e2"
-                           endid="#m16_s2_e7"
-                           curvedir="below"/>
-                     <slur staff="3"
-                           startid="#m16_s3_e3"
-                           endid="#m16_s3_e6"
-                           curvedir="below"/>
-                     <harm staff="3" place="below" tstamp="1">6</harm>
+                     <slur staff="2" startid="#m16_s2_e2" endid="#m16_s2_e7" curvedir="below"/>
+                     <slur staff="3" startid="#m16_s3_e3" endid="#m16_s3_e6" curvedir="below"/>
+                     <harm staff="3" place="below" tstamp="1">
+                        <fb>
+                           <f>6</f>
+                        </fb>
+                     </harm>
                      <harm staff="3" place="below" tstamp="2">
-                        <stack>7<lb/>5</stack>
+                        <fb>
+                           <f>7</f>
+                           <f>5</f>
+                        </fb>
                      </harm>
                      <trill staff="1" place="above" tstamp="2" tstamp2="2"/>
                   </measure>
@@ -1186,12 +1180,22 @@
                            </beam>
                         </layer>
                      </staff>
-                     <harm staff="3" place="below" tstamp="1">♮</harm>
+                     <harm staff="3" place="below" tstamp="1">
+                        <fb>
+                           <f>♮</f>
+                        </fb>
+                     </harm>
                      <harm staff="3" place="below" tstamp="2">
-                        <stack>6<lb/>♮</stack>
+                        <fb>
+                           <f>6</f>
+                           <f>♮</f>
+                        </fb>
                      </harm>
                      <harm staff="3" place="below" tstamp="3">
-                        <stack>7<lb/>♮</stack>
+                        <fb>
+                           <f>7</f>
+                           <f>♮</f>
+                        </fb>
                      </harm>
                   </measure>
                   <measure n="18" xml:id="m18">
@@ -1201,12 +1205,7 @@
                               <note pname="e" oct="5" dur="8" dots="1"/>
                               <note pname="b" oct="5" dur="16" accid="f"/>
                            </beam>
-                           <note pname="f"
-                                 oct="5"
-                                 dur="8"
-                                 grace="unknown"
-                                 stem.dir="up"
-                                 slur="i1"/>
+                           <note pname="f" oct="5" dur="8" grace="unknown" stem.dir="up" slur="i1"/>
                            <note pname="e" oct="5" dur="4" dots="1" slur="t1" accid="n"/>
                            <note pname="g" oct="5" dur="8" tie="i"/>
                         </layer>
@@ -1245,9 +1244,16 @@
                            </beam>
                         </layer>
                      </staff>
-                     <harm staff="3" place="below" tstamp="2">6♮</harm>
                      <harm staff="3" place="below" tstamp="2">
-                        <stack>7<lb/>♮</stack>
+                        <fb>
+                           <f>6♮</f>
+                        </fb>
+                     </harm>
+                     <harm staff="3" place="below" tstamp="2">
+                        <fb>
+                           <f>7</f>
+                           <f>♮</f>
+                        </fb>
                      </harm>
                   </measure>
                   <measure n="19" xml:id="m19">
@@ -1279,12 +1285,7 @@
                               <note pname="a" oct="4" dur="8" dots="1"/>
                               <note pname="e" oct="5" dur="16"/>
                            </beam>
-                           <note pname="b"
-                                 oct="4"
-                                 dur="8"
-                                 grace="unknown"
-                                 stem.dir="up"
-                                 slur="i1"/>
+                           <note pname="b" oct="4" dur="8" grace="unknown" stem.dir="up" slur="i1"/>
                            <note pname="a" oct="4" dur="4" accid="n" slur="t1"/>
                            <rest dur="8"/>
                            <note pname="c" oct="5" dur="8" tie="i"/>
@@ -1302,11 +1303,26 @@
                            </beam>
                         </layer>
                      </staff>
-                     <harm staff="3" place="below" tstamp="1">9</harm>
-                     <harm staff="3" place="below" tstamp="1.5">8</harm>
-                     <harm staff="3" place="below" tstamp="2">6♮</harm>
+                     <harm staff="3" place="below" tstamp="1">
+                        <fb>
+                           <f>9</f>
+                        </fb>
+                     </harm>
+                     <harm staff="3" place="below" tstamp="1.5">
+                        <fb>
+                           <f>8</f>
+                        </fb>
+                     </harm>
+                     <harm staff="3" place="below" tstamp="2">
+                        <fb>
+                           <f>6♮</f>
+                        </fb>
+                     </harm>
                      <harm staff="3" place="below" tstamp="3">
-                        <stack>7♭<lb/>♮</stack>
+                        <fb>
+                           <f>7♭</f>
+                           <f>♮</f>
+                        </fb>
                      </harm>
                   </measure>
                   <measure n="20" xml:id="m20">
@@ -1316,12 +1332,7 @@
                               <note pname="d" oct="5" dur="8" dots="1"/>
                               <note pname="a" oct="5" dur="16" accid="f"/>
                            </beam>
-                           <note pname="f"
-                                 oct="5"
-                                 dur="8"
-                                 grace="unknown"
-                                 stem.dir="up"
-                                 slur="i1"/>
+                           <note pname="f" oct="5" dur="8" grace="unknown" stem.dir="up" slur="i1"/>
                            <note pname="d" oct="5" dur="2" slur="t1" tie="i"/>
                         </layer>
                      </staff>
@@ -1359,10 +1370,26 @@
                            </beam>
                         </layer>
                      </staff>
-                     <harm staff="3" place="below" tstamp="1">9</harm>
-                     <harm staff="3" place="below" tstamp="1.5">8</harm>
-                     <harm staff="3" place="below" tstamp="2">6</harm>
-                     <harm staff="3" place="below" tstamp="4">7</harm>
+                     <harm staff="3" place="below" tstamp="1">
+                        <fb>
+                           <f>9</f>
+                        </fb>
+                     </harm>
+                     <harm staff="3" place="below" tstamp="1.5">
+                        <fb>
+                           <f>8</f>
+                        </fb>
+                     </harm>
+                     <harm staff="3" place="below" tstamp="2">
+                        <fb>
+                           <f>6</f>
+                        </fb>
+                     </harm>
+                     <harm staff="3" place="below" tstamp="4">
+                        <fb>
+                           <f>7</f>
+                        </fb>
+                     </harm>
                   </measure>
                   <measure n="21" xml:id="m21">
                      <staff n="1">
@@ -1371,12 +1398,7 @@
                               <note pname="d" oct="5" dur="8" dots="1" tie="t"/>
                               <note pname="f" oct="5" dur="16"/>
                            </beam>
-                           <note pname="c"
-                                 oct="5"
-                                 dur="8"
-                                 grace="unknown"
-                                 stem.dir="up"
-                                 slur="i1"/>
+                           <note pname="c" oct="5" dur="8" grace="unknown" stem.dir="up" slur="i1"/>
                            <note pname="b" oct="5" dur="4" dots="1" accid="n" slur="t1"/>
                            <note pname="a" oct="5" dur="8"/>
                         </layer>
@@ -1387,12 +1409,7 @@
                               <note pname="g" oct="4" dur="8" dots="1"/>
                               <note pname="a" oct="4" dur="16"/>
                            </beam>
-                           <note pname="e"
-                                 oct="4"
-                                 dur="8"
-                                 grace="unknown"
-                                 stem.dir="up"
-                                 slur="i1"/>
+                           <note pname="e" oct="4" dur="8" grace="unknown" stem.dir="up" slur="i1"/>
                            <note pname="d" oct="4" dur="4" dots="1" slur="t1"/>
                            <note pname="b" oct="4" dur="8" accid="n"/>
                         </layer>
@@ -1429,12 +1446,7 @@
                            </beam>
                            <note pname="c" oct="5" dur="4" slur="i1"/>
                            <beam>
-                              <note pname="b"
-                                    oct="4"
-                                    dur="8"
-                                    dots="1"
-                                    accid="n"
-                                    xml:id="m22_s1_e4"/>
+                              <note pname="b" oct="4" dur="8" dots="1" accid="n" xml:id="m22_s1_e4"/>
                               <note pname="c" oct="5" dur="16"/>
                            </beam>
                         </layer>
@@ -1447,12 +1459,7 @@
                            </beam>
                            <note pname="e" oct="4" dur="4" slur="i1"/>
                            <beam>
-                              <note pname="d"
-                                    oct="4"
-                                    dur="8"
-                                    dots="1"
-                                    accid="n"
-                                    xml:id="m22_s2_e4"/>
+                              <note pname="d" oct="4" dur="8" dots="1" accid="n" xml:id="m22_s2_e4"/>
                               <note pname="c" oct="4" dur="16"/>
                            </beam>
                         </layer>
@@ -1471,10 +1478,7 @@
                      </staff>
                      <trill staff="1" startid="#m22_s1_e4"/>
                      <trill staff="2" startid="#m22_s2_e4"/>
-                     <slur staff="3"
-                           startid="#m22_s3_e1"
-                           endid="#m22_s3_e6"
-                           curvedir="below"/>
+                     <slur staff="3" startid="#m22_s3_e1" endid="#m22_s3_e6" curvedir="below"/>
                   </measure>
                   <measure n="23" xml:id="m23">
                      <staff n="1">
@@ -1482,13 +1486,8 @@
                            <note pname="c" oct="5" dur="4"/>
                            <rest dur="8"/>
                            <note pname="c" oct="5" dur="8"/>
-                           <note pname="d"
-                                 oct="5"
-                                 dur="8"
-                                 grace="unknown"
-                                 stem.dir="up"
-                                 accid="f"
-                                 slur="i1"/>
+                           <note pname="d" oct="5" dur="8" grace="unknown" stem.dir="up" accid="f"
+                              slur="i1"/>
                            <beam>
                               <note pname="c" dur="8" oct="5" dots="1" xml:id="m23_s1_e5"/>
                               <note pname="b" oct="4" dur="32" accid="f"/>
@@ -1530,14 +1529,8 @@
                            </beam>
                         </layer>
                      </staff>
-                     <slur staff="1"
-                           startid="#m23_s2_e1"
-                           endid="#m23_s2_e4"
-                           curvedir="below"/>
-                     <slur staff="3"
-                           startid="#m23_s3_e1"
-                           endid="#m23_s3_e6"
-                           curvedir="below"/>
+                     <slur staff="1" startid="#m23_s2_e1" endid="#m23_s2_e4" curvedir="below"/>
+                     <slur staff="3" startid="#m23_s3_e1" endid="#m23_s3_e6" curvedir="below"/>
                      <trill staff="1" startid="#m23_s1_e5"/>
                   </measure>
                   <measure n="24" xml:id="m24">
@@ -1587,10 +1580,7 @@
                            </beam>
                         </layer>
                      </staff>
-                     <slur staff="1"
-                           startid="#m24_s1_e1"
-                           endid="#m24_s1_e4"
-                           curvedir="above"/>
+                     <slur staff="1" startid="#m24_s1_e1" endid="#m24_s1_e4" curvedir="above"/>
                      <trill staff="2" startid="#m24_s2_e4"/>
                      <slur staff="3" startid="#m24_s3_e6" endid="#m24_s3_e6"/>
                   </measure>
@@ -1627,34 +1617,27 @@
                               <note pname="c" oct="3" dots="1" dur="8"/>
                               <note pname="c" oct="4" dur="16"/>
                            </beam>
-                           <note pname="g"
-                                 oct="3"
-                                 dur="8"
-                                 slur="i1"
-                                 grace="unknown"
-                                 stem.dir="up"/>
+                           <note pname="g" oct="3" dur="8" slur="i1" grace="unknown" stem.dir="up"/>
                            <note pname="f" oct="3" dur="4" slur="t1" accid="s" dots="1"/>
                            <note pname="g" oct="3" dur="8"/>
                         </layer>
                      </staff>
                      <harm staff="3" place="below" tstamp="3">
-                        <stack>7<lb/>5</stack>
+                        <fb>
+                           <f>7</f>
+                           <f>5</f>
+                        </fb>
                      </harm>
-                     <harm staff="3" place="below" tstamp="3.5">♮</harm>
+                     <harm staff="3" place="below" tstamp="3.5">
+                        <fb>
+                           <f>♮</f>
+                        </fb>
+                     </harm>
                      <trill staff="1" place="above" startid="#m25_s1_e6"/>
                      <trill staff="2" place="above" startid="#m25_s2_e6"/>
-                     <tie staff="2"
-                          startid="#m25_s2_e1"
-                          endid="#m25_s2_e2"
-                          curvedir="above"/>
-                     <slur staff="1"
-                           startid="#m25_s1_e2"
-                           endid="#m25_s1_e5"
-                           curvedir="above"/>
-                     <slur staff="2"
-                           startid="#m25_s2_e2"
-                           endid="#m25_s2_e5"
-                           curvedir="above"/>
+                     <tie staff="2" startid="#m25_s2_e1" endid="#m25_s2_e2" curvedir="above"/>
+                     <slur staff="1" startid="#m25_s1_e2" endid="#m25_s1_e5" curvedir="above"/>
+                     <slur staff="2" startid="#m25_s2_e2" endid="#m25_s2_e5" curvedir="above"/>
                   </measure>
                   <measure n="26" xml:id="m26">
                      <staff n="1">
@@ -1707,7 +1690,11 @@
                         </layer>
                      </staff>
                      <trill staff="1" startid="#m26_s1_e6"/>
-                     <harm staff="3" place="below" tstamp="1">♮</harm>
+                     <harm staff="3" place="below" tstamp="1">
+                        <fb>
+                           <f>♮</f>
+                        </fb>
+                     </harm>
                      <harm staff="3" place="below" tstamp="2" extender="true"/>
                   </measure>
                   <measure n="27" xml:id="m27">
@@ -1761,16 +1748,20 @@
                         </layer>
                      </staff>
                      <trill staff="2" place="below" tstamp="3" startid="#m27_s2_e6"/>
-                     <dynam staff="2"
-                            place="below"
-                            tstamp="2.5"
-                            startto="2.5"
-                            startid="#m27_s2_e6">piano</dynam>
+                     <dynam staff="2" place="below" tstamp="2.5" startto="2.5" startid="#m27_s2_e6"
+                        >piano</dynam>
                      <harm staff="3" place="below" tstamp="1">
-                        <stack>6&gt;<lb/>4</stack>
+                        <fb>
+                           <f>6&gt;</f>
+                           <f>4</f>
+                        </fb>
                      </harm>
                      <harm staff="3" place="below" tstamp="2.5" extender="true">
-                        <stack>7&gt;<lb/>4<lb/>2</stack>
+                        <fb>
+                           <f>7</f>
+                           <f>4</f>
+                           <f>2</f>
+                        </fb>
                      </harm>
                   </measure>
                   <measure n="28" xml:id="m28">
@@ -1809,12 +1800,23 @@
                         </layer>
                      </staff>
                      <harm staff="3" place="below" tstamp="1">
-                        <stack>8<lb/>5<lb/>♮</stack>
+                        <fb>
+                           <f>8</f>
+                           <f>5</f>
+                           <f>♮</f>
+                        </fb>
                      </harm>
                      <harm staff="3" place="below" tstamp="2">
-                        <stack>4♮<lb/>2</stack>
+                        <fb>
+                           <f>4♮</f>
+                           <f>2</f>
+                        </fb>
                      </harm>
-                     <harm staff="3" place="below" tstamp="3">♮</harm>
+                     <harm staff="3" place="below" tstamp="3">
+                        <fb>
+                           <f>♮</f>
+                        </fb>
+                     </harm>
                   </measure>
                   <measure n="29" xml:id="m29">
                      <staff n="1">
@@ -1824,12 +1826,7 @@
                               <note pname="b" oct="5" dur="16" accid="f"/>
                            </beam>
                            <note pname="a" oct="5" dur="8" grace="unknown" slur="i1"/>
-                           <note pname="g"
-                                 oct="5"
-                                 dur="4"
-                                 dots="1"
-                                 slur="t1"
-                                 xml:id="m28_s1_e4"/>
+                           <note pname="g" oct="5" dur="4" dots="1" slur="t1" xml:id="m28_s1_e4"/>
                            <note pname="a" oct="5" dur="8"/>
                         </layer>
                      </staff>
@@ -1861,9 +1858,16 @@
                         </layer>
                      </staff>
                      <trill staff="1" place="above" tstamp="2" startid="#m28_s1_e4"/>
-                     <harm staff="3" place="below" tstamp="1">6</harm>
+                     <harm staff="3" place="below" tstamp="1">
+                        <fb>
+                           <f>6</f>
+                        </fb>
+                     </harm>
                      <harm staff="3" place="below" tstamp="2">
-                        <stack>4♮<lb/>2</stack>
+                        <fb>
+                           <f>4♮</f>
+                           <f>2</f>
+                        </fb>
                      </harm>
                      <harm staff="3" place="below" tstamp="3" extender="true"/>
                      <harm staff="3" place="below" tstamp="3.5" extender="true"/>
@@ -1880,18 +1884,8 @@
                               <note pname="f" oct="4" dur="8" dots="1"/>
                               <note pname="e" oct="5" dur="16"/>
                            </beam>
-                           <note pname="d"
-                                 oct="5"
-                                 grace="unknown"
-                                 dur="8"
-                                 stem.dir="up"
-                                 slur="i1"/>
-                           <note pname="c"
-                                 oct="5"
-                                 dur="4"
-                                 dots="1"
-                                 slur="t1"
-                                 xml:id="m29_s2_e4"/>
+                           <note pname="d" oct="5" grace="unknown" dur="8" stem.dir="up" slur="i1"/>
+                           <note pname="c" oct="5" dur="4" dots="1" slur="t1" xml:id="m29_s2_e4"/>
                            <note pname="d" oct="5" dur="8"/>
                         </layer>
                      </staff>
@@ -1918,12 +1912,12 @@
                         </layer>
                      </staff>
                      <trill staff="2" tstamp="2" place="above" startid="#m29_s2_e4"/>
-                     <slur staff="1"
-                           curvedir="above"
-                           startid="#m29_s1_e1"
-                           endid="#m31_s1_e1"/>
+                     <slur staff="1" curvedir="above" startid="#m29_s1_e1" endid="#m31_s1_e1"/>
                      <harm staff="3" place="below" tstamp="2">
-                        <stack>4<lb/>2</stack>
+                        <fb>
+                           <f>4</f>
+                           <f>2</f>
+                        </fb>
                      </harm>
                      <harm staff="3" place="below" tstamp="3" extender="true"/>
                   </measure>
@@ -1967,11 +1961,12 @@
                            </beam>
                         </layer>
                      </staff>
-                     <harm staff="3" place="below" tstamp="1">7</harm>
-                     <slur staff="2"
-                           startid="#m31_s2_e1"
-                           curvedir="above"
-                           endid="#m32_s2_e1"/>
+                     <harm staff="3" place="below" tstamp="1">
+                        <fb>
+                           <f>7</f>
+                        </fb>
+                     </harm>
+                     <slur staff="2" startid="#m31_s2_e1" curvedir="above" endid="#m32_s2_e1"/>
                   </measure>
                   <measure n="32" xml:id="m32">
                      <staff n="1">
@@ -2013,16 +2008,18 @@
                            </beam>
                         </layer>
                      </staff>
-                     <slur staff="1"
-                           curvedir="above"
-                           startid="#m32_s1_e1"
-                           endid="#m32_s1_e1"/>
-                     <slur staff="2"
-                           curvedir="above"
-                           endid="#m32_s2_e1"
-                           startid="#m33_s2_e2"/>
-                     <harm staff="3" tstamp="1" place="below">7</harm>
-                     <harm staff="3" tstamp="2" place="below">7♭</harm>
+                     <slur staff="1" curvedir="above" startid="#m32_s1_e1" endid="#m32_s1_e1"/>
+                     <slur staff="2" curvedir="above" endid="#m32_s2_e1" startid="#m33_s2_e2"/>
+                     <harm staff="3" tstamp="1" place="below">
+                        <fb>
+                           <f>7</f>
+                        </fb>
+                     </harm>
+                     <harm staff="3" tstamp="2" place="below">
+                        <fb>
+                           <f>7♭</f>
+                        </fb>
+                     </harm>
                   </measure>
                   <measure n="33" xml:id="m33">
                      <staff n="1">
@@ -2067,29 +2064,26 @@
                            <note pname="c" oct="3" dur="8"/>
                         </layer>
                      </staff>
-                     <slur staff="1"
-                           startid="#m34_s1_e2"
-                           curvedir="above"
-                           endid="#m33_s1_e1"/>
-                     <slur staff="1"
-                           startid="#m33_s1_e2"
-                           curvedir="above"
-                           endid="#m33_s1_e4"/>
-                     <slur staff="1"
-                           startid="#m33_s1_e6"
-                           curvedir="above"
-                           endid="#m33_s1_e8"/>
-                     <slur staff="1"
-                           startid="#m33_s1_e10"
-                           curvedir="above"
-                           endid="#m33_s1_e12"/>
-                     <slur staff="2"
-                           startid="#m33_s2_e2"
-                           curvedir="above"
-                           endid="#m33_s2_e6"/>
-                     <harm staff="3" place="below" tstamp="1">7</harm>
-                     <harm staff="3" place="below" tstamp="2">6</harm>
-                     <harm staff="3" place="below" tstamp="4.5">6</harm>
+                     <slur staff="1" startid="#m34_s1_e2" curvedir="above" endid="#m33_s1_e1"/>
+                     <slur staff="1" startid="#m33_s1_e2" curvedir="above" endid="#m33_s1_e4"/>
+                     <slur staff="1" startid="#m33_s1_e6" curvedir="above" endid="#m33_s1_e8"/>
+                     <slur staff="1" startid="#m33_s1_e10" curvedir="above" endid="#m33_s1_e12"/>
+                     <slur staff="2" startid="#m33_s2_e2" curvedir="above" endid="#m33_s2_e6"/>
+                     <harm staff="3" place="below" tstamp="1">
+                        <fb>
+                           <f>7</f>
+                        </fb>
+                     </harm>
+                     <harm staff="3" place="below" tstamp="2">
+                        <fb>
+                           <f>6</f>
+                        </fb>
+                     </harm>
+                     <harm staff="3" place="below" tstamp="4.5">
+                        <fb>
+                           <f>6</f>
+                        </fb>
+                     </harm>
                   </measure>
                   <measure n="34" xml:id="m34">
                      <staff n="1">
@@ -2138,26 +2132,21 @@
                            <note pname="a" oct="3" dur="8"/>
                         </layer>
                      </staff>
-                     <slur staff="1"
-                           startid="#m34_s1_e2"
-                           endid="#m34_s1_e4"
-                           curvedir="above"/>
-                     <slur staff="2"
-                           startid="#m34_s2_e2"
-                           endid="#m34_s1_e4"
-                           curvedir="below"/>
-                     <slur staff="2"
-                           startid="#m34_s2_e6"
-                           endid="#m34_s2_e8"
-                           curvedir="below"/>
-                     <slur staff="2"
-                           startid="#m34_s2_e10"
-                           endid="#m34_s2_e12"
-                           curvedir="below"/>
-                     <harm staff="3" place="below" tstamp="1">7</harm>
+                     <slur staff="1" startid="#m34_s1_e2" endid="#m34_s1_e4" curvedir="above"/>
+                     <slur staff="2" startid="#m34_s2_e2" endid="#m34_s1_e4" curvedir="below"/>
+                     <slur staff="2" startid="#m34_s2_e6" endid="#m34_s2_e8" curvedir="below"/>
+                     <slur staff="2" startid="#m34_s2_e10" endid="#m34_s2_e12" curvedir="below"/>
+                     <harm staff="3" place="below" tstamp="1">
+                        <fb>
+                           <f>7</f>
+                        </fb>
+                     </harm>
                      <harm staff="3" place="below" tstamp="2" extender="true"/>
                      <harm staff="3" place="below" tstamp="4.5">
-                        <stack>4<lb/>2</stack>
+                        <fb>
+                           <f>4</f>
+                           <f>2</f>
+                        </fb>
                      </harm>
                   </measure>
                   <measure n="35" xml:id="m35">
@@ -2167,18 +2156,8 @@
                               <note pname="b" oct="5" dur="8" dots="1"/>
                               <note pname="c" oct="5" dur="16"/>
                            </beam>
-                           <note pname="e"
-                                 oct="5"
-                                 dur="8"
-                                 grace="unknown"
-                                 stem.dir="up"
-                                 slur="i1"/>
-                           <note pname="d"
-                                 oct="5"
-                                 dur="4"
-                                 dots="1"
-                                 xml:id="m35_s1_e4"
-                                 slur="t1"/>
+                           <note pname="e" oct="5" dur="8" grace="unknown" stem.dir="up" slur="i1"/>
+                           <note pname="d" oct="5" dur="4" dots="1" xml:id="m35_s1_e4" slur="t1"/>
                            <note pname="e" oct="5" dur="8"/>
                         </layer>
                      </staff>
@@ -2188,18 +2167,8 @@
                               <note pname="e" oct="5" dur="8" dots="1"/>
                               <note pname="a" oct="4" dur="16"/>
                            </beam>
-                           <note pname="g"
-                                 oct="4"
-                                 dur="8"
-                                 grace="unknown"
-                                 stem.dir="up"
-                                 slur="i1"/>
-                           <note pname="f"
-                                 oct="4"
-                                 dur="4"
-                                 dots="1"
-                                 xml:id="m35_s2_e4"
-                                 slur="t1"/>
+                           <note pname="g" oct="4" dur="8" grace="unknown" stem.dir="up" slur="i1"/>
+                           <note pname="f" oct="4" dur="4" dots="1" xml:id="m35_s2_e4" slur="t1"/>
                            <note pname="e" oct="4" dur="8"/>
                         </layer>
                      </staff>
@@ -2217,15 +2186,28 @@
                      </staff>
                      <trill staff="1" place="above" tstamp="2" startid="#m35_s1_e4"/>
                      <trill staff="2" place="above" tstamp="2" startid="#m35_s2_e4"/>
-                     <harm staff="3" place="below" tstamp="1">6</harm>
+                     <harm staff="3" place="below" tstamp="1">
+                        <fb>
+                           <f>6</f>
+                        </fb>
+                     </harm>
                      <harm staff="3" place="below" tstamp="1.5">
-                        <stack>7<lb/>5</stack>
+                        <fb>
+                           <f>7</f>
+                           <f>5</f>
+                        </fb>
                      </harm>
                      <harm staff="3" place="below" tstamp="2">
-                        <stack>6<lb/>4</stack>
+                        <fb>
+                           <f>6</f>
+                           <f>4</f>
+                        </fb>
                      </harm>
                      <harm staff="3" place="below" tstamp="3">
-                        <stack>5<lb/>3</stack>
+                        <fb>
+                           <f>5</f>
+                           <f>3</f>
+                        </fb>
                      </harm>
                   </measure>
                   <measure n="36" xml:id="m36" right="dotted" type="repeat">
@@ -2260,32 +2242,13 @@
                               <note pname="b" oct="4"/>
                            </beam>
                            <beam>
-                              <note pname="c"
-                                    oct="5"
-                                    dur="32"
-                                    grace="unknown"
-                                    slur="i1"
-                                    size="cue"/>
-                              <note pname="d"
-                                    oct="5"
-                                    dur="32"
-                                    accid="f"
-                                    grace="unknown"
-                                    slur="m1"
-                                    size="cue"/>
-                              <note pname="e"
-                                    oct="5"
-                                    dur="32"
-                                    grace="unknown"
-                                    slur="t1"
-                                    size="cue"/>
+                              <note pname="c" oct="5" dur="32" grace="unknown" slur="i1" size="cue"/>
+                              <note pname="d" oct="5" dur="32" accid="f" grace="unknown" slur="m1"
+                                 size="cue"/>
+                              <note pname="e" oct="5" dur="32" grace="unknown" slur="t1" size="cue"
+                              />
                            </beam>
-                           <note pname="d"
-                                 oct="5"
-                                 dur="4"
-                                 dots="1"
-                                 accid="f"
-                                 xml:id="m37_s1_e6"/>
+                           <note pname="d" oct="5" dur="4" dots="1" accid="f" xml:id="m37_s1_e6"/>
                            <note pname="c" oct="5" dur="8"/>
                         </layer>
                      </staff>
@@ -2306,13 +2269,18 @@
                            </beam>
                         </layer>
                      </staff>
-                     <slur staff="3"
-                           startid="#m37_s3_e1"
-                           endid="#m37_s3_e6"
-                           curvedir="above"/>
+                     <slur staff="3" startid="#m37_s3_e1" endid="#m37_s3_e6" curvedir="above"/>
                      <trill staff="1" place="above" startid="#m37_s1_e6" tstamp="2"/>
-                     <harm staff="3" place="below" tstamp="2">6♭</harm>
-                     <harm staff="3" place="below" tstamp="3">5♭</harm>
+                     <harm staff="3" place="below" tstamp="2">
+                        <fb>
+                           <f>6♭</f>
+                        </fb>
+                     </harm>
+                     <harm staff="3" place="below" tstamp="3">
+                        <fb>
+                           <f>5♭</f>
+                        </fb>
+                     </harm>
                   </measure>
                   <measure n="38" xml:id="m38">
                      <staff n="1">
@@ -2349,15 +2317,13 @@
                            </beam>
                         </layer>
                      </staff>
-                     <slur staff="1"
-                           startid="#m38_s1_e5"
-                           endid="#m38_s1_e8"
-                           curvedir="above"/>
-                     <slur staff="3"
-                           startid="#m38_s3_e1"
-                           endid="#m38_s3_e6"
-                           curvedir="above"/>
-                     <harm staff="3" place="below" tstamp="3">6</harm>
+                     <slur staff="1" startid="#m38_s1_e5" endid="#m38_s1_e8" curvedir="above"/>
+                     <slur staff="3" startid="#m38_s3_e1" endid="#m38_s3_e6" curvedir="above"/>
+                     <harm staff="3" place="below" tstamp="3">
+                        <fb>
+                           <f>6</f>
+                        </fb>
+                     </harm>
                   </measure>
                   <measure n="39" xml:id="m39">
                      <staff n="1">
@@ -2389,32 +2355,13 @@
                               <note pname="c" oct="5"/>
                            </beam>
                            <beam>
-                              <note pname="d"
-                                    oct="5"
-                                    dur="32"
-                                    grace="unknown"
-                                    slur="i1"
-                                    size="cue"/>
-                              <note pname="e"
-                                    oct="5"
-                                    dur="32"
-                                    accid="f"
-                                    grace="unknown"
-                                    slur="m1"
-                                    size="cue"/>
-                              <note pname="f"
-                                    oct="5"
-                                    dur="32"
-                                    grace="unknown"
-                                    slur="m1"
-                                    size="cue"/>
+                              <note pname="d" oct="5" dur="32" grace="unknown" slur="i1" size="cue"/>
+                              <note pname="e" oct="5" dur="32" accid="f" grace="unknown" slur="m1"
+                                 size="cue"/>
+                              <note pname="f" oct="5" dur="32" grace="unknown" slur="m1" size="cue"
+                              />
                            </beam>
-                           <note pname="e"
-                                 oct="5"
-                                 dur="4"
-                                 dots="1"
-                                 xml:id="m39_s2_e6"
-                                 slur="t1"/>
+                           <note pname="e" oct="5" dur="4" dots="1" xml:id="m39_s2_e6" slur="t1"/>
                            <note pname="d" oct="5" dur="8"/>
                         </layer>
                      </staff>
@@ -2431,11 +2378,20 @@
                         </layer>
                      </staff>
                      <harm staff="3" place="below" tstamp="1">
-                        <stack>7<lb/>
-                        </stack>
+                        <fb>
+                           <f>7</f>
+                        </fb>
                      </harm>
-                     <harm staff="3" place="below" tstamp="2">6</harm>
-                     <harm staff="3" place="below" tstamp="3">5</harm>
+                     <harm staff="3" place="below" tstamp="2">
+                        <fb>
+                           <f>6</f>
+                        </fb>
+                     </harm>
+                     <harm staff="3" place="below" tstamp="3">
+                        <fb>
+                           <f>5</f>
+                        </fb>
+                     </harm>
                      <trill staff="2" place="above" tstamp="2" startid="#m39_s2_e6"/>
                   </measure>
                   <measure n="40" xml:id="m40">
@@ -2480,11 +2436,12 @@
                            </beam>
                         </layer>
                      </staff>
-                     <slur staff="2"
-                           startid="#m40_s2_e5"
-                           endid="#m40_s2_e8"
-                           curvedir="above"/>
-                     <harm staff="3" place="below" tstamp="3">6</harm>
+                     <slur staff="2" startid="#m40_s2_e5" endid="#m40_s2_e8" curvedir="above"/>
+                     <harm staff="3" place="below" tstamp="3">
+                        <fb>
+                           <f>6</f>
+                        </fb>
+                     </harm>
                   </measure>
                   <measure n="41" xml:id="m41">
                      <staff n="1">
@@ -2537,16 +2494,23 @@
                         </layer>
                      </staff>
                      <trill staff="1" place="above" tstamp="3" startid="#m41_s1_e5"/>
-                     <slur staff="1"
-                           startid="#m41_s1_e5"
-                           endid="#m41_s1_e7"
-                           curvedir="above"/>
+                     <slur staff="1" startid="#m41_s1_e5" endid="#m41_s1_e7" curvedir="above"/>
                      <harm staff="3" place="below" tstamp="1">
-                        <stack>7<lb/>♮</stack>
+                        <fb>
+                           <f>7</f>
+                           <f>♮</f>
+                        </fb>
                      </harm>
-                     <harm staff="3" place="below" tstamp="2">6♮</harm>
+                     <harm staff="3" place="below" tstamp="2">
+                        <fb>
+                           <f>6♮</f>
+                        </fb>
+                     </harm>
                      <harm staff="3" place="below" tstamp="3">
-                        <stack>6<lb/>5</stack>
+                        <fb>
+                           <f>6</f>
+                           <f>5</f>
+                        </fb>
                      </harm>
                   </measure>
                   <measure n="42" xml:id="m42">
@@ -2561,12 +2525,7 @@
                            <rest dur="8"/>
                            <note pname="c" oct="5" dur="8"/>
                            <beam>
-                              <note pname="f"
-                                    oct="4"
-                                    dur="8"
-                                    dots="1"
-                                    accid="s"
-                                    xml:id="m42_s2_e4"/>
+                              <note pname="f" oct="4" dur="8" dots="1" accid="s" xml:id="m42_s2_e4"/>
                               <note pname="e" oct="4" dur="32" accid="n"/>
                               <note pname="e" oct="4" dur="32" xml:id="m42_s2_e6"/>
                            </beam>
@@ -2585,19 +2544,19 @@
                         </layer>
                      </staff>
                      <trill staff="2" place="above" tstamp="3" startid="#m42_s2_e4"/>
-                     <slur staff="2"
-                           startid="#m42_s2_e4"
-                           endid="#m42_s2_e6"
-                           curvedir="below"/>
-                     <slur staff="3"
-                           startid="#m42_s3_e1"
-                           endid="#m42_s3_e6"
-                           curvedir="below"/>
+                     <slur staff="2" startid="#m42_s2_e4" endid="#m42_s2_e6" curvedir="below"/>
+                     <slur staff="3" startid="#m42_s3_e1" endid="#m42_s3_e6" curvedir="below"/>
                      <harm staff="3" place="below" tstamp="2">
-                        <stack>4<lb/>2</stack>
+                        <fb>
+                           <f>4</f>
+                           <f>2</f>
+                        </fb>
                      </harm>
                      <harm staff="3" place="below" tstamp="3" n="stroke">
-                        <stack>6<lb/>5♭</stack>
+                        <fb>
+                           <f>6</f>
+                           <f>5♭</f>
+                        </fb>
                      </harm>
                   </measure>
                   <measure n="43" xml:id="m43">
@@ -2639,22 +2598,29 @@
                            </beam>
                         </layer>
                      </staff>
-                     <slur staff="1"
-                           startid="#m43_s1_e5"
-                           endid="#m43_s1_e8"
-                           curvedir="below"/>
-                     <slur staff="2"
-                           startid="#m43_s2_e3"
-                           endid="#m43_s2_e6"
-                           curvedir="below"/>
-                     <slur staff="3"
-                           startid="#m43_s3_e1"
-                           endid="#m43_s3_e6"
-                           curvedir="below"/>
-                     <harm staff="3" place="below" tstamp="1">6</harm>
-                     <harm staff="3" place="below" tstamp="2">7</harm>
-                     <harm staff="3" place="below" tstamp="2.5">6</harm>
-                     <harm staff="3" place="below" tstamp="3">6♮</harm>
+                     <slur staff="1" startid="#m43_s1_e5" endid="#m43_s1_e8" curvedir="below"/>
+                     <slur staff="2" startid="#m43_s2_e3" endid="#m43_s2_e6" curvedir="below"/>
+                     <slur staff="3" startid="#m43_s3_e1" endid="#m43_s3_e6" curvedir="below"/>
+                     <harm staff="3" place="below" tstamp="1">
+                        <fb>
+                           <f>6</f>
+                        </fb>
+                     </harm>
+                     <harm staff="3" place="below" tstamp="2">
+                        <fb>
+                           <f>7</f>
+                        </fb>
+                     </harm>
+                     <harm staff="3" place="below" tstamp="2.5">
+                        <fb>
+                           <f>6</f>
+                        </fb>
+                     </harm>
+                     <harm staff="3" place="below" tstamp="3">
+                        <fb>
+                           <f>6♮</f>
+                        </fb>
+                     </harm>
                   </measure>
                   <measure n="44" xml:id="m44">
                      <staff n="1">
@@ -2702,21 +2668,40 @@
                            </beam>
                         </layer>
                      </staff>
-                     <harm staff="3" place="below" tstamp="1">♯</harm>
+                     <harm staff="3" place="below" tstamp="1">
+                        <fb>
+                           <f>♯</f>
+                        </fb>
+                     </harm>
                      <harm staff="3" place="below" tstamp="1.5">
-                        <stack>7<lb/>5</stack>
+                        <fb>
+                           <f>7</f>
+                           <f>5</f>
+                        </fb>
                      </harm>
                      <harm staff="3" place="below" tstamp="2">
-                        <stack>4<lb/>2</stack>
+                        <fb>
+                           <f>4</f>
+                           <f>2</f>
+                        </fb>
                      </harm>
                      <harm staff="3" place="below" tstamp="2.5">
-                        <stack>6<lb/>2</stack>
+                        <fb>
+                           <f>6</f>
+                           <f>2</f>
+                        </fb>
                      </harm>
                      <harm staff="3" place="below" tstamp="3">
-                        <stack>6<lb/>4</stack>
+                        <fb>
+                           <f>6</f>
+                           <f>4</f>
+                        </fb>
                      </harm>
                      <harm staff="3" place="below" tstamp="3.5">
-                        <stack>7<lb/>5</stack>
+                        <fb>
+                           <f>7</f>
+                           <f>5</f>
+                        </fb>
                      </harm>
                   </measure>
                   <measure n="45" xml:id="m45">
@@ -2725,12 +2710,7 @@
                            <beam>
                               <note pname="a" oct="5" dur="8" stem.dir="down"/>
                               <note pname="a" oct="4" dur="8" stem.dir="down" slur="i1"/>
-                              <note pname="d"
-                                    oct="5"
-                                    dur="8"
-                                    stem.dir="down"
-                                    accid="f"
-                                    slur="m1"/>
+                              <note pname="d" oct="5" dur="8" stem.dir="down" accid="f" slur="m1"/>
                               <note pname="f" oct="5" dur="8" stem.dir="down" slur="m1"/>
                               <note pname="a" oct="5" dur="8" stem.dir="down" slur="m1"/>
                               <note pname="d" oct="6" dur="8" stem.dir="down" slur="t1"/>
@@ -2743,12 +2723,7 @@
                               <note pname="f" oct="4" dur="16" stem.dir="up" artic="stacc"/>
                               <note pname="a" oct="5" dur="16" stem.dir="down" slur="i1"/>
                               <note pname="c" oct="5" dur="16" stem.dir="down" slur="m1"/>
-                              <note pname="d"
-                                    oct="5"
-                                    dur="16"
-                                    stem.dir="down"
-                                    accid="f"
-                                    slur="t1"/>
+                              <note pname="d" oct="5" dur="16" stem.dir="down" accid="f" slur="t1"/>
                            </beam>
                            <rest dur="16"/>
                            <beam>
@@ -2758,18 +2733,8 @@
                            </beam>
                            <rest dur="16"/>
                            <beam>
-                              <note pname="d"
-                                    oct="5"
-                                    dur="16"
-                                    stem.dir="down"
-                                    accid="f"
-                                    slur="i3"/>
-                              <note pname="e"
-                                    oct="4"
-                                    dur="16"
-                                    stem.dir="down"
-                                    accid="n"
-                                    slur="m3"/>
+                              <note pname="d" oct="5" dur="16" stem.dir="down" accid="f" slur="i3"/>
+                              <note pname="e" oct="4" dur="16" stem.dir="down" accid="n" slur="m3"/>
                               <note pname="f" oct="4" dur="16" stem.dir="down" slur="t3"/>
                            </beam>
                         </layer>
@@ -2782,9 +2747,21 @@
                            <note pname="a" oct="2" dur="8" stem.dir="up"/>
                         </layer>
                      </staff>
-                     <harm staff="3" place="below" tstamp="1">5</harm>
-                     <harm staff="3" place="below" tstamp="2">6 flat</harm>
-                     <harm staff="3" place="below" tstamp="3.5">6</harm>
+                     <harm staff="3" place="below" tstamp="1">
+                        <fb>
+                           <f>5</f>
+                        </fb>
+                     </harm>
+                     <harm staff="3" place="below" tstamp="2">
+                        <fb>
+                           <f>6 flat</f>
+                        </fb>
+                     </harm>
+                     <harm staff="3" place="below" tstamp="3.5">
+                        <fb>
+                           <f>6</f>
+                        </fb>
+                     </harm>
                   </measure>
                   <measure n="46" xml:id="m46">
                      <staff n="1">
@@ -2793,21 +2770,11 @@
                               <note pname="b" oct="5" dur="16" stem.dir="down" accid="n"/>
                               <note pname="g" oct="4" dur="16" stem.dir="down" slur="i1"/>
                               <note pname="e" oct="5" dur="16" stem.dir="down" slur="m1"/>
-                              <note pname="d"
-                                    oct="5"
-                                    dur="16"
-                                    stem.dir="down"
-                                    accid="n"
-                                    slur="t1"/>
+                              <note pname="d" oct="5" dur="16" stem.dir="down" accid="n" slur="t1"/>
                            </beam>
                            <rest dur="16"/>
                            <beam>
-                              <note pname="b"
-                                    oct="4"
-                                    dur="16"
-                                    stem.dir="down"
-                                    accid="n"
-                                    slur="i2"/>
+                              <note pname="b" oct="4" dur="16" stem.dir="down" accid="n" slur="i2"/>
                               <note pname="a" oct="5" dur="16" stem.dir="down" slur="m2"/>
                               <note pname="g" oct="5" dur="16" stem.dir="down" slur="t2"/>
                            </beam>
@@ -2815,12 +2782,7 @@
                            <beam>
                               <note pname="d" oct="5" dur="16" stem.dir="down" slur="i3"/>
                               <note pname="c" oct="6" dur="16" stem.dir="down" slur="m3"/>
-                              <note pname="b"
-                                    oct="5"
-                                    accid="n"
-                                    dur="16"
-                                    stem.dir="down"
-                                    slur="t3"/>
+                              <note pname="b" oct="5" accid="n" dur="16" stem.dir="down" slur="t3"/>
                            </beam>
                         </layer>
                      </staff>
@@ -2828,12 +2790,7 @@
                         <layer>
                            <beam>
                               <note pname="f" oct="4" dur="8" stem.dir="down"/>
-                              <note pname="b"
-                                    oct="4"
-                                    dur="8"
-                                    stem.dir="down"
-                                    accid="n"
-                                    slur="i1"/>
+                              <note pname="b" oct="4" dur="8" stem.dir="down" accid="n" slur="i1"/>
                               <note pname="d" oct="5" dur="8" stem.dir="down" slur="m1"/>
                               <note pname="f" oct="5" dur="8" stem.dir="down" slur="t1"/>
                            </beam>
@@ -2853,9 +2810,16 @@
                            <note pname="f" oct="3" dur="8" stem.dir="down"/>
                         </layer>
                      </staff>
-                     <harm staff="3" place="below" tstamp="1">7<stack>Auflösungszeichen</stack>
+                     <harm staff="3" place="below" tstamp="1">
+                        <fb>
+                           <f>7</f>
+                        </fb>
                      </harm>
-                     <harm staff="3" place="below" tstamp="3.5">4 Auflösungszeichen</harm>
+                     <harm staff="3" place="below" tstamp="3.5">
+                        <fb>
+                           <f>4</f>
+                        </fb>
+                     </harm>
                   </measure>
                   <measure n="47" xml:id="m47">
                      <staff n="1">
@@ -2864,13 +2828,8 @@
                               <note pname="c" oct="6" dur="8" dots="1" stem.dir="down"/>
                               <note pname="f" oct="5" dur="16" stem.dir="down"/>
                            </beam>
-                           <note pname="e"
-                                 oct="5"
-                                 dur="8"
-                                 stem.dir="up"
-                                 size="cue"
-                                 grace="unknown"
-                                 slur="i1"/>
+                           <note pname="e" oct="5" dur="8" stem.dir="up" size="cue" grace="unknown"
+                              slur="i1"/>
                            <note pname="d" oct="5" dur="4" dots="1" stem.dir="down"/>
                            <note pname="c" oct="5" dur="8" stem.dir="down"/>
                         </layer>
@@ -2881,19 +2840,9 @@
                               <note pname="g" oct="5" dur="8" stem.dir="down" dots="1"/>
                               <note pname="a" oct="4" dur="16" stem.dir="down" accid="n"/>
                            </beam>
-                           <note pname="c"
-                                 oct="5"
-                                 dur="8"
-                                 stem.dir="up"
-                                 slur="i2"
-                                 size="cue"
-                                 grace="unknown"/>
-                           <note pname="b"
-                                 oct="4"
-                                 dur="4"
-                                 dots="1"
-                                 stem.dir="down"
-                                 accid="n"/>
+                           <note pname="c" oct="5" dur="8" stem.dir="up" slur="i2" size="cue"
+                              grace="unknown"/>
+                           <note pname="b" oct="4" dur="4" dots="1" stem.dir="down" accid="n"/>
                            <note pname="c" oct="5" dur="8" stem.dir="down"/>
                         </layer>
                      </staff>
@@ -2909,15 +2858,25 @@
                            </beam>
                         </layer>
                      </staff>
-                     <harm staff="3" place="below" tstamp="1">6</harm>
-                     <harm staff="3" place="below" tstamp="1.5">7
-                                    <stack>Auflösungszeichen</stack>
+                     <harm staff="3" place="below" tstamp="1">
+                        <fb>
+                           <f>6</f>
+                        </fb>
                      </harm>
-                     <harm staff="3" place="below" tstamp="2">6
-                                    <stack>Auflösungszeichen</stack>
+                     <harm staff="3" place="below" tstamp="1.5">
+                        <fb>
+                           <f>7</f>
+                        </fb>
                      </harm>
-                     <harm staff="3" place="below" tstamp="3">7
-                                    <stack>Auflösungszeichen</stack>
+                     <harm staff="3" place="below" tstamp="2">
+                        <fb>
+                           <f>6</f>
+                        </fb>
+                     </harm>
+                     <harm staff="3" place="below" tstamp="3">
+                        <fb>
+                           <f>7</f>
+                        </fb>
                      </harm>
                   </measure>
                   <ending n="1">
@@ -2954,7 +2913,11 @@
                               </beam>
                            </layer>
                         </staff>
-                        <harm staff="3" place="below" tstamp="3">7 <stack>8</stack>
+                        <harm staff="3" place="below" tstamp="3">
+                           <fb>
+                              <f>7</f>
+                              <f>8</f>
+                           </fb>
                         </harm>
                      </measure>
                   </ending>

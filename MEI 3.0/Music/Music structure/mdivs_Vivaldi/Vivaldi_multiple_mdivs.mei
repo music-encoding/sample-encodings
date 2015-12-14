@@ -1001,7 +1001,10 @@
                         </layer>
                      </staff>
                      <harm tstamp="2" staff="5" place="above">
-                        <stack>65</stack>
+                           <fb>
+                                 <f>6</f>
+                                 <f>5</f>
+                           </fb>
                      </harm>
                   </measure>
                   <measure n="5" xml:id="d469095e2020">
@@ -1687,7 +1690,10 @@
                         </layer>
                      </staff>
                      <harm staff="5" place="above" tstamp="2.5">
-                        <stack>65</stack>
+                           <fb>
+                                 <f>6</f>
+                                 <f>5</f>
+                           </fb>
                      </harm>
                   </measure>
                   <measure n="8" xml:id="d469095e3797">
@@ -1899,10 +1905,16 @@
                         </layer>
                      </staff>
                      <harm staff="5" place="above" tstamp="3">
-                        <stack>64</stack>
+                           <fb>
+                                 <f>6</f>
+                                 <f>4</f>
+                           </fb>
                      </harm>
                      <harm staff="5" place="above" tstamp="4">
-                        <stack>53</stack>
+                           <fb>
+                                 <f>5</f>
+                                 <f>3</f>
+                           </fb>
                      </harm>
                   </measure>
                   <measure n="9" xml:id="d469095e4337">
@@ -2114,10 +2126,16 @@
                         </layer>
                      </staff>
                      <harm place="above" staff="5" tstamp="3">
-                        <stack>64</stack>
+                           <fb>
+                                 <f>6</f>
+                                 <f>4</f>
+                           </fb>
                      </harm>
                      <harm place="above" staff="5" tstamp="4">
-                        <stack>53</stack>
+                           <fb>
+                                 <f>5</f>
+                                 <f>3</f>
+                           </fb>
                      </harm>
                   </measure>
                   <measure n="10" xml:id="d469095e4877">
@@ -2509,10 +2527,10 @@
                         </layer>
                      </staff>
                      <harm tstamp="1" place="above" staff="5">
-                        <stack>64</stack>
+                        <fb><f>6</f><f>4</f></fb>
                      </harm>
                      <harm tstamp="2" place="above" staff="5">
-                        <stack>53</stack>
+                        <fb><f>5</f><f>3</f></fb>
                      </harm>
                   </measure>
                   <measure n="12" xml:id="d469095e5894">
@@ -2724,10 +2742,10 @@
                         </layer>
                      </staff>
                      <harm staff="5" tstamp="1" place="above">
-                        <stack>64</stack>
+                        <fb><f>6</f><f>4</f></fb>
                      </harm>
                      <harm staff="5" tstamp="2" place="above">
-                        <stack>53</stack>
+                        <fb><f>5</f><f>3</f></fb>
                      </harm>
                   </measure>
                   <measure n="13" xml:id="d469095e6434">
@@ -2916,16 +2934,16 @@
                         </layer>
                      </staff>
                      <harm staff="5" tstamp="1" place="above">
-                        <stack>64</stack>
+                        <fb><f>6</f><f>4</f></fb>
                      </harm>
                      <harm staff="5" tstamp="2" place="above">
-                        <stack>53</stack>
+                        <fb><f>5</f><f>3</f></fb>
                      </harm>
                      <harm staff="5" tstamp="3" place="above">
-                        <stack>64</stack>
+                        <fb><f>6</f><f>4</f></fb>
                      </harm>
                      <harm staff="5" tstamp="4" place="above">
-                        <stack>53</stack>
+                        <fb><f>5</f><f>3</f></fb>
                      </harm>
                   </measure>
                </section>
