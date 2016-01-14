@@ -792,8 +792,8 @@
                      <staff n="1">
                         <layer n="1">
                            <chord xml:id="d285e1" dur="8" stem.dir="down">
-                              <note xml:id="d1e746" pname="d" accid="f" oct="5" accid.ges="f"/>
-                              <note xml:id="d1e765" pname="g" accid="f" oct="5" accid.ges="f"/>
+                              <note xml:id="d1e746" pname="d" accid="f" oct="5"/>
+                              <note xml:id="d1e765" pname="g" accid="f" oct="5"/>
                            </chord>
                            <rest xml:id="d1e782" dur="8"/>
                            <note xml:id="d1e798"
@@ -1199,8 +1199,7 @@
                                  pname="c"
                                  accid="s"
                                  oct="5"
-                                 dur="4"
-                                 accid.ges="s"
+                                 dur="4"
                                  stem.dir="down"/>
                            <note xml:id="d1e1159" pname="a" oct="4" dur="4" stem.dir="up"/>
                            <note xml:id="d1e1174" pname="a" oct="4" dur="4" stem.dir="up"/>
@@ -1352,8 +1351,7 @@
                                  pname="c"
                                  accid="s"
                                  oct="5"
-                                 dur="4"
-                                 accid.ges="s"
+                                 dur="4"
                                  stem.dir="down"/>
                            <note xml:id="d1e1325" pname="a" oct="4" dur="4" stem.dir="up"/>
                            <note xml:id="d1e1339" pname="a" oct="4" dur="4" stem.dir="up"/>
@@ -3324,8 +3322,7 @@
                                     pname="c"
                                     accid="s"
                                     oct="5"
-                                    dur="8"
-                                    accid.ges="s"
+                                    dur="8"
                                     stem.dir="down">
                                  <artic artic="stacc"/>
                               </note>
@@ -4005,8 +4002,7 @@
                                     pname="f"
                                     accid="s"
                                     oct="5"
-                                    dur="8"
-                                    accid.ges="s"
+                                    dur="8"
                                     stem.dir="down">
                                  <artic artic="stacc"/>
                               </note>
@@ -4180,8 +4176,7 @@
                                     pname="f"
                                     accid="s"
                                     oct="4"
-                                    dur="8"
-                                    accid.ges="s"
+                                    dur="8"
                                     stem.dir="up">
                                  <artic artic="stacc"/>
                               </note>

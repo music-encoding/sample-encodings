@@ -688,7 +688,7 @@
                            <rest xml:id="d1e2472" dur="8"/>
                            <rest xml:id="d1e2482" dur="8"/>
                            <chord xml:id="d261e1" dur="8" stem.dir="down">
-                              <note xml:id="d1e2492" pname="b" accid="f" oct="3" accid.ges="f"/>
+                              <note xml:id="d1e2492" pname="b" accid="f" oct="3"/>
                               <note xml:id="d1e2510" pname="c" oct="4"/>
                            </chord>
                            <chord xml:id="d265e1" dur="8" stem.dir="down">
@@ -764,8 +764,7 @@
                                  accid="f"
                                  oct="4"
                                  dur="8"
-                                 stem.dir="up"
-                                 accid.ges="f">
+                                 stem.dir="up">
                               <artic artic="acc" place="above"/>
                            </note>
                            <note xml:id="d1e2815" pname="a" oct="4" dur="8" stem.dir="up">
@@ -1170,8 +1169,7 @@
                                  accid="f"
                                  oct="4"
                                  dur="8"
-                                 stem.dir="up"
-                                 accid.ges="f">
+                                 stem.dir="up">
                               <artic artic="stacc" place="above"/>
                            </note>
                            <note xml:id="d1e4675" pname="a" oct="4" dur="8" stem.dir="up">

@@ -582,8 +582,7 @@
                                     pname="a"
                                     accid="f"
                                     oct="4"
-                                    dur="8"
-                                    accid.ges="f"
+                                    dur="8"
                                     syl="Trif-"/>
                               <note xml:id="d1e1807"
                                     pname="b"
@@ -603,15 +602,14 @@
                                     pname="a"
                                     accid="f"
                                     oct="4"
-                                    dur="8"
-                                    accid.ges="f"/>
+                                    dur="8"/>
                               <note xml:id="d1e1893" pname="b" oct="4" dur="8" accid.ges="f"/>
                            </beam>
                         </layer>
                         <layer n="2">
                            <chord xml:id="d144e1" dur="2">
                               <note xml:id="d1e1918" pname="e" oct="4" accid.ges="f"/>
-                              <note xml:id="d1e1936" pname="g" accid="f" oct="4" accid.ges="f"/>
+                              <note xml:id="d1e1936" pname="g" accid="f" oct="4"/>
                            </chord>
                            <note xml:id="d1e1957" pname="f" oct="4" dur="4"/>
                         </layer>

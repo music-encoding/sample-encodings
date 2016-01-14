@@ -761,7 +761,7 @@
                                  <note xml:id="d1e3077" pname="g" oct="4"/>
                               </chord>
                               <chord xml:id="d252e1" dur="8" stem.dir="down">
-                                 <note xml:id="d1e3101" pname="d" accid="s" oct="4" accid.ges="s"/>
+                                 <note xml:id="d1e3101" pname="d" accid="s" oct="4"/>
                                  <note xml:id="d1e3125" pname="f" oct="4" accid.ges="s"/>
                               </chord>
                            </beam>
@@ -867,13 +867,13 @@
                         </layer>
                         <layer n="2">
                            <chord xml:id="d282e1" dur="4" stem.dir="down">
-                              <note xml:id="d1e3471" pname="d" accid="s" oct="4" accid.ges="s"/>
+                              <note xml:id="d1e3471" pname="d" accid="s" oct="4"/>
                               <note xml:id="d1e3491" pname="f" oct="4" accid.ges="s"/>
                            </chord>
                            <beam>
                               <chord xml:id="d286e1" dur="8" tuplet="i1" stem.dir="down">
                                  <artic artic="stacc" place="above"/>
-                                 <note xml:id="d1e3510" pname="c" accid="s" oct="4" accid.ges="s"/>
+                                 <note xml:id="d1e3510" pname="c" accid="s" oct="4"/>
                                  <note xml:id="d1e3541" pname="e" oct="4"/>
                               </chord>
                               <chord xml:id="d290e1" dur="8" tuplet="m1" stem.dir="down">

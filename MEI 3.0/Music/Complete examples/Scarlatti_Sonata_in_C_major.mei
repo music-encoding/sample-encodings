@@ -790,8 +790,7 @@
                                     accid="s"
                                     oct="6"
                                     dur="16"
-                                    stem.dir="down"
-                                    accid.ges="s"/>
+                                    stem.dir="down"/>
                            </beam>
                            <beam>
                               <note xml:id="d1e1967" pname="g" oct="6" dur="16" stem.dir="down"/>
@@ -843,8 +842,7 @@
                                     accid="s"
                                     oct="5"
                                     dur="16"
-                                    stem.dir="down"
-                                    accid.ges="s"/>
+                                    stem.dir="down"/>
                               <note xml:id="d1e2278" pname="e" oct="5" dur="16" stem.dir="down"/>
                            </beam>
                         </layer>
@@ -880,8 +878,7 @@
                                     accid="s"
                                     oct="5"
                                     dur="16"
-                                    stem.dir="down"
-                                    accid.ges="s"/>
+                                    stem.dir="down"/>
                               <note xml:id="d1e2403" pname="g" oct="5" dur="16" stem.dir="down"/>
                            </beam>
                            <note xml:id="d1e2421"
@@ -974,7 +971,7 @@
                               <artic artic="stacc" place="above"/>
                               <artic artic="stacc" place="above"/>
                               <note xml:id="d1e2749" pname="g" oct="3"/>
-                              <note xml:id="d1e2766" pname="f" accid="s" oct="4" accid.ges="s"/>
+                              <note xml:id="d1e2766" pname="f" accid="s" oct="4"/>
                            </chord>
                            <chord xml:id="d249e1" dur="4" stem.dir="down">
                               <artic artic="stacc" place="above"/>
@@ -1049,7 +1046,7 @@
                               <artic artic="stacc" place="above"/>
                               <artic artic="stacc" place="above"/>
                               <note xml:id="d1e3098" pname="g" oct="3"/>
-                              <note xml:id="d1e3115" pname="f" accid="s" oct="4" accid.ges="s"/>
+                              <note xml:id="d1e3115" pname="f" accid="s" oct="4"/>
                            </chord>
                            <chord xml:id="d303e1" dur="4" stem.dir="down">
                               <artic artic="stacc" place="above"/>
@@ -1183,8 +1180,7 @@
                                  accid="s"
                                  oct="5"
                                  dur="2"
-                                 stem.dir="up"
-                                 accid.ges="s"/>
+                                 stem.dir="up"/>
                         </layer>
                         <layer n="2">
                            <chord xml:id="d371e1" dur="4" stem.dir="down">
@@ -1258,8 +1254,7 @@
                                  accid="s"
                                  oct="5"
                                  dur="2"
-                                 stem.dir="up"
-                                 accid.ges="s"/>
+                                 stem.dir="up"/>
                         </layer>
                         <layer n="2">
                            <chord xml:id="d413e1" dur="4" stem.dir="down">
@@ -1519,7 +1514,7 @@
                               <artic artic="stacc" place="above"/>
                               <note xml:id="d1e5293" pname="g" oct="3"/>
                               <note xml:id="d1e5310" pname="a" oct="3"/>
-                              <note xml:id="d1e5328" pname="c" accid="s" oct="4" accid.ges="s"/>
+                              <note xml:id="d1e5328" pname="c" accid="s" oct="4"/>
                            </chord>
                            <rest xml:id="d1e5350" dur="2"/>
                         </layer>
@@ -1613,7 +1608,7 @@
                            <chord xml:id="d636e1" dur="2" stem.dir="down">
                               <note xml:id="d1e5704" pname="a" oct="3"/>
                               <note xml:id="d1e5718" pname="b" oct="3"/>
-                              <note xml:id="d1e5733" pname="d" accid="s" oct="4" accid.ges="s"/>
+                              <note xml:id="d1e5733" pname="d" accid="s" oct="4"/>
                            </chord>
                            <rest xml:id="d1e5752" dur="2"/>
                            <!--<clefchange shape="G" line="2"/>-->
@@ -1922,7 +1917,7 @@
                               <artic artic="stacc" place="above"/>
                               <artic artic="stacc" place="above"/>
                               <note xml:id="d1e7236" pname="g" oct="3"/>
-                              <note xml:id="d1e7253" pname="f" accid="s" oct="4" accid.ges="s"/>
+                              <note xml:id="d1e7253" pname="f" accid="s" oct="4"/>
                            </chord>
                            <chord xml:id="d839e1" dur="4" stem.dir="up">
                               <artic artic="stacc" place="above"/>
@@ -1966,7 +1961,7 @@
                               <artic artic="stacc" place="above"/>
                               <artic artic="stacc" place="above"/>
                               <note xml:id="d1e7478" pname="g" oct="3"/>
-                              <note xml:id="d1e7495" pname="f" accid="s" oct="4" accid.ges="s"/>
+                              <note xml:id="d1e7495" pname="f" accid="s" oct="4"/>
                            </chord>
                            <chord xml:id="d868e1" dur="4" stem.dir="up">
                               <artic artic="stacc" place="above"/>
@@ -2010,7 +2005,7 @@
                               <artic artic="stacc" place="above"/>
                               <artic artic="stacc" place="above"/>
                               <note xml:id="d1e7720" pname="g" oct="3"/>
-                              <note xml:id="d1e7737" pname="f" accid="s" oct="4" accid.ges="s"/>
+                              <note xml:id="d1e7737" pname="f" accid="s" oct="4"/>
                            </chord>
                            <chord xml:id="d897e1" dur="4" stem.dir="up">
                               <artic artic="stacc" place="above"/>
@@ -2192,8 +2187,7 @@
                                     accid="f"
                                     oct="5"
                                     dur="16"
-                                    stem.dir="down"
-                                    accid.ges="f"/>
+                                    stem.dir="down"/>
                               <note xml:id="d1e8608" pname="d" oct="6" dur="16" stem.dir="down"/>
                               <note xml:id="d1e8624" pname="c" oct="6" dur="16" stem.dir="down"/>
                            </beam>
@@ -2316,7 +2310,7 @@
                               <artic artic="stacc" place="above"/>
                               <artic artic="stacc" place="above"/>
                               <note xml:id="d1e9192" pname="c" oct="4"/>
-                              <note xml:id="d1e9209" pname="b" accid="f" oct="4" accid.ges="f"/>
+                              <note xml:id="d1e9209" pname="b" accid="f" oct="4"/>
                            </chord>
                            <chord xml:id="d1025e1" dur="4" stem.dir="up">
                               <artic artic="stacc" place="above"/>
@@ -2389,7 +2383,7 @@
                               <artic artic="stacc" place="above"/>
                               <artic artic="stacc" place="above"/>
                               <note xml:id="d1e9527" pname="c" oct="4"/>
-                              <note xml:id="d1e9544" pname="b" accid="f" oct="4" accid.ges="f"/>
+                              <note xml:id="d1e9544" pname="b" accid="f" oct="4"/>
                            </chord>
                            <chord xml:id="d1079e1" dur="4" stem.dir="up">
                               <artic artic="stacc" place="above"/>
@@ -2523,7 +2517,7 @@
                               <artic artic="stacc" place="above"/>
                               <artic artic="stacc" place="above"/>
                               <note xml:id="d1e10169" pname="c" oct="5" syl="p"/>
-                              <note xml:id="d1e10191" pname="b" accid="f" oct="5" accid.ges="f"/>
+                              <note xml:id="d1e10191" pname="b" accid="f" oct="5"/>
                            </chord>
                            <chord xml:id="d1159e1" dur="4" stem.dir="down">
                               <artic artic="stacc" place="above"/>
@@ -2603,7 +2597,7 @@
                               <artic artic="stacc" place="above"/>
                               <artic artic="stacc" place="above"/>
                               <note xml:id="d1e10517" pname="c" oct="5"/>
-                              <note xml:id="d1e10534" pname="b" accid="f" oct="5" accid.ges="f"/>
+                              <note xml:id="d1e10534" pname="b" accid="f" oct="5"/>
                            </chord>
                            <chord xml:id="d1205e1" dur="4" stem.dir="down">
                               <artic artic="stacc" place="above"/>

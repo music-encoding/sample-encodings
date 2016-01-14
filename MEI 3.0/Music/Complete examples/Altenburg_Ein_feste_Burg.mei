@@ -996,8 +996,7 @@
                                  pname="f"
                                  accid="s"
                                  oct="5"
-                                 dur="4"
-                                 accid.ges="s"/>
+                                 dur="4"/>
                         </layer>
                      </staff>
                      <staff n="4">
@@ -1782,8 +1781,7 @@
                                  pname="f"
                                  accid="s"
                                  oct="4"
-                                 dur="4"
-                                 accid.ges="s"/>
+                                 dur="4"/>
                         </layer>
                      </staff>
                      <staff n="3">
@@ -1802,8 +1800,7 @@
                                  pname="f"
                                  accid="s"
                                  oct="3"
-                                 dur="4"
-                                 accid.ges="s">
+                                 dur="4">
                               <verse n="1">
                                  <syl>se</syl>
                               </verse>
@@ -1844,8 +1841,7 @@
                                     pname="f"
                                     accid="s"
                                     oct="4"
-                                    dur="8"
-                                    accid.ges="s"/>
+                                    dur="8"/>
                            </beam>
                            <note xml:id="d16531e7299" pname="g" oct="4" dur="2"/>
                         </layer>
@@ -2301,13 +2297,11 @@
                                  <note xml:id="d16531e9400"
                                        pname="f"
                                        accid="s"
-                                       oct="4"
-                                       accid.ges="s"/>
+                                       oct="4"/>
                                  <note xml:id="d16531e9422"
                                        pname="f"
                                        accid="s"
-                                       oct="5"
-                                       accid.ges="s"/>
+                                       oct="5"/>
                               </chord>
                               <chord xml:id="d17315e1" dur="8">
                                  <note xml:id="d16531e9443" pname="g" oct="4"/>
@@ -2494,13 +2488,11 @@
                               <note xml:id="d16531e10303"
                                     pname="g"
                                     accid="s"
-                                    oct="4"
-                                    accid.ges="s"/>
+                                    oct="4"/>
                               <note xml:id="d16531e10321"
                                     pname="g"
                                     accid="s"
-                                    oct="5"
-                                    accid.ges="s"/>
+                                    oct="5"/>
                            </chord>
                            <chord xml:id="d17413e1" dur="2">
                               <note xml:id="d16531e10340" pname="a" oct="4"/>
@@ -2530,8 +2522,7 @@
                                  pname="c"
                                  accid="s"
                                  oct="4"
-                                 dur="2"
-                                 accid.ges="s"/>
+                                 dur="2"/>
                         </layer>
                      </staff>
                      <staff n="6">
@@ -2662,8 +2653,7 @@
                                  pname="c"
                                  accid="s"
                                  oct="3"
-                                 dur="4"
-                                 accid.ges="s"/>
+                                 dur="4"/>
                            <note xml:id="d16531e11102" pname="d" oct="3" dur="4"/>
                            <note xml:id="d16531e11114" pname="a" oct="2" dur="4"/>
                         </layer>
@@ -2802,13 +2792,11 @@
                               <note xml:id="d16531e11747"
                                     pname="g"
                                     accid="s"
-                                    oct="4"
-                                    accid.ges="s"/>
+                                    oct="4"/>
                               <note xml:id="d16531e11767"
                                     pname="g"
                                     accid="s"
-                                    oct="5"
-                                    accid.ges="s"/>
+                                    oct="5"/>
                            </chord>
                         </layer>
                      </staff>
@@ -2836,8 +2824,7 @@
                                  pname="g"
                                  accid="s"
                                  oct="2"
-                                 dur="4"
-                                 accid.ges="s"/>
+                                 dur="4"/>
                            <note xml:id="d16531e11884" pname="a" oct="2" dur="4"/>
                            <note xml:id="d16531e11896" pname="e" oct="3" dur="4"/>
                         </layer>
@@ -3099,8 +3086,7 @@
                                  pname="b"
                                  accid="f"
                                  oct="2"
-                                 dur="4"
-                                 accid.ges="f"/>
+                                 dur="4"/>
                            <note xml:id="d16531e13182" pname="c" oct="3" dur="4"/>
                            <note xml:id="d16531e13194" pname="g" oct="2" dur="2"/>
                         </layer>

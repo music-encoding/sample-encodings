@@ -416,8 +416,7 @@
                                        pname="a"
                                        accid="f"
                                        oct="3"
-                                       staff="3"
-                                       accid.ges="f"/>
+                                       staff="3"/>
                                  <note xml:id="d1e1757" pname="c" oct="4" staff="3"/>
                                  <note xml:id="d1e1774" pname="d" oct="4" staff="3"/>
                               </chord>
@@ -452,8 +451,7 @@
                                     accid="f"
                                     oct="5"
                                     dur="8"
-                                    stem.dir="up"
-                                    accid.ges="f">
+                                    stem.dir="up">
                                  <verse>
                                     <syl>Je</syl>
                                  </verse>
@@ -501,8 +499,7 @@
                                        pname="d"
                                        accid="f"
                                        oct="4"
-                                       staff="2"
-                                       accid.ges="f"/>
+                                       staff="2"/>
                                  <note xml:id="d1e2362" pname="f" oct="4" staff="2"/>
                                  <note xml:id="d1e2321" pname="a" oct="3" staff="3" accid.ges="f"/>
                               </chord>
@@ -515,8 +512,7 @@
                                        pname="f"
                                        accid="f"
                                        oct="4"
-                                       staff="2"
-                                       accid.ges="f"/>
+                                       staff="2"/>
                                  <note xml:id="d1e2548" pname="g" oct="3" staff="3"/>
                               </chord>
                               <chord copyof="#d190e1"/>
@@ -557,8 +553,7 @@
                                     oct="4"
                                     dur="8"
                                     dots="1"
-                                    stem.dir="up"
-                                    accid.ges="f">
+                                    stem.dir="up">
                                  <verse>
                                     <syl>dent</syl>
                                  </verse>
@@ -648,8 +643,7 @@
                                     oct="4"
                                     dur="8"
                                     tuplet="t1"
-                                    stem.dir="up"
-                                    accid.ges="f"/>
+                                    stem.dir="up"/>
                            </beam>
                            <beam>
                               <note xml:id="d1e3313"
@@ -982,8 +976,8 @@
                      <staff n="3">
                         <layer n="1">
                            <chord xml:id="d412e1" dur="2" dots="1" stem.dir="down">
-                              <note xml:id="d1e5373" pname="d" accid="f" oct="2" accid.ges="f"/>
-                              <note xml:id="d1e5394" pname="d" accid="f" oct="3" accid.ges="f"/>
+                              <note xml:id="d1e5373" pname="d" accid="f" oct="2"/>
+                              <note xml:id="d1e5394" pname="d" accid="f" oct="3"/>
                            </chord>
                         </layer>
                      </staff>
@@ -1039,8 +1033,7 @@
                                        pname="d"
                                        accid="f"
                                        oct="4"
-                                       staff="2"
-                                       accid.ges="f"/>
+                                       staff="2"/>
                                  <note xml:id="d1e5500" pname="f" oct="4" staff="2"/>
                                  <note xml:id="d1e5459" pname="a" oct="3" staff="3" accid.ges="f"/>
                               </chord>

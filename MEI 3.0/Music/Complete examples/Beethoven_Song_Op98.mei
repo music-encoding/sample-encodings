@@ -848,8 +848,7 @@
                                     accid="f"
                                     oct="4"
                                     dur="8"
-                                    stem.dir="up"
-                                    accid.ges="f">
+                                    stem.dir="up">
                                  <verse>
                                     <syl>Trif-</syl>
                                  </verse>
@@ -887,8 +886,7 @@
                                     accid="f"
                                     oct="4"
                                     dur="8"
-                                    stem.dir="up"
-                                    accid.ges="f"/>
+                                    stem.dir="up"/>
                               <note xml:id="d1e1893"
                                     pname="b"
                                     oct="4"
@@ -900,7 +898,7 @@
                         <layer n="2">
                            <chord xml:id="d144e1" dur="2" stem.dir="down">
                               <note xml:id="d1e1918" pname="e" oct="4" accid.ges="f"/>
-                              <note xml:id="d1e1936" pname="g" accid="f" oct="4" accid.ges="f"/>
+                              <note xml:id="d1e1936" pname="g" accid="f" oct="4"/>
                            </chord>
                            <note xml:id="d1e1957" pname="f" oct="4" dur="4" stem.dir="down"/>
                         </layer>
@@ -1477,7 +1475,7 @@
                      <staff n="2">
                         <layer n="1">
                            <chord xml:id="d352e1" dur="8" stem.dir="up">
-                              <note xml:id="d1e4285" pname="e" accid="f" oct="4" accid.ges="f"/>
+                              <note xml:id="d1e4285" pname="e" accid="f" oct="4"/>
                               <note xml:id="d1e4305" pname="g" oct="4"/>
                            </chord>
                            <rest xml:id="d1e4322" dur="8"/>
@@ -1502,7 +1500,7 @@
                      <staff n="3">
                         <layer n="1">
                            <chord xml:id="d368e1" dur="8" stem.dir="down">
-                              <note xml:id="d1e4475" pname="e" accid="f" oct="3" accid.ges="f"/>
+                              <note xml:id="d1e4475" pname="e" accid="f" oct="3"/>
                               <note xml:id="d1e4495" pname="g" oct="3"/>
                            </chord>
                            <rest xml:id="d1e4512" dur="8"/>

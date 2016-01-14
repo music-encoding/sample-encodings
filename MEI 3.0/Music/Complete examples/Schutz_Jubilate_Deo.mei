@@ -594,8 +594,7 @@
                                  accid="f"
                                  oct="4"
                                  dur="2"
-                                 stem.dir="up"
-                                 accid.ges="f"/>
+                                 stem.dir="up"/>
                         </layer>
                      </staff>
                      <staff n="3">
@@ -607,8 +606,7 @@
                                  accid="f"
                                  oct="3"
                                  dur="4"
-                                 stem.dir="down"
-                                 accid.ges="f"/>
+                                 stem.dir="down"/>
                            <note xml:id="d1e1625" pname="c" oct="3" dur="4" stem.dir="up"/>
                         </layer>
                      </staff>
@@ -1786,8 +1784,7 @@
                                     accid="f"
                                     oct="4"
                                     dur="16"
-                                    stem.dir="up"
-                                    accid.ges="f"/>
+                                    stem.dir="up"/>
                            </beam>
                            <note xml:id="d1e5415" pname="d" oct="4" dur="4" stem.dir="up"/>
                            <note xml:id="d1e5429" pname="a" oct="4" dur="4" stem.dir="up"/>
@@ -1808,8 +1805,7 @@
                                     accid="f"
                                     oct="4"
                                     dur="16"
-                                    stem.dir="up"
-                                    accid.ges="f"/>
+                                    stem.dir="up"/>
                               <note xml:id="d1e5503" pname="d" oct="4" dur="16" stem.dir="up"/>
                               <note xml:id="d1e5521" pname="c" oct="4" dur="16" stem.dir="up"/>
                            </beam>
@@ -2493,8 +2489,7 @@
                                  accid="s"
                                  oct="4"
                                  dur="4"
-                                 stem.dir="down"
-                                 accid.ges="s"/>
+                                 stem.dir="down"/>
                         </layer>
                      </staff>
                      <staff n="4">
@@ -2584,8 +2579,7 @@
                                  accid="s"
                                  oct="4"
                                  dur="4"
-                                 stem.dir="down"
-                                 accid.ges="s">
+                                 stem.dir="down">
                               <verse>
                                  <syl>ti-</syl>
                               </verse>
@@ -2607,8 +2601,7 @@
                                  accid="s"
                                  oct="4"
                                  dur="4"
-                                 stem.dir="up"
-                                 accid.ges="s"/>
+                                 stem.dir="up"/>
                            <beam>
                               <note xml:id="d1e7990"
                                     pname="f"
@@ -2643,8 +2636,7 @@
                                     accid="s"
                                     oct="4"
                                     dur="8"
-                                    stem.dir="up"
-                                    accid.ges="s"/>
+                                    stem.dir="up"/>
                               <note xml:id="d1e8134" pname="e" oct="4" dur="8" stem.dir="up"/>
                            </beam>
                            <note xml:id="d1e8150"
@@ -2695,8 +2687,7 @@
                                  accid="s"
                                  oct="4"
                                  dur="4"
-                                 stem.dir="up"
-                                 accid.ges="s">
+                                 stem.dir="up">
                               <verse>
                                  <syl>a,</syl>
                               </verse>
@@ -3847,8 +3838,7 @@
                                  accid="s"
                                  oct="5"
                                  dur="2"
-                                 stem.dir="down"
-                                 accid.ges="s">
+                                 stem.dir="down">
                               <artic/>
                            </note>
                         </layer>
@@ -3940,8 +3930,7 @@
                                  accid="s"
                                  oct="4"
                                  dur="2"
-                                 stem.dir="down"
-                                 accid.ges="s">
+                                 stem.dir="down">
                               <verse>
                                  <syl>te</syl>
                               </verse>
@@ -5436,8 +5425,7 @@
                                  accid="f"
                                  oct="3"
                                  dur="4"
-                                 stem.dir="down"
-                                 accid.ges="f"/>
+                                 stem.dir="down"/>
                            <beam>
                               <note xml:id="d1e16351" pname="g" oct="3" dur="8" stem.dir="down"/>
                               <note xml:id="d1e16367" pname="f" oct="3" dur="8" stem.dir="down"/>
@@ -5540,8 +5528,7 @@
                                  accid="f"
                                  oct="3"
                                  dur="4"
-                                 stem.dir="down"
-                                 accid.ges="f">
+                                 stem.dir="down">
                               <verse>
                                  <syl>fe-</syl>
                               </verse>
@@ -5584,8 +5571,7 @@
                                  pname="e"
                                  accid="f"
                                  oct="4"
-                                 dur="1"
-                                 accid.ges="f"/>
+                                 dur="1"/>
                         </layer>
                      </staff>
                      <staff n="3">
@@ -5653,8 +5639,7 @@
                                     accid="f"
                                     oct="4"
                                     dur="16"
-                                    stem.dir="up"
-                                    accid.ges="f">
+                                    stem.dir="up">
                                  <verse>
                                     <syl>te,</syl>
                                  </verse>
@@ -5762,8 +5747,7 @@
                                     oct="4"
                                     dur="8"
                                     dots="1"
-                                    stem.dir="down"
-                                    accid.ges="f">
+                                    stem.dir="down">
                                  <verse>
                                     <syl>to-</syl>
                                  </verse>
@@ -6342,8 +6326,7 @@
                                  pname="e"
                                  accid="f"
                                  oct="3"
-                                 dur="1"
-                                 accid.ges="f"/>
+                                 dur="1"/>
                         </layer>
                      </staff>
                      <staff n="5">
@@ -6483,8 +6466,7 @@
                                     accid="f"
                                     oct="3"
                                     dur="16"
-                                    stem.dir="down"
-                                    accid.ges="f">
+                                    stem.dir="down">
                                  <verse>
                                     <syl>te,</syl>
                                  </verse>
@@ -6608,8 +6590,7 @@
                                  accid="s"
                                  oct="4"
                                  dur="2"
-                                 stem.dir="up"
-                                 accid.ges="s"/>
+                                 stem.dir="up"/>
                            <note xml:id="d1e19440"
                                  pname="d"
                                  oct="4"
@@ -6654,8 +6635,7 @@
                                     accid="s"
                                     oct="4"
                                     dur="8"
-                                    stem.dir="up"
-                                    accid.ges="s">
+                                    stem.dir="up">
                                  <verse>
                                     <syl>De-</syl>
                                  </verse>
@@ -6810,8 +6790,7 @@
                                  accid="s"
                                  oct="4"
                                  dur="4"
-                                 stem.dir="up"
-                                 accid.ges="s"/>
+                                 stem.dir="up"/>
                         </layer>
                      </staff>
                      <staff n="3">
@@ -6844,8 +6823,7 @@
                                  accid="s"
                                  oct="2"
                                  dur="4"
-                                 stem.dir="up"
-                                 accid.ges="s"/>
+                                 stem.dir="up"/>
                            <note xml:id="d1e20049" pname="a" oct="2" dur="2" stem.dir="up"/>
                         </layer>
                      </staff>
@@ -6913,8 +6891,7 @@
                                  accid="s"
                                  oct="4"
                                  dur="4"
-                                 stem.dir="down"
-                                 accid.ges="s">
+                                 stem.dir="down">
                               <verse>
                                  <syl>cit</syl>
                               </verse>
@@ -7364,8 +7341,7 @@
                                  accid="s"
                                  oct="5"
                                  dur="4"
-                                 stem.dir="down"
-                                 accid.ges="s"/>
+                                 stem.dir="down"/>
                            <note xml:id="d1e21599"
                                  pname="d"
                                  oct="5"
@@ -7426,8 +7402,7 @@
                                     accid="s"
                                     oct="4"
                                     dur="8"
-                                    stem.dir="up"
-                                    accid.ges="s">
+                                    stem.dir="up">
                                  <verse>
                                     <syl>De-</syl>
                                  </verse>
@@ -7564,8 +7539,7 @@
                                  accid="s"
                                  oct="4"
                                  dur="4"
-                                 stem.dir="up"
-                                 accid.ges="s"/>
+                                 stem.dir="up"/>
                         </layer>
                      </staff>
                      <staff n="3">
@@ -7575,8 +7549,7 @@
                                  accid="s"
                                  oct="4"
                                  dur="4"
-                                 stem.dir="down"
-                                 accid.ges="s">
+                                 stem.dir="down">
                               <artic/>
                            </note>
                            <note xml:id="d1e22187" pname="d" oct="4" dur="2" stem.dir="down"/>
@@ -7645,8 +7618,7 @@
                                  accid="s"
                                  oct="3"
                                  dur="4"
-                                 stem.dir="up"
-                                 accid.ges="s">
+                                 stem.dir="up">
                               <verse>
                                  <syl>fe-</syl>
                               </verse>
@@ -8074,8 +8046,7 @@
                                  accid="f"
                                  oct="4"
                                  dur="2"
-                                 stem.dir="down"
-                                 accid.ges="f"/>
+                                 stem.dir="down"/>
                            <note xml:id="d1e23757"
                                  pname="e"
                                  accid="n"
@@ -8097,8 +8068,7 @@
                                  accid="f"
                                  oct="3"
                                  dur="4"
-                                 stem.dir="down"
-                                 accid.ges="f"/>
+                                 stem.dir="down"/>
                            <note xml:id="d1e23809" pname="d" oct="3" dur="4" stem.dir="down"/>
                            <note xml:id="d1e23823" pname="c" oct="3" dur="4" stem.dir="up"/>
                            <note xml:id="d1e23837" pname="a" oct="2" dur="4" stem.dir="up"/>
@@ -8197,8 +8167,7 @@
                                  accid="f"
                                  oct="3"
                                  dur="2"
-                                 stem.dir="down"
-                                 accid.ges="f">
+                                 stem.dir="down">
                               <verse>
                                  <syl>nos,</syl>
                               </verse>
@@ -9089,8 +9058,7 @@
                                  accid="s"
                                  oct="4"
                                  dur="2"
-                                 stem.dir="down"
-                                 accid.ges="s"/>
+                                 stem.dir="down"/>
                            <note xml:id="d1e26761" pname="f" oct="4" dur="2" stem.dir="down"/>
                         </layer>
                      </staff>
@@ -9161,8 +9129,7 @@
                                     accid="s"
                                     oct="4"
                                     dur="8"
-                                    stem.dir="up"
-                                    accid.ges="s">
+                                    stem.dir="up">
                                  <verse>
                                     <syl>In-</syl>
                                  </verse>
@@ -9267,8 +9234,7 @@
                                  accid="s"
                                  oct="4"
                                  dur="4"
-                                 stem.dir="down"
-                                 accid.ges="s"/>
+                                 stem.dir="down"/>
                            <note xml:id="d1e27328"
                                  pname="g"
                                  oct="4"
@@ -9364,8 +9330,7 @@
                                  accid="s"
                                  oct="4"
                                  dur="4"
-                                 stem.dir="up"
-                                 accid.ges="s">
+                                 stem.dir="up">
                               <verse>
                                  <syl>o-</syl>
                               </verse>
@@ -9487,8 +9452,7 @@
                                  accid="s"
                                  oct="4"
                                  dur="4"
-                                 stem.dir="down"
-                                 accid.ges="s"/>
+                                 stem.dir="down"/>
                            <note xml:id="d1e27796" pname="g" oct="4" dur="2" stem.dir="down"/>
                         </layer>
                      </staff>
@@ -9537,8 +9501,7 @@
                                  accid="s"
                                  oct="4"
                                  dur="4"
-                                 stem.dir="up"
-                                 accid.ges="s"/>
+                                 stem.dir="up"/>
                            <note xml:id="d1e27932" pname="g" oct="4" dur="2" stem.dir="up">
                               <verse>
                                  <syl>ne,</syl>
@@ -9695,8 +9658,7 @@
                                  accid="f"
                                  oct="4"
                                  dur="2"
-                                 stem.dir="down"
-                                 accid.ges="f"/>
+                                 stem.dir="down"/>
                         </layer>
                      </staff>
                      <staff n="4">
@@ -9792,8 +9754,7 @@
                                  oct="4"
                                  dur="4"
                                  dots="1"
-                                 stem.dir="up"
-                                 accid.ges="f">
+                                 stem.dir="up">
                               <verse>
                                  <syl>po-</syl>
                               </verse>
@@ -9867,8 +9828,7 @@
                                     accid="f"
                                     oct="3"
                                     dur="8"
-                                    stem.dir="down"
-                                    accid.ges="f">
+                                    stem.dir="down">
                                  <verse>
                                     <syl>pa-</syl>
                                  </verse>
@@ -12044,8 +12004,7 @@
                                  accid="s"
                                  oct="5"
                                  dur="4"
-                                 stem.dir="down"
-                                 accid.ges="s"/>
+                                 stem.dir="down"/>
                         </layer>
                      </staff>
                      <staff n="2">
@@ -12195,8 +12154,7 @@
                                  accid="s"
                                  oct="4"
                                  dur="4"
-                                 stem.dir="down"
-                                 accid.ges="s">
+                                 stem.dir="down">
                               <verse>
                                  <syl>e-</syl>
                               </verse>
@@ -12233,8 +12191,7 @@
                                  accid="s"
                                  oct="4"
                                  dur="2"
-                                 stem.dir="down"
-                                 accid.ges="s">
+                                 stem.dir="down">
                               <artic/>
                            </note>
                            <note xml:id="d1e36146" pname="g" oct="4" dur="4" stem.dir="down"/>
@@ -12270,8 +12227,7 @@
                                  accid="s"
                                  oct="4"
                                  dur="2"
-                                 stem.dir="up"
-                                 accid.ges="s">
+                                 stem.dir="up">
                               <verse>
                                  <syl>jus,</syl>
                               </verse>
@@ -12337,8 +12293,7 @@
                                  accid="s"
                                  oct="3"
                                  dur="4"
-                                 stem.dir="down"
-                                 accid.ges="s"/>
+                                 stem.dir="down"/>
                            <note xml:id="d1e36439" pname="g" oct="3" dur="4" stem.dir="down"/>
                            <note xml:id="d1e36453" pname="d" oct="3" dur="4" stem.dir="down"/>
                         </layer>
@@ -12370,8 +12325,7 @@
                                  accid="s"
                                  oct="3"
                                  dur="4"
-                                 stem.dir="down"
-                                 accid.ges="s">
+                                 stem.dir="down">
                               <verse>
                                  <syl>te</syl>
                               </verse>
@@ -12416,8 +12370,7 @@
                                  accid="s"
                                  oct="4"
                                  dur="4"
-                                 stem.dir="up"
-                                 accid.ges="s"/>
+                                 stem.dir="up"/>
                         </layer>
                      </staff>
                      <staff n="3">
@@ -12428,8 +12381,7 @@
                                  oct="4"
                                  dur="4"
                                  dots="1"
-                                 stem.dir="down"
-                                 accid.ges="f"/>
+                                 stem.dir="down"/>
                            <note xml:id="d1e36661"
                                  pname="b"
                                  oct="3"
@@ -12447,8 +12399,7 @@
                                     accid="f"
                                     oct="3"
                                     dur="8"
-                                    stem.dir="down"
-                                    accid.ges="f"/>
+                                    stem.dir="down"/>
                               <note xml:id="d1e36712" pname="d" oct="3" dur="8" stem.dir="down"/>
                            </beam>
                            <beam>
@@ -12496,8 +12447,7 @@
                                     accid="f"
                                     oct="3"
                                     dur="8"
-                                    stem.dir="down"
-                                    accid.ges="f">
+                                    stem.dir="down">
                                  <verse>
                                     <syl>da-</syl>
                                  </verse>
@@ -13375,8 +13325,7 @@
                                  accid="s"
                                  oct="4"
                                  dur="8"
-                                 stem.dir="up"
-                                 accid.ges="s"/>
+                                 stem.dir="up"/>
                            <note xml:id="d1e39560" pname="g" oct="4" dur="4" stem.dir="up"/>
                         </layer>
                      </staff>
@@ -13457,8 +13406,7 @@
                                  accid="s"
                                  oct="4"
                                  dur="8"
-                                 stem.dir="up"
-                                 accid.ges="s">
+                                 stem.dir="up">
                               <verse>
                                  <syl>men</syl>
                               </verse>
@@ -13636,8 +13584,7 @@
                                  accid="s"
                                  oct="3"
                                  dur="4"
-                                 stem.dir="up"
-                                 accid.ges="s"/>
+                                 stem.dir="up"/>
                         </layer>
                      </staff>
                      <staff n="5">
@@ -13784,8 +13731,7 @@
                                     accid="s"
                                     oct="4"
                                     dur="8"
-                                    stem.dir="up"
-                                    accid.ges="s">
+                                    stem.dir="up">
                                  <verse>
                                     <syl>vis-</syl>
                                  </verse>
@@ -13864,8 +13810,7 @@
                                  oct="4"
                                  dur="2"
                                  dots="1"
-                                 stem.dir="down"
-                                 accid.ges="s">
+                                 stem.dir="down">
                               <artic/>
                            </note>
                            <note xml:id="d1e40908"
@@ -13931,8 +13876,7 @@
                                  oct="4"
                                  dur="4"
                                  dots="1"
-                                 stem.dir="up"
-                                 accid.ges="s">
+                                 stem.dir="up">
                               <verse>
                                  <syl>Do-</syl>
                               </verse>
@@ -14080,8 +14024,7 @@
                                     accid="s"
                                     oct="4"
                                     dur="8"
-                                    stem.dir="up"
-                                    accid.ges="s">
+                                    stem.dir="up">
                                  <verse>
                                     <syl>vis_</syl>
                                  </verse>
@@ -14203,16 +14146,14 @@
                                  accid="s"
                                  oct="4"
                                  dur="4"
-                                 stem.dir="down"
-                                 accid.ges="s"/>
+                                 stem.dir="down"/>
                            <note xml:id="d1e41750" pname="d" oct="4" dur="4" stem.dir="down"/>
                            <note xml:id="d1e41764"
                                  pname="e"
                                  accid="f"
                                  oct="4"
                                  dur="4"
-                                 stem.dir="down"
-                                 accid.ges="f"/>
+                                 stem.dir="down"/>
                            <beam>
                               <note xml:id="d1e41782"
                                     pname="d"
@@ -14313,8 +14254,7 @@
                                  accid="s"
                                  oct="4"
                                  dur="4"
-                                 stem.dir="up"
-                                 accid.ges="s">
+                                 stem.dir="up">
                               <verse>
                                  <syl>Do-</syl>
                               </verse>
@@ -14389,8 +14329,7 @@
                                  oct="4"
                                  dur="4"
                                  dots="1"
-                                 stem.dir="down"
-                                 accid.ges="f">
+                                 stem.dir="down">
                               <verse>
                                  <syl>cor-</syl>
                               </verse>
@@ -14470,8 +14409,7 @@
                                  accid="f"
                                  oct="3"
                                  dur="2"
-                                 stem.dir="down"
-                                 accid.ges="f"/>
+                                 stem.dir="down"/>
                         </layer>
                      </staff>
                      <staff n="5">
@@ -14523,8 +14461,7 @@
                                  accid="f"
                                  oct="5"
                                  dur="4"
-                                 stem.dir="down"
-                                 accid.ges="f">
+                                 stem.dir="down">
                               <verse>
                                  <syl>cor-</syl>
                               </verse>
@@ -14945,8 +14882,7 @@
                                  accid="s"
                                  oct="4"
                                  dur="2"
-                                 stem.dir="up"
-                                 accid.ges="s"/>
+                                 stem.dir="up"/>
                         </layer>
                      </staff>
                      <staff n="3">
@@ -14970,8 +14906,7 @@
                                     accid="s"
                                     oct="4"
                                     dur="16"
-                                    stem.dir="down"
-                                    accid.ges="s"/>
+                                    stem.dir="down"/>
                            </beam>
                            <note xml:id="d1e43772" pname="d" oct="4" dur="2" stem.dir="down"/>
                         </layer>
@@ -15036,8 +14971,7 @@
                                     accid="s"
                                     oct="4"
                                     dur="16"
-                                    stem.dir="down"
-                                    accid.ges="s">
+                                    stem.dir="down">
                                  <verse>
                                     <syl>ae-</syl>
                                  </verse>
@@ -15117,8 +15051,7 @@
                                  accid="s"
                                  oct="4"
                                  dur="4"
-                                 stem.dir="up"
-                                 accid.ges="s"/>
+                                 stem.dir="up"/>
                         </layer>
                      </staff>
                      <staff n="3">
@@ -15207,8 +15140,7 @@
                                  accid="s"
                                  oct="3"
                                  dur="4"
-                                 stem.dir="down"
-                                 accid.ges="s">
+                                 stem.dir="down">
                               <verse>
                                  <syl>su-</syl>
                               </verse>
@@ -15254,8 +15186,7 @@
                                  accid="f"
                                  oct="3"
                                  dur="2"
-                                 stem.dir="down"
-                                 accid.ges="f"/>
+                                 stem.dir="down"/>
                         </layer>
                      </staff>
                      <staff n="5">
@@ -15296,8 +15227,7 @@
                                     accid="f"
                                     oct="3"
                                     dur="8"
-                                    stem.dir="down"
-                                    accid.ges="f">
+                                    stem.dir="down">
                                  <verse>
                                     <syl>vis-</syl>
                                  </verse>
@@ -15346,8 +15276,7 @@
                                  oct="4"
                                  dur="2"
                                  dots="1"
-                                 stem.dir="up"
-                                 accid.ges="s">
+                                 stem.dir="up">
                               <artic/>
                            </note>
                            <note xml:id="d1e44706" pname="d" oct="4" dur="4" stem.dir="up"/>
@@ -15779,8 +15708,7 @@
                                  accid="f"
                                  oct="4"
                                  dur="2"
-                                 stem.dir="up"
-                                 accid.ges="f"/>
+                                 stem.dir="up"/>
                         </layer>
                      </staff>
                      <staff n="2">
@@ -15815,8 +15743,7 @@
                                     accid="f"
                                     oct="3"
                                     dur="8"
-                                    stem.dir="down"
-                                    accid.ges="f"/>
+                                    stem.dir="down"/>
                            </beam>
                            <note xml:id="d1e45928" pname="d" oct="3" dur="4" stem.dir="down"/>
                            <note xml:id="d1e45942" pname="c" oct="3" dur="2" stem.dir="up"/>
@@ -15936,8 +15863,7 @@
                                     accid="f"
                                     oct="4"
                                     dur="8"
-                                    stem.dir="up"
-                                    accid.ges="f">
+                                    stem.dir="up">
                                  <verse>
                                     <syl>cor-</syl>
                                  </verse>
@@ -16019,8 +15945,7 @@
                                     accid="f"
                                     oct="3"
                                     dur="16"
-                                    stem.dir="down"
-                                    accid.ges="f">
+                                    stem.dir="down">
                                  <verse>
                                     <syl>di-</syl>
                                  </verse>
@@ -16058,8 +15983,7 @@
                                  accid="f"
                                  oct="4"
                                  dur="8"
-                                 stem.dir="up"
-                                 accid.ges="f"/>
+                                 stem.dir="up"/>
                            <note xml:id="d1e46534" pname="f" oct="4" dur="4" stem.dir="up"/>
                            <note xml:id="d1e46548" pname="a" oct="4" dur="4" stem.dir="up"/>
                         </layer>
@@ -16614,8 +16538,7 @@
                                  accid="f"
                                  oct="3"
                                  dur="2"
-                                 stem.dir="down"
-                                 accid.ges="f"/>
+                                 stem.dir="down"/>
                         </layer>
                      </staff>
                      <staff n="5">
@@ -16733,8 +16656,7 @@
                                  oct="3"
                                  dur="4"
                                  dots="1"
-                                 stem.dir="down"
-                                 accid.ges="f">
+                                 stem.dir="down">
                               <verse>
                                  <syl>cor-</syl>
                               </verse>
@@ -16769,8 +16691,7 @@
                                     oct="4"
                                     dur="8"
                                     dots="1"
-                                    stem.dir="up"
-                                    accid.ges="f"/>
+                                    stem.dir="up"/>
                               <note xml:id="d1e48552" pname="g" oct="4" dur="16" stem.dir="up"/>
                            </beam>
                            <note xml:id="d1e48570"
@@ -16841,8 +16762,7 @@
                                  oct="4"
                                  dur="4"
                                  dots="1"
-                                 stem.dir="up"
-                                 accid.ges="f">
+                                 stem.dir="up">
                               <verse>
                                  <syl>cor-</syl>
                               </verse>
@@ -17187,8 +17107,7 @@
                                  accid="s"
                                  oct="4"
                                  dur="2"
-                                 stem.dir="up"
-                                 accid.ges="s"/>
+                                 stem.dir="up"/>
                            <note xml:id="d1e49711" pname="g" oct="4" dur="2" stem.dir="up"/>
                         </layer>
                      </staff>
@@ -17273,8 +17192,7 @@
                                  accid="s"
                                  oct="3"
                                  dur="2"
-                                 stem.dir="down"
-                                 accid.ges="s">
+                                 stem.dir="down">
                               <verse>
                                  <syl>us-</syl>
                               </verse>
@@ -17757,8 +17675,7 @@
                                  accid="f"
                                  oct="4"
                                  dur="2"
-                                 stem.dir="down"
-                                 accid.ges="f"/>
+                                 stem.dir="down"/>
                            <note xml:id="d1e51363" pname="d" oct="4" dur="2" stem.dir="down"/>
                         </layer>
                      </staff>
@@ -17797,8 +17714,7 @@
                                     accid="f"
                                     oct="4"
                                     dur="8"
-                                    stem.dir="up"
-                                    accid.ges="f">
+                                    stem.dir="up">
                                  <verse>
                                     <syl>ge-</syl>
                                  </verse>
@@ -18026,8 +17942,7 @@
                                     accid="s"
                                     oct="5"
                                     dur="8"
-                                    stem.dir="down"
-                                    accid.ges="s"/>
+                                    stem.dir="down"/>
                               <note xml:id="d1e52068"
                                     pname="b"
                                     accid="n"
@@ -18092,8 +18007,7 @@
                                     accid="s"
                                     oct="4"
                                     dur="8"
-                                    stem.dir="down"
-                                    accid.ges="s">
+                                    stem.dir="down">
                                  <verse>
                                     <syl>ri-</syl>
                                  </verse>
@@ -18422,8 +18336,7 @@
                                  accid="f"
                                  oct="4"
                                  dur="2"
-                                 stem.dir="up"
-                                 accid.ges="f"/>
+                                 stem.dir="up"/>
                            <note xml:id="d1e53146" pname="g" oct="4" dur="2" stem.dir="up"/>
                         </layer>
                      </staff>
@@ -18440,8 +18353,7 @@
                                  accid="f"
                                  oct="3"
                                  dur="2"
-                                 stem.dir="down"
-                                 accid.ges="f"/>
+                                 stem.dir="down"/>
                         </layer>
                      </staff>
                      <staff n="5">
@@ -18488,8 +18400,7 @@
                                     accid="f"
                                     oct="4"
                                     dur="8"
-                                    stem.dir="up"
-                                    accid.ges="f">
+                                    stem.dir="up">
                                  <verse>
                                     <syl>tas</syl>
                                  </verse>
@@ -18505,8 +18416,7 @@
                                  accid="f"
                                  oct="4"
                                  dur="2"
-                                 stem.dir="down"
-                                 accid.ges="f">
+                                 stem.dir="down">
                               <verse>
                                  <syl>ve-</syl>
                               </verse>
@@ -18533,8 +18443,7 @@
                                     accid="f"
                                     oct="3"
                                     dur="8"
-                                    stem.dir="down"
-                                    accid.ges="f">
+                                    stem.dir="down">
                                  <verse>
                                     <syl>ge-</syl>
                                  </verse>
@@ -18610,8 +18519,7 @@
                                  accid="f"
                                  oct="4"
                                  dur="4"
-                                 stem.dir="up"
-                                 accid.ges="f"/>
+                                 stem.dir="up"/>
                         </layer>
                      </staff>
                      <staff n="3">
@@ -18642,8 +18550,7 @@
                                  accid="f"
                                  oct="5"
                                  dur="4"
-                                 stem.dir="down"
-                                 accid.ges="f">
+                                 stem.dir="down">
                               <verse>
                                  <syl>que</syl>
                               </verse>
@@ -19031,8 +18938,7 @@
                                  accid="f"
                                  oct="3"
                                  dur="2"
-                                 stem.dir="down"
-                                 accid.ges="f"/>
+                                 stem.dir="down"/>
                            <note xml:id="d1e54852" pname="d" oct="3" dur="2" stem.dir="down"/>
                         </layer>
                      </staff>
@@ -19069,8 +18975,7 @@
                                     accid="f"
                                     oct="4"
                                     dur="8"
-                                    stem.dir="up"
-                                    accid.ges="f">
+                                    stem.dir="up">
                                  <verse>
                                     <syl>ti-</syl>
                                  </verse>
@@ -19139,8 +19044,7 @@
                                  accid="f"
                                  oct="3"
                                  dur="4"
-                                 stem.dir="down"
-                                 accid.ges="f">
+                                 stem.dir="down">
                               <verse>
                                  <syl>o-</syl>
                               </verse>
@@ -19189,8 +19093,7 @@
                                  accid="f"
                                  oct="4"
                                  dur="2"
-                                 stem.dir="down"
-                                 accid.ges="f"/>
+                                 stem.dir="down"/>
                            <note xml:id="d1e55270" pname="d" oct="4" dur="2" stem.dir="down"/>
                         </layer>
                      </staff>
@@ -19234,8 +19137,7 @@
                                     accid="f"
                                     oct="4"
                                     dur="8"
-                                    stem.dir="up"
-                                    accid.ges="f">
+                                    stem.dir="up">
                                  <verse>
                                     <syl>ge-</syl>
                                  </verse>
@@ -19509,8 +19411,7 @@
                                  accid="f"
                                  oct="3"
                                  dur="2"
-                                 stem.dir="down"
-                                 accid.ges="f"/>
+                                 stem.dir="down"/>
                         </layer>
                      </staff>
                      <staff n="5">
@@ -19589,8 +19490,7 @@
                                     accid="f"
                                     oct="3"
                                     dur="8"
-                                    stem.dir="down"
-                                    accid.ges="f">
+                                    stem.dir="down">
                                  <verse>
                                     <syl>ge-</syl>
                                  </verse>
