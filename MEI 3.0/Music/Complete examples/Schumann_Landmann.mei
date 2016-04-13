@@ -18,7 +18,7 @@
          </titleStmt>
          <pubStmt>
             <respStmt>
-               <corpName codedval="5115204-6" authURI="http://d-nb.info/gnd" authority="GND">Musikwissenschaftliches Seminar &lt;<geogName codedval="7004442"
+               <corpName role="publisher" codedval="5115204-6" authURI="http://d-nb.info/gnd" authority="GND">Musikwissenschaftliches Seminar &lt;<geogName codedval="7004442"
                             authURI="www.getty.edu/research/tools/vocabularies/tgn"
                             authority="TGN">Detmold</geogName>&gt;</corpName>
             </respStmt>
@@ -99,7 +99,7 @@
                   <identifier type="URI">http://kern.ccarh.org/cgi-bin/ksdata?location=users/craig/classical/schumann/op68&amp;file=op68no10.krn&amp;format=info</identifier>
                   <date isodate="2012-07-06"/>
                   <respStmt>
-                     <corpName>Kern Scores</corpName>
+                     <corpName role="publisher">Kern Scores</corpName>
                   </respStmt>
                   <availability>
                      <useRestrict>Copyright 2001 by Craig Stuart Sapp</useRestrict>
@@ -764,7 +764,8 @@
                                  accid="f"
                                  oct="4"
                                  dur="8"
-                                 stem.dir="up">
+                                 stem.dir="up"
+>
                               <artic artic="acc" place="above"/>
                            </note>
                            <note xml:id="d1e2815" pname="a" oct="4" dur="8" stem.dir="up">
@@ -1169,7 +1170,8 @@
                                  accid="f"
                                  oct="4"
                                  dur="8"
-                                 stem.dir="up">
+                                 stem.dir="up"
+>
                               <artic artic="stacc" place="above"/>
                            </note>
                            <note xml:id="d1e4675" pname="a" oct="4" dur="8" stem.dir="up">

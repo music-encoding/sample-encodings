@@ -14,7 +14,7 @@
          </titleStmt>
          <pubStmt>
             <respStmt>
-               <corpName codedval="5115204-6">Musikwissenschaftliches Seminar, Detmold</corpName>
+               <corpName role="publisher" codedval="5115204-6">Musikwissenschaftliches Seminar, Detmold</corpName>
             </respStmt>
             <address>
                <addrLine>Gartenstrasse 20</addrLine>
@@ -582,7 +582,8 @@
                                     pname="a"
                                     accid="f"
                                     oct="4"
-                                    dur="8"
+                                    dur="8"
+
                                     syl="Trif-"/>
                               <note xml:id="d1e1807"
                                     pname="b"
@@ -602,7 +603,8 @@
                                     pname="a"
                                     accid="f"
                                     oct="4"
-                                    dur="8"/>
+                                    dur="8"
+/>
                               <note xml:id="d1e1893" pname="b" oct="4" dur="8" accid.ges="f"/>
                            </beam>
                         </layer>

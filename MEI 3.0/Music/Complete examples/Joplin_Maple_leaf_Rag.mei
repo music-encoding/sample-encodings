@@ -15,7 +15,7 @@
       </titleStmt>
       <pubStmt>
         <respStmt>
-          <corpName codedval="5115204-6" authURI="http://d-nb.info/gnd" authority="GND"
+          <corpName role="publisher" codedval="5115204-6" authURI="http://d-nb.info/gnd" authority="GND"
             >Musikwissenschaftliches Seminar, Detmold</corpName>
         </respStmt>
         <address>
@@ -1329,7 +1329,7 @@
           </ending>
           <ending n="2">
             <sb/>
-            <scoreDef system.leftmar="4.2" system.rightmar="-0" spacing.system="30">
+            <scoreDef system.leftmar="4.2" system.rightmar="0" spacing.system="30">
               <staffGrp>
                 <staffGrp symbol="brace">
                   <staffDef n="2" spacing="13"/>
@@ -5694,7 +5694,7 @@
                 endid="#d1e31627" staff="1"/>
             </measure>
             <sb/>
-            <scoreDef system.leftmar="4.2" system.rightmar="-0" spacing.system="25.992">
+            <scoreDef system.leftmar="4.2" system.rightmar="0" spacing.system="25.992">
               <staffGrp>
                 <staffGrp symbol="brace">
                   <staffDef n="2" spacing="13"/>

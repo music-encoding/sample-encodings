@@ -20,7 +20,7 @@
          </titleStmt>
          <pubStmt>
             <respStmt>
-               <corpName codedval="5115204-6" authURI="http://d-nb.info/gnd" authority="GND">Musikwissenschaftliches Seminar, Detmold</corpName>
+               <corpName role="publisher" codedval="5115204-6" authURI="http://d-nb.info/gnd" authority="GND">Musikwissenschaftliches Seminar, Detmold</corpName>
             </respStmt>
             <address>
                <addrLine>Gartenstrasse 20</addrLine>
@@ -112,7 +112,7 @@
                <pubStmt>
                   <date isodate="2011-10-13"/>
                   <respStmt>
-                     <corpName>Werner Icking Music Archive</corpName>
+                     <corpName role="publisher">Werner Icking Music Archive</corpName>
                   </respStmt>
                   <availability>
                      <useRestrict>© 2010 - Gatineau,Qc.Ca.</useRestrict>
@@ -531,7 +531,8 @@
                                  accid="f"
                                  oct="3"
                                  dur="4"
-                                 stem.dir="down"/>
+                                 stem.dir="down"
+/>
                         </layer>
                      </staff>
                   </measure>
@@ -874,7 +875,8 @@
                                  accid="f"
                                  oct="4"
                                  dur="4"
-                                 stem.dir="down"/>
+                                 stem.dir="down"
+/>
                         </layer>
                      </staff>
                      <staff n="4">
@@ -939,7 +941,8 @@
                                  accid="f"
                                  oct="3"
                                  dur="4"
-                                 stem.dir="down"/>
+                                 stem.dir="down"
+/>
                            <note xml:id="d1e1298" pname="f" oct="3" dur="4" stem.dir="down"/>
                            <note xml:id="d1e1312" pname="d" oct="3" dur="4" stem.dir="down"/>
                         </layer>
@@ -1379,7 +1382,8 @@
                                  accid="f"
                                  oct="4"
                                  dur="4"
-                                 stem.dir="up"/>
+                                 stem.dir="up"
+/>
                         </layer>
                      </staff>
                      <staff n="3">
@@ -1486,13 +1490,15 @@
                                  accid="f"
                                  oct="3"
                                  dur="4"
-                                 stem.dir="down"/>
+                                 stem.dir="down"
+/>
                            <note xml:id="d1e2758"
                                  pname="c"
                                  accid="f"
                                  oct="3"
                                  dur="4"
-                                 stem.dir="up"/>
+                                 stem.dir="up"
+/>
                            <note xml:id="d1e2776"
                                  pname="b"
                                  oct="2"
@@ -1758,7 +1764,8 @@
                                  accid="f"
                                  oct="4"
                                  dur="4"
-                                 stem.dir="up"/>
+                                 stem.dir="up"
+/>
                            <note xml:id="d1e3517" pname="c" oct="4" dur="4" stem.dir="up"/>
                         </layer>
                      </staff>
@@ -1796,7 +1803,8 @@
                                  accid="f"
                                  oct="2"
                                  dur="4"
-                                 stem.dir="up"/>
+                                 stem.dir="up"
+/>
                         </layer>
                      </staff>
                   </measure>
@@ -1941,7 +1949,8 @@
                                  accid="f"
                                  oct="4"
                                  dur="4"
-                                 stem.dir="down"/>
+                                 stem.dir="down"
+/>
                         </layer>
                      </staff>
                      <staff n="4">
@@ -2022,7 +2031,8 @@
                                  accid="f"
                                  oct="5"
                                  dur="4"
-                                 stem.dir="down"/>
+                                 stem.dir="down"
+/>
                         </layer>
                      </staff>
                      <staff n="2">
@@ -2093,7 +2103,8 @@
                                  accid="f"
                                  oct="4"
                                  dur="4"
-                                 stem.dir="up"/>
+                                 stem.dir="up"
+/>
                            <note xml:id="d1e4436" pname="f" oct="4" dur="4" stem.dir="up"/>
                            <note xml:id="d1e4450"
                                  pname="f"
@@ -2355,7 +2366,8 @@
                                  accid="f"
                                  oct="4"
                                  dur="4"
-                                 stem.dir="up"/>
+                                 stem.dir="up"
+/>
                            <note xml:id="d1e5185" pname="g" oct="4" dur="4" stem.dir="up"/>
                         </layer>
                      </staff>
@@ -2374,7 +2386,8 @@
                                  accid="f"
                                  oct="4"
                                  dur="4"
-                                 stem.dir="down"/>
+                                 stem.dir="down"
+/>
                         </layer>
                      </staff>
                      <staff n="4">
@@ -2424,7 +2437,8 @@
                                  accid="f"
                                  oct="4"
                                  dur="4"
-                                 stem.dir="down"/>
+                                 stem.dir="down"
+/>
                            <note xml:id="d1e5403" pname="c" oct="4" dur="4" stem.dir="down"/>
                            <note xml:id="d1e5417"
                                  pname="b"
@@ -2805,7 +2819,8 @@
                                  oct="4"
                                  dur="4"
                                  tie="i"
-                                 stem.dir="up"/>
+                                 stem.dir="up"
+/>
                         </layer>
                      </staff>
                      <staff n="3">
@@ -3297,7 +3312,8 @@
                                  accid="f"
                                  oct="3"
                                  dur="4"
-                                 stem.dir="down"/>
+                                 stem.dir="down"
+/>
                         </layer>
                      </staff>
                      <tie tstamp="2"
@@ -3646,7 +3662,8 @@
                                  accid="f"
                                  oct="5"
                                  dur="2"
-                                 stem.dir="down"/>
+                                 stem.dir="down"
+/>
                         </layer>
                      </staff>
                      <staff n="2">
@@ -3766,7 +3783,8 @@
                                  oct="4"
                                  dur="4"
                                  tie="i"
-                                 stem.dir="up"/>
+                                 stem.dir="up"
+/>
                         </layer>
                      </staff>
                      <staff n="3">
@@ -4086,7 +4104,8 @@
                                  accid="f"
                                  oct="4"
                                  dur="4"
-                                 stem.dir="down"/>
+                                 stem.dir="down"
+/>
                         </layer>
                      </staff>
                      <staff n="4">
@@ -4295,7 +4314,8 @@
                                     accid="f"
                                     oct="2"
                                     dur="8"
-                                    stem.dir="up"/>
+                                    stem.dir="up"
+/>
                               <note xml:id="d1e10514"
                                     pname="b"
                                     oct="2"
@@ -4462,7 +4482,8 @@
                                     accid="f"
                                     oct="3"
                                     dur="8"
-                                    stem.dir="down"/>
+                                    stem.dir="down"
+/>
                            </beam>
                         </layer>
                      </staff>
@@ -4486,7 +4507,8 @@
                                  accid="f"
                                  oct="4"
                                  dur="4"
-                                 stem.dir="up"/>
+                                 stem.dir="up"
+/>
                            <note xml:id="d1e11084"
                                  pname="g"
                                  oct="4"
@@ -4537,7 +4559,8 @@
                                  accid="f"
                                  oct="3"
                                  dur="4"
-                                 stem.dir="down"/>
+                                 stem.dir="down"
+/>
                         </layer>
                      </staff>
                      <tie tstamp="1.031"
@@ -4642,7 +4665,8 @@
                                  accid="f"
                                  oct="4"
                                  dur="8"
-                                 stem.dir="up"/>
+                                 stem.dir="up"
+/>
                         </layer>
                      </staff>
                      <staff n="2">
@@ -5029,7 +5053,8 @@
                                  oct="3"
                                  dur="4"
                                  tie="i"
-                                 stem.dir="down"/>
+                                 stem.dir="down"
+/>
                         </layer>
                      </staff>
                      <staff n="4">

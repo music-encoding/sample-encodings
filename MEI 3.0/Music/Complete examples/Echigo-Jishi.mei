@@ -16,7 +16,7 @@
          </titleStmt>
          <pubStmt>
             <respStmt>
-               <corpName codedval="5115204-6" authURI="http://d-nb.info/gnd" authority="GND">Musikwissenschaftliches Seminar, Detmold</corpName>
+               <corpName role="publisher" codedval="5115204-6" authURI="http://d-nb.info/gnd" authority="GND">Musikwissenschaftliches Seminar, Detmold</corpName>
             </respStmt>
             <address>
                <addrLine>Gartenstrasse 20</addrLine>
@@ -80,9 +80,7 @@
                </editionStmt>
                <pubStmt>
                   <respStmt>
-                     <name>"Japanese Popular Music: a collection of the popular music of Japan
-                        rendered in to te staff notation"</name>
-                     <persName role="arranger">Y. Nagai</persName>
+                     <persName role="publisher">Y. Nagai</persName>
                      <persName role="arranger">K. Kobatake</persName>
                      <persName role="transcriber">Tom Potter</persName>
                   </respStmt>
@@ -360,7 +358,7 @@
                                     dur="8"
                                     dur.ges="4p"
                                     stem.dir="down"
-                                    stem.len="-55"/>
+                                    stem.len="55"/>
                               <note xml:id="d1e197"
                                     tstamp.ges="4p"
                                     pname="a"
@@ -368,7 +366,7 @@
                                     dur="8"
                                     dur.ges="4p"
                                     stem.dir="down"
-                                    stem.len="-55"/>
+                                    stem.len="55"/>
                               <note xml:id="d1e213"
                                     tstamp.ges="8p"
                                     pname="b"
@@ -376,7 +374,7 @@
                                     dur="8"
                                     dur.ges="4p"
                                     stem.dir="down"
-                                    stem.len="-55"/>
+                                    stem.len="55"/>
                               <note xml:id="d1e229"
                                     tstamp.ges="12p"
                                     pname="c"
@@ -384,7 +382,7 @@
                                     dur="8"
                                     dur.ges="4p"
                                     stem.dir="down"
-                                    stem.len="-55"/>
+                                    stem.len="55"/>
                            </beam>
                         </layer>
                      </staff>
@@ -400,7 +398,7 @@
                                     dur="8"
                                     dur.ges="4p"
                                     stem.dir="down"
-                                    stem.len="-40"/>
+                                    stem.len="40"/>
                               <note xml:id="d1e264"
                                     tstamp.ges="4p"
                                     pname="c"
@@ -408,7 +406,7 @@
                                     dur="8"
                                     dur.ges="4p"
                                     stem.dir="down"
-                                    stem.len="-46"/>
+                                    stem.len="46"/>
                               <note xml:id="d1e280"
                                     tstamp.ges="8p"
                                     pname="b"
@@ -416,7 +414,7 @@
                                     dur="8"
                                     dur.ges="4p"
                                     stem.dir="down"
-                                    stem.len="-52"/>
+                                    stem.len="52"/>
                               <note xml:id="d1e296"
                                     tstamp.ges="12p"
                                     pname="a"
@@ -424,7 +422,7 @@
                                     dur="8"
                                     dur.ges="4p"
                                     stem.dir="down"
-                                    stem.len="-57.5"/>
+                                    stem.len="57.5"/>
                            </beam>
                         </layer>
                      </staff>
@@ -502,7 +500,7 @@
                                  dur="8"
                                  dur.ges="4p"
                                  stem.dir="up"
-                                 stem.len="-5"/>
+                                 stem.len="5"/>
                         </layer>
                      </staff>
                   </measure>
@@ -559,7 +557,7 @@
                                     dur="8"
                                     dur.ges="4p"
                                     stem.dir="up"
-                                    stem.len="-10"/>
+                                    stem.len="10"/>
                               <note xml:id="d1e527"
                                     tstamp.ges="4p"
                                     pname="d"
@@ -567,7 +565,7 @@
                                     dur="8"
                                     dur.ges="4p"
                                     stem.dir="up"
-                                    stem.len="-9"/>
+                                    stem.len="9"/>
                               <note xml:id="d1e543"
                                     tstamp.ges="8p"
                                     pname="d"
@@ -575,7 +573,7 @@
                                     dur="8"
                                     dur.ges="4p"
                                     stem.dir="up"
-                                    stem.len="-8"/>
+                                    stem.len="8"/>
                               <note xml:id="d1e559"
                                     tstamp.ges="12p"
                                     pname="e"
@@ -583,7 +581,7 @@
                                     dur="8"
                                     dur.ges="4p"
                                     stem.dir="up"
-                                    stem.len="-7"/>
+                                    stem.len="7"/>
                            </beam>
                         </layer>
                      </staff>
@@ -599,7 +597,7 @@
                                     dur="8"
                                     dur.ges="4p"
                                     stem.dir="up"
-                                    stem.len="-5"/>
+                                    stem.len="5"/>
                               <note xml:id="d1e597"
                                     tstamp.ges="4p"
                                     pname="e"
@@ -607,7 +605,7 @@
                                     dur="8"
                                     dur.ges="4p"
                                     stem.dir="up"
-                                    stem.len="-7"/>
+                                    stem.len="7"/>
                               <note xml:id="d1e613"
                                     tstamp.ges="8p"
                                     pname="b"
@@ -615,7 +613,7 @@
                                     dur="8"
                                     dur.ges="4p"
                                     stem.dir="up"
-                                    stem.len="-8"/>
+                                    stem.len="8"/>
                               <note xml:id="d1e629"
                                     tstamp.ges="12p"
                                     pname="d"
@@ -623,7 +621,7 @@
                                     dur="8"
                                     dur.ges="4p"
                                     stem.dir="up"
-                                    stem.len="-10"/>
+                                    stem.len="10"/>
                            </beam>
                         </layer>
                      </staff>
@@ -640,7 +638,7 @@
                                  dots="1"
                                  dur.ges="12p"
                                  stem.dir="up"
-                                 stem.len="-5"/>
+                                 stem.len="5"/>
                            <rest xml:id="d1e662" tstamp.ges="12p" dur="8"/>
                         </layer>
                      </staff>
@@ -655,7 +653,7 @@
                                  dur="8"
                                  dur.ges="4p"
                                  stem.dir="up"
-                                 stem.len="-10"/>
+                                 stem.len="10"/>
                            <note xml:id="d1e690"
                                  tstamp.ges="4p"
                                  pname="d"
@@ -663,7 +661,7 @@
                                  dur="4"
                                  dur.ges="8p"
                                  stem.dir="up"
-                                 stem.len="-10">
+                                 stem.len="10">
                               <verse n="1">
                                  <syl>オノ</syl>
                               </verse>
@@ -675,7 +673,7 @@
                                  dur="8"
                                  dur.ges="4p"
                                  stem.dir="up"
-                                 stem.len="-5">
+                                 stem.len="5">
                               <verse n="1">
                                  <syl>ガ</syl>
                               </verse>
@@ -716,7 +714,7 @@
                                  dur="8"
                                  dur.ges="4p"
                                  stem.dir="up"
-                                 stem.len="-5">
+                                 stem.len="5">
                               <verse n="1">
                                  <syl>ヲ</syl>
                               </verse>
@@ -792,7 +790,7 @@
                                  dur="4"
                                  dur.ges="8p"
                                  stem.dir="down"
-                                 stem.len="-55">
+                                 stem.len="55">
                               <verse n="1">
                                  <syl con="u">テ</syl>
                               </verse>
@@ -805,7 +803,7 @@
                                     dur="8"
                                     dur.ges="4p"
                                     stem.dir="down"
-                                    stem.len="-45"/>
+                                    stem.len="45"/>
                               <note xml:id="d1e916"
                                     tstamp.ges="12p"
                                     pname="e"
@@ -813,7 +811,7 @@
                                     dur="8"
                                     dur.ges="4p"
                                     stem.dir="down"
-                                    stem.len="-40"/>
+                                    stem.len="40"/>
                            </beam>
                         </layer>
                      </staff>
@@ -828,7 +826,7 @@
                                  dur="8"
                                  dur.ges="4p"
                                  stem.dir="down"
-                                 stem.len="-35"
+                                 stem.len="35"
                                  accid.ges="s">
                               <accid accid="s"/>
                               <verse n="1">
@@ -842,7 +840,7 @@
                                  dur="4"
                                  dur.ges="8p"
                                  stem.dir="down"
-                                 stem.len="-35"
+                                 stem.len="35"
                                  accid.ges="s">
                               <verse n="1">
                                  <syl con="u">ニ</syl>
@@ -855,7 +853,7 @@
                                  dur="8"
                                  dur.ges="4p"
                                  stem.dir="down"
-                                 stem.len="-39.5"/>
+                                 stem.len="39.5"/>
                         </layer>
                      </staff>
                   </measure>
@@ -870,7 +868,7 @@
                                     dur="8"
                                     dur.ges="4p"
                                     stem.dir="down"
-                                    stem.len="-45">
+                                    stem.len="45">
                                  <verse n="1">
                                     <syl con="u">ワ</syl>
                                  </verse>
@@ -882,7 +880,7 @@
                                     dur="8"
                                     dur.ges="4p"
                                     stem.dir="down"
-                                    stem.len="-45"/>
+                                    stem.len="45"/>
                               <note xml:id="d1e1033"
                                     tstamp.ges="8p"
                                     pname="c"
@@ -890,7 +888,7 @@
                                     dur="8"
                                     dur.ges="4p"
                                     stem.dir="down"
-                                    stem.len="-45">
+                                    stem.len="45">
                                  <verse n="1">
                                     <syl con="u">ニ</syl>
                                  </verse>
@@ -902,7 +900,7 @@
                                     dur="8"
                                     dur.ges="4p"
                                     stem.dir="down"
-                                    stem.len="-45"/>
+                                    stem.len="45"/>
                            </beam>
                         </layer>
                      </staff>
@@ -917,7 +915,7 @@
                                  dur="8"
                                  dur.ges="4p"
                                  stem.dir="down"
-                                 stem.len="-35"
+                                 stem.len="35"
                                  accid.ges="s">
                               <accid accid="s"/>
                               <verse n="1">
@@ -931,7 +929,7 @@
                                  dur="4"
                                  dur.ges="8p"
                                  stem.dir="down"
-                                 stem.len="-35"
+                                 stem.len="35"
                                  accid.ges="s">
                               <verse n="1">
                                  <syl con="u">サイ</syl>
@@ -944,7 +942,7 @@
                                  dur="8"
                                  dur.ges="4p"
                                  stem.dir="down"
-                                 stem.len="-39.5"/>
+                                 stem.len="39.5"/>
                         </layer>
                      </staff>
                   </measure>
@@ -959,7 +957,7 @@
                                     dur="8"
                                     dur.ges="4p"
                                     stem.dir="down"
-                                    stem.len="-50">
+                                    stem.len="50">
                                  <verse n="1">
                                     <syl con="u">タ</syl>
                                  </verse>
@@ -971,7 +969,7 @@
                                     dur="16"
                                     dur.ges="2p"
                                     stem.dir="down"
-                                    stem.len="-50"/>
+                                    stem.len="50"/>
                               <note xml:id="d1e1174"
                                     tstamp.ges="6p"
                                     pname="c"
@@ -979,7 +977,7 @@
                                     dur="16"
                                     dur.ges="2p"
                                     stem.dir="down"
-                                    stem.len="-50"/>
+                                    stem.len="50"/>
                            </beam>
                            <beam>
                               <note xml:id="d1e1192"
@@ -1019,7 +1017,7 @@
                                     dur="8"
                                     dur.ges="4p"
                                     stem.dir="down"
-                                    stem.len="-55">
+                                    stem.len="55">
                                  <verse n="1">
                                     <syl/>
                                  </verse>
@@ -1031,7 +1029,7 @@
                                     dur="8"
                                     dur.ges="4p"
                                     stem.dir="down"
-                                    stem.len="-55.5">
+                                    stem.len="55.5">
                                  <verse n="1">
                                     <syl>サ</syl>
                                  </verse>
@@ -1043,7 +1041,7 @@
                                     dur="8"
                                     dur.ges="4p"
                                     stem.dir="down"
-                                    stem.len="-56.5">
+                                    stem.len="56.5">
                                  <verse n="1">
                                     <syl con="u">カ</syl>
                                  </verse>
@@ -1055,7 +1053,7 @@
                                     dur="8"
                                     dur.ges="4p"
                                     stem.dir="down"
-                                    stem.len="-57.5"/>
+                                    stem.len="57.5"/>
                            </beam>
                         </layer>
                      </staff>
@@ -1118,7 +1116,7 @@
                                  dots="1"
                                  dur.ges="12p"
                                  stem.dir="up"
-                                 stem.len="-5">
+                                 stem.len="5">
                               <verse n="1">
                                  <syl>リ</syl>
                               </verse>
@@ -1173,7 +1171,7 @@
                                  dur="4"
                                  dur.ges="8p"
                                  stem.dir="down"
-                                 stem.len="-50">
+                                 stem.len="50">
                               <verse n="1">
                                  <syl>オ</syl>
                               </verse>
@@ -1191,7 +1189,7 @@
                                  dur="4"
                                  dur.ges="8p"
                                  stem.dir="down"
-                                 stem.len="-40">
+                                 stem.len="40">
                               <verse n="1">
                                  <syl>ケ</syl>
                               </verse>
@@ -1204,7 +1202,7 @@
                                     dur="8"
                                     dur.ges="4p"
                                     stem.dir="down"
-                                    stem.len="-50">
+                                    stem.len="50">
                                  <verse n="1">
                                     <syl con="u">サ</syl>
                                  </verse>
@@ -1216,7 +1214,7 @@
                                     dur="8"
                                     dur.ges="4p"
                                     stem.dir="down"
-                                    stem.len="-52.5"/>
+                                    stem.len="52.5"/>
                            </beam>
                         </layer>
                      </staff>
@@ -1289,7 +1287,7 @@
                                  dur="8"
                                  dur.ges="4p"
                                  stem.dir="down"
-                                 stem.len="-55">
+                                 stem.len="55">
                               <verse n="1">
                                  <syl>ト</syl>
                               </verse>
@@ -1355,7 +1353,7 @@
                                  dots="1"
                                  dur.ges="12p"
                                  stem.dir="up"
-                                 stem.len="-5">
+                                 stem.len="5">
                               <verse n="1">
                                  <syl>レ</syl>
                               </verse>
@@ -1367,7 +1365,7 @@
                                  dur="8"
                                  dur.ges="4p"
                                  stem.dir="up"
-                                 stem.len="-5"/>
+                                 stem.len="5"/>
                         </layer>
                      </staff>
                   </measure>
@@ -1382,7 +1380,7 @@
                                     dur="8"
                                     dur.ges="4p"
                                     stem.dir="down"
-                                    stem.len="-52.5"/>
+                                    stem.len="52.5"/>
                               <note xml:id="d1e1797"
                                     tstamp.ges="4p"
                                     pname="c"
@@ -1390,7 +1388,7 @@
                                     dur="8"
                                     dur.ges="4p"
                                     stem.dir="down"
-                                    stem.len="-52.5">
+                                    stem.len="52.5">
                                  <verse n="1">
                                     <syl>ネ</syl>
                                  </verse>
@@ -1402,7 +1400,7 @@
                                     dur="8"
                                     dur.ges="4p"
                                     stem.dir="down"
-                                    stem.len="-52.5">
+                                    stem.len="52.5">
                                  <verse n="1">
                                     <syl>マ</syl>
                                  </verse>
@@ -1414,7 +1412,7 @@
                                     dur="8"
                                     dur.ges="4p"
                                     stem.dir="down"
-                                    stem.len="-52.5">
+                                    stem.len="52.5">
                                  <verse n="1">
                                     <syl>リ</syl>
                                  </verse>
@@ -1434,7 +1432,7 @@
                                     dur="8"
                                     dur.ges="4p"
                                     stem.dir="down"
-                                    stem.len="-50">
+                                    stem.len="50">
                                  <verse n="1">
                                     <syl>ネ</syl>
                                  </verse>
@@ -1446,7 +1444,7 @@
                                     dur="8"
                                     dur.ges="4p"
                                     stem.dir="down"
-                                    stem.len="-50.5">
+                                    stem.len="50.5">
                                  <verse n="1">
                                     <syl>マ</syl>
                                  </verse>
@@ -1458,7 +1456,7 @@
                                     dur="8"
                                     dur.ges="4p"
                                     stem.dir="down"
-                                    stem.len="-51.5">
+                                    stem.len="51.5">
                                  <verse n="1">
                                     <syl>ラ</syl>
                                  </verse>
@@ -1470,7 +1468,7 @@
                                     dur="8"
                                     dur.ges="4p"
                                     stem.dir="down"
-                                    stem.len="-52.5">
+                                    stem.len="52.5">
                                  <verse n="1">
                                     <syl>ズ</syl>
                                  </verse>
@@ -1578,7 +1576,7 @@
                                     dur="8"
                                     dur.ges="4p"
                                     stem.dir="up"
-                                    stem.len="-7"/>
+                                    stem.len="7"/>
                               <note xml:id="d1e2111"
                                     tstamp.ges="12p"
                                     pname="d"
@@ -1586,7 +1584,7 @@
                                     dur="8"
                                     dur.ges="4p"
                                     stem.dir="up"
-                                    stem.len="-10">
+                                    stem.len="10">
                                  <verse n="1">
                                     <syl>ゴ</syl>
                                  </verse>
@@ -1606,7 +1604,7 @@
                                     dur="8"
                                     dur.ges="4p"
                                     stem.dir="up"
-                                    stem.len="-7">
+                                    stem.len="7">
                                  <verse n="1">
                                     <syl>ザ</syl>
                                  </verse>
@@ -1618,7 +1616,7 @@
                                     dur="8"
                                     dur.ges="4p"
                                     stem.dir="up"
-                                    stem.len="-5">
+                                    stem.len="5">
                                  <verse n="1">
                                     <syl>レ</syl>
                                  </verse>
@@ -1688,7 +1686,7 @@
                                     dur="8"
                                     dur.ges="4p"
                                     stem.dir="down"
-                                    stem.len="-52">
+                                    stem.len="52">
                                  <verse n="1">
                                     <syl>ショ</syl>
                                  </verse>
@@ -1700,7 +1698,7 @@
                                     dur="8"
                                     dur.ges="4p"
                                     stem.dir="down"
-                                    stem.len="-52">
+                                    stem.len="52">
                                  <verse n="1">
                                     <syl/>
                                  </verse>
@@ -1714,7 +1712,7 @@
                                     dur="8"
                                     dur.ges="4p"
                                     stem.dir="down"
-                                    stem.len="-50">
+                                    stem.len="50">
                                  <verse n="1">
                                     <syl>コン</syl>
                                  </verse>
@@ -1726,7 +1724,7 @@
                                     dur="16"
                                     dur.ges="2p"
                                     stem.dir="down"
-                                    stem.len="-50">
+                                    stem.len="50">
                                  <verse n="1">
                                     <syl>コ</syl>
                                  </verse>
@@ -1738,7 +1736,7 @@
                                     dur="16"
                                     dur.ges="2p"
                                     stem.dir="down"
-                                    stem.len="-50">
+                                    stem.len="50">
                                  <verse n="1">
                                     <syl>マ</syl>
                                  </verse>
@@ -1758,7 +1756,7 @@
                                     dur="8"
                                     dur.ges="4p"
                                     stem.dir="down"
-                                    stem.len="-52">
+                                    stem.len="52">
                                  <verse n="1">
                                     <syl>ツ</syl>
                                  </verse>
@@ -1770,7 +1768,7 @@
                                     dur="16"
                                     dur.ges="2p"
                                     stem.dir="down"
-                                    stem.len="-52">
+                                    stem.len="52">
                                  <verse n="1">
                                     <syl con="u">ノ</syl>
                                  </verse>
@@ -1782,7 +1780,7 @@
                                     dur="16"
                                     dur.ges="2p"
                                     stem.dir="down"
-                                    stem.len="-52"/>
+                                    stem.len="52"/>
                            </beam>
                            <beam>
                               <note xml:id="d1e2444"
@@ -1832,7 +1830,7 @@
                                     dur="8"
                                     dur.ges="4p"
                                     stem.dir="up"
-                                    stem.len="-5">
+                                    stem.len="5">
                                  <verse n="1">
                                     <syl>ゲ</syl>
                                  </verse>
@@ -1844,7 +1842,7 @@
                                     dur="8"
                                     dur.ges="4p"
                                     stem.dir="up"
-                                    stem.len="-7">
+                                    stem.len="7">
                                  <verse n="1">
                                     <syl>デ</syl>
                                  </verse>
@@ -1856,7 +1854,7 @@
                                     dur="8"
                                     dur.ges="4p"
                                     stem.dir="up"
-                                    stem.len="-8"/>
+                                    stem.len="8"/>
                               <note xml:id="d1e2566"
                                     tstamp.ges="12p"
                                     pname="d"
@@ -1864,7 +1862,7 @@
                                     dur="8"
                                     dur.ges="4p"
                                     stem.dir="up"
-                                    stem.len="-10">
+                                    stem.len="10">
                                  <verse n="1">
                                     <syl>マ</syl>
                                  </verse>
@@ -1887,7 +1885,7 @@
                                     dur="8"
                                     dur.ges="4p"
                                     stem.dir="up"
-                                    stem.len="-7">
+                                    stem.len="7">
                                  <verse n="1">
                                     <syl>ノ</syl>
                                  </verse>
@@ -1899,7 +1897,7 @@
                                     dur="8"
                                     dur.ges="4p"
                                     stem.dir="up"
-                                    stem.len="-1">
+                                    stem.len="1">
                                  <verse n="1">
                                     <syl>ハ</syl>
                                  </verse>
@@ -1931,7 +1929,7 @@
                                     dur="8"
                                     dur.ges="4p"
                                     stem.dir="up"
-                                    stem.len="-5">
+                                    stem.len="5">
                                  <verse n="1">
                                     <syl>ヨ</syl>
                                  </verse>
@@ -1943,7 +1941,7 @@
                                     dur="8"
                                     dur.ges="4p"
                                     stem.dir="up"
-                                    stem.len="-7">
+                                    stem.len="7">
                                  <verse n="1">
                                     <syl>ニ</syl>
                                  </verse>
@@ -1957,7 +1955,7 @@
                                     dur="8"
                                     dur.ges="4p"
                                     stem.dir="up"
-                                    stem.len="-20">
+                                    stem.len="20">
                                  <verse n="1">
                                     <syl>コン</syl>
                                  </verse>
@@ -1969,7 +1967,7 @@
                                     dur="16"
                                     dur.ges="2p"
                                     stem.dir="up"
-                                    stem.len="-20">
+                                    stem.len="20">
                                  <verse n="1">
                                     <syl>コ</syl>
                                  </verse>
@@ -1981,7 +1979,7 @@
                                     dur="16"
                                     dur.ges="2p"
                                     stem.dir="up"
-                                    stem.len="-20">
+                                    stem.len="20">
                                  <verse n="1">
                                     <syl>マ</syl>
                                  </verse>
@@ -2001,7 +1999,7 @@
                                     dur="8"
                                     dur.ges="4p"
                                     stem.dir="up"
-                                    stem.len="-20">
+                                    stem.len="20">
                                  <verse n="1">
                                     <syl>ヤ</syl>
                                  </verse>
@@ -2013,7 +2011,7 @@
                                     dur="8"
                                     dur.ges="4p"
                                     stem.dir="up"
-                                    stem.len="-15">
+                                    stem.len="15">
                                  <verse n="1">
                                     <syl>カ</syl>
                                  </verse>
@@ -2026,7 +2024,7 @@
                                  dur="4"
                                  dur.ges="8p"
                                  stem.dir="up"
-                                 stem.len="-5">
+                                 stem.len="5">
                               <verse n="1">
                                  <syl>ニ</syl>
                               </verse>
@@ -2045,7 +2043,7 @@
                                  dur="8"
                                  dur.ges="4p"
                                  stem.dir="down"
-                                 stem.len="-49.5">
+                                 stem.len="49.5">
                               <verse n="1">
                                  <syl>ヒ</syl>
                               </verse>
@@ -2057,7 +2055,7 @@
                                  dur="4"
                                  dur.ges="8p"
                                  stem.dir="down"
-                                 stem.len="-40">
+                                 stem.len="40">
                               <verse n="1">
                                  <syl>イ</syl>
                               </verse>
@@ -2082,7 +2080,7 @@
                                     dur="8"
                                     dur.ges="4p"
                                     stem.dir="down"
-                                    stem.len="-55">
+                                    stem.len="55">
                                  <verse n="1">
                                     <syl con="u">テ</syl>
                                  </verse>
@@ -2094,7 +2092,7 @@
                                     dur="8"
                                     dur.ges="4p"
                                     stem.dir="down"
-                                    stem.len="-55"/>
+                                    stem.len="55"/>
                               <note xml:id="d1e2936"
                                     tstamp.ges="8p"
                                     pname="a"
@@ -2102,7 +2100,7 @@
                                     dur="8"
                                     dur.ges="4p"
                                     stem.dir="down"
-                                    stem.len="-55"/>
+                                    stem.len="55"/>
                               <note xml:id="d1e2952"
                                     tstamp.ges="12p"
                                     pname="b"
@@ -2110,7 +2108,7 @@
                                     dur="8"
                                     dur.ges="4p"
                                     stem.dir="down"
-                                    stem.len="-55">
+                                    stem.len="55">
                                  <verse n="1">
                                     <syl>ウ</syl>
                                  </verse>
@@ -2130,7 +2128,7 @@
                                     dur="8"
                                     dur.ges="4p"
                                     stem.dir="down"
-                                    stem.len="-50">
+                                    stem.len="50">
                                  <verse n="1">
                                     <syl con="u">ト</syl>
                                  </verse>
@@ -2142,7 +2140,7 @@
                                     dur="8"
                                     dur.ges="4p"
                                     stem.dir="down"
-                                    stem.len="-57"/>
+                                    stem.len="57"/>
                            </beam>
                            <note xml:id="d1e3017"
                                  tstamp.ges="8p"
@@ -2173,7 +2171,7 @@
                                     dur="8"
                                     dur.ges="4p"
                                     stem.dir="up"
-                                    stem.len="-7.5">
+                                    stem.len="7.5">
                                  <verse n="1">
                                     <syl con="u">ヤ</syl>
                                  </verse>
@@ -2185,7 +2183,7 @@
                                     dur="8"
                                     dur.ges="4p"
                                     stem.dir="up"
-                                    stem.len="-3"/>
+                                    stem.len="3"/>
                               <note xml:id="d1e3075"
                                     tstamp.ges="8p"
                                     pname="e"
@@ -2232,7 +2230,7 @@
                                  dur="8"
                                  dur.ges="4p"
                                  stem.dir="up"
-                                 stem.len="-5"/>
+                                 stem.len="5"/>
                         </layer>
                      </staff>
                   </measure>
@@ -2274,7 +2272,7 @@
                                     dur="8"
                                     dur.ges="4p"
                                     stem.dir="up"
-                                    stem.len="-7.5"/>
+                                    stem.len="7.5"/>
                               <note xml:id="d1e3225"
                                     tstamp.ges="12p"
                                     pname="d"
@@ -2282,7 +2280,7 @@
                                     dur="8"
                                     dur.ges="4p"
                                     stem.dir="up"
-                                    stem.len="-10"/>
+                                    stem.len="10"/>
                            </beam>
                         </layer>
                      </staff>
@@ -2298,7 +2296,7 @@
                                     dur="8"
                                     dur.ges="4p"
                                     stem.dir="up"
-                                    stem.len="-10">
+                                    stem.len="10">
                                  <verse n="1">
                                     <syl/>
                                  </verse>
@@ -2310,7 +2308,7 @@
                                     dur="8"
                                     dur.ges="4p"
                                     stem.dir="up"
-                                    stem.len="-7.5"/>
+                                    stem.len="7.5"/>
                            </beam>
                            <rest xml:id="d1e3280" tstamp.ges="8p" dur="8"/>
                            <beam>
@@ -2385,7 +2383,7 @@
                                  dur="4"
                                  dur.ges="8p"
                                  stem.dir="up"
-                                 stem.len="-5"/>
+                                 stem.len="5"/>
                            <rest xml:id="d1e3394" tstamp.ges="8p" dur="4"/>
                         </layer>
                      </staff>

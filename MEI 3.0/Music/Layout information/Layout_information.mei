@@ -14,7 +14,7 @@
          </titleStmt>
          <pubStmt>
             <respStmt>
-               <corpName>Musikwissenschaftliches Seminar, Detmold</corpName>
+               <corpName role="publisher">Musikwissenschaftliches Seminar, Detmold</corpName>
             </respStmt>
             <address>
                <addrLine>Gartenstrasse 20</addrLine>
@@ -251,7 +251,7 @@
                             mm.unit="4"
                             mm.dots="1"
                             mm="126"
-                            midi.tempo="189">(𝅘𝅥<!--[quarter]-->𝅭<!--[dot]-->=126)</tempo>
+                            midi.bmp="189">(𝅘𝅥<!--[quarter]-->𝅭<!--[dot]-->=126)</tempo>
                   </measure>
                   <staffDef n="3" clef.line="2" clef.shape="G"/>
                   <measure n="2" xml:id="d1e306">

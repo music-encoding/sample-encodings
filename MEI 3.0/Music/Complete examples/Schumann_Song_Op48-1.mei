@@ -15,7 +15,7 @@
          </titleStmt>
          <pubStmt>
             <respStmt>
-               <corpName codedval="5115204-6" authURI="http://d-nb.info/gnd" authority="GND">Musikwissenschaftliches Seminar &lt;<geogName codedval="7004442"
+               <corpName role="publisher" codedval="5115204-6" authURI="http://d-nb.info/gnd" authority="GND">Musikwissenschaftliches Seminar &lt;<geogName codedval="7004442"
                             authURI="www.getty.edu/research/tools/vocabularies/tgn"
                             authority="TGN">Detmold</geogName>&gt;</corpName>
             </respStmt>
@@ -113,7 +113,7 @@
                   </respStmt>
                   <respStmt>
                      <resp>Original-Verleger:</resp>
-                     <corpName role="publisher"
+                     <corpName
                                authority="GND"
                                authURI="http://d-nb.info/gnd"
                                codedval="4351303-7">C. F. Peters in Leipzig</corpName>
@@ -637,7 +637,8 @@
                                  pname="e"
                                  oct="5"
                                  dur="4"
-                                 stem.dir="up"
+                                 stem.dir="up"
+
                                  accid="s"/>
                            <rest xml:id="d1e597" dur="16"/>
                            <beam>
@@ -908,7 +909,8 @@
                                  pname="e"
                                  oct="5"
                                  dur="4"
-                                 stem.dir="up"
+                                 stem.dir="up"
+
                                  accid="s"/>
                            <rest xml:id="d1e1291" dur="16"/>
                            <beam>
@@ -941,7 +943,8 @@
                                     pname="e"
                                     oct="4"
                                     dur="16"
-                                    stem.dir="down"
+                                    stem.dir="down"
+
                                     accid="s"/>
                            </beam>
                         </layer>

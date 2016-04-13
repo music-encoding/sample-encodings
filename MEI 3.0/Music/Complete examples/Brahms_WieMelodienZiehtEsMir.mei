@@ -18,7 +18,7 @@
          </titleStmt>
          <pubStmt>
             <respStmt>
-               <corpName codedval="5115198" authURI="http://d-nb.info/gnd" authority="GND">Musikwissenschaftliches Seminar </corpName>
+               <corpName role="publisher" codedval="5115198" authURI="http://d-nb.info/gnd" authority="GND">Musikwissenschaftliches Seminar </corpName>
             </respStmt>
             <address>
                <addrLine>Gartenstrasse 20</addrLine>
@@ -83,7 +83,7 @@
                </titleStmt>
                <pubStmt>
                   <respStmt>
-                     <corpName>Edition Peters</corpName>
+                     <corpName role="publisher">Edition Peters</corpName>
                   </respStmt>
                   <pubPlace>Leipzig</pubPlace>
                </pubStmt>
@@ -2306,12 +2306,14 @@
                                  <note xml:id="d1e5111"
                                        pname="b"
                                        accid="f"
-                                       oct="3"
+                                       oct="3"
+
                                        staff="2"/>
                                  <note xml:id="d1e5128"
                                        pname="f"
                                        accid="n"
-                                       oct="3"
+                                       oct="3"
+
                                        staff="2"/>
                               </chord>
                            </beam>

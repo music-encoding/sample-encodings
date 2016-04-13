@@ -15,7 +15,7 @@
          </titleStmt>
          <pubStmt>
             <respStmt>
-               <corpName codedval="5115204-6" authURI="http://d-nb.info/gnd" authority="GND">Musikwissenschaftliches Seminar, Detmold</corpName>
+               <corpName role="publisher" codedval="5115204-6" authURI="http://d-nb.info/gnd" authority="GND">Musikwissenschaftliches Seminar, Detmold</corpName>
             </respStmt>
             <address>
                <addrLine>Gartenstrasse 20</addrLine>
@@ -100,7 +100,7 @@
                <seriesStmt>
                   <title>Complete works for the Piano, Vol. 2: Mazurkas</title>
                   <respStmt>
-                     <corpName>G. Schirmer<geogName>New York</geogName>
+                     <corpName role="publisher">G. Schirmer<geogName>New York</geogName>
                      </corpName>
                   </respStmt>
                   <contents>
@@ -119,7 +119,7 @@
                <pubStmt>
                   <date isodate="2011-01-06"/>
                   <respStmt>
-                     <corpName>CCARH, Stanford University</corpName>
+                     <corpName role="publisher">CCARH, Stanford University</corpName>
                   </respStmt>
                   <address>
                      <addrLine>Center for Computer Research in Music and Acoustics</addrLine>

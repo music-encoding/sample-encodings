@@ -15,7 +15,7 @@
          </titleStmt>
          <pubStmt>
             <respStmt>
-               <corpName codedval="5115204-6" authURI="http://d-nb.info/gnd" authority="GND">Musikwissenschaftliches Seminar, Detmold</corpName>
+               <corpName role="publisher" codedval="5115204-6" authURI="http://d-nb.info/gnd" authority="GND">Musikwissenschaftliches Seminar, Detmold</corpName>
             </respStmt>
             <address>
                <addrLine>Gartenstrasse 20</addrLine>
@@ -95,7 +95,7 @@
                </titleStmt>
                <pubStmt>
                   <respStmt n="1">
-                     <corpName>Durand &amp; Fils</corpName>
+                     <corpName role="publisher">Durand &amp; Fils</corpName>
                   </respStmt>
                   <pubPlace>Paris</pubPlace>
                   <date>1905</date>

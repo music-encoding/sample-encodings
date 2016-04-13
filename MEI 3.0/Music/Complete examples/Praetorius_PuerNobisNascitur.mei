@@ -19,7 +19,7 @@
          </titleStmt>
          <pubStmt>
             <respStmt>
-               <corpName codedval="5115204-6" authURI="http://d-nb.info/gnd" authority="GND">Musikwissenschaftliches Seminar, Detmold</corpName>
+               <corpName role="publisher" codedval="5115204-6" authURI="http://d-nb.info/gnd" authority="GND">Musikwissenschaftliches Seminar, Detmold</corpName>
             </respStmt>
             <address>
                <addrLine>Gartenstrasse 20</addrLine>
@@ -100,7 +100,7 @@
                </titleStmt>
                <pubStmt>
                   <respStmt>
-                     <name>Werner Icking Music Archive</name>
+                     <name role="publisher">Werner Icking Music Archive</name>
                   </respStmt>
                   <availability>
                      <useRestrict>© 2010 - Gatineau,Qc.Ca.</useRestrict>
@@ -1025,7 +1025,8 @@
                                  accid="s"
                                  oct="4"
                                  dur="4"
-                                 stem.dir="down">
+                                 stem.dir="down"
+>
                               <verse n="1">
                                  <syl>sci-</syl>
                               </verse>
@@ -3285,7 +3286,8 @@
                                  accid="s"
                                  oct="4"
                                  dur="4"
-                                 stem.dir="down">
+                                 stem.dir="down"
+>
                               <verse n="1">
                                  <syl>si-</syl>
                               </verse>
@@ -5880,7 +5882,8 @@
                                  accid="s"
                                  oct="4"
                                  dur="4"
-                                 stem.dir="down">
+                                 stem.dir="down"
+>
                               <verse n="1">
                                  <syl>di-</syl>
                               </verse>

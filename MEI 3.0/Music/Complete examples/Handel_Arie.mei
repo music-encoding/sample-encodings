@@ -20,7 +20,7 @@
          </titleStmt>
          <pubStmt>
             <respStmt>
-               <corpName codedval="5115204-6" authURI="http://d-nb.info/gnd" authority="GND">Musikwissenschaftliches Seminar, Detmold</corpName>
+               <corpName role="publisher" codedval="5115204-6" authURI="http://d-nb.info/gnd" authority="GND">Musikwissenschaftliches Seminar, Detmold</corpName>
             </respStmt>
             <address>
                <addrLine>Gartenstrasse 20</addrLine>
@@ -113,7 +113,7 @@
                <pubStmt>
                   <date isodate="2011-10-11"/>
                   <respStmt>
-                     <name>Werner Icking Music Archive</name>
+                     <name role="publisher">Werner Icking Music Archive</name>
                   </respStmt>
                   <availability>
                      <useRestrict>© 2010 - Gatineau,Qc.Ca.</useRestrict>
@@ -1061,7 +1061,8 @@
                                  accid="s"
                                  oct="4"
                                  dur="4"
-                                 stem.dir="up">
+                                 stem.dir="up"
+>
                               <verse n="1">
                                  <syl>spi-</syl>
                               </verse>
@@ -1087,7 +1088,8 @@
                                  accid="s"
                                  oct="4"
                                  dur="4"
-                                 stem.dir="up"/>
+                                 stem.dir="up"
+/>
                            <note xml:id="d1e2763"
                                  pname="f"
                                  oct="4"
@@ -1113,7 +1115,8 @@
                                  accid="s"
                                  oct="3"
                                  dur="2"
-                                 stem.dir="up"/>
+                                 stem.dir="up"
+/>
                            <rest xml:id="d1e2873" dur="2"/>
                         </layer>
                      </staff>
@@ -1198,7 +1201,8 @@
                                  accid="s"
                                  oct="4"
                                  dur="4"
-                                 stem.dir="up"/>
+                                 stem.dir="up"
+/>
                         </layer>
                      </staff>
                      <staff n="4">
@@ -1208,14 +1212,16 @@
                                  accid="s"
                                  oct="3"
                                  dur="2"
-                                 stem.dir="up"/>
+                                 stem.dir="up"
+/>
                            <note xml:id="d1e3093"
                                  pname="g"
                                  accid="s"
                                  oct="4"
                                  dur="2"
                                  dots="1"
-                                 stem.dir="down"/>
+                                 stem.dir="down"
+/>
                            <note xml:id="d1e3112" pname="e" oct="4" dur="4" stem.dir="down"/>
                         </layer>
                      </staff>
@@ -1246,7 +1252,8 @@
                                  accid="s"
                                  oct="4"
                                  dur="4"
-                                 stem.dir="up"/>
+                                 stem.dir="up"
+/>
                            <note xml:id="d1e3215" pname="a" oct="4" dur="2" stem.dir="up">
                               <verse n="1">
                                  <syl>ri</syl>
@@ -1268,7 +1275,8 @@
                                  accid="s"
                                  oct="4"
                                  dur="4"
-                                 stem.dir="up"/>
+                                 stem.dir="up"
+/>
                            <note xml:id="d1e3298" pname="a" oct="4" dur="2" stem.dir="up"/>
                            <rest xml:id="d1e3312" dur="4"/>
                            <note xml:id="d1e3320" pname="d" oct="5" dur="4" stem.dir="down"/>
@@ -1392,7 +1400,8 @@
                                  accid="s"
                                  oct="4"
                                  dur="2"
-                                 stem.dir="up"/>
+                                 stem.dir="up"
+/>
                         </layer>
                      </staff>
                      <staff n="4">
@@ -2539,7 +2548,8 @@
                                  accid="s"
                                  oct="4"
                                  dur="4"
-                                 stem.dir="up">
+                                 stem.dir="up"
+>
                               <verse n="1">
                                  <syl>fran-</syl>
                               </verse>
@@ -2549,7 +2559,8 @@
                                  accid="s"
                                  oct="4"
                                  dur="4"
-                                 stem.dir="up"/>
+                                 stem.dir="up"
+/>
                            <note xml:id="d1e7639"
                                  pname="f"
                                  oct="4"
@@ -2788,7 +2799,8 @@
                                  accid="s"
                                  oct="4"
                                  dur="4"
-                                 stem.dir="up"/>
+                                 stem.dir="up"
+/>
                            <note xml:id="d1e8199" pname="a" oct="4" dur="2" stem.dir="up">
                               <verse n="1">
                                  <syl>ri</syl>
@@ -2912,7 +2924,8 @@
                                  accid="s"
                                  oct="4"
                                  dur="4"
-                                 stem.dir="up"/>
+                                 stem.dir="up"
+/>
                            <note xml:id="d1e8486" pname="f" oct="4" dur="1" accid.ges="s"/>
                         </layer>
                      </staff>
@@ -2976,7 +2989,8 @@
                                  accid="s"
                                  oct="4"
                                  dur="4"
-                                 stem.dir="up">
+                                 stem.dir="up"
+>
                               <verse n="1">
                                  <syl>mar_</syl>
                               </verse>
@@ -3048,7 +3062,8 @@
                                  accid="s"
                                  oct="4"
                                  dur="2"
-                                 stem.dir="up">
+                                 stem.dir="up"
+>
                               <verse n="1">
                                  <syl>ri</syl>
                               </verse>
@@ -3084,14 +3099,16 @@
                                  accid="s"
                                  oct="3"
                                  dur="2"
-                                 stem.dir="down"/>
+                                 stem.dir="down"
+/>
                            <rest xml:id="d1e8888" dur="4"/>
                            <note xml:id="d1e8896"
                                  pname="e"
                                  accid="s"
                                  oct="3"
                                  dur="4"
-                                 stem.dir="down"/>
+                                 stem.dir="down"
+/>
                         </layer>
                      </staff>
                   </measure>
@@ -3108,7 +3125,8 @@
                                  accid="s"
                                  oct="4"
                                  dur="4"
-                                 stem.dir="up"/>
+                                 stem.dir="up"
+/>
                            <note xml:id="d1e8954" pname="g" oct="4" dur="1" accid.ges="s">
                               <verse n="1">
                                  <syl>pie-</syl>

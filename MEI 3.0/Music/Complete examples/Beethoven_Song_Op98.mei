@@ -15,7 +15,7 @@
          </titleStmt>
          <pubStmt>
             <respStmt>
-               <corpName codedval="5115204-6" authURI="http://d-nb.info/gnd" authority="GND">Musikwissenschaftliches Seminar, Detmold</corpName>
+               <corpName role="publisher" codedval="5115204-6" authURI="http://d-nb.info/gnd" authority="GND">Musikwissenschaftliches Seminar, Detmold</corpName>
             </respStmt>
             <address>
                <addrLine>Gartenstrasse 20</addrLine>
@@ -848,7 +848,8 @@
                                     accid="f"
                                     oct="4"
                                     dur="8"
-                                    stem.dir="up">
+                                    stem.dir="up"
+>
                                  <verse>
                                     <syl>Trif-</syl>
                                  </verse>
@@ -886,7 +887,8 @@
                                     accid="f"
                                     oct="4"
                                     dur="8"
-                                    stem.dir="up"/>
+                                    stem.dir="up"
+/>
                               <note xml:id="d1e1893"
                                     pname="b"
                                     oct="4"

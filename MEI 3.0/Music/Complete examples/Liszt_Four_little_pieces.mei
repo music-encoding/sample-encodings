@@ -18,7 +18,7 @@
          </titleStmt>
          <pubStmt>
             <respStmt>
-               <corpName n="1" xml:id="corpName1">University of Virginia Library Charlottesville
+               <corpName role="publisher" n="1" xml:id="corpName1">University of Virginia Library Charlottesville
                   <address>
                      <addrLine>1215 Lee Street</addrLine>
                      <addrLine>VA 22908<geogName>Charlottesville</geogName>
@@ -26,7 +26,7 @@
                      </addrLine>
                   </address>
                </corpName>
-               <corpName n="2"
+               <corpName role="publisher" n="2"
                          xml:id="corpName2"
                          codedval="5115204-6"
                          authURI="http://d-nb.info/gnd"
@@ -113,7 +113,7 @@
                </titleStmt>
                <pubStmt>
                   <respStmt>
-                     <corpName>Verlag von Breitkopf und Härtel</corpName>
+                     <corpName role="publisher">Verlag von Breitkopf und Härtel</corpName>
                   </respStmt>
                   <pubPlace>Leipzig</pubPlace>
                   <date>[1865]</date>

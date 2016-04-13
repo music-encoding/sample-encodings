@@ -13,7 +13,7 @@
          </titleStmt>
          <pubStmt>
             <respStmt>
-               <corpName>Musikwissenschaftliches Seminar <address>
+               <corpName role="publisher">Musikwissenschaftliches Seminar <address>
                      <addrLine>Gartenstrasse 20</addrLine>
                      <addrLine>32756 <geogName>Detmold</geogName>
                         <geogName>Germany</geogName>
@@ -62,12 +62,12 @@
                <titleStmt>
                   <title>Mazurka in F-sharp Minor, Op. 59, No. 3</title>
                   <respStmt>
-                     <persName>Frederic Chopin</persName>
+                     <persName role="composer">Frederic Chopin</persName>
                   </respStmt>
                </titleStmt>
                <pubStmt>
                   <respStmt>
-                     <corpName>CCARH <geogName>Stanford</geogName>
+                     <corpName role="publisher">CCARH <geogName>Stanford</geogName>
                      </corpName>
                   </respStmt>
                </pubStmt>

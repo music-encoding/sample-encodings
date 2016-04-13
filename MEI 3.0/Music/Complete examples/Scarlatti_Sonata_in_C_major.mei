@@ -15,7 +15,7 @@
          </titleStmt>
          <pubStmt>
             <respStmt>
-               <corpName codedval="5115204-6" authURI="http://d-nb.info/gnd" authority="GND">Musikwissenschaftliches Seminar, Detmold</corpName>
+               <corpName role="publisher" codedval="5115204-6" authURI="http://d-nb.info/gnd" authority="GND">Musikwissenschaftliches Seminar, Detmold</corpName>
             </respStmt>
             <address>
                <addrLine>Gartenstrasse 20</addrLine>
@@ -98,7 +98,7 @@
                <pubStmt>
                   <date isodate="2011-10-13"/>
                   <respStmt>
-                     <corpName>CCARH, Stanford University</corpName>
+                     <corpName role="publisher">CCARH, Stanford University</corpName>
                   </respStmt>
                   <address>
                      <addrLine>Center for Computer Research in Music and Acoustics</addrLine>
@@ -790,7 +790,8 @@
                                     accid="s"
                                     oct="6"
                                     dur="16"
-                                    stem.dir="down"/>
+                                    stem.dir="down"
+/>
                            </beam>
                            <beam>
                               <note xml:id="d1e1967" pname="g" oct="6" dur="16" stem.dir="down"/>
@@ -842,7 +843,8 @@
                                     accid="s"
                                     oct="5"
                                     dur="16"
-                                    stem.dir="down"/>
+                                    stem.dir="down"
+/>
                               <note xml:id="d1e2278" pname="e" oct="5" dur="16" stem.dir="down"/>
                            </beam>
                         </layer>
@@ -878,7 +880,8 @@
                                     accid="s"
                                     oct="5"
                                     dur="16"
-                                    stem.dir="down"/>
+                                    stem.dir="down"
+/>
                               <note xml:id="d1e2403" pname="g" oct="5" dur="16" stem.dir="down"/>
                            </beam>
                            <note xml:id="d1e2421"
@@ -1180,7 +1183,8 @@
                                  accid="s"
                                  oct="5"
                                  dur="2"
-                                 stem.dir="up"/>
+                                 stem.dir="up"
+/>
                         </layer>
                         <layer n="2">
                            <chord xml:id="d371e1" dur="4" stem.dir="down">
@@ -1254,7 +1258,8 @@
                                  accid="s"
                                  oct="5"
                                  dur="2"
-                                 stem.dir="up"/>
+                                 stem.dir="up"
+/>
                         </layer>
                         <layer n="2">
                            <chord xml:id="d413e1" dur="4" stem.dir="down">
@@ -2187,7 +2192,8 @@
                                     accid="f"
                                     oct="5"
                                     dur="16"
-                                    stem.dir="down"/>
+                                    stem.dir="down"
+/>
                               <note xml:id="d1e8608" pname="d" oct="6" dur="16" stem.dir="down"/>
                               <note xml:id="d1e8624" pname="c" oct="6" dur="16" stem.dir="down"/>
                            </beam>

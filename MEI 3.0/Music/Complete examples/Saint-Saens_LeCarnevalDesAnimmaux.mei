@@ -18,7 +18,7 @@
          </titleStmt>
          <pubStmt>
             <respStmt>
-               <corpName codedval="5115204-6" authURI="http://d-nb.info/gnd" authority="GND">Musikwissenschaftliches Seminar, Detmold</corpName>
+               <corpName role="publisher" codedval="5115204-6" authURI="http://d-nb.info/gnd" authority="GND">Musikwissenschaftliches Seminar, Detmold</corpName>
             </respStmt>
             <address>
                <addrLine>Gartenstrasse 20</addrLine>
@@ -101,7 +101,7 @@
                </titleStmt>
                <pubStmt>
                   <respStmt>
-                     <name>Werner Icking Music Archive</name>
+                     <name role="publisher">Werner Icking Music Archive</name>
                   </respStmt>
                </pubStmt>
             </source>
@@ -1112,7 +1112,8 @@
                                  pname="a"
                                  accid="s"
                                  oct="4"
-                                 dur="2"/>
+                                 dur="2"
+/>
                            <beam>
                               <note xml:id="d1e4081" pname="a" oct="4" dur="8" accid.ges="s"/>
                               <note xml:id="d1e4099" pname="b" oct="4" dur="8"/>
@@ -1122,7 +1123,8 @@
                                  accid="s"
                                  oct="5"
                                  dur="2"
-                                 dots="1"/>
+                                 dots="1"
+/>
                         </layer>
                      </staff>
                      <staff n="2">
@@ -1134,7 +1136,8 @@
                                     accid="s"
                                     oct="3"
                                     dur="16"
-                                    size="cue"/>
+                                    size="cue"
+/>
                               <chord xml:id="d233e1" dur="16" size="cue">
                                  <note xml:id="d1e4182" pname="c" accid="s" oct="4"/>
                                  <note xml:id="d1e4203" pname="e" oct="4"/>
@@ -1269,13 +1272,15 @@
                                  pname="g"
                                  accid="s"
                                  oct="4"
-                                 dur="8"/>
+                                 dur="8"
+/>
                            <beam>
                               <note xml:id="d1e4739"
                                     pname="a"
                                     accid="s"
                                     oct="4"
-                                    dur="8"/>
+                                    dur="8"
+/>
                               <note xml:id="d1e4757" pname="b" oct="4" dur="8"/>
                            </beam>
                            <beam>
@@ -1283,7 +1288,8 @@
                                     pname="c"
                                     accid="s"
                                     oct="5"
-                                    dur="8"/>
+                                    dur="8"
+/>
                               <note xml:id="d1e4789" pname="d" oct="5" dur="8"/>
                               <note xml:id="d1e4805" pname="e" oct="5" dur="8"/>
                               <note xml:id="d1e4819" pname="f" oct="5" dur="8" accid.ges="s"/>
@@ -1291,12 +1297,14 @@
                                     pname="g"
                                     accid="s"
                                     oct="5"
-                                    dur="8"/>
+                                    dur="8"
+/>
                               <note xml:id="d1e4853"
                                     pname="a"
                                     accid="s"
                                     oct="5"
-                                    dur="8"/>
+                                    dur="8"
+/>
                            </beam>
                         </layer>
                      </staff>
@@ -1336,7 +1344,8 @@
                                     accid="s"
                                     oct="3"
                                     dur="16"
-                                    size="cue"/>
+                                    size="cue"
+/>
                               <chord xml:id="d282e1" dur="16" size="cue">
                                  <note xml:id="d1e5177" pname="c" accid="s" oct="4"/>
                                  <note xml:id="d1e5198" pname="e" oct="4"/>
@@ -1353,7 +1362,8 @@
                                     pname="c"
                                     accid="s"
                                     oct="3"
-                                    dur="16"/>
+                                    dur="16"
+/>
                               <note xml:id="d1e5255"
                                     pname="a"
                                     oct="3"
@@ -1639,7 +1649,8 @@
                                     accid="f"
                                     oct="2"
                                     dur="16"
-                                    stem.dir="up"/>
+                                    stem.dir="up"
+/>
                               <note xml:id="d1e6365"
                                     pname="g"
                                     oct="3"
@@ -1917,7 +1928,8 @@
                                     pname="a"
                                     accid="f"
                                     oct="2"
-                                    dur="16"/>
+                                    dur="16"
+/>
                               <note xml:id="d1e7598" pname="f" oct="3" dur="16" size="cue"/>
                               <chord xml:id="d394e1" dur="16" size="cue">
                                  <note xml:id="d1e7615" pname="b" oct="3"/>
@@ -2445,7 +2457,8 @@
                                  pname="c"
                                  accid="s"
                                  oct="5"
-                                 dur="2"/>
+                                 dur="2"
+/>
                            <beam>
                               <note xml:id="d1e9590" pname="d" oct="5" dur="8"/>
                               <note xml:id="d1e9604" pname="e" oct="5" dur="8"/>
@@ -2530,7 +2543,8 @@
                                     oct="4"
                                     dur="16"
                                     size="cue"
-                                    stem.dir="up"/>
+                                    stem.dir="up"
+/>
                               <note xml:id="d1e9903"
                                     pname="e"
                                     oct="4"
@@ -2620,7 +2634,8 @@
                                  accid="s"
                                  oct="5"
                                  dur="2"
-                                 dots="1"/>
+                                 dots="1"
+/>
                         </layer>
                      </staff>
                      <staff n="2">
@@ -2703,7 +2718,8 @@
                                     oct="4"
                                     dur="16"
                                     size="cue"
-                                    stem.dir="up"/>
+                                    stem.dir="up"
+/>
                               <note xml:id="d1e10435"
                                     pname="a"
                                     oct="3"
@@ -3276,7 +3292,8 @@
                                     oct="3"
                                     dur="16"
                                     size="cue"
-                                    stem.dir="up"/>
+                                    stem.dir="up"
+/>
                               <chord xml:id="d619e1" dur="16" stem.dir="up" size="cue">
                                  <note xml:id="d1e13004" pname="d" oct="4"/>
                                  <note xml:id="d1e13023" pname="e" oct="4"/>

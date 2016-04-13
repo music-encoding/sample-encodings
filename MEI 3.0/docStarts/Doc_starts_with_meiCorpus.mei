@@ -49,14 +49,14 @@
         <work>
           <history>
             <eventList>
-              <event>
-                <label>Text:</label>
+              <event>                
+                <desc>Text:</desc>
                 <date>1642</date>
               </event>
               <event>
-                <label>Melodie:<date>1704</date>
+                <desc>Melodie:<date>1704</date>
                   <geogName>Halle</geogName>
-                </label>
+                </desc>
               </event>
             </eventList>
           </history>
@@ -109,7 +109,7 @@
           <history>
             <eventList>
               <event>
-                <label>Melodie:</label>
+                <desc>Melodie:</desc>
                 <date>1972</date>
                 <persName>Rolf Schweizer</persName>
               </event>

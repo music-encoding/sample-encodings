@@ -15,7 +15,7 @@
          </titleStmt>
          <pubStmt>
             <respStmt>
-               <corpName codedval="5115204-6" authURI="http://d-nb.info/gnd" authority="GND"
+               <corpName role="publisher" codedval="5115204-6" authURI="http://d-nb.info/gnd" authority="GND"
                   >Musikwissenschaftliches Seminar, Detmold</corpName>
             </respStmt>
             <address>
@@ -84,7 +84,7 @@
                <titleStmt>
                   <title>Domine Deus, Deus virtutum</title>
                   <respStmt>
-                     <persName cert="unknown" codedval="11861116X" authURI="http://d-nb.info/gnd"
+                     <persName role="creator" cert="unknown" codedval="11861116X" authURI="http://d-nb.info/gnd"
                         authority="GND">Heinrich Schütz</persName>
                      <persName role="editor">Fritz Brodersen</persName>
                   </respStmt>
@@ -99,7 +99,7 @@
                <pubStmt>
                   <date isodate="2011-10-10"/>
                   <respStmt>
-                     <corpName>Werner Icking Music Archive</corpName>
+                     <corpName role="publisher">Werner Icking Music Archive</corpName>
                   </respStmt>
                </pubStmt>
             </source>
@@ -110,7 +110,7 @@
             <titleStmt>
                <title>Domine Deus, Deus virtutum</title>
                <respStmt>
-                  <persName cert="unknown" codedval="11861116X" authURI="http://d-nb.info/gnd"
+                  <persName role="creator" cert="unknown" codedval="11861116X" authURI="http://d-nb.info/gnd"
                      authority="GND">Heinrich Schütz</persName>
                </respStmt>
             </titleStmt>
