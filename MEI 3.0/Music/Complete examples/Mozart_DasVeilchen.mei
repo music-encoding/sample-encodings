@@ -15,7 +15,7 @@
          </titleStmt>
          <pubStmt>
             <respStmt>
-               <corpName role="publisher" codedval="5115204-6" authURI="http://d-nb.info/gnd" authority="GND">Musikwissenschaftliches Seminar, Detmold</corpName>
+               <corpName codedval="5115204-6" authURI="http://d-nb.info/gnd" authority="GND">Musikwissenschaftliches Seminar, Detmold</corpName>
             </respStmt>
             <address>
                <addrLine>Gartenstrasse 20</addrLine>
@@ -77,7 +77,7 @@
             </identifier>
          </seriesStmt>
          <sourceDesc>
-            <source>
+            <source n="1" xml:id="IMSLP_Mozart_K476" label="print">
                <identifier type="workNumber">K.476</identifier>
                <identifier type="URI">http://conquest.imslp.info/files/imglnks/usimg/f/fe/IMSLP48334-PMLP102278-Mozart_-_Veilchen_K_476.pdf</identifier>
                <titleStmt>
@@ -94,7 +94,7 @@
                   </respStmt>
                </titleStmt>
             </source>
-            <source>
+            <source n="2" xml:id="MusicXML_Mozart_K476" label="electronic">
                <identifier type="URI">http://www.musicxml.com/de/music-in-musicxml/example-set/</identifier>
                <titleStmt>
                   <title>Das Veilchen</title>
@@ -221,7 +221,9 @@
                   </section>
                </score>
             </incip>
-            <creation><date>1785</date></creation>
+            <creation>
+               <date>1785</date>
+            </creation>
             <perfMedium>
                <perfResList>
                   <perfRes n="1" codedval="vu">Voice</perfRes>
@@ -325,10 +327,10 @@
          <change n="8">
             <respStmt/>
             <changeDesc>
-               <p>Converted to version 3.0.0 using mei2013To2015.xsl, version
+               <p>Converted to version 3.0.0 using mei21To30.xsl, version
                   1.0 beta</p>
             </changeDesc>
-            <date isodate="2015-10-15"/>
+            <date isodate="2016-04-14"/>
          </change>
       </revisionDesc>
    </meiHead>
