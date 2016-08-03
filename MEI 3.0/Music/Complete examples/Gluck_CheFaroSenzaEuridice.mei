@@ -367,6 +367,15 @@
             </changeDesc>
             <date isodate="2015-10-15"/>
          </change>
+         <change n="9">
+            <respStmt/>
+              <persName>Klaus Rettinghaus</persName>
+            </respStmt>
+            <changeDesc>
+               <p>Fixed scoreDef</p>
+            </changeDesc>
+            <date isodate="2016-07-31"/>
+         </change>
       </revisionDesc>
    </meiHead>
    <music>
@@ -425,21 +434,19 @@
                                   clef.shape="C"
                                   key.sig="0"
                                   key.mode="major"/>
-                        <staffGrp symbol="brace">
+                        <staffGrp symbol="brace" label="Harpsichord" label.abbr="Hpschd.">
                            <staffDef n="5"
                                      xml:id="P5"
-                                     label="Harpsichord"
-                                     label.abbr="Hpschd."
                                      lines="5"
-                                     clef.line="3"
+                                     clef.line="2"
                                      clef.shape="G"
                                      key.sig="0"
                                      key.mode="major"/>
                            <staffDef n="6"
                                      xml:id="P6"
                                      lines="5"
-                                     clef.line="5"
-                                     clef.shape="G"
+                                     clef.line="4"
+                                     clef.shape="F"
                                      key.sig="0"
                                      key.mode="major"/>
                         </staffGrp>
@@ -456,7 +463,7 @@
                   </staffGrp>
                </scoreDef>
                <section>
-                  <measure n="0" xml:id="m0" type="upbeat">
+                  <measure n="0" xml:id="m0" metcon="false" type="upbeat">
                      <staff n="1">
                         <layer n="1">
                            <rest dur="4"/>
