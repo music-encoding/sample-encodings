@@ -2,9 +2,9 @@
 <?xml-model href="../../../mei2ly/mei-CMN.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
 <music xmlns:xlink="http://www.w3.org/1999/xlink"
        xmlns="http://www.music-encoding.org/ns/mei"
-       meiversion="3.0.0"><!--A typical MEI document contains an MEI element, which in turn contains metadata, 
-	represented by an MEIHead element, and the musical text itself, represented by a 
-	music element. Moreover, it is possible to capture only musical texts without any metadata. 
+       meiversion="3.0.0"><!--A typical MEI document contains an MEI element, which in turn contains metadata,
+	represented by an MEIHead element, and the musical text itself, represented by a
+	music element. Moreover, it is possible to capture only musical texts without any metadata.
 	This is an example for the use of the entry point &lt;music&gt;.-->
    <body>
       <mdiv>
@@ -58,6 +58,7 @@
                         <note pname="a" oct="3" dur="8" artic="stacc"/>
                      </layer>
                   </staff>
+                  <dir staff="1" tstamp="0.5" place="above">Schnell.</dir>
                   <dynam staff="2" tstamp="1" place="below">p</dynam>
                </measure>
                <measure n="1">
@@ -102,7 +103,6 @@
                         </beam>
                      </layer>
                   </staff>
-                  <dir tstamp="0.5" place="above">Schnell.</dir>
                </measure>
                <measure n="2">
                   <staff n="1">
