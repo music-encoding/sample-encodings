@@ -1,4 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<?xml-model href="../../../mei2ly/mei-CMN.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
 <music xmlns:xlink="http://www.w3.org/1999/xlink"
        xmlns="http://www.music-encoding.org/ns/mei"
        meiversion="3.0.0"><!--A typical MEI document contains an MEI element, which in turn contains metadata, 
@@ -45,13 +46,11 @@
                   <staff n="1">
                      <layer>
                         <rest dur="8"/>
-                        <dir tstamp="0.5" place="above">Schnell.</dir>
                      </layer>
                   </staff>
                   <staff n="2">
                      <layer>
                         <note pname="a" oct="4" dur="8" artic="stacc"/>
-                        <dynam tstamp="1" place="below">p</dynam>
                      </layer>
                   </staff>
                   <staff n="3">
@@ -59,6 +58,7 @@
                         <note pname="a" oct="3" dur="8" artic="stacc"/>
                      </layer>
                   </staff>
+                  <dynam staff="2" tstamp="1" place="below">p</dynam>
                </measure>
                <measure n="1">
                   <staff n="1">
@@ -102,6 +102,7 @@
                         </beam>
                      </layer>
                   </staff>
+                  <dir tstamp="0.5" place="above">Schnell.</dir>
                </measure>
                <measure n="2">
                   <staff n="1">
@@ -122,7 +123,6 @@
                               <syl>V. 4. So</syl>
                            </verse>
                         </note>
-                        <dynam tstamp="1.5" place="above">p</dynam>
                      </layer>
                   </staff>
                   <staff n="2">
@@ -145,6 +145,7 @@
                         <rest dur="8"/>
                      </layer>
                   </staff>
+                  <dynam staff="1" tstamp="1.5" place="above">p</dynam>
                </measure>
                <measure n="3">
                   <staff n="1">
