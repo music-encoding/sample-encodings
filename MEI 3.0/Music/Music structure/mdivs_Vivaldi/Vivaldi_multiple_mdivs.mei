@@ -211,6 +211,16 @@
             </changeDesc>
             <date isodate="2015-10-16"/>
          </change>
+         <change n="5">
+            <respStmt>
+               <persName>Klaus Rettinghaus</persName>
+            </respStmt>
+            <changeDesc>
+               <p>Fixed scoreDef for mdiv2.</p>
+               <p>Replaced rests with measure rests and added fermata.</p>
+            </changeDesc>
+            <date isodate="2016-08-29"/>
+         </change>
       </revisionDesc>
    </meiHead>
    <music>
@@ -247,7 +257,7 @@
                   </staffGrp>
                </scoreDef>
                <section n="1" label="A">
-                  <measure n="1" xml:id="d469095e18">
+                  <measure metcon="false" n="1" xml:id="d469095e18">
                      <staff n="1">
                         <layer n="1">
                            <note xml:id="d469095e39"
@@ -1673,8 +1683,7 @@
                                     accid="s"
                                     oct="2"
                                     dur="8"
-                                    stem.dir="up"
-/>
+                                    stem.dir="up"/>
                            </beam>
                            <note xml:id="d469095e3761"
                                  pname="b"
@@ -2985,18 +2994,13 @@
                                clef.line="3"
                                lines="5"
                                label="Alto Viola"/>
-                     <staffDef n="5"
-                               clef.line="4"
-                               clef.shape="F"
-                               lines="5"
-                               label="Organo e Violoncello"/>
                   </staffGrp>
                </scoreDef>
                <section n="1" label="F">
                   <measure n="1" xml:id="d471670e15">
                      <staff n="1">
                         <layer n="1">
-                           <rest xml:id="d471670e36" dur="2" dots="1"/>
+                           <mRest xml:id="d471670e36" dur="2" dots="1"/>
                         </layer>
                      </staff>
                      <staff n="2">
@@ -10450,7 +10454,7 @@
                   <measure n="38" xml:id="d471670e20086">
                      <staff n="1">
                         <layer n="1">
-                           <rest xml:id="d471670e20088" dur="2" dots="1"/>
+                           <mRest xml:id="d471670e20088" dur="2" dots="1"/>
                         </layer>
                      </staff>
                      <staff n="2">
@@ -10645,7 +10649,7 @@
                   <measure n="39" xml:id="d471670e20618" right="end">
                      <staff n="1">
                         <layer n="1">
-                           <rest xml:id="d471670e20620" dur="2" dots="1"/>
+                           <mRest xml:id="d471670e20620" dur="2" dots="1"/>
                         </layer>
                      </staff>
                      <staff n="2">
@@ -10683,6 +10687,7 @@
                                  accid.ges="s"/>
                         </layer>
                      </staff>
+                     <fermata place="above" staff="2" startid="#d471670e20620" form="norm"/>
                      <fermata place="above" staff="2" startid="#d471670e20633" form="norm"/>
                      <fermata place="above" staff="3" startid="#d471670e20654" form="norm"/>
                      <fermata place="above" staff="4" startid="#d471670e20677" form="norm"/>

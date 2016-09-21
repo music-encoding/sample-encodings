@@ -225,7 +225,7 @@
             </changeDesc>
             <date isodate="2012-07-18"/>
          </change>
-         <change n="1">
+         <change n="2">
             <respStmt>
                <persName>Kristina Richts</persName>
             </respStmt>
@@ -247,6 +247,15 @@
                <p>Converted to version 3.0.0 using mei21To30.xsl, version 1.0 beta</p>
             </changeDesc>
             <date isodate="2015-10-15"/>
+         </change>
+         <change n="5">
+            <respStmt>
+               <persName>Klaus Rettinghaus</persName>
+            </respStmt>
+            <changeDesc>
+               <p>Fixed several encoding errors.</p>
+            </changeDesc>
+            <date isodate="2016-08-02"/>
          </change>
       </revisionDesc>
    </meiHead>
@@ -659,7 +668,7 @@
                               <note pname="d" oct="5" dur="8" dots="1"/>
                               <note pname="b" oct="5" dur="16"/>
                            </beam>
-                           <note pname="g" oct="5" dots="1" dur="4" slur="i1"/>
+                           <note pname="g" oct="5" dur="4" slur="i1"/>
                            <beam>
                               <note pname="f" oct="5" dur="8" accid="s" dots="1"/>
                               <note pname="g" oct="5" dur="16"/>
@@ -1000,7 +1009,7 @@
                      </staff>
                      <staff n="2">
                         <layer>
-                           <rest dur="4"/>
+                           <mRest/>
                         </layer>
                      </staff>
                      <staff n="3">
@@ -1385,7 +1394,7 @@
                            <f>6</f>
                         </fb>
                      </harm>
-                     <harm staff="3" place="below" tstamp="4">
+                     <harm staff="3" place="below" tstamp="3">
                         <fb>
                            <f>7</f>
                         </fb>
@@ -1731,7 +1740,7 @@
                            <note pname="f" oct="4" dur="8" accid="s" xml:id="m27_s2_e5"/>
                            <beam>
                               <note pname="f" oct="4" dur="8" dots="1" xml:id="m27_s2_e6"/>
-                              <note pname="e" dur="16" oct="4" dots="1" accid="n"/>
+                              <note pname="e" oct="4" dur="32" accid="n"/>
                               <note pname="f" oct="4" dur="32"/>
                            </beam>
                         </layer>
@@ -2030,13 +2039,13 @@
                               <note pname="e" oct="5" dur="16" accid="n" xml:id="m33_s1_e3"/>
                               <note pname="f" oct="6" dur="16" xml:id="m33_s1_e4"/>
                            </beam>
-                           <rest dur="8"/>
+                           <rest dur="16"/>
                            <beam>
                               <note pname="a" oct="5" dur="16" xml:id="m33_s1_e6"/>
                               <note pname="b" oct="4" dur="16" accid="n" xml:id="m33_s1_e7"/>
                               <note pname="c" oct="5" dur="16" xml:id="m33_s1_e8"/>
                            </beam>
-                           <rest dur="8"/>
+                           <rest dur="16"/>
                            <beam>
                               <note pname="f" oct="5" dur="16" xml:id="m33_s1_e10"/>
                               <note pname="g" oct="4" dur="16" xml:id="m33_s1_e11"/>
@@ -2079,7 +2088,7 @@
                            <f>6</f>
                         </fb>
                      </harm>
-                     <harm staff="3" place="below" tstamp="4.5">
+                     <harm staff="3" place="below" tstamp="3.5">
                         <fb>
                            <f>6</f>
                         </fb>
@@ -2110,13 +2119,13 @@
                               <note pname="g" oct="4" dur="16"/>
                               <note pname="f" oct="4" dur="16" xml:id="m34_s2_e4"/>
                            </beam>
-                           <rest dur="8"/>
+                           <rest dur="16"/>
                            <beam>
                               <note pname="d" oct="4" dur="16" xml:id="m34_s2_e6"/>
                               <note pname="c" oct="5" dur="16"/>
                               <note pname="b" oct="4" dur="16" xml:id="m34_s2_e8"/>
                            </beam>
-                           <rest dur="8"/>
+                           <rest dur="16"/>
                            <beam>
                               <note pname="f" oct="4" dur="16" xml:id="m34_s2_e10"/>
                               <note pname="e" oct="5" dur="16"/>
@@ -2142,7 +2151,7 @@
                         </fb>
                      </harm>
                      <harm staff="3" place="below" tstamp="2" extender="true"/>
-                     <harm staff="3" place="below" tstamp="4.5">
+                     <harm staff="3" place="below" tstamp="3.5">
                         <fb>
                            <f>4</f>
                            <f>2</f>
@@ -2210,7 +2219,7 @@
                         </fb>
                      </harm>
                   </measure>
-                  <measure n="36" xml:id="m36" right="dotted" type="repeat">
+                  <measure n="36" xml:id="m36" right="rptend" type="repeat">
                      <staff n="1">
                         <layer>
                            <note pname="e" oct="5" dur="2" dots="1"/>
@@ -2234,12 +2243,12 @@
                         </layer>
                      </staff>
                   </measure>
-                  <measure n="37" xml:id="m37" left="dotted">
+                  <measure n="37" xml:id="m37" left="rptstart">
                      <staff n="1">
                         <layer>
                            <beam>
                               <note pname="g" oct="5" dur="8" dots="1"/>
-                              <note pname="b" oct="4"/>
+                              <note pname="b" oct="4" dur="16"/>
                            </beam>
                            <beam>
                               <note pname="c" oct="5" dur="32" grace="unknown" slur="i1" size="cue"/>
@@ -2334,13 +2343,13 @@
                               <note pname="d" oct="5" dur="16" slur="m1"/>
                               <note pname="e" oct="5" dur="16" slur="t1"/>
                            </beam>
-                           <rest dur="8"/>
+                           <rest dur="16"/>
                            <beam>
                               <note pname="g" oct="5" dur="16" slur="i2"/>
                               <note pname="a" oct="4" accid="n" dur="16" slur="m2"/>
                               <note pname="b" oct="4" dur="16" slur="t2"/>
                            </beam>
-                           <rest dur="8"/>
+                           <rest dur="16"/>
                            <beam>
                               <note pname="e" oct="5" dur="16" slur="i3"/>
                               <note pname="f" oct="4" dur="16" slur="m3"/>
@@ -2352,7 +2361,7 @@
                         <layer>
                            <beam>
                               <note pname="a" oct="5" dur="8" dots="1" accid="n"/>
-                              <note pname="c" oct="5"/>
+                              <note pname="c" oct="5" dur="16"/>
                            </beam>
                            <beam>
                               <note pname="d" oct="5" dur="32" grace="unknown" slur="i1" size="cue"/>
@@ -2467,13 +2476,13 @@
                               <note pname="e" oct="5" dur="16" accid="n" slur="m1"/>
                               <note pname="f" oct="5" dur="16" slur="t1"/>
                            </beam>
-                           <rest dur="8"/>
+                           <rest dur="16"/>
                            <beam>
                               <note pname="a" oct="5" dur="16" slur="i2"/>
                               <note pname="b" oct="4" accid="n" dur="16" slur="m2"/>
                               <note pname="c" oct="5" dur="16" slur="t2"/>
                            </beam>
-                           <rest dur="8"/>
+                           <rest dur="16"/>
                            <beam>
                               <note pname="f" oct="5" dur="16" slur="i3"/>
                               <note pname="g" oct="4" dur="16" slur="m3"/>
@@ -2880,7 +2889,7 @@
                      </harm>
                   </measure>
                   <ending n="1">
-                     <measure n="48" xml:id="m48" right="dbldotted">
+                     <measure n="48" xml:id="m48" right="rptend">
                         <staff n="1">
                            <layer>
                               <note pname="c" oct="5" dur="2" dots="1" stem.dir="down"/>
@@ -2922,7 +2931,7 @@
                      </measure>
                   </ending>
                   <ending n="2">
-                     <measure n="49" xml:id="m49" right="dbldashed">
+                     <measure n="49" xml:id="m49" right="end">
                         <staff n="1">
                            <layer>
                               <note pname="c" oct="5" dur="2" dots="1" stem.dir="down"/>
