@@ -1057,7 +1057,7 @@
                         <layer>
                            <beam>
                               <note pname="g" oct="5" dur="8" dots="1"/>
-                              <note pname="b" oct="4"/>
+                              <note pname="b" oct="4" dur="16"/>
                            </beam>
                            <beam>
                               <note pname="c" oct="5" dur="32" grace="unknown" slur="i1" size="cue"/>

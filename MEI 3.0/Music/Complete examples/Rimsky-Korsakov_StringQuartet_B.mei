@@ -823,6 +823,7 @@
                                  pname="c"
                                  accid="f"
                                  oct="4"
+                                 dur="4"
                                  stem.dir="up"/>
                         </layer>
                      </staff>
@@ -1199,7 +1200,8 @@
                                  pname="c"
                                  accid="s"
                                  oct="5"
-                                 dur="4"
+                                 dur="4"
+
                                  stem.dir="down"/>
                            <note xml:id="d1e1159" pname="a" oct="4" dur="4" stem.dir="up"/>
                            <note xml:id="d1e1174" pname="a" oct="4" dur="4" stem.dir="up"/>
@@ -1351,7 +1353,8 @@
                                  pname="c"
                                  accid="s"
                                  oct="5"
-                                 dur="4"
+                                 dur="4"
+
                                  stem.dir="down"/>
                            <note xml:id="d1e1325" pname="a" oct="4" dur="4" stem.dir="up"/>
                            <note xml:id="d1e1339" pname="a" oct="4" dur="4" stem.dir="up"/>
@@ -2208,10 +2211,11 @@
                                     pname="g"
                                     accid="n"
                                     oct="4"
+                                    dur="8"
                                     stem.dir="down"/>
-                              <note xml:id="m32_s3_e6" pname="g" oct="4" stem.dir="down"/>
-                              <note xml:id="m32_s3_e7" pname="g" oct="4" stem.dir="down"/>
-                              <note xml:id="m32_s3_e8" pname="g" oct="4" stem.dir="down"/>
+                              <note xml:id="m32_s3_e6" pname="g" oct="4" dur="8" stem.dir="down"/>
+                              <note xml:id="m32_s3_e7" pname="g" oct="4" dur="8" stem.dir="down"/>
+                              <note xml:id="m32_s3_e8" pname="g" oct="4" dur="8" stem.dir="down"/>
                            </beam>
                         </layer>
                      </staff>
@@ -3322,7 +3326,8 @@
                                     pname="c"
                                     accid="s"
                                     oct="5"
-                                    dur="8"
+                                    dur="8"
+
                                     stem.dir="down">
                                  <artic artic="stacc"/>
                               </note>
@@ -4002,7 +4007,8 @@
                                     pname="f"
                                     accid="s"
                                     oct="5"
-                                    dur="8"
+                                    dur="8"
+
                                     stem.dir="down">
                                  <artic artic="stacc"/>
                               </note>
@@ -4176,7 +4182,8 @@
                                     pname="f"
                                     accid="s"
                                     oct="4"
-                                    dur="8"
+                                    dur="8"
+
                                     stem.dir="up">
                                  <artic artic="stacc"/>
                               </note>
@@ -4290,6 +4297,7 @@
                            <note xml:id="m51_s4_e3"
                                  pname="f"
                                  oct="3"
+                                 dur="8"
                                  grace="unknown"
                                  stem.dir="up"/>
                            <note xml:id="m51_s4_e4"
