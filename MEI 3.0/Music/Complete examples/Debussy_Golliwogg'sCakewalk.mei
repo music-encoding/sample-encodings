@@ -150,10 +150,10 @@
                                  <note pname="b" oct="4" dur="16" stem.dir="up" artic="acc"/>
                                  <note pname="a" oct="4" dur="8" stem.dir="up" artic="stacc"/>
                                  <note pname="b" oct="4" dur="16" stem.dir="up"/>
-                                 <beam>
-                                    <note pname="f" oct="4" dur="8" stem.dir="up" artic="stacc"/>
-                                    <note pname="b" oct="4" dur="8" stem.dir="up" artic="stacc"/>
-                                 </beam>
+                              </beam>
+                              <beam>
+                                 <note pname="f" oct="4" dur="8" stem.dir="up" artic="stacc"/>
+                                 <note pname="b" oct="4" dur="8" stem.dir="up" artic="stacc"/>
                               </beam>
                            </layer>
                         </staff>

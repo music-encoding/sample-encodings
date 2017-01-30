@@ -1143,9 +1143,21 @@
                            <f>6</f>
                         </fb>
                      </harm>
-                     <harm staff="3" place="below" tstamp="1.5">7</harm>
-                     <harm staff="3" place="below" tstamp="2">6 </harm>
-                     <harm staff="3" place="below" tstamp="3">7 </harm>
+                     <harm staff="3" place="below" tstamp="1.5">
+                       <fb>
+                         <f>7</f>
+                       </fb>
+                     </harm>
+                     <harm staff="3" place="below" tstamp="2">
+                       <fb>
+                         <f>6</f>
+                       </fb>
+                     </harm>
+                     <harm staff="3" place="below" tstamp="3">
+                       <fb>
+                         <f>7</f>
+                       </fb>
+                     </harm>
                   </measure>
                   <ending n="1">
                      <measure n="48" xml:id="m48" right="dbldotted">
