@@ -3446,7 +3446,7 @@
                                  <artic artic="stacc" place="above"/>
                               </note>
                            </beam>
-                           <clef shape="G" line="2"/>
+                           <clef shape="G" line="2" xml:id="d1e9805"/>
                            <rest xml:id="d1e9806" dur="4"/>
                            <note xml:id="d1e9857" pname="b" oct="4" dur="4" stem.dir="up">
                               <artic artic="acc" place="above"/>
@@ -3454,6 +3454,7 @@
                         </layer>
                         <layer n="2">
                            <rest xml:id="d1e9766" dur="4"/>
+                           <clef sameas="#d1e9805"/>
                            <chord xml:id="d847e1" dur="2" stem.dir="down">
                               <note xml:id="d1e9819" pname="d" oct="4"/>
                               <note xml:id="d1e9833" pname="f" oct="4" tie="i" accid.ges="s"/>
@@ -3498,7 +3499,7 @@
                                  tie="t"
                                  stem.dir="down"
                                  accid.ges="s"/>
-                           <clef shape="F" line="4"/>
+                           <clef shape="F" line="4" xml:id="d1e10014"/>
                            <note xml:id="d1e10134"
                                  pname="f"
                                  oct="3"
@@ -3521,6 +3522,7 @@
                               <note xml:id="d1e10097" pname="c" oct="4" accid.ges="s"/>
                               <note xml:id="d1e10113" pname="a" oct="4"/>
                            </chord>
+                           <clef sameas="#d1e10014"/>
                            <rest xml:id="d1e10157" dur="4"/>
                         </layer>
                      </staff>
@@ -3566,7 +3568,7 @@
                                  <artic artic="stacc" place="above"/>
                               </note>
                            </beam>
-                           <clef shape="G" line="2"/>
+                           <clef shape="G" line="2" xml:id="d1e10334"/>
                            <rest xml:id="d1e10360" dur="4"/>
                            <note xml:id="d1e10411" pname="b" oct="4" dur="4" stem.dir="up">
                               <artic artic="acc" place="above"/>
@@ -3574,6 +3576,7 @@
                         </layer>
                         <layer n="2">
                            <rest xml:id="d1e10320" dur="4"/>
+                           <clef sameas="#d1e10334"/>
                            <chord xml:id="d921e1" dur="2" stem.dir="down">
                               <note xml:id="d1e10373" pname="d" oct="4"/>
                               <note xml:id="d1e10387" pname="f" oct="4" tie="i" accid.ges="s"/>
@@ -3687,7 +3690,7 @@
                                  <artic artic="stacc" place="above"/>
                               </note>
                            </beam>
-                           <clef shape="G" line="2"/>
+                           <clef shape="G" line="2" xml:id="d1e10809"/>
                            <rest xml:id="d1e10835" dur="4"/>
                            <note xml:id="d1e10886"
                                  pname="g"
@@ -3698,6 +3701,7 @@
                         </layer>
                         <layer n="2">
                            <rest xml:id="d1e10795" dur="4"/>
+                           <clef shape="G" line="2" sameas="#d1e10809"/>
                            <chord xml:id="d979e1" dur="2" stem.dir="down">
                               <note xml:id="d1e10848" pname="b" oct="3"/>
                               <note xml:id="d1e10862" pname="c" oct="4" tie="i" accid.ges="s"/>
@@ -3812,7 +3816,7 @@
                                  <artic artic="stacc" place="above"/>
                               </note>
                            </beam>
-                           <clef shape="G" line="2"/>
+                           <clef shape="G" line="2" xml:id="d1e11370"/>
                            <rest xml:id="d1e11396" dur="4"/>
                            <note xml:id="d1e11447"
                                  pname="g"
@@ -3825,6 +3829,7 @@
                         </layer>
                         <layer n="2">
                            <rest xml:id="d1e11356" dur="4"/>
+                           <clef sameas="#d1e11370"/>
                            <chord xml:id="d1053e1" dur="2" stem.dir="down">
                               <note xml:id="d1e11409" pname="b" oct="3"/>
                               <note xml:id="d1e11423" pname="c" oct="4" tie="i" accid.ges="s"/>
@@ -3939,7 +3944,7 @@
                                  <artic artic="stacc" place="above"/>
                               </note>
                            </beam>
-                           <clef shape="G" line="2"/>
+                           <clef shape="G" line="2" xml:id="d1e11860"/>
                            <rest xml:id="d1e11886" dur="4"/>
                            <note xml:id="d1e11937" pname="b" oct="4" dur="4" stem.dir="up">
                               <artic artic="acc" place="above"/>
@@ -3947,6 +3952,7 @@
                         </layer>
                         <layer n="2">
                            <rest xml:id="d1e11846" dur="4"/>
+                           <clef sameas="#d1e11860"/>
                            <chord xml:id="d1111e1" dur="2" stem.dir="down">
                               <note xml:id="d1e11899" pname="d" oct="4"/>
                               <note xml:id="d1e11913" pname="f" oct="4" tie="i" accid.ges="s"/>
@@ -3991,7 +3997,7 @@
                                  tie="t"
                                  stem.dir="down"
                                  accid.ges="s"/>
-                           <clef shape="F" line="4"/>
+                           <clef shape="F" line="4" xml:id="d1e12094"/>
                            <note xml:id="d1e12183"
                                  pname="f"
                                  oct="3"
@@ -4010,6 +4016,7 @@
                               <note xml:id="d1e12146" pname="b" oct="3"/>
                               <note xml:id="d1e12160" pname="g" oct="4" accid.ges="s"/>
                            </chord>
+                           <clef sameas="#d1e12094"/>
                            <chord xml:id="d1152e1" dur="4" stem.dir="up">
                               <note xml:id="d1e12205" pname="c" oct="4" accid.ges="s"/>
                               <note xml:id="d1e12221" pname="a" oct="4"/>
@@ -4058,7 +4065,7 @@
                                  <artic artic="stacc" place="above"/>
                               </note>
                            </beam>
-                           <clef shape="G" line="2"/>
+                           <clef shape="G" line="2" xml:id="de112403"/>
                            <rest xml:id="d1e12429" dur="4"/>
                            <note xml:id="d1e12480" pname="b" oct="4" dur="4" stem.dir="up">
                               <artic artic="acc" place="above"/>
@@ -4066,6 +4073,7 @@
                         </layer>
                         <layer n="2">
                            <rest xml:id="d1e12389" dur="4"/>
+                           <clef sameas="#de112403"/>
                            <chord xml:id="d1185e1" dur="2" stem.dir="down">
                               <note xml:id="d1e12442" pname="d" oct="4"/>
                               <note xml:id="d1e12456" pname="f" oct="4" tie="i" accid.ges="s"/>
@@ -4177,7 +4185,7 @@
                                  <artic artic="stacc" place="above"/>
                               </note>
                            </beam>
-                           <clef shape="G" line="2"/>
+                           <clef shape="G" line="2" xml:id="d1e12873"/>
                            <rest xml:id="d1e12899" dur="4"/>
                            <note xml:id="d1e12950"
                                  pname="g"
@@ -4190,6 +4198,7 @@
                         </layer>
                         <layer n="2">
                            <rest xml:id="d1e12859" dur="4"/>
+                           <clef sameas="#d1e12873"/>
                            <chord xml:id="d1243e1" dur="2" stem.dir="down">
                               <note xml:id="d1e12912" pname="b" oct="3"/>
                               <note xml:id="d1e12926" pname="c" oct="4" tie="i" accid.ges="s"/>
@@ -4304,7 +4313,7 @@
                                  <artic artic="stacc" place="above"/>
                               </note>
                            </beam>
-                           <clef shape="G" line="2"/>
+                           <clef shape="G" line="2" xml:id="d1e13442"/>
                            <rest xml:id="d1e13468" dur="4"/>
                            <note xml:id="d1e13500"
                                  pname="g"
@@ -4317,6 +4326,7 @@
                         </layer>
                         <layer n="2">
                            <rest xml:id="d1e13428" dur="4"/>
+                           <clef sameas="#d1e13442"/>
                            <note xml:id="d1e13481"
                                  pname="c"
                                  oct="4"
