@@ -5852,7 +5852,7 @@
                         <layer n="2">
                            <clef shape="F" line="4"/>
                            <rest xml:id="d1e27281" dur="4" vo="-11"/>
-                           <chord xml:id="d1638e1" dur="4" stem.dir="down" tie="i">
+                           <chord xml:id="d1638e1" dur="4" stem.dir="down" lv="true">
                               <note xml:id="d1e27295" pname="c" oct="3"/>
                               <note xml:id="d1e27314" pname="g" oct="3"/>
                            </chord>
@@ -5867,16 +5867,6 @@
                      <dir tstamp="1" place="above" staff="1">
                         <rend fontsize="6.75" fontweight="bold">er</rend>
                      </dir>
-                     <tie tstamp="1.083"
-                          staff="2 1"
-                          curvedir="below"
-                          startid="#d1e27295"
-                          endid="#d1e33601"/>
-                     <tie tstamp="1.167"
-                          staff="2 1"
-                          curvedir="above"
-                          startid="#d1e27314"
-                          endid="#d1e32377"/>
                   </measure>
                   <staffDef n="2" lines="5" clef.line="2" clef.shape="G"/>
                   <measure n="71" xml:id="d1e27334" width="251">
@@ -6002,22 +5992,12 @@
                         <layer n="2">
                            <clef shape="F" line="4"/>
                            <rest xml:id="d1e28095" dur="4" vo="-11"/>
-                           <chord xml:id="d1718e1" dur="4" stem.dir="down" tie="i">
+                           <chord xml:id="d1718e1" dur="4" stem.dir="down" lv="true">
                               <note xml:id="d1e28109" pname="a" oct="2"/>
                               <note xml:id="d1e28128" pname="e" oct="3"/>
                            </chord>
                         </layer>
                      </staff>
-                     <tie tstamp="2"
-                          staff="2"
-                          curvedir="below"
-                          startid="#d1e28109"
-                          endid="#d1e33792"/>
-                     <tie tstamp="1.167"
-                          staff="2 1"
-                          curvedir="above"
-                          startid="#d1e28128"
-                          endid="#d1e32414"/>
                   </measure>
                   <staffDef n="2" lines="5" clef.line="2" clef.shape="G"/>
                   <measure n="73" xml:id="d1e28148" width="252">
