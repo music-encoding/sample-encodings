@@ -361,7 +361,7 @@
             <score>
                <scoreDef key.sig="0">
                   <staffGrp>
-                     <staffDef lines="5" n="1" clef.shape="G" clef.line="2" key.sig="0"/>
+                     <staffDef xml:id="s1" lines="5" n="1" clef.shape="G" clef.line="2" key.sig="0"/>
                      <staffGrp symbol="brace">
                         <staffDef lines="5" n="2" clef.shape="G" clef.line="2" key.sig="0"/>
                         <staffDef lines="5" n="3" clef.shape="F" clef.line="4" key.sig="0"/>
@@ -485,7 +485,7 @@
                      <dynam staff="3" place="above" startid="#chord_1">f</dynam>
                   </measure>
                   <measure n="2" right="invis">
-                     <staff n="1" def="#1">
+                     <staff n="1" def="#s1">
                         <layer n="1">
                            <rest dur="8"/>
                            <note pname="f" oct="4" dur="8" accid="s" stem.dir="up">
