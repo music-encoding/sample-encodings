@@ -642,7 +642,7 @@
                               halign="center">Worte: Martin Luther 1529 Quelle: Jos. Klug G.B. 1535</rend>
                      </dir>
                   </measure>
-                  <measure n="4" xml:id="d1e1156" right="rptend">
+                  <measure n="4" xml:id="d1e1156" right="rptend" metcon="false">
                      <staff n="1">
                         <layer n="1">
                            <beam>
@@ -1276,7 +1276,7 @@
                            staff="1"
                            tstamp2="1m+1"/>
                   </measure>
-                  <measure n="13" xml:id="d1e4066" right="end">
+                  <measure n="13" xml:id="d1e4066" right="end" metcon="false">
                      <staff n="1">
                         <layer n="1">
                            <note xml:id="d1e4068" pname="e" oct="4" dur="2" stem.dir="up"/>
