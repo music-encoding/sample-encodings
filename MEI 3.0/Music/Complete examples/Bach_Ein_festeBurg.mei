@@ -201,7 +201,7 @@
                            <layer n="1">
                               <note pname="d" oct="5" dur="4" stem.dir="up">
                                  <verse n="1">
-                                    <syl>fe</syl>
+                                    <syl con="d" wordpos="i">fe</syl>
                                  </verse>
                                  <verse n="2">
                                     <syl>hilft</syl>
@@ -209,7 +209,7 @@
                               </note>
                               <note pname="d" oct="5" dur="4" stem.dir="up">
                                  <verse n="1">
-                                    <syl>ste</syl>
+                                    <syl wordpos="t">ste</syl>
                                  </verse>
                                  <verse n="2">
                                     <syl>uns</syl>
@@ -406,7 +406,7 @@
                         <layer n="1">
                            <note xml:id="d1e366" pname="d" oct="5" dur="4" stem.dir="up">
                               <verse n="1">
-                                 <syl>fe</syl>
+                                 <syl con="d" wordpos="i">fe</syl>
                               </verse>
                               <verse n="2">
                                  <syl>hilft</syl>
@@ -414,7 +414,7 @@
                            </note>
                            <note xml:id="d1e390" pname="d" oct="5" dur="4" stem.dir="up">
                               <verse n="1">
-                                 <syl>ste</syl>
+                                 <syl wordpos="t">ste</syl>
                               </verse>
                               <verse n="2">
                                  <syl>uns</syl>
@@ -477,10 +477,10 @@
                            <beam>
                               <note xml:id="d1e565" pname="d" oct="5" dur="8" stem.dir="up">
                                  <verse n="1">
-                                    <syl>un</syl>
+                                    <syl con="d" wordpos="i">un</syl>
                                  </verse>
                                  <verse n="2">
-                                    <syl>al</syl>
+                                   <syl con="d" wordpos="i">al</syl>
                                  </verse>
                               </note>
                               <note xml:id="d1e593" pname="c" oct="5" dur="8" stem.dir="up"/>
@@ -508,7 +508,7 @@
                            </note>
                            <note xml:id="d1e673" pname="d" oct="5" dur="4" stem.dir="up">
                               <verse n="1">
-                                 <syl>ein</syl>
+                                 <syl>ein'</syl>
                               </verse>
                               <verse n="2">
                                  <syl>die</syl>
@@ -569,7 +569,7 @@
                         <layer n="1">
                            <note xml:id="d1e835" pname="c" oct="5" dur="4" stem.dir="up">
                               <verse n="1">
-                                 <syl>gu</syl>
+                                <syl con="d" wordpos="i">gu</syl>
                               </verse>
                               <verse n="2">
                                  <syl>uns</syl>
@@ -577,7 +577,7 @@
                            </note>
                            <note xml:id="d1e861" pname="b" oct="4" dur="4" stem.dir="up">
                               <verse n="1">
-                                 <syl>te</syl>
+                                 <syl wordpos="t">te</syl>
                               </verse>
                               <verse n="2">
                                  <syl>jetzt</syl>
@@ -596,7 +596,7 @@
                                  <syl>und</syl>
                               </verse>
                               <verse n="2">
-                                 <syl>be</syl>
+                                <syl con="d" wordpos="i">be</syl>
                               </verse>
                            </note>
                         </layer>
@@ -648,10 +648,10 @@
                            <beam>
                               <note xml:id="d1e1158" pname="g" oct="4" dur="8" stem.dir="up">
                                  <verse n="1">
-                                    <syl>Waf</syl>
+                                   <syl con="d" wordpos="i">Waf</syl>
                                  </verse>
                                  <verse n="2">
-                                    <syl>trof</syl>
+                                   <syl con="d" wordpos="m">trof</syl>
                                  </verse>
                               </note>
                               <note xml:id="d1e1186" pname="f" oct="4" dur="8" stem.dir="up"/>
@@ -663,7 +663,14 @@
                                  dur="4"
                                  fermata="above"
                                  stem.dir="up"
-                                 syl="fen.//fen."/>
+                                 syl="fen.//fen.">
+                             <verse n="1">
+                               <syl wordpos="t">fen.</syl>
+                             </verse>
+                             <verse n="2">
+                               <syl wordpos="t">fen.</syl>
+                             </verse>
+                           </note>
                         </layer>
                         <layer n="2">
                            <space xml:id="d56e8a1544"/>
@@ -738,13 +745,13 @@
                         <layer n="1">
                            <note xml:id="d1e1744" pname="a" oct="4" dur="4" stem.dir="up">
                               <verse n="1">
-                                 <syl>alt</syl>
+                                 <syl>alt'</syl>
                               </verse>
                            </note>
                            <note xml:id="d1e1766" pname="b" oct="4" dur="4" stem.dir="up"/>
                            <note xml:id="d1e1782" pname="a" oct="4" dur="4" stem.dir="up">
                               <verse n="1">
-                                 <syl>bö</syl>
+                                 <syl con="d" wordpos="i">bö</syl>
                               </verse>
                            </note>
                            <note xml:id="d1e1801"
@@ -754,7 +761,7 @@
                                  dur="4"
                                  stem.dir="up">
                               <verse n="1">
-                                 <syl>se</syl>
+                                 <syl wordpos="t">se</syl>
                               </verse>
                            </note>
                         </layer>
@@ -835,7 +842,7 @@
                                  fermata="above"
                                  stem.dir="up">
                               <verse n="1">
-                                 <syl>Feind</syl>
+                                 <syl>Feind,</syl>
                               </verse>
                            </note>
                            <note xml:id="d1e2073" pname="d" oct="4" dur="4" stem.dir="up">
@@ -887,8 +894,11 @@
                                  pname="b"
                                  oct="4"
                                  dur="4"
-                                 stem.dir="up"
-                                 syl="er´s"/>
+                                 stem.dir="up">
+                             <verse n="1">
+                               <syl>er's</syl>
+                             </verse>
+                           </note>
                            <note xml:id="d1e2280" pname="c" oct="5" dur="4" stem.dir="up">
                               <verse n="1">
                                  <syl>jetzt</syl>
@@ -901,12 +911,12 @@
                                  fermata="above"
                                  stem.dir="up">
                               <verse n="1">
-                                 <syl>meint</syl>
+                                 <syl>meint,</syl>
                               </verse>
                            </note>
                            <note xml:id="d1e2322" pname="c" oct="5" dur="4" stem.dir="up">
                               <verse n="1">
-                                 <syl>groß</syl>
+                                 <syl>groß'</syl>
                               </verse>
                            </note>
                         </layer>
@@ -1060,18 +1070,18 @@
                         <layer n="1">
                            <note xml:id="d1e2986" pname="b" oct="4" dur="4" stem.dir="up">
                               <verse n="1">
-                                 <syl>grau</syl>
+                                <syl con="d" wordpos="i">grau</syl>
                               </verse>
                            </note>
                            <note xml:id="d1e3005" pname="a" oct="4" dur="4" stem.dir="up">
                               <verse n="1">
-                                 <syl>sam</syl>
+                                 <syl wordpos="t">sam</syl>
                               </verse>
                            </note>
                            <beam>
                               <note xml:id="d1e3024" pname="b" oct="4" dur="8" stem.dir="up">
                                  <verse n="1">
-                                    <syl>Rüst</syl>
+                                   <syl con="d" wordpos="i">Rüst</syl>
                                  </verse>
                               </note>
                               <note xml:id="d1e3046" pname="a" oct="4" dur="8" stem.dir="up"/>
@@ -1132,8 +1142,11 @@
                                  oct="4"
                                  dur="4"
                                  fermata="above"
-                                 stem.dir="up"
-                                 syl="ist,"/>
+                                 stem.dir="up">
+                             <verse n="1">
+                               <syl wordpos="t">ist,</syl>
+                             </verse>
+                           </note>
                            <note xml:id="d1e3316"
                                  pname="d"
                                  accid="n"
@@ -1146,7 +1159,7 @@
                            </note>
                            <note xml:id="d1e3337" pname="c" oct="5" dur="4" stem.dir="up">
                               <verse n="1">
-                                 <syl>Erdn</syl>
+                                 <syl>Erd'n</syl>
                               </verse>
                            </note>
                            <note xml:id="d1e3358" pname="b" oct="4" dur="4" stem.dir="up">
@@ -1221,7 +1234,7 @@
                            </beam>
                            <note xml:id="d1e3750" pname="g" oct="4" dur="4" stem.dir="up">
                               <verse n="1">
-                                 <syl>Glei</syl>
+                                <syl con="d" wordpos="i">Glei</syl>
                               </verse>
                            </note>
                            <note xml:id="d1e3772" pname="f" oct="4" dur="4" stem.dir="up"/>
@@ -1293,7 +1306,7 @@
                                  fermata="above"
                                  stem.dir="up">
                               <verse n="1">
-                                 <syl>chen.</syl>
+                                 <syl wordpos="t">chen.</syl>
                               </verse>
                            </note>
                         </layer>
