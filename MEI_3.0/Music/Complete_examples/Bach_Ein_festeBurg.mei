@@ -672,10 +672,9 @@
                            </note>
                         </layer>
                         <layer n="2">
-                           <space xml:id="d56e8a1544"/>
-                              <note xml:id="d1e1269" pname="c" oct="4" dur="8" stem.dir="down"/>
-                              <note xml:id="d1e1289" pname="d" oct="4" dur="4" stem.dir="down"/>
-                              <note xml:id="d1e1303" pname="c" oct="4" dur="8" stem.dir="down"/>                           
+                           <note xml:id="d1e1269" pname="c" oct="4" dur="8" stem.dir="down"/>
+                           <note xml:id="d1e1289" pname="d" oct="4" dur="4" stem.dir="down"/>
+                           <note xml:id="d1e1303" pname="c" oct="4" dur="8" stem.dir="down"/>                           
                            <note xml:id="d1e1321" pname="d" oct="4" dur="4" stem.dir="down"/>
                         </layer>
                      </staff>
@@ -687,7 +686,6 @@
                            <note xml:id="d1e1958" pname="f" oct="3" dur="4" stem.dir="up"/>
                         </layer>
                         <layer n="2">
-                           <space xml:id="d87e8a1544"/>
                            <beam>
                               <note xml:id="d1e1980" pname="e" oct="3" dur="8" stem.dir="down"/>
                               <note xml:id="d1e1998" pname="d" oct="3" dur="8" stem.dir="down"/>
