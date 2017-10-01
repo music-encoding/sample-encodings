@@ -247,7 +247,7 @@
                         </staff>
                         <staff n="2">
                            <layer n="1">
-                              <note pname="f" oct="4" stem.dir="up"/>
+                              <note pname="f" oct="4" dur="4" stem.dir="up"/>
                               <beam>
                                  <note pname="b" oct="3" dur="8" stem.dir="up"/>
                                  <note pname="c" oct="4" dur="8" stem.dir="up"/>
@@ -452,7 +452,7 @@
                      </staff>
                      <staff n="2">
                         <layer n="1">
-                           <note xml:id="d1e54" pname="f" oct="4" stem.dir="up"/>
+                           <note xml:id="d1e54" pname="f" oct="4" dur="4" stem.dir="up"/>
                            <beam>
                               <note xml:id="d1e55" pname="b" oct="3" dur="8" stem.dir="up"/>
                               <note xml:id="d1e56" pname="c" oct="4" dur="8" stem.dir="up"/>
