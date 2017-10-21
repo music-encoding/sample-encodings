@@ -312,17 +312,17 @@
                                    bracket.visible="false"
                                    xml:id="m1_s2_e1">
                               <beam>
-                                 <chord stem.dir="up" xml:id="m1_s2_c1">
-                                    <note pname="g" oct="3" dur="8"/>
-                                    <note pname="g" oct="4" dur="8"/>
+                                 <chord stem.dir="up" xml:id="m1_s2_c1" dur="8">
+                                    <note pname="g" oct="3"/>
+                                    <note pname="g" oct="4"/>
                                  </chord>
-                                 <chord stem.dir="up" xml:id="m1_s2_c2">
-                                    <note pname="g" oct="3" dur="8"/>
-                                    <note pname="g" oct="4" dur="8"/>
+                                 <chord stem.dir="up" xml:id="m1_s2_c2" dur="8">
+                                    <note pname="g" oct="3"/>
+                                    <note pname="g" oct="4"/>
                                  </chord>
-                                 <chord stem.dir="up" xml:id="m1_s2_c3">
-                                    <note pname="g" oct="3" dur="8"/>
-                                    <note pname="g" oct="4" dur="8"/>
+                                 <chord stem.dir="up" xml:id="m1_s2_c3" dur="8">
+                                    <note pname="g" oct="3"/>
+                                    <note pname="g" oct="4"/>
                                  </chord>
                               </beam>
                            </tuplet>
@@ -347,20 +347,20 @@
                      </staff>
                      <staff n="2" xml:id="m2_s2">
                         <layer>
-                           <bTrem measperf="1">
-                              <chord stem.dir="up" stem.mod="1slash" xml:id="m2_s2_c1">
-                                 <note pname="g" oct="3" dur="4" dots="1"/>
-                                 <note pname="g" oct="4" dur="4" dots="1"/>
+                           <bTrem num="3" num.visible="false">
+                              <chord stem.dir="up" stem.mod="1slash" xml:id="m2_s2_c1" dur="4" dots="1">
+                                 <note pname="g" oct="3"/>
+                                 <note pname="g" oct="4"/>
                               </chord>
                            </bTrem>
-                           <bTrem measperf="1">
-                              <chord copyof="#m2_s2_c1"/>
+                           <bTrem num="3" num.visible="false">
+                              <chord copyof="#m2_s2_c1" dur="4" dots="1"/>
                            </bTrem>
-                           <bTrem measperf="1">
-                              <chord copyof="#m2_s2_c1"/>
+                           <bTrem num="3" num.visible="false">
+                              <chord copyof="#m2_s2_c1" dur="4" dots="1"/>
                            </bTrem>
-                           <bTrem measperf="1">
-                              <chord copyof="#m2_s2_c1"/>
+                           <bTrem num="3" num.visible="false">
+                              <chord copyof="#m2_s2_c1" dur="4" dots="1"/>
                            </bTrem>
                         </layer>
                      </staff>
@@ -422,10 +422,10 @@
                      <staff n="2" xml:id="m6_s2">
                         <layer>
                            <bTrem>
-                              <chord xml:id="m6_s2_e1" stem.mod="1slash">
-                                 <note pname="a" oct="3" dur="4" dots="1"/>
-                                 <note pname="g" oct="4" dur="4" dots="1"/>
-                                 <note pname="a" oct="4" dur="4" dots="1"/>
+                              <chord xml:id="m6_s2_e1" stem.mod="1slash" dur="4" dots="1">
+                                 <note pname="a" oct="3"/>
+                                 <note pname="g" oct="4"/>
+                                 <note pname="a" oct="4"/>
                               </chord>
                            </bTrem>
                            <bTrem>
@@ -441,11 +441,11 @@
                      </staff>
                      <staff n="3">
                         <layer>
-                           <chord stem.dir="up" xml:id="m6_s3_c1">
+                           <chord dur="2" stem.dir="up" xml:id="m6_s3_c1">
                               <note pname="c" oct="2" dur="2" dots="1"/>
                               <note pname="c" oct="3" dur="2" dots="1"/>
                            </chord>
-                           <chord xml:id="m6_s3_c2" stem.dir="up">
+                           <chord dur="4" xml:id="m6_s3_c2" stem.dir="up">
                               <note pname="c" oct="2" dur="4" accid="s"/>
                               <note pname="c" oct="3" dur="4" accid="s"/>
                            </chord>

@@ -1,4 +1,6 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<?xml-model href="https://raw.githubusercontent.com/music-encoding/music-encoding/master/schemata/mei-all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/music-encoding/music-encoding/master/schemata/mei-all.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
 <mei xmlns="http://www.music-encoding.org/ns/mei"
      xml:id="_20090211164803615"
      meiversion="3.0.0">
@@ -89,7 +91,9 @@
       <workDesc>
          <work n="1">
             <titleStmt>
-               <title>Quintet for Clarinet and Strings, K. 581,<lb/>3. Menuetto (Excerpt from Second Trio)</title>
+               <title>Quintet for Clarinet and Strings, K. 581</title>
+               <title type="subordinate">3. Menuetto</title>
+               <title type="subordinate">(Excerpt from Second Trio)</title>
                <respStmt>
                   <persName role="composer">Wolfgang Amadeus Mozart</persName>
                </respStmt>
@@ -195,7 +199,6 @@
                                key.mode="major"
                                trans.semi="-3"
                                trans.diat="-2">
-                        <instrDef midi.channel="1" midi.instrnum="71" midi.instrname="Clarinet"/>
                      </staffDef>
                      <staffDef n="2"
                                lines="5"
@@ -237,7 +240,7 @@
                </scoreDef>
                <section>
                   <scoreDef meter.count="3" meter.unit="4" key.sig="3s" key.mode="major"/>
-                  <measure n="0" xml:id="d1e83">
+                  <measure metcon="false" n="0" xml:id="d1e83">
                      <staff n="1">
                         <layer n="1">
                            <beam>
@@ -628,7 +631,8 @@
                                  oct="5"
                                  dur="4"
                                  dur.ges="6p"
-                                 stem.dir="down"/>
+                                 stem.dir="down"
+/>
                            <note xml:id="d1e1009"
                                  pname="e"
                                  oct="5"
@@ -893,7 +897,8 @@
                                     oct="4"
                                     dur="8"
                                     dur.ges="4p"
-                                    stem.dir="down"/>
+                                    stem.dir="down"
+/>
                            </beam>
                         </layer>
                      </staff>
@@ -1006,7 +1011,8 @@
                                     oct="4"
                                     dur="8"
                                     dur.ges="4p"
-                                    stem.dir="down"/>
+                                    stem.dir="down"
+/>
                            </beam>
                         </layer>
                      </staff>
@@ -1378,7 +1384,8 @@
                                  oct="3"
                                  dur="4"
                                  dur.ges="8p"
-                                 stem.dir="up"/>
+                                 stem.dir="up"
+/>
                         </layer>
                      </staff>
                      <staff n="4">

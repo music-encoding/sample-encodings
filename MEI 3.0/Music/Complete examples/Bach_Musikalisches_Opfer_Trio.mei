@@ -338,12 +338,14 @@
                      </staff>
                      <staff n="3">
                         <layer>
+                        <beam>
                            <note pname="e" oct="3" dur="8" xml:id="m2_s3_e1"/>
                            <note pname="e" oct="3" dur="8"/>
                            <note pname="e" oct="3" dur="8" accid="n"/>
                            <note pname="e" oct="3" dur="8"/>
                            <note pname="e" oct="3" dur="8"/>
                            <note pname="e" oct="3" dur="8" xml:id="m2_s3_e6"/>
+                           </beam>
                         </layer>
                      </staff>
                      <slur staff="2" startid="#m2_s2_e2" endid="#m2_s2_e7" curvedir="below"/>
@@ -485,8 +487,8 @@
                      <staff n="2">
                         <layer>
                            <beam>
-                              <note pname="d" oct="6" dur="8" dots="1"/>
-                              <note pname="d" oct="5" dur="16"/>
+                              <note pname="d" oct="6" dur="8" dots="1" stem.dir="down"/>
+                              <note pname="d" oct="5" dur="16" stem.dir="down"/>
                            </beam>
                            <beam>
                               <note pname="e" oct="5" dur="32" grace="unknown" xml:id="m5_s2_e3"/>
@@ -1258,7 +1260,7 @@
                            <f>6♮</f>
                         </fb>
                      </harm>
-                     <harm staff="3" place="below" tstamp="2">
+                     <harm staff="3" place="below" tstamp="3">
                         <fb>
                            <f>7</f>
                            <f>♮</f>
@@ -2822,14 +2824,16 @@
                      <harm staff="3" place="below" tstamp="1">
                         <fb>
                            <f>7</f>
+                           <f>♮</f>
                         </fb>
                      </harm>
                      <harm staff="3" place="below" tstamp="3.5">
                         <fb>
-                           <f>4</f>
+                           <f>4♮</f>
                         </fb>
                      </harm>
                   </measure>
+                  <ending n="1">
                   <measure n="47" xml:id="m47">
                      <staff n="1">
                         <layer>
@@ -2839,7 +2843,7 @@
                            </beam>
                            <note pname="e" oct="5" dur="8" stem.dir="up" size="cue" grace="unknown"
                               slur="i1"/>
-                           <note pname="d" oct="5" dur="4" dots="1" stem.dir="down"/>
+                           <note pname="d" oct="5" dur="4" dots="1" stem.dir="down" slur="t1"/>
                            <note pname="c" oct="5" dur="8" stem.dir="down"/>
                         </layer>
                      </staff>
@@ -2851,7 +2855,7 @@
                            </beam>
                            <note pname="c" oct="5" dur="8" stem.dir="up" slur="i2" size="cue"
                               grace="unknown"/>
-                           <note pname="b" oct="4" dur="4" dots="1" stem.dir="down" accid="n"/>
+                           <note pname="b" oct="4" dur="4" dots="1" stem.dir="down" accid="n" slur="t2"/>
                            <note pname="c" oct="5" dur="8" stem.dir="down"/>
                         </layer>
                      </staff>
@@ -2875,20 +2879,22 @@
                      <harm staff="3" place="below" tstamp="1.5">
                         <fb>
                            <f>7</f>
+                           <f>♮</f>
                         </fb>
                      </harm>
                      <harm staff="3" place="below" tstamp="2">
                         <fb>
                            <f>6</f>
+                           <f>4</f>
                         </fb>
                      </harm>
                      <harm staff="3" place="below" tstamp="3">
                         <fb>
                            <f>7</f>
+                           <f>♮</f>
                         </fb>
                      </harm>
                   </measure>
-                  <ending n="1">
                      <measure n="48" xml:id="m48" right="rptend">
                         <staff n="1">
                            <layer>

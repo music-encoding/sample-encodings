@@ -1,4 +1,6 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<?xml-model href="https://raw.githubusercontent.com/music-encoding/music-encoding/master/schemata/mei-all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/music-encoding/music-encoding/master/schemata/mei-all.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
 <mei xmlns="http://www.music-encoding.org/ns/mei"
      xmlns:xlink="http://www.w3.org/1999/xlink"
      xmlns:functx="http://www.functx.com"
@@ -41,8 +43,9 @@
                          meter.unit="4"
                          key.sig="1s"
                          key.mode="major"
-                         optimize="true">
-                  <staffGrp>
+                         optimize="true"
+                         midi.bpm="60">
+                  <staffGrp barthru="false">
                      <staffDef n="1"
                                xml:id="P1"
                                label="Voice"
@@ -59,7 +62,7 @@
                                   midi.volume="102"
                                   midi.pan="64"/>
                      </staffDef>
-                     <staffGrp xml:id="P2" symbol="brace" label="Piano">
+                     <staffGrp xml:id="P2" symbol="brace" label="Piano" barthru="true">
                         <label>Piano</label>
                         <instrDef xml:id="P2-I3"
                                   midi.channel="2"
@@ -107,8 +110,7 @@
                      <tempo tstamp="1"
                             tstamp.ges="0p"
                             place="above"
-                            staff="2"                            
-                            midi.bpm="60">Allegretto</tempo>
+                            staff="2">Allegretto</tempo>
                   </measure>
                   <measure n="1" xml:id="d1e265">
                      <staff n="1">
