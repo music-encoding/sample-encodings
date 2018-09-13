@@ -6,18 +6,18 @@
             <title>Walzer G-Dur</title>
             <title type="subordinate">an electronic transcription</title>
             <respStmt>
-               <persName role="creator" codedval="133912027" authURI="http://d-nb.info/gnd" authority="GND">Dionisio Aguado y García</persName>
+               <persName role="creator" codedval="133912027" authURI="http://d-nb.info/gnd/" authority="GND">Dionisio Aguado y García</persName>
                <persName role="encoder">Maja Hartwig</persName>
                <persName role="encoder">Kristina Richts</persName>
             </respStmt>
          </titleStmt>
          <pubStmt>
             <respStmt>
-               <corpName role="publisher" codedval="5115204-6" authURI="http://d-nb.info/gnd" authority="GND">Musikwissenschaftliches Seminar, Detmold</corpName>
+               <corpName role="publisher" codedval="5115204-6" authURI="http://d-nb.info/gnd/" authority="GND">Musikwissenschaftliches Seminar, Detmold</corpName>
             </respStmt>
             <address>
                <addrLine>Gartenstrasse 20</addrLine>
-               <addrLine>32756 <geogName codedval="7004442" authURI="www.getty.edu/research/tools/vocabularies/tgn" authority="TGN">Detmold</geogName>
+               <addrLine>32756 <geogName codedval="7004442" authURI="http://vocab.getty.edu/page/tgn/" authority="TGN">Detmold</geogName>
                </addrLine>
                <addrLine>
                   <geogName codedval="7000084" authURI="www.getty.edu/research/tools/vocabularies/tgn" authority="TGN">Germany</geogName>
@@ -78,7 +78,7 @@
                      <addrLine>Postfach 68</addrLine>
                   </address>
                   <availability>
-                     <useRestrict>(C) Jürgen Knuth</useRestrict>
+                     <useRestrict>(C) Jürgen W. Knuth</useRestrict>
                   </availability>
                </pubStmt>
             </source>
