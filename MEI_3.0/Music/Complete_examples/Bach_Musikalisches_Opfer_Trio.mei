@@ -10,7 +10,7 @@
                Satz)</title>
             <title type="subordinate">an electronic transcription</title>
             <respStmt>
-               <persName role="creator" authURI="http://d-nb.info/gnd" codedval="11850553X"
+               <persName role="creator" authURI="http://d-nb.info/gnd/" codedval="11850553X"
                   authority="GND">Johann Sebastian Bach</persName>
                <persName role="encoder">Maja Hartwig</persName>
             </respStmt>
@@ -18,13 +18,13 @@
          <pubStmt>
             <respStmt>
                <corpName role="publisher" n="2" xml:id="corpName2" codedval="5115204-6"
-                  authURI="http://d-nb.info/gnd" authority="GND">Musikwissenschaftliches Seminar <address>
+                  authURI="http://d-nb.info/gnd/" authority="GND">Musikwissenschaftliches Seminar <address>
                      <addrLine>Gartenstrasse 20</addrLine>
                      <addrLine>32756 <geogName codedval="7004442"
-                           authURI="www.getty.edu/research/tools/vocabularies/tgn" authority="TGN"
+                           authURI="http://vocab.getty.edu/page/tgn/" authority="TGN"
                            >Detmold</geogName>
                         <geogName codedval="7000084"
-                           authURI="www.getty.edu/research/tools/vocabularies/tgn" authority="TGN"
+                           authURI="http://vocab.getty.edu/page/tgn/" authority="TGN"
                            >Germany</geogName>
                      </addrLine>
                   </address>
@@ -42,17 +42,17 @@
             <title>MEI Sample Collection</title>
             <respStmt>
                <corpName role="publisher">MEI Project</corpName>
-               <corpName role="funder" codedval="2007744-0" authURI="http://d-nb.info/gnd"
+               <corpName role="funder" codedval="2007744-0" authURI="http://d-nb.info/gnd/"
                   authority="GND">German Research Foundation<address>
                      <addrLine>Kennedyallee 40</addrLine>
                      <addrLine>
                         <geogName codedval="7005090"
-                           authURI="www.getty.edu/research/tools/vocabularies/tgn" authority="TGN"
+                           authURI="http://vocab.getty.edu/page/tgn/" authority="TGN"
                            >Bonn</geogName>
                      </addrLine>
                      <addrLine>
                         <geogName codedval="7000084"
-                           authURI="www.getty.edu/research/tools/vocabularies/tgn" authority="TGN"
+                           authURI="http://vocab.getty.edu/page/tgn/" authority="TGN"
                            >Germany</geogName>
                      </addrLine>
                   </address>
@@ -62,11 +62,11 @@
                      <addrLine>1100 Pennsylvania Avenue N.W.</addrLine>
                      <addrLine>
                         <geogName codedval="7013962"
-                           authURI="www.getty.edu/research/tools/vocabularies/tgn" authority="TGN"
+                           authURI="http://vocab.getty.edu/page/tgn/" authority="TGN"
                            >Washington, DC</geogName> 20004</addrLine>
                      <addrLine>
                         <geogName codedval="7012149"
-                           authURI="www.getty.edu/research/tools/vocabularies/tgn" authority="TGN"
+                           authURI="http://vocab.getty.edu/page/tgn/" authority="TGN"
                            >United States</geogName>
                      </addrLine>
                   </address>
@@ -87,7 +87,7 @@
                   <title type="uniform">Musikalisches Opfer &lt;2. Triosonate c-Moll für Flöte,
                      Violine und Basso continuo&gt;</title>
                   <respStmt>
-                     <persName role="composer" authURI="http://d-nb.info/gnd" codedval="11850553X"
+                     <persName role="composer" authURI="http://d-nb.info/gnd/" codedval="11850553X"
                         authority="GND">Johann Sebastian Bach</persName>
                   </respStmt>
                </titleStmt>
@@ -120,7 +120,7 @@
             <titleStmt>
                <title>Trio</title>
                <respStmt>
-                  <persName role="composer" authURI="http://d-nb.info/gnd" codedval="11850553X"
+                  <persName role="composer" authURI="http://d-nb.info/gnd/" codedval="11850553X"
                      authority="GND">Johann Sebastian Bach</persName>
                </respStmt>
             </titleStmt>

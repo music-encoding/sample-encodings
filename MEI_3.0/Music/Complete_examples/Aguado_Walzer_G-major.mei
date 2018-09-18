@@ -6,21 +6,21 @@
             <title>Walzer G-Dur</title>
             <title type="subordinate">an electronic transcription</title>
             <respStmt>
-               <persName role="creator" codedval="133912027" authURI="http://d-nb.info/gnd" authority="GND">Dionisio Aguado y García</persName>
+               <persName role="creator" codedval="133912027" authURI="http://d-nb.info/gnd/" authority="GND">Dionisio Aguado y García</persName>
                <persName role="encoder">Maja Hartwig</persName>
                <persName role="encoder">Kristina Richts</persName>
             </respStmt>
          </titleStmt>
          <pubStmt>
             <respStmt>
-               <corpName role="publisher" codedval="5115204-6" authURI="http://d-nb.info/gnd" authority="GND">Musikwissenschaftliches Seminar, Detmold</corpName>
+               <corpName role="publisher" codedval="5115204-6" authURI="http://d-nb.info/gnd/" authority="GND">Musikwissenschaftliches Seminar, Detmold</corpName>
             </respStmt>
             <address>
                <addrLine>Gartenstrasse 20</addrLine>
                <addrLine>32756 <geogName codedval="7004442" authURI="www.getty.edu/research/tools/vocabularies/tgn" authority="TGN">Detmold</geogName>
                </addrLine>
                <addrLine>
-                  <geogName codedval="7000084" authURI="www.getty.edu/research/tools/vocabularies/tgn" authority="TGN">Germany</geogName>
+                  <geogName codedval="7000084" authURI="http://vocab.getty.edu/page/tgn/" authority="TGN">Germany</geogName>
                </addrLine>
             </address>
             <date>2011</date>
@@ -36,22 +36,22 @@
             <title>MEI Sample Collection</title>
             <respStmt>
                <corpName role="publisher">MEI Project</corpName>
-               <corpName role="funder" codedval="2007744-0" authURI="http://d-nb.info/gnd" authority="GND">German Research Foundation<address>
+               <corpName role="funder" codedval="2007744-0" authURI="http://d-nb.info/gnd/" authority="GND">German Research Foundation<address>
                      <addrLine>Kennedyallee 40</addrLine>
                      <addrLine>
-                        <geogName codedval="7005090" authURI="www.getty.edu/research/tools/vocabularies/tgn" authority="TGN">Bonn</geogName>
+                        <geogName codedval="7005090" authURI="http://vocab.getty.edu/page/tgn/" authority="TGN">Bonn</geogName>
                      </addrLine>
                      <addrLine>
-                        <geogName codedval="7000084" authURI="www.getty.edu/research/tools/vocabularies/tgn" authority="TGN">Germany</geogName>
+                        <geogName codedval="7000084" authURI="http://vocab.getty.edu/page/tgn/" authority="TGN">Germany</geogName>
                      </addrLine>
                   </address>
                </corpName>
-               <corpName role="funder" codedval="18183-3" authURI="http://d-nb.info/gnd" authority="GND">National Endowment for the Humanities<address>
+               <corpName role="funder" codedval="18183-3" authURI="http://d-nb.info/gnd/" authority="GND">National Endowment for the Humanities<address>
                      <addrLine>1100 Pennsylvania Avenue N.W.</addrLine>
                      <addrLine>
-                        <geogName codedval="7013962" authURI="www.getty.edu/research/tools/vocabularies/tgn" authority="TGN">Washington, DC</geogName> 20004</addrLine>
+                        <geogName codedval="7013962" authURI="http://vocab.getty.edu/page/tgn/" authority="TGN">Washington, DC</geogName> 20004</addrLine>
                      <addrLine>
-                        <geogName codedval="7012149" authURI="www.getty.edu/research/tools/vocabularies/tgn" authority="TGN">United States</geogName>
+                        <geogName codedval="7012149" authURI="http://vocab.getty.edu/page/tgn/" authority="TGN">United States</geogName>
                      </addrLine>
                   </address>
                </corpName>
@@ -66,7 +66,7 @@
                <titleStmt>
                   <title>Walzer G-Dur</title>
                   <respStmt>
-                     <persName role="composer" codedval="133912027" authURI="http://d-nb.info/gnd" authority="GND">Dionisio Aguado y García</persName>
+                     <persName role="composer" codedval="133912027" authURI="http://d-nb.info/gnd/" authority="GND">Dionisio Aguado y García</persName>
                   </respStmt>
                </titleStmt>
                <pubStmt>
@@ -102,7 +102,7 @@
             <titleStmt>
                <title>Walzer G-Dur</title>
                <respStmt>
-                  <persName role="composer" codedval="133912027" authURI="http://d-nb.info/gnd" authority="GND">Dionisio Aguado y García</persName>
+                  <persName role="composer" codedval="133912027" authURI="http://d-nb.info/gnd/" authority="GND">Dionisio Aguado y García</persName>
                </respStmt>
             </titleStmt>
             <key pname="g" mode="major">G major</key>

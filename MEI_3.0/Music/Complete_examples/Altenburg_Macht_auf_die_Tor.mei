@@ -13,14 +13,14 @@
          </titleStmt>
          <pubStmt>
             <respStmt>
-               <corpName role="publisher" codedval="5115204-6" authURI="http://d-nb.info/gnd" authority="GND">Musikwissenschaftliches Seminar, Detmold</corpName>
+               <corpName role="publisher" codedval="5115204-6" authURI="http://d-nb.info/gnd/" authority="GND">Musikwissenschaftliches Seminar, Detmold</corpName>
             </respStmt>
             <address>
                <addrLine>Gartenstrasse 20</addrLine>
-               <addrLine>32756 <geogName codedval="7004442" authURI="www.getty.edu/research/tools/vocabularies/tgn" authority="TGN">Detmold</geogName>
+               <addrLine>32756 <geogName codedval="7004442" authURI="http://vocab.getty.edu/page/tgn/" authority="TGN">Detmold</geogName>
                </addrLine>
                <addrLine>
-                  <geogName codedval="7000084" authURI="www.getty.edu/research/tools/vocabularies/tgn" authority="TGN">Germany</geogName>
+                  <geogName codedval="7000084" authURI="http://vocab.getty.edu/page/tgn/" authority="TGN">Germany</geogName>
                </addrLine>
             </address>
             <date>2011</date>
@@ -36,24 +36,24 @@
             <title>MEI Sample Collection</title>
             <respStmt>
                <corpName role="publisher">MEI Project</corpName>
-               <corpName role="funder" codedval="2007744-0" authURI="http://d-nb.info/gnd" authority="GND">German Research
+               <corpName role="funder" codedval="2007744-0" authURI="http://d-nb.info/gnd/" authority="GND">German Research
                   Foundation<address>
                      <addrLine>Kennedyallee 40</addrLine>
                      <addrLine>
-                        <geogName codedval="7005090" authURI="www.getty.edu/research/tools/vocabularies/tgn" authority="TGN">Bonn</geogName>
+                        <geogName codedval="7005090" authURI="http://vocab.getty.edu/page/tgn/" authority="TGN">Bonn</geogName>
                      </addrLine>
                      <addrLine>
-                        <geogName codedval="7000084" authURI="www.getty.edu/research/tools/vocabularies/tgn" authority="TGN">Germany</geogName>
+                        <geogName codedval="7000084" authURI="http://vocab.getty.edu/page/tgn/" authority="TGN">Germany</geogName>
                      </addrLine>
                   </address>
                </corpName>
                <corpName role="funder" codedval="18183-3" authURI="http://d-nb.info/gnd/18183-3" authority="Deutsche Nationalbibliothek">National Endowment for the Humanities<address>
                      <addrLine>1100 Pennsylvania Avenue N.W.</addrLine>
                      <addrLine>
-                        <geogName codedval="7013962" authURI="www.getty.edu/research/tools/vocabularies/tgn" authority="TGN">Washington, DC</geogName>
+                        <geogName codedval="7013962" authURI="http://vocab.getty.edu/page/tgn/" authority="TGN">Washington, DC</geogName>
                         20004</addrLine>
                      <addrLine>
-                        <geogName codedval="7012149" authURI="www.getty.edu/research/tools/vocabularies/tgn" authority="TGN">United States</geogName>
+                        <geogName codedval="7012149" authURI="http://vocab.getty.edu/page/tgn/" authority="TGN">United States</geogName>
                      </addrLine>
                   </address>
                </corpName>
@@ -68,7 +68,7 @@
                <titleStmt>
                   <title>Macht auf die Tor der Grechtigkeit</title>
                   <respStmt>
-                     <persName role="composer" codedval="11864839X" authURI="http://d-nb.info/gnd" authority="GND">Michael Altenburg</persName>
+                     <persName role="composer" codedval="11864839X" authURI="http://d-nb.info/gnd/" authority="GND">Michael Altenburg</persName>
                   </respStmt>
                </titleStmt>
             </source>
@@ -105,7 +105,7 @@
             <titleStmt>
                <title>Macht auf die Tor der Gerechtigkeit</title>
                <respStmt>
-                  <persName role="composer" codedval="11864839X" authURI="http://d-nb.info/gnd" authority="GND">Michael Altenburg</persName>
+                  <persName role="composer" codedval="11864839X" authURI="http://d-nb.info/gnd/" authority="GND">Michael Altenburg</persName>
                </respStmt>
             </titleStmt>
             <key pname="a" mode="minor">A minor</key>
