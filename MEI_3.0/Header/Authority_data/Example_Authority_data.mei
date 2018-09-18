@@ -15,7 +15,7 @@
          </titleStmt>
          <pubStmt>
             <respStmt>
-               <corpName codedval="5115204-6" authURI="http://d-nb.info/gnd" authority="GND"
+               <corpName codedval="5115204-6" authURI="http://d-nb.info/gnd/" authority="GND"
                   >Musikwissenschaftliches Seminar, Detmold</corpName>
             </respStmt>
             <address>
@@ -43,7 +43,7 @@
             <title>MEI Sample Collection</title>
             <respStmt>
                <corpName role="publisher">MEI Project</corpName>
-               <corpName role="funder" codedval="2007744-0" authURI="http://d-nb.info/gnd"
+               <corpName role="funder" codedval="2007744-0" authURI="http://d-nb.info/gnd/"
                   authority="GND">German Research Foundation<address>
                      <addrLine>Kennedyallee 40</addrLine>
                      <addrLine>
@@ -91,7 +91,7 @@
                </titleStmt>
                <pubStmt>
                   <publisher>
-                     <corpName authority="GND" authURI="http://d-nb.info/gnd" codedval="6120820-6"
+                     <corpName authority="GND" authURI="http://d-nb.info/gnd/" codedval="6120820-6"
                         >Bartholf Senff</corpName>
                   </publisher>
                   <pubPlace>
@@ -140,7 +140,7 @@
                      <title>Wanderlied</title>
                      <respStmt>
                         <resp>von</resp>
-                        <persName role="lyricist" authURI="http://d-nb.info/gnd" authority="GND"
+                        <persName role="lyricist" authURI="http://d-nb.info/gnd/" authority="GND"
                            codedval="11853811X">Emanuel Geibel</persName>
                         <resp>komponiert von: </resp>
                         <persName role="composer" authURI="http://d-nb.info/gnd/119057077"
