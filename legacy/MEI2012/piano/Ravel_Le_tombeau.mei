@@ -18,7 +18,7 @@
          </titleStmt>
          <pubStmt>
             <respStmt>
-               <corpName dbkey="5115204-6" authURI="http://d-nb.info/gnd" authority="GND"
+               <corpName dbkey="5115204-6" authURI="http://d-nb.info/gnd/" authority="GND"
                   >Musikwissenschaftliches Seminar &lt;Detmold&gt;</corpName>
             </respStmt>
             <address>
@@ -42,7 +42,7 @@
             <title>MEI Sample Collection</title>
             <respStmt>
                <corpName role="publisher">MEI Project</corpName>
-               <corpName role="funder" dbkey="2007744-0" authURI="http://d-nb.info/gnd"
+               <corpName role="funder" dbkey="2007744-0" authURI="http://d-nb.info/gnd/"
                   authority="GND">German Research
                   Foundation<address>
                   <addrLine>Kennedyallee 40</addrLine>
@@ -77,7 +77,7 @@
                <titleStmt>
                   <title>Le Tombeau de Couperin, VI. Toccata</title>
                   <respStmt>
-                     <persName role="composer" dbkey="118598651" authURI="http://d-nb.info/gnd"
+                     <persName role="composer" dbkey="118598651" authURI="http://d-nb.info/gnd/"
                         authority="GND">Maurice Ravel</persName>
                      <persName role="editor">Pierre Gouin</persName>
                   </respStmt>
@@ -120,7 +120,7 @@
                <title>Toccata</title>
                <title type="uniform">Le tombeau de Couperin &lt;Tokkata&gt;</title>
                <respStmt>
-                  <persName role="composer" dbkey="118598651" authURI="http://d-nb.info/gnd"
+                  <persName role="composer" dbkey="118598651" authURI="http://d-nb.info/gnd/"
                      authority="GND">Maurice Ravel</persName>
                </respStmt>
             </titleStmt>

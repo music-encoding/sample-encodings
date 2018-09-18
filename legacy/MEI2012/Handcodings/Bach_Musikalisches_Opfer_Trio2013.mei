@@ -13,7 +13,7 @@
             <title type="subtitle">an electronic transcription</title>
             <respStmt>
                <persName role="creator"
-                         authURI="http://d-nb.info/gnd"
+                         authURI="http://d-nb.info/gnd/"
                          dbkey="11850553X"
                          authority="GND">Johann Sebastian Bach</persName>
                <persName role="encoder">Maja Hartwig</persName>
@@ -24,7 +24,7 @@
                <corpName n="2"
                          xml:id="corpName2"
                          dbkey="5115204-6"
-                         authURI="http://d-nb.info/gnd"
+                         authURI="http://d-nb.info/gnd/"
                          authority="GND">Musikwissenschaftliches Seminar
         				<address>
                      <addrLine>Gartenstrasse 20</addrLine>
@@ -52,7 +52,7 @@
                <corpName role="publisher">MEI Project</corpName>
                <corpName role="funder"
                          dbkey="2007744-0"
-                         authURI="http://d-nb.info/gnd"
+                         authURI="http://d-nb.info/gnd/"
                          authority="GND">German Research Foundation<address>
                      <addrLine>Kennedyallee 40</addrLine>
                      <addrLine>
@@ -98,7 +98,7 @@
                   <title type="uniform">Musikalisches Opfer &lt;2. Triosonate c-Moll für Flöte, Violine und Basso continuo&gt;</title>
                   <respStmt>
                      <persName role="composer"
-                               authURI="http://d-nb.info/gnd"
+                               authURI="http://d-nb.info/gnd/"
                                dbkey="11850553X"
                                authority="GND">Johann Sebastian Bach</persName>
                   </respStmt>
@@ -134,7 +134,7 @@
                <title>Trio</title>
                <respStmt>
                   <persName role="composer"
-                            authURI="http://d-nb.info/gnd"
+                            authURI="http://d-nb.info/gnd/"
                             dbkey="11850553X"
                             authority="GND">Johann Sebastian Bach</persName>
                </respStmt>

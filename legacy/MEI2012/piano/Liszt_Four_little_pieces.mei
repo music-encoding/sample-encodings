@@ -9,7 +9,7 @@
             <title>Vier kleine Klavierstücke, No.1</title>
             <title type="subtitle">an electronic transcription</title>
             <respStmt>
-               <persName role="creator" authURI="http://d-nb.info/gnd" authority="DNB"
+               <persName role="creator" authURI="http://d-nb.info/gnd/" authority="DNB"
                   dbkey="118573527">Franz Liszt</persName>
                <persName role="encoder">Perry Roland</persName>
                <persName role="encoder">Maja Hartwig</persName>
@@ -24,7 +24,7 @@
                      <geogName>USA</geogName></addrLine>
                </address>
                </corpName>
-               <corpName n="2" xml:id="corpName2" dbkey="5115204-6" authURI="http://d-nb.info/gnd"
+               <corpName n="2" xml:id="corpName2" dbkey="5115204-6" authURI="http://d-nb.info/gnd/"
                   authority="GND">Musikwissenschaftliches Seminar
                   <address>
                   <addrLine>Gartenstrasse 20</addrLine><addrLine>32756 <geogName dbkey="7004442" authURI="www.getty.edu/research/tools/vocabularies/tgn" authority="TGN">Detmold</geogName>
@@ -45,7 +45,7 @@
             <title>MEI Sample Collection</title>
             <respStmt>
                <corpName role="publisher">MEI Project</corpName>
-               <corpName role="funder" dbkey="2007744-0" authURI="http://d-nb.info/gnd"
+               <corpName role="funder" dbkey="2007744-0" authURI="http://d-nb.info/gnd/"
                   authority="GND">German Research
                   Foundation<address>
                      <addrLine>Kennedyallee 40</addrLine>
@@ -74,7 +74,7 @@
                   <title xml:lang="en">Four small piano pieces</title>
                   <title xml:lang="po">Negy kis zongoradarab</title>
                   <respStmt>
-                     <persName role="composer" authURI="http://d-nb.info/gnd" authority="DNB"
+                     <persName role="composer" authURI="http://d-nb.info/gnd/" authority="DNB"
                         dbkey="118573527">Franz Liszt</persName>
                      <persName role="editor">José Vianna da Motta</persName>
                   </respStmt>
@@ -121,7 +121,7 @@
             <titleStmt>
                <title>Vier kleine Klavierstücke<num>I</num></title>
                <respStmt>
-                  <persName role="composer" authURI="http://d-nb.info/gnd" authority="DNB"
+                  <persName role="composer" authURI="http://d-nb.info/gnd/" authority="DNB"
                      dbkey="118573527">Franz Liszt</persName>
                   <persName role="dedicatee">Baroness Olga von
                      Meyendorff<date>1836-1926</date></persName>

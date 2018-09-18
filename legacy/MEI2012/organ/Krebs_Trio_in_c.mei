@@ -11,7 +11,7 @@
         <title type="work">Krebs-WV 473</title>
         <title type="subtitle">an electronic transcription</title>
         <respStmt>
-          <persName role="creator" dbkey="123281954" authURI="http://d-nb.info/gnd" authority="GND"
+          <persName role="creator" dbkey="123281954" authURI="http://d-nb.info/gnd/" authority="GND"
             >Johann Ludwig Krebs</persName>
           <persName role="encoder">Maja Hartwig</persName>
           <persName role="encoder">Kristina Richts</persName>
@@ -19,7 +19,7 @@
       </titleStmt>
       <pubStmt>
         <respStmt>
-          <corpName dbkey="5115204-6" authURI="http://d-nb.info/gnd" authority="GND"
+          <corpName dbkey="5115204-6" authURI="http://d-nb.info/gnd/" authority="GND"
             >Musikwissenschaftliches Seminar &lt;Detmold&gt;</corpName>
         </respStmt>
         <address>
@@ -43,7 +43,7 @@
         <title>MEI Sample Collection</title>
         <respStmt>
           <corpName role="publisher">MEI Project</corpName>
-          <corpName role="funder" dbkey="2007744-0" authURI="http://d-nb.info/gnd" authority="GND"
+          <corpName role="funder" dbkey="2007744-0" authURI="http://d-nb.info/gnd/" authority="GND"
             >German Research
             Foundation<address>
               <addrLine>Kennedyallee 40</addrLine>
@@ -78,7 +78,7 @@
             <title>Trio in c</title>
             <title type="subtitle">à 2 Claviere è Pedale</title>
             <respStmt>
-              <persName role="composer" dbkey="123281954" authURI="http://d-nb.info/gnd"
+              <persName role="composer" dbkey="123281954" authURI="http://d-nb.info/gnd/"
                 authority="GND">Johann Ludwig Krebs</persName>
               <persName role="editor">Jens Kluge</persName>
             </respStmt>
@@ -115,7 +115,7 @@
         <titleStmt>
           <title>Trio in c</title>
           <respStmt>
-            <persName role="composer" dbkey="123281954" authURI="http://d-nb.info/gnd"
+            <persName role="composer" dbkey="123281954" authURI="http://d-nb.info/gnd/"
               authority="GND">Johann Ludwig Krebs</persName>
           </respStmt>
         </titleStmt>

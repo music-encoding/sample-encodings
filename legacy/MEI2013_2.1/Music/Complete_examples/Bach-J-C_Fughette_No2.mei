@@ -10,7 +10,7 @@
             <title type="subtitle">an electronic transcription</title>
             <title type="alternative">Warum betrübst du mich, mein Herz</title>
             <respStmt>
-               <persName role="creator" dbkey="120327112" authURI="http://d-nb.info/gnd"
+               <persName role="creator" dbkey="120327112" authURI="http://d-nb.info/gnd/"
                   authority="Deutsche Nationalbibliothek">Johann Christoph Bach</persName>
                <persName role="arranger">Michel Rondeau</persName>
                <persName role="encoder">Maja Hartwig</persName>
@@ -19,7 +19,7 @@
          </titleStmt>
          <pubStmt>
             <respStmt>
-               <corpName dbkey="5115204-6" authURI="http://d-nb.info/gnd" authority="GND"
+               <corpName dbkey="5115204-6" authURI="http://d-nb.info/gnd/" authority="GND"
                   >Musikwissenschaftliches Seminar, Detmold</corpName>
             </respStmt>
             <address>
@@ -43,7 +43,7 @@
             <title>MEI Sample Collection</title>
             <respStmt>
                <corpName role="publisher">MEI Project</corpName>
-               <corpName role="funder" dbkey="2007744-0" authURI="http://d-nb.info/gnd"
+               <corpName role="funder" dbkey="2007744-0" authURI="http://d-nb.info/gnd/"
                   authority="GND">German Research
                   Foundation<address>
                      <addrLine>Kennedyallee 40</addrLine>
@@ -80,7 +80,7 @@
                   <title>Fughette</title>
                   <title type="alternative">Warum betrübst du mich, mein herz</title>
                   <respStmt>
-                     <persName role="composer" dbkey="120327112" authURI="http://d-nb.info/gnd"
+                     <persName role="composer" dbkey="120327112" authURI="http://d-nb.info/gnd/"
                         authority="Deutsche Nationalbibliothek">Johann Christoph Bach</persName>
                      <persName role="arranger">Michel Rondeau</persName>
                   </respStmt>
@@ -109,7 +109,7 @@
                <title>Fughette</title>
                <title type="alternative">Warum betrübst du mich, mein herz</title>
                <respStmt>
-                  <persName role="composer" dbkey="120327112" authURI="http://d-nb.info/gnd"
+                  <persName role="composer" dbkey="120327112" authURI="http://d-nb.info/gnd/"
                      authority="GND">Johann Christoph Bach</persName>
                </respStmt>
             </titleStmt>

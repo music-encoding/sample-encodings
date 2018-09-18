@@ -16,7 +16,7 @@
          </titleStmt>
          <pubStmt>
             <respStmt>
-               <corpName dbkey="5115204-6" authURI="http://d-nb.info/gnd" authority="GND">Musikwissenschaftliches Seminar &lt;Detmold&gt;</corpName>
+               <corpName dbkey="5115204-6" authURI="http://d-nb.info/gnd/" authority="GND">Musikwissenschaftliches Seminar &lt;Detmold&gt;</corpName>
             </respStmt>
             <address>
                <addrLine>Gartenstrasse 20</addrLine>
@@ -37,7 +37,7 @@
             <title>MEI Sample Collection</title>
             <respStmt>
                <corpName role="publisher">MEI Project</corpName>
-               <corpName role="funder" dbkey="2007744-0" authURI="http://d-nb.info/gnd" authority="GND">German Research Foundation<address>
+               <corpName role="funder" dbkey="2007744-0" authURI="http://d-nb.info/gnd/" authority="GND">German Research Foundation<address>
                      <addrLine>Kennedyallee 40</addrLine>
                      <addrLine>
                         <geogName dbkey="7005090" authURI="www.getty.edu/research/tools/vocabularies/tgn" authority="TGN">Bonn</geogName>
@@ -69,7 +69,7 @@
                	<title type="work">L.1</title>
                   <title type="uniform">Sonaten, Tasteninstr., K 514</title>
                   <respStmt>
-                     <persName role="composer" dbkey="118804952" authURI="http://d-nb.info/gnd" authority="GND">Domenico Scarlatti</persName>
+                     <persName role="composer" dbkey="118804952" authURI="http://d-nb.info/gnd/" authority="GND">Domenico Scarlatti</persName>
                   </respStmt>
                </titleStmt>
                
@@ -104,7 +104,7 @@
             	<title>Suite I</title>
                <title type="uniform">Sonaten, Tasteninstr., K 514</title>
                <respStmt>
-                  <persName role="composer" dbkey="118804952" authURI="http://d-nb.info/gnd" authority="GND">Domenico Scarlatti</persName>
+                  <persName role="composer" dbkey="118804952" authURI="http://d-nb.info/gnd/" authority="GND">Domenico Scarlatti</persName>
                </respStmt>
             </titleStmt>
             <history><creation><date notbefore="1685" notafter="1757"></date></creation></history>

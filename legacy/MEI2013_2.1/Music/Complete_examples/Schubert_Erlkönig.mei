@@ -12,7 +12,7 @@
             <title type="subtitle">an electronic transcription</title>
             <respStmt>
                <persName role="creator"
-                         authURI="http://d-nb.info/gnd"
+                         authURI="http://d-nb.info/gnd/"
                          dbkey="118610961"
                          authority="GND">Franz Schubert</persName>
                <persName role="encoder">Maja Hartwig</persName>
@@ -20,7 +20,7 @@
          </titleStmt>
          <pubStmt>
             <respStmt>
-               <corpName dbkey="5115204-6" authURI="http://d-nb.info/gnd" authority="GND">Musikwissenschaftliches Seminar </corpName>
+               <corpName dbkey="5115204-6" authURI="http://d-nb.info/gnd/" authority="GND">Musikwissenschaftliches Seminar </corpName>
             </respStmt>
             <address>
                <addrLine>Gartenstrasse 20</addrLine>
@@ -43,7 +43,7 @@
                <corpName role="publisher">MEI Project</corpName>
                <corpName role="funder"
                          dbkey="2007744-0"
-                         authURI="http://d-nb.info/gnd"
+                         authURI="http://d-nb.info/gnd/"
                          authority="GND">German Research
                         Foundation<address>
                      <addrLine>Kennedyallee 40</addrLine>
@@ -91,7 +91,7 @@
                      <persName role="composer"
                                dbkey="118610961"
                                authority="GND"
-                               authURI="http://d-nb.info/gnd">Franz Schubert</persName>
+                               authURI="http://d-nb.info/gnd/">Franz Schubert</persName>
                      <persName role="lyricist">Johann Wolfgang von Goethe</persName>
                      <persName role="dedicatee">Moritz von Dietrichstein</persName>
                   </respStmt>
@@ -115,7 +115,7 @@
                   <persName role="composer"
                             dbkey="118610961"
                             authority="GND"
-                            authURI="http://d-nb.info/gnd">Franz Schubert</persName>
+                            authURI="http://d-nb.info/gnd/">Franz Schubert</persName>
                </respStmt>
             </titleStmt>
             <key pname="g" mode="minor">g Minor</key>

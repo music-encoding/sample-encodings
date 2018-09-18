@@ -11,7 +11,7 @@
             <title type="subtitle">an electronic transcription</title>
             <respStmt>
                <persName role="creator"
-                         authURI="http://d-nb.info/gnd"
+                         authURI="http://d-nb.info/gnd/"
                          dbkey="118739328"
                          authority="GND">Charles Parker</persName>
                <persName role="creator">John Gillepsie</persName>
@@ -23,7 +23,7 @@
                <corpName n="2"
                          xml:id="corpName2"
                          dbkey="5115204-6"
-                         authURI="http://d-nb.info/gnd"
+                         authURI="http://d-nb.info/gnd/"
                          authority="GND">Musikwissenschaftliches
                         Seminar
                         <address>
@@ -52,7 +52,7 @@
                <corpName role="publisher">MEI Project</corpName>
                <corpName role="funder"
                          dbkey="2007744-0"
-                         authURI="http://d-nb.info/gnd"
+                         authURI="http://d-nb.info/gnd/"
                          authority="GND">German Research
                         Foundation<address>
                      <addrLine>Kennedyallee 40</addrLine>
@@ -101,7 +101,7 @@
                      <persName role="composer"
                                dbkey="118739328"
                                authority="GND"
-                               authURI="http://d-nb.info/gnd">Charles Parker</persName>
+                               authURI="http://d-nb.info/gnd/">Charles Parker</persName>
                      <persName>John "Dizzy" Gillepsie</persName>
                   </respStmt>
                </titleStmt>
@@ -132,7 +132,7 @@
                <respStmt>
                   <persName role="composer"
                             dbkey="118739328"
-                            authURI="http://d-nb.info/gnd"
+                            authURI="http://d-nb.info/gnd/"
                             authority="GND">Charles Parker</persName>
                </respStmt>
             </titleStmt>

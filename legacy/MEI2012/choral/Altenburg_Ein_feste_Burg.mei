@@ -16,7 +16,7 @@
          </titleStmt>
          <pubStmt>
             <respStmt>
-               <corpName dbkey="5115204-6" authURI="http://d-nb.info/gnd" authority="GND">Musikwissenschaftliches Seminar &lt;Detmold&gt;</corpName>
+               <corpName dbkey="5115204-6" authURI="http://d-nb.info/gnd/" authority="GND">Musikwissenschaftliches Seminar &lt;Detmold&gt;</corpName>
             </respStmt>
             <address>
                <addrLine>Gartenstrasse 20</addrLine>
@@ -39,7 +39,7 @@
             <title>MEI Sample Collection</title>
             <respStmt>
                <corpName role="publisher">MEI Project</corpName>
-               <corpName role="funder" dbkey="2007744-0" authURI="http://d-nb.info/gnd" authority="GND">German Research Foundation<address>
+               <corpName role="funder" dbkey="2007744-0" authURI="http://d-nb.info/gnd/" authority="GND">German Research Foundation<address>
                      <addrLine>Kennedyallee 40</addrLine>
                      <addrLine>
                         <geogName dbkey="7005090" authURI="www.getty.edu/research/tools/vocabularies/tgn" authority="TGN">Bonn</geogName>
@@ -69,7 +69,7 @@
                <titleStmt>
                   <title>Ein feste Burg ist unser Gott</title>
                   <respStmt>
-                     <persName role="composer" dbkey="11864839X" authURI="http://d-nb.info/gnd" authority="GND">Michael Altenburg</persName>
+                     <persName role="composer" dbkey="11864839X" authURI="http://d-nb.info/gnd/" authority="GND">Michael Altenburg</persName>
                   </respStmt>
                </titleStmt>
             </source>
@@ -103,7 +103,7 @@
             <titleStmt>
                <title>Ein feste Burg ist unser Gott</title>
                <respStmt>
-                  <persName role="composer" dbkey="11864839X" authURI="http://d-nb.info/gnd" authority="GND">Michael Altenburg</persName>
+                  <persName role="composer" dbkey="11864839X" authURI="http://d-nb.info/gnd/" authority="GND">Michael Altenburg</persName>
                </respStmt>
             </titleStmt>
             <history>

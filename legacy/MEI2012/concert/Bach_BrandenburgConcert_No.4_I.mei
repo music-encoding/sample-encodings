@@ -10,14 +10,14 @@
       	<title type="subtitle">BWV 1049</title>
       	<title type="subtitle">an electronic transcription</title>
         <respStmt>
-        	<persName role="creator" dbkey="1180553X" authURI="http://d-nb.info/gnd" authority="GND">Johann Sebastian Bach</persName>
+        	<persName role="creator" dbkey="1180553X" authURI="http://d-nb.info/gnd/" authority="GND">Johann Sebastian Bach</persName>
           <persName role="encoder">Maja Hartwig</persName>
           <persName role="encoder">Kristina Richts</persName>
         </respStmt>
       </titleStmt>
       <pubStmt>
         <respStmt>
-          <corpName dbkey="5115204-6" authURI="http://d-nb.info/gnd" authority="GND">Musikwissenschaftliches Seminar &lt;Detmold&gt;</corpName>
+          <corpName dbkey="5115204-6" authURI="http://d-nb.info/gnd/" authority="GND">Musikwissenschaftliches Seminar &lt;Detmold&gt;</corpName>
         </respStmt>
         <address>
           <addrLine>Gartenstrasse 20</addrLine>
@@ -40,7 +40,7 @@
         <title>MEI Sample Collection</title>
         <respStmt>
           <corpName role="publisher">MEI Project</corpName>
-          <corpName role="funder" dbkey="2007744-0" authURI="http://d-nb.info/gnd" authority="GND">German Research Foundation<address>
+          <corpName role="funder" dbkey="2007744-0" authURI="http://d-nb.info/gnd/" authority="GND">German Research Foundation<address>
               <addrLine>Kennedyallee 40</addrLine>
               <addrLine>
                 <geogName dbkey="7005090" authURI="www.getty.edu/research/tools/vocabularies/tgn" authority="TGN">Bonn</geogName>
@@ -72,7 +72,7 @@
           	<title type="subtitle">BWV 1049</title>
             <title type="uniform">Die Brandenburgischen Konzerte &lt;Konzert BWV 1049, 1. Satz&gt;</title>
             <respStmt>
-              <persName role="composer" dbkey="1180553X" authURI="http://d-nb.info/gnd" authority="GND">Johann Sebastian Bach</persName>
+              <persName role="composer" dbkey="1180553X" authURI="http://d-nb.info/gnd/" authority="GND">Johann Sebastian Bach</persName>
             	<persName role="editor">Michel Rondeau</persName>
             </respStmt>
           </titleStmt>
@@ -105,7 +105,7 @@
         	<title>4. Brandenburgisches Konzert in G-Dur</title>
           <title type="uniform">Die Brandenburgischen Konzerte &lt;Konzert BWV 1049, 1. Satz&gt;</title>
           <respStmt>
-            <persName role="composer" dbkey="1180553X" authURI="http://d-nb.info/gnd" authority="GND">Johann Sebastian Bach</persName>
+            <persName role="composer" dbkey="1180553X" authURI="http://d-nb.info/gnd/" authority="GND">Johann Sebastian Bach</persName>
           </respStmt>
         </titleStmt>
         <history><creation><date notbefore="1719" notafter="1720">1719-1720</date></creation></history>

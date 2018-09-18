@@ -10,14 +10,14 @@
          	<title type="referenceNumber">BWV 435</title>
          	<title type="subtitle">an electronic transcription</title>
             <respStmt>
-            	<persName role="creator" dbkey="11850553X" authURI="http://d-nb.info/gnd" authority="GND">Johann Sebastian Bach</persName>
+            	<persName role="creator" dbkey="11850553X" authURI="http://d-nb.info/gnd/" authority="GND">Johann Sebastian Bach</persName>
                <persName role="encoder">Maja Hartwig</persName>
                <persName role="encoder">Kristina Richts</persName>
             </respStmt>
          </titleStmt>
          <pubStmt>
             <respStmt>
-               <corpName dbkey="5115204-6" authURI="http://d-nb.info/gnd" authority="GND">Musikwissenschaftliches Seminar &lt;Detmold&gt;</corpName>
+               <corpName dbkey="5115204-6" authURI="http://d-nb.info/gnd/" authority="GND">Musikwissenschaftliches Seminar &lt;Detmold&gt;</corpName>
             </respStmt>
             <address>
                <addrLine>Gartenstrasse 20</addrLine>
@@ -37,7 +37,7 @@
             <title>MEI Sample Collection</title>
             <respStmt>
                <corpName role="publisher">MEI Project</corpName>
-               <corpName role="funder" dbkey="2007744-0" authURI="http://d-nb.info/gnd"
+               <corpName role="funder" dbkey="2007744-0" authURI="http://d-nb.info/gnd/"
                   authority="GND">German Research
                   Foundation<address>
                      <addrLine>Kennedyallee 40</addrLine>
@@ -64,7 +64,7 @@
                	<title>Wie bist du meine Seele</title>
                	<title type="referenceNumber">BWV 435</title>
                   <respStmt>
-                     <persName role="composer" dbkey="11850553X" authURI="http://d-nb.info/gnd" authority="GND">Johann Sebastian Bach</persName>
+                     <persName role="composer" dbkey="11850553X" authURI="http://d-nb.info/gnd/" authority="GND">Johann Sebastian Bach</persName>
                   </respStmt>
                </titleStmt>
                <pubStmt>
@@ -98,7 +98,7 @@
                <title>Wie bist du meine Seele</title>
                <title type="work">BWV 435</title>
                <respStmt>
-                  <persName role="composer" dbkey="11850553X" authURI="http://d-nb.info/gnd"
+                  <persName role="composer" dbkey="11850553X" authURI="http://d-nb.info/gnd/"
                      authority="GND">Johann Sebastian Bach</persName>
                </respStmt>
             </titleStmt>

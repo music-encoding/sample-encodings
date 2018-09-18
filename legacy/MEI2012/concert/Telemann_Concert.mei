@@ -10,7 +10,7 @@
         <title type="subtitle">for Three Clarini, Timpani and Organ</title>
         <title type="subtitle">an electronic transcription</title>
         <respStmt>
-          <persName role="creator" dbkey="11862119X" authURI="http://d-nb.info/gnd" authority="GND"
+          <persName role="creator" dbkey="11862119X" authURI="http://d-nb.info/gnd/" authority="GND"
             >Georg Philipp Telemann</persName>
           <persName role="encoder">Maja Hartwig</persName>
           <persName role="encoder">Kristina Richts</persName>
@@ -18,7 +18,7 @@
       </titleStmt>
       <pubStmt>
         <respStmt>
-          <corpName dbkey="5115204-6" authURI="http://d-nb.info/gnd" authority="GND"
+          <corpName dbkey="5115204-6" authURI="http://d-nb.info/gnd/" authority="GND"
             >Musikwissenschaftliches Seminar &lt;Detmold&gt;</corpName>
         </respStmt>
         <address>
@@ -42,7 +42,7 @@
         <title>MEI Sample Collection</title>
         <respStmt>
           <corpName role="publisher">MEI Project</corpName>
-          <corpName role="funder" dbkey="2007744-0" authURI="http://d-nb.info/gnd" authority="GND"
+          <corpName role="funder" dbkey="2007744-0" authURI="http://d-nb.info/gnd/" authority="GND"
             >German Research
             Foundation<address>
               <addrLine>Kennedyallee 40</addrLine>
@@ -79,7 +79,7 @@
             <title type="referenceNumber">TWV 54:D3</title>
             <title type="uniform">Konzerte, Orch TWV 54 D 3 / Arr.</title>
             <respStmt>
-              <persName role="composer" dbkey="11862119X" authURI="http://d-nb.info/gnd"
+              <persName role="composer" dbkey="11862119X" authURI="http://d-nb.info/gnd/"
                 authority="GND">Georg Philipp Telemann</persName>
               <persName role="arranger">Michel Rondeau</persName>
             </respStmt>
@@ -109,7 +109,7 @@
         <titleStmt>
           <title>Concerto in D</title>
           <respStmt>
-            <persName role="composer" dbkey="11862119X" authURI="http://d-nb.info/gnd"
+            <persName role="composer" dbkey="11862119X" authURI="http://d-nb.info/gnd/"
               authority="GND">Georg Philipp Telemann</persName>
           </respStmt>
         </titleStmt>

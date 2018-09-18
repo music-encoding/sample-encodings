@@ -12,7 +12,7 @@
             <respStmt>
                <persName role="creator"
                          dbkey="118601067"
-                         authURI="http://d-nb.info/gnd"
+                         authURI="http://d-nb.info/gnd/"
                          authority="GND">Nikolaj A. Rimskij-Korsakov</persName>
                <persName role="encoder">Maja Hartwig</persName>
                <persName role="encoder">Kristina Richts</persName>
@@ -20,7 +20,7 @@
          </titleStmt>
          <pubStmt>
             <respStmt>
-               <corpName dbkey="5115204-6" authURI="http://d-nb.info/gnd" authority="GND">Musikwissenschaftliches Seminar, Detmold</corpName>
+               <corpName dbkey="5115204-6" authURI="http://d-nb.info/gnd/" authority="GND">Musikwissenschaftliches Seminar, Detmold</corpName>
             </respStmt>
             <address>
                <addrLine>Gartenstrasse 20</addrLine>
@@ -49,7 +49,7 @@
                <corpName role="publisher">MEI Project</corpName>
                <corpName role="funder"
                          dbkey="2007744-0"
-                         authURI="http://d-nb.info/gnd"
+                         authURI="http://d-nb.info/gnd/"
                          authority="GND">German Research
                   Foundation<address>
                      <addrLine>Kennedyallee 40</addrLine>
@@ -97,7 +97,7 @@
                   <respStmt>
                      <persName role="composer"
                                dbkey="118601067"
-                               authURI="http://d-nb.info/gnd"
+                               authURI="http://d-nb.info/gnd/"
                                authority="GND">Nikolaj A. Rimskij-Korsakov</persName>
                      <persName role="editor">Martin Peckham</persName>
                   </respStmt>
@@ -129,7 +129,7 @@
                <respStmt>
                   <persName role="composer"
                             dbkey="118601067"
-                            authURI="http://d-nb.info/gnd"
+                            authURI="http://d-nb.info/gnd/"
                             authority="GND">Nikolaj A. Rimskij-Korsakov</persName>
                </respStmt>
             </titleStmt>

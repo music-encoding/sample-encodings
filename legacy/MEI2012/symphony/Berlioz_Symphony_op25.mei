@@ -16,7 +16,7 @@
          </titleStmt>
          <pubStmt>
             <respStmt>
-               <corpName dbkey="5115204-6" authURI="http://d-nb.info/gnd" authority="GND"
+               <corpName dbkey="5115204-6" authURI="http://d-nb.info/gnd/" authority="GND"
                   >Musikwissenschaftliches Seminar &lt;Detmold&gt;</corpName>
             </respStmt>
             <address>
@@ -37,7 +37,7 @@
             <title>MEI Sample Collection</title>
             <respStmt>
                <corpName role="publisher">MEI Project</corpName>
-               <corpName role="funder" dbkey="2007744-0" authURI="http://d-nb.info/gnd"
+               <corpName role="funder" dbkey="2007744-0" authURI="http://d-nb.info/gnd/"
                   authority="GND">German Research
                   Foundation<address>
                      <addrLine>Kennedyallee 40</addrLine>
@@ -66,7 +66,7 @@
                   <title>Childhood of Christ Op. 25, Part II</title>
                   <title type="uniform">L'enfance du Christ / Ausw.</title>
                   <respStmt>
-                     <persName role="composer" dbkey="118509675" authURI="http://d-nb.info/gnd"
+                     <persName role="composer" dbkey="118509675" authURI="http://d-nb.info/gnd/"
                         authority="GND">Hector Berlioz</persName>
                      <persName role="arranger">Michel Rondeau</persName>
                   </respStmt>
@@ -102,7 +102,7 @@
             	<title type="subtitle">Op. 25, Part II</title>
                <title type="uniform">L'enfance du Christ / Ausw.</title>
                <respStmt>
-                  <persName role="composer" dbkey="118509675" authURI="http://d-nb.info/gnd"
+                  <persName role="composer" dbkey="118509675" authURI="http://d-nb.info/gnd/"
                      authority="GND">Hector Berlioz</persName>
                </respStmt>
             </titleStmt>

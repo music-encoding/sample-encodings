@@ -9,7 +9,7 @@
 				<title>Le Cygne</title>
 				<title type="subtitle">an electronic transcription</title>
 				<respStmt>
-					<persName role="creator" dbkey="11875081X" authURI="http://d-nb.info/gnd"
+					<persName role="creator" dbkey="11875081X" authURI="http://d-nb.info/gnd/"
 						authority="GND">Camille Saint-Saens</persName>
 					<persName role="encoder">Maja Hartwig</persName>
 					<persName role="encoder">Kristina Richts</persName>
@@ -17,7 +17,7 @@
 			</titleStmt>
 			<pubStmt>
 				<respStmt>
-					<corpName dbkey="5115204-6" authURI="http://d-nb.info/gnd" authority="GND"
+					<corpName dbkey="5115204-6" authURI="http://d-nb.info/gnd/" authority="GND"
 						>Musikwissenschaftliches Seminar &lt;Detmold&gt;</corpName>
 				</respStmt>
 				<address>
@@ -38,7 +38,7 @@
 				<title>MEI Sample Collection</title>
 				<respStmt>
 					<corpName role="publisher">MEI Project</corpName>
-					<corpName role="funder" dbkey="2007744-0" authURI="http://d-nb.info/gnd"
+					<corpName role="funder" dbkey="2007744-0" authURI="http://d-nb.info/gnd/"
 						authority="GND">German Research
 						Foundation<address>
        			<addrLine>Kennedyallee 40</addrLine>
@@ -66,7 +66,7 @@
 						<title>Le Cygne</title>
 						<title type="uniform">Le carneval des animaux &lt;Le cygne&gt; / Arr.</title>
 						<respStmt>
-							<persName role="composer" dbkey="11875081X" authURI="http://d-nb.info/gnd" authority="GND">Camille Saint-Saens</persName>
+							<persName role="composer" dbkey="11875081X" authURI="http://d-nb.info/gnd/" authority="GND">Camille Saint-Saens</persName>
 							<persName role="arranger">Martin Packham</persName>
 						</respStmt>
 					</titleStmt>
@@ -94,7 +94,7 @@
 				<titleStmt>
 					<title>Le Cygne</title>
 					<respStmt>
-						<persName role="composer" dbkey="11875081X" authURI="http://d-nb.info/gnd"
+						<persName role="composer" dbkey="11875081X" authURI="http://d-nb.info/gnd/"
 							authority="GND">Camille Saint-Saens</persName>
 					</respStmt>
 				</titleStmt>

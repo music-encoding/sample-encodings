@@ -14,7 +14,7 @@
             <respStmt>
                <persName role="creator"
                          dbkey="118544489"
-                         authURI="http://d-nb.info/gnd"
+                         authURI="http://d-nb.info/gnd/"
                          authority="GND">Georg Friedrich Haendel</persName>
                <persName role="encoder">Maja Hartwig</persName>
                <persName role="encoder">Kristina Richts</persName>
@@ -22,7 +22,7 @@
          </titleStmt>
          <pubStmt>
             <respStmt>
-               <corpName dbkey="5115204-6" authURI="http://d-nb.info/gnd" authority="GND">Musikwissenschaftliches Seminar, Detmold</corpName>
+               <corpName dbkey="5115204-6" authURI="http://d-nb.info/gnd/" authority="GND">Musikwissenschaftliches Seminar, Detmold</corpName>
             </respStmt>
             <address>
                <addrLine>Gartenstrasse 20</addrLine>
@@ -51,7 +51,7 @@
                <corpName role="publisher">MEI Project</corpName>
                <corpName role="funder"
                          dbkey="2007744-0"
-                         authURI="http://d-nb.info/gnd"
+                         authURI="http://d-nb.info/gnd/"
                          authority="GND">German Research
                   Foundation<address>
                      <addrLine>Kennedyallee 40</addrLine>
@@ -99,7 +99,7 @@
                   <respStmt>
                      <persName role="composer"
                                dbkey="118544489"
-                               authURI="http://d-nb.info/gnd"
+                               authURI="http://d-nb.info/gnd/"
                                authority="GND">Georg Friedrich Haendel</persName>
                      <persName role="arranger">Michel Rondeau</persName>
                      <persName role="librettist">Giacomo Rossi</persName>
@@ -139,7 +139,7 @@
                <respStmt>
                   <persName role="composer"
                             dbkey="118544489"
-                            authURI="http://d-nb.info/gnd"
+                            authURI="http://d-nb.info/gnd/"
                             authority="GND">Georg Friedrich Haendel</persName>
                </respStmt>
             </titleStmt>

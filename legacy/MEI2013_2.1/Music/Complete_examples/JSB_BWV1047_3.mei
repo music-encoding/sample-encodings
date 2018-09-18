@@ -14,14 +14,14 @@
                <persName role="creator"
                          dbkey="11850553X"
                          authority="GND"
-                         authURI="http://d-nb.info/gnd">Johann Sebastian Bach</persName>
+                         authURI="http://d-nb.info/gnd/">Johann Sebastian Bach</persName>
                <persName role="encoder">Maja Hartwig</persName>
                <persName role="encoder">Kristina Richts</persName>
             </respStmt>
          </titleStmt>
          <pubStmt>
             <respStmt>
-               <corpName dbkey="5115204-6" authURI="http://d-nb.info/gnd" authority="GND">Musikwissenschaftliches Seminar, Detmold</corpName>
+               <corpName dbkey="5115204-6" authURI="http://d-nb.info/gnd/" authority="GND">Musikwissenschaftliches Seminar, Detmold</corpName>
             </respStmt>
             <address>
                <addrLine>Gartenstrasse 20</addrLine>
@@ -50,7 +50,7 @@
                <corpName role="publisher">MEI Project</corpName>
                <corpName role="funder"
                          dbkey="2007744-0"
-                         authURI="http://d-nb.info/gnd"
+                         authURI="http://d-nb.info/gnd/"
                          authority="GND">German Research
                   Foundation<address>
                      <addrLine>Kennedyallee 40</addrLine>
@@ -100,7 +100,7 @@
                      <persName role="composer"
                                dbkey="11850553X"
                                authority="GND"
-                               authURI="http://d-nb.info/gnd">Johann Sebastian Bach</persName>
+                               authURI="http://d-nb.info/gnd/">Johann Sebastian Bach</persName>
                   </respStmt>
                </titleStmt>
                <pubStmt>
@@ -140,7 +140,7 @@
                   <persName role="composer"
                             dbkey="11850553X"
                             authority="GND"
-                            authURI="http://d-nb.info/gnd">Johann Sebastian Bach</persName>
+                            authURI="http://d-nb.info/gnd/">Johann Sebastian Bach</persName>
                </respStmt>
             </titleStmt>
             <key pname="f" mode="major">F major</key>

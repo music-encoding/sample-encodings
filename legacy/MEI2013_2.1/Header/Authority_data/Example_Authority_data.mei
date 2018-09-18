@@ -16,7 +16,7 @@
 			</titleStmt>
 			<pubStmt>
 				<respStmt>
-					<corpName dbkey="5115204-6" authURI="http://d-nb.info/gnd" authority="GND"
+					<corpName dbkey="5115204-6" authURI="http://d-nb.info/gnd/" authority="GND"
 						>Musikwissenschaftliches Seminar, Detmold</corpName>
 				</respStmt>
 				<address>
@@ -37,7 +37,7 @@
 				<title>MEI Sample Collection</title>
 				<respStmt>
 					<corpName role="publisher">MEI Project</corpName>
-					<corpName role="funder" dbkey="2007744-0" authURI="http://d-nb.info/gnd"
+					<corpName role="funder" dbkey="2007744-0" authURI="http://d-nb.info/gnd/"
 						authority="GND">German Research
 						Foundation<address>
                      <addrLine>Kennedyallee 40</addrLine>
@@ -71,7 +71,7 @@
 						</respStmt>
 					</titleStmt>
 					<pubStmt>
-						<publisher><corpName authority="GND" authURI="http://d-nb.info/gnd"
+						<publisher><corpName authority="GND" authURI="http://d-nb.info/gnd/"
 								dbkey="6120820-6">Bartholf Senff</corpName></publisher>
 						<pubPlace><geogName dbkey="7012329"
 								authURI="www.getty.edu/research/tools/vocabularies/tgn" authority="TGN"
@@ -112,7 +112,7 @@
 							<title>Wanderlied</title>
 							<respStmt>
 								<resp>von</resp>
-								<persName role="lyricist" authURI="http://d-nb.info/gnd" authority="GND" dbkey="11853811X">Emanuel Geibel</persName>
+								<persName role="lyricist" authURI="http://d-nb.info/gnd/" authority="GND" dbkey="11853811X">Emanuel Geibel</persName>
 								<resp>komponiert von: </resp>
 								<persName role="composer" authURI="http://d-nb.info/gnd/119057077" authority="GND" dbkey="119057077">Niels Wilhelm Gade</persName>
 							</respStmt>

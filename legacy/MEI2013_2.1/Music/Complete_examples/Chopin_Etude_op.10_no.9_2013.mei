@@ -17,7 +17,7 @@
                   </titleStmt>
                   <pubStmt>
                         <respStmt>
-                              <corpName dbkey="5115204-6" authURI="http://d-nb.info/gnd"
+                              <corpName dbkey="5115204-6" authURI="http://d-nb.info/gnd/"
                                     authority="GND">Musikwissenschaftliches Seminar, Detmold</corpName>
                         </respStmt>
                         <address>
@@ -43,7 +43,7 @@
                         <respStmt>
                               <corpName role="publisher">MEI Project</corpName>
                               <corpName role="funder" dbkey="2007744-0"
-                                    authURI="http://d-nb.info/gnd" authority="GND">German Research
+                                    authURI="http://d-nb.info/gnd/" authority="GND">German Research
                                     Foundation<address>
                      <addrLine>Kennedyallee 40</addrLine>
                      <addrLine>
@@ -83,7 +83,7 @@
                                     <title type="uniform">Etüden, Kl, op. 10,9</title>
                                     <respStmt>
                                           <persName role="composer" dbkey="118520539"
-                                                authority="GND" authURI="http://d-nb.info/gnd"
+                                                authority="GND" authURI="http://d-nb.info/gnd/"
                                                 >Frédéric Chopin</persName>
                                           <persName role="dedicatee">Franz Liszt</persName>
                                           <persName role="editor">Karl Klindworth</persName>
@@ -134,7 +134,7 @@
                               <title type="uniform">Etüden, Kl, op. 10,9</title>
                               <respStmt>
                                     <persName role="composer" dbkey="118520539" authority="GND"
-                                          authURI="http://d-nb.info/gnd">Frédéric Chopin</persName>
+                                          authURI="http://d-nb.info/gnd/">Frédéric Chopin</persName>
                                     <persName role="dedicatee" authority="GND"
                                           authURI=" http://d-nb.info/gnd/" dbkey="118573527">Franz
                                           Liszt</persName>

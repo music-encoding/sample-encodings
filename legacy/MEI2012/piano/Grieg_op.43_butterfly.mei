@@ -18,7 +18,7 @@
          </titleStmt>
          <pubStmt>
             <respStmt>
-               <corpName dbkey="5115204-6" authURI="http://d-nb.info/gnd" authority="GND"
+               <corpName dbkey="5115204-6" authURI="http://d-nb.info/gnd/" authority="GND"
                   >Musikwissenschaftliches Seminar &lt;Detmold&gt;</corpName>
             </respStmt>
             <address><addrLine>Gartenstrasse 20</addrLine><addrLine>32756 <geogName dbkey="7004442" authURI="www.getty.edu/research/tools/vocabularies/tgn" authority="TGN">Detmold</geogName>
@@ -37,7 +37,7 @@
             <title>MEI Sample Collection</title>
             <respStmt>
                <corpName role="publisher">MEI Project</corpName>
-               <corpName role="funder" dbkey="2007744-0" authURI="http://d-nb.info/gnd"
+               <corpName role="funder" dbkey="2007744-0" authURI="http://d-nb.info/gnd/"
                   authority="GND">German Research
                   Foundation<address><addrLine>Kennedyallee 40</addrLine><addrLine><geogName dbkey="7005090" authURI="www.getty.edu/research/tools/vocabularies/tgn" authority="TGN">Bonn</geogName>
                   </addrLine><addrLine><geogName dbkey="7000084" authURI="www.getty.edu/research/tools/vocabularies/tgn" authority="TGN">Germany</geogName></addrLine>
@@ -62,7 +62,7 @@
                   <title>Lyric Pieces</title>
                   <title type="uniform">Lyriske stykker, op. 43</title>
                   <respStmt>
-                     <persName role="composer" dbkey="11869641" authURI="http://d-nb.info/gnd"
+                     <persName role="composer" dbkey="11869641" authURI="http://d-nb.info/gnd/"
                         authority="GND">Edvard Grieg</persName>
                      <persName role="editor">Leopold Godowsky</persName>
                   </respStmt>
@@ -118,7 +118,7 @@
                <title>Butterfly</title>
                <title type="uniform">Lyriske stykker, op. 43 &lt;Sommerfugl&gt;</title>
                <respStmt>
-                  <persName role="composer" dbkey="11869641" authURI="http://d-nb.info/gnd"
+                  <persName role="composer" dbkey="11869641" authURI="http://d-nb.info/gnd/"
                      authority="GND">Edvard Grieg</persName>
                </respStmt>
             </titleStmt>

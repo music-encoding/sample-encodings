@@ -10,7 +10,7 @@
             <title type="subtitle">for Brass Quartet</title>
             <title type="subtitle">an electronic transcription</title>
             <respStmt>
-               <persName role="creator" dbkey="118777238" authURI="http://d-nb.info/gnd"
+               <persName role="creator" dbkey="118777238" authURI="http://d-nb.info/gnd/"
                   authority="GND">Johann Philipp Kirnberger</persName>
                <persName role="arranger">Michel Rondeau</persName>
                <persName role="encoder">Maja Hartwig</persName>
@@ -19,7 +19,7 @@
          </titleStmt>
          <pubStmt>
             <respStmt>
-               <corpName dbkey="5115204-6" authURI="http://d-nb.info/gnd" authority="GND"
+               <corpName dbkey="5115204-6" authURI="http://d-nb.info/gnd/" authority="GND"
                   >Musikwissenschaftliches Seminar, Detmold</corpName>
             </respStmt>
             <address>
@@ -43,7 +43,7 @@
             <title>MEI Sample Collection</title>
             <respStmt>
                <corpName role="publisher">MEI Project</corpName>
-               <corpName role="funder" dbkey="2007744-0" authURI="http://d-nb.info/gnd"
+               <corpName role="funder" dbkey="2007744-0" authURI="http://d-nb.info/gnd/"
                   authority="GND">German Research
                   Foundation<address>
                      <addrLine>Kennedyallee 40</addrLine>
@@ -81,7 +81,7 @@
                   <title type="opus">EngK 29</title>
                   <title type="uniform">Fugues, for Organ / Arr.</title>
                   <respStmt>
-                     <persName role="composer" dbkey="118777238" authURI="http://d-nb.info/gnd"
+                     <persName role="composer" dbkey="118777238" authURI="http://d-nb.info/gnd/"
                         authority="GND">Johann Philipp Kirnberger</persName>
                      <persName role="arranger">Michel Rondeau</persName>
                   </respStmt>
@@ -118,7 +118,7 @@
                <title>Fugue in E flat Major</title>
                <title type="subtitle">for Brass Quartet</title>
                <respStmt>
-                  <persName role="composer" dbkey="118777238" authURI="http://d-nb.info/gnd"
+                  <persName role="composer" dbkey="118777238" authURI="http://d-nb.info/gnd/"
                      authority="GND">Johann Philipp Kirnberger</persName>
                </respStmt>
             </titleStmt>

@@ -9,13 +9,13 @@
                 <title>The Cage</title>
             	<title type="subtitle">an electronic transcription</title>
                 <respStmt>
-                    <persName role="creator" authority="GND" authURI="http://d-nb.info/gnd" dbkey="118556142">Charles Ives</persName>
+                    <persName role="creator" authority="GND" authURI="http://d-nb.info/gnd/" dbkey="118556142">Charles Ives</persName>
                     <persName role="encoder">Maja Hartwig</persName>
                 </respStmt>
             </titleStmt>
             <pubStmt>
                 <respStmt>
-                    <corpName n="2" xml:id="corpName2" dbkey="5115204-6" authURI="http://d-nb.info/gnd" authority="GND">Musikwissenschaftliches Seminar
+                    <corpName n="2" xml:id="corpName2" dbkey="5115204-6" authURI="http://d-nb.info/gnd/" authority="GND">Musikwissenschaftliches Seminar
                         <address>
                   <addrLine>Gartenstrasse 20</addrLine><addrLine>32756 <geogName dbkey="7004442" authURI="www.getty.edu/research/tools/vocabularies/tgn" authority="TGN">Detmold</geogName>
                  <geogName dbkey="7000084" authURI="www.getty.edu/research/tools/vocabularies/tgn" authority="TGN">Germany</geogName>
@@ -35,7 +35,7 @@
                 <title>MEI Sample Collection</title>
                 <respStmt>
                     <corpName role="publisher">MEI Project</corpName>
-                    <corpName role="funder" dbkey="2007744-0" authURI="http://d-nb.info/gnd" authority="GND">German Research Foundation<address>
+                    <corpName role="funder" dbkey="2007744-0" authURI="http://d-nb.info/gnd/" authority="GND">German Research Foundation<address>
                      <addrLine>Kennedyallee 40</addrLine>
                      <addrLine><geogName dbkey="7005090" authURI="www.getty.edu/research/tools/vocabularies/tgn" authority="TGN">Bonn</geogName></addrLine>
                      <addrLine><geogName dbkey="7000084" authURI="www.getty.edu/research/tools/vocabularies/tgn" authority="TGN">Germany</geogName></addrLine>
@@ -58,8 +58,8 @@
                         <title>The Cage</title>
                     		<title type="subtitle">from Two Songs (1906)</title>
                         <respStmt>
-                            <persName role="composer" authority="GND" authURI="http://d-nb.info/gnd" dbkey="118556142">Charles Ives</persName>
-                        	<persName role="lyricist" authority="GND" authURI="http://d-nb.info/gnd" dbkey="118556142">Charles Ives</persName>
+                            <persName role="composer" authority="GND" authURI="http://d-nb.info/gnd/" dbkey="118556142">Charles Ives</persName>
+                        	<persName role="lyricist" authority="GND" authURI="http://d-nb.info/gnd/" dbkey="118556142">Charles Ives</persName>
                         </respStmt>
                     </titleStmt>
                     <pubStmt>
@@ -84,8 +84,8 @@
                 <titleStmt>
                     <title>The Cage</title>
                     <respStmt>
-                        <persName role="composer" authority="GND" authURI="http://d-nb.info/gnd" dbkey="118556142">Charles Ives</persName>
-                    	<persName role="lyricist" authority="GND" authURI="http://d-nb.info/gnd" dbkey="118556142">Charles Ives</persName>
+                        <persName role="composer" authority="GND" authURI="http://d-nb.info/gnd/" dbkey="118556142">Charles Ives</persName>
+                    	<persName role="lyricist" authority="GND" authURI="http://d-nb.info/gnd/" dbkey="118556142">Charles Ives</persName>
                     </respStmt>
                 </titleStmt>
                 <history>

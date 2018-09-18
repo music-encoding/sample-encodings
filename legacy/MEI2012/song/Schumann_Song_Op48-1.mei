@@ -16,7 +16,7 @@
 			</titleStmt>
 			<pubStmt>
 				<respStmt>
-					<corpName dbkey="5115204-6" authURI="http://d-nb.info/gnd" authority="GND"
+					<corpName dbkey="5115204-6" authURI="http://d-nb.info/gnd/" authority="GND"
 						>Musikwissenschaftliches Seminar &lt;<geogName dbkey="7004442"
 							authURI="www.getty.edu/research/tools/vocabularies/tgn" authority="TGN"
 							>Detmold</geogName>&gt;</corpName>
@@ -39,7 +39,7 @@
 				<title>MEI Sample Collection</title>
 				<respStmt>
 					<corpName role="publisher">MEI Project</corpName>
-					<corpName role="funder" dbkey="2007744-0" authURI="http://d-nb.info/gnd"
+					<corpName role="funder" dbkey="2007744-0" authURI="http://d-nb.info/gnd/"
 						authority="GND">German Research Foundation
 						<address>
                      <addrLine>Kennedyallee 40</addrLine>
@@ -47,7 +47,7 @@
                      <addrLine><geogName dbkey="7000084" authURI="www.getty.edu/research/tools/vocabularies/tgn" authority="TGN">Germany</geogName></addrLine>
                   </address>
 					</corpName>
-					<corpName role="funder" dbkey="18183-3" authURI="http://d-nb.info/gnd"
+					<corpName role="funder" dbkey="18183-3" authURI="http://d-nb.info/gnd/"
 						authority="GND">National Endowment for the Humanities
 						<address>
                   <addrLine>1100 Pennsylvania Avenue N.W.</addrLine>
@@ -70,18 +70,18 @@
 						<title type="subordinate">für eine Singstimme mit Begleitung des Pianoforte</title>
 						<respStmt>
 							<resp>von</resp>
-							<persName role="composer" dbkey="118611666" authURI="http://d-nb.info/gnd" authority="Deusche Nationalbibliothek">Robert Schumann</persName>
-							<persName role="lyricist" dbkey="118548018" authURI="http://d-nb.info/gnd" authority="GND">Heinrich Heine</persName>
+							<persName role="composer" dbkey="118611666" authURI="http://d-nb.info/gnd/" authority="Deusche Nationalbibliothek">Robert Schumann</persName>
+							<persName role="lyricist" dbkey="118548018" authURI="http://d-nb.info/gnd/" authority="GND">Heinrich Heine</persName>
 							<persName role="dedicatee">Wilhelmine Schröder-Devrient</persName>
 						</respStmt>
 					</titleStmt>
 					<pubStmt>
 						<respStmt>
-							<corpName role="publisher" authority="GND" authURI="http://d-nb.info/gnd" dbkey="4098323-7">Verlag von Breitkopf &amp; Härtel in Leipzig</corpName>
+							<corpName role="publisher" authority="GND" authURI="http://d-nb.info/gnd/" dbkey="4098323-7">Verlag von Breitkopf &amp; Härtel in Leipzig</corpName>
 						</respStmt>
 						<respStmt>
 							<resp>Original-Verleger:</resp>
-							<corpName role="publisher" authority="GND" authURI="http://d-nb.info/gnd" dbkey="4351303-7">C. F. Peters in Leipzig</corpName>
+							<corpName role="publisher" authority="GND" authURI="http://d-nb.info/gnd/" dbkey="4351303-7">C. F. Peters in Leipzig</corpName>
 						</respStmt>
 						<geogName>Leipzig</geogName>
 						<date>1883</date>
@@ -93,7 +93,7 @@
 						<title>Schumann's Werke</title>
 						<respStmt>
 							<resp>herausgegeben von</resp>
-							<persName role="editor" authority="GND" authURI="http://d-nb.info/gnd" dbkey="11861164X">Clara Schumann</persName>
+							<persName role="editor" authority="GND" authURI="http://d-nb.info/gnd/" dbkey="11861164X">Clara Schumann</persName>
 						</respStmt>
 						<seriesStmt>
 							<title>Serie XIII.</title>
@@ -146,7 +146,7 @@
 				<titleStmt>
 					<title type="uniform">Dichterliebe &lt;Im wunderschönen Monat Mai&gt;</title>
 					<respStmt>
-						<persName role="composer" dbkey="118611666" authURI="http://d-nb.info/gnd"
+						<persName role="composer" dbkey="118611666" authURI="http://d-nb.info/gnd/"
 							authority="GND">Robert Schumann</persName>
 					</respStmt>
 				</titleStmt>

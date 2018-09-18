@@ -13,7 +13,7 @@
         <title type="alternative">The Four Seasons, Summer</title>
         <title type="popular">L'Estate</title>
         <respStmt>
-          <persName role="creator" dbkey="118627287" authURI="http://d-nb.info/gnd" authority="GND"
+          <persName role="creator" dbkey="118627287" authURI="http://d-nb.info/gnd/" authority="GND"
             >Antonio Vivaldi</persName>
           <persName role="encoder">Maja Hartwig</persName>
           <persName role="encoder">Kristina Richts</persName>
@@ -21,7 +21,7 @@
       </titleStmt>
       <pubStmt>
         <respStmt>
-          <corpName dbkey="5115204-6" authURI="http://d-nb.info/gnd" authority="GND"
+          <corpName dbkey="5115204-6" authURI="http://d-nb.info/gnd/" authority="GND"
             >Musikwissenschaftliches Seminar &lt;Detmold&gt;</corpName>
         </respStmt>
         <address>
@@ -42,7 +42,7 @@
         <title>MEI Sample Collection</title>
         <respStmt>
           <corpName role="publisher">MEI Project</corpName>
-          <corpName role="funder" dbkey="2007744-0" authURI="http://d-nb.info/gnd" authority="GND"
+          <corpName role="funder" dbkey="2007744-0" authURI="http://d-nb.info/gnd/" authority="GND"
             >German Research
             Foundation<address>
                      <addrLine>Kennedyallee 40</addrLine>
@@ -74,7 +74,7 @@
             <title type="uniform">Il cimento dell'armonia e dell'inventione &lt;Konzert RV 315, 1.
               Satz&gt;</title>
             <respStmt>
-              <persName role="composer" dbkey="118627287" authURI="http://d-nb.info/gnd"
+              <persName role="composer" dbkey="118627287" authURI="http://d-nb.info/gnd/"
                 authority="GND">Antonio Vivaldi</persName>
             </respStmt>
           </titleStmt>
@@ -152,7 +152,7 @@
           <title type="uniform">Il cimento dell'armonia e dell'inventione &lt;Konzert RV 315, 1.
             Satz&gt;</title>
           <respStmt>
-            <persName role="composer" dbkey="118627287" authURI="http://d-nb.info/gnd"
+            <persName role="composer" dbkey="118627287" authURI="http://d-nb.info/gnd/"
               authority="GND">Antonio Vivaldi</persName>
           </respStmt>
         </titleStmt>
@@ -185,7 +185,7 @@
           <title type="uniform">Il cimento dell'armonia e dell'inventione &lt;Konzert RV 315, 2.
             Satz&gt;</title>
           <respStmt>
-            <persName role="composer" dbkey="118627287" authURI="http://d-nb.info/gnd"
+            <persName role="composer" dbkey="118627287" authURI="http://d-nb.info/gnd/"
               authority="GND">Antonio Vivaldi</persName>
           </respStmt>
         </titleStmt>
@@ -218,7 +218,7 @@
           <title type="uniform">Il cimento dell'armonia e dell'inventione &lt;Konzert RV 315, 3.
             Satz&gt;</title>
           <respStmt>
-            <persName role="composer" dbkey="118627287" authURI="http://d-nb.info/gnd"
+            <persName role="composer" dbkey="118627287" authURI="http://d-nb.info/gnd/"
               authority="GND">Antonio Vivaldi</persName>
           </respStmt>
         </titleStmt>
