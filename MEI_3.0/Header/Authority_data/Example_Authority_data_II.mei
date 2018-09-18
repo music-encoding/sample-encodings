@@ -9,19 +9,19 @@
          </titleStmt>
          <pubStmt>
             <respStmt>
-               <corpName role="publisher" codedval="5115204-6" authURI="http://d-nb.info/gnd" authority="GND">Musikwissenschaftliches Seminar &lt;<geogName codedval="7004442"
-                            authURI="www.getty.edu/research/tools/vocabularies/tgn"
+               <corpName role="publisher" codedval="5115204-6" authURI="http://d-nb.info/gnd/" authority="GND">Musikwissenschaftliches Seminar &lt;<geogName codedval="7004442"
+                            authURI="http://vocab.getty.edu/page/tgn/"
                             authority="TGN">Detmold</geogName>&gt;</corpName>
             </respStmt>
             <address>
                <addrLine>Gartenstrasse 20</addrLine>
                <addrLine>32756 <geogName codedval="7004442"
-                            authURI="www.getty.edu/research/tools/vocabularies/tgn"
+                            authURI="http://vocab.getty.edu/page/tgn/"
                             authority="TGN">Detmold</geogName>
                </addrLine>
                <addrLine>
                   <geogName codedval="7000084"
-                            authURI="www.getty.edu/research/tools/vocabularies/tgn"
+                            authURI="http://vocab.getty.edu/page/tgn/"
                             authority="TGN">Germany</geogName>
                </addrLine>
             </address>
@@ -40,34 +40,34 @@
                <corpName role="publisher">MEI Project</corpName>
                <corpName role="funder"
                          codedval="2007744-0"
-                         authURI="http://d-nb.info/gnd"
+                         authURI="http://d-nb.info/gnd/"
                          authority="GND">German Research Foundation
 						<address>
                      <addrLine>Kennedyallee 40</addrLine>
                      <addrLine>53175 <geogName codedval="7005090"
-                                  authURI="www.getty.edu/research/tools/vocabularies/tgn"
+                                  authURI="http://vocab.getty.edu/page/tgn/"
                                   authority="TGN">Bonn</geogName>
                      </addrLine>
                      <addrLine>
                         <geogName codedval="7000084"
-                                  authURI="www.getty.edu/research/tools/vocabularies/tgn"
+                                  authURI="http://vocab.getty.edu/page/tgn/"
                                   authority="TGN">Germany</geogName>
                      </addrLine>
                   </address>
                </corpName>
                <corpName role="funder"
                          codedval="18183-3"
-                         authURI="http://d-nb.info/gnd"
+                         authURI="http://d-nb.info/gnd/"
                          authority="GND">National Endowment for the Humanities
 						<address>
                      <addrLine>1100 Pennsylvania Avenue N.W.</addrLine>
                      <addrLine>
                         <geogName codedval="7013962"
-                                  authURI="www.getty.edu/research/tools/vocabularies/tgn"
+                                  authURI="http://vocab.getty.edu/page/tgn/"
                                   authority="TGN">Washington, DC</geogName> 20004</addrLine>
                      <addrLine>
                         <geogName codedval="7012149"
-                                  authURI="www.getty.edu/research/tools/vocabularies/tgn"
+                                  authURI="http://vocab.getty.edu/page/tgn/"
                                   authority="TGN">United States</geogName>
                      </addrLine>
                   </address>
@@ -82,11 +82,11 @@
                   <respStmt>
                      <persName role="composer"
                                codedval="118611666"
-                               authURI="http://d-nb.info/gnd"
+                               authURI="http://d-nb.info/gnd/"
                                authority="Deusche Nationalbibliothek">Robert Schumann</persName>
                      <persName role="lyricist"
                                codedval="118548018"
-                               authURI="http://d-nb.info/gnd"
+                               authURI="http://d-nb.info/gnd/"
                                authority="GND">Heinrich
 								Heine</persName>
                      <persName role="dedicatee">Wilhelmine Schröder-Devrient</persName>
@@ -131,7 +131,7 @@
                <respStmt>
                   <persName role="composer"
                             codedval="118611666"
-                            authURI="http://d-nb.info/gnd"
+                            authURI="http://d-nb.info/gnd/"
                             authority="GND">Robert Schumann</persName>
                </respStmt>
             </titleStmt>

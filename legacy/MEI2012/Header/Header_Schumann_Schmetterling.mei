@@ -8,7 +8,7 @@
                 <title>Schmetterling: eine elektronische Transkription</title>
                 <respStmt>
                     <resp>Composed by:</resp>
-                    <persName role="composer" authority="GND" authURI="http://d-nb.info/gnd"
+                    <persName role="composer" authority="GND" authURI="http://d-nb.info/gnd/"
                         dbkey="118611666">Robert Schumann</persName>
                     <resp>Machine-readable transcription by:</resp>
                     <persName role="encoder">Kristina Richts</persName>
@@ -24,10 +24,10 @@
                             op. 79</title>
                         <title type="uniform">Lieder für die Jugend</title>
                         <respStmt>
-                            <persName role="composer" authority="GND" authURI="http://d-nb.info/gnd"
+                            <persName role="composer" authority="GND" authURI="http://d-nb.info/gnd/"
                                 dbkey="118611666">Robert Schumann</persName>
                             <resp>Herausgegeben von</resp>
-                            <persName role="editor" authURI="http://d-nb.info/gnd" authority="GND"
+                            <persName role="editor" authURI="http://d-nb.info/gnd/" authority="GND"
                                 dbkey="10400097X">Ulrich Mahlert</persName>
                         </respStmt>
                     </titleStmt>
@@ -37,7 +37,7 @@
                     <pubStmt>
                         <respStmt>
                             <corpName role="publisher" authority="GND"
-                                authURI="http://d-nb.info/gnd" dbkey="330001418">Breitkopf und
+                                authURI="http://d-nb.info/gnd/" dbkey="330001418">Breitkopf und
                                 Härtel</corpName>
                             <resp>Druck:</resp>
                             <corpName role="printer">PIROL Notendruckerei, Minden</corpName>
@@ -80,7 +80,7 @@
                         <title>Breitkopf-Archiv</title>
                         <respStmt>
                             <resp>Herausgegeben von:</resp>
-                            <persName role="editor" authURI="http://d-nb.info/gnd" authority="GND"
+                            <persName role="editor" authURI="http://d-nb.info/gnd/" authority="GND"
                                 dbkey="123921228">Joachim Draheim</persName>
                         </respStmt>
                     </seriesStmt>
@@ -131,9 +131,9 @@
                     <title type="main">Schmetterling</title>
                     <title type="uniform">Lieder für die Jugend &lt;Schmetterling&gt;</title>
                     <respStmt>
-                        <persName role="composer" authority="GND" authURI="http://d-nb.info/gnd"
+                        <persName role="composer" authority="GND" authURI="http://d-nb.info/gnd/"
                             dbkey="118611666">Robert Schumann</persName>
-                        <persName role="lyricist" authority="GND" authURI="http://d-nb.info/gnd"
+                        <persName role="lyricist" authority="GND" authURI="http://d-nb.info/gnd/"
                             dbkey="118552589">August Heinrich Hoffmann von Fallersleben</persName>
                     </respStmt>
                 </titleStmt>

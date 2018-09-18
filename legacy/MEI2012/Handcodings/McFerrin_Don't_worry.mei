@@ -9,13 +9,13 @@
                 <title>Don't worry, be happy</title>
             	<title type="subtitle">an electronic transcription</title>
                 <respStmt>
-                    <persName role="creator" authority="GND" authURI="http://d-nb.info/gnd" dbkey="134451260 ">Bobby McFerrin</persName>
+                    <persName role="creator" authority="GND" authURI="http://d-nb.info/gnd/" dbkey="134451260 ">Bobby McFerrin</persName>
                     <persName role="encoder">Maja Hartwig</persName>
                 </respStmt>
             </titleStmt>
             <pubStmt>
                 <respStmt>
-                    <corpName dbkey="5115204" authURI="http://d-nb.info/gnd" authority="GND">Musikwissenschaftliches Seminar Detmold</corpName>
+                    <corpName dbkey="5115204" authURI="http://d-nb.info/gnd/" authority="GND">Musikwissenschaftliches Seminar Detmold</corpName>
                 </respStmt>
                 <address>
                     <addrLine>Gartenstrasse 20</addrLine>
@@ -38,7 +38,7 @@
                 <respStmt>
                     <corpName role="publisher">MEI Project</corpName>
                     <corpName role="funder" dbkey="2007744-0" authority="GND"
-                        authURI="http://d-nb.info/gnd">German Research Foundation
+                        authURI="http://d-nb.info/gnd/">German Research Foundation
                         <address>
                         <addrLine>Kennedyallee 40</addrLine>
                         <addrLine><geogName>Bonn</geogName></addrLine>
@@ -48,9 +48,9 @@
                         Humanities<address>
                      <addrLine>1100 Pennsylvania Avenue N.W.</addrLine>
                      <addrLine>
-                        <geogName dbkey="7013962" authURI="www.getty.edu/research/tools/vocabularies/tgn" authority="TGN">Washington, DC</geogName> 20004</addrLine>
+                        <geogName dbkey="7013962" authURI="http://vocab.getty.edu/page/tgn/" authority="TGN">Washington, DC</geogName> 20004</addrLine>
                      <addrLine>
-                        <geogName dbkey="7012149" authURI="www.getty.edu/research/tools/vocabularies/tgn" authority="TGN">United States</geogName>
+                        <geogName dbkey="7012149" authURI="http://vocab.getty.edu/page/tgn/" authority="TGN">United States</geogName>
                      </addrLine>
                   </address>
                     </corpName>
@@ -65,8 +65,8 @@
                     <titleStmt>
                         <title>Don't worry be happy</title>
                         <respStmt>
-                            <persName role="composer" authority="GND" authURI="http://d-nb.info/gnd" dbkey="134451260">Bobby Mc Ferrin</persName>
-                        	<persName role="lyricist" authority="GND" authURI="http://d-nb.info/gnd" dbkey="134451260">Bobby Mc Ferrin</persName>
+                            <persName role="composer" authority="GND" authURI="http://d-nb.info/gnd/" dbkey="134451260">Bobby Mc Ferrin</persName>
+                        	<persName role="lyricist" authority="GND" authURI="http://d-nb.info/gnd/" dbkey="134451260">Bobby Mc Ferrin</persName>
                         </respStmt>
                     </titleStmt>
                 </source>
@@ -83,7 +83,7 @@
                 <titleStmt>
                     <title>Don't worry, be happy</title>
                     <respStmt>
-                        <persName role="composer" authority="GND" authURI="http://d-nb.info/gnd" dbkey="134451260">Bobby McFerrin</persName>
+                        <persName role="composer" authority="GND" authURI="http://d-nb.info/gnd/" dbkey="134451260">Bobby McFerrin</persName>
                     </respStmt>
                 </titleStmt>
                 <history><creation><date notbefore="1988" notafter="1988">1988</date></creation></history>

@@ -10,15 +10,15 @@
             <respStmt>
                <persName role="creator"
                          authority="GND"
-                         authURI="http://d-nb.info/gnd"
+                         authURI="http://d-nb.info/gnd/"
                          dbkey="11850553X">Johann Sebastian Bach</persName>
                <persName role="encoder">Perry Roland</persName>
             </respStmt>
          </titleStmt>
          <pubStmt>
             <respStmt>
-               <corpName dbkey="5115204-6" authURI="http://d-nb.info/gnd" authority="GND">Musikwissenschaftliches Seminar &lt;<geogName dbkey="7004442"
-                            authURI="www.getty.edu/research/tools/vocabularies/tgn"
+               <corpName dbkey="5115204-6" authURI="http://d-nb.info/gnd/" authority="GND">Musikwissenschaftliches Seminar &lt;<geogName dbkey="7004442"
+                            authURI="http://vocab.getty.edu/page/tgn/"
                             authority="TGN">Detmold</geogName>&gt;</corpName>
             </respStmt>
             <address>
@@ -76,7 +76,7 @@
                   <respStmt>
                      <persName role="composer"
                                authority="GND"
-                               authURI="http://d-nb.info/gnd"
+                               authURI="http://d-nb.info/gnd/"
                                dbkey="11850553X">Johann Sebastian Bach</persName>
                      <persName role="librettist">Picander, pseud. Christian Friedrich Henrici</persName>
                   </respStmt>
@@ -108,7 +108,7 @@
                <respStmt>
                   <persName role="composer"
                             authority="GND"
-                            authURI="http://d-nb.info/gnd"
+                            authURI="http://d-nb.info/gnd/"
                             dbkey="11850553X">Johann Sebastian Bach</persName>
                </respStmt>
             </titleStmt>
