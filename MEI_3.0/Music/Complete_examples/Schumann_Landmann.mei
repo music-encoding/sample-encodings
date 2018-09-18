@@ -11,14 +11,14 @@
             <respStmt>
                <persName role="creator"
                          codedval="118611666"
-                         authURI="http://d-nb.info/gnd"
+                         authURI="http://d-nb.info/gnd/"
                          authority="Deusche Nationalbibliothek">Robert Schumann</persName>
                <persName role="encoder">Maja Hartwig</persName>
             </respStmt>
          </titleStmt>
          <pubStmt>
             <respStmt>
-               <corpName role="publisher" codedval="5115204-6" authURI="http://d-nb.info/gnd" authority="GND">Musikwissenschaftliches Seminar &lt;<geogName codedval="7004442"
+               <corpName role="publisher" codedval="5115204-6" authURI="http://d-nb.info/gnd/" authority="GND">Musikwissenschaftliches Seminar &lt;<geogName codedval="7004442"
                             authURI="www.getty.edu/research/tools/vocabularies/tgn"
                             authority="TGN">Detmold</geogName>&gt;</corpName>
             </respStmt>
@@ -45,7 +45,7 @@
                <corpName role="publisher">MEI Project</corpName>
                <corpName role="funder"
                          codedval="2007744-0"
-                         authURI="http://d-nb.info/gnd"
+                         authURI="http://d-nb.info/gnd/"
                          authority="GND">German Research Foundation
                   <address>
                      <addrLine>Kennedyallee 40</addrLine>
@@ -62,7 +62,7 @@
                </corpName>
                <corpName role="funder"
                          codedval="18183-3"
-                         authURI="http://d-nb.info/gnd"
+                         authURI="http://d-nb.info/gnd/"
                          authority="GND">National Endowment for the Humanities
                   <address>
                      <addrLine>1100 Pennsylvania Avenue N.W.</addrLine>
@@ -91,7 +91,7 @@
                   <respStmt>
                      <persName role="composer"
                                codedval="118611666"
-                               authURI="http://d-nb.info/gnd"
+                               authURI="http://d-nb.info/gnd/"
                                authority="Deusche Nationalbibliothek">Robert Schumann</persName>
                   </respStmt>
                </titleStmt>

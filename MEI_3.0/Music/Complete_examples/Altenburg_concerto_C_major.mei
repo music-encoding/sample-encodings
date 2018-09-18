@@ -7,14 +7,14 @@
                heroisch-musikalischen Trompeter - und Pauker - Kunst"</title>
             <title type="subordinate">an electronic transcription</title>
             <respStmt>
-               <persName role="creator" codedval="108138054" authURI="http://d-nb.info/gnd" authority="GND">Johann Ernst Altenburg</persName>
+               <persName role="creator" codedval="108138054" authURI="http://d-nb.info/gnd/" authority="GND">Johann Ernst Altenburg</persName>
                <persName role="encoder">Maja Hartwig</persName>
                <persName role="encoder">Kristina Richts</persName>
             </respStmt>
          </titleStmt>
          <pubStmt>
             <respStmt>
-               <corpName role="publisher" codedval="5115204-6" authURI="http://d-nb.info/gnd" authority="GND">Musikwissenschaftliches Seminar, Detmold</corpName>
+               <corpName role="publisher" codedval="5115204-6" authURI="http://d-nb.info/gnd/" authority="GND">Musikwissenschaftliches Seminar, Detmold</corpName>
             </respStmt>
             <address>
                <addrLine>Gartenstrasse 20</addrLine>
@@ -37,7 +37,7 @@
             <title>MEI Sample Collection</title>
             <respStmt>
                <corpName role="publisher">MEI Project</corpName>
-               <corpName role="funder" codedval="2007744-0" authURI="http://d-nb.info/gnd" authority="GND">German Research Foundation<address>
+               <corpName role="funder" codedval="2007744-0" authURI="http://d-nb.info/gnd/" authority="GND">German Research Foundation<address>
                      <addrLine>Kennedyallee 40</addrLine>
                      <addrLine>
                         <geogName codedval="7005090" authURI="www.getty.edu/research/tools/vocabularies/tgn" authority="TGN">Bonn</geogName>
@@ -69,7 +69,7 @@
                		heroisch-musikalischen Trompeter - und Pauker - Kunst"</title>
                   <title type="uniform">Konzerte &lt;1795&gt;</title>
                   <respStmt>
-                     <persName role="composer" codedval="108138054" authURI="http://d-nb.info/gnd" authority="GND">Johann Ernst Altenburg</persName>
+                     <persName role="composer" codedval="108138054" authURI="http://d-nb.info/gnd/" authority="GND">Johann Ernst Altenburg</persName>
                   </respStmt>
                </titleStmt>
                <pubStmt>
@@ -108,7 +108,7 @@
                <title>Concerto à 7 Trompeten und Pauken aus "Versuch einer Anleitung zur
             		heroisch-musikalischen Trompeter - und Pauker - Kunst"</title>
                <respStmt>
-                  <persName role="composer" codedval="108138054" authURI="http://d-nb.info/gnd" authority="GND">Johann Ernst Altenburg</persName>
+                  <persName role="composer" codedval="108138054" authURI="http://d-nb.info/gnd/" authority="GND">Johann Ernst Altenburg</persName>
                </respStmt>
             </titleStmt>
             <key pname="c" mode="major">C major</key>

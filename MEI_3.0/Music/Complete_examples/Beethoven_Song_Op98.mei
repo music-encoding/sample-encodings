@@ -15,7 +15,7 @@
          </titleStmt>
          <pubStmt>
             <respStmt>
-               <corpName role="publisher" codedval="5115204-6" authURI="http://d-nb.info/gnd" authority="GND">Musikwissenschaftliches Seminar, Detmold</corpName>
+               <corpName role="publisher" codedval="5115204-6" authURI="http://d-nb.info/gnd/" authority="GND">Musikwissenschaftliches Seminar, Detmold</corpName>
             </respStmt>
             <address>
                <addrLine>Gartenstrasse 20</addrLine>
@@ -42,7 +42,7 @@
                <corpName role="publisher">MEI Project</corpName>
                <corpName role="funder"
                          codedval="2007744-0"
-                         authURI="http://d-nb.info/gnd"
+                         authURI="http://d-nb.info/gnd/"
                          authority="GND">German Research
                   Foundation<address>
                      <addrLine>Kennedyallee 40</addrLine>
@@ -89,11 +89,11 @@
                   <respStmt>
                      <persName role="composer"
                                codedval="118508288"
-                               authURI="http://d-nb.info/gnd"
+                               authURI="http://d-nb.info/gnd/"
                                authority="GND">Ludwig van Beethoven</persName>
                      <persName role="lyricist"
                                codedval="113667213"
-                               authURI="http://d-nb.info/gnd"
+                               authURI="http://d-nb.info/gnd/"
                                authority="GND">Aloys Isidor Jeitteles</persName>
                      <persName role="dedicatee">Fürst Joseph von Lobkowitz</persName>
                      <persName role="editor">Max Unger</persName>
@@ -135,7 +135,7 @@
                <respStmt>
                   <persName role="composer"
                             codedval="118508288"
-                            authURI="http://d-nb.info/gnd"
+                            authURI="http://d-nb.info/gnd/"
                             authority="GND">Ludwig van Beethoven</persName>
                </respStmt>
             </titleStmt>

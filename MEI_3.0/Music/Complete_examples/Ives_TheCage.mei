@@ -10,7 +10,7 @@
             <respStmt>
                <persName role="creator"
                          authority="GND"
-                         authURI="http://d-nb.info/gnd"
+                         authURI="http://d-nb.info/gnd/"
                          codedval="118556142">Charles Ives</persName>
                <persName role="encoder">Maja Hartwig</persName>
             </respStmt>
@@ -20,7 +20,7 @@
                <corpName role="publisher" n="2"
                          xml:id="corpName2"
                          codedval="5115204-6"
-                         authURI="http://d-nb.info/gnd"
+                         authURI="http://d-nb.info/gnd/"
                          authority="GND">Musikwissenschaftliches Seminar
                         <address>
                      <addrLine>Gartenstrasse 20</addrLine>
@@ -48,7 +48,7 @@
                <corpName role="publisher">MEI Project</corpName>
                <corpName role="funder"
                          codedval="2007744-0"
-                         authURI="http://d-nb.info/gnd"
+                         authURI="http://d-nb.info/gnd/"
                          authority="GND">German Research Foundation<address>
                      <addrLine>Kennedyallee 40</addrLine>
                      <addrLine>
@@ -93,11 +93,11 @@
                   <respStmt>
                      <persName role="composer"
                                authority="GND"
-                               authURI="http://d-nb.info/gnd"
+                               authURI="http://d-nb.info/gnd/"
                                codedval="118556142">Charles Ives</persName>
                      <persName role="lyricist"
                                authority="GND"
-                               authURI="http://d-nb.info/gnd"
+                               authURI="http://d-nb.info/gnd/"
                                codedval="118556142">Charles Ives</persName>
                   </respStmt>
                </titleStmt>
@@ -126,11 +126,11 @@
                <respStmt>
                   <persName role="composer"
                             authority="GND"
-                            authURI="http://d-nb.info/gnd"
+                            authURI="http://d-nb.info/gnd/"
                             codedval="118556142">Charles Ives</persName>
                   <persName role="lyricist"
                             authority="GND"
-                            authURI="http://d-nb.info/gnd"
+                            authURI="http://d-nb.info/gnd/"
                             codedval="118556142">Charles Ives</persName>
                </respStmt>
             </titleStmt>

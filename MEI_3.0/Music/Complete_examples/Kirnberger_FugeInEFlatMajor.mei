@@ -11,7 +11,7 @@
             <respStmt>
                <persName role="creator"
                          codedval="118777238"
-                         authURI="http://d-nb.info/gnd"
+                         authURI="http://d-nb.info/gnd/"
                          authority="GND">Johann Philipp Kirnberger</persName>
                <persName role="arranger">Michel Rondeau</persName>
                <persName xml:id="MH" role="encoder">Maja Hartwig</persName>
@@ -20,7 +20,7 @@
          </titleStmt>
          <pubStmt>
             <respStmt>
-               <corpName role="publisher" codedval="5115204-6" authURI="http://d-nb.info/gnd" authority="GND">Musikwissenschaftliches Seminar, Detmold</corpName>
+               <corpName role="publisher" codedval="5115204-6" authURI="http://d-nb.info/gnd/" authority="GND">Musikwissenschaftliches Seminar, Detmold</corpName>
             </respStmt>
             <address>
                <addrLine>Gartenstrasse 20</addrLine>
@@ -49,7 +49,7 @@
                <corpName role="publisher">MEI Project</corpName>
                <corpName role="funder"
                          codedval="2007744-0"
-                         authURI="http://d-nb.info/gnd"
+                         authURI="http://d-nb.info/gnd/"
                          authority="GND">German Research
                   Foundation<address>
                      <addrLine>Kennedyallee 40</addrLine>
@@ -98,7 +98,7 @@
                   <respStmt>
                      <persName role="composer"
                                codedval="118777238"
-                               authURI="http://d-nb.info/gnd"
+                               authURI="http://d-nb.info/gnd/"
                                authority="GND">Johann Philipp Kirnberger</persName>
                      <persName role="arranger">Michel Rondeau</persName>
                   </respStmt>
@@ -136,7 +136,7 @@
                <respStmt>
                   <persName role="composer"
                             codedval="118777238"
-                            authURI="http://d-nb.info/gnd"
+                            authURI="http://d-nb.info/gnd/"
                             authority="GND">Johann Philipp Kirnberger</persName>
                </respStmt>
             </titleStmt>

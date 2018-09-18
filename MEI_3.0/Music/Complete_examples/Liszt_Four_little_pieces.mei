@@ -9,7 +9,7 @@
             <title type="subordinate">an electronic transcription</title>
             <respStmt>
                <persName role="creator"
-                         authURI="http://d-nb.info/gnd"
+                         authURI="http://d-nb.info/gnd/"
                          authority="DNB"
                          codedval="118573527">Franz Liszt</persName>
                <persName role="encoder">Perry Roland</persName>
@@ -29,7 +29,7 @@
                <corpName role="publisher" n="2"
                          xml:id="corpName2"
                          codedval="5115204-6"
-                         authURI="http://d-nb.info/gnd"
+                         authURI="http://d-nb.info/gnd/"
                          authority="GND">Musikwissenschaftliches Seminar
                   <address>
                      <addrLine>Gartenstrasse 20</addrLine>
@@ -57,7 +57,7 @@
                <corpName role="publisher">MEI Project</corpName>
                <corpName role="funder"
                          codedval="2007744-0"
-                         authURI="http://d-nb.info/gnd"
+                         authURI="http://d-nb.info/gnd/"
                          authority="GND">German Research
                   Foundation<address>
                      <addrLine>Kennedyallee 40</addrLine>
@@ -105,7 +105,7 @@
                   <title xml:lang="po">Negy kis zongoradarab</title>
                   <respStmt>
                      <persName role="composer"
-                               authURI="http://d-nb.info/gnd"
+                               authURI="http://d-nb.info/gnd/"
                                authority="DNB"
                                codedval="118573527">Franz Liszt</persName>
                      <persName role="editor">José Vianna da Motta</persName>
@@ -157,7 +157,7 @@
                </title>
                <respStmt>
                   <persName role="composer"
-                            authURI="http://d-nb.info/gnd"
+                            authURI="http://d-nb.info/gnd/"
                             authority="DNB"
                             codedval="118573527">Franz Liszt</persName>
                   <persName role="dedicatee">Baroness Olga von

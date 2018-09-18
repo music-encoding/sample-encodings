@@ -9,7 +9,7 @@
             <title type="subordinate">an electronic transcription</title>
             <respStmt>
                <persName role="creator"
-                         authURI="http://d-nb.info/gnd"
+                         authURI="http://d-nb.info/gnd/"
                          codedval="118739328"
                          authority="GND">Charles Parker</persName>
                <persName role="creator">John Gillepsie</persName>
@@ -21,7 +21,7 @@
                <corpName role="publisher" n="2"
                          xml:id="corpName2"
                          codedval="5115204-6"
-                         authURI="http://d-nb.info/gnd"
+                         authURI="http://d-nb.info/gnd/"
                          authority="GND">Musikwissenschaftliches
                         Seminar
                         <address>
@@ -50,7 +50,7 @@
                <corpName role="publisher">MEI Project</corpName>
                <corpName role="funder"
                          codedval="2007744-0"
-                         authURI="http://d-nb.info/gnd"
+                         authURI="http://d-nb.info/gnd/"
                          authority="GND">German Research
                         Foundation<address>
                      <addrLine>Kennedyallee 40</addrLine>
@@ -99,7 +99,7 @@
                      <persName role="composer"
                                codedval="118739328"
                                authority="GND"
-                               authURI="http://d-nb.info/gnd">Charles Parker</persName>
+                               authURI="http://d-nb.info/gnd/">Charles Parker</persName>
                      <persName role="performer">John "Dizzy" Gillepsie</persName>
                   </respStmt>
                </titleStmt>
@@ -130,7 +130,7 @@
                <respStmt>
                   <persName role="composer"
                             codedval="118739328"
-                            authURI="http://d-nb.info/gnd"
+                            authURI="http://d-nb.info/gnd/"
                             authority="GND">Charles Parker</persName>
                </respStmt>
             </titleStmt>

@@ -13,7 +13,7 @@
          </titleStmt>
          <pubStmt>
             <respStmt>
-               <corpName role="publisher" codedval="5115204-6" authURI="http://d-nb.info/gnd" authority="GND">Musikwissenschaftliches Seminar, Detmold</corpName>
+               <corpName role="publisher" codedval="5115204-6" authURI="http://d-nb.info/gnd/" authority="GND">Musikwissenschaftliches Seminar, Detmold</corpName>
             </respStmt>
             <address>
                <addrLine>Gartenstrasse 20</addrLine>
@@ -36,7 +36,7 @@
             <title>MEI Sample Collection</title>
             <respStmt>
                <corpName role="publisher">MEI Project</corpName>
-               <corpName role="funder" codedval="2007744-0" authURI="http://d-nb.info/gnd" authority="GND">German Research
+               <corpName role="funder" codedval="2007744-0" authURI="http://d-nb.info/gnd/" authority="GND">German Research
                   Foundation<address>
                      <addrLine>Kennedyallee 40</addrLine>
                      <addrLine>
@@ -68,7 +68,7 @@
                <titleStmt>
                   <title>Macht auf die Tor der Grechtigkeit</title>
                   <respStmt>
-                     <persName role="composer" codedval="11864839X" authURI="http://d-nb.info/gnd" authority="GND">Michael Altenburg</persName>
+                     <persName role="composer" codedval="11864839X" authURI="http://d-nb.info/gnd/" authority="GND">Michael Altenburg</persName>
                   </respStmt>
                </titleStmt>
             </source>
@@ -105,7 +105,7 @@
             <titleStmt>
                <title>Macht auf die Tor der Gerechtigkeit</title>
                <respStmt>
-                  <persName role="composer" codedval="11864839X" authURI="http://d-nb.info/gnd" authority="GND">Michael Altenburg</persName>
+                  <persName role="composer" codedval="11864839X" authURI="http://d-nb.info/gnd/" authority="GND">Michael Altenburg</persName>
                </respStmt>
             </titleStmt>
             <key pname="a" mode="minor">A minor</key>

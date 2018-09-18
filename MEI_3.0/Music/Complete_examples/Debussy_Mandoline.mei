@@ -15,7 +15,7 @@
          </titleStmt>
          <pubStmt>
             <respStmt>
-               <corpName role="publisher" codedval="5115204-6" authURI="http://d-nb.info/gnd" authority="GND">Musikwissenschaftliches Seminar, Detmold</corpName>
+               <corpName role="publisher" codedval="5115204-6" authURI="http://d-nb.info/gnd/" authority="GND">Musikwissenschaftliches Seminar, Detmold</corpName>
             </respStmt>
             <address>
                <addrLine>Gartenstrasse 20</addrLine>
@@ -40,7 +40,7 @@
                <corpName role="publisher">MEI Project</corpName>
                <corpName role="funder"
                          codedval="2007744-0"
-                         authURI="http://d-nb.info/gnd"
+                         authURI="http://d-nb.info/gnd/"
                          authority="GND">German Research Foundation<address>
                      <addrLine>Kennedyallee 40</addrLine>
                      <addrLine>
@@ -85,11 +85,11 @@
                   <respStmt>
                      <persName role="composer"
                                codedval="118524186"
-                               authURI="http://d-nb.info/gnd"
+                               authURI="http://d-nb.info/gnd/"
                                authority="GND">Claude Debussy</persName>
                      <persName role="lyricist"
                                codedval="118804219"
-                               authURI="http://d-nb.info/gnd"
+                               authURI="http://d-nb.info/gnd/"
                                authority="GND">Paul Verlaine</persName>
                   </respStmt>
                </titleStmt>
@@ -135,7 +135,7 @@
                <respStmt>
                   <persName role="composer"
                             codedval="118524186"
-                            authURI="http://d-nb.info/gnd"
+                            authURI="http://d-nb.info/gnd/"
                             authority="GND">Claude Debussy</persName>
                   <persName role="librettist">Paul Verlaine</persName>
                </respStmt>

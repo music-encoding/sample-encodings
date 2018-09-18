@@ -12,7 +12,7 @@
                <persName cert="low"
                          role="creator"
                          codedval="11850553X"
-                         authURI="http://d-nb.info/gnd"
+                         authURI="http://d-nb.info/gnd/"
                          authority="GND">Johann Sebastian Bach</persName>
                <persName role="encoder">Maja Hartwig</persName>
                <persName role="encoder">Kristina Richts</persName>
@@ -20,7 +20,7 @@
          </titleStmt>
          <pubStmt>
             <respStmt>
-               <corpName role="publisher" codedval="5115204-6" authURI="http://d-nb.info/gnd" authority="GND">Musikwissenschaftliches Seminar, Detmold</corpName>
+               <corpName role="publisher" codedval="5115204-6" authURI="http://d-nb.info/gnd/" authority="GND">Musikwissenschaftliches Seminar, Detmold</corpName>
             </respStmt>
             <address>
                <addrLine>Gartenstrasse 20</addrLine>
@@ -49,7 +49,7 @@
                <corpName role="publisher">MEI Project</corpName>
                <corpName role="funder"
                          codedval="2007744-0"
-                         authURI="http://d-nb.info/gnd"
+                         authURI="http://d-nb.info/gnd/"
                          authority="GND">German Research  Foundation<address>
                      <addrLine>Kennedyallee 40</addrLine>
                      <addrLine>
@@ -94,7 +94,7 @@
                   <respStmt>
                      <persName role="composer" cert="low"
                                codedval="11850553X"
-                               authURI="http://d-nb.info/gnd"
+                               authURI="http://d-nb.info/gnd/"
                                authority="GND">Johann Sebastian Bach</persName>
                   </respStmt>
                </titleStmt>
@@ -121,7 +121,7 @@
                <title>Hilf, Herr Jesu, laß gelingen</title>
                <title type="work">BWV 344</title>
                <respStmt>
-                  <persName role="composer" cert="low" authURI="http://d-nb.info/gnd" authority="GND">Johann
+                  <persName role="composer" cert="low" authURI="http://d-nb.info/gnd/" authority="GND">Johann
                      Sebastian Bach</persName>
                </respStmt>
             </titleStmt>
