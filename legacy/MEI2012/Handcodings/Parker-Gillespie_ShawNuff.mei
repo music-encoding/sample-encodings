@@ -9,7 +9,7 @@
                 <title>Shaw' Nuff</title>
                 <title type="subtitle">an electronic transcription</title>
                 <respStmt>
-                    <persName role="creator" authURI="http://d-nb.info/gnd" dbkey="118739328"
+                    <persName role="creator" authURI="http://d-nb.info/gnd/" dbkey="118739328"
                         authority="GND">Charles Parker</persName>
                     <persName role="creator">John Gillepsie</persName>
                     <persName role="encoder">Maja Hartwig</persName>
@@ -18,11 +18,11 @@
             <pubStmt>
                 <respStmt>
                     <corpName n="2" xml:id="corpName2" dbkey="5115204-6"
-                        authURI="http://d-nb.info/gnd" authority="GND">Musikwissenschaftliches
+                        authURI="http://d-nb.info/gnd/" authority="GND">Musikwissenschaftliches
                         Seminar
                         <address>
-                  <addrLine>Gartenstrasse 20</addrLine><addrLine>32756 <geogName dbkey="7004442" authURI="www.getty.edu/research/tools/vocabularies/tgn" authority="TGN">Detmold</geogName>
-                 <geogName dbkey="7000084" authURI="www.getty.edu/research/tools/vocabularies/tgn" authority="TGN">Germany</geogName>
+                  <addrLine>Gartenstrasse 20</addrLine><addrLine>32756 <geogName dbkey="7004442" authURI="http://vocab.getty.edu/page/tgn/" authority="TGN">Detmold</geogName>
+                 <geogName dbkey="7000084" authURI="http://vocab.getty.edu/page/tgn/" authority="TGN">Germany</geogName>
                   </addrLine>
                   </address>
                     </corpName>
@@ -39,15 +39,15 @@
                 <title>MEI Sample Collection</title>
                 <respStmt>
                     <corpName role="publisher">MEI Project</corpName>
-                    <corpName role="funder" dbkey="2007744-0" authURI="http://d-nb.info/gnd"
+                    <corpName role="funder" dbkey="2007744-0" authURI="http://d-nb.info/gnd/"
                         authority="GND">German Research
                         Foundation<address>
                      <addrLine>Kennedyallee 40</addrLine>
                      <addrLine>
-                        <geogName dbkey="7005090" authURI="www.getty.edu/research/tools/vocabularies/tgn" authority="TGN">Bonn</geogName>
+                        <geogName dbkey="7005090" authURI="http://vocab.getty.edu/page/tgn/" authority="TGN">Bonn</geogName>
                      </addrLine>
                      <addrLine>
-                        <geogName dbkey="7000084" authURI="www.getty.edu/research/tools/vocabularies/tgn" authority="TGN">Germany</geogName>
+                        <geogName dbkey="7000084" authURI="http://vocab.getty.edu/page/tgn/" authority="TGN">Germany</geogName>
                      </addrLine>
                   </address>
                     </corpName>
@@ -56,9 +56,9 @@
                         Humanities<address>
                      <addrLine>1100 Pennsylvania Avenue N.W.</addrLine>
                      <addrLine>
-                        <geogName dbkey="7013962" authURI="www.getty.edu/research/tools/vocabularies/tgn" authority="TGN">Washington, DC</geogName> 20004</addrLine>
+                        <geogName dbkey="7013962" authURI="http://vocab.getty.edu/page/tgn/" authority="TGN">Washington, DC</geogName> 20004</addrLine>
                      <addrLine>
-                        <geogName dbkey="7012149" authURI="www.getty.edu/research/tools/vocabularies/tgn" authority="TGN">United States</geogName>
+                        <geogName dbkey="7012149" authURI="http://vocab.getty.edu/page/tgn/" authority="TGN">United States</geogName>
                      </addrLine>
                   </address>
                     </corpName>
@@ -76,7 +76,7 @@
                         <title>Shaw ´Nuff</title>
                         <respStmt>
                             <persName role="composer" dbkey="118739328" authority="GND"
-                                authURI="http://d-nb.info/gnd">Charles Parker</persName>
+                                authURI="http://d-nb.info/gnd/">Charles Parker</persName>
                             <persName>John "Dizzy" Gillepsie</persName>
                         </respStmt>
                     </titleStmt>
@@ -105,7 +105,7 @@
                 <titleStmt>
                     <title>Shaw ´Nuff</title>
                     <respStmt>
-                        <persName role="composer" dbkey="118739328" authURI="http://d-nb.info/gnd"
+                        <persName role="composer" dbkey="118739328" authURI="http://d-nb.info/gnd/"
                             authority="GND">Charles Parker</persName>
                     </respStmt>
                 </titleStmt>

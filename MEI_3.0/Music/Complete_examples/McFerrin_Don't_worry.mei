@@ -10,14 +10,14 @@
             <respStmt>
                <persName role="creator"
                          authority="GND"
-                         authURI="http://d-nb.info/gnd"
+                         authURI="http://d-nb.info/gnd/"
                          codedval="134451260 ">Bobby McFerrin</persName>
                <persName role="encoder">Maja Hartwig</persName>
             </respStmt>
          </titleStmt>
          <pubStmt>
             <respStmt>
-               <corpName role="publisher" codedval="5115204" authURI="http://d-nb.info/gnd" authority="GND">Musikwissenschaftliches Seminar Detmold</corpName>
+               <corpName role="publisher" codedval="5115204" authURI="http://d-nb.info/gnd/" authority="GND">Musikwissenschaftliches Seminar Detmold</corpName>
             </respStmt>
             <address>
                <addrLine>Gartenstrasse 20</addrLine>
@@ -42,7 +42,7 @@
                <corpName role="funder"
                          codedval="2007744-0"
                          authority="GND"
-                         authURI="http://d-nb.info/gnd">German Research Foundation
+                         authURI="http://d-nb.info/gnd/">German Research Foundation
                         <address>
                      <addrLine>Kennedyallee 40</addrLine>
                      <addrLine>
@@ -58,11 +58,11 @@
                      <addrLine>1100 Pennsylvania Avenue N.W.</addrLine>
                      <addrLine>
                         <geogName codedval="7013962"
-                                  authURI="www.getty.edu/research/tools/vocabularies/tgn"
+                                  authURI="http://vocab.getty.edu/page/tgn/"
                                   authority="TGN">Washington, DC</geogName> 20004</addrLine>
                      <addrLine>
                         <geogName codedval="7012149"
-                                  authURI="www.getty.edu/research/tools/vocabularies/tgn"
+                                  authURI="http://vocab.getty.edu/page/tgn/"
                                   authority="TGN">United States</geogName>
                      </addrLine>
                   </address>
@@ -80,11 +80,11 @@
                   <respStmt>
                      <persName role="composer"
                                authority="GND"
-                               authURI="http://d-nb.info/gnd"
+                               authURI="http://d-nb.info/gnd/"
                                codedval="134451260">Bobby Mc Ferrin</persName>
                      <persName role="lyricist"
                                authority="GND"
-                               authURI="http://d-nb.info/gnd"
+                               authURI="http://d-nb.info/gnd/"
                                codedval="134451260">Bobby Mc Ferrin</persName>
                   </respStmt>
                </titleStmt>
@@ -104,7 +104,7 @@
                <respStmt>
                   <persName role="composer"
                             authority="GND"
-                            authURI="http://d-nb.info/gnd"
+                            authURI="http://d-nb.info/gnd/"
                             codedval="134451260">Bobby McFerrin</persName>
                </respStmt>
             </titleStmt>

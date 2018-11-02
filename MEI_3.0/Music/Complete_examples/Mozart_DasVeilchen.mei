@@ -14,15 +14,15 @@
          </titleStmt>
          <pubStmt>
             <respStmt>
-               <corpName role="publisher" codedval="5115204-6" authURI="http://d-nb.info/gnd" authority="GND"
+               <corpName role="publisher" codedval="5115204-6" authURI="http://d-nb.info/gnd/" authority="GND"
                   >Musikwissenschaftliches Seminar, Detmold</corpName>
             </respStmt>
             <address>
                <addrLine>Gartenstrasse 20</addrLine>
-               <addrLine>32756 <geogName codedval="7004442" authURI="www.getty.edu/research/tools/vocabularies/tgn" authority="TGN">Detmold</geogName>
+               <addrLine>32756 <geogName codedval="7004442" authURI="http://vocab.getty.edu/page/tgn/" authority="TGN">Detmold</geogName>
                </addrLine>
                <addrLine>
-                  <geogName codedval="7000084" authURI="www.getty.edu/research/tools/vocabularies/tgn" authority="TGN">Germany</geogName>
+                  <geogName codedval="7000084" authURI="http://vocab.getty.edu/page/tgn/" authority="TGN">Germany</geogName>
                </addrLine>
             </address>
             <date>2011</date>
@@ -38,15 +38,15 @@
             <title>MEI Sample Collection</title>
             <respStmt>
                <corpName role="publisher">MEI Project</corpName>
-               <corpName role="funder" codedval="2007744-0" authURI="http://d-nb.info/gnd"
+               <corpName role="funder" codedval="2007744-0" authURI="http://d-nb.info/gnd/"
                   authority="GND">German Research
                   Foundation<address>
                      <addrLine>Kennedyallee 40</addrLine>
                      <addrLine>
-                        <geogName codedval="7005090" authURI="www.getty.edu/research/tools/vocabularies/tgn" authority="TGN">Bonn</geogName>
+                        <geogName codedval="7005090" authURI="http://vocab.getty.edu/page/tgn/" authority="TGN">Bonn</geogName>
                      </addrLine>
                      <addrLine>
-                        <geogName codedval="7000084" authURI="www.getty.edu/research/tools/vocabularies/tgn" authority="TGN">Germany</geogName>
+                        <geogName codedval="7000084" authURI="http://vocab.getty.edu/page/tgn/" authority="TGN">Germany</geogName>
                      </addrLine>
                   </address>
                </corpName>
@@ -55,9 +55,9 @@
                   Humanities<address>
                      <addrLine>1100 Pennsylvania Avenue N.W.</addrLine>
                      <addrLine>
-                        <geogName codedval="7013962" authURI="www.getty.edu/research/tools/vocabularies/tgn" authority="TGN">Washington, DC</geogName> 20004</addrLine>
+                        <geogName codedval="7013962" authURI="http://vocab.getty.edu/page/tgn/" authority="TGN">Washington, DC</geogName> 20004</addrLine>
                      <addrLine>
-                        <geogName codedval="7012149" authURI="www.getty.edu/research/tools/vocabularies/tgn" authority="TGN">United States</geogName>
+                        <geogName codedval="7012149" authURI="http://vocab.getty.edu/page/tgn/" authority="TGN">United States</geogName>
                      </addrLine>
                   </address>
                </corpName>
@@ -74,9 +74,9 @@
                <titleStmt>
                   <title>Das Veilchen</title>
                   <respStmt>
-                     <persName role="composer" codedval="118584596" authURI="http://d-nb.info/gnd"
+                     <persName role="composer" codedval="118584596" authURI="http://d-nb.info/gnd/"
                         authority="GND">Wolfgang Amadeus Mozart</persName>
-                     <persName role="lyricist" codedval="118540238" authURI="http://d-nb.info/gnd"
+                     <persName role="lyricist" codedval="118540238" authURI="http://d-nb.info/gnd/"
                         authority="GND">Johann Wolfgang von Goethe</persName>
                   </respStmt>
                </titleStmt>
@@ -105,9 +105,9 @@
             <titleStmt>
                <title>Das Veilchen</title>
                <respStmt>
-                  <persName role="composer" codedval="118584596" authURI="http://d-nb.info/gnd"
+                  <persName role="composer" codedval="118584596" authURI="http://d-nb.info/gnd/"
                      authority="GND">Wolfgang Amadeus Mozart</persName>
-                  <persName role="lyricist" codedval="118540238" authURI="http://d-nb.info/gnd"
+                  <persName role="lyricist" codedval="118540238" authURI="http://d-nb.info/gnd/"
                      authority="GND">Johann Wolfgang von Goethe</persName>
                </respStmt>
             </titleStmt>

@@ -15,17 +15,17 @@
          </titleStmt>
          <pubStmt>
             <respStmt>
-               <corpName role="publisher" codedval="5115204-6" authURI="http://d-nb.info/gnd" authority="GND">Musikwissenschaftliches Seminar, Detmold</corpName>
+               <corpName role="publisher" codedval="5115204-6" authURI="http://d-nb.info/gnd/" authority="GND">Musikwissenschaftliches Seminar, Detmold</corpName>
             </respStmt>
             <address>
                <addrLine>Gartenstrasse 20</addrLine>
                <addrLine>32756 <geogName codedval="7004442"
-                            authURI="www.getty.edu/research/tools/vocabularies/tgn"
+                            authURI="http://vocab.getty.edu/page/tgn/"
                             authority="TGN">Detmold</geogName>
                </addrLine>
                <addrLine>
                   <geogName codedval="7000084"
-                            authURI="www.getty.edu/research/tools/vocabularies/tgn"
+                            authURI="http://vocab.getty.edu/page/tgn/"
                             authority="TGN">Germany</geogName>
                </addrLine>
             </address>
@@ -42,18 +42,18 @@
                <corpName role="publisher">MEI Project</corpName>
                <corpName role="funder"
                          codedval="2007744-0"
-                         authURI="http://d-nb.info/gnd"
+                         authURI="http://d-nb.info/gnd/"
                          authority="GND">German Research
                   Foundation<address>
                      <addrLine>Kennedyallee 40</addrLine>
                      <addrLine>
                         <geogName codedval="7005090"
-                                  authURI="www.getty.edu/research/tools/vocabularies/tgn"
+                                  authURI="http://vocab.getty.edu/page/tgn/"
                                   authority="TGN">Bonn</geogName>
                      </addrLine>
                      <addrLine>
                         <geogName codedval="7000084"
-                                  authURI="www.getty.edu/research/tools/vocabularies/tgn"
+                                  authURI="http://vocab.getty.edu/page/tgn/"
                                   authority="TGN">Germany</geogName>
                      </addrLine>
                   </address>
@@ -66,11 +66,11 @@
                      <addrLine>1100 Pennsylvania Avenue N.W.</addrLine>
                      <addrLine>
                         <geogName codedval="7013962"
-                                  authURI="www.getty.edu/research/tools/vocabularies/tgn"
+                                  authURI="http://vocab.getty.edu/page/tgn/"
                                   authority="TGN">Washington, DC</geogName> 20004</addrLine>
                      <addrLine>
                         <geogName codedval="7012149"
-                                  authURI="www.getty.edu/research/tools/vocabularies/tgn"
+                                  authURI="http://vocab.getty.edu/page/tgn/"
                                   authority="TGN">United States</geogName>
                      </addrLine>
                   </address>
@@ -89,11 +89,11 @@
                   <respStmt>
                      <persName role="composer"
                                codedval="118508288"
-                               authURI="http://d-nb.info/gnd"
+                               authURI="http://d-nb.info/gnd/"
                                authority="GND">Ludwig van Beethoven</persName>
                      <persName role="lyricist"
                                codedval="113667213"
-                               authURI="http://d-nb.info/gnd"
+                               authURI="http://d-nb.info/gnd/"
                                authority="GND">Aloys Isidor Jeitteles</persName>
                      <persName role="dedicatee">Fürst Joseph von Lobkowitz</persName>
                      <persName role="editor">Max Unger</persName>
@@ -135,7 +135,7 @@
                <respStmt>
                   <persName role="composer"
                             codedval="118508288"
-                            authURI="http://d-nb.info/gnd"
+                            authURI="http://d-nb.info/gnd/"
                             authority="GND">Ludwig van Beethoven</persName>
                </respStmt>
             </titleStmt>

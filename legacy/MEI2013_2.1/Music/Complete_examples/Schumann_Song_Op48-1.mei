@@ -17,19 +17,19 @@
          </titleStmt>
          <pubStmt>
             <respStmt>
-               <corpName dbkey="5115204-6" authURI="http://d-nb.info/gnd" authority="GND">Musikwissenschaftliches Seminar &lt;<geogName dbkey="7004442"
-                            authURI="www.getty.edu/research/tools/vocabularies/tgn"
+               <corpName dbkey="5115204-6" authURI="http://d-nb.info/gnd/" authority="GND">Musikwissenschaftliches Seminar &lt;<geogName dbkey="7004442"
+                            authURI="http://vocab.getty.edu/page/tgn/"
                             authority="TGN">Detmold</geogName>&gt;</corpName>
             </respStmt>
             <address>
                <addrLine>Gartenstrasse 20</addrLine>
                <addrLine>32756 <geogName dbkey="7004442"
-                            authURI="www.getty.edu/research/tools/vocabularies/tgn"
+                            authURI="http://vocab.getty.edu/page/tgn/"
                             authority="TGN">Detmold</geogName>
                </addrLine>
                <addrLine>
                   <geogName dbkey="7000084"
-                            authURI="www.getty.edu/research/tools/vocabularies/tgn"
+                            authURI="http://vocab.getty.edu/page/tgn/"
                             authority="TGN">Germany</geogName>
                </addrLine>
             </address>
@@ -48,34 +48,34 @@
                <corpName role="publisher">MEI Project</corpName>
                <corpName role="funder"
                          dbkey="2007744-0"
-                         authURI="http://d-nb.info/gnd"
+                         authURI="http://d-nb.info/gnd/"
                          authority="GND">German Research Foundation
 						<address>
                      <addrLine>Kennedyallee 40</addrLine>
                      <addrLine>53175 <geogName dbkey="7005090"
-                                  authURI="www.getty.edu/research/tools/vocabularies/tgn"
+                                  authURI="http://vocab.getty.edu/page/tgn/"
                                   authority="TGN">Bonn</geogName>
                      </addrLine>
                      <addrLine>
                         <geogName dbkey="7000084"
-                                  authURI="www.getty.edu/research/tools/vocabularies/tgn"
+                                  authURI="http://vocab.getty.edu/page/tgn/"
                                   authority="TGN">Germany</geogName>
                      </addrLine>
                   </address>
                </corpName>
                <corpName role="funder"
                          dbkey="18183-3"
-                         authURI="http://d-nb.info/gnd"
+                         authURI="http://d-nb.info/gnd/"
                          authority="GND">National Endowment for the Humanities
 						<address>
                      <addrLine>1100 Pennsylvania Avenue N.W.</addrLine>
                      <addrLine>
                         <geogName dbkey="7013962"
-                                  authURI="www.getty.edu/research/tools/vocabularies/tgn"
+                                  authURI="http://vocab.getty.edu/page/tgn/"
                                   authority="TGN">Washington, DC</geogName> 20004</addrLine>
                      <addrLine>
                         <geogName dbkey="7012149"
-                                  authURI="www.getty.edu/research/tools/vocabularies/tgn"
+                                  authURI="http://vocab.getty.edu/page/tgn/"
                                   authority="TGN">United States</geogName>
                      </addrLine>
                   </address>
@@ -97,11 +97,11 @@
                      <resp>von</resp>
                      <persName role="composer"
                                dbkey="118611666"
-                               authURI="http://d-nb.info/gnd"
+                               authURI="http://d-nb.info/gnd/"
                                authority="Deusche Nationalbibliothek">Robert Schumann</persName>
                      <persName role="lyricist"
                                dbkey="118548018"
-                               authURI="http://d-nb.info/gnd"
+                               authURI="http://d-nb.info/gnd/"
                                authority="GND">Heinrich Heine</persName>
                      <persName role="dedicatee">Wilhelmine Schröder-Devrient</persName>
                   </respStmt>
@@ -110,14 +110,14 @@
                   <respStmt>
                      <corpName role="publisher"
                                authority="GND"
-                               authURI="http://d-nb.info/gnd"
+                               authURI="http://d-nb.info/gnd/"
                                dbkey="4098323-7">Verlag von Breitkopf &amp; Härtel in Leipzig</corpName>
                   </respStmt>
                   <respStmt>
                      <resp>Original-Verleger:</resp>
                      <corpName role="publisher"
                                authority="GND"
-                               authURI="http://d-nb.info/gnd"
+                               authURI="http://d-nb.info/gnd/"
                                dbkey="4351303-7">C. F. Peters in Leipzig</corpName>
                   </respStmt>
                   <pubPlace>Leipzig</pubPlace>
@@ -132,7 +132,7 @@
                      <resp>herausgegeben von</resp>
                      <persName role="editor"
                                authority="GND"
-                               authURI="http://d-nb.info/gnd"
+                               authURI="http://d-nb.info/gnd/"
                                dbkey="11861164X">Clara Schumann</persName>
                   </respStmt>
                   <seriesStmt>
@@ -188,7 +188,7 @@
                <respStmt>
                   <persName role="composer"
                             dbkey="118611666"
-                            authURI="http://d-nb.info/gnd"
+                            authURI="http://d-nb.info/gnd/"
                             authority="GND">Robert Schumann</persName>
                </respStmt>
             </titleStmt>

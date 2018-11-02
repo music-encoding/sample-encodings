@@ -17,17 +17,17 @@
          </titleStmt>
          <pubStmt>
             <respStmt>
-               <corpName dbkey="5115204-6" authURI="http://d-nb.info/gnd" authority="GND">Musikwissenschaftliches Seminar, Detmold</corpName>
+               <corpName dbkey="5115204-6" authURI="http://d-nb.info/gnd/" authority="GND">Musikwissenschaftliches Seminar, Detmold</corpName>
             </respStmt>
             <address>
                <addrLine>Gartenstrasse 20</addrLine>
                <addrLine>32756 <geogName dbkey="7004442"
-                            authURI="www.getty.edu/research/tools/vocabularies/tgn"
+                            authURI="http://vocab.getty.edu/page/tgn/"
                             authority="TGN">Detmold</geogName>
                </addrLine>
                <addrLine>
                   <geogName dbkey="7000084"
-                            authURI="www.getty.edu/research/tools/vocabularies/tgn"
+                            authURI="http://vocab.getty.edu/page/tgn/"
                             authority="TGN">Germany</geogName>
                </addrLine>
             </address>
@@ -42,17 +42,17 @@
                <corpName role="publisher">MEI Project</corpName>
                <corpName role="funder"
                          dbkey="2007744-0"
-                         authURI="http://d-nb.info/gnd"
+                         authURI="http://d-nb.info/gnd/"
                          authority="GND">German Research Foundation<address>
                      <addrLine>Kennedyallee 40</addrLine>
                      <addrLine>
                         <geogName dbkey="7005090"
-                                  authURI="www.getty.edu/research/tools/vocabularies/tgn"
+                                  authURI="http://vocab.getty.edu/page/tgn/"
                                   authority="TGN">Bonn</geogName>
                      </addrLine>
                      <addrLine>
                         <geogName dbkey="7000084"
-                                  authURI="www.getty.edu/research/tools/vocabularies/tgn"
+                                  authURI="http://vocab.getty.edu/page/tgn/"
                                   authority="TGN">Germany</geogName>
                      </addrLine>
                   </address>
@@ -64,11 +64,11 @@
                      <addrLine>1100 Pennsylvania Avenue N.W.</addrLine>
                      <addrLine>
                         <geogName dbkey="7013962"
-                                  authURI="www.getty.edu/research/tools/vocabularies/tgn"
+                                  authURI="http://vocab.getty.edu/page/tgn/"
                                   authority="TGN">Washington, DC</geogName> 20004</addrLine>
                      <addrLine>
                         <geogName dbkey="7012149"
-                                  authURI="www.getty.edu/research/tools/vocabularies/tgn"
+                                  authURI="http://vocab.getty.edu/page/tgn/"
                                   authority="TGN">United States</geogName>
                      </addrLine>
                   </address>
@@ -87,11 +87,11 @@
                   <respStmt>
                      <persName role="composer"
                                dbkey="118524186"
-                               authURI="http://d-nb.info/gnd"
+                               authURI="http://d-nb.info/gnd/"
                                authority="GND">Claude Debussy</persName>
                      <persName role="lyricist"
                                dbkey="118804219"
-                               authURI="http://d-nb.info/gnd"
+                               authURI="http://d-nb.info/gnd/"
                                authority="GND">Paul Verlaine</persName>
                   </respStmt>
                </titleStmt>
@@ -137,7 +137,7 @@
                <respStmt>
                   <persName role="composer"
                             dbkey="118524186"
-                            authURI="http://d-nb.info/gnd"
+                            authURI="http://d-nb.info/gnd/"
                             authority="GND">Claude Debussy</persName>
                   <persName role="librettist">Paul Verlaine</persName>
                </respStmt>

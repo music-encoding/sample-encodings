@@ -21,12 +21,12 @@
             <address>
                <addrLine>Gartenstrasse 20</addrLine>
                <addrLine>32756 <geogName codedval="7004442"
-                     authURI="www.getty.edu/research/tools/vocabularies/tgn" authority="TGN"
+                     authURI="http://vocab.getty.edu/page/tgn/" authority="TGN"
                      >Detmold</geogName>
                </addrLine>
                <addrLine>
                   <geogName codedval="7000084"
-                     authURI="www.getty.edu/research/tools/vocabularies/tgn" authority="TGN"
+                     authURI="http://vocab.getty.edu/page/tgn/" authority="TGN"
                      >Germany</geogName>
                </addrLine>
             </address>
@@ -43,17 +43,17 @@
             <title>MEI Sample Collection</title>
             <respStmt>
                <corpName role="publisher">MEI Project</corpName>
-               <corpName role="funder" codedval="2007744-0" authURI="http://d-nb.info/gnd"
+               <corpName role="funder" codedval="2007744-0" authURI="http://d-nb.info/gnd/"
                   authority="GND">German Research Foundation<address>
                      <addrLine>Kennedyallee 40</addrLine>
                      <addrLine>
                         <geogName codedval="7005090"
-                           authURI="www.getty.edu/research/tools/vocabularies/tgn" authority="TGN"
+                           authURI="http://vocab.getty.edu/page/tgn/" authority="TGN"
                            >Bonn</geogName>
                      </addrLine>
                      <addrLine>
                         <geogName codedval="7000084"
-                           authURI="www.getty.edu/research/tools/vocabularies/tgn" authority="TGN"
+                           authURI="http://vocab.getty.edu/page/tgn/" authority="TGN"
                            >Germany</geogName>
                      </addrLine>
                   </address>
@@ -63,11 +63,11 @@
                      <addrLine>1100 Pennsylvania Avenue N.W.</addrLine>
                      <addrLine>
                         <geogName codedval="7013962"
-                           authURI="www.getty.edu/research/tools/vocabularies/tgn" authority="TGN"
+                           authURI="http://vocab.getty.edu/page/tgn/" authority="TGN"
                            >Washington, DC</geogName> 20004</addrLine>
                      <addrLine>
                         <geogName codedval="7012149"
-                           authURI="www.getty.edu/research/tools/vocabularies/tgn" authority="TGN"
+                           authURI="http://vocab.getty.edu/page/tgn/" authority="TGN"
                            >United States</geogName>
                      </addrLine>
                   </address>
@@ -91,12 +91,12 @@
                </titleStmt>
                <pubStmt>
                   <publisher>
-                     <corpName authority="GND" authURI="http://d-nb.info/gnd" codedval="6120820-6"
+                     <corpName authority="GND" authURI="http://d-nb.info/gnd/" codedval="6120820-6"
                         >Bartholf Senff</corpName>
                   </publisher>
                   <pubPlace>
                      <geogName codedval="7012329"
-                        authURI="www.getty.edu/research/tools/vocabularies/tgn" authority="TGN"
+                        authURI="http://vocab.getty.edu/page/tgn/" authority="TGN"
                         >Leipzig</geogName>
                   </pubPlace>
                   <date>1853</date>
@@ -140,7 +140,7 @@
                      <title>Wanderlied</title>
                      <respStmt>
                         <resp>von</resp>
-                        <persName role="lyricist" authURI="http://d-nb.info/gnd" authority="GND"
+                        <persName role="lyricist" authURI="http://d-nb.info/gnd/" authority="GND"
                            codedval="11853811X">Emanuel Geibel</persName>
                         <resp>komponiert von: </resp>
                         <persName role="composer" authURI="http://d-nb.info/gnd/119057077"

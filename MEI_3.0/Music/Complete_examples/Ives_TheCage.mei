@@ -10,7 +10,7 @@
             <respStmt>
                <persName role="creator"
                          authority="GND"
-                         authURI="http://d-nb.info/gnd"
+                         authURI="http://d-nb.info/gnd/"
                          codedval="118556142">Charles Ives</persName>
                <persName role="encoder">Maja Hartwig</persName>
             </respStmt>
@@ -20,15 +20,15 @@
                <corpName role="publisher" n="2"
                          xml:id="corpName2"
                          codedval="5115204-6"
-                         authURI="http://d-nb.info/gnd"
+                         authURI="http://d-nb.info/gnd/"
                          authority="GND">Musikwissenschaftliches Seminar
                         <address>
                      <addrLine>Gartenstrasse 20</addrLine>
                      <addrLine>32756 <geogName codedval="7004442"
-                                  authURI="www.getty.edu/research/tools/vocabularies/tgn"
+                                  authURI="http://vocab.getty.edu/page/tgn/"
                                   authority="TGN">Detmold</geogName>
                         <geogName codedval="7000084"
-                                  authURI="www.getty.edu/research/tools/vocabularies/tgn"
+                                  authURI="http://vocab.getty.edu/page/tgn/"
                                   authority="TGN">Germany</geogName>
                      </addrLine>
                   </address>
@@ -48,17 +48,17 @@
                <corpName role="publisher">MEI Project</corpName>
                <corpName role="funder"
                          codedval="2007744-0"
-                         authURI="http://d-nb.info/gnd"
+                         authURI="http://d-nb.info/gnd/"
                          authority="GND">German Research Foundation<address>
                      <addrLine>Kennedyallee 40</addrLine>
                      <addrLine>
                         <geogName codedval="7005090"
-                                  authURI="www.getty.edu/research/tools/vocabularies/tgn"
+                                  authURI="http://vocab.getty.edu/page/tgn/"
                                   authority="TGN">Bonn</geogName>
                      </addrLine>
                      <addrLine>
                         <geogName codedval="7000084"
-                                  authURI="www.getty.edu/research/tools/vocabularies/tgn"
+                                  authURI="http://vocab.getty.edu/page/tgn/"
                                   authority="TGN">Germany</geogName>
                      </addrLine>
                   </address>
@@ -70,11 +70,11 @@
                      <addrLine>1100 Pennsylvania Avenue N.W.</addrLine>
                      <addrLine>
                         <geogName codedval="7013962"
-                                  authURI="www.getty.edu/research/tools/vocabularies/tgn"
+                                  authURI="http://vocab.getty.edu/page/tgn/"
                                   authority="TGN">Washington, DC</geogName> 20004</addrLine>
                      <addrLine>
                         <geogName codedval="7012149"
-                                  authURI="www.getty.edu/research/tools/vocabularies/tgn"
+                                  authURI="http://vocab.getty.edu/page/tgn/"
                                   authority="TGN">United States</geogName>
                      </addrLine>
                   </address>
@@ -93,11 +93,11 @@
                   <respStmt>
                      <persName role="composer"
                                authority="GND"
-                               authURI="http://d-nb.info/gnd"
+                               authURI="http://d-nb.info/gnd/"
                                codedval="118556142">Charles Ives</persName>
                      <persName role="lyricist"
                                authority="GND"
-                               authURI="http://d-nb.info/gnd"
+                               authURI="http://d-nb.info/gnd/"
                                codedval="118556142">Charles Ives</persName>
                   </respStmt>
                </titleStmt>
@@ -126,11 +126,11 @@
                <respStmt>
                   <persName role="composer"
                             authority="GND"
-                            authURI="http://d-nb.info/gnd"
+                            authURI="http://d-nb.info/gnd/"
                             codedval="118556142">Charles Ives</persName>
                   <persName role="lyricist"
                             authority="GND"
-                            authURI="http://d-nb.info/gnd"
+                            authURI="http://d-nb.info/gnd/"
                             codedval="118556142">Charles Ives</persName>
                </respStmt>
             </titleStmt>
