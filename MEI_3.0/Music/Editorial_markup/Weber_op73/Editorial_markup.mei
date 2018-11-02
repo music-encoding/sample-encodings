@@ -283,9 +283,9 @@
                      </staff>
                      <staff n="7" xml:id="m259_s7">
                         <layer>
-                           <chord stem.dir="up" xml:id="m259_s7_n1">
-                              <note pname="g" oct="4" dur="2"/>
-                              <note pname="c" oct="4" dur="2"/>
+                           <chord dur="2" stem.dir="up" xml:id="m259_s7_n1">
+                              <note pname="g" oct="4"/>
+                              <note pname="c" oct="4"/>
                            </chord>
                            <rest dur="4" xml:id="m259_s7_n2"/>
                         </layer>
@@ -347,6 +347,7 @@
                                  endid="#m259_s1_n16"
                                  bracket.visible="false"
                                  num="9"
+                                 numbase="8"
                                  num.place="below"
                                  num.visible="true"
                                  staff="1"/>
@@ -364,8 +365,9 @@
                               </note>
                               <app>
                                  <rdg source="#sourceA2">
-                                    <note pname="d" oct="5" dur="8" xml:id="m260_s1_n1a"/>
+                                    <note pname="d" oct="5" dur="8" xml:id="m260_s1_n1a">
                                     <artic artic="acc" place="below"/>
+                                    </note>
                                  </rdg>
                               </app>
                               <note pname="b" accid="f" oct="4" dur="16" xml:id="m260_s1_n2"/>
@@ -430,9 +432,9 @@
                      </staff>
                      <staff n="7" xml:id="m260_s7">
                         <layer>
-                           <chord stem.dir="up" xml:id="m260_s7_n1" dur="2">
-                              <note pname="g" oct="4" dur="2"/>
-                              <note pname="c" oct="4" dur="2"/>
+                           <chord dur="2" stem.dir="up" xml:id="m260_s7_n1">
+                              <note pname="g" oct="4"/>
+                              <note pname="c" oct="4"/>
                            </chord>
                            <rest dur="4" xml:id="m260_s7_n2"/>
                         </layer>
@@ -531,11 +533,6 @@
                               <note pname="c" oct="6" dur="32" xml:id="m261_s1_n15"/>
                               <note pname="c" accid="s" oct="6" dur="32" xml:id="m261_s1_n16"/>
                            </beam>
-                           <app>
-                              <rdg source="#sourceA2">
-                                 <pb/>
-                              </rdg>
-                           </app>
                         </layer>
                      </staff>
                      <staff n="2" xml:id="m261_s2">
@@ -547,11 +544,6 @@
                                  stem.pos="right"
                                  xml:id="m261_s2_n1"/>
                            <rest dur="4"/>
-                           <app>
-                              <rdg source="#sourceA2">
-                                 <pb/>
-                              </rdg>
-                           </app>
                         </layer>
                      </staff>
                      <staff n="3" xml:id="m261_s3">
@@ -563,11 +555,6 @@
                                  stem.pos="right"
                                  xml:id="m261_s3_n1"/>
                            <rest dur="4"/>
-                           <app>
-                              <rdg source="#sourceA2">
-                                 <pb/>
-                              </rdg>
-                           </app>
                         </layer>
                      </staff>
                      <staff n="4" xml:id="m261_s4">
@@ -579,55 +566,30 @@
                                  stem.pos="right"
                                  xml:id="m261_s4_n1"/>
                            <rest dur="4"/>
-                           <app>
-                              <rdg source="#sourceA2">
-                                 <pb/>
-                              </rdg>
-                           </app>
                         </layer>
                      </staff>
                      <staff n="5" xml:id="m261_s5">
                         <layer>
                            <mRest/>
-                           <app>
-                              <rdg source="#sourceA2">
-                                 <pb/>
-                              </rdg>
-                           </app>
                         </layer>
                      </staff>
                      <staff n="6" xml:id="m261_s6">
                         <layer>
                            <mRest/>
-                           <app>
-                              <rdg source="#sourceA2">
-                                 <pb/>
-                              </rdg>
-                           </app>
                         </layer>
                      </staff>
                      <staff n="7" xml:id="m261_s7">
                         <layer>
-                           <chord stem.dir="up" xml:id="m261_s7_n1">
-                              <note pname="c" oct="4" dur="2"/>
-                              <note pname="c" oct="5" dur="2"/>
+                           <chord dur="2" stem.dir="up" xml:id="m261_s7_n1">
+                              <note pname="c" oct="4"/>
+                              <note pname="c" oct="5"/>
                            </chord>
                            <rest dur="4" xml:id="m261_s7_n2"/>
-                           <app>
-                              <rdg source="#sourceA2">
-                                 <pb/>
-                              </rdg>
-                           </app>
                         </layer>
                      </staff>
                      <staff n="8" xml:id="m261_s8">
                         <layer>
                            <mRest/>
-                           <app>
-                              <rdg source="#sourceA2">
-                                 <pb/>
-                              </rdg>
-                           </app>
                         </layer>
                      </staff>
                      <staff n="9" xml:id="m261_s9">
@@ -640,7 +602,6 @@
                            <staff n="9" xml:id="m261_s9a">
                               <layer>
                                  <space dur="1"/>
-                                 <pb/>
                               </layer>
                            </staff>
                         </rdg>
@@ -655,7 +616,6 @@
                            <staff n="10" xml:id="m261_s10a">
                               <layer>
                                  <space xml:id="m261_s10a_e2"/>
-                                 <pb/>
                               </layer>
                            </staff>
                         </rdg>
@@ -680,6 +640,7 @@
                            endid="#m261_s1_n16"
                            curvedir="above"/>
                   </measure>
+                        <pb source="#sourceA2"/>
                   <measure n="262" xml:id="m262">
                      <staff n="1" xml:id="m262_s1">
                         <layer>
@@ -777,9 +738,9 @@
                      </staff>
                      <staff n="7" xml:id="m262_s7">
                         <layer>
-                           <chord xml:id="m262_s7_n1">
-                              <note pname="c" oct="5" dur="8" stem.dir="up"/>
-                              <note pname="c" oct="4" dur="8" stem.dir="up"/>
+                           <chord dur="8" stem.dir="up" xml:id="m262_s7_n1">
+                              <note pname="c" oct="5"/>
+                              <note pname="c" oct="4"/>
                            </chord>
                            <rest dur="8" xml:id="m262_s7_n2"/>
                            <rest dur="4" xml:id="m262_s7_n3"/>
@@ -976,7 +937,9 @@
                            <note pname="e" oct="6" dur="4" stem.dir="down">
                               <app>
                                  <rdg source="#sourceA2">
+                                 <note pname="c" oct="4" dur="4" artic="stacc" stem.dir="up">
                                     <artic artic="stacc" place="above"/>
+                                </note>
                                  </rdg>
                               </app>
                            </note>
@@ -1319,9 +1282,9 @@
                      <staff n="9" xml:id="m266s9">
                         <layer>
                            <app>
-                              <rdg source="#sourceA1">
+                              <lem source="#sourceA1">
                                  <mRest/>
-                              </rdg>
+                              </lem>
                               <rdg source="#sourceA2">
                                  <space dur="1"/>
                               </rdg>

@@ -1487,7 +1487,7 @@
                                  accid.ges="s"/>
                            <beam>
                               <note xml:id="n1"
-                                    tuplet="i1"
+                                    grace="unknown"
                                     pname="e"
                                     oct="6"
                                     dur="32"
@@ -1498,19 +1498,19 @@
                                     dur="32"
                                     size="cue"
                                     stem.dir="up"
-                                    tuplet="m1"/>
+                                    grace="unknown"/>
                               <note pname="c"
                                     oct="6"
                                     dur="32"
                                     size="cue"
                                     stem.dir="up"
-                                    tuplet="m1"/>
+                                    grace="unknown"/>
                               <note pname="b"
                                     oct="5"
                                     dur="32"
                                     size="cue"
                                     stem.dir="up"
-                                    tuplet="m1">
+                                    grace="unknown">
                                  <accid accid="n"/>
                               </note>
                               <note pname="a"
@@ -1518,102 +1518,102 @@
                                     dur="32"
                                     size="cue"
                                     stem.dir="up"
-                                    tuplet="m1"/>
+                                    grace="unknown"/>
                               <note pname="g"
                                     oct="5"
                                     dur="32"
                                     size="cue"
                                     stem.dir="up"
-                                    tuplet="m1"/>
+                                    grace="unknown"/>
                               <note pname="f"
                                     oct="5"
                                     dur="32"
                                     size="cue"
                                     stem.dir="up"
-                                    tuplet="m1"/>
+                                    grace="unknown"/>
                               <note pname="e"
                                     oct="5"
                                     dur="32"
                                     size="cue"
                                     stem.dir="up"
-                                    tuplet="m1"/>
+                                    grace="unknown"/>
                               <note pname="d"
                                     oct="5"
                                     dur="32"
                                     size="cue"
                                     stem.dir="up"
-                                    tuplet="m1"/>
+                                    grace="unknown"/>
                               <note pname="c"
                                     oct="5"
                                     dur="32"
                                     size="cue"
                                     stem.dir="up"
-                                    tuplet="m1"/>
+                                    grace="unknown"/>
                               <note pname="b"
                                     oct="4"
                                     dur="32"
                                     size="cue"
                                     stem.dir="up"
-                                    tuplet="m1"/>
+                                    grace="unknown"/>
                               <note pname="a"
                                     oct="4"
                                     dur="32"
                                     size="cue"
                                     stem.dir="up"
-                                    tuplet="m1"/>
+                                    grace="unknown"/>
                               <note pname="g"
                                     oct="4"
                                     dur="32"
                                     size="cue"
                                     stem.dir="up"
-                                    tuplet="m1"/>
+                                    grace="unknown"/>
                               <note pname="f"
                                     oct="4"
                                     dur="32"
                                     size="cue"
                                     stem.dir="up"
-                                    tuplet="m1"/>
+                                    grace="unknown"/>
                               <note pname="e"
                                     oct="4"
                                     dur="32"
                                     size="cue"
                                     stem.dir="up"
-                                    tuplet="m1"/>
+                                    grace="unknown"/>
                               <note pname="d"
                                     oct="4"
                                     dur="32"
                                     size="cue"
                                     stem.dir="up"
-                                    tuplet="m1"/>
+                                    grace="unknown"/>
                               <note pname="c"
                                     oct="4"
                                     dur="32"
                                     size="cue"
                                     stem.dir="up"
-                                    tuplet="m1"/>
+                                    grace="unknown"/>
                               <note pname="b"
                                     oct="3"
                                     dur="32"
                                     size="cue"
                                     stem.dir="up"
                                     staff="2"
-                                    tuplet="m1"/>
+                                    grace="unknown"/>
                               <note pname="a"
                                     oct="3"
                                     dur="32"
                                     size="cue"
                                     stem.dir="up"
                                     staff="2"
-                                    tuplet="m1"/>
+                                    grace="unknown"/>
                               <note pname="g"
                                     oct="3"
                                     dur="32"
                                     size="cue"
                                     stem.dir="up"
                                     staff="2"
-                                    tuplet="m1"/>
+                                    grace="unknown"/>
                               <note xml:id="n2"
-                                    tuplet="t1"
+                                    grace="unknown"
                                     pname="f"
                                     oct="3"
                                     dur="32"
@@ -1623,10 +1623,10 @@
                                     artic="stacciss"/>
                            </beam>
                            <rest xml:id="d1e3356" dur="4"/>
-                           <chord xml:id="d299e1" dur="4" dur.ges="56p" stem.dir="up">
-                              <note xml:id="d1e3395" pname="a" oct="3" accid.ges="s" staff="2"/>
-                              <note xml:id="d1e3412" pname="f" oct="3" accid.ges="s" staff="2"/>
-                              <note xml:id="d1e3430" pname="e" oct="3" staff="2"/>
+                           <chord xml:id="d299e1" dur="4" dur.ges="56p" stem.dir="up" staff="2">
+                              <note xml:id="d1e3395" pname="a" oct="3" accid.ges="s"/>
+                              <note xml:id="d1e3412" pname="f" oct="3" accid.ges="s"/>
+                              <note xml:id="d1e3430" pname="e" oct="3"/>
                            </chord>
                         </layer>
                      </staff>
@@ -1690,6 +1690,7 @@
                      </staff>
                      <tupletSpan staff="1"
                                  num="7"
+                                 numbase="8"
                                  num.visible="true"
                                  num.place="above"
                                  num.format="count"
@@ -1697,12 +1698,6 @@
                                  endid="#d1e3060"
                                  bracket.visible="false"
                                  tstamp2="4"/>
-                     <tupletSpan staff="1"
-                                 num="20"
-                                 num.visible="false"
-                                 startid="#n1"
-                                 endid="#n2"
-                                 tstamp2="8"/>
                      <tempo staff="1" place="above" tstamp="1">Meno allegro.</tempo>
                      <dir staff="1" place="below" tstamp="4">
                         <rend fontstyle="italic">espress.</rend>

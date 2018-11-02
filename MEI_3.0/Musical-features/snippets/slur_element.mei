@@ -238,7 +238,7 @@
                      <!-- the slur could be marked up additionally with @bulge and @bezier -->
                      <dynam staff="1" place="below" tstamp="1">p</dynam>
                      <dir staff="1" place="above" tstamp="1">a tempo</dir>
-                     <gliss staff="2" layer="2" startid="#m2s2l2c2e1" endid="#m2s2l2c1e3"/>
+                     <gliss color="green" lform="wavy" staff="1" layer="1" startid="#m2s1l1e1" endid="#m2s1l1e2"/>
                   </measure>
                   <measure n="3">
                      <staff n="1">

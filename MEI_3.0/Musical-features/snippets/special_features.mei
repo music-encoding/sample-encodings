@@ -168,7 +168,6 @@
                            </chord>
                            <rest dur="4" xml:id="m3s2l1e4"/>
                            <rest dur="4" xml:id="m3s2l1e5"/>
-                           <rest dur="4" xml:id="m3s2l1e6"/>
                         </layer>
                      </staff>
                      <arpeg staff="2" plist="#m3s2l1e1 #m3s2l1e2 #m3s2l1e3" order="nonarp"/>
@@ -185,7 +184,7 @@
                   <measure n="4">
                      <staff n="1">
                         <layer n="1">
-                           <chord dur="4" stem.dir="down">
+                           <chord dur="4" stem.dir="down" xml:id="m4s1l1c1">
                               <note pname="c" oct="5" xml:id="m4s1l1e1"/>
                               <note pname="a" oct="4" xml:id="m4s1l1e2"/>
                            </chord>
@@ -227,6 +226,7 @@
                         <fing>2</fing>
                      </fingGrp>
                      <fing staff="1" place="above" tstamp="3.5">3</fing>
+                     <arpeg staff="1" startid="#m4s1l1c1" order="down"/>
                   </measure>
                </section>
             </score>
