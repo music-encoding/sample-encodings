@@ -270,8 +270,10 @@
                            <rest dur="2"/>
                         </layer>
                      </staff>
-                     <dir staff="1" place="above" tstamp="0">Fast Bebop<lb/>Intro</dir>
-                     <dir staff="1" place="above" tstamp="1">N.C.<lb/>drums</dir>
+                     <dir staff="1" place="above" tstamp="0">Fast Bebop</dir>
+                     <dir staff="1" place="above" tstamp="0">Intro</dir>
+                     <harm staff="1" place="above" tstamp="1">N.C.</harm>
+                     <dir staff="1" place="above" tstamp="1">drums</dir>
                      <dir staff="2" place="below" tstamp="1">(pn.)</dir>
                   </measure>
                   <measure n="2">
@@ -435,7 +437,8 @@
                         </layer>
                      </staff>
                      <dir staff="1" place="above" tstamp="0">(drums play time)</dir>
-                     <dir staff="2" place="above" tstamp="0">MI(MAT) (trp.<lb/>alto)</dir>
+                     <harm staff="2" place="above" tstamp="0">MI(MAT)</harm>
+                     <dir staff="2" place="above" tstamp="0">(trp.<lb/>alto)</dir>
                      <dir staff="2" place="below" tstamp="1">(bs.)</dir>
                      <slur staff="2" curvedir="above" startid="#m5x1" endid="#m6x1"/>
                   </measure>
@@ -1050,7 +1053,7 @@
                      </staff>
                      <staff n="2" visible="false"/>
                      <harm staff="1" place="above" tstamp="1">Bb6</harm>
-                     <harm staff="1" place="above" tstamp="3">G7()#5</harm>
+                     <harm staff="1" place="above" tstamp="3">G7(#5)</harm>
                   </measure>
                   <measure n="24">
                      <staff n="1">
