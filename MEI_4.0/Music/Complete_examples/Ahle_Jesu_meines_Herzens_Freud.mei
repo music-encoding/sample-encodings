@@ -211,13 +211,13 @@
                            <layer n="2">
                               <note pname="e" oct="4" dur="4" stem.dir="down">
                                  <verse n="1">
-                                    <syl>Je-</syl>
+                                    <syl con="d">Je</syl>
                                  </verse>
                                  <verse n="2">
-                                    <syl>Tau-</syl>
+                                   <syl con="d">Tau</syl>
                                  </verse>
                                  <verse n="3">
-                                    <syl>Wei-</syl>
+                                   <syl con="d">Wei</syl>
                                  </verse>
                               </note>
                               <note pname="e" oct="4" dur="4" stem.dir="down">
@@ -225,7 +225,7 @@
                                     <syl>su,</syl>
                                  </verse>
                                  <verse n="2">
-                                    <syl>send-</syl>
+                                   <syl con="d">send</syl>
                                  </verse>
                                  <verse n="3">
                                     <syl>de</syl>
@@ -233,7 +233,7 @@
                               </note>
                               <note pname="e" oct="4" dur="4" stem.dir="down">
                                  <verse n="1">
-                                    <syl>mei-</syl>
+                                   <syl con="d">mei</syl>
                                  </verse>
                                  <verse n="2">
                                     <syl>mal</syl>
@@ -247,7 +247,7 @@
                                     <syl>nes</syl>
                                  </verse>
                                  <verse n="2">
-                                    <syl>ge-</syl>
+                                   <syl con="d">ge</syl>
                                  </verse>
                                  <verse n="3">
                                     <syl>und</syl>
@@ -382,13 +382,13 @@
                                  dur="4"
                                  stem.dir="down">
                               <verse n="1">
-                                 <syl>Je-</syl>
+                                <syl con="d">Je</syl>
                               </verse>
                               <verse n="2">
-                                 <syl>Tau-</syl>
+                                <syl con="d">Tau</syl>
                               </verse>
                               <verse n="3">
-                                 <syl>Wei-</syl>
+                                <syl con="d">Wei</syl>
                               </verse>
                            </note>
                            <note xml:id="d23378e206"
@@ -400,7 +400,7 @@
                                  <syl>su,</syl>
                               </verse>
                               <verse n="2">
-                                 <syl>send-</syl>
+                                <syl con="d">send</syl>
                               </verse>
                               <verse n="3">
                                  <syl>de</syl>
@@ -412,7 +412,7 @@
                                  dur="4"
                                  stem.dir="down">
                               <verse n="1">
-                                 <syl>mei-</syl>
+                                <syl con="d">mei</syl>
                               </verse>
                               <verse n="2">
                                  <syl>mal</syl>
@@ -430,7 +430,7 @@
                                  <syl>nes</syl>
                               </verse>
                               <verse n="2">
-                                 <syl>ge-</syl>
+                                <syl con="d">ge</syl>
                               </verse>
                               <verse n="3">
                                  <syl>und</syl>
@@ -491,7 +491,7 @@
                                  dots="1"
                                  stem.dir="down">
                               <verse n="1">
-                                 <syl>Her-</syl>
+                                <syl con="d">Her</syl>
                               </verse>
                               <verse n="2">
                                  <syl>denk</syl>
@@ -593,13 +593,13 @@
                                  dur="4"
                                  stem.dir="down">
                               <verse n="1">
-                                 <syl>sü-</syl>
+                                <syl con="d">sü</syl>
                               </verse>
                               <verse n="2">
                                  <syl>mein</syl>
                               </verse>
                               <verse n="3">
-                                 <syl>Him-</syl>
+                                 <syl con="d">Him</syl>
                               </verse>
                            </note>
                            <note xml:id="d23378e806"
@@ -611,10 +611,10 @@
                                  <syl>ßer</syl>
                               </verse>
                               <verse n="2">
-                                 <syl>Er-</syl>
+                                <syl con="d">Er</syl>
                               </verse>
                               <verse n="3">
-                                 <syl>mels-</syl>
+                                <syl con="d">mels</syl>
                               </verse>
                            </note>
                            <beam>
@@ -627,10 +627,10 @@
                                     <syl>Je</syl>
                                  </verse>
                                  <verse n="2">
-                                    <syl>lö-</syl>
+                                   <syl con="d">lö</syl>
                                  </verse>
                                  <verse n="3">
-                                    <syl>spei-</syl>
+                                   <syl con="d">spei</syl>
                                  </verse>
                               </note>
                               <note xml:id="d23378e868"
@@ -785,13 +785,13 @@
                                  dur="4"
                                  stem.dir="down">
                               <verse n="1">
-                                 <syl>mei-</syl>
+                                <syl con="d">mei</syl>
                               </verse>
                               <verse n="2">
                                  <syl>und</syl>
                               </verse>
                               <verse n="3">
-                                 <syl>trän-</syl>
+                                <syl con="d">trän</syl>
                               </verse>
                            </note>
                            <note xml:id="d23378e1247"
@@ -803,7 +803,7 @@
                                  <syl>ner</syl>
                               </verse>
                               <verse n="2">
-                                 <syl>be-</syl>
+                                <syl con="d">be</syl>
                               </verse>
                               <verse n="3">
                                  <syl>ke</syl>
@@ -815,10 +815,10 @@
                                  dur="4"
                                  stem.dir="down">
                               <verse n="1">
-                                 <syl>See-</syl>
+                                <syl con="d">See</syl>
                               </verse>
                               <verse n="2">
-                                 <syl>geh-</syl>
+                                <syl con="d">geh</syl>
                               </verse>
                               <verse n="3">
                                  <syl>mich,</syl>
@@ -918,7 +918,7 @@
                                  dots="1"
                                  stem.dir="down">
                               <verse n="1">
-                                 <syl>Se-</syl>
+                                <syl con="d">Se</syl>
                               </verse>
                               <verse n="2">
                                  <syl>dich</syl>
@@ -934,10 +934,10 @@
                                  dur="8"
                                  stem.dir="down">
                               <verse n="1">
-                                 <syl>lig-</syl>
+                                <syl con="d">lig</syl>
                               </verse>
                               <verse n="2">
-                                 <syl>al-</syl>
+                                <syl con="d">al</syl>
                               </verse>
                               <verse n="3">
                                  <syl>ist</syl>
@@ -1034,13 +1034,13 @@
                                  dur="4"
                                  stem.dir="down">
                               <verse n="1">
-                                 <syl>sü-</syl>
+                                <syl con="d">sü</syl>
                               </verse>
                               <verse n="2">
                                  <syl>mein</syl>
                               </verse>
                               <verse n="3">
-                                 <syl>See-</syl>
+                                <syl con="d">See</syl>
                               </verse>
                            </note>
                            <note xml:id="d23378e1809"
@@ -1052,10 +1052,10 @@
                                  <syl>ßer</syl>
                               </verse>
                               <verse n="2">
-                                 <syl>Er-</syl>
+                                <syl con="d">Er</syl>
                               </verse>
                               <verse n="3">
-                                 <syl>len-</syl>
+                                <syl con="d">len</syl>
                               </verse>
                            </note>
                            <beam>
@@ -1065,13 +1065,13 @@
                                     dur="8"
                                     stem.dir="down">
                                  <verse n="1">
-                                    <syl>Je-</syl>
+                                   <syl con="d">Je</syl>
                                  </verse>
                                  <verse n="2">
                                     <syl>lö</syl>
                                  </verse>
                                  <verse n="3">
-                                    <syl>wei-</syl>
+                                   <syl con="d">wei</syl>
                                  </verse>
                               </note>
                               <note xml:id="d23378e1871"
@@ -1247,7 +1247,7 @@
                                  <syl>des</syl>
                               </verse>
                               <verse n="2">
-                                 <syl>seh-</syl>
+                                <syl con="d">seh</syl>
                               </verse>
                               <verse n="3">
                                  <syl>sei</syl>
@@ -1259,7 +1259,7 @@
                                  dur="4"
                                  stem.dir="down">
                               <verse n="1">
-                                 <syl>Ge-</syl>
+                                <syl con="d">Ge</syl>
                               </verse>
                               <verse n="2">
                                  <syl>ne</syl>
@@ -1274,13 +1274,13 @@
                                  dur="4"
                                  stem.dir="down">
                               <verse n="1">
-                                 <syl>mü-</syl>
+                                <syl con="d">mü</syl>
                               </verse>
                               <verse n="2">
                                  <syl>mich</syl>
                               </verse>
                               <verse n="3">
-                                 <syl>mei-</syl>
+                                <syl con="d">mei</syl>
                               </verse>
                            </note>
                            <note xml:id="d23378e2320"
@@ -1375,13 +1375,13 @@
                                  dur="8"
                                  stem.dir="down">
                               <verse n="1">
-                                 <syl>Si-</syl>
+                                <syl con="d">Si</syl>
                               </verse>
                               <verse n="2">
                                  <syl>dir</syl>
                               </verse>
                               <verse n="3">
-                                 <syl>Ru-</syl>
+                                <syl con="d">Ru</syl>
                               </verse>
                            </note>
                            <note xml:id="d23378e2560"
@@ -1396,13 +1396,13 @@
                                  dur="8"
                                  stem.dir="down">
                               <verse n="1">
-                                 <syl>cher-</syl>
+                                <syl con="d">cher</syl>
                               </verse>
                               <verse n="2">
                                  <syl>zu</syl>
                               </verse>
                               <verse n="3">
-                                 <syl>he-</syl>
+                                <syl con="d">he</syl>
                               </verse>
                            </note>
                            <note xml:id="d23378e2609"
@@ -1500,7 +1500,7 @@
                                  dur="4"
                                  stem.dir="down">
                               <verse n="1">
-                                 <syl>sü-</syl>
+                                <syl con="d">sü</syl>
                               </verse>
                               <verse n="2">
                                  <syl>mein</syl>
@@ -1518,7 +1518,7 @@
                                  <syl>ßer</syl>
                               </verse>
                               <verse n="2">
-                                 <syl>Er-</syl>
+                                <syl con="d">Er</syl>
                               </verse>
                               <verse n="3">
                                  <syl>der</syl>
@@ -1531,13 +1531,13 @@
                                     dur="8"
                                     stem.dir="down">
                                  <verse n="1">
-                                    <syl>Je-</syl>
+                                   <syl con="d">Je</syl>
                                  </verse>
                                  <verse n="2">
-                                    <syl>lö-</syl>
+                                   <syl con="d">lö</syl>
                                  </verse>
                                  <verse n="3">
-                                    <syl>See-</syl>
+                                   <syl con="d">See</syl>
                                  </verse>
                               </note>
                               <note xml:id="d23378e2890"
@@ -1699,13 +1699,13 @@
                                  dur="4"
                                  stem.dir="down">
                               <verse n="1">
-                                 <syl>Je-</syl>
+                                <syl con="d">Je</syl>
                               </verse>
                               <verse n="2">
-                                 <syl>Je-</syl>
+                                <syl con="d">Je</syl>
                               </verse>
                               <verse n="3">
-                                 <syl>Je-</syl>
+                                <syl con="d">Je</syl>
                               </verse>
                            </note>
                            <note xml:id="d23378e3259"
@@ -1729,7 +1729,7 @@
                                  dur="4"
                                  stem.dir="down">
                               <verse n="1">
-                                 <syl>sü-</syl>
+                                <syl con="d">sü</syl>
                               </verse>
                               <verse n="2">
                                  <syl>mein</syl>
@@ -1747,7 +1747,7 @@
                                  <syl>ßer</syl>
                               </verse>
                               <verse n="2">
-                                 <syl>Er-</syl>
+                                <syl con="d">Er</syl>
                               </verse>
                               <verse n="3">
                                  <syl>der</syl>
@@ -1825,13 +1825,13 @@
                                     dur="8"
                                     stem.dir="down">
                                  <verse n="1">
-                                    <syl>Je-</syl>
+                                   <syl con="d">Je</syl>
                                  </verse>
                                  <verse n="2">
-                                    <syl>lö-</syl>
+                                   <syl con="d">lö</syl>
                                  </verse>
                                  <verse n="3">
-                                    <syl>See-</syl>
+                                   <syl con="d">See</syl>
                                  </verse>
                               </note>
                               <note xml:id="d23378e3544"
