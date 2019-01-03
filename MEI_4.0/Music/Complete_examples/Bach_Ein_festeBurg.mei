@@ -520,6 +520,7 @@
                 </layer>
               </staff>
               <fermata staff="1" startid="#d1e647" form="norm" place="above"/>
+              <fermata staff="2" startid="#d1e1480" form="inv" place="below"/>
             </measure>
             <measure n="3" xml:id="d1e833">
               <staff n="1">
@@ -637,8 +638,9 @@
               </staff>
               <slur tstamp="2" curvedir="below" startid="#d1e1269" endid="#d1e1321" staff="1"
                 tstamp2="0m+0"/>
+              <slur tstamp="2" curvedir="below" startid="#d1e1980" endid="#d1e2014" staff="2"
+                tstamp2="0m+1"/>
               <fermata staff="1" startid="#d1e1237" form="norm" place="above"/>
-              <fermata staff="2" startid="#d1e1480" form="inv" place="below"/>
             </measure>
             <sb/>
             <measure n="5" xml:id="d1e1510" metcon="false">
@@ -729,8 +731,6 @@
                 tstamp2="0m+2"/>
               <slur tstamp="1" curvedir="below" startid="#d1e1827" endid="#d1e1845" staff="1"
                 tstamp2="0m+2"/>
-              <slur tstamp="2" curvedir="below" startid="#d1e1980" endid="#d1e2014" staff="2"
-                tstamp2="0m+1"/>
               <fermata staff="2" startid="#d1e2030" form="inv" place="below"/>
               <slur tstamp="1" curvedir="above" startid="#d1e1908" endid="#d1e1940" staff="2"
                 tstamp2="0m+2.5"/>
@@ -1021,6 +1021,7 @@
               </staff>
               <fermata staff="1" startid="#d1e3293" form="norm" place="above"/>
               <fermata staff="2" startid="#d1e3641" form="inv" place="below"/>
+              <fermata staff="2" startid="#d1e4245" form="inv" place="below"/>
             </measure>
             <measure n="12" xml:id="d1e3691">
               <staff n="1">
@@ -1123,7 +1124,6 @@
                 </layer>
               </staff>
               <fermata staff="1" startid="#d1e4088" form="norm" place="above"/>
-              <fermata staff="2" startid="#d1e4245" form="inv" place="below"/>
             </measure>
           </section>
         </score>
