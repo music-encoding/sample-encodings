@@ -8,7 +8,7 @@
       <titleStmt>
         <title>Concerto à 7 Trompeten und Pauken aus "Versuch einer Anleitung zur
           heroisch-musikalischen Trompeter - und Pauker - Kunst" <titlePart type="subordinate">an
-          electronic transcription</titlePart> </title>
+          electronic transcription</titlePart></title>
         <composer>
           <persName role="creator" codedval="108138054" auth.uri="http://d-nb.info/gnd/" auth="GND"
             >Johann Ernst Altenburg</persName>
@@ -5097,7 +5097,9 @@
               <fermata staff="7" startid="#d6409e26680" form="norm" place="above"/>
               <fermata staff="8" startid="#d6409e26714" form="norm" place="above"/>
             </measure>
-            <sb/>
+          </section>
+          <section>
+            <scoreDef meter.count="2" meter.unit="4" key.sig="0" key.mode="major"/>
             <measure n="53" xml:id="d6409e26747">
               <staff n="1">
                 <layer n="1">
@@ -6721,7 +6723,9 @@
               <fermata startid="#d6409e34275" form="norm" place="above"/>
               <fermata startid="#d6409e34293" form="norm" place="above"/>
             </measure>
-            <sb/>
+          </section>
+          <section>
+            <scoreDef meter.count="9" meter.unit="8" key.sig="0" key.mode="major"/>
             <measure n="77" xml:id="d6409e34310">
               <staff n="1">
                 <layer n="1">

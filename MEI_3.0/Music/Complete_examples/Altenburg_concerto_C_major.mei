@@ -234,27 +234,40 @@
       <mdiv>
         <score>
           <scoreDef meter.count="4" meter.unit="4" meter.sym="common" key.sig="0" key.mode="major">
+            <pgHead>
+              <p>
+                <rend halign="center">
+                  <name>Johann-Ernst Altenburg</name>
+                  <date>(1734 - 1801)</date>
+                </rend>
+              </p>
+              <p>
+                <rend halign="center"><title>Concerto à 7 Trompeten und Pauken aus<lb/> "Versuch
+                  einer Anleitung zur heroisch-musikalischen Trompeter - und Pauker -
+                  Kunst"</title>,<lb/> <date>Halle 1795</date></rend>
+              </p>
+            </pgHead>
             <staffGrp>
-              <staffDef n="1" label="Clarinop_Solo" label.abbr="Cl.-Solo" clef.line="2"
-                clef.shape="G" lines="5"/>
+              <staffDef n="1" clef.line="2" clef.shape="G" lines="5" label="Clarinop_Solo"
+                label.abbr="Cl.-Solo"> </staffDef>
               <staffGrp barthru="false" symbol="bracket">
-                <staffDef n="2" label="Clarino 1-1.Chor" label.abbr="Cl.1-1.Ch." clef.shape="G"
-                  lines="5" clef.line="2"/>
-                <staffDef n="3" label="Clarino 2-1.Chor" label.abbr="Cl 2-1.Ch" clef.line="2"
-                  clef.shape="G" lines="5"/>
-                <staffDef n="4" lines="5" label="Prinzipal-Chor 1" label.abbr="Pr.-1Ch"
-                  clef.shape="G" clef.line="2"/>
+                <staffDef n="2" clef.shape="G" lines="5" clef.line="2" label="Clarino 1-1.Chor"
+                  label.abbr="Cl.1-1.Ch."/>
+                <staffDef n="3" clef.line="2" clef.shape="G" lines="5" label="Clarino 2-1.Chor"
+                  label.abbr="Cl 2-1.Ch"/>
+                <staffDef n="4" lines="5" clef.shape="G" clef.line="2" label="Prinzipal-Chor 1"
+                  label.abbr="Pr.-1Ch"/>
               </staffGrp>
               <staffGrp barthru="false" symbol="bracket">
-                <staffDef n="5" label="Clarino 1-2.Chor" label.abbr="Cl.1-2.Ch." clef.shape="G"
-                  lines="5" clef.line="2"/>
-                <staffDef n="6" label="Clarino 2-2.Chor" label.abbr="Cl 2-2.Ch" clef.line="2"
-                  clef.shape="G" lines="5"/>
-                <staffDef n="7" lines="5" label="Prinzipal-2.Chor" label.abbr="Pr.-2.Ch"
-                  clef.shape="G" clef.line="2"/>
+                <staffDef n="5" clef.shape="G" lines="5" clef.line="2" label="Clarino 1-2.Chor"
+                  label.abbr="Cl.1-2.Ch."/>
+                <staffDef n="6" clef.line="2" clef.shape="G" lines="5" label="Clarino 2-2.Chor"
+                  label.abbr="Cl 2-2.Ch"/>
+                <staffDef n="7" lines="5" clef.shape="G" clef.line="2" label="Prinzipal-2.Chor"
+                  label.abbr="Pr.-2.Ch"/>
               </staffGrp>
-              <staffDef n="8" label="Timpani in C-G" label.abbr="Timp." clef.line="4" clef.shape="F"
-                lines="5"/>
+              <staffDef n="8" clef.line="4" clef.shape="F" lines="5" label="Timpani in C-G"
+                label.abbr="Timp."/>
             </staffGrp>
           </scoreDef>
           <section>
@@ -5063,7 +5076,9 @@
               <fermata staff="7" startid="#d6409e26680" form="norm" place="above"/>
               <fermata staff="8" startid="#d6409e26714" form="norm" place="above"/>
             </measure>
-            <sb/>
+          </section>
+          <section>
+            <scoreDef meter.count="2" meter.unit="4" key.sig="0" key.mode="major"/>
             <measure n="53" xml:id="d6409e26747">
               <staff n="1">
                 <layer n="1">
@@ -6687,7 +6702,9 @@
               <fermata startid="#d6409e34275" form="norm" place="above"/>
               <fermata startid="#d6409e34293" form="norm" place="above"/>
             </measure>
-            <sb/>
+          </section>
+          <section>
+            <scoreDef meter.count="9" meter.unit="8" key.sig="0" key.mode="major"/>
             <measure n="77" xml:id="d6409e34310">
               <staff n="1">
                 <layer n="1">
