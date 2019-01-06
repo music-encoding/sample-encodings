@@ -15,17 +15,18 @@
       </titleStmt>
       <pubStmt>
         <respStmt>
-          <corpName role="publisher" codedval="5115204-6" authURI="http://d-nb.info/gnd/" authority="GND"
-            >Musikwissenschaftliches Seminar, Detmold</corpName>
+          <corpName role="publisher" codedval="5115204-6" authURI="http://d-nb.info/gnd/"
+            authority="GND">Musikwissenschaftliches Seminar, Detmold</corpName>
         </respStmt>
         <address>
-               <addrLine>Gartenstrasse 20</addrLine>
-               <addrLine>32756 <geogName codedval="7004442" authURI="http://vocab.getty.edu/page/tgn/" authority="TGN">Detmold</geogName>
-               </addrLine>
-               <addrLine>
-                  <geogName codedval="7000084" authURI="http://vocab.getty.edu/page/tgn/" authority="TGN">Germany</geogName>
-               </addrLine>
-            </address>
+          <addrLine>Gartenstrasse 20</addrLine>
+          <addrLine>32756 <geogName codedval="7004442" authURI="http://vocab.getty.edu/page/tgn/"
+            authority="TGN">Detmold</geogName> </addrLine>
+          <addrLine>
+            <geogName codedval="7000084" authURI="http://vocab.getty.edu/page/tgn/" authority="TGN"
+              >Germany</geogName>
+          </addrLine>
+        </address>
         <date>2011</date>
         <availability>
           <useRestrict>This encoding is in the public domain. However, the sources used to create it
@@ -40,28 +41,18 @@
         <respStmt>
           <corpName role="publisher">MEI Project</corpName>
           <corpName role="funder" codedval="2007744-0" authURI="http://d-nb.info/gnd/"
-            authority="GND">German Research
-            Foundation<address>
-                     <addrLine>Kennedyallee 40</addrLine>
-                     <addrLine>
-                        <geogName codedval="7005090" authURI="http://vocab.getty.edu/page/tgn/" authority="TGN">Bonn</geogName>
-                     </addrLine>
-                     <addrLine>
-                        <geogName codedval="7000084" authURI="http://vocab.getty.edu/page/tgn/" authority="TGN">Germany</geogName>
-                     </addrLine>
-                  </address>
-          </corpName>
+            authority="GND">German Research Foundation<address> <addrLine>Kennedyallee 40</addrLine>
+            <addrLine> <geogName codedval="7005090" authURI="http://vocab.getty.edu/page/tgn/"
+            authority="TGN">Bonn</geogName> </addrLine> <addrLine> <geogName codedval="7000084"
+            authURI="http://vocab.getty.edu/page/tgn/" authority="TGN">Germany</geogName>
+            </addrLine> </address> </corpName>
           <corpName role="funder" codedval="18183-3" authURI="http://d-nb.info/gnd/18183-3"
-            authority="Deutsche Nationalbibliothek">National Endowment for the
-            Humanities<address>
-                     <addrLine>1100 Pennsylvania Avenue N.W.</addrLine>
-                     <addrLine>
-                        <geogName codedval="7013962" authURI="http://vocab.getty.edu/page/tgn/" authority="TGN">Washington, DC</geogName> 20004</addrLine>
-                     <addrLine>
-                        <geogName codedval="7012149" authURI="http://vocab.getty.edu/page/tgn/" authority="TGN">United States</geogName>
-                     </addrLine>
-                  </address>
-          </corpName>
+            authority="Deutsche Nationalbibliothek">National Endowment for the Humanities<address>
+            <addrLine>1100 Pennsylvania Avenue N.W.</addrLine> <addrLine> <geogName
+            codedval="7013962" authURI="http://vocab.getty.edu/page/tgn/" authority="TGN"
+            >Washington, DC</geogName> 20004</addrLine> <addrLine> <geogName codedval="7012149"
+            authURI="http://vocab.getty.edu/page/tgn/" authority="TGN">United States</geogName>
+            </addrLine> </address> </corpName>
         </respStmt>
         <identifier>
           <ref target="http://music-encoding.org/Support/MEI_Sample_Collection"/>
@@ -109,7 +100,9 @@
         <incip>
           <incipCode form="parsons">*uduududuu</incipCode>
         </incip>
-        <creation><date>1899</date></creation>
+        <creation>
+          <date>1899</date>
+        </creation>
         <perfMedium>
           <perfResList>
             <perfRes codedval="ka">Piano</perfRes>
@@ -156,7 +149,7 @@
         </respStmt>
         <changeDesc>
           <p>Transcoded from a MusicXML version 1.1 file on 2011-05-12 using the <ref
-              target="#xsl_mxl2mei_2.2.3">musicxml2mei</ref> stylesheet. </p>
+            target="#xsl_mxl2mei_2.2.3">musicxml2mei</ref> stylesheet. </p>
         </changeDesc>
         <date isodate="2011-05-12"/>
       </change>
@@ -210,7 +203,7 @@
         <changeDesc>
           <p>File corrupted; imported MusicXML file into MuseScore, corrected minor errors and page
             layout where different from original PDF, exported as MusicXML and converted to MEI
-            2013.</p>          
+            2013.</p>
         </changeDesc>
         <date isodate="2015-10-16"/>
       </change>
