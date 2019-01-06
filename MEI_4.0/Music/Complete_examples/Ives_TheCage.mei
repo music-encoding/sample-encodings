@@ -152,7 +152,7 @@
               <measure n="1" bar.method="staff" control="false" left="rptstart" right="rptend">
                 <staff n="1">
                   <layer>
-                    <mRest/>
+                    <rest dur="1"/>
                     <barLine form="dashed"/>
                   </layer>
                 </staff>
@@ -313,7 +313,7 @@
             <measure n="1" bar.method="staff" control="false" left="rptstart" right="rptend">
               <staff n="1">
                 <layer>
-                  <mRest/>
+                  <rest dur="1"/>
                   <barLine form="dashed"/>
                 </layer>
               </staff>
