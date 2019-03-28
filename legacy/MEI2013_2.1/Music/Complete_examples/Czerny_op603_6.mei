@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<?xml-model href="http://music-encoding.googlecode.com/svn/tags/MEI2013_v2.1.1/schemata/mei-CMN.rng" schematypens="http://purl.oclc.org/dsdl/schematron"?>
-<?xml-model href="http://music-encoding.googlecode.com/svn/tags/MEI2013_v2.1.1/schemata/mei-CMN.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://music-encoding.org/schema/2.1.1/mei-CMN.rng" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="https://music-encoding.org/schema/2.1.1/mei-CMN.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
 <mei xmlns:xlink="http://www.w3.org/1999/xlink" xmlns="http://www.music-encoding.org/ns/mei"
-  meiversion.num="2.1.0" meiversion="2013">
-  <meiHead meiversion.num="2.1.0">
+  meiversion.num="2.1.1" meiversion="2013">
+  <meiHead meiversion.num="2.1.1">
     <fileDesc>
       <titleStmt>
         <title>Praeludium et Fuga (d-Moll) op. 603/6</title>
@@ -192,7 +192,7 @@
       </change>
     </revisionDesc>
   </meiHead>
-  <music meiversion.num="2.1.0">
+  <music meiversion.num="2.1.1">
     <body>
       <mdiv>
         <score>
