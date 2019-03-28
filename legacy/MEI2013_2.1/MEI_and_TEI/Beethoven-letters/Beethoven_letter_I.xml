@@ -80,7 +80,7 @@
                     <label><hi rend="latintype">Allegro</hi><lb/>1tes Stück</label>
                     <item>
                         <notatedMusic>
-                            <mdiv xmlns="http://www.music-encoding.org/ns/mei">
+                            <mei:mdiv>
                                 <mei:score>
                                     <mei:section>
                                         <mei:measure n="1">
@@ -116,7 +116,7 @@
                                         </mei:measure>
                                     </mei:section>
                                 </mei:score>
-                            </mdiv>
+                            </mei:mdiv>
                         </notatedMusic>
                         <label><hi rend="latintype">et</hi></label>
                     </item>
