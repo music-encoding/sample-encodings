@@ -247,7 +247,7 @@
                                                   </mei:beam>
                                                   </mei:layer>
                                                 </mei:staff>
-                                                <mei:dir staff="1" place="above"
+                                                <mei:dir staff="1" place="above" tstamp="0"
                                                   >Adagio<lb/>Vello</mei:dir>
                                             </mei:measure>
                                             <mei:measure n="2">
@@ -313,8 +313,7 @@
                                                   </mei:beam>
                                                   </mei:layer>
                                                 </mei:staff>
-                                                <mei:dir staff="1" place="above"><rend
-                                                  fontstyle="ital">Allegretto</rend></mei:dir>
+                                                <mei:dir staff="1" place="above" tstamp="0"><rend
                                             </mei:measure>
                                             <mei:measure n="2">
                                                 <mei:staff>
