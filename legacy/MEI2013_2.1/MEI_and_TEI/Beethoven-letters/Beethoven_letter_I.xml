@@ -85,7 +85,7 @@
                                     <mei:section>
                                         <mei:measure n="1">
                                             <mei:staffDef clef.shape="G" clef.line="2" key.sig="2s"
-                                                meter.count="3" meter.unit="4"> </mei:staffDef>
+                                                meter.count="3" meter.unit="4" lines="5" n="1"> </mei:staffDef>
                                             <mei:staff n="1">
                                                 <mei:layer>
                                                   <mei:beam>
@@ -127,7 +127,7 @@
                                 <mei:score>
                                     <mei:section>
                                         <mei:measure n="1">
-                                            <mei:staffDef clef.shape="G" clef.line="2" key.sig="1f"/>
+                                            <mei:staffDef clef.shape="G" clef.line="2" key.sig="1f" lines="5" n="1"/>
                                             <mei:staff n="1">
                                                 <mei:layer n="1">
                                                   <mei:rest dur="1"/>
@@ -179,7 +179,7 @@
                                             <mei:measure n="1">
                                                 <mei:staffDef clef.shape="G" clef.line="2"
                                                   key.sig="2s" meter.count="2" meter.unit="2"
-                                                  meter.sym="cut"/>
+                                                  meter.sym="cut" lines="5" n="1"/>
                                                 <mei:staff n="1">
                                                   <mei:layer>
                                                   <mei:note pname="a" oct="4" dur="4"
@@ -232,7 +232,7 @@
                                             <mei:measure n="1">
                                                 <mei:staffDef n="1" clef.shape="G" clef.line="2"
                                                   key.sig="3f" meter.count="2" meter.unit="2"
-                                                  meter.sym="cut"/>
+                                                  meter.sym="cut" lines="5"/>
                                                 <mei:staff>
                                                   <mei:layer>
                                                   <mei:note pname="e" oct="4" dur="4"
@@ -298,7 +298,7 @@
                                     <mei:score>
                                         <mei:section>
                                             <mei:measure>
-                                                <mei:staffDef clef.shape="G" clef.line="2"/>
+                                                <mei:staffDef clef.shape="G" clef.line="2" lines="5" n="1"/>
                                                 <mei:staff>
                                                   <mei:layer>
                                                   <mei:beam>
@@ -361,7 +361,7 @@
                                         <mei:section>
                                             <mei:measure type="upbeat">
                                                 <mei:staffDef clef.shape="G" clef.line="2"
-                                                  key.sig="4f" meter.count="3" meter.unit="4"/>
+                                                  key.sig="4f" meter.count="3" meter.unit="4" lines="5" n=""/>
                                                 <mei:staff>
                                                   <mei:layer>
                                                   <mei:note pname="e" oct="4" dur="4"/>
@@ -424,7 +424,7 @@
                                     <mei:section>
                                         <mei:measure type="upbeat">
                                             <mei:staffDef clef.shape="G" clef.line="2"
-                                              key.sig="3f" meter.count="3" meter.unit="4"/>
+                                              key.sig="3f" meter.count="3" meter.unit="4" lines="5"/>
                                             <mei:staff>
                                               <mei:layer>
                                               <mei:note pname="b" oct="3" dur="8"/>
