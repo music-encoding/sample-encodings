@@ -361,7 +361,7 @@
                                         <mei:section>
                                             <mei:measure type="upbeat">
                                                 <mei:staffDef clef.shape="G" clef.line="2"
-                                                  key.sig="4f" meter.count="3" meter.unit="4" lines="5" n=""/>
+                                                  key.sig="4f" meter.count="3" meter.unit="4" lines="5" n="1"/>
                                                 <mei:staff>
                                                   <mei:layer>
                                                   <mei:note pname="e" oct="4" dur="4"/>
@@ -424,7 +424,7 @@
                                     <mei:section>
                                         <mei:measure type="upbeat">
                                             <mei:staffDef clef.shape="G" clef.line="2"
-                                              key.sig="3f" meter.count="3" meter.unit="4" lines="5"/>
+                                              key.sig="3f" meter.count="3" meter.unit="4" lines="5" n="1"/>
                                             <mei:staff>
                                               <mei:layer>
                                               <mei:note pname="b" oct="3" dur="8"/>
