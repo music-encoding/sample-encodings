@@ -139,9 +139,9 @@
                                                   stem.dir="down" xml:id="m1_s1_e2"/>
                                                 </mei:layer>
                                             </mei:staff>
-                                            <mei:dir staff="1" place="below" startid="m1_s1_e1"
+                                            <mei:dir staff="1" place="below" startid="#m1_s1_e1"
                                                 >Vno</mei:dir>
-                                            <mei:dir staff="1" place="below" startid="m1_s1_e2"
+                                            <mei:dir staff="1" place="below" startid="#m1_s1_e2"
                                                 >Vllo</mei:dir>
                                         </mei:measure>
                                         <mei:measure n="2" right="dashed">
@@ -161,7 +161,7 @@
                                                   <mei:note pname="a" oct="4" dur="4"/>
                                                 </mei:layer>
                                             </mei:staff>
-                                            <mei:dir staff="1" place="below" startid="m2_s1_e1"
+                                            <mei:dir staff="1" place="below" startid="#m2_s1_e1"
                                                 >Cemb:</mei:dir>
                                         </mei:measure>
                                     </mei:section>
@@ -210,8 +210,8 @@
                                                   xml:id="m3_s1_e5"/>
                                                   </mei:layer>
                                                 </mei:staff>
-                                                <mei:slur staff="1" startid="m_s1_e1"
-                                                  endid="m3_s1_e5" curvedir="above"/>
+                                                <mei:slur staff="1" startid="#m_s1_e1"
+                                                  endid="#m3_s1_e5" curvedir="above"/>
                                             </mei:measure>
                                         </mei:section>
                                     </mei:score>
@@ -265,7 +265,7 @@
                                                   </mei:layer>
                                                 </mei:staff>
                                                 <mei:dir staff="1" place="below"
-                                                  startid="m_2_note_a">Vno</mei:dir>
+                                                  startid="#m_2_note_a">Vno</mei:dir>
                                             </mei:measure>
                                             <mei:measure n="3" right="dashed">
                                                 <mei:staff>
@@ -280,7 +280,7 @@
                                                   </mei:beam>
                                                   </mei:layer>
                                                 </mei:staff>
-                                                <mei:dir staff="1" place="above" startid="m3_s1_e1"
+                                                <mei:dir staff="1" place="above" startid="#m3_s1_e1"
                                                   >Cemb</mei:dir>
                                             </mei:measure>
                                         </mei:section>
@@ -330,7 +330,7 @@
                                                   </mei:beam>
                                                   </mei:layer>
                                                 </mei:staff>
-                                                <mei:trill staff="1" startid="m2_s_e2" place="above"
+                                                <mei:trill staff="1" startid="#m2_s_e2" place="above"
                                                 />
                                             </mei:measure>
                                             <mei:measure n="3" right="dashed">
@@ -378,8 +378,8 @@
                                                   xml:id="e6_m1_e3"/>
                                                   </mei:layer>
                                                 </mei:staff>
-                                                <mei:slur staff="1" startid="e6_m1_e1"
-                                                  endid="e6_m1_e3" curvedir="below"/>
+                                                <mei:slur staff="1" startid="#e6_m1_e1"
+                                                  endid="#e6_m1_e3" curvedir="below"/>
                                             </mei:measure>
                                             <mei:measure n="2">
                                                 <mei:staff>
@@ -391,8 +391,8 @@
                                                   xml:id="e6_m2_e3"/>
                                                   </mei:layer>
                                                 </mei:staff>
-                                                <mei:slur staff="1" startid="e6_m2_e1"
-                                                  endid="e6_m2_e3" curvedir="below"/>
+                                                <mei:slur staff="1" startid="#e6_m2_e1"
+                                                  endid="#e6_m2_e3" curvedir="below"/>
                                             </mei:measure>
                                             <mei:measure n="3">
                                                 <mei:staff>
@@ -406,8 +406,8 @@
                                                   </mei:beam>
                                                   </mei:layer>
                                                 </mei:staff>
-                                                <mei:slur staff="1" startid="e6_m3_e1"
-                                                  endid="e6_m3_e3" curvedir="below"/>
+                                                <mei:slur staff="1" startid="#e6_m3_e1"
+                                                  endid="#e6_m3_e3" curvedir="below"/>
                                             </mei:measure>
                                         </mei:section>
                                     </mei:score>
