@@ -1604,16 +1604,16 @@
               <slur startid="#m11_s4_e3" endid="#m11_s4_e4" curvedir="above"/>
               <slur startid="#m11_s4_e5" endid="#m11_s4_e6" curvedir="above"/>
               <slur startid="#m11_s4_e7" endid="#m11_s4_e8" curvedir="above"/>
-              <dir place="below" tstamp="1" staff="2">f</dir>
-              <dir place="below" tstamp="1" staff="3">f</dir>
-              <dir place="below" tstamp="1" staff="4">f</dir>
-              <dir place="below" tstamp="1" staff="6">f</dir>
-              <dir place="below" tstamp="1" staff="7">f</dir>
-              <dir place="below" tstamp="3" staff="2">p</dir>
-              <dir place="below" tstamp="3" staff="3">p</dir>
-              <dir place="below" tstamp="3" staff="4">p</dir>
-              <dir place="below" tstamp="3" staff="6">p</dir>
-              <dir place="below" tstamp="3" staff="7">p</dir>
+              <dynam place="below" tstamp="1" staff="2">f</dynam>
+              <dynam place="below" tstamp="1" staff="3">f</dynam>
+              <dynam place="below" tstamp="1" staff="4">f</dynam>
+              <dynam place="below" tstamp="1" staff="6">f</dynam>
+              <dynam place="below" tstamp="1" staff="7">f</dynam>
+              <dynam place="below" tstamp="3" staff="2">p</dynam>
+              <dynam place="below" tstamp="3" staff="3">p</dynam>
+              <dynam place="below" tstamp="3" staff="4">p</dynam>
+              <dynam place="below" tstamp="3" staff="6">p</dynam>
+              <dynam place="below" tstamp="3" staff="7">p</dynam>
             </measure>
           </section>
         </score>
