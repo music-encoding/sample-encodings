@@ -1587,13 +1587,7 @@
               </dynam>
               <slur tstamp="1" curvedir="below" startid="#d1e5581" endid="#d1e5611" staff="2"
                 tstamp2="0m+2.5"/>
-              <dir tstamp="1" place="below" staff="3">
-                <rend fontfam="Times New Roman" fontsize="10pt" fontstyle="italic" fontweight="bold"
-                  >p</rend>
-              </dir>
-              <dir tstamp="1" place="below" staff="3">
-                <rend fontfam="Times New Roman" fontsize="10pt" fontstyle="italic"/>
-              </dir>
+              <dynam tstamp="1" place="below" staff="3">p</dynam>
               <dir tstamp="1" place="below" staff="3">
                 <rend fontfam="Times New Roman" fontsize="8pt" fontstyle="italic">il tema
                   cantabile</rend>
@@ -4817,13 +4811,7 @@
               <dynam tstamp="1" place="below" staff="2">
                 <rend>p</rend>
               </dynam>
-              <dir tstamp="1" place="below" staff="3">
-                <rend fontfam="Times New Roman" fontsize="10pt" fontstyle="italic" fontweight="bold"
-                  >p</rend>
-              </dir>
-              <dir tstamp="1" place="below" staff="3">
-                <rend fontfam="Times New Roman" fontsize="10pt" fontstyle="italic"/>
-              </dir>
+              <dynam tstamp="1" place="below" staff="3">p</dynam>
               <dir tstamp="1" place="below" staff="3">
                 <rend fontfam="Times New Roman" fontsize="9pt" fontstyle="italic">pesante</rend>
               </dir>
