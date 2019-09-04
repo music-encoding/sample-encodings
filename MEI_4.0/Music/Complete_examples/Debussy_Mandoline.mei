@@ -394,9 +394,9 @@
                   <clef shape="G" line="2"/>
                 </layer>
               </staff>
-              <dir tstamp="1" place="above" staff="1">
+              <tempo tstamp="1" place="above" staff="1">
                 <rend fontsize="9.75pt" fontweight="bold">Allegretto vivace</rend>
-              </dir>
+              </tempo>
               <fermata staff="1" startid="#d1e171" form="norm" tstamp="2" place="above"/>
               <dynam tstamp="1" place="below" staff="2">sfp</dynam>
               <hairpin tstamp="3.25" form="dim" place="below" staff="2" startto="9" endto="-1"
@@ -1271,17 +1271,17 @@
               </staff>
               <dynam tstamp="1" place="above" staff="1">p</dynam>
               <slur tstamp="1" tstamp2="3m+1" curvedir="above" staff="1"/>
-              <dir tstamp="4" place="above" staff="1">
+              <dynam tstamp="4" place="above" staff="1">
                 <rend fontsize="9pt" fontstyle="italic">dim.</rend>
-              </dir>
+              </dynam>
               <dynam tstamp="1" place="below" staff="2">
                 <rend fontstyle="italic">p</rend>
               </dynam>
               <slur tstamp="1" curvedir="below" startid="#d1e4945" endid="#d1e4871" staff="3 2"
                 tstamp2="0m+1.417"/>
-              <dir tstamp="2" place="below" staff="2">
+              <dynam tstamp="2" place="below" staff="2">
                 <rend fontsize="9pt" fontstyle="italic">dim.</rend>
-              </dir>
+              </dynam>
               <slur tstamp="2" curvedir="above" startid="#d1e4680" endid="#d1e4736" staff="2"
                 tstamp2="0m+3"/>
               <slur tstamp="5" curvedir="above" startid="#d1e4802" endid="#d1e4871" staff="2"
