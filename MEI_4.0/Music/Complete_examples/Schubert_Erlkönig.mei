@@ -329,21 +329,29 @@
               </staff>
               <staff n="2" xml:id="m2_s2">
                 <layer>
-                  <bTrem unitdur="1">
-                    <chord stem.dir="up" stem.mod="1slash" xml:id="m2_s2_c1">
-                      <note pname="g" oct="3" dur="4" dots="1"/>
-                      <note pname="g" oct="4" dur="4" dots="1"/>
-                    </chord>
-                  </bTrem>
-                  <bTrem unitdur="1">
-                    <chord copyof="#m2_s2_c1"/>
-                  </bTrem>
-                  <bTrem unitdur="1">
-                    <chord copyof="#m2_s2_c1"/>
-                  </bTrem>
-                  <bTrem unitdur="1">
-                    <chord copyof="#m2_s2_c1"/>
-                  </bTrem>
+                  <tuplet num="3" numbase="2" num.visible="false" bracket.visible="false">
+                    <bTrem unitdur="8">
+                      <chord stem.dir="up" stem.mod="1slash" xml:id="m2_s2_c1">
+                        <note pname="g" oct="3" dur="4" dots="1"/>
+                        <note pname="g" oct="4" dur="4" dots="1"/>
+                      </chord>
+                    </bTrem>
+                  </tuplet>
+                  <tuplet num="3" numbase="2" num.visible="false" bracket.visible="false">
+                    <bTrem unitdur="8">
+                      <chord copyof="#m2_s2_c1"/>
+                    </bTrem>
+                  </tuplet>
+                  <tuplet num="3" numbase="2" num.visible="false" bracket.visible="false">
+                    <bTrem unitdur="8">
+                      <chord copyof="#m2_s2_c1"/>
+                    </bTrem>
+                  </tuplet>
+                  <tuplet num="3" numbase="2" num.visible="false" bracket.visible="false">
+                    <bTrem unitdur="8">
+                      <chord copyof="#m2_s2_c1"/>
+                    </bTrem>
+                  </tuplet>
                 </layer>
               </staff>
               <staff n="3" xml:id="m2_s3">
@@ -395,22 +403,30 @@
               </staff>
               <staff n="2" xml:id="m6_s2">
                 <layer>
-                  <bTrem>
-                    <chord xml:id="m6_s2_e1" stem.mod="1slash">
-                      <note pname="a" oct="3" dur="4" dots="1"/>
-                      <note pname="g" oct="4" dur="4" dots="1"/>
-                      <note pname="a" oct="4" dur="4" dots="1"/>
-                    </chord>
-                  </bTrem>
-                  <bTrem>
-                    <chord copyof="#m6_s2_e1"/>
-                  </bTrem>
-                  <bTrem>
-                    <chord copyof="#m6_s2_e1"/>
-                  </bTrem>
-                  <bTrem>
-                    <chord copyof="#m6_s2_e1"/>
-                  </bTrem>
+                  <tuplet num="3" numbase="2" num.visible="false" bracket.visible="false">
+                    <bTrem unitdur="8">
+                      <chord xml:id="m6_s2_e1" stem.mod="1slash">
+                        <note pname="a" oct="3" dur="4" dots="1"/>
+                        <note pname="g" oct="4" dur="4" dots="1"/>
+                        <note pname="a" oct="4" dur="4" dots="1"/>
+                      </chord>
+                    </bTrem>
+                  </tuplet>
+                  <tuplet num="3" numbase="2" num.visible="false" bracket.visible="false">
+                    <bTrem unitdur="8">
+                      <chord copyof="#m6_s2_e1"/>
+                    </bTrem>
+                  </tuplet>
+                  <tuplet num="3" numbase="2" num.visible="false" bracket.visible="false">
+                    <bTrem unitdur="8">
+                      <chord copyof="#m6_s2_e1"/>
+                    </bTrem>
+                  </tuplet>
+                  <tuplet num="3" numbase="2" num.visible="false" bracket.visible="false">
+                    <bTrem unitdur="8">
+                      <chord copyof="#m6_s2_e1"/>
+                    </bTrem>
+                  </tuplet>
                 </layer>
               </staff>
               <staff n="3">
@@ -430,26 +446,39 @@
             <measure n="7" xml:id="m7">
               <staff n="1">
                 <layer>
-                  <bTrem>
-                    <chord stem.dir="up" xml:id="m7_s2_c1" stem.mod="1slash">
-                      <note pname="b" oct="3" dur="4" dots="1"/>
-                      <note pname="g" oct="4" dur="4" dots="1"/>
-                      <note pname="b" oct="4" dur="4" dots="1"/>
-                    </chord>
-                  </bTrem>
-                  <bTrem>
-                    <chord copyof="#m7_s2_c1"/>
-                  </bTrem>
-                  <bTrem>
-                    <chord xml:id="m7_s2_c2" stem.mod="1slash" stem.dir="up">
-                      <note pname="a" oct="3" dur="4" dots="1"/>
-                      <note pname="f" accid="s" oct="4" dur="4" dots="1"/>
-                      <note pname="a" oct="4" dur="4" dots="1"/>
-                    </chord>
-                  </bTrem>
-                  <bTrem>
-                    <chord copyof="#m7_s2_c2"/>
-                  </bTrem>
+                  <mRest/>
+                </layer>
+              </staff>
+              <staff n="2">
+                <layer>
+                  <tuplet num="3" numbase="2" num.visible="false" bracket.visible="false">
+                    <bTrem unitdur="8">
+                      <chord stem.dir="up" xml:id="m7_s2_c1" stem.mod="1slash">
+                        <note pname="b" oct="3" dur="4" dots="1"/>
+                        <note pname="g" oct="4" dur="4" dots="1"/>
+                        <note pname="b" oct="4" dur="4" dots="1"/>
+                      </chord>
+                    </bTrem>
+                  </tuplet>
+                  <tuplet num="3" numbase="2" num.visible="false" bracket.visible="false">
+                    <bTrem unitdur="8">
+                      <chord copyof="#m7_s2_c1"/>
+                    </bTrem>
+                  </tuplet>
+                  <tuplet num="3" numbase="2" num.visible="false" bracket.visible="false">
+                    <bTrem unitdur="8">
+                      <chord xml:id="m7_s2_c2" stem.mod="1slash" stem.dir="up">
+                        <note pname="a" oct="3" dur="4" dots="1"/>
+                        <note pname="f" accid="s" oct="4" dur="4" dots="1"/>
+                        <note pname="a" oct="4" dur="4" dots="1"/>
+                      </chord>
+                    </bTrem>
+                  </tuplet>
+                  <tuplet num="3" numbase="2" num.visible="false" bracket.visible="false">
+                    <bTrem unitdur="8">
+                      <chord copyof="#m7_s2_c2"/>
+                    </bTrem>
+                  </tuplet>
                 </layer>
               </staff>
               <staff n="3">
@@ -492,26 +521,34 @@
               </staff>
               <staff n="2">
                 <layer>
-                  <bTrem>
-                    <chord stem.dir="up" stem.mod="1slash" xml:id="m14_s2_c1">
-                      <note pname="b" oct="3" dur="4" dots="1"/>
-                      <note pname="g" oct="4" dur="4" dots="1"/>
-                      <note pname="b" oct="4" dur="4" dots="1"/>
-                    </chord>
-                  </bTrem>
-                  <bTrem>
-                    <chord copyof="#m14_s2_c1"/>
-                  </bTrem>
-                  <bTrem>
-                    <chord copyof="#m14_s2_c1"/>
-                  </bTrem>
-                  <bTrem>
-                    <chord xml:id="m14_s2_c2" stem.mod="1slash" stem.dir="up">
-                      <note pname="b" oct="3" dur="4" dots="1"/>
-                      <note pname="e" accid="n" oct="4" dur="4" dots="1"/>
-                      <note pname="g" oct="4" dur="4" dots="1"/>
-                    </chord>
-                  </bTrem>
+                  <tuplet num="3" numbase="2" num.visible="false" bracket.visible="false">
+                    <bTrem unitdur="8">
+                      <chord stem.dir="up" stem.mod="1slash" xml:id="m14_s2_c1">
+                        <note pname="b" oct="3" dur="4" dots="1"/>
+                        <note pname="g" oct="4" dur="4" dots="1"/>
+                        <note pname="b" oct="4" dur="4" dots="1"/>
+                      </chord>
+                    </bTrem>
+                  </tuplet>
+                  <tuplet num="3" numbase="2" num.visible="false" bracket.visible="false">
+                    <bTrem unitdur="8">
+                      <chord copyof="#m14_s2_c1"/>
+                    </bTrem>
+                  </tuplet>
+                  <tuplet num="3" numbase="2" num.visible="false" bracket.visible="false">
+                    <bTrem unitdur="8">
+                      <chord copyof="#m14_s2_c1"/>
+                    </bTrem>
+                  </tuplet>
+                  <tuplet num="3" numbase="2" num.visible="false" bracket.visible="false">
+                    <bTrem unitdur="8">
+                      <chord xml:id="m14_s2_c2" stem.mod="1slash" stem.dir="up">
+                        <note pname="b" oct="3" dur="4" dots="1"/>
+                        <note pname="e" accid="n" oct="4" dur="4" dots="1"/>
+                        <note pname="g" oct="4" dur="4" dots="1"/>
+                      </chord>
+                    </bTrem>
+                  </tuplet>
                 </layer>
               </staff>
               <staff n="3" xml:id="m14_s3">
@@ -537,22 +574,30 @@
               </staff>
               <staff n="2" xml:id="m15_s2">
                 <layer>
-                  <bTrem>
-                    <chord xml:id="m15_s2_e1" stem.dir="up" stem.mod="1slash">
-                      <note pname="a" oct="3" dur="4" dots="1"/>
-                      <note pname="d" oct="4" dur="4" dots="1"/>
-                      <note pname="f" oct="4" dots="1" dur="4" accid="s"/>
-                    </chord>
-                  </bTrem>
-                  <bTrem>
-                    <chord copyof="#m15_s2_e1"/>
-                  </bTrem>
-                  <bTrem>
-                    <chord copyof="#m15_s2_e1"/>
-                  </bTrem>
-                  <bTrem>
-                    <chord copyof="#m15_s2_e1"/>
-                  </bTrem>
+                  <tuplet num="3" numbase="2" num.visible="false" bracket.visible="false">
+                    <bTrem unitdur="8">
+                      <chord xml:id="m15_s2_e1" stem.dir="up" stem.mod="1slash">
+                        <note pname="a" oct="3" dur="4" dots="1"/>
+                        <note pname="d" oct="4" dur="4" dots="1"/>
+                        <note pname="f" oct="4" dots="1" dur="4" accid="s"/>
+                      </chord>
+                    </bTrem>
+                  </tuplet>
+                  <tuplet num="3" numbase="2" num.visible="false" bracket.visible="false">
+                    <bTrem unitdur="8">
+                      <chord copyof="#m15_s2_e1"/>
+                    </bTrem>
+                  </tuplet>
+                  <tuplet num="3" numbase="2" num.visible="false" bracket.visible="false">
+                    <bTrem unitdur="8">
+                      <chord copyof="#m15_s2_e1"/>
+                    </bTrem>
+                  </tuplet>
+                  <tuplet num="3" numbase="2" num.visible="false" bracket.visible="false">
+                    <bTrem unitdur="8">
+                      <chord copyof="#m15_s2_e1"/>
+                    </bTrem>
+                  </tuplet>
                 </layer>
               </staff>
               <staff n="3" xml:id="m15_s3">
@@ -599,22 +644,30 @@
               </staff>
               <staff n="2" xml:id="m16_s2">
                 <layer>
-                  <bTrem>
-                    <chord xml:id="m16_s2_c1">
-                      <note pname="b" oct="3" dur="4" dots="1"/>
-                      <note pname="d" oct="4" dur="4" dots="1"/>
-                      <note pname="g" oct="4" dur="4" dots="1"/>
-                    </chord>
-                  </bTrem>
-                  <bTrem>
-                    <chord copyof="#m16_s2_c1"/>
-                  </bTrem>
-                  <bTrem>
-                    <chord copyof="#m16_s2_c1"/>
-                  </bTrem>
-                  <bTrem>
-                    <chord copyof="#m16_s2_c1"/>
-                  </bTrem>
+                  <tuplet num="3" numbase="2" num.visible="false" bracket.visible="false">
+                    <bTrem unitdur="8">
+                      <chord xml:id="m16_s2_c1">
+                        <note pname="b" oct="3" dur="4" dots="1"/>
+                        <note pname="d" oct="4" dur="4" dots="1"/>
+                        <note pname="g" oct="4" dur="4" dots="1"/>
+                      </chord>
+                    </bTrem>
+                  </tuplet>
+                  <tuplet num="3" numbase="2" num.visible="false" bracket.visible="false">
+                    <bTrem unitdur="8">
+                      <chord copyof="#m16_s2_c1"/>
+                    </bTrem>
+                  </tuplet>
+                  <tuplet num="3" numbase="2" num.visible="false" bracket.visible="false">
+                    <bTrem unitdur="8">
+                      <chord copyof="#m16_s2_c1"/>
+                    </bTrem>
+                  </tuplet>
+                  <tuplet num="3" numbase="2" num.visible="false" bracket.visible="false">
+                    <bTrem unitdur="8">
+                      <chord copyof="#m16_s2_c1"/>
+                    </bTrem>
+                  </tuplet>
                 </layer>
               </staff>
               <staff n="3" xml:id="m16_s3">
@@ -698,42 +751,51 @@
                   </note>
                   <note pname="g" oct="5" dur="4" stem.dir="down">
                     <verse>
-                      <syl>ist</syl>
+                      <syl>der</syl>
                     </verse>
                   </note>
                 </layer>
               </staff>
               <staff n="2" xml:id="m21_s2">
                 <layer>
-                  <bTrem>
-                    <chord stem.dir="up" stem.mod="1slash" xml:id="m21_s2_c1">
-                      <note pname="b" accid="n" oct="3" dur="4" dots="1"/>
-                      <note pname="d" oct="4" dur="4" dots="1"/>
-                      <note pname="f" oct="4" dur="4" dots="1"/>
-                      <note pname="g" accid="n" oct="4" dur="4" dots="1"/>
-                    </chord>
-                  </bTrem>
-                  <bTrem>
-                    <chord copyof="#m21_s2_c1"/>
-                  </bTrem>
-                  <bTrem>
-                    <chord copyof="#m21_s2_c1"/>
-                  </bTrem>
-                  <bTrem>
-                    <chord copyof="#m21_s2_c1"/>
-                  </bTrem>
+                  <tuplet num="3" numbase="2" num.visible="false" bracket.visible="false">
+                    <bTrem unitdur="8">
+                      <chord stem.dir="up" stem.mod="1slash" xml:id="m21_s2_c1">
+                        <note pname="b" accid="n" oct="3" dur="4" dots="1"/>
+                        <note pname="d" oct="4" dur="4" dots="1"/>
+                        <note pname="f" oct="4" dur="4" dots="1"/>
+                        <note pname="g" accid="n" oct="4" dur="4" dots="1"/>
+                      </chord>
+                    </bTrem>
+                  </tuplet>
+                  <tuplet num="3" numbase="2" num.visible="false" bracket.visible="false">
+                    <bTrem unitdur="8">
+                      <chord copyof="#m21_s2_c1"/>
+                    </bTrem>
+                  </tuplet>
+                  <tuplet num="3" numbase="2" num.visible="false" bracket.visible="false">
+                    <bTrem unitdur="8">
+                      <chord copyof="#m21_s2_c1"/>
+                    </bTrem>
+                  </tuplet>
+                  <tuplet num="3" numbase="2" num.visible="false" bracket.visible="false">
+                    <bTrem unitdur="8">
+                      <chord copyof="#m21_s2_c1"/>
+                    </bTrem>
+                  </tuplet>
                 </layer>
               </staff>
               <staff n="3">
                 <layer>
                   <chord>
-                    <note pname="g" oct="2" dur="1" tie="i"/>
+                    <note pname="g" oct="2" dur="1" xml:id="m_21_s3_e1"/>
                     <note pname="g" oct="3" dur="1"/>
                   </chord>
                 </layer>
               </staff>
+              <slur staff="3" startid="#m_21_s3_e1" curvedir="below" endid="#m22_s3_e1"/>
             </measure>
-            <measure n="2" xml:id="m22">
+            <measure n="22" xml:id="m22">
               <staff n="1">
                 <layer>
                   <note pname="g" oct="5" dur="2" stem.dir="down">
@@ -755,32 +817,40 @@
               </staff>
               <staff n="2">
                 <layer>
-                  <bTrem>
-                    <chord xml:id="m22_s2_c1" stem.dir="up" stem.mod="1slash">
-                      <note pname="c" oct="4" dur="4" dots="1"/>
-                      <note pname="e" oct="4" dur="4" dots="1"/>
-                      <note pname="g" oct="4" dur="4" dots="1"/>
-                    </chord>
-                  </bTrem>
-                  <bTrem>
-                    <chord copyof="#m22_s2_c1"/>
-                  </bTrem>
-                  <bTrem>
-                    <chord copyof="#m22_s2_c1"/>
-                  </bTrem>
-                  <bTrem>
-                    <chord stem.mod="1slash" stem.dir="up" xml:id="m22_s2_c2">
-                      <note pname="c" oct="4" dur="4" dots="1"/>
-                      <note pname="e" oct="4" dur="4" dots="1"/>
-                      <note pname="g" oct="4" dur="4" dots="1"/>
-                      <note pname="c" oct="5" dur="4" dots="1"/>
-                    </chord>
-                  </bTrem>
+                  <tuplet num="3" numbase="2" num.visible="false" bracket.visible="false">
+                    <bTrem unitdur="8">
+                      <chord xml:id="m22_s2_c1" stem.dir="up" stem.mod="1slash">
+                        <note pname="c" oct="4" dur="4" dots="1"/>
+                        <note pname="e" oct="4" dur="4" dots="1"/>
+                        <note pname="g" oct="4" dur="4" dots="1"/>
+                      </chord>
+                    </bTrem>
+                  </tuplet>
+                  <tuplet num="3" numbase="2" num.visible="false" bracket.visible="false">
+                    <bTrem unitdur="8">
+                      <chord copyof="#m22_s2_c1"/>
+                    </bTrem>
+                  </tuplet>
+                  <tuplet num="3" numbase="2" num.visible="false" bracket.visible="false">
+                    <bTrem unitdur="8">
+                      <chord copyof="#m22_s2_c1"/>
+                    </bTrem>
+                  </tuplet>
+                  <tuplet num="3" numbase="2" num.visible="false" bracket.visible="false">
+                    <bTrem unitdur="8">
+                      <chord stem.mod="1slash" stem.dir="up" xml:id="m22_s2_c2">
+                        <note pname="c" oct="4" dur="4" dots="1"/>
+                        <note pname="e" oct="4" dur="4" dots="1"/>
+                        <note pname="g" oct="4" dur="4" dots="1"/>
+                        <note pname="c" oct="5" dur="4" dots="1"/>
+                      </chord>
+                    </bTrem>
+                  </tuplet>
                 </layer>
               </staff>
               <staff n="3">
                 <layer>
-                  <note pname="c" oct="2" dur="2" dots="1" stem.dir="up" slur="t1"/>
+                  <note pname="c" oct="2" dur="2" dots="1" stem.dir="up" slur="t1" xml:id="m22_s3_e1"/>
                   <note pname="e" oct="3" dur="4" stem.dir="up"/>
                 </layer>
               </staff>
@@ -802,24 +872,30 @@
               </staff>
               <staff n="2">
                 <layer>
-                  <bTrem>
-                    <chord stem.dir="up" stem.mod="1slash" xml:id="m23_s2_c1">
-                      <note pname="d" oct="4" dur="4" dots="1"/>
-                      <note pname="f" oct="4" dur="4" dots="1"/>
-                      <note pname="b" oct="4" dur="4" dots="1"/>
-                    </chord>
-                  </bTrem>
-                  <bTrem>
-                    <chord copyof="#m23_s2_c1"/>
-                  </bTrem>
-                  <bTrem>
-                    <chord xml:id="m23_s2_c2" stem.dir="up" stem.mod="1slash">
-                      <note pname="c" oct="4" dur="4" dots="1"/>
-                      <note pname="e" oct="4" dur="4" dots="1"/>
-                      <note pname="f" oct="4" dur="4" dots="1"/>
-                      <note pname="a" oct="4" dur="4" dots="1"/>
-                    </chord>
-                  </bTrem>
+                  <tuplet num="3" numbase="2" num.visible="false" bracket.visible="false">
+                    <bTrem unitdur="8">
+                      <chord stem.dir="up" stem.mod="1slash" xml:id="m23_s2_c1">
+                        <note pname="d" oct="4" dur="4" dots="1"/>
+                        <note pname="f" oct="4" dur="4" dots="1"/>
+                        <note pname="b" oct="4" dur="4" dots="1"/>
+                      </chord>
+                    </bTrem>
+                  </tuplet>
+                  <tuplet num="3" numbase="2" num.visible="false" bracket.visible="false">
+                    <bTrem unitdur="8">
+                      <chord copyof="#m23_s2_c1"/>
+                    </bTrem>
+                  </tuplet>
+                  <tuplet num="3" numbase="2" num.visible="false" bracket.visible="false">
+                    <bTrem unitdur="8">
+                      <chord xml:id="m23_s2_c2" stem.dir="up" stem.mod="1slash">
+                        <note pname="c" oct="4" dur="4" dots="1"/>
+                        <note pname="e" oct="4" dur="4" dots="1"/>
+                        <note pname="f" oct="4" dur="4" dots="1"/>
+                        <note pname="a" oct="4" dur="4" dots="1"/>
+                      </chord>
+                    </bTrem>
+                  </tuplet>
                 </layer>
               </staff>
               <staff n="3">
@@ -849,22 +925,30 @@
               </staff>
               <staff n="2" xml:id="m24_s2">
                 <layer>
-                  <bTrem>
-                    <chord xml:id="m24_s2_c1" stem.dir="up" stem.mod="1slash">
-                      <note pname="d" oct="4" dur="4" dots="1"/>
-                      <note pname="f" oct="4" dur="4" dots="1"/>
-                      <note pname="b" oct="4" dur="4" dots="1"/>
-                    </chord>
-                  </bTrem>
-                  <bTrem>
-                    <chord copyof="#m24_s2_c1"/>
-                  </bTrem>
-                  <bTrem>
-                    <chord copyof="#m24_s2_c1"/>
-                  </bTrem>
-                  <bTrem>
-                    <chord copyof="#m24_s2_c1"/>
-                  </bTrem>
+                  <tuplet num="3" numbase="2" num.visible="false" bracket.visible="false">
+                    <bTrem unitdur="8">
+                      <chord xml:id="m24_s2_c1" stem.dir="up" stem.mod="1slash">
+                        <note pname="d" oct="4" dur="4" dots="1"/>
+                        <note pname="f" oct="4" dur="4" dots="1"/>
+                        <note pname="b" oct="4" dur="4" dots="1"/>
+                      </chord>
+                    </bTrem>
+                  </tuplet>
+                  <tuplet num="3" numbase="2" num.visible="false" bracket.visible="false">
+                    <bTrem unitdur="8">
+                      <chord copyof="#m24_s2_c1"/>
+                    </bTrem>
+                  </tuplet>
+                  <tuplet num="3" numbase="2" num.visible="false" bracket.visible="false">
+                    <bTrem unitdur="8">
+                      <chord copyof="#m24_s2_c1"/>
+                    </bTrem>
+                  </tuplet>
+                  <tuplet num="3" numbase="2" num.visible="false" bracket.visible="false">
+                    <bTrem unitdur="8">
+                      <chord copyof="#m24_s2_c1"/>
+                    </bTrem>
+                  </tuplet>
                 </layer>
               </staff>
               <staff n="3" xml:id="m24_s3">
@@ -901,23 +985,31 @@
               </staff>
               <staff n="2" xml:id="m25_s2">
                 <layer>
-                  <bTrem>
-                    <chord xml:id="m25_s2_c1" stem.dir="up" stem.mod="1slash">
-                      <note pname="c" oct="4" dur="4" dots="1"/>
-                      <note pname="e" oct="4" dur="4" dots="1"/>
-                      <note pname="g" accid="f" oct="4" dur="4" dots="1"/>
-                      <note pname="a" oct="4" dur="4" dots="1"/>
-                    </chord>
-                  </bTrem>
-                  <bTrem>
-                    <chord copyof="#m25_s2_c1"/>
-                  </bTrem>
-                  <bTrem>
-                    <chord copyof="#m25_s2_c1"/>
-                  </bTrem>
-                  <bTrem>
-                    <chord copyof="#m25_s2_c1"/>
-                  </bTrem>
+                  <tuplet num="3" numbase="2" num.visible="false" bracket.visible="false">
+                    <bTrem unitdur="8">
+                      <chord xml:id="m25_s2_c1" stem.dir="up" stem.mod="1slash">
+                        <note pname="c" oct="4" dur="4" dots="1"/>
+                        <note pname="e" oct="4" dur="4" dots="1"/>
+                        <note pname="g" accid="f" oct="4" dur="4" dots="1"/>
+                        <note pname="a" oct="4" dur="4" dots="1"/>
+                      </chord>
+                    </bTrem>
+                  </tuplet>
+                  <tuplet num="3" numbase="2" num.visible="false" bracket.visible="false">
+                    <bTrem unitdur="8">
+                      <chord copyof="#m25_s2_c1"/>
+                    </bTrem>
+                  </tuplet>
+                  <tuplet num="3" numbase="2" num.visible="false" bracket.visible="false">
+                    <bTrem unitdur="8">
+                      <chord copyof="#m25_s2_c1"/>
+                    </bTrem>
+                  </tuplet>
+                  <tuplet num="3" numbase="2" num.visible="false" bracket.visible="false">
+                    <bTrem unitdur="8">
+                      <chord copyof="#m25_s2_c1"/>
+                    </bTrem>
+                  </tuplet>
                 </layer>
               </staff>
               <staff n="3" xml:id="m25_s3">
@@ -1005,22 +1097,30 @@
               </staff>
               <staff n="2">
                 <layer>
-                  <bTrem>
-                    <chord stem.dir="up" stem.mod="1slash" xml:id="m29_s2_c1">
-                      <note pname="c" oct="4" dur="4" dots="1"/>
-                      <note pname="d" oct="4" dur="4" dots="1"/>
-                      <note pname="a" oct="4" dur="4" dots="1"/>
-                    </chord>
-                  </bTrem>
-                  <bTrem>
-                    <chord copyof="#m29_s2_c1"/>
-                  </bTrem>
-                  <bTrem>
-                    <chord copyof="#m29_s2_c1"/>
-                  </bTrem>
-                  <bTrem>
-                    <chord copyof="#m29_s2_c1"/>
-                  </bTrem>
+                  <tuplet num="3" numbase="2" num.visible="false" bracket.visible="false">
+                    <bTrem unitdur="8">
+                      <chord stem.dir="up" stem.mod="1slash" xml:id="m29_s2_c1">
+                        <note pname="c" oct="4" dur="4" dots="1"/>
+                        <note pname="d" oct="4" dur="4" dots="1"/>
+                        <note pname="a" oct="4" dur="4" dots="1"/>
+                      </chord>
+                    </bTrem>
+                  </tuplet>
+                  <tuplet num="3" numbase="2" num.visible="false" bracket.visible="false">
+                    <bTrem unitdur="8">
+                      <chord copyof="#m29_s2_c1"/>
+                    </bTrem>
+                  </tuplet>
+                  <tuplet num="3" numbase="2" num.visible="false" bracket.visible="false">
+                    <bTrem unitdur="8">
+                      <chord copyof="#m29_s2_c1"/>
+                    </bTrem>
+                  </tuplet>
+                  <tuplet num="3" numbase="2" num.visible="false" bracket.visible="false">
+                    <bTrem unitdur="8">
+                      <chord copyof="#m29_s2_c1"/>
+                    </bTrem>
+                  </tuplet>
                 </layer>
               </staff>
               <staff n="3">
