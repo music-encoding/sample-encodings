@@ -188,7 +188,7 @@
                   </layer>
                 </staff>
                 <dynam staff="2" place="below" tstamp="1">f</dynam>
-                <dir staff="1" place="above" tstamp="1">Schnell.</dir>
+                <tempo staff="1" place="above" tstamp="1">Schnell.</tempo>
               </measure>
             </section>
           </score>
@@ -319,7 +319,7 @@
                 </layer>
               </staff>
               <dynam staff="2" place="below" tstamp="1">f</dynam>
-              <dir staff="1" place="above" tstamp="1">Schnell.</dir>
+              <tempo staff="1" place="above" tstamp="1">Schnell.</tempo>
             </measure>
             <measure n="2" xml:id="m2">
               <staff n="1">

@@ -133,7 +133,7 @@
                     </staff>
                     <slur tstamp="0.5" curvedir="below" tstamp2="1m+2.5" staff="2"/>
                     <dynam place="below" tstamp="0.5" staff="1">p</dynam>
-                    <dir place="above" staff="1" layer="1" tstamp="0">Langsam.</dir>
+                    <tempo place="above" staff="1" layer="1" tstamp="0">Langsam.</tempo>
                     <dynam place="below" tstamp="0.5" staff="2">p</dynam>
                   </measure>
                   <measure n="1">
@@ -316,7 +316,7 @@
                         <note pname="a" oct="3" dur="8" artic="stacc"/>
                       </layer>
                     </staff>
-                    <dir tstamp="0.5" place="above" staff="1">Schnell.</dir>
+                    <tempo tstamp="0.5" place="above" staff="1">Schnell.</tempo>
                     <dynam place="below" staff="2" tstamp="1">p</dynam>
                   </measure>
                   <measure n="1">
