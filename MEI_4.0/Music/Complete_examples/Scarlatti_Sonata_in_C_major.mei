@@ -388,7 +388,7 @@
                   </note>
                 </layer>
               </staff>
-              <trill staff="1" startid="#d1e524" place="above" tstamp="3" tstamp2="2"/>
+              <trill staff="1" startid="#d1e524" place="above" tstamp="3"/>
               <slur staff="1" startid="#d1e524" endid="#d1e603" curvedir="above"/>
             </measure>
             <measure n="5" xml:id="d1e601">
@@ -447,7 +447,7 @@
                   <note xml:id="d1e841" pname="g" oct="2" dur="4" stem.dir="up"/>
                 </layer>
               </staff>
-              <trill startid="#d1e781" staff="1" place="above" tstamp="3" tstamp2="2"/>
+              <trill startid="#d1e781" staff="1" place="above" tstamp="3"/>
               <slur staff="1" curvedir="above" startid="#d1e781" endid="#d1e857"/>
               <slur staff="2" curvedir="above" startid="#d1e813" endid="#d1e906"/>
             </measure>
@@ -513,8 +513,8 @@
                   </beam>
                 </layer>
               </staff>
-              <trill staff="1" place="above" tstamp="3" tstamp2="2"/>
-              <trill staff="2" place="above" tstamp="3" tstamp2="2"/>
+              <trill staff="1" place="above" tstamp="3"/>
+              <trill staff="2" place="above" tstamp="3"/>
               <slur staff="1" curvedir="below" startid="#d1e970" endid="#d1e1035"/>
               <slur staff="2" curvedir="above" startid="#d1e1019" endid="#d1e1084"/>
             </measure>
@@ -549,8 +549,8 @@
                   </beam>
                 </layer>
               </staff>
-              <trill staff="1" place="above" tstamp="3" tstamp2="2"/>
-              <trill staff="2" place="above" tstamp="3" tstamp2="2"/>
+              <trill staff="1" place="above" tstamp="3"/>
+              <trill staff="2" place="above" tstamp="3"/>
               <slur staff="1" curvedir="below" tstamp="3" startid="#d1e1069" endid="#d1e1134"/>
               <slur staff="2" curvedir="above" tstamp="3" startid="#d1e1118" endid="#d1e1183"/>
             </measure>
@@ -587,8 +587,8 @@
                   <clef shape="G" line="2"/>
                 </layer>
               </staff>
-              <trill staff="1" place="above" tstamp="3" tstamp2="2"/>
-              <trill staff="2" place="above" tstamp="3" tstamp2="2"/>
+              <trill staff="1" place="above" tstamp="3"/>
+              <trill staff="2" place="above" tstamp="3"/>
               <slur staff="1" curvedir="below" startid="#d1e1168" endid="#d1e1169"/>
               <slur staff="2" curvedir="above" startid="#d1e1217" endid="#die1219"/>
             </measure>
@@ -788,7 +788,7 @@
                 </layer>
               </staff>
               <tie tstamp="1" staff="1" curvedir="above" startid="#d1e2325" endid="#d1e2342"/>
-              <trill staff="1" place="above" tstamp="3" tstamp2="1.5"/>
+              <trill staff="1" place="above" tstamp="3"/>
               <slur staff="1" curvedir="above" startid="#d1e2325" endid="#d1e2503"/>
             </measure>
             <measure n="17" xml:id="d1e2501">
@@ -855,7 +855,7 @@
                   </chord>
                 </layer>
               </staff>
-              <trill staff="1" place="above" tstamp="3" tstamp2="1.5"/>
+              <trill staff="1" place="above" tstamp="3"/>
               <slur staff="1" curvedir="above" startid="#d1e2627" endid="#d1e2827"/>
             </measure>
             <measure n="19" xml:id="d1e2825">
@@ -926,7 +926,7 @@
                 </layer>
               </staff>
               <dynam staff="1" place="below" tstamp="3">cresc.</dynam>
-              <trill staff="1" place="above" tstamp="3" tstamp2="1.5"/>
+              <trill staff="1" place="above" tstamp="3"/>
               <slur staff="1" curvedir="above" startid="#d1e2961" endid="#d1e3176"/>
             </measure>
             <measure n="21" xml:id="d1e3174">
@@ -994,7 +994,7 @@
                   <note xml:id="d1e3514" pname="d" oct="2" dur="4" stem.dir="up"/>
                 </layer>
               </staff>
-              <trill tstamp="3" staff="1" place="above" tstamp2="2"/>
+              <trill tstamp="3" staff="1" place="above"/>
               <slur staff="1" startid="#d1e3454" endid="#d1e3530" curvedir="above"/>
               <slur staff="2" curvedir="below" startid="#d1e3486" endid="#d1e3622"/>
             </measure>
