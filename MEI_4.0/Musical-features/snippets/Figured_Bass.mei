@@ -376,7 +376,16 @@
               </harm>
             </measure>
             <measure n="6" xml:id="m6">
-              <!-- staff 1 and 2 -->
+              <staff n="1">
+                <layer>
+                  <mRest/>
+                </layer>
+              </staff>
+              <staff n="2">
+                <layer>
+                  <mRest/>
+                </layer>
+              </staff>
               <staff n="3">
                 <layer>
                   <beam>
@@ -404,7 +413,16 @@
               </harm>
             </measure>
             <measure n="7" xml:id="m7">
-              <!-- staff 1 and 2 -->
+              <staff n="1">
+                <layer>
+                  <mRest/>
+                </layer>
+              </staff>
+              <staff n="2">
+                <layer>
+                  <mRest/>
+                </layer>
+              </staff>
               <staff n="3">
                 <layer>
                   <beam>
@@ -437,7 +455,16 @@
               </harm>
             </measure>
             <measure n="8" xml:id="m8">
-              <!-- staff 1 and 2 -->
+              <staff n="1">
+                <layer>
+                  <mRest/>
+                </layer>
+              </staff>
+              <staff n="2">
+                <layer>
+                  <mRest/>
+                </layer>
+              </staff>
               <staff n="3">
                 <layer>
                   <beam>
@@ -471,7 +498,16 @@
               </harm>
             </measure>
             <measure n="9" xml:id="m9">
-              <!-- staff 1 and 2 -->
+              <staff n="1">
+                <layer>
+                  <mRest/>
+                </layer>
+              </staff>
+              <staff n="2">
+                <layer>
+                  <mRest/>
+                </layer>
+              </staff>
               <staff n="3">
                 <layer>
                   <beam>
@@ -491,7 +527,16 @@
               </harm>
             </measure>
             <measure n="10" xml:id="m10">
-              <!-- staff 1 and 2 -->
+              <staff n="1">
+                <layer>
+                  <mRest/>
+                </layer>
+              </staff>
+              <staff n="2">
+                <layer>
+                  <mRest/>
+                </layer>
+              </staff>
               <staff n="3">
                 <layer>
                   <beam>
@@ -526,7 +571,16 @@
                            curvedir="above"/>-->
             </measure>
             <measure n="11" xml:id="m11">
-              <!-- staff 1 and 2 -->
+              <staff n="1">
+                <layer>
+                  <mRest/>
+                </layer>
+              </staff>
+              <staff n="2">
+                <layer>
+                  <mRest/>
+                </layer>
+              </staff>
               <staff n="3">
                 <layer>
                   <beam>
@@ -550,7 +604,16 @@
               </harm>
             </measure>
             <measure n="12" xml:id="m12">
-              <!-- staff 1 and 2 -->
+              <staff n="1">
+                <layer>
+                  <mRest/>
+                </layer>
+              </staff>
+              <staff n="2">
+                <layer>
+                  <mRest/>
+                </layer>
+              </staff>
               <staff n="3">
                 <layer>
                   <beam>
@@ -587,7 +650,16 @@
               </harm>
             </measure>
             <measure n="13" xml:id="m13">
-              <!-- staff 1 and 2 -->
+              <staff n="1">
+                <layer>
+                  <mRest/>
+                </layer>
+              </staff>
+              <staff n="2">
+                <layer>
+                  <mRest/>
+                </layer>
+              </staff>
               <staff n="3">
                 <layer>
                   <beam>
@@ -609,7 +681,16 @@
               <trill staff="1" place="above" tstamp="2"/>
             </measure>
             <measure n="14" xml:id="m14">
-              <!-- staff 1 and 2 -->
+              <staff n="1">
+                <layer>
+                  <mRest/>
+                </layer>
+              </staff>
+              <staff n="2">
+                <layer>
+                  <mRest/>
+                </layer>
+              </staff>
               <staff n="3">
                 <layer>
                   <beam>
@@ -640,7 +721,16 @@
               </harm>
             </measure>
             <measure n="15" xml:id="m15">
-              <!-- staff 1 and 2 -->
+              <staff n="1">
+                <layer>
+                  <mRest/>
+                </layer>
+              </staff>
+              <staff n="2">
+                <layer>
+                  <mRest/>
+                </layer>
+              </staff>
               <staff n="3">
                 <layer>
                   <beam>
@@ -661,7 +751,16 @@
               </harm>
             </measure>
             <measure n="16" xml:id="m16">
-              <!-- staff 1 and 2 -->
+              <staff n="1">
+                <layer>
+                  <mRest/>
+                </layer>
+              </staff>
+              <staff n="2">
+                <layer>
+                  <mRest/>
+                </layer>
+              </staff>
               <staff n="3">
                 <layer>
                   <beam>
@@ -693,7 +792,16 @@
               <trill staff="1" place="above" tstamp="2" dur="2"/>
             </measure>
             <measure n="17" xml:id="m17">
-              <!-- staff 1 and 2 -->
+              <staff n="1">
+                <layer>
+                  <mRest/>
+                </layer>
+              </staff>
+              <staff n="2">
+                <layer>
+                  <mRest/>
+                </layer>
+              </staff>
               <staff n="3">
                 <layer>
                   <beam>
@@ -725,7 +833,16 @@
               </harm>
             </measure>
             <measure n="18" xml:id="m18">
-              <!-- staff 1 and 2 -->
+              <staff n="1">
+                <layer>
+                  <mRest/>
+                </layer>
+              </staff>
+              <staff n="2">
+                <layer>
+                  <mRest/>
+                </layer>
+              </staff>
               <staff n="3">
                 <layer>
                   <beam>
@@ -743,7 +860,7 @@
                   <f>6♮</f>
                 </fb>
               </harm>
-              <harm staff="3" place="below" tstamp="2">
+              <harm staff="3" place="below" tstamp="3">
                 <fb>
                   <f>7</f>
                   <f>♮</f>
@@ -751,7 +868,16 @@
               </harm>
             </measure>
             <measure n="19" xml:id="m19">
-              <!-- staff 1 and 2 -->
+              <staff n="1">
+                <layer>
+                  <mRest/>
+                </layer>
+              </staff>
+              <staff n="2">
+                <layer>
+                  <mRest/>
+                </layer>
+              </staff>
               <staff n="3">
                 <layer>
                   <beam>
@@ -787,7 +913,16 @@
               </harm>
             </measure>
             <measure n="20" xml:id="m20">
-              <!-- staff 1 and 2 -->
+              <staff n="1">
+                <layer>
+                  <mRest/>
+                </layer>
+              </staff>
+              <staff n="2">
+                <layer>
+                  <mRest/>
+                </layer>
+              </staff>
               <staff n="3">
                 <layer>
                   <beam>
@@ -822,7 +957,16 @@
               </harm>
             </measure>
             <measure n="21" xml:id="m21">
-              <!-- staff 1 and 2 -->
+              <staff n="1">
+                <layer>
+                  <mRest/>
+                </layer>
+              </staff>
+              <staff n="2">
+                <layer>
+                  <mRest/>
+                </layer>
+              </staff>
               <staff n="3">
                 <layer>
                   <beam>
@@ -847,7 +991,16 @@
               </staff>
             </measure>
             <measure n="22" xml:id="m22">
-              <!-- staff 1 and 2 -->
+              <staff n="1">
+                <layer>
+                  <mRest/>
+                </layer>
+              </staff>
+              <staff n="2">
+                <layer>
+                  <mRest/>
+                </layer>
+              </staff>
               <staff n="3">
                 <layer>
                   <beam>
@@ -865,7 +1018,16 @@
               <slur staff="3" startid="#m22_s3_e1" endid="#m22_s3_e6" curvedir="below"/>
             </measure>
             <measure n="23" xml:id="m23">
-              <!-- staff 1 and 2 -->
+              <staff n="1">
+                <layer>
+                  <mRest/>
+                </layer>
+              </staff>
+              <staff n="2">
+                <layer>
+                  <mRest/>
+                </layer>
+              </staff>
               <staff n="3">
                 <layer>
                   <beam>
@@ -886,7 +1048,16 @@
               <!--<trill staff="1" startid="#m23_s1_e5"/>-->
             </measure>
             <measure n="24" xml:id="m24">
-              <!-- staff 1 and 2 -->
+              <staff n="1">
+                <layer>
+                  <mRest/>
+                </layer>
+              </staff>
+              <staff n="2">
+                <layer>
+                  <mRest/>
+                </layer>
+              </staff>
               <staff n="3">
                 <layer>
                   <beam>
@@ -907,7 +1078,16 @@
               <slur staff="3" startid="#m24_s3_e6" endid="#m24_s3_e6"/>
             </measure>
             <measure n="25" xml:id="m25">
-              <!-- staff 1 and 2 -->
+              <staff n="1">
+                <layer>
+                  <mRest/>
+                </layer>
+              </staff>
+              <staff n="2">
+                <layer>
+                  <mRest/>
+                </layer>
+              </staff>
               <staff n="3">
                 <layer>
                   <beam>
@@ -946,7 +1126,16 @@
                            curvedir="above"/>-->
             </measure>
             <measure n="26" xml:id="m26">
-              <!-- staff 1 and 2 -->
+              <staff n="1">
+                <layer>
+                  <mRest/>
+                </layer>
+              </staff>
+              <staff n="2">
+                <layer>
+                  <mRest/>
+                </layer>
+              </staff>
               <staff n="3">
                 <layer>
                   <note pname="g" oct="3" dur="4"/>
