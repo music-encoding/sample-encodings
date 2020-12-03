@@ -232,7 +232,7 @@
         </changeDesc>
         <date isodate="2015-10-16" />
       </change>
-      <change n="8">
+      <change n="9">
         <changeDesc>
           <p>Converted to version 3.0.0 using mei21To30.xsl, version 1.0 beta</p>
         </changeDesc>
@@ -622,7 +622,6 @@
               <staff n="1">
                 <layer n="1">
                   <mRest xml:id="d1e2297" dur="2" dur.ppq="8" />
-                  <space xml:id="d1e2498" dur="8" dur.ppq="2" />
                 </layer>
               </staff>
               <staff n="2">
@@ -2481,7 +2480,6 @@
               <staff n="1">
                 <layer n="1">
                   <mRest xml:id="d1e15277" dur="2" dur.ppq="8" />
-                  <space xml:id="d1e15485" dur="8" dur.ppq="2" />
                 </layer>
               </staff>
               <staff n="2">
