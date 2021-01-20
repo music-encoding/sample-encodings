@@ -262,13 +262,22 @@
         </changeDesc>
         <date isodate="2020-12-01" />
       </change>
+      <change n="12">
+        <respStmt>
+          <persName>Klaus Rettinghaus</persName>
+        </respStmt>
+        <changeDesc>
+          <p>Fixed wrong accidentals and added MIDI tempo.</p>
+        </changeDesc>
+        <date isodate="2021-01-20" />
+      </change>
     </revisionDesc>
   </meiHead>
   <music>
     <body>
       <mdiv>
         <score>
-          <scoreDef ppq="4" meter.count="2" meter.unit="4" key.sig="4f" key.mode="major" text.name="FreeSerif" text.size="10pt" lyric.name="FreeSerif" lyric.size="11pt" vu.height="0.75mm" page.height="372.534" page.width="287.866" page.leftmar="11.644" page.rightmar="11.644" page.topmar="20.288" page.botmar="20.288">
+          <scoreDef ppq="4" meter.count="2" meter.unit="4" key.sig="4f" key.mode="major" text.name="FreeSerif" text.size="10pt" lyric.name="FreeSerif" lyric.size="11pt" vu.height="0.75mm" page.height="372.534" page.width="287.866" page.leftmar="11.644" page.rightmar="11.644" page.topmar="20.288" page.botmar="20.288" midi.bpm="52">
             <pgHead>
               <anchoredText x="143.933" y="352.246">
                 <rend fontsize="24pt" halign="center" valign="top">MAPLE LEAF RAG.</rend>
@@ -725,30 +734,30 @@
                         <accid accid="n" />
                       </note>
                       <note xml:id="d1e3021" pname="f" oct="4" />
-                      <note xml:id="d1e3038" pname="a" accid.ges="n" oct="4">
+                      <note xml:id="d1e3038" pname="a" oct="4" accid.ges="f" />
+                      <note xml:id="d1e3057" pname="b" accid.ges="n" oct="4">
                         <accid accid="n" />
                       </note>
-                      <note xml:id="d1e3057" pname="b" oct="4" accid.ges="f" />
                     </chord>
                     <chord xml:id="d562e1" dur="8" dur.ppq="2" stem.dir="up" beam="t1">
                       <note xml:id="d1e3076" pname="d" oct="4" accid.ges="n" />
                       <note xml:id="d1e3094" pname="f" oct="4" />
-                      <note xml:id="d1e3112" pname="a" oct="4" accid.ges="n" />
-                      <note xml:id="d1e3129" pname="b" oct="4" accid.ges="f" />
+                      <note xml:id="d1e3112" pname="a" oct="4" accid.ges="f" />
+                      <note xml:id="d1e3129" pname="b" oct="4" accid.ges="n" />
                     </chord>
                   </beam>
                   <beam>
                     <chord xml:id="d570e1" dur="8" dur.ppq="2" stem.dir="up" beam="i1">
                       <note xml:id="d1e3148" pname="d" oct="4" accid.ges="n" />
                       <note xml:id="d1e3166" pname="f" oct="4" />
-                      <note xml:id="d1e3183" pname="a" oct="4" accid.ges="n" />
-                      <note xml:id="d1e3200" pname="b" oct="4" accid.ges="f" />
+                      <note xml:id="d1e3183" pname="a" oct="4" accid.ges="f" />
+                      <note xml:id="d1e3200" pname="b" oct="4" accid.ges="n" />
                     </chord>
                     <chord xml:id="d578e1" dur="8" dur.ppq="2" stem.dir="up" beam="t1">
                       <note xml:id="d1e3219" pname="d" oct="4" accid.ges="n" />
                       <note xml:id="d1e3237" pname="f" oct="4" />
-                      <note xml:id="d1e3254" pname="a" oct="4" accid.ges="n" />
-                      <note xml:id="d1e3271" pname="b" oct="4" accid.ges="f" />
+                      <note xml:id="d1e3254" pname="a" oct="4" accid.ges="f" />
+                      <note xml:id="d1e3271" pname="b" oct="4" accid.ges="n" />
                     </chord>
                   </beam>
                 </layer>
@@ -2582,30 +2591,30 @@
                         <accid accid="n" />
                       </note>
                       <note xml:id="d1e15996" pname="f" oct="4" />
-                      <note xml:id="d1e16013" pname="a" accid.ges="n" oct="4">
+                      <note xml:id="d1e16013" pname="a" oct="4" accid.ges="f" />
+                      <note xml:id="d1e16032" pname="b" accid.ges="n" oct="4">
                         <accid accid="n" />
                       </note>
-                      <note xml:id="d1e16032" pname="b" oct="4" accid.ges="f" />
                     </chord>
                     <chord xml:id="d3004e1" dur="8" dur.ppq="2" stem.dir="up" beam="t1">
                       <note xml:id="d1e16051" pname="d" oct="4" accid.ges="n" />
                       <note xml:id="d1e16069" pname="f" oct="4" />
-                      <note xml:id="d1e16086" pname="a" oct="4" accid.ges="n" />
-                      <note xml:id="d1e16104" pname="b" oct="4" accid.ges="f" />
+                      <note xml:id="d1e16086" pname="a" oct="4" accid.ges="f" />
+                      <note xml:id="d1e16104" pname="b" oct="4" accid.ges="n" />
                     </chord>
                   </beam>
                   <beam>
                     <chord xml:id="d3012e1" dur="8" dur.ppq="2" stem.dir="up" beam="i1">
                       <note xml:id="d1e16123" pname="d" oct="4" accid.ges="n" />
                       <note xml:id="d1e16141" pname="f" oct="4" />
-                      <note xml:id="d1e16158" pname="a" oct="4" accid.ges="n" />
-                      <note xml:id="d1e16175" pname="b" oct="4" accid.ges="f" />
+                      <note xml:id="d1e16158" pname="a" oct="4" accid.ges="f" />
+                      <note xml:id="d1e16175" pname="b" oct="4" accid.ges="n" />
                     </chord>
                     <chord xml:id="d3020e1" dur="8" dur.ppq="2" stem.dir="up" beam="t1">
                       <note xml:id="d1e16194" pname="d" oct="4" accid.ges="n" />
                       <note xml:id="d1e16212" pname="f" oct="4" />
-                      <note xml:id="d1e16229" pname="a" oct="4" accid.ges="n" />
-                      <note xml:id="d1e16246" pname="b" oct="4" accid.ges="f" />
+                      <note xml:id="d1e16229" pname="a" oct="4" accid.ges="f" />
+                      <note xml:id="d1e16246" pname="b" oct="4" accid.ges="n" />
                     </chord>
                   </beam>
                 </layer>
