@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://music-encoding.org/schema/4.0.1/mei-all_anyStart.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://music-encoding.org/schema/4.0.1/mei-all_anyStart.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<perfMedium xmlns="http://www.music-encoding.org/ns/mei">
+   <head>Dolly | six pièces | pour | piano à 4 mains | par | Gabriel Fauré | op. 56.</head>
+   
+   <perfResList>
+      <!-- piano 4 hands -->
+      <perfRes auth="ka" label="piano">
+         <perfRes label="prima">
+            <perfRes label="hand">right</perfRes>
+            <perfRes label="hand">left</perfRes>
+         </perfRes>
+         <perfRes label="seconda">
+            <perfRes label="hand">right</perfRes>
+            <perfRes label="hand">left</perfRes>
+         </perfRes>
+      </perfRes>
+   </perfResList>
+   
+   <annot>@auth.uri for the following &lt;perfRes/&gt; is https://www.loc.gov/standards/valuelist/marcmusperf.html</annot>
+   <annot>The score is available on IMSLP: https://imslp.org/wiki/Dolly_Suite,_Op.56_(Faur%C3%A9,_Gabriel)</annot>
+</perfMedium>
