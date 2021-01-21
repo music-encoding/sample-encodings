@@ -6,9 +6,10 @@
    
    <perfResList label="Sonata IV–V">
       <perfRes auth="ka">piano</perfRes>
-      <perfResList>
-         <perfRes auth="sa" type="alt">violin</perfRes>
-         <perfRes auth="wa" type="alt">flute</perfRes>
+      <perfResList type="alternatives">
+         <perfRes auth="sa">violin</perfRes>
+         <!-- or -->
+         <perfRes auth="wa">flute</perfRes>
       </perfResList>
    </perfResList>
    
