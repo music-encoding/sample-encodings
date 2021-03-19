@@ -5,11 +5,11 @@
    <head>Sechs leichte Sonaten fürs Clavier oder Piano=Forte, | wovon | Zwei mit Begleitung einer Flöte oder Violine | und | Eine für drei Hände auf Einem Claviere, | von | Johann Wilhelm Häßler, | Musikdirektor des öffentlichen Konzerts und Organist an der Barfüßerkirche in Erfurth.</head>
    
    <perfResList label="Sonata IV–V">
-      <perfRes auth="ka">piano</perfRes>
+      <perfRes codedval="ka">piano</perfRes>
       <perfResList type="alternatives">
-         <perfRes auth="sa">violin</perfRes>
+         <perfRes codedval="sa">violin</perfRes>
          <!-- or -->
-         <perfRes auth="wa">flute</perfRes>
+         <perfRes codedval="wa">flute</perfRes>
       </perfResList>
    </perfResList>
    

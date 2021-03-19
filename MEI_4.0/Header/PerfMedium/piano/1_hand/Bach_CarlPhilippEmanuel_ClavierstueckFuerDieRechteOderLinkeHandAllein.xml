@@ -5,7 +5,7 @@
     <head>Bach, Carl Philipp Emanuel: Clavierstück für die rechte oder linke Hand allein.</head>
     
     <perfResList>
-        <perfRes auth="ka" label="piano">
+        <perfRes label="piano" codedval="ka">
             <!-- alternatives! -->
             <perfRes label="hand" solo="true" type="alt">right</perfRes>
             <perfRes label="hand" solo="true" type="alt">left</perfRes>

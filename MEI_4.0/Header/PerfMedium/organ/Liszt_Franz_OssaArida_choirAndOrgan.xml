@@ -6,10 +6,10 @@
    </head>
    <perfResList>
       <perfResList label="choirMens" type="unanimous">
-         <perfRes auth="vd">tenor</perfRes>
-         <perfRes auth="vf">bass</perfRes>
+         <perfRes codedval="vd">tenor</perfRes>
+         <perfRes codedval="vf">bass</perfRes>
       </perfResList>
-      <perfRes auth="kb" label="organ">
+      <perfRes label="organ" codedval="kb">
          <perfRes label="perf.i">
             <perfRes label="hand">right Hand</perfRes>
             <perfRes label="hand">left Hand</perfRes>

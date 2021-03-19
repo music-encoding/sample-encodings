@@ -6,7 +6,7 @@
    
    <perfResList>
       <!-- piano 5 hands on 1 piano -->
-      <perfRes auth="ka" label="piano">
+      <perfRes label="piano" codedval="ka">
          <perfRes label="3mePartie">
             <perfRes label="hand">right</perfRes>
             <perfRes label="hand">left</perfRes>

@@ -7,7 +7,7 @@
    <perfResList type="alternatives">
       
       <!-- organ with obbligato pedal -->
-      <perfRes auth="" label="organ">
+      <perfRes label="organ" codedval="kb">
          <perfRes label="hand"></perfRes>
          <perfRes label="hand"></perfRes>
          <perfRes label="pedal" type="obligat">
@@ -17,13 +17,13 @@
       </perfRes>
       
       <!-- piano 2 hands -->
-      <perfRes auth="ka" label="piano">
+      <perfRes label="piano" codedval="ka">
             <perfRes label="hand">right</perfRes>
             <perfRes label="hand">left</perfRes>
       </perfRes>
       
       <!-- piano 3 hands -->
-      <perfRes auth="ka" label="piano">
+      <perfRes label="piano" codedval="ka">
          <perfRes label="playerOne">
             <perfRes label="hand">right</perfRes>
             <perfRes label="hand">left</perfRes>
@@ -34,7 +34,7 @@
       </perfRes>
       
       <!-- piano 4 hands -->
-      <perfRes auth="ka" label="piano">
+      <perfRes label="piano" codedval="ka">
          <perfRes label="playerOne">
             <perfRes label="hand">right</perfRes>
             <perfRes label="hand">left</perfRes>

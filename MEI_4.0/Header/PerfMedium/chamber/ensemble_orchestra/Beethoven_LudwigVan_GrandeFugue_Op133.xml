@@ -6,10 +6,10 @@
    
    <perfResList>
       <!-- string ensemble/orchestra @count > 1 -->
-      <perfRes auth="sa" label="violin.i">Violin I</perfRes>
-      <perfRes auth="sa" label="violin.ii">Violin II</perfRes>
-      <perfRes auth="sb" label="viola">Viola</perfRes>
-      <perfRes auth="sc" label="violoncello">Violoncello</perfRes>
+      <perfRes label="violin.i" codedval="sa">Violin I</perfRes>
+      <perfRes label="violin.ii" codedval="sa">Violin II</perfRes>
+      <perfRes label="viola" codedval="sb">Viola</perfRes>
+      <perfRes label="violoncello" codedval="sc">Violoncello</perfRes>
    </perfResList>
    
    <annot>@auth.uri for the following &lt;perfRes/&gt; is https://www.loc.gov/standards/valuelist/marcmusperf.html</annot>

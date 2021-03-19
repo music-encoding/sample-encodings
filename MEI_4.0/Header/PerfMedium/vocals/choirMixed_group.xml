@@ -5,10 +5,10 @@
     <perfResList>
         <!-- choir as group (perfResList) -->
         <perfResList label="choir">
-            <perfRes auth="va">soprano</perfRes>
-            <perfRes auth="vc">alto</perfRes>
-            <perfRes auth="vd">tenor</perfRes>
-            <perfRes auth="vf">bass</perfRes>
+            <perfRes codedval="va">soprano</perfRes>
+            <perfRes codedval="vc">alto</perfRes>
+            <perfRes codedval="vd">tenor</perfRes>
+            <perfRes codedval="vf">bass</perfRes>
         </perfResList>
     </perfResList>
 </perfMedium>

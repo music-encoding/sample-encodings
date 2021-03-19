@@ -6,7 +6,7 @@
    
    <perfResList>
       <!-- piano 3 hands -->
-      <perfRes auth="ka" label="piano">
+      <perfRes label="piano" codedval="ka">
          <perfRes label="primo">
             <!-- alternatives! -->
             <perfRes label="hand" type="alt">right</perfRes>

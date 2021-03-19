@@ -10,13 +10,13 @@
         <castItem xml:id="perf.perc-01">Performer percussion</castItem>
     </castList>
     <perfResList>
-        <perfResList auth="winds">
+        <perfResList codedval="winds">
             <perfRes count="1" corresp="#perf.flute-03">piccolo</perfRes>
             <perfRes count="1" corresp="#perf.flute-01">flute I</perfRes>
             <perfRes count="1" corresp="#perf.flute-02">flute II</perfRes>
             <perfRes count="1" corresp="#perf.flute-03">flute III</perfRes>
         </perfResList>
-        <perfResList auth="percussion">
+        <perfResList codedval="percussion">
             <!-- Here The group is somewhere else -->
             <perfRes count="1" corresp="#perf.perc-01">bass drum</perfRes>
             <perfRes count="1" corresp="#perf.perc-01">snare drum</perfRes>

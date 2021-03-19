@@ -4,11 +4,11 @@
 <perfMedium xmlns="http://www.music-encoding.org/ns/mei">
     <perfResList>
         <!-- choir as »instrument« (perfRes) -->
-        <perfRes auth="choir">
-            <perfRes auth="va">soprano</perfRes>
-            <perfRes auth="vc">alto</perfRes>
-            <perfRes auth="vd">tenor</perfRes>
-            <perfRes auth="vf">bass</perfRes>
+        <perfRes codedval="choir">
+            <perfRes codedval="va">soprano</perfRes>
+            <perfRes codedval="vc">alto</perfRes>
+            <perfRes codedval="vd">tenor</perfRes>
+            <perfRes codedval="vf">bass</perfRes>
         </perfRes>
     </perfResList>
 </perfMedium>
