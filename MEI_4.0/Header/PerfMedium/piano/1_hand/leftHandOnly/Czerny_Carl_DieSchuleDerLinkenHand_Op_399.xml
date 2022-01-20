@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://music-encoding.org/schema/4.0.1/mei-all_anyStart.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://music-encoding.org/schema/4.0.1/mei-all_anyStart.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<perfMedium xmlns="http://www.music-encoding.org/ns/mei">
+    <head>Czerny, Carl: Die Schule der linken Hand, Op.399</head>
+    
+    <perfResList>
+        <perfRes label="piano" codedval="ka">
+            <perfRes label="hand">left</perfRes>
+        </perfRes>
+    </perfResList>
+    
+    <annot>@auth.uri for the following &lt;perfRes/&gt; is https://www.loc.gov/standards/valuelist/marcmusperf.html</annot>
+    <annot>The score is available on IMSLP: https://imslp.org/wiki/Die_Schule_der_linken_Hand%2C_Op.399_(Czerny%2C_Carl)</annot>
+</perfMedium>
