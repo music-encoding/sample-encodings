@@ -458,8 +458,8 @@
                   <note xml:id="d1e906" pname="c" oct="2" dur="2" stem.dir="up"/>
                   <note xml:id="d1e920" pname="c" oct="4" dur="2" stem.dir="down"/>
                   <beam>
-                    <note pname="b" oct="3" stem.dir="up" grace="unknown"/>
-                    <note pname="c" oct="4" stem.dir="up" grace="unknown"/>
+                    <note pname="b" oct="3" dur="16" stem.dir="up" grace="unknown"/>
+                    <note pname="c" oct="4" dur="16" stem.dir="up" grace="unknown"/>
                   </beam>
                 </layer>
               </staff>

@@ -635,7 +635,7 @@
                   <note xml:id="m11_s2_e1" pname="b" oct="4" dur="8" stem.dir="down"/>
                   <rest xml:id="m11_s2_e2" dur="8"/>
                   <note xml:id="m11_s2_e3" pname="b" oct="3" dur="2" stem.dir="up"/>
-                  <note xml:id="m11_s2_e4" pname="c" accid="f" oct="4" stem.dir="up"/>
+                  <note xml:id="m11_s2_e4" pname="c" accid="f" oct="4" dur="4" stem.dir="up"/>
                 </layer>
               </staff>
               <staff n="3">
@@ -1535,10 +1535,10 @@
                     <note xml:id="m32_s3_e4" pname="f" oct="4" dur="8" stem.dir="down"/>
                   </beam>
                   <beam>
-                    <note xml:id="m32_s3_e5" pname="g" accid="n" oct="4" stem.dir="down"/>
-                    <note xml:id="m32_s3_e6" pname="g" oct="4" stem.dir="down"/>
-                    <note xml:id="m32_s3_e7" pname="g" oct="4" stem.dir="down"/>
-                    <note xml:id="m32_s3_e8" pname="g" oct="4" stem.dir="down"/>
+                    <note xml:id="m32_s3_e5" pname="g" accid="n" oct="4" dur="8" stem.dir="down"/>
+                    <note xml:id="m32_s3_e6" pname="g" oct="4" dur="8" stem.dir="down"/>
+                    <note xml:id="m32_s3_e7" pname="g" oct="4" dur="8" stem.dir="down"/>
+                    <note xml:id="m32_s3_e8" pname="g" oct="4" dur="8" stem.dir="down"/>
                   </beam>
                 </layer>
               </staff>
@@ -2774,7 +2774,7 @@
                 <layer n="1">
                   <note xml:id="m51_s4_e1" pname="d" oct="3" dur="4" stem.dir="down"/>
                   <note xml:id="m51_s4_e2" pname="d" oct="3" dur="4" stem.dir="down"/>
-                  <note xml:id="m51_s4_e3" pname="f" oct="3" grace="unknown" stem.dir="up"/>
+                  <note xml:id="m51_s4_e3" pname="f" oct="3" dur="8" grace="unknown" stem.dir="up"/>
                   <note xml:id="m51_s4_e4" pname="e" accid="f" oct="3" dur="4" stem.dir="down"/>
                   <note xml:id="m51_s4_e5" pname="d" oct="3" dur="4" stem.dir="down"/>
                 </layer>

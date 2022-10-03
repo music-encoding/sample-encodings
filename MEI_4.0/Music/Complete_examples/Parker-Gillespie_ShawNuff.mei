@@ -546,7 +546,7 @@
               <staff n="1">
                 <staffDef n="1" lines="5" clef.shape="G" clef.line="2" clef.visible="true"/>
                 <layer n="1">
-                  <note cue="true" head.shape="slash" stem.dir="up"/>
+                  <note dur="4" loc="11" cue="true" head.shape="slash" stem.dir="up"/>
                   <rest dur="4" cue="true"/>
                   <rest dur="2" cue="true"/>
                 </layer>
@@ -689,9 +689,9 @@
                   <tuplet num="3" numbase="2" bracket.place="below" num.visible="true"
                     num.place="below">
                     <beam>
-                      <note pname="c" stem.dir="down" oct="5" xml:id="m19s1e3"/>
-                      <note pname="d" oct="5" stem.dir="down" xml:id="m19s1e4"/>
-                      <note pname="a" oct="5" stem.dir="down" xml:id="m19s1e5"/>
+                      <note pname="c" oct="5" dur="8" stem.dir="down" xml:id="m19s1e3"/>
+                      <note pname="d" oct="5" dur="8" stem.dir="down" xml:id="m19s1e4"/>
+                      <note pname="a" oct="5" dur="8" stem.dir="down" xml:id="m19s1e5"/>
                     </beam>
                   </tuplet>
                   <beam>
@@ -727,7 +727,7 @@
                     <note pname="b" oct="4" dur="8" stem.dir="down" xml:id="m20s1e5"/>
                     <note pname="a" oct="4" dur="8" stem.dir="down" xml:id="m20s1e6"/>
                     <note pname="g" oct="4" dur="8" stem.dir="down" xml:id="m20s1e7"/>
-                    <note pname="g" oct="4" accid="f" stem.dir="down" xml:id="m20s1e8"/>
+                    <note pname="g" oct="4" dur="8" accid="f" stem.dir="down" xml:id="m20s1e8"/>
                   </beam>
                 </layer>
               </staff>
@@ -849,7 +849,7 @@
                     <note pname="g" oct="5" dur="8" stem.dir="down" xml:id="m25s1e5"/>
                     <note pname="g" oct="5" dur="8" stem.dir="down" accid="f" xml:id="m25s1e6"/>
                     <note pname="f" oct="5" dur="8" stem.dir="down" xml:id="m25s1e7"/>
-                    <note pname="f" oct="5" accid="f" stem.dir="down" xml:id="m25s1s8"/>
+                    <note pname="f" oct="5" dur="8" accid="f" stem.dir="down" xml:id="m25s1s8"/>
                   </beam>
                 </layer>
               </staff>

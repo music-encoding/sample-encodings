@@ -270,7 +270,7 @@
                       <note pname="e" oct="5"/>
                     </chord>
                     <rest dur="8"/>
-                    <note pname="a" oct="4" artic="stacc"/>
+                    <note pname="a" oct="4" dur="8" artic="stacc"/>
                   </layer>
                 </staff>
                 <staff n="3">
@@ -567,7 +567,7 @@
                     <note pname="e" oct="5"/>
                   </chord>
                   <rest dur="8"/>
-                  <note pname="a" oct="4" artic="stacc"/>
+                  <note pname="a" oct="4" dur="8" artic="stacc"/>
                 </layer>
               </staff>
               <staff n="3">
@@ -720,7 +720,7 @@
               <staff n="3">
                 <layer>
                   <beam>
-                    <note pname="b" oct="3" artic="stacc"/>
+                    <note pname="b" oct="3" dur="8" artic="stacc"/>
                     <chord dur="8" artic="stacc">
                       <note pname="e" oct="3"/>
                       <note pname="a" oct="3"/>
@@ -771,7 +771,7 @@
                     <note pname="c" oct="4"/>
                   </chord>
                   <rest dur="8"/>
-                  <note pname="a" oct="3"/>
+                  <note pname="a" oct="3" dur="8"/>
                 </layer>
               </staff>
             </measure>
