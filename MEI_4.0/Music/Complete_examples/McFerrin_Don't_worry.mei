@@ -167,7 +167,10 @@
                       <note pname="e" oct="4" dur="16" stem.dir="up"/>
                     </beam>
                     <note pname="d" oct="4" dur="2" dots="1" stem.dir="up"/>
-                    <note pname="g" oct="5" head.shape="slash" head.fill="void" stem.dir="up">
+                  </layer>
+                  <layer n="2">
+                    <space dur="2" dots="1"/>
+                    <note pname="g" oct="5" dur="4" head.shape="x" head.fill="void" stem.dir="up">
                       <verse n="1">
                         <syl>Don´t</syl>
                       </verse>
@@ -282,7 +285,7 @@
                   </layer>
                   <layer n="2">
                     <space dur="2" dots="1"/>
-                    <note pname="g" oct="5" head.shape="slash" head.fill="void" stem.dir="up"
+                    <note pname="g" oct="5" dur="4" head.shape="x" head.fill="void" stem.dir="up"
                       xml:id="m3e4">
                       <verse n="1">
                         <syl>Don´t</syl>
@@ -305,13 +308,13 @@
                   </layer>
                   <layer n="2">
                     <beam>
-                      <note pname="g" oct="5" head.shape="slash" head.fill="void" xml:id="m4e1"
+                      <note pname="g" oct="5" dur="8" head.shape="x" head.fill="void" xml:id="m4e1"
                         stem.dir="up">
                         <verse n="1">
                           <syl wordpos="i" con="d">wor</syl>
                         </verse>
                       </note>
-                      <note pname="g" oct="5" head.shape="slash" head.fill="void" xml:id="m4e2"
+                      <note pname="g" oct="5" dur="8" head.shape="x" head.fill="void" xml:id="m4e2"
                         stem.dir="up">
                         <verse n="1">
                           <syl wordpos="t">ry</syl>
@@ -332,7 +335,7 @@
                   </layer>
                   <layer n="2">
                     <space dur="2" dots="1"/>
-                    <note pname="g" oct="5" head.shape="slash" head.fill="void" stem.dir="up"
+                    <note pname="g" oct="5" dur="4" head.shape="x" head.fill="void" stem.dir="up"
                       xml:id="m5e4">
                       <verse n="1">
                         <syl>be</syl>
@@ -358,13 +361,13 @@
                   </layer>
                   <layer n="2">
                     <beam>
-                      <note pname="g" oct="5" head.shape="slash" head.fill="void" stem.dir="up"
+                      <note pname="g" oct="5" dur="8" head.shape="x" head.fill="void" stem.dir="up"
                         xml:id="m6e1">
                         <verse n="1">
                           <syl wordpos="i" con="d">hap</syl>
                         </verse>
                       </note>
-                      <note pname="g" oct="5" head.shape="slash" head.fill="void" stem.dir="up"
+                      <note pname="g" oct="5" dur="8" head.shape="x" head.fill="void" stem.dir="up"
                         xml:id="m6e2">
                         <verse n="1">
                           <syl wordpos="t">py</syl>
@@ -381,7 +384,7 @@
                   </layer>
                   <layer n="2">
                     <space dur="2" dots="1"/>
-                    <note pname="b" oct="3" fontsize="small" stem.dir="up" xml:id="m7e2">
+                    <note pname="b" oct="3" dur="4" fontsize="small" stem.dir="up" xml:id="m7e2">
                       <verse n="1">
                         <syl>Don´t</syl>
                       </verse>
@@ -477,7 +480,7 @@
                   </layer>
                   <layer n="2">
                     <space dur="2" dots="1"/>
-                    <note pname="g" oct="5" head.shape="slash" head.fill="void" stem.dir="up"
+                    <note pname="g" oct="5" dur="4" head.shape="x" head.fill="void" stem.dir="up"
                       xml:id="m11e7">
                       <verse>
                         <syl>Don´t</syl>
@@ -512,13 +515,13 @@
                   </layer>
                   <layer n="2">
                     <beam>
-                      <note pname="g" oct="5" head.shape="slash" head.fill="void" xml:id="m12e1"
+                      <note pname="g" oct="5" dur="8" head.shape="x" head.fill="void" xml:id="m12e1"
                         stem.dir="up">
                         <verse>
                           <syl con="d" wordpos="i">wor</syl>
                         </verse>
                       </note>
-                      <note pname="g" oct="5" head.shape="slash" head.fill="void" xml:id="m12e2"
+                      <note pname="g" oct="5" dur="8" head.shape="x" head.fill="void" xml:id="m12e2"
                         stem.dir="up">
                         <verse>
                           <syl wordpos="t">ry</syl>
@@ -548,7 +551,7 @@
                   </layer>
                   <layer n="2">
                     <space dur="2" dots="1"/>
-                    <note pname="g" oct="5" dur="4" stem.dir="up" head.shape="slash"
+                    <note pname="g" oct="5" dur="4" stem.dir="up" head.shape="x"
                       head.fill="void" xml:id="m13x1">
                       <verse>
                         <syl>be</syl>
@@ -585,13 +588,13 @@
                   </layer>
                   <layer n="2">
                     <beam>
-                      <note pname="g" oct="5" dur="8" stem.dir="up" head.shape="slash"
+                      <note pname="g" oct="5" dur="8" stem.dir="up" head.shape="x"
                         head.fill="void" xml:id="m14x1">
                         <verse>
                           <syl con="d" wordpos="i">hap</syl>
                         </verse>
                       </note>
-                      <note pname="g" oct="5" dur="8" stem.dir="up" head.shape="slash"
+                      <note pname="g" oct="5" dur="8" stem.dir="up" head.shape="x"
                         head.fill="void" xml:id="m14x2">
                         <verse>
                           <syl wordpos="t">py</syl>
