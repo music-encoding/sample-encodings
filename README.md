@@ -1,6 +1,6 @@
 # The MEI Sample Encodings
 
-The MEI Sample Encodings contain a wide range of MEI-encoded music files. The intent is to demonstrate the use of MEI in real-world contexts. The current MEI Release is 4.0.1. Samples from previous releases may be found in the `legacy` and `MEI_3.0` directories.
+The MEI Sample Encodings contain a wide range of MEI-encoded music files. The intent is to demonstrate the use of MEI in real-world contexts. The current MEI Release is 4.0.1. Samples from previous releases may be found in the `MEI_3.0` and `legacy` directories.
 
 ## Contributing
 
