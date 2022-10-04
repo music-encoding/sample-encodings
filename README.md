@@ -1,6 +1,8 @@
 # The MEI Sample Encodings
 
-The MEI Sample Encodings contain a wide range of MEI-encoded music files. The intent is to demonstrate the use of MEI in real-world contexts. The current MEI Release is 3.0.0. Samples from previous releases may be found in the 'legacy' directory.
+The MEI Sample Encodings contain a wide range of MEI-encoded music files. The intent is to demonstrate the use of MEI in real-world contexts. The current MEI Release is 4.0.1. Samples from previous releases may be found in the `MEI_3.0` and `legacy` directories.
+
+## Contributing
 
 If you have encodings you would like to contribute, please do! Of particular interest are encodings that demonstrate new or unique ways of encoding music to serve as a demonstration of the use of MEI for particular repertoires, or for particular use cases.
 
@@ -12,4 +14,10 @@ We accept "pull requests" from GitHub as an easy way to contribute your own file
 
 This will notify us of your desire to add files to this repository, and we will review your additions before accepting them.
 
-If you are not comfortable with this process but would still like to contribute, please get in touch with the MEI Technical Team. You can e-mail andrew.hankinson /at/ gmail.com.
+If you are not comfortable with this process but would still like to contribute, please get in touch with the [MEI Technical Team](https://music-encoding.org/community/technical-team.html).
+
+### License
+
+Copyright (c) Music Encoding Initiative (MEI) Board.
+
+This repo is released under the [ECL-2.0](LICENSE), and original creations contributed to this repo are accepted under the same license.
