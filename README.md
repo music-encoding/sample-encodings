@@ -13,3 +13,9 @@ We accept "pull requests" from GitHub as an easy way to contribute your own file
 This will notify us of your desire to add files to this repository, and we will review your additions before accepting them.
 
 If you are not comfortable with this process but would still like to contribute, please get in touch with the MEI Technical Team. You can e-mail andrew.hankinson /at/ gmail.com.
+
+### License
+
+Copyright (c) Music Encoding Initiative (MEI) Board.
+
+This repo is released under the [ECL-2.0](LICENSE), and original creations contributed to this repo are accepted under the same license.
