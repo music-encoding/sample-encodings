@@ -81,8 +81,13 @@
     </fileDesc>
     <encodingDesc>
       <appInfo>
-        <application version="v1.0_beta" xml:id="app_20193104008945">
+        <application version="v1.0_beta" xml:id="mei21To30">
+          <name>mei21To30.xsl</name>
+          <ptr target="https://github.com/music-encoding/encoding-tools/blob/main/mei21To30/mei21To30.xsl"/>
+        </application>
+        <application version="v1.0_beta" xml:id="mei30To40">
           <name>mei30To40.xsl</name>
+          <ptr target="https://github.com/music-encoding/encoding-tools/blob/main/mei30To40/mei30To40.xsl"/>
         </application>
       </appInfo>
       <editorialDecl>
@@ -181,13 +186,13 @@
         </changeDesc>
         <date isodate="2012-12-06"/>
       </change>
-      <change n="3">
+      <change n="3" resp="#mei21To30">
         <changeDesc>
           <p>Converted to version 3.0.0 using mei21To30.xsl, version 1.0 beta</p>
         </changeDesc>
         <date isodate="2015-10-16"/>
       </change>
-      <change resp="#app_20193104008945">
+      <change resp="#mei30To40">
         <changeDesc>
           <p>Converted to MEI version 4.0.0 using mei30To40.xsl, version 1.0 beta</p>
         </changeDesc>
