@@ -168,6 +168,9 @@
     </workList>
     <revisionDesc>
       <change n="1">
+        <respStmt>
+           <name>Unknown</name>
+        </respStmt>
         <changeDesc>
           <p>The original MusicXML file was generated using PDFtoMusic Pro v1.2.1d Build 9F9F (c) Myriad - http://www.myriad-online.com.</p>
         </changeDesc>
@@ -236,6 +239,9 @@
         <date isodate="2014-06-02" />
       </change>
       <change n="8">
+        <respStmt>
+           <name>Unknown</name>
+        </respStmt>
         <changeDesc>
           <p>File corrupted; imported MusicXML file into MuseScore, corrected minor errors and page layout where different from original PDF, exported as MusicXML and converted to MEI 2013.</p>
         </changeDesc>
