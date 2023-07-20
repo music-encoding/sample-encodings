@@ -2,7 +2,7 @@
 <?xml-model href="http://music-encoding.org/schema/4.0.1/mei-all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
 <?xml-model href="http://music-encoding.org/schema/4.0.1/mei-all.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
 <mei xmlns="http://www.music-encoding.org/ns/mei" xmlns:xlink="http://www.w3.org/1999/xlink"
-  xmlns:functx="http://www.functx.com" meiversion="4.0.0">
+  xmlns:functx="http://www.functx.com" meiversion="4.0.1">
   <meiHead>
     <fileDesc>
       <titleStmt>
