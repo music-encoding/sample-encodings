@@ -55,6 +55,21 @@
         </respStmt>
       </seriesStmt>
     </fileDesc>
+    <encodingDesc>
+      <appInfo>
+        <application version="v1.0_beta" xml:id="mei30To40">
+          <name>mei30To40.xsl</name>
+        </application>
+      </appInfo>
+    </encodingDesc>
+    <revisionDesc>
+      <change n="1" resp="#mei30To40">
+        <changeDesc>
+          <p>Converted to MEI version 4.0.0 using mei30To40.xsl, version 1.0 beta</p>
+        </changeDesc>
+        <date isodate="2019-01-03"/>
+      </change>
+    </revisionDesc>
   </meiHead>
   <music>
     <body>

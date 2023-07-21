@@ -55,17 +55,32 @@
         </respStmt>
       </seriesStmt>
     </fileDesc>
+    <encodingDesc>
+      <appInfo>
+        <application xml:id="SharpEye2" version="2">
+          <name>SharpEye</name>
+        </application>
+        <application xml:id="xsl_2mei_2.2.1" version="2.2.1">
+          <name>2mei</name>
+        </application>
+        <application version="v1.0_beta" xml:id="mei21To30">
+          <name>mei21To30.xsl</name>
+          <ptr target="https://github.com/music-encoding/encoding-tools/blob/main/mei21To30/mei21To30.xsl"/>
+        </application>
+        <application version="v1.0_beta" xml:id="mei30To40">
+          <name>mei30To40.xsl</name>
+          <ptr target="https://github.com/music-encoding/encoding-tools/blob/main/mei30To40/mei30To40.xsl"/>
+        </application>
+      </appInfo>
+    </encodingDesc>
     <revisionDesc>
-      <change n="1">
+      <change n="1" resp="#SharpEye2">
         <changeDesc>
           <p>The original MusicXML file was generated using SharpEye Music Reader 2.</p>
         </changeDesc>
         <date/>
       </change>
-      <change n="2">
-        <respStmt>
-          <persName/>
-        </respStmt>
+      <change n="2" resp="#xsl_2mei_2.2.1">
         <changeDesc>
           <p>Transcoded from a MusicXML version 1.0 file on 2009-11-06 using the <ref
             target="#xsl_2mei_2.2.1">2mei</ref> stylesheet. </p>
@@ -90,13 +105,13 @@
         </changeDesc>
         <date isodate="2011-12-13"/>
       </change>
-      <change n="5">
+      <change n="5" resp="#mei21To30">
         <changeDesc>
           <p>Converted to version 3.0.0 using mei21To30.xsl, version 1.0 beta</p>
         </changeDesc>
         <date isodate="2015-11-18"/>
       </change>
-      <change n="6" resp="#app_20193104011932">
+      <change n="6" resp="#mei30To40">
         <changeDesc>
           <p>Converted to MEI version 4.0.0 using mei30To40.xsl, version 1.0 beta</p>
         </changeDesc>

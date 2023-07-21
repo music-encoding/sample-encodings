@@ -77,13 +77,19 @@
     </fileDesc>
     <encodingDesc>
       <appInfo>
-        <application>
-          <name>This document was converted from MusicXML to MEI by the stylesheet
+        <application xml:id="musicxml2mei" version="2.2.3">
+          <name>2mei</name>
+          <p>This document was converted from MusicXML to MEI by the stylesheet
             musicxml2mei-2.2.3.xsl. After that the file has been enriched with additional meta-data
-            and cleansed from remaining artifacts of the MusicXML conversion.</name>
+            and cleansed from remaining artifacts of the MusicXML conversion.</p>
         </application>
-        <application version="v1.0_beta" xml:id="app_2019310402239">
+        <application version="v1.0_beta" xml:id="mei21To30">
+          <name>mei21To30.xsl</name>
+          <ptr target="https://github.com/music-encoding/encoding-tools/blob/main/mei21To30/mei21To30.xsl"/>
+        </application>
+        <application version="v1.0_beta" xml:id="mei30To40">
           <name>mei30To40.xsl</name>
+          <ptr target="https://github.com/music-encoding/encoding-tools/blob/main/mei30To40/mei30To40.xsl"/>
         </application>
       </appInfo>
       <editorialDecl>
@@ -193,7 +199,7 @@
         </changeDesc>
         <date isodate="2013-01-28"/>
       </change>
-      <change n="5">
+      <change n="5" resp="#mei21To30">
         <changeDesc>
           <p>Converted to version 3.0.0 using mei21To30.xsl, version 1.0 beta</p>
         </changeDesc>
@@ -209,7 +215,7 @@
         </changeDesc>
         <date isodate="2016-08-29"/>
       </change>
-      <change n="7" resp="#app_2019310402239">
+      <change n="7" resp="#mei30To40">
         <changeDesc>
           <p>Converted to MEI version 4.0.0 using mei30To40.xsl, version 1.0 beta</p>
         </changeDesc>
