@@ -168,7 +168,7 @@
       </work>
     </workList>
     <revisionDesc>
-      <change>
+      <change n="1">
         <respStmt>
           <persName>Perry Roland</persName>
         </respStmt>
@@ -192,7 +192,7 @@
         </changeDesc>
         <date isodate="2015-10-16"/>
       </change>
-      <change resp="#mei30To40">
+      <change n="4" resp="#mei30To40">
         <changeDesc>
           <p>Converted to MEI version 4.0.0 using mei30To40.xsl, version 1.0 beta</p>
         </changeDesc>

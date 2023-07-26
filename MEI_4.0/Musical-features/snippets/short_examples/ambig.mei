@@ -68,7 +68,7 @@
       </appInfo>
     </encodingDesc>
     <revisionDesc>
-      <change>
+      <change n="1">
         <respStmt>
           <persName xml:id="KR"> Kristina Richts </persName>
         </respStmt>
@@ -83,7 +83,7 @@
         </changeDesc>
         <date isodate="2015-11-18"/>
       </change>
-      <change resp="#mei30To40">
+      <change n="3" resp="#mei30To40">
         <changeDesc>
           <p>Converted to MEI version 4.0.0 using mei30To40.xsl, version 1.0 beta</p>
         </changeDesc>
