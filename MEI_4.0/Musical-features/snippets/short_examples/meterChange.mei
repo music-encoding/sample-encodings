@@ -1,8 +1,7 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <?xml-model href="http://music-encoding.org/schema/4.0.1/mei-all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
 <?xml-model href="http://music-encoding.org/schema/4.0.1/mei-all.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
-<mei xmlns:xlink="http://www.w3.org/1999/xlink" xmlns="http://www.music-encoding.org/ns/mei"
-  meiversion="4.0.1">
+<mei xmlns:xlink="http://www.w3.org/1999/xlink" xmlns="http://www.music-encoding.org/ns/mei" meiversion="4.0.1">
   <meiHead>
     <fileDesc>
       <titleStmt>
@@ -38,14 +37,13 @@
       <seriesStmt>
         <title>MEI Sample Collection</title>
         <funder>
-          <corpName role="funder">German Research Foundation<address> <addrLine>Kennedyallee
-            40</addrLine> <addrLine> <geogName>Bonn</geogName> </addrLine> <addrLine>
-            <geogName>Germany</geogName> </addrLine> </address> </corpName>
+          <corpName role="funder">German Research Foundation<address><addrLine>Kennedyallee
+            40</addrLine><addrLine><geogName>Bonn</geogName></addrLine><addrLine><geogName>Germany</geogName></addrLine></address> </corpName>
         </funder>
         <funder>
-          <corpName role="funder">National Endowment for the Humanities<address> <addrLine>1100
-            Pennsylvania Avenue N.W.</addrLine> <addrLine> <geogName>Washington, DC</geogName>
-            20004</addrLine> <addrLine> <geogName>United States</geogName> </addrLine> </address>
+          <corpName role="funder">National Endowment for the Humanities<address><addrLine>1100
+            Pennsylvania Avenue N.W.</addrLine><addrLine><geogName>Washington, DC</geogName>
+            20004</addrLine><addrLine><geogName>United States</geogName></addrLine></address>
           </corpName>
         </funder>
         <respStmt>
@@ -66,8 +64,7 @@
       </editorialDecl>
       <classDecls>
         <taxonomy>
-          <bibl xml:id="OCLC" target="http://www.oclc.org/dewey/resources/summaries/default.htm#700"
-            >OCLC</bibl>
+          <bibl xml:id="OCLC" target="http://www.oclc.org/dewey/resources/summaries/default.htm#700">OCLC</bibl>
           <category xml:id="_782.42">
             <altId>782.42</altId>
             <label>Song</label>
@@ -148,8 +145,7 @@
         </contents>
       </manifestation>
       <manifestation>
-        <identifier label="electronic" type="URI"
-          >http://www.musicxml.com/music-in-musicxml/example-set/</identifier>
+        <identifier label="electronic" type="URI">http://www.musicxml.com/music-in-musicxml/example-set/</identifier>
       </manifestation>
     </manifestationList>
     <revisionDesc>
@@ -172,8 +168,7 @@
               </staffDef>
               <staffGrp xml:id="P2" symbol="brace">
                 <label>Piano</label>
-                <staffDef n="2" lines="5" clef.line="2" clef.shape="G" key.sig="1s" key.mode="major"
-                  xml:id="P2-I2"/>
+                <staffDef n="2" lines="5" clef.line="2" clef.shape="G" key.sig="1s" key.mode="major" xml:id="P2-I2"/>
                 <staffDef n="3" lines="5" clef.line="4" clef.shape="F" key.sig="1s"/>
               </staffGrp>
             </staffGrp>
@@ -222,8 +217,7 @@
               <dir tstamp="1" place="above" staff="1" xml:lang="de"> Durchaus mit geheimnissvoll
                 schwermüthigen Ausdruck (nicht schleppen) </dir>
               <dynam tstamp="1" place="below" staff="2">pp</dynam>
-              <slur tstamp="1" tstamp2="0m+1.5" curvedir="above" startid="#d1e284" endid="#d1e323"
-                staff="2"/>
+              <slur tstamp="1" tstamp2="0m+1.5" curvedir="above" startid="#d1e284" endid="#d1e323" staff="2"/>
             </measure>
             <measure n="1" xml:id="d1e377">
               <staff n="1">
@@ -323,10 +317,8 @@
                   <rest xml:id="d1e887" dur="2"/>
                 </layer>
               </staff>
-              <slur tstamp="1" tstamp2="0m+2" curvedir="above" startid="#d1e540" endid="#d1e656"
-                staff="2"/>
-              <slur tstamp="4" tstamp2="0m+4.5" curvedir="above" startid="#d1e720" endid="#d1e760"
-                staff="2"/>
+              <slur tstamp="1" tstamp2="0m+2" curvedir="above" startid="#d1e540" endid="#d1e656" staff="2"/>
+              <slur tstamp="4" tstamp2="0m+4.5" curvedir="above" startid="#d1e720" endid="#d1e760" staff="2"/>
             </measure>
             <measure n="2" xml:id="d1e897">
               <staff n="1">
@@ -413,8 +405,7 @@
                   <rest xml:id="d1e1413" dur="4"/>
                 </layer>
               </staff>
-              <slur tstamp="1" tstamp2="0m+3" curvedir="above" startid="#d1e1000" endid="#d1e1152"
-                staff="2"/>
+              <slur tstamp="1" tstamp2="0m+3" curvedir="above" startid="#d1e1000" endid="#d1e1152" staff="2"/>
             </measure>
             <sb/>
             <measure n="3" xml:id="d1e1423">
@@ -541,10 +532,8 @@
                   <rest xml:id="d1e2179" dur="4"/>
                 </layer>
               </staff>
-              <slur tstamp="1" tstamp2="0m+4.75" curvedir="above" startid="#d1e1573"
-                endid="#d1e1908" staff="2"/>
-              <slur tstamp="2" tstamp2="0m+3" curvedir="above" startid="#d1e2003" endid="#d1e2123"
-                staff="3"/>
+              <slur tstamp="1" tstamp2="0m+4.75" curvedir="above" startid="#d1e1573" endid="#d1e1908" staff="2"/>
+              <slur tstamp="2" tstamp2="0m+3" curvedir="above" startid="#d1e2003" endid="#d1e2123" staff="3"/>
             </measure>
             <measure n="4" xml:id="d1e2189">
               <staff n="1">
@@ -623,13 +612,10 @@
                   <rest xml:id="d1e2696" dur="2"/>
                 </layer>
               </staff>
-              <slur tstamp="4" tstamp2="0m+4.5" curvedir="below" startid="#d1e2222" endid="#d1e2246"
-                staff="1"/>
-              <slur tstamp="1" tstamp2="0m+3" curvedir="above" startid="#d1e2272" endid="#d1e2447"
-                staff="2"/>
+              <slur tstamp="4" tstamp2="0m+4.5" curvedir="below" startid="#d1e2222" endid="#d1e2246" staff="1"/>
+              <slur tstamp="1" tstamp2="0m+3" curvedir="above" startid="#d1e2272" endid="#d1e2447" staff="2"/>
               <hairpin tstamp="4" tstamp2="1m+4.208" form="cres" place="below" staff="2"/>
-              <slur tstamp="4" tstamp2="0m+4.5" curvedir="above" startid="#d1e2509" endid="#d1e2568"
-                staff="2"/>
+              <slur tstamp="4" tstamp2="0m+4.5" curvedir="above" startid="#d1e2509" endid="#d1e2568" staff="2"/>
             </measure>
             <measure n="5" xml:id="d1e2706">
               <staff n="1">
@@ -726,14 +712,10 @@
                 </layer>
               </staff>
               <hairpin tstamp="1" tstamp2="0m+4.708" form="cres" place="above" staff="1"/>
-              <slur tstamp="2" tstamp2="0m+4" curvedir="above" startid="#d1e2809" endid="#d1e2848"
-                staff="2"/>
-              <slur tstamp="2" tstamp2="0m+2.5" curvedir="below" startid="#d1e2904" endid="#d1e2941"
-                staff="2"/>
-              <slur tstamp="3" tstamp2="0m+3.5" curvedir="below" startid="#d1e2981" endid="#d1e3020"
-                staff="2"/>
-              <slur tstamp="4" tstamp2="0m+4.5" curvedir="below" startid="#d1e3057" endid="#d1e3101"
-                staff="2"/>
+              <slur tstamp="2" tstamp2="0m+4" curvedir="above" startid="#d1e2809" endid="#d1e2848" staff="2"/>
+              <slur tstamp="2" tstamp2="0m+2.5" curvedir="below" startid="#d1e2904" endid="#d1e2941" staff="2"/>
+              <slur tstamp="3" tstamp2="0m+3.5" curvedir="below" startid="#d1e2981" endid="#d1e3020" staff="2"/>
+              <slur tstamp="4" tstamp2="0m+4.5" curvedir="below" startid="#d1e3057" endid="#d1e3101" staff="2"/>
             </measure>
             <sb/>
             <measure n="6" xml:id="d1e3297">
@@ -831,14 +813,11 @@
                 </layer>
               </staff>
               <hairpin tstamp="1" tstamp2="0m+4.708" form="dim" place="above" staff="1"/>
-              <slur tstamp="1" tstamp2="0m+2.5" curvedir="above" startid="#d1e3302" endid="#d1e3324"
-                staff="1"/>
-              <tupletSpan staff="2" num="3" numbase="2" num.visible="true" num.place="below"
-                num.format="count" startid="#d286e1" endid="#d294e1"/>
+              <slur tstamp="1" tstamp2="0m+2.5" curvedir="above" startid="#d1e3302" endid="#d1e3324" staff="1"/>
+              <tupletSpan staff="2" num="3" numbase="2" num.visible="true" num.place="below" num.format="count" startid="#d286e1" endid="#d294e1"/>
               <hairpin tstamp="1.208" tstamp2="0m+3.208" form="dim" place="below" staff="2"/>
               <tie tstamp="1" staff="2" curvedir="above" startid="#d1e3393" endid="#d1e3419"/>
-              <slur tstamp="4" tstamp2="0m+4.5" curvedir="below" startid="#d1e3716" endid="#d1e3753"
-                staff="2"/>
+              <slur tstamp="4" tstamp2="0m+4.5" curvedir="below" startid="#d1e3716" endid="#d1e3753" staff="2"/>
             </measure>
             <measure n="7" xml:id="d1e4015">
               <staff n="1">
@@ -873,21 +852,15 @@
                 </layer>
                 <layer n="2">
                   <beam>
-                    <note xml:id="d1e4182" pname="b" oct="4" dur="8" fontsize="small"
-                      stem.dir="down"/>
-                    <note xml:id="d1e4201" pname="e" oct="5" dur="8" fontsize="small"
-                      stem.dir="down"/>
+                    <note xml:id="d1e4182" pname="b" oct="4" dur="8" fontsize="small" stem.dir="down"/>
+                    <note xml:id="d1e4201" pname="e" oct="5" dur="8" fontsize="small" stem.dir="down"/>
                   </beam>
                   <note xml:id="d1e4220" pname="e" oct="5" dur="4" fontsize="small" stem.dir="down"/>
                   <beam>
-                    <note xml:id="d1e4235" pname="g" oct="4" dur="8" fontsize="small"
-                      stem.dir="down"/>
-                    <note xml:id="d1e4254" pname="f" oct="4" dur="8" fontsize="small"
-                      stem.dir="down" accid.ges="s"/>
-                    <note xml:id="d1e4275" pname="f" oct="4" dur="8" fontsize="small"
-                      stem.dir="down" accid.ges="s"/>
-                    <note xml:id="d1e4296" pname="e" oct="4" dur="8" fontsize="small"
-                      stem.dir="down"/>
+                    <note xml:id="d1e4235" pname="g" oct="4" dur="8" fontsize="small" stem.dir="down"/>
+                    <note xml:id="d1e4254" pname="f" oct="4" dur="8" fontsize="small" stem.dir="down" accid.ges="s"/>
+                    <note xml:id="d1e4275" pname="f" oct="4" dur="8" fontsize="small" stem.dir="down" accid.ges="s"/>
+                    <note xml:id="d1e4296" pname="e" oct="4" dur="8" fontsize="small" stem.dir="down"/>
                   </beam>
                 </layer>
               </staff>
@@ -951,23 +924,15 @@
                 </layer>
               </staff>
               <hairpin tstamp="1" tstamp2="0m+2.292" form="dim" place="above" staff="1"/>
-              <slur tstamp="1" tstamp2="0m+1.5" curvedir="above" startid="#d1e4020" endid="#d1e4043"
-                staff="1"/>
-              <slur tstamp="1" tstamp2="0m+1.5" curvedir="below" startid="#d1e4182" endid="#d1e4201"
-                staff="1"/>
+              <slur tstamp="1" tstamp2="0m+1.5" curvedir="above" startid="#d1e4020" endid="#d1e4043" staff="1"/>
+              <slur tstamp="1" tstamp2="0m+1.5" curvedir="below" startid="#d1e4182" endid="#d1e4201" staff="1"/>
               <dynam tstamp="2.417" place="above" staff="1">pp</dynam>
-              <slur tstamp="3" tstamp2="0m+3.5" curvedir="above" startid="#d1e4092" endid="#d1e4115"
-                staff="1"/>
-              <slur tstamp="3" tstamp2="0m+3.5" curvedir="below" startid="#d1e4235" endid="#d1e4254"
-                staff="1"/>
-              <slur tstamp="4" tstamp2="0m+4.5" curvedir="above" startid="#d1e4135" endid="#d1e4160"
-                staff="1"/>
-              <slur tstamp="4" tstamp2="0m+4.5" curvedir="below" startid="#d1e4275" endid="#d1e4296"
-                staff="1"/>
-              <slur tstamp="3" tstamp2="0m+3.5" curvedir="above" startid="#d1e4365" endid="#d1e4402"
-                staff="2"/>
-              <slur tstamp="4" tstamp2="0m+4.5" curvedir="above" startid="#d1e4441" endid="#d1e4480"
-                staff="2"/>
+              <slur tstamp="3" tstamp2="0m+3.5" curvedir="above" startid="#d1e4092" endid="#d1e4115" staff="1"/>
+              <slur tstamp="3" tstamp2="0m+3.5" curvedir="below" startid="#d1e4235" endid="#d1e4254" staff="1"/>
+              <slur tstamp="4" tstamp2="0m+4.5" curvedir="above" startid="#d1e4135" endid="#d1e4160" staff="1"/>
+              <slur tstamp="4" tstamp2="0m+4.5" curvedir="below" startid="#d1e4275" endid="#d1e4296" staff="1"/>
+              <slur tstamp="3" tstamp2="0m+3.5" curvedir="above" startid="#d1e4365" endid="#d1e4402" staff="2"/>
+              <slur tstamp="4" tstamp2="0m+4.5" curvedir="above" startid="#d1e4441" endid="#d1e4480" staff="2"/>
             </measure>
           </section>
           <section>
@@ -993,8 +958,7 @@
                   </beam>
                 </layer>
                 <layer n="2">
-                  <note xml:id="d1e4866" pname="e" oct="4" dur="2" fontsize="small" stem.dir="down"
-                  />
+                  <note xml:id="d1e4866" pname="e" oct="4" dur="2" fontsize="small" stem.dir="down"/>
                 </layer>
               </staff>
               <staff n="2">
@@ -1048,12 +1012,9 @@
                 </layer>
               </staff>
               <dir tstamp="5" place="above" staff="1"> espress. </dir>
-              <slur tstamp="5" tstamp2="0m+5.5" curvedir="below" startid="#d1e4819" endid="#d1e4843"
-                staff="1"/>
-              <slur tstamp="2" tstamp2="0m+3" curvedir="above" startid="#d1e5067" endid="#d1e5183"
-                staff="3"/>
-              <slur tstamp="5" tstamp2="0m+5.5" curvedir="above" startid="#d1e4967" endid="#d1e5006"
-                staff="2"/>
+              <slur tstamp="5" tstamp2="0m+5.5" curvedir="below" startid="#d1e4819" endid="#d1e4843" staff="1"/>
+              <slur tstamp="2" tstamp2="0m+3" curvedir="above" startid="#d1e5067" endid="#d1e5183" staff="3"/>
+              <slur tstamp="5" tstamp2="0m+5.5" curvedir="above" startid="#d1e4967" endid="#d1e5006" staff="2"/>
             </measure>
           </section>
           <section>
@@ -1151,10 +1112,8 @@
                   <rest xml:id="d1e5760" dur="2"/>
                 </layer>
               </staff>
-              <slur tstamp="1" tstamp2="0m+2" curvedir="above" startid="#d1e5413" endid="#d1e5529"
-                staff="2"/>
-              <slur tstamp="4" tstamp2="0m+4.5" curvedir="above" startid="#d1e5594" endid="#d1e5633"
-                staff="2"/>
+              <slur tstamp="1" tstamp2="0m+2" curvedir="above" startid="#d1e5413" endid="#d1e5529" staff="2"/>
+              <slur tstamp="4" tstamp2="0m+4.5" curvedir="above" startid="#d1e5594" endid="#d1e5633" staff="2"/>
             </measure>
           </section>
         </score>

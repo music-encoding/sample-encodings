@@ -1,8 +1,7 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <?xml-model href="http://music-encoding.org/schema/4.0.1/mei-all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
 <?xml-model href="http://music-encoding.org/schema/4.0.1/mei-all.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
-<mei xmlns:xlink="http://www.w3.org/1999/xlink" xmlns="http://www.music-encoding.org/ns/mei"
-  meiversion="4.0.1">
+<mei xmlns:xlink="http://www.w3.org/1999/xlink" xmlns="http://www.music-encoding.org/ns/mei" meiversion="4.0.1">
   <meiHead>
     <fileDesc>
       <titleStmt>
@@ -17,16 +16,13 @@
       </titleStmt>
       <pubStmt>
         <publisher>
-          <corpName role="publisher" codedval="5115204-6" auth.uri="http://d-nb.info/gnd/"
-            auth="GND">Musikwissenschaftliches Seminar, Detmold</corpName>
+          <corpName role="publisher" codedval="5115204-6" auth.uri="http://d-nb.info/gnd/" auth="GND">Musikwissenschaftliches Seminar, Detmold</corpName>
         </publisher>
         <address>
           <addrLine>Gartenstrasse 20</addrLine>
-          <addrLine>32756 <geogName codedval="7004442" auth.uri="http://vocab.getty.edu/page/tgn/"
-            auth="TGN">Detmold</geogName> </addrLine>
+          <addrLine>32756 <geogName codedval="7004442" auth.uri="http://vocab.getty.edu/page/tgn/" auth="TGN">Detmold</geogName> </addrLine>
           <addrLine>
-            <geogName codedval="7000084" auth.uri="http://vocab.getty.edu/page/tgn/" auth="TGN"
-              >Germany</geogName>
+            <geogName codedval="7000084" auth.uri="http://vocab.getty.edu/page/tgn/" auth="TGN">Germany</geogName>
           </addrLine>
         </address>
         <date>2011</date>
@@ -41,21 +37,11 @@
       <seriesStmt>
         <title>MEI Sample Collection</title>
         <funder>
-          <corpName role="funder" codedval="2007744-0" auth.uri="http://d-nb.info/gnd/" auth="GND"
-            >German Research Foundation<address> <addrLine>Kennedyallee 40</addrLine> <addrLine>
-            <geogName codedval="7005090" auth.uri="http://vocab.getty.edu/page/tgn/" auth="TGN"
-            >Bonn</geogName> </addrLine> <addrLine> <geogName codedval="7000084"
-            auth.uri="http://vocab.getty.edu/page/tgn/" auth="TGN">Germany</geogName> </addrLine>
-            </address> </corpName>
+          <corpName role="funder" codedval="2007744-0" auth.uri="http://d-nb.info/gnd/" auth="GND">German Research Foundation<address><addrLine>Kennedyallee 40</addrLine><addrLine><geogName codedval="7005090" auth.uri="http://vocab.getty.edu/page/tgn/" auth="TGN">Bonn</geogName></addrLine><addrLine><geogName codedval="7000084" auth.uri="http://vocab.getty.edu/page/tgn/" auth="TGN">Germany</geogName></addrLine></address> </corpName>
         </funder>
         <funder>
-          <corpName role="funder" codedval="18183-3" auth.uri="http://d-nb.info/gnd/18183-3"
-            auth="Deutsche Nationalbibliothek">National Endowment for the Humanities<address>
-            <addrLine>1100 Pennsylvania Avenue N.W.</addrLine> <addrLine> <geogName
-            codedval="7013962" auth.uri="http://vocab.getty.edu/page/tgn/" auth="TGN">Washington,
-            DC</geogName> 20004</addrLine> <addrLine> <geogName codedval="7012149"
-            auth.uri="http://vocab.getty.edu/page/tgn/" auth="TGN">United States</geogName>
-            </addrLine> </address> </corpName>
+          <corpName role="funder" codedval="18183-3" auth.uri="http://d-nb.info/gnd/18183-3" auth="Deutsche Nationalbibliothek">National Endowment for the Humanities<address><addrLine>1100 Pennsylvania Avenue N.W.</addrLine><addrLine><geogName codedval="7013962" auth.uri="http://vocab.getty.edu/page/tgn/" auth="TGN">Washington,
+            DC</geogName> 20004</addrLine><addrLine><geogName codedval="7012149" auth.uri="http://vocab.getty.edu/page/tgn/" auth="TGN">United States</geogName></addrLine></address> </corpName>
         </funder>
         <respStmt>
           <corpName role="publisher">MEI Project</corpName>
@@ -68,19 +54,19 @@
     <encodingDesc>
       <appInfo>
         <application version="v1.0_beta" xml:id="mei2012To2013">
-            <name>mei2012To2013.xsl</name>
-           <ptr target="https://github.com/music-encoding/encoding-tools/blob/main/mei2012To2013/mei2012To2013.xsl"/>
-         </application>
+          <name>mei2012To2013.xsl</name>
+          <ptr target="https://github.com/music-encoding/encoding-tools/blob/main/mei2012To2013/mei2012To2013.xsl"/>
+        </application>
         <application version="v1.0_beta" xml:id="mei21To30">
-           <name>mei21To30.xsl</name>
-           <ptr target="https://github.com/music-encoding/encoding-tools/blob/main/mei21To30/mei21To30.xsl"/>
+          <name>mei21To30.xsl</name>
+          <ptr target="https://github.com/music-encoding/encoding-tools/blob/main/mei21To30/mei21To30.xsl"/>
         </application>
         <application xml:id="xsl_mxl2mei_2.2.3" version="2.2.3">
           <name>MusicXML2MEI</name>
         </application>
         <application version="v1.0_beta" xml:id="mei30To40">
           <name>mei30To40.xsl</name>
-<ptr target="https://github.com/music-encoding/encoding-tools/blob/main/mei30To40/mei30To40.xsl"/>
+          <ptr target="https://github.com/music-encoding/encoding-tools/blob/main/mei30To40/mei30To40.xsl"/>
         </application>
       </appInfo>
       <samplingDecl>
@@ -88,8 +74,7 @@
       </samplingDecl>
       <classDecls>
         <taxonomy>
-          <bibl xml:id="OCLC" target="http://www.oclc.org/dewey/resources/summaries/default.htm#700"
-            >OCLC</bibl>
+          <bibl xml:id="OCLC" target="http://www.oclc.org/dewey/resources/summaries/default.htm#700">OCLC</bibl>
           <category xml:id="_782.42">
             <altId>782.42</altId>
             <label>Song</label>
@@ -116,8 +101,7 @@
       <work>
         <title type="uniform">Mandoline</title>
         <composer>
-          <persName role="composer" codedval="118524186" auth.uri="http://d-nb.info/gnd/" auth="GND"
-            >Claude Debussy</persName>
+          <persName role="composer" codedval="118524186" auth.uri="http://d-nb.info/gnd/" auth="GND">Claude Debussy</persName>
         </composer>
         <librettist>
           <persName role="librettist">Paul Verlaine</persName>
@@ -251,15 +235,12 @@
     <manifestationList>
       <manifestation>
         <identifier type="workNumber">L 29</identifier>
-        <identifier type="URI"
-          >http://conquest.imslp.info/files/imglnks/usimg/8/85/IMSLP14823-Debussy_-_Mandoline__voice_and_piano_.pdf</identifier>
+        <identifier type="URI">http://conquest.imslp.info/files/imglnks/usimg/8/85/IMSLP14823-Debussy_-_Mandoline__voice_and_piano_.pdf</identifier>
         <titleStmt>
           <title>Mandoline</title>
           <respStmt>
-            <persName role="composer" codedval="118524186" auth.uri="http://d-nb.info/gnd/"
-              auth="GND">Claude Debussy</persName>
-            <persName role="lyricist" codedval="118804219" auth.uri="http://d-nb.info/gnd/"
-              auth="GND">Paul Verlaine</persName>
+            <persName role="composer" codedval="118524186" auth.uri="http://d-nb.info/gnd/" auth="GND">Claude Debussy</persName>
+            <persName role="lyricist" codedval="118804219" auth.uri="http://d-nb.info/gnd/" auth="GND">Paul Verlaine</persName>
           </respStmt>
         </titleStmt>
         <pubStmt>
@@ -280,8 +261,7 @@
         </physDesc>
       </manifestation>
       <manifestation>
-        <identifier type="URI"
-          >http://www.musicxml.com/de/music-in-musicxml/example-set/</identifier>
+        <identifier type="URI">http://www.musicxml.com/de/music-in-musicxml/example-set/</identifier>
         <titleStmt>
           <title>Mandoline</title>
         </titleStmt>
@@ -290,7 +270,7 @@
     <revisionDesc>
       <change n="1">
         <respStmt>
-           <name>Unknown</name>
+          <name>Unknown</name>
         </respStmt>
         <changeDesc>
           <p>The original MusicXML file was generated using Finale 2011 for Windows, Dolet 6.0 for
@@ -303,8 +283,7 @@
           <persName xml:id="MH"> Maja Hartwig </persName>
         </respStmt>
         <changeDesc>
-          <p>Transcoded from a MusicXML version 3.0 file on 2011-05-12 using the <ref
-            target="#xsl_mxl2mei_2.2.3">musicxml2mei</ref> stylesheet. </p>
+          <p>Transcoded from a MusicXML version 3.0 file on 2011-05-12 using the <ref target="#xsl_mxl2mei_2.2.3">musicxml2mei</ref> stylesheet. </p>
         </changeDesc>
         <date isodate="2011-05-12"/>
       </change>
@@ -391,14 +370,12 @@
               </staff>
               <staff n="2">
                 <layer n="1">
-                  <note xml:id="d1e248" pname="g" oct="4" dur="2" dots="1" fermata="above"
-                    stem.dir="up"/>
+                  <note xml:id="d1e248" pname="g" oct="4" dur="2" dots="1" fermata="above" stem.dir="up"/>
                 </layer>
               </staff>
               <staff n="3">
                 <layer n="1">
-                  <note xml:id="d1e224" grace="unacc" stem.mod="1slash" pname="g" oct="3" dur="8"
-                    stem.dir="up"/>
+                  <note xml:id="d1e224" grace="unacc" stem.mod="1slash" pname="g" oct="3" dur="8" stem.dir="up"/>
                   <space xml:id="d21e4"/>
                 </layer>
                 <layer n="2">
@@ -411,10 +388,8 @@
               </tempo>
               <fermata staff="1" startid="#d1e171" form="norm" tstamp="2" place="above"/>
               <dynam tstamp="1" place="below" staff="2">sfp</dynam>
-              <hairpin tstamp="3.25" form="dim" place="below" staff="2" startto="9" endto="-1"
-                tstamp2="0m+6.75"/>
-              <slur tstamp="1" curvedir="above" startid="#d1e224" endid="#d1e248" staff="3 2"
-                tstamp2="0m+1"/>
+              <hairpin tstamp="3.25" form="dim" place="below" staff="2" startto="9" endto="-1" tstamp2="0m+6.75"/>
+              <slur tstamp="1" curvedir="above" startid="#d1e224" endid="#d1e248" staff="3 2" tstamp2="0m+1"/>
               <fermata staff="2" startid="#d1e248" form="norm" place="above"/>
               <fermata staff="3" startid="#d1e278" form="norm" place="above"/>
             </measure>
@@ -735,8 +710,7 @@
                   <clef line="4" shape="F"/>
                 </layer>
               </staff>
-              <slur tstamp="1" curvedir="above" startid="#d1e1496" endid="#d1e1520" staff="1"
-                tstamp2="0m+2.5"/>
+              <slur tstamp="1" curvedir="above" startid="#d1e1496" endid="#d1e1520" staff="1" tstamp2="0m+2.5"/>
               <arpeg tstamp="1" plist="#d1e1621 #d1e1641 #d1e1660" staff="3" layer="2"/>
               <arpeg tstamp="2" plist="#d1e1679 #d1e1699 #d1e1718" staff="2" layer="2"/>
               <arpeg tstamp="3" plist="#d1e1737 #d1e1758 #d1e1777" staff="3" layer="2"/>
@@ -826,19 +800,14 @@
                 </layer>
               </staff>
               <hairpin tstamp="2" form="cres" place="above" staff="1" endto="11" tstamp2="0m+5.458"/>
-              <slur tstamp="2" curvedir="above" startid="#d1e1983" endid="#d1e2613" staff="1"
-                tstamp2="1m+6"/>
-              <slur tstamp="4" curvedir="above" startid="#d1e2027" endid="#d1e2055" staff="1"
-                tstamp2="0m+5"/>
-              <hairpin tstamp="6.583" form="dim" place="above" staff="1" opening="1.1" startto="-10"
-                endto="2" tstamp2="1m+6.083"/>
+              <slur tstamp="2" curvedir="above" startid="#d1e1983" endid="#d1e2613" staff="1" tstamp2="1m+6"/>
+              <slur tstamp="4" curvedir="above" startid="#d1e2027" endid="#d1e2055" staff="1" tstamp2="0m+5"/>
+              <hairpin tstamp="6.583" form="dim" place="above" staff="1" opening="1.1" startto="-10" endto="2" tstamp2="1m+6.083"/>
               <arpeg tstamp="1" plist="#d1e2262 #d1e2282 #d1e2301" staff="3" layer="2"/>
-              <hairpin tstamp="2" form="cres" place="above" staff="3" opening="1.1" endto="2"
-                tstamp2="0m+5.5"/>
+              <hairpin tstamp="2" form="cres" place="above" staff="3" opening="1.1" endto="2" tstamp2="0m+5.5"/>
               <arpeg tstamp="2" plist="#d1e2116 #d1e2134 #d1e2153" staff="2" layer="1"/>
               <arpeg tstamp="5" plist="#d1e2192 #d1e2210 #d1e2229" staff="2" layer="1"/>
-              <hairpin tstamp="6.5" form="dim" place="above" staff="3" opening="0" startto="-2"
-                endto="-4" tstamp2="1m+5"/>
+              <hairpin tstamp="6.5" form="dim" place="above" staff="3" opening="0" startto="-2" endto="-4" tstamp2="1m+5"/>
             </measure>
             <measure n="7" xml:id="d1e2522" width="308">
               <staff n="1">
@@ -919,8 +888,7 @@
                   <clef line="2" shape="G"/>
                 </layer>
               </staff>
-              <slur tstamp="1" curvedir="below" startid="#d1e2524" endid="#d1e2548" staff="1"
-                tstamp2="0m+2.5"/>
+              <slur tstamp="1" curvedir="below" startid="#d1e2524" endid="#d1e2548" staff="1" tstamp2="0m+2.5"/>
               <arpeg tstamp="1" plist="#d1e2791 #d1e2811 #d1e2832" staff="3" layer="2"/>
               <arpeg tstamp="2" plist="#d1e2645 #d1e2663 #d1e2682" staff="2" layer="1"/>
               <arpeg tstamp="5" plist="#d1e2721 #d1e2739 #d1e2758" staff="2" layer="1"/>
@@ -999,8 +967,7 @@
                   </beam>
                 </layer>
               </staff>
-              <slur tstamp="3" curvedir="above" startid="#d1e3053" endid="#d1e3093" staff="1"
-                tstamp2="0m+6"/>
+              <slur tstamp="3" curvedir="above" startid="#d1e3053" endid="#d1e3093" staff="1" tstamp2="0m+6"/>
             </measure>
             <sb/>
             <measure n="9" xml:id="d1e3504" width="310">
@@ -1196,12 +1163,9 @@
                   </beam>
                 </layer>
               </staff>
-              <hairpin tstamp="1" form="cres" place="above" staff="1" opening="1.1" endto="-5"
-                tstamp2="0m+6.792"/>
-              <hairpin tstamp="1.25" form="cres" place="above" staff="3" opening="1.1" startto="1"
-                endto="-1" tstamp2="0m+6.75"/>
-              <octave tstamp="1.75" dis="8" staff="2" startto="-1" dis.place="above" tstamp2="1m+7"
-              />
+              <hairpin tstamp="1" form="cres" place="above" staff="1" opening="1.1" endto="-5" tstamp2="0m+6.792"/>
+              <hairpin tstamp="1.25" form="cres" place="above" staff="3" opening="1.1" startto="1" endto="-1" tstamp2="0m+6.75"/>
+              <octave tstamp="1.75" dis="8" staff="2" startto="-1" dis.place="above" tstamp2="1m+7"/>
             </measure>
             <measure n="11" xml:id="d1e4595" width="250">
               <staff n="1">
@@ -1211,8 +1175,7 @@
                       <syl wordpos="m" con="d">teu</syl>
                     </verse>
                   </note>
-                  <note xml:id="d1e4633" pname="d" oct="5" dur="4" dots="1" stem.dir="down"
-                    accid.ges="f">
+                  <note xml:id="d1e4633" pname="d" oct="5" dur="4" dots="1" stem.dir="down" accid.ges="f">
                     <accid accid="f"/>
                   </note>
                 </layer>
@@ -1289,23 +1252,19 @@
               <dynam tstamp="1" place="below" staff="2">
                 <rend fontstyle="italic">p</rend>
               </dynam>
-              <slur tstamp="1" curvedir="below" startid="#d1e4945" endid="#d1e4871" staff="3 2"
-                tstamp2="0m+1.417"/>
+              <slur tstamp="1" curvedir="below" startid="#d1e4945" endid="#d1e4871" staff="3 2" tstamp2="0m+1.417"/>
               <dynam tstamp="2" place="below" staff="2">
                 <rend fontsize="9pt" fontstyle="italic">dim.</rend>
               </dynam>
-              <slur tstamp="2" curvedir="above" startid="#d1e4680" endid="#d1e4736" staff="2"
-                tstamp2="0m+3"/>
-              <slur tstamp="5" curvedir="above" startid="#d1e4802" endid="#d1e4871" staff="2"
-                tstamp2="0m+6"/>
+              <slur tstamp="2" curvedir="above" startid="#d1e4680" endid="#d1e4736" staff="2" tstamp2="0m+3"/>
+              <slur tstamp="5" curvedir="above" startid="#d1e4802" endid="#d1e4871" staff="2" tstamp2="0m+6"/>
             </measure>
             <staffDef n="3" lines="5" clef.line="2" clef.shape="G"/>
             <measure n="12" xml:id="d1e5068" width="314">
               <staff n="1">
                 <layer n="1">
                   <note xml:id="d1e5070" pname="c" oct="5" dur="4" dots="1" stem.dir="down"/>
-                  <note xml:id="d1e5085" pname="c" oct="5" dur="4" dots="1" stem.dir="down"
-                    accid.ges="f">
+                  <note xml:id="d1e5085" pname="c" oct="5" dur="4" dots="1" stem.dir="down" accid.ges="f">
                     <accid accid="f"/>
                   </note>
                 </layer>
@@ -1378,10 +1337,8 @@
                   </chord>
                 </layer>
               </staff>
-              <slur tstamp="2" curvedir="above" startid="#d1e5126" endid="#d1e5186" staff="2"
-                tstamp2="0m+3"/>
-              <slur tstamp="5" curvedir="above" startid="#d1e5250" endid="#d1e5324" staff="2"
-                tstamp2="0m+6"/>
+              <slur tstamp="2" curvedir="above" startid="#d1e5126" endid="#d1e5186" staff="2" tstamp2="0m+3"/>
+              <slur tstamp="5" curvedir="above" startid="#d1e5250" endid="#d1e5324" staff="2" tstamp2="0m+6"/>
             </measure>
           </section>
         </score>

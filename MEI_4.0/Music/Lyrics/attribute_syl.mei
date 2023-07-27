@@ -1,8 +1,7 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <?xml-model href="http://music-encoding.org/schema/4.0.1/mei-all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
 <?xml-model href="http://music-encoding.org/schema/4.0.1/mei-all.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
-<mei xmlns:xlink="http://www.w3.org/1999/xlink" xmlns="http://www.music-encoding.org/ns/mei"
-  meiversion="4.0.1">
+<mei xmlns:xlink="http://www.w3.org/1999/xlink" xmlns="http://www.music-encoding.org/ns/mei" meiversion="4.0.1">
   <meiHead>
     <fileDesc>
       <titleStmt>
@@ -39,14 +38,13 @@
       <seriesStmt>
         <title>MEI Sample Collection</title>
         <funder>
-          <corpName role="funder">German Research Foundation<address> <addrLine>Kennedyallee
-            40</addrLine> <addrLine> <geogName>Bonn</geogName> </addrLine> <addrLine>
-            <geogName>Germany</geogName> </addrLine> </address> </corpName>
+          <corpName role="funder">German Research Foundation<address><addrLine>Kennedyallee
+            40</addrLine><addrLine><geogName>Bonn</geogName></addrLine><addrLine><geogName>Germany</geogName></addrLine></address> </corpName>
         </funder>
         <funder>
-          <corpName role="funder">National Endowment for the Humanities<address> <addrLine>1100
-            Pennsylvania Avenue N.W.</addrLine> <addrLine> <geogName>Washington, DC</geogName>
-            20004</addrLine> <addrLine> <geogName>United States</geogName> </addrLine> </address>
+          <corpName role="funder">National Endowment for the Humanities<address><addrLine>1100
+            Pennsylvania Avenue N.W.</addrLine><addrLine><geogName>Washington, DC</geogName>
+            20004</addrLine><addrLine><geogName>United States</geogName></addrLine></address>
           </corpName>
         </funder>
         <respStmt>
@@ -70,8 +68,7 @@
       </editorialDecl>
       <classDecls>
         <taxonomy>
-          <bibl xml:id="OCLC" target="http://www.oclc.org/dewey/resources/summaries/default.htm#700"
-            >OCLC</bibl>
+          <bibl xml:id="OCLC" target="http://www.oclc.org/dewey/resources/summaries/default.htm#700">OCLC</bibl>
           <category xml:id="_782.42">
             <altId>782.42</altId>
             <label>Song</label>
@@ -103,8 +100,7 @@
         <title>Auf dem Hügel sitz ich spähend</title>
         <title type="uniform">An die ferne Geliebte &lt;Auf dem Hügel sitz' ich spähend&gt;</title>
         <composer>
-          <persName role="composer" codedval="118508288" auth.uri="http://d-nb.info/gnd/" auth="GND"
-            >Ludwig van Beethoven</persName>
+          <persName role="composer" codedval="118508288" auth.uri="http://d-nb.info/gnd/" auth="GND">Ludwig van Beethoven</persName>
         </composer>
         <key pname="e" accid="f" mode="major">Es major</key>
         <tempo>Ziemlich langsam und mit Ausdruck</tempo>
@@ -122,10 +118,8 @@
                 </staffDef>
                 <staffGrp symbol="brace" bar.thru="true">
                   <label>Piano</label>
-                  <staffDef n="2" lines="5" clef.line="2" clef.shape="G" key.sig="3f"
-                    key.mode="major"/>
-                  <staffDef n="3" lines="5" clef.line="4" clef.shape="F" key.sig="3f"
-                    key.mode="major"/>
+                  <staffDef n="2" lines="5" clef.line="2" clef.shape="G" key.sig="3f" key.mode="major"/>
+                  <staffDef n="3" lines="5" clef.line="4" clef.shape="F" key.sig="3f" key.mode="major"/>
                 </staffGrp>
               </staffGrp>
             </scoreDef>
@@ -208,15 +202,12 @@
     <manifestationList>
       <manifestation>
         <identifier type="opusNumber">Op. 98</identifier>
-        <identifier type="URI"
-          >http://conquest.imslp.info/files/imglnks/usimg/d/d4/IMSLP47561-PMLP11572-Beethoven_Lieder_Peters_9535_Op_98_An_die_ferne_Geliebte.pdf</identifier>
+        <identifier type="URI">http://conquest.imslp.info/files/imglnks/usimg/d/d4/IMSLP47561-PMLP11572-Beethoven_Lieder_Peters_9535_Op_98_An_die_ferne_Geliebte.pdf</identifier>
         <titleStmt>
           <title>An die ferne Geliebte</title>
           <respStmt>
-            <persName role="composer" codedval="118508288" auth.uri="http://d-nb.info/gnd/"
-              auth="GND">Ludwig van Beethoven</persName>
-            <persName role="lyricist" codedval="113667213" auth.uri="http://d-nb.info/gnd/"
-              auth="GND">Aloys Isidor Jeitteles</persName>
+            <persName role="composer" codedval="118508288" auth.uri="http://d-nb.info/gnd/" auth="GND">Ludwig van Beethoven</persName>
+            <persName role="lyricist" codedval="113667213" auth.uri="http://d-nb.info/gnd/" auth="GND">Aloys Isidor Jeitteles</persName>
             <persName role="dedicatee">Fürst Joseph von Lobkowitz</persName>
             <persName role="editor">Max Unger</persName>
           </respStmt>
@@ -232,8 +223,7 @@
         </physDesc>
       </manifestation>
       <manifestation>
-        <identifier type="URI"
-          >http://www.musicxml.com/de/music-in-musicxml/example-set/</identifier>
+        <identifier type="URI">http://www.musicxml.com/de/music-in-musicxml/example-set/</identifier>
         <titleStmt>
           <title>An die ferne Geliebte</title>
         </titleStmt>
@@ -254,16 +244,13 @@
         <score>
           <scoreDef meter.count="3" meter.unit="4" key.sig="3f" key.mode="major">
             <staffGrp>
-              <staffDef n="1" xml:id="P1" lines="5" clef.line="2" clef.shape="G" key.sig="3f"
-                key.mode="major">
+              <staffDef n="1" xml:id="P1" lines="5" clef.line="2" clef.shape="G" key.sig="3f" key.mode="major">
                 <label>Voice</label>
               </staffDef>
               <staffGrp xml:id="P2" symbol="brace" bar.thru="true">
                 <label>Piano</label>
-                <staffDef n="2" lines="5" clef.line="2" clef.shape="G" key.sig="3f" key.mode="major"
-                  xml:id="P2-I2"/>
-                <staffDef n="3" lines="5" clef.line="4" clef.shape="F" key.sig="3f" key.mode="major"
-                  spacing="70"/>
+                <staffDef n="2" lines="5" clef.line="2" clef.shape="G" key.sig="3f" key.mode="major" xml:id="P2-I2"/>
+                <staffDef n="3" lines="5" clef.line="4" clef.shape="F" key.sig="3f" key.mode="major" spacing="70"/>
               </staffGrp>
             </staffGrp>
           </scoreDef>
@@ -670,8 +657,7 @@
                     <note xml:id="d1e3178" pname="g" oct="3"/>
                     <note xml:id="d1e3194" pname="e" oct="4" accid.ges="f"/>
                   </chord>
-                  <note xml:id="d1e3213" grace="unacc" stem.mod="1slash" pname="b" oct="4" dur="8"
-                    accid.ges="f"/>
+                  <note xml:id="d1e3213" grace="unacc" stem.mod="1slash" pname="b" oct="4" dur="8" accid.ges="f"/>
                   <note xml:id="d1e3251" pname="b" oct="5" dur="4" dots="1" accid.ges="f"/>
                   <note xml:id="d1e3279" pname="e" oct="5" dur="8" accid.ges="f"/>
                 </layer>
@@ -692,8 +678,7 @@
               </staff>
               <dir tstamp="2" place="above" staff="2" xml:lang="de"> Ziemlich langsam und mit
                 Ausdruck </dir>
-              <hairpin tstamp="2" tstamp2="0m+3.146" form="dim" place="below" staff="2"
-                opening="1.5" endto="-34"/>
+              <hairpin tstamp="2" tstamp2="0m+3.146" form="dim" place="below" staff="2" opening="1.5" endto="-34"/>
               <dir tstamp="2" place="below" staff="2"/>
               <slur tstamp="2" tstamp2="0m+2" curvedir="above" staff="2"/>
             </measure>
@@ -706,8 +691,7 @@
               <staff n="2">
                 <layer n="1">
                   <note xml:id="d1e3420" pname="d" oct="5" dur="4"/>
-                  <note xml:id="d1e3436" grace="unacc" stem.mod="1slash" pname="b" oct="4" dur="8"
-                    accid.ges="f"/>
+                  <note xml:id="d1e3436" grace="unacc" stem.mod="1slash" pname="b" oct="4" dur="8" accid.ges="f"/>
                   <note xml:id="d1e3462" pname="b" oct="5" dur="4" dots="1" accid.ges="f"/>
                   <note xml:id="d1e3498" pname="d" oct="5" dur="8"/>
                 </layer>

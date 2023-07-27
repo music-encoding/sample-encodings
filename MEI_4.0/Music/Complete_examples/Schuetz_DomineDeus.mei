@@ -1,16 +1,14 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <?xml-model href="http://music-encoding.org/schema/4.0.1/mei-all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
 <?xml-model href="http://music-encoding.org/schema/4.0.1/mei-all.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
-<mei xmlns:xlink="http://www.w3.org/1999/xlink" xmlns="http://www.music-encoding.org/ns/mei"
-  meiversion="4.0.1">
+<mei xmlns:xlink="http://www.w3.org/1999/xlink" xmlns="http://www.music-encoding.org/ns/mei" meiversion="4.0.1">
   <meiHead>
     <fileDesc>
       <titleStmt>
         <title>Domine Deus, Deus virtutum <titlePart type="subordinate">an electronic
           transcription</titlePart> </title>
         <composer>
-          <persName role="creator" cert="unknown" codedval="11861116X"
-            auth.uri="http://d-nb.info/gnd/" auth="GND">Heinrich Schütz</persName>
+          <persName role="creator" cert="unknown" codedval="11861116X" auth.uri="http://d-nb.info/gnd/" auth="GND">Heinrich Schütz</persName>
         </composer>
         <respStmt>
           <persName role="encoder">Maja Hartwig</persName>
@@ -19,16 +17,13 @@
       </titleStmt>
       <pubStmt>
         <publisher>
-          <corpName role="publisher" codedval="5115204-6" auth.uri="http://d-nb.info/gnd/"
-            auth="GND">Musikwissenschaftliches Seminar, Detmold</corpName>
+          <corpName role="publisher" codedval="5115204-6" auth.uri="http://d-nb.info/gnd/" auth="GND">Musikwissenschaftliches Seminar, Detmold</corpName>
         </publisher>
         <address>
           <addrLine>Gartenstrasse 20</addrLine>
-          <addrLine>32756 <geogName codedval="7004442" auth.uri="http://vocab.getty.edu/page/tgn/"
-            auth="TGN">Detmold</geogName> </addrLine>
+          <addrLine>32756 <geogName codedval="7004442" auth.uri="http://vocab.getty.edu/page/tgn/" auth="TGN">Detmold</geogName> </addrLine>
           <addrLine>
-            <geogName codedval="7000084" auth.uri="http://vocab.getty.edu/page/tgn/" auth="TGN"
-              >Germany</geogName>
+            <geogName codedval="7000084" auth.uri="http://vocab.getty.edu/page/tgn/" auth="TGN">Germany</geogName>
           </addrLine>
         </address>
         <date>2011</date>
@@ -43,21 +38,11 @@
       <seriesStmt>
         <title>MEI Sample Collection</title>
         <funder>
-          <corpName role="funder" codedval="2007744-0" auth.uri="http://d-nb.info/gnd/" auth="GND"
-            >German Research Foundation<address> <addrLine>Kennedyallee 40</addrLine> <addrLine>
-            <geogName codedval="7005090" auth.uri="http://vocab.getty.edu/page/tgn/" auth="TGN"
-            >Bonn</geogName> </addrLine> <addrLine> <geogName codedval="7000084"
-            auth.uri="http://vocab.getty.edu/page/tgn/" auth="TGN">Germany</geogName> </addrLine>
-            </address> </corpName>
+          <corpName role="funder" codedval="2007744-0" auth.uri="http://d-nb.info/gnd/" auth="GND">German Research Foundation<address><addrLine>Kennedyallee 40</addrLine><addrLine><geogName codedval="7005090" auth.uri="http://vocab.getty.edu/page/tgn/" auth="TGN">Bonn</geogName></addrLine><addrLine><geogName codedval="7000084" auth.uri="http://vocab.getty.edu/page/tgn/" auth="TGN">Germany</geogName></addrLine></address> </corpName>
         </funder>
         <funder>
-          <corpName role="funder" codedval="18183-3" auth.uri="http://d-nb.info/gnd/18183-3"
-            auth="Deutsche Nationalbibliothek">National Endowment for the Humanities<address>
-            <addrLine>1100 Pennsylvania Avenue N.W.</addrLine> <addrLine> <geogName
-            codedval="7013962" auth.uri="http://vocab.getty.edu/page/tgn/" auth="TGN">Washington,
-            DC</geogName> 20004</addrLine> <addrLine> <geogName codedval="7012149"
-            auth.uri="http://vocab.getty.edu/page/tgn/" auth="TGN">United States</geogName>
-            </addrLine> </address> </corpName>
+          <corpName role="funder" codedval="18183-3" auth.uri="http://d-nb.info/gnd/18183-3" auth="Deutsche Nationalbibliothek">National Endowment for the Humanities<address><addrLine>1100 Pennsylvania Avenue N.W.</addrLine><addrLine><geogName codedval="7013962" auth.uri="http://vocab.getty.edu/page/tgn/" auth="TGN">Washington,
+            DC</geogName> 20004</addrLine><addrLine><geogName codedval="7012149" auth.uri="http://vocab.getty.edu/page/tgn/" auth="TGN">United States</geogName></addrLine></address> </corpName>
         </funder>
         <respStmt>
           <corpName role="publisher">MEI Project</corpName>
@@ -69,12 +54,10 @@
       <sourceDesc>
         <source>
           <bibl>
-            <identifier type="URI"
-              >http://javanese.imslp.info/files/imglnks/usimg/6/66/IMSLP160023-WIMA.c29d-01-Domine-Seus-Partitur.pdf</identifier>
+            <identifier type="URI">http://javanese.imslp.info/files/imglnks/usimg/6/66/IMSLP160023-WIMA.c29d-01-Domine-Seus-Partitur.pdf</identifier>
             <title>Domine Deus, Deus virtutum</title>
             <composer>
-              <persName role="creator" cert="unknown" codedval="11861116X"
-                auth.uri="http://d-nb.info/gnd/" auth="GND">Heinrich Schütz</persName>
+              <persName role="creator" cert="unknown" codedval="11861116X" auth.uri="http://d-nb.info/gnd/" auth="GND">Heinrich Schütz</persName>
             </composer>
             <editor>
               <persName role="editor">Fritz Brodersen</persName>
@@ -83,8 +66,7 @@
         </source>
         <source>
           <bibl>
-            <identifier type="URI"
-              >http://icking-music-archive.org/scores/schuetz/anon1/Domine-Deus-xml.zip</identifier>
+            <identifier type="URI">http://icking-music-archive.org/scores/schuetz/anon1/Domine-Deus-xml.zip</identifier>
             <title>Domine Deus, Deus virtutum</title>
             <imprint>
               <date isodate="2011-10-10"/>
@@ -113,8 +95,7 @@
       </appInfo>
       <classDecls>
         <taxonomy>
-          <bibl xml:id="OCLC_DDC"
-            target="http://www.oclc.org/dewey/resources/summaries/default.htm#700">OCLC_DDC</bibl>
+          <bibl xml:id="OCLC_DDC" target="http://www.oclc.org/dewey/resources/summaries/default.htm#700">OCLC_DDC</bibl>
         </taxonomy>
       </classDecls>
     </encodingDesc>
@@ -122,8 +103,7 @@
       <work>
         <title>Domine Deus, Deus virtutum</title>
         <composer>
-          <persName role="creator" cert="unknown" codedval="11861116X"
-            auth.uri="http://d-nb.info/gnd/" auth="GND">Heinrich Schütz</persName>
+          <persName role="creator" cert="unknown" codedval="11861116X" auth.uri="http://d-nb.info/gnd/" auth="GND">Heinrich Schütz</persName>
         </composer>
         <key pname="d" mode="dorian">D dorian</key>
         <meter count="4" unit="4" sym="common"/>
@@ -161,7 +141,7 @@
     <revisionDesc>
       <change n="1">
         <respStmt>
-           <name>Unknown</name>
+          <name>Unknown</name>
         </respStmt>
         <changeDesc>
           <p>The original MusicXML file was generated using CapToMusic.py CapXML to MusicXML
@@ -174,8 +154,7 @@
           <persName xml:id="MH"> Maja Hartwig </persName>
         </respStmt>
         <changeDesc>
-          <p>Transcoded from a MusicXML version 1.1 file on 2011-10-10 using the <ref
-            target="#xsl_mxl2mei_2.2.3">musicxml2mei</ref> stylesheet. </p>
+          <p>Transcoded from a MusicXML version 1.1 file on 2011-10-10 using the <ref target="#xsl_mxl2mei_2.2.3">musicxml2mei</ref> stylesheet. </p>
         </changeDesc>
         <date isodate="2011-10-10"/>
       </change>
@@ -235,8 +214,7 @@
             </pgHead>
             <staffGrp>
               <staffGrp xml:id="P1" symbol="brace">
-                <staffDef n="1" lines="5" clef.line="2" clef.shape="G" key.sig="0" key.mode="major"
-                  spacing="70" xml:id="P1-I1">
+                <staffDef n="1" lines="5" clef.line="2" clef.shape="G" key.sig="0" key.mode="major" spacing="70" xml:id="P1-I1">
                   <label>Violine 1</label>
                   <labelAbbr>Vl 1</labelAbbr>
                 </staffDef>
@@ -245,39 +223,32 @@
                   <labelAbbr>Vl 2</labelAbbr>
                 </staffDef>
               </staffGrp>
-              <staffDef n="3" xml:id="P2" lines="5" clef.line="2" clef.shape="G" key.sig="0"
-                key.mode="major" spacing="80">
+              <staffDef n="3" xml:id="P2" lines="5" clef.line="2" clef.shape="G" key.sig="0" key.mode="major" spacing="80">
                 <label>Altus Chor 1</label>
                 <labelAbbr>A.-Chor 1</labelAbbr>
               </staffDef>
-              <staffDef n="4" xml:id="P3" lines="5" clef.line="2" clef.shape="G" key.sig="0"
-                key.mode="major" spacing="80">
+              <staffDef n="4" xml:id="P3" lines="5" clef.line="2" clef.shape="G" key.sig="0" key.mode="major" spacing="80">
                 <label>Tenor Chor 1</label>
                 <labelAbbr>T.- Ch. 1</labelAbbr>
               </staffDef>
-              <staffDef n="5" xml:id="P4" lines="5" clef.line="4" clef.shape="F" key.sig="0"
-                key.mode="major" spacing="80">
+              <staffDef n="5" xml:id="P4" lines="5" clef.line="4" clef.shape="F" key.sig="0" key.mode="major" spacing="80">
                 <label>Bassus Chor 1</label>
                 <labelAbbr>B. - Ch. 1</labelAbbr>
               </staffDef>
-              <staffDef n="6" xml:id="P5" lines="5" clef.line="2" clef.shape="G" key.sig="0"
-                key.mode="major" spacing="100">
+              <staffDef n="6" xml:id="P5" lines="5" clef.line="2" clef.shape="G" key.sig="0" key.mode="major" spacing="100">
                 <label>Cantus 1 Chor 2</label>
                 <labelAbbr>C 1 Ch. 2</labelAbbr>
               </staffDef>
-              <staffDef n="7" xml:id="P6" lines="5" clef.line="2" clef.shape="G" key.sig="0"
-                key.mode="major" spacing="80">
+              <staffDef n="7" xml:id="P6" lines="5" clef.line="2" clef.shape="G" key.sig="0" key.mode="major" spacing="80">
                 <label>Cantus 2 Chor 2</label>
                 <labelAbbr>C 2 Ch. 2</labelAbbr>
               </staffDef>
               <staffGrp xml:id="P7" symbol="brace">
-                <staffDef n="8" lines="5" clef.line="2" clef.shape="G" key.sig="0" key.mode="major"
-                  spacing="80" xml:id="P7-I1">
+                <staffDef n="8" lines="5" clef.line="2" clef.shape="G" key.sig="0" key.mode="major" spacing="80" xml:id="P7-I1">
                   <label>Trombone Alto</label>
                   <labelAbbr>Tromb.-A.</labelAbbr>
                 </staffDef>
-                <staffDef n="9" clef.shape="G" clef.line="2" clef.dis="8" clef.dis.place="below"
-                  lines="5">
+                <staffDef n="9" clef.shape="G" clef.line="2" clef.dis="8" clef.dis.place="below" lines="5">
                   <label>Trombone Tenor</label>
                   <labelAbbr>Tromb.-T</labelAbbr>
                 </staffDef>
@@ -286,28 +257,23 @@
                   <labelAbbr>Trmob.-B</labelAbbr>
                 </staffDef>
               </staffGrp>
-              <staffDef n="11" xml:id="P8" lines="5" clef.line="2" clef.shape="G" key.sig="0"
-                key.mode="major" spacing="100">
+              <staffDef n="11" xml:id="P8" lines="5" clef.line="2" clef.shape="G" key.sig="0" key.mode="major" spacing="100">
                 <label>Cantus Chor 3</label>
                 <labelAbbr>C.- Ch. 3</labelAbbr>
               </staffDef>
-              <staffDef n="12" xml:id="P9" lines="5" clef.line="2" clef.shape="G" key.sig="0"
-                key.mode="major" spacing="80">
+              <staffDef n="12" xml:id="P9" lines="5" clef.line="2" clef.shape="G" key.sig="0" key.mode="major" spacing="80">
                 <label>Altus Chor 3</label>
                 <labelAbbr>A.-Ch. 3</labelAbbr>
               </staffDef>
-              <staffDef n="13" xml:id="P10" lines="5" clef.line="2" clef.shape="G" clef.dis="8"
-                clef.dis.place="below" key.sig="0" key.mode="major" spacing="80">
+              <staffDef n="13" xml:id="P10" lines="5" clef.line="2" clef.shape="G" clef.dis="8" clef.dis.place="below" key.sig="0" key.mode="major" spacing="80">
                 <label>Tenor Chor 3</label>
                 <labelAbbr>T.-Ch. 3</labelAbbr>
               </staffDef>
-              <staffDef n="14" xml:id="P11" lines="5" clef.line="4" clef.shape="F" key.sig="0"
-                key.mode="major" spacing="80">
+              <staffDef n="14" xml:id="P11" lines="5" clef.line="4" clef.shape="F" key.sig="0" key.mode="major" spacing="80">
                 <label>Bassus Chor 3</label>
                 <labelAbbr>B.-Ch. 3</labelAbbr>
               </staffDef>
-              <staffDef n="15" xml:id="P12" lines="5" clef.line="4" clef.shape="F" key.sig="0"
-                key.mode="major" spacing="80">
+              <staffDef n="15" xml:id="P12" lines="5" clef.line="4" clef.shape="F" key.sig="0" key.mode="major" spacing="80">
                 <label>Violone</label>
                 <labelAbbr>Violone</labelAbbr>
               </staffDef>
@@ -1000,8 +966,7 @@
                   <note xml:id="d1e3609" pname="g" oct="3" dur="2"/>
                 </layer>
               </staff>
-              <slur tstamp="3" curvedir="above" startid="#d1e3191" endid="#d1e3211" staff="6"
-                tstamp2="0m+4.5"/>
+              <slur tstamp="3" curvedir="above" startid="#d1e3191" endid="#d1e3211" staff="6" tstamp2="0m+4.5"/>
               <harm staff="16" place="below" tstamp="1">
                 <fb>
                   <f>7</f>
@@ -2291,8 +2256,7 @@
                   <note xml:id="d1e9582" pname="a" oct="2" dur="4"/>
                 </layer>
               </staff>
-              <slur tstamp="1.5" curvedir="above" startid="#d1e8567" endid="#d1e8643" staff="7"
-                tstamp2="0m+2.75"/>
+              <slur tstamp="1.5" curvedir="above" startid="#d1e8567" endid="#d1e8643" staff="7" tstamp2="0m+2.75"/>
               <tie tstamp="1.5" staff="7" startid="#d1e8567" endid="#d1e8590"/>
               <harm staff="16" place="below" tstamp="1">
                 <fb>
@@ -2638,8 +2602,7 @@
                   <note xml:id="d1e11393" pname="f" accid="s" oct="2" dur="4"/>
                 </layer>
               </staff>
-              <slur tstamp="4" curvedir="below" startid="#d1e9924" endid="#d1e9965" staff="3"
-                tstamp2="0m+4.75"/>
+              <slur tstamp="4" curvedir="below" startid="#d1e9924" endid="#d1e9965" staff="3" tstamp2="0m+4.75"/>
               <harm staff="16" place="below" tstamp="2">
                 <fb>
                   <f>6</f>
@@ -3955,10 +3918,8 @@
                   <note xml:id="d1e17533" pname="e" oct="2" dur="1"/>
                 </layer>
               </staff>
-              <slur tstamp="1" curvedir="above" startid="#d1e17012" endid="#d1e17043" staff="6"
-                tstamp2="0m+3"/>
-              <slur tstamp="1" curvedir="below" startid="#d1e17058" endid="#d1e17093" staff="7"
-                tstamp2="0m+4"/>
+              <slur tstamp="1" curvedir="above" startid="#d1e17012" endid="#d1e17043" staff="6" tstamp2="0m+3"/>
+              <slur tstamp="1" curvedir="below" startid="#d1e17058" endid="#d1e17093" staff="7" tstamp2="0m+4"/>
               <harm staff="16" place="below" tstamp="1">
                 <fb>
                   <f>5</f>
@@ -5282,16 +5243,11 @@
                   <note xml:id="d1e24129" pname="a" oct="2" dur="2"/>
                 </layer>
               </staff>
-              <slur tstamp="1" curvedir="above" startid="#d1e22744" endid="#d1e22865" staff="5"
-                tstamp2="0m+3"/>
-              <slur tstamp="1" curvedir="above" startid="#d1e22880" endid="#d1e22950" staff="6"
-                tstamp2="0m+4"/>
-              <slur tstamp="3" curvedir="below" startid="#d1e23054" endid="#d1e23073" staff="7"
-                tstamp2="0m+4"/>
-              <slur tstamp="3" curvedir="above" startid="#d1e23391" endid="#d1e23430" staff="11"
-                tstamp2="0m+4"/>
-              <slur tstamp="4" curvedir="below" startid="#d1e23538" endid="#d1e23575" staff="12"
-                tstamp2="0m+4.75"/>
+              <slur tstamp="1" curvedir="above" startid="#d1e22744" endid="#d1e22865" staff="5" tstamp2="0m+3"/>
+              <slur tstamp="1" curvedir="above" startid="#d1e22880" endid="#d1e22950" staff="6" tstamp2="0m+4"/>
+              <slur tstamp="3" curvedir="below" startid="#d1e23054" endid="#d1e23073" staff="7" tstamp2="0m+4"/>
+              <slur tstamp="3" curvedir="above" startid="#d1e23391" endid="#d1e23430" staff="11" tstamp2="0m+4"/>
+              <slur tstamp="4" curvedir="below" startid="#d1e23538" endid="#d1e23575" staff="12" tstamp2="0m+4.75"/>
               <harm staff="16" place="below" tstamp="1">
                 <fb>
                   <f>6</f>
@@ -6107,8 +6063,7 @@
                   <note xml:id="d1e27598" pname="g" oct="3" dur="2"/>
                 </layer>
               </staff>
-              <slur tstamp="3" curvedir="above" startid="#d1e27170" endid="#d1e27190" staff="7"
-                tstamp2="0m+4.5"/>
+              <slur tstamp="3" curvedir="above" startid="#d1e27170" endid="#d1e27190" staff="7" tstamp2="0m+4.5"/>
               <harm staff="16" place="below" tstamp="1">
                 <fb>
                   <f>7</f>
@@ -6499,8 +6454,7 @@
                   <note xml:id="d1e29280" pname="d" oct="3" dur="1" tie="i"/>
                 </layer>
               </staff>
-              <slur tstamp="1" curvedir="above" startid="#d1e28705" endid="#d1e30387" staff="5"
-                tstamp2="2m+3"/>
+              <slur tstamp="1" curvedir="above" startid="#d1e28705" endid="#d1e30387" staff="5" tstamp2="2m+3"/>
               <tie tstamp="2" staff="5" startid="#d1e28773" endid="#d1e28788"/>
               <tie tstamp="1" staff="15" startid="#d1e29280" endid="#d1e29842"/>
               <harm staff="16" place="below" tstamp="1">
@@ -6630,8 +6584,7 @@
                   <note xml:id="d1e29859" pname="e" oct="3" dur="2"/>
                 </layer>
               </staff>
-              <slur tstamp="2" curvedir="above" startid="#d1e29366" endid="#d1e30227" staff="4"
-                tstamp2="1m+3"/>
+              <slur tstamp="2" curvedir="above" startid="#d1e29366" endid="#d1e30227" staff="4" tstamp2="1m+3"/>
               <tie tstamp="2" staff="4" startid="#d1e29366" endid="#d1e29387"/>
               <tie tstamp="4" staff="4" startid="#d1e29454" endid="#d1e30096"/>
               <tie tstamp="1" staff="5" startid="#d1e29470" endid="#d1e29485"/>
@@ -7208,10 +7161,8 @@
                   <note xml:id="d1e33050" pname="c" oct="3" dur="4"/>
                 </layer>
               </staff>
-              <slur tstamp="3" curvedir="above" startid="#d1e32236" endid="#d1e33117" staff="6"
-                tstamp2="1m+1"/>
-              <slur tstamp="1" curvedir="above" startid="#d1e32346" endid="#d1e33174" staff="7"
-                tstamp2="1m+1"/>
+              <slur tstamp="3" curvedir="above" startid="#d1e32236" endid="#d1e33117" staff="6" tstamp2="1m+1"/>
+              <slur tstamp="1" curvedir="above" startid="#d1e32346" endid="#d1e33174" staff="7" tstamp2="1m+1"/>
               <harm staff="16" place="below" tstamp="1">
                 <fb>
                   <f>6</f>
@@ -8079,13 +8030,10 @@
                   <note xml:id="d1e37252" pname="g" oct="2" dur="4"/>
                 </layer>
               </staff>
-              <slur tstamp="3" curvedir="above" startid="#d1e35760" endid="#d1e37435" staff="4"
-                tstamp2="1m+1"/>
-              <slur tstamp="1" curvedir="above" startid="#d1e35872" endid="#d1e36001" staff="5"
-                tstamp2="0m+3.25"/>
+              <slur tstamp="3" curvedir="above" startid="#d1e35760" endid="#d1e37435" staff="4" tstamp2="1m+1"/>
+              <slur tstamp="1" curvedir="above" startid="#d1e35872" endid="#d1e36001" staff="5" tstamp2="0m+3.25"/>
               <tie tstamp="4" staff="11" startid="#d1e36452" endid="#d1e37752"/>
-              <slur tstamp="4" curvedir="below" startid="#d1e36878" endid="#d1e36938" staff="14"
-                tstamp2="0m+4.75"/>
+              <slur tstamp="4" curvedir="below" startid="#d1e36878" endid="#d1e36938" staff="14" tstamp2="0m+4.75"/>
               <harm staff="16" tstamp="1" place="below">
                 <fb>
                   <f>6</f>
@@ -8260,8 +8208,7 @@
                 </layer>
               </staff>
               <tie tstamp="11" staff="6 11" startid="#d1e37566" endid="#d1e37752"/>
-              <slur tstamp="3" curvedir="above" startid="#d1e37595" endid="#d1e37618" staff="7"
-                tstamp2="0m+4"/>
+              <slur tstamp="3" curvedir="above" startid="#d1e37595" endid="#d1e37618" staff="7" tstamp2="0m+4"/>
               <tie tstamp="11" staff="9" startid="#d1e37700" endid="#d1e38550"/>
               <harm staff="16" place="below" tstamp="1">
                 <fb>
@@ -11794,10 +11741,8 @@
                   <note xml:id="d1e52745" pname="b" oct="2" dur="1"/>
                 </layer>
               </staff>
-              <slur tstamp="2" curvedir="below" startid="#d1e52251" endid="#d1e52286" staff="7"
-                tstamp2="0m+3"/>
-              <slur tstamp="2" curvedir="above" startid="#d1e52431" endid="#d1e52451" staff="11"
-                tstamp2="0m+3.5"/>
+              <slur tstamp="2" curvedir="below" startid="#d1e52251" endid="#d1e52286" staff="7" tstamp2="0m+3"/>
+              <slur tstamp="2" curvedir="above" startid="#d1e52431" endid="#d1e52451" staff="11" tstamp2="0m+3.5"/>
             </measure>
             <measure n="63" xml:id="d1e52760">
               <staff n="1">
@@ -12443,12 +12388,9 @@
                   <note xml:id="d1e55248" pname="d" oct="3" dur="1" dots="1"/>
                 </layer>
               </staff>
-              <slur tstamp="1" curvedir="below" startid="#d1e54561" endid="#d1e55459" staff="4"
-                tstamp2="1m+1"/>
-              <slur tstamp="1" curvedir="above" startid="#d1e54682" endid="#d1e56302" staff="6"
-                tstamp2="2m+1.5"/>
-              <slur tstamp="1" curvedir="below" startid="#d1e54762" endid="#d1e55615" staff="7"
-                tstamp2="1m+1"/>
+              <slur tstamp="1" curvedir="below" startid="#d1e54561" endid="#d1e55459" staff="4" tstamp2="1m+1"/>
+              <slur tstamp="1" curvedir="above" startid="#d1e54682" endid="#d1e56302" staff="6" tstamp2="2m+1.5"/>
+              <slur tstamp="1" curvedir="below" startid="#d1e54762" endid="#d1e55615" staff="7" tstamp2="1m+1"/>
               <harm staff="16" place="below" tstamp="1">
                 <fb>
                   <f>#</f>
@@ -12625,8 +12567,7 @@
                   <note xml:id="d1e56027" pname="g" oct="2" dur="1" dots="1"/>
                 </layer>
               </staff>
-              <slur tstamp="1" curvedir="above" startid="#d1e55770" endid="#d1e56559" staff="11"
-                tstamp2="1m+1"/>
+              <slur tstamp="1" curvedir="above" startid="#d1e55770" endid="#d1e56559" staff="11" tstamp2="1m+1"/>
             </measure>
             <measure n="68" xml:id="d1e56042">
               <staff n="1">
@@ -12819,12 +12760,9 @@
                   <note xml:id="d1e56773" pname="c" oct="3" dur="1" dots="1"/>
                 </layer>
               </staff>
-              <slur tstamp="2" curvedir="above" startid="#d1e56316" endid="#d1e56335" staff="6"
-                tstamp2="0m+2.5"/>
-              <slur tstamp="1" curvedir="below" startid="#d1e56367" endid="#d1e56386" staff="7"
-                tstamp2="0m+1.5"/>
-              <slur tstamp="2" curvedir="below" startid="#d1e56400" endid="#d1e56419" staff="7"
-                tstamp2="0m+2.5"/>
+              <slur tstamp="2" curvedir="above" startid="#d1e56316" endid="#d1e56335" staff="6" tstamp2="0m+2.5"/>
+              <slur tstamp="1" curvedir="below" startid="#d1e56367" endid="#d1e56386" staff="7" tstamp2="0m+1.5"/>
+              <slur tstamp="2" curvedir="below" startid="#d1e56400" endid="#d1e56419" staff="7" tstamp2="0m+2.5"/>
               <tie tstamp="3" staff="12" startid="#d1e56626" endid="#d1e57220"/>
             </measure>
             <measure n="69" xml:id="d1e56788">
@@ -12992,8 +12930,7 @@
                   <note xml:id="d1e57486" pname="e" oct="2" dur="1"/>
                 </layer>
               </staff>
-              <slur tstamp="1" curvedir="below" startid="#d1e57253" endid="#d1e57272" staff="13"
-                tstamp2="0m+2"/>
+              <slur tstamp="1" curvedir="below" startid="#d1e57253" endid="#d1e57272" staff="13" tstamp2="0m+2"/>
               <harm staff="16" place="below" tstamp="3">
                 <fb>
                   <f>4</f>
@@ -14274,8 +14211,7 @@
                 </layer>
               </staff>
               <dir tstamp="1" place="above" staff="16">
-                <rend fontfam="Times New Roman" fontsize="10pt" fontstyle="italic" fontweight="bold"
-                  >Soli</rend>
+                <rend fontfam="Times New Roman" fontsize="10pt" fontstyle="italic" fontweight="bold">Soli</rend>
               </dir>
             </measure>
             <sb/>
@@ -14606,14 +14542,10 @@
                   <note xml:id="d1e64396" pname="g" oct="3" dur="1"/>
                 </layer>
               </staff>
-              <slur tstamp="1" curvedir="below" startid="#d1e63820" endid="#d1e63851" staff="3"
-                tstamp2="0m+3"/>
-              <slur tstamp="1" curvedir="above" startid="#d1e64072" endid="#d1e64103" staff="11"
-                tstamp2="0m+4"/>
-              <slur tstamp="1" curvedir="below" startid="#d1e64118" endid="#d1e64149" staff="12"
-                tstamp2="0m+3"/>
-              <slur tstamp="1" curvedir="above" startid="#d1e64164" endid="#d1e64195" staff="13"
-                tstamp2="0m+3"/>
+              <slur tstamp="1" curvedir="below" startid="#d1e63820" endid="#d1e63851" staff="3" tstamp2="0m+3"/>
+              <slur tstamp="1" curvedir="above" startid="#d1e64072" endid="#d1e64103" staff="11" tstamp2="0m+4"/>
+              <slur tstamp="1" curvedir="below" startid="#d1e64118" endid="#d1e64149" staff="12" tstamp2="0m+3"/>
+              <slur tstamp="1" curvedir="above" startid="#d1e64164" endid="#d1e64195" staff="13" tstamp2="0m+3"/>
             </measure>
             <measure n="78" xml:id="d1e64410">
               <staff n="1">
@@ -15089,12 +15021,9 @@
                   <note xml:id="d1e66453" pname="e" oct="3" dur="1"/>
                 </layer>
               </staff>
-              <slur tstamp="1" curvedir="below" startid="#d1e65931" endid="#d1e65962" staff="7"
-                tstamp2="0m+4"/>
-              <slur tstamp="1" curvedir="above" startid="#d1e66149" endid="#d1e66180" staff="11"
-                tstamp2="0m+3"/>
-              <slur tstamp="1" curvedir="below" startid="#d1e66213" endid="#d1e66244" staff="13"
-                tstamp2="0m+4"/>
+              <slur tstamp="1" curvedir="below" startid="#d1e65931" endid="#d1e65962" staff="7" tstamp2="0m+4"/>
+              <slur tstamp="1" curvedir="above" startid="#d1e66149" endid="#d1e66180" staff="11" tstamp2="0m+3"/>
+              <slur tstamp="1" curvedir="below" startid="#d1e66213" endid="#d1e66244" staff="13" tstamp2="0m+4"/>
               <harm staff="16" place="below" tstamp="1">
                 <fb>
                   <f>5</f>
@@ -16385,8 +16314,7 @@
                 </layer>
               </staff>
               <dir tstamp="1" place="above" staff="16">
-                <rend fontfam="Times New Roman" fontsize="12pt" fontstyle="italic" fontweight="bold"
-                  >Soli</rend>
+                <rend fontfam="Times New Roman" fontsize="12pt" fontstyle="italic" fontweight="bold">Soli</rend>
               </dir>
             </measure>
             <sb/>
@@ -16931,8 +16859,7 @@
                   <note xml:id="d1e73998" pname="f" oct="2" dur="4"/>
                 </layer>
               </staff>
-              <slur tstamp="4" curvedir="above" startid="#d1e73629" endid="#d1e74957" staff="11"
-                tstamp2="2m+3"/>
+              <slur tstamp="4" curvedir="above" startid="#d1e73629" endid="#d1e74957" staff="11" tstamp2="2m+3"/>
             </measure>
             <measure n="90" xml:id="d1e74012">
               <staff n="1">
@@ -17432,8 +17359,7 @@
                   <note xml:id="d1e76634" pname="a" oct="2" dur="4"/>
                 </layer>
               </staff>
-              <slur tstamp="1" curvedir="above" startid="#d1e75585" endid="#d1e77290" staff="5"
-                tstamp2="1m+1"/>
+              <slur tstamp="1" curvedir="above" startid="#d1e75585" endid="#d1e77290" staff="5" tstamp2="1m+1"/>
               <harm staff="16" place="below" tstamp="3">
                 <fb>
                   <f>6</f>
@@ -17759,8 +17685,7 @@
                   <note xml:id="d1e78702" pname="c" oct="3" dur="4"/>
                 </layer>
               </staff>
-              <slur tstamp="3" curvedir="below" startid="#d1e78018" endid="#d1e78145" staff="7"
-                tstamp2="0m+4.75"/>
+              <slur tstamp="3" curvedir="below" startid="#d1e78018" endid="#d1e78145" staff="7" tstamp2="0m+4.75"/>
               <harm place="below" staff="16" tstamp="3">
                 <fb>
                   <f>b</f>
@@ -17947,10 +17872,8 @@
                   <note xml:id="d1e80152" pname="c" oct="3" dur="4"/>
                 </layer>
               </staff>
-              <slur tstamp="1" curvedir="above" startid="#d1e79092" endid="#d1e81006" staff="6"
-                tstamp2="1m+1"/>
-              <slur tstamp="1" curvedir="below" startid="#d1e79383" endid="#d1e79513" staff="7"
-                tstamp2="0m+3"/>
+              <slur tstamp="1" curvedir="above" startid="#d1e79092" endid="#d1e81006" staff="6" tstamp2="1m+1"/>
+              <slur tstamp="1" curvedir="below" startid="#d1e79383" endid="#d1e79513" staff="7" tstamp2="0m+3"/>
               <harm staff="16" place="below" tstamp="3">
                 <fb>
                   <f>6</f>
@@ -18172,10 +18095,8 @@
                   <note xml:id="d1e81868" pname="g" oct="3" dur="4"/>
                 </layer>
               </staff>
-              <slur tstamp="3" curvedir="above" startid="#d1e81045" endid="#d1e82582" staff="6"
-                tstamp2="1m+3"/>
-              <slur tstamp="1" curvedir="above" startid="#d1e81187" endid="#d1e82624" staff="7"
-                tstamp2="1m+1"/>
+              <slur tstamp="3" curvedir="above" startid="#d1e81045" endid="#d1e82582" staff="6" tstamp2="1m+3"/>
+              <slur tstamp="1" curvedir="above" startid="#d1e81187" endid="#d1e82624" staff="7" tstamp2="1m+1"/>
               <harm staff="16" place="below" tstamp="1">
                 <fb>
                   <f>5</f>
@@ -18392,10 +18313,8 @@
                   <note xml:id="d1e83349" pname="c" oct="3" dur="4"/>
                 </layer>
               </staff>
-              <slur tstamp="3" curvedir="below" startid="#d1e82033" endid="#d1e82160" staff="4"
-                tstamp2="0m+4.75"/>
-              <slur tstamp="1" curvedir="above" startid="#d1e82179" endid="#d1e82427" staff="5"
-                tstamp2="0m+4.75"/>
+              <slur tstamp="3" curvedir="below" startid="#d1e82033" endid="#d1e82160" staff="4" tstamp2="0m+4.75"/>
+              <slur tstamp="1" curvedir="above" startid="#d1e82179" endid="#d1e82427" staff="5" tstamp2="0m+4.75"/>
               <harm staff="16" place="below" tstamp="3">
                 <fb>
                   <f>6</f>
@@ -18682,8 +18601,7 @@
                   <note xml:id="d1e85076" pname="c" oct="2" dur="4"/>
                 </layer>
               </staff>
-              <slur tstamp="1" curvedir="below" startid="#d1e83895" endid="#d1e84025" staff="4"
-                tstamp2="0m+3"/>
+              <slur tstamp="1" curvedir="below" startid="#d1e83895" endid="#d1e84025" staff="4" tstamp2="0m+3"/>
             </measure>
             <measure n="100" xml:id="d1e85090">
               <staff n="1">
@@ -18987,10 +18905,8 @@
                   <note xml:id="d1e86789" pname="a" oct="2" dur="4"/>
                 </layer>
               </staff>
-              <slur tstamp="3" curvedir="above" startid="#d1e85358" endid="#d1e87210" staff="4"
-                tstamp2="1m+2.75"/>
-              <slur tstamp="1" curvedir="below" startid="#d1e85543" endid="#d1e87466" staff="6"
-                tstamp2="1m+1"/>
+              <slur tstamp="3" curvedir="above" startid="#d1e85358" endid="#d1e87210" staff="4" tstamp2="1m+2.75"/>
+              <slur tstamp="1" curvedir="below" startid="#d1e85543" endid="#d1e87466" staff="6" tstamp2="1m+1"/>
               <harm staff="16" place="below" tstamp="1">
                 <fb>
                   <f>5</f>
@@ -19363,12 +19279,9 @@
                   <note xml:id="d1e88827" pname="c" oct="3" dur="2"/>
                 </layer>
               </staff>
-              <slur tstamp="1" curvedir="below" startid="#d1e86829" endid="#d1e87077" staff="3"
-                tstamp2="0m+4.75"/>
-              <slur tstamp="3" curvedir="above" startid="#d1e87327" endid="#d1e87447" staff="5"
-                tstamp2="0m+4.75"/>
-              <slur tstamp="3" curvedir="above" startid="#d1e87522" endid="#d1e87641" staff="7"
-                tstamp2="0m+4.75"/>
+              <slur tstamp="1" curvedir="below" startid="#d1e86829" endid="#d1e87077" staff="3" tstamp2="0m+4.75"/>
+              <slur tstamp="3" curvedir="above" startid="#d1e87327" endid="#d1e87447" staff="5" tstamp2="0m+4.75"/>
+              <slur tstamp="3" curvedir="above" startid="#d1e87522" endid="#d1e87641" staff="7" tstamp2="0m+4.75"/>
               <harm staff="16" place="below" tstamp="3">
                 <fb>
                   <f>5</f>
@@ -19698,16 +19611,11 @@
                   <note xml:id="d1e90971" pname="c" oct="3" dur="2"/>
                 </layer>
               </staff>
-              <slur tstamp="1" curvedir="below" startid="#d1e89215" endid="#d1e89229" staff="3"
-                tstamp2="0m+1.5"/>
-              <slur tstamp="3" curvedir="below" startid="#d1e89256" endid="#d1e91416" staff="3"
-                tstamp2="1m+3"/>
-              <slur tstamp="1" curvedir="above" startid="#d1e89426" endid="#d1e89556" staff="5"
-                tstamp2="0m+3"/>
-              <slur tstamp="3" curvedir="above" startid="#d1e89643" endid="#d1e91847" staff="6"
-                tstamp2="1m+3"/>
-              <slur tstamp="1" curvedir="above" startid="#d1e89791" endid="#d1e89921" staff="7"
-                tstamp2="0m+3"/>
+              <slur tstamp="1" curvedir="below" startid="#d1e89215" endid="#d1e89229" staff="3" tstamp2="0m+1.5"/>
+              <slur tstamp="3" curvedir="below" startid="#d1e89256" endid="#d1e91416" staff="3" tstamp2="1m+3"/>
+              <slur tstamp="1" curvedir="above" startid="#d1e89426" endid="#d1e89556" staff="5" tstamp2="0m+3"/>
+              <slur tstamp="3" curvedir="above" startid="#d1e89643" endid="#d1e91847" staff="6" tstamp2="1m+3"/>
+              <slur tstamp="1" curvedir="above" startid="#d1e89791" endid="#d1e89921" staff="7" tstamp2="0m+3"/>
               <harm staff="16" place="below" tstamp="1">
                 <fb>
                   <f>6</f>
@@ -20073,10 +19981,8 @@
                   <note xml:id="d1e93070" pname="a" oct="3" dur="4"/>
                 </layer>
               </staff>
-              <slur tstamp="3" curvedir="above" startid="#d1e91583" endid="#d1e93911" staff="5"
-                tstamp2="1m+4.75"/>
-              <slur tstamp="3" curvedir="above" startid="#d1e91895" endid="#d1e94210" staff="7"
-                tstamp2="1m+3"/>
+              <slur tstamp="3" curvedir="above" startid="#d1e91583" endid="#d1e93911" staff="5" tstamp2="1m+4.75"/>
+              <slur tstamp="3" curvedir="above" startid="#d1e91895" endid="#d1e94210" staff="7" tstamp2="1m+3"/>
               <harm staff="16" place="below" tstamp="1">
                 <fb>
                   <f>6</f>
@@ -20398,16 +20304,11 @@
                   <note xml:id="d1e95432" pname="f" oct="3" dur="4"/>
                 </layer>
               </staff>
-              <slur tstamp="3" curvedir="above" startid="#d1e93938" endid="#d1e94057" staff="6"
-                tstamp2="0m+4.75"/>
-              <slur tstamp="4" curvedir="above" startid="#d1e94568" endid="#d1e94623" staff="11"
-                tstamp2="0m+4.75"/>
-              <slur tstamp="4" curvedir="below" startid="#d1e94658" endid="#d1e94713" staff="12"
-                tstamp2="0m+4.75"/>
-              <slur tstamp="3" curvedir="above" startid="#d1e94740" endid="#d1e94859" staff="13"
-                tstamp2="0m+4.75"/>
-              <slur tstamp="3" curvedir="above" startid="#d1e94886" endid="#d1e95005" staff="14"
-                tstamp2="0m+4.75"/>
+              <slur tstamp="3" curvedir="above" startid="#d1e93938" endid="#d1e94057" staff="6" tstamp2="0m+4.75"/>
+              <slur tstamp="4" curvedir="above" startid="#d1e94568" endid="#d1e94623" staff="11" tstamp2="0m+4.75"/>
+              <slur tstamp="4" curvedir="below" startid="#d1e94658" endid="#d1e94713" staff="12" tstamp2="0m+4.75"/>
+              <slur tstamp="3" curvedir="above" startid="#d1e94740" endid="#d1e94859" staff="13" tstamp2="0m+4.75"/>
+              <slur tstamp="3" curvedir="above" startid="#d1e94886" endid="#d1e95005" staff="14" tstamp2="0m+4.75"/>
             </measure>
             <sb/>
             <measure n="105" xml:id="d1e95446">
@@ -20814,28 +20715,17 @@
                   <note xml:id="d1e98465" pname="d" oct="3" dur="4"/>
                 </layer>
               </staff>
-              <slur tstamp="3" curvedir="below" startid="#d1e95865" endid="#d1e98848" staff="3"
-                tstamp2="1m+3"/>
-              <slur tstamp="1" curvedir="above" startid="#d1e96162" endid="#d1e96176" staff="5"
-                tstamp2="0m+1.5"/>
-              <slur tstamp="3" curvedir="above" startid="#d1e96203" endid="#d1e101853" staff="5"
-                tstamp2="2m+1"/>
-              <slur tstamp="1" curvedir="below" startid="#d1e96352" endid="#d1e96482" staff="6"
-                tstamp2="0m+3"/>
-              <slur tstamp="4" curvedir="above" startid="#d1e96514" endid="#d1e99359" staff="6"
-                tstamp2="1m+1"/>
-              <slur tstamp="4" curvedir="below" startid="#d1e96674" endid="#d1e99527" staff="7"
-                tstamp2="1m+1"/>
-              <slur tstamp="2" curvedir="above" startid="#d1e97191" endid="#d1e97327" staff="11"
-                tstamp2="0m+4"/>
-              <slur tstamp="1" curvedir="below" startid="#d1e97371" endid="#d1e97390" staff="12"
-                tstamp2="0m+1.5"/>
-              <slur tstamp="2" curvedir="below" startid="#d1e97409" endid="#d1e97545" staff="12"
-                tstamp2="0m+4"/>
-              <slur tstamp="1" curvedir="below" startid="#d1e97589" endid="#d1e97719" staff="13"
-                tstamp2="0m+3"/>
-              <slur tstamp="1" curvedir="above" startid="#d1e97772" endid="#d1e97902" staff="14"
-                tstamp2="0m+3"/>
+              <slur tstamp="3" curvedir="below" startid="#d1e95865" endid="#d1e98848" staff="3" tstamp2="1m+3"/>
+              <slur tstamp="1" curvedir="above" startid="#d1e96162" endid="#d1e96176" staff="5" tstamp2="0m+1.5"/>
+              <slur tstamp="3" curvedir="above" startid="#d1e96203" endid="#d1e101853" staff="5" tstamp2="2m+1"/>
+              <slur tstamp="1" curvedir="below" startid="#d1e96352" endid="#d1e96482" staff="6" tstamp2="0m+3"/>
+              <slur tstamp="4" curvedir="above" startid="#d1e96514" endid="#d1e99359" staff="6" tstamp2="1m+1"/>
+              <slur tstamp="4" curvedir="below" startid="#d1e96674" endid="#d1e99527" staff="7" tstamp2="1m+1"/>
+              <slur tstamp="2" curvedir="above" startid="#d1e97191" endid="#d1e97327" staff="11" tstamp2="0m+4"/>
+              <slur tstamp="1" curvedir="below" startid="#d1e97371" endid="#d1e97390" staff="12" tstamp2="0m+1.5"/>
+              <slur tstamp="2" curvedir="below" startid="#d1e97409" endid="#d1e97545" staff="12" tstamp2="0m+4"/>
+              <slur tstamp="1" curvedir="below" startid="#d1e97589" endid="#d1e97719" staff="13" tstamp2="0m+3"/>
+              <slur tstamp="1" curvedir="above" startid="#d1e97772" endid="#d1e97902" staff="14" tstamp2="0m+3"/>
             </measure>
             <measure n="106" xml:id="d1e98479">
               <staff n="1">
@@ -21228,22 +21118,14 @@
                   <note xml:id="d1e101437" pname="b" oct="2" dur="4"/>
                 </layer>
               </staff>
-              <slur tstamp="3" curvedir="above" startid="#d1e98948" endid="#d1e101786" staff="4"
-                tstamp2="1m+3"/>
-              <slur tstamp="2" curvedir="above" startid="#d1e99390" endid="#d1e99461" staff="6"
-                tstamp2="0m+3"/>
-              <slur tstamp="2" curvedir="below" startid="#d1e99558" endid="#d1e99629" staff="7"
-                tstamp2="0m+3"/>
-              <slur tstamp="2" curvedir="below" startid="#d1e100058" endid="#d1e100129" staff="11"
-                tstamp2="0m+3"/>
-              <slur tstamp="4" curvedir="below" startid="#d1e100160" endid="#d1e102465" staff="11"
-                tstamp2="1m+1"/>
-              <slur tstamp="2" curvedir="below" startid="#d1e100240" endid="#d1e100311" staff="12"
-                tstamp2="0m+3"/>
-              <slur tstamp="4" curvedir="below" startid="#d1e100342" endid="#d1e102635" staff="12"
-                tstamp2="1m+2"/>
-              <slur tstamp="1" curvedir="above" startid="#d1e100677" endid="#d1e102749" staff="14"
-                tstamp2="1m+1"/>
+              <slur tstamp="3" curvedir="above" startid="#d1e98948" endid="#d1e101786" staff="4" tstamp2="1m+3"/>
+              <slur tstamp="2" curvedir="above" startid="#d1e99390" endid="#d1e99461" staff="6" tstamp2="0m+3"/>
+              <slur tstamp="2" curvedir="below" startid="#d1e99558" endid="#d1e99629" staff="7" tstamp2="0m+3"/>
+              <slur tstamp="2" curvedir="below" startid="#d1e100058" endid="#d1e100129" staff="11" tstamp2="0m+3"/>
+              <slur tstamp="4" curvedir="below" startid="#d1e100160" endid="#d1e102465" staff="11" tstamp2="1m+1"/>
+              <slur tstamp="2" curvedir="below" startid="#d1e100240" endid="#d1e100311" staff="12" tstamp2="0m+3"/>
+              <slur tstamp="4" curvedir="below" startid="#d1e100342" endid="#d1e102635" staff="12" tstamp2="1m+2"/>
+              <slur tstamp="1" curvedir="above" startid="#d1e100677" endid="#d1e102749" staff="14" tstamp2="1m+1"/>
             </measure>
             <measure n="107" xml:id="d1e101452">
               <staff n="1">
@@ -21566,10 +21448,8 @@
                   <note xml:id="d1e103154" pname="e" oct="3" dur="2"/>
                 </layer>
               </staff>
-              <slur tstamp="1" curvedir="above" startid="#d1e102038" endid="#d1e102173" staff="7"
-                tstamp2="0m+3"/>
-              <slur tstamp="2" curvedir="above" startid="#d1e102496" endid="#d1e102549" staff="11"
-                tstamp2="0m+3"/>
+              <slur tstamp="1" curvedir="above" startid="#d1e102038" endid="#d1e102173" staff="7" tstamp2="0m+3"/>
+              <slur tstamp="2" curvedir="above" startid="#d1e102496" endid="#d1e102549" staff="11" tstamp2="0m+3"/>
             </measure>
             <sb/>
             <measure n="108" xml:id="d1e103168">
@@ -21916,16 +21796,11 @@
                   <note xml:id="d1e105853" pname="e" oct="3" dur="4"/>
                 </layer>
               </staff>
-              <slur tstamp="1" curvedir="above" startid="#d1e103575" endid="#d1e106842" staff="6"
-                tstamp2="1m+1"/>
-              <slur tstamp="1" curvedir="above" startid="#d1e103884" endid="#d1e107072" staff="7"
-                tstamp2="1m+1"/>
-              <slur tstamp="1" curvedir="above" startid="#d1e104592" endid="#d1e107675" staff="11"
-                tstamp2="1m+3"/>
-              <slur tstamp="4" curvedir="above" startid="#d1e104928" endid="#d1e107791" staff="12"
-                tstamp2="1m+1"/>
-              <slur tstamp="1" curvedir="above" startid="#d1e105020" endid="#d1e108054" staff="13"
-                tstamp2="1m+3"/>
+              <slur tstamp="1" curvedir="above" startid="#d1e103575" endid="#d1e106842" staff="6" tstamp2="1m+1"/>
+              <slur tstamp="1" curvedir="above" startid="#d1e103884" endid="#d1e107072" staff="7" tstamp2="1m+1"/>
+              <slur tstamp="1" curvedir="above" startid="#d1e104592" endid="#d1e107675" staff="11" tstamp2="1m+3"/>
+              <slur tstamp="4" curvedir="above" startid="#d1e104928" endid="#d1e107791" staff="12" tstamp2="1m+1"/>
+              <slur tstamp="1" curvedir="above" startid="#d1e105020" endid="#d1e108054" staff="13" tstamp2="1m+3"/>
             </measure>
             <measure n="109" xml:id="d1e105867">
               <staff n="1">
@@ -22276,24 +22151,15 @@
                   <note xml:id="d1e108794" pname="e" oct="3" dur="4"/>
                 </layer>
               </staff>
-              <slur tstamp="2" curvedir="above" startid="#d1e106052" endid="#d1e106131" staff="3"
-                tstamp2="0m+3"/>
-              <slur tstamp="4" curvedir="above" startid="#d1e106170" endid="#d1e109326" staff="3"
-                tstamp2="1m+2"/>
-              <slur tstamp="1" curvedir="above" startid="#d1e106545" endid="#d1e109771" staff="5"
-                tstamp2="1m+4.75"/>
-              <slur tstamp="2" curvedir="above" startid="#d1e106877" endid="#d1e106956" staff="6"
-                tstamp2="0m+3"/>
-              <slur tstamp="4" curvedir="above" startid="#d1e106991" endid="#d1e109792" staff="6"
-                tstamp2="1m+1"/>
-              <slur tstamp="4" curvedir="above" startid="#d1e107710" endid="#d1e110596" staff="11"
-                tstamp2="1m+1"/>
-              <slur tstamp="2" curvedir="above" startid="#d1e107826" endid="#d1e107905" staff="12"
-                tstamp2="0m+3"/>
-              <slur tstamp="4" curvedir="above" startid="#d1e107940" endid="#d1e110784" staff="12"
-                tstamp2="1m+1"/>
-              <slur tstamp="1" curvedir="above" startid="#d1e108065" endid="#d1e111542" staff="14"
-                tstamp2="1m+4.75"/>
+              <slur tstamp="2" curvedir="above" startid="#d1e106052" endid="#d1e106131" staff="3" tstamp2="0m+3"/>
+              <slur tstamp="4" curvedir="above" startid="#d1e106170" endid="#d1e109326" staff="3" tstamp2="1m+2"/>
+              <slur tstamp="1" curvedir="above" startid="#d1e106545" endid="#d1e109771" staff="5" tstamp2="1m+4.75"/>
+              <slur tstamp="2" curvedir="above" startid="#d1e106877" endid="#d1e106956" staff="6" tstamp2="0m+3"/>
+              <slur tstamp="4" curvedir="above" startid="#d1e106991" endid="#d1e109792" staff="6" tstamp2="1m+1"/>
+              <slur tstamp="4" curvedir="above" startid="#d1e107710" endid="#d1e110596" staff="11" tstamp2="1m+1"/>
+              <slur tstamp="2" curvedir="above" startid="#d1e107826" endid="#d1e107905" staff="12" tstamp2="0m+3"/>
+              <slur tstamp="4" curvedir="above" startid="#d1e107940" endid="#d1e110784" staff="12" tstamp2="1m+1"/>
+              <slur tstamp="1" curvedir="above" startid="#d1e108065" endid="#d1e111542" staff="14" tstamp2="1m+4.75"/>
             </measure>
             <measure n="110" xml:id="d1e108808">
               <staff n="1">
@@ -22688,14 +22554,10 @@
                   <note xml:id="d1e112098" pname="c" oct="3" dur="4"/>
                 </layer>
               </staff>
-              <slur tstamp="1" curvedir="above" startid="#d1e109874" endid="#d1e110152" staff="7"
-                tstamp2="0m+4.75"/>
-              <slur tstamp="2" curvedir="above" startid="#d1e110631" endid="#d1e110710" staff="11"
-                tstamp2="0m+3"/>
-              <slur tstamp="2" curvedir="above" startid="#d1e110819" endid="#d1e110898" staff="12"
-                tstamp2="0m+3"/>
-              <slur tstamp="1" curvedir="above" startid="#d1e110972" endid="#d1e111250" staff="13"
-                tstamp2="0m+4.75"/>
+              <slur tstamp="1" curvedir="above" startid="#d1e109874" endid="#d1e110152" staff="7" tstamp2="0m+4.75"/>
+              <slur tstamp="2" curvedir="above" startid="#d1e110631" endid="#d1e110710" staff="11" tstamp2="0m+3"/>
+              <slur tstamp="2" curvedir="above" startid="#d1e110819" endid="#d1e110898" staff="12" tstamp2="0m+3"/>
+              <slur tstamp="1" curvedir="above" startid="#d1e110972" endid="#d1e111250" staff="13" tstamp2="0m+4.75"/>
             </measure>
             <sb/>
             <measure n="111" xml:id="d1e112112">
@@ -23001,12 +22863,9 @@
                   <note xml:id="d1e113922" pname="a" oct="3" dur="2"/>
                 </layer>
               </staff>
-              <slur tstamp="1" curvedir="below" startid="#d1e112339" endid="#d1e112474" staff="3"
-                tstamp2="0m+3"/>
-              <slur tstamp="1" curvedir="below" startid="#d1e112719" endid="#d1e112854" staff="6"
-                tstamp2="0m+3"/>
-              <slur tstamp="1" curvedir="above" startid="#d1e113504" endid="#d1e113523" staff="14"
-                tstamp2="0m+1.5"/>
+              <slur tstamp="1" curvedir="below" startid="#d1e112339" endid="#d1e112474" staff="3" tstamp2="0m+3"/>
+              <slur tstamp="1" curvedir="below" startid="#d1e112719" endid="#d1e112854" staff="6" tstamp2="0m+3"/>
+              <slur tstamp="1" curvedir="above" startid="#d1e113504" endid="#d1e113523" staff="14" tstamp2="0m+1.5"/>
             </measure>
             <measure n="112" xml:id="d1e113936">
               <staff n="1">
@@ -23338,10 +23197,8 @@
                   <note xml:id="d1e115737" pname="a" oct="2" dur="4"/>
                 </layer>
               </staff>
-              <slur tstamp="1" curvedir="below" startid="#d1e114076" endid="#d1e116114" staff="3"
-                tstamp2="1m+3"/>
-              <slur tstamp="1" curvedir="above" startid="#d1e114341" endid="#d1e116154" staff="4"
-                tstamp2="1m+1"/>
+              <slur tstamp="1" curvedir="below" startid="#d1e114076" endid="#d1e116114" staff="3" tstamp2="1m+3"/>
+              <slur tstamp="1" curvedir="above" startid="#d1e114341" endid="#d1e116154" staff="4" tstamp2="1m+1"/>
             </measure>
             <measure n="113" xml:id="d1e115751">
               <staff n="1">
@@ -23676,26 +23533,16 @@
                   <note xml:id="d1e118013" pname="a" oct="3" dur="4"/>
                 </layer>
               </staff>
-              <slur tstamp="3" curvedir="above" startid="#d1e116193" endid="#d1e116314" staff="4"
-                tstamp2="0m+4.75"/>
-              <slur tstamp="1" curvedir="above" startid="#d1e116333" endid="#d1e116593" staff="5"
-                tstamp2="0m+4.75"/>
-              <slur tstamp="2" curvedir="below" startid="#d1e116622" endid="#d1e116699" staff="6"
-                tstamp2="0m+3"/>
-              <slur tstamp="4" curvedir="below" startid="#d1e116730" endid="#d1e116785" staff="6"
-                tstamp2="0m+4.75"/>
-              <slur tstamp="2" curvedir="below" startid="#d1e116812" endid="#d1e116883" staff="7"
-                tstamp2="0m+3"/>
-              <slur tstamp="4" curvedir="below" startid="#d1e116914" endid="#d1e116969" staff="7"
-                tstamp2="0m+4.75"/>
-              <slur tstamp="4" curvedir="above" startid="#d1e117202" endid="#d1e117257" staff="11"
-                tstamp2="0m+4.75"/>
-              <slur tstamp="4" curvedir="below" startid="#d1e117326" endid="#d1e117381" staff="12"
-                tstamp2="0m+4.75"/>
-              <slur tstamp="3" curvedir="above" startid="#d1e117425" endid="#d1e117544" staff="13"
-                tstamp2="0m+4.75"/>
-              <slur tstamp="3" curvedir="above" startid="#d1e117605" endid="#d1e117732" staff="14"
-                tstamp2="0m+4.75"/>
+              <slur tstamp="3" curvedir="above" startid="#d1e116193" endid="#d1e116314" staff="4" tstamp2="0m+4.75"/>
+              <slur tstamp="1" curvedir="above" startid="#d1e116333" endid="#d1e116593" staff="5" tstamp2="0m+4.75"/>
+              <slur tstamp="2" curvedir="below" startid="#d1e116622" endid="#d1e116699" staff="6" tstamp2="0m+3"/>
+              <slur tstamp="4" curvedir="below" startid="#d1e116730" endid="#d1e116785" staff="6" tstamp2="0m+4.75"/>
+              <slur tstamp="2" curvedir="below" startid="#d1e116812" endid="#d1e116883" staff="7" tstamp2="0m+3"/>
+              <slur tstamp="4" curvedir="below" startid="#d1e116914" endid="#d1e116969" staff="7" tstamp2="0m+4.75"/>
+              <slur tstamp="4" curvedir="above" startid="#d1e117202" endid="#d1e117257" staff="11" tstamp2="0m+4.75"/>
+              <slur tstamp="4" curvedir="below" startid="#d1e117326" endid="#d1e117381" staff="12" tstamp2="0m+4.75"/>
+              <slur tstamp="3" curvedir="above" startid="#d1e117425" endid="#d1e117544" staff="13" tstamp2="0m+4.75"/>
+              <slur tstamp="3" curvedir="above" startid="#d1e117605" endid="#d1e117732" staff="14" tstamp2="0m+4.75"/>
             </measure>
             <sb/>
             <measure n="114" xml:id="d1e118027">
@@ -24088,26 +23935,16 @@
                   <note xml:id="d1e121087" pname="f" oct="2" dur="4"/>
                 </layer>
               </staff>
-              <slur tstamp="1" curvedir="above" startid="#d1e118523" endid="#d1e118659" staff="4"
-                tstamp2="0m+3"/>
-              <slur tstamp="1" curvedir="above" startid="#d1e118712" endid="#d1e121588" staff="5"
-                tstamp2="1m+1"/>
-              <slur tstamp="1" curvedir="below" startid="#d1e118992" endid="#d1e119011" staff="6"
-                tstamp2="0m+1.5"/>
-              <slur tstamp="3" curvedir="above" startid="#d1e119064" endid="#d1e121798" staff="6"
-                tstamp2="1m+3"/>
-              <slur tstamp="1" curvedir="above" startid="#d1e119592" endid="#d1e119611" staff="11"
-                tstamp2="0m+1.5"/>
-              <slur tstamp="4" curvedir="above" startid="#d1e119728" endid="#d1e122204" staff="11"
-                tstamp2="1m+1"/>
-              <slur tstamp="1" curvedir="below" startid="#d1e119813" endid="#d1e119832" staff="12"
-                tstamp2="0m+1.5"/>
-              <slur tstamp="2" curvedir="below" startid="#d1e119851" endid="#d1e122283" staff="12"
-                tstamp2="1m+1"/>
-              <slur tstamp="1" curvedir="above" startid="#d1e120064" endid="#d1e120200" staff="13"
-                tstamp2="0m+3"/>
-              <slur tstamp="1" curvedir="above" startid="#d1e120253" endid="#d1e122593" staff="14"
-                tstamp2="1m+1"/>
+              <slur tstamp="1" curvedir="above" startid="#d1e118523" endid="#d1e118659" staff="4" tstamp2="0m+3"/>
+              <slur tstamp="1" curvedir="above" startid="#d1e118712" endid="#d1e121588" staff="5" tstamp2="1m+1"/>
+              <slur tstamp="1" curvedir="below" startid="#d1e118992" endid="#d1e119011" staff="6" tstamp2="0m+1.5"/>
+              <slur tstamp="3" curvedir="above" startid="#d1e119064" endid="#d1e121798" staff="6" tstamp2="1m+3"/>
+              <slur tstamp="1" curvedir="above" startid="#d1e119592" endid="#d1e119611" staff="11" tstamp2="0m+1.5"/>
+              <slur tstamp="4" curvedir="above" startid="#d1e119728" endid="#d1e122204" staff="11" tstamp2="1m+1"/>
+              <slur tstamp="1" curvedir="below" startid="#d1e119813" endid="#d1e119832" staff="12" tstamp2="0m+1.5"/>
+              <slur tstamp="2" curvedir="below" startid="#d1e119851" endid="#d1e122283" staff="12" tstamp2="1m+1"/>
+              <slur tstamp="1" curvedir="above" startid="#d1e120064" endid="#d1e120200" staff="13" tstamp2="0m+3"/>
+              <slur tstamp="1" curvedir="above" startid="#d1e120253" endid="#d1e122593" staff="14" tstamp2="1m+1"/>
               <harm staff="16" place="below" tstamp="2">
                 <fb>
                   <f>6</f>
@@ -24412,12 +24249,9 @@
                   <note xml:id="d1e122919" pname="d" oct="3" dur="2"/>
                 </layer>
               </staff>
-              <slur tstamp="4" curvedir="below" startid="#d1e121438" endid="#d1e123125" staff="3"
-                tstamp2="1m+2"/>
-              <slur tstamp="1" curvedir="above" startid="#d1e121838" endid="#d1e121979" staff="7"
-                tstamp2="0m+3"/>
-              <slur tstamp="1" curvedir="above" startid="#d1e122316" endid="#d1e124705" staff="13"
-                tstamp2="1m+3"/>
+              <slur tstamp="4" curvedir="below" startid="#d1e121438" endid="#d1e123125" staff="3" tstamp2="1m+2"/>
+              <slur tstamp="1" curvedir="above" startid="#d1e121838" endid="#d1e121979" staff="7" tstamp2="0m+3"/>
+              <slur tstamp="1" curvedir="above" startid="#d1e122316" endid="#d1e124705" staff="13" tstamp2="1m+3"/>
               <harm staff="16" tstamp="1" place="below">
                 <fb>
                   <f>b</f>
@@ -24741,16 +24575,11 @@
                   <note xml:id="d1e125050" pname="d" oct="3" dur="4"/>
                 </layer>
               </staff>
-              <slur tstamp="3" curvedir="below" startid="#d1e123239" endid="#d1e123314" staff="4"
-                tstamp2="0m+4"/>
-              <slur tstamp="4" curvedir="below" startid="#d1e123396" endid="#d1e123451" staff="5"
-                tstamp2="0m+4.75"/>
-              <slur tstamp="1" curvedir="above" startid="#d1e123470" endid="#d1e123730" staff="6"
-                tstamp2="0m+4.75"/>
-              <slur tstamp="1" curvedir="below" startid="#d1e123749" endid="#d1e123957" staff="7"
-                tstamp2="0m+4"/>
-              <slur tstamp="1" curvedir="above" startid="#d1e124243" endid="#d1e124503" staff="11"
-                tstamp2="0m+4.75"/>
+              <slur tstamp="3" curvedir="below" startid="#d1e123239" endid="#d1e123314" staff="4" tstamp2="0m+4"/>
+              <slur tstamp="4" curvedir="below" startid="#d1e123396" endid="#d1e123451" staff="5" tstamp2="0m+4.75"/>
+              <slur tstamp="1" curvedir="above" startid="#d1e123470" endid="#d1e123730" staff="6" tstamp2="0m+4.75"/>
+              <slur tstamp="1" curvedir="below" startid="#d1e123749" endid="#d1e123957" staff="7" tstamp2="0m+4"/>
+              <slur tstamp="1" curvedir="above" startid="#d1e124243" endid="#d1e124503" staff="11" tstamp2="0m+4.75"/>
               <harm staff="16" place="below" tstamp="3">
                 <fb>
                   <f>6</f>
@@ -25050,18 +24879,12 @@
                   <note xml:id="d1e126994" pname="f" accid="s" oct="2" dur="2"/>
                 </layer>
               </staff>
-              <slur tstamp="1" curvedir="below" startid="#d1e125679" endid="#d1e125751" staff="3"
-                tstamp2="0m+2"/>
-              <slur tstamp="1" curvedir="below" startid="#d1e125837" endid="#d1e125908" staff="4"
-                tstamp2="0m+2"/>
-              <slur tstamp="1" curvedir="below" startid="#d1e125990" endid="#d1e126013" staff="5"
-                tstamp2="0m+1.5"/>
-              <slur tstamp="1" curvedir="above" startid="#d1e126101" endid="#d1e126124" staff="6"
-                tstamp2="0m+2"/>
-              <slur tstamp="4" curvedir="above" startid="#d1e126208" endid="#d1e127886" staff="7"
-                tstamp2="1m+2"/>
-              <slur tstamp="1" curvedir="above" startid="#d1e126468" endid="#d1e126606" staff="11"
-                tstamp2="0m+3"/>
+              <slur tstamp="1" curvedir="below" startid="#d1e125679" endid="#d1e125751" staff="3" tstamp2="0m+2"/>
+              <slur tstamp="1" curvedir="below" startid="#d1e125837" endid="#d1e125908" staff="4" tstamp2="0m+2"/>
+              <slur tstamp="1" curvedir="below" startid="#d1e125990" endid="#d1e126013" staff="5" tstamp2="0m+1.5"/>
+              <slur tstamp="1" curvedir="above" startid="#d1e126101" endid="#d1e126124" staff="6" tstamp2="0m+2"/>
+              <slur tstamp="4" curvedir="above" startid="#d1e126208" endid="#d1e127886" staff="7" tstamp2="1m+2"/>
+              <slur tstamp="1" curvedir="above" startid="#d1e126468" endid="#d1e126606" staff="11" tstamp2="0m+3"/>
             </measure>
             <measure n="118" xml:id="d1e127013">
               <staff n="1">
@@ -25351,22 +25174,14 @@
                   <note xml:id="d1e128785" pname="g" oct="2" dur="1"/>
                 </layer>
               </staff>
-              <slur tstamp="1" curvedir="below" startid="#d1e127298" endid="#d1e127375" staff="3"
-                tstamp2="0m+2"/>
-              <slur tstamp="1" curvedir="below" startid="#d1e127424" endid="#d1e127495" staff="4"
-                tstamp2="0m+2"/>
-              <slur tstamp="1" curvedir="above" startid="#d1e127618" endid="#d1e127689" staff="6"
-                tstamp2="0m+2"/>
-              <slur tstamp="3" curvedir="above" startid="#d1e127726" endid="#d1e127801" staff="6"
-                tstamp2="0m+4"/>
-              <slur tstamp="3" curvedir="above" startid="#d1e127917" endid="#d1e127988" staff="7"
-                tstamp2="0m+4"/>
-              <slur tstamp="2" curvedir="above" startid="#d1e128357" endid="#d1e128434" staff="11"
-                tstamp2="0m+3"/>
-              <slur tstamp="2" curvedir="below" startid="#d1e128491" endid="#d1e128543" staff="12"
-                tstamp2="0m+4"/>
-              <slur tstamp="2" curvedir="below" startid="#d1e128566" endid="#d1e128637" staff="13"
-                tstamp2="0m+3"/>
+              <slur tstamp="1" curvedir="below" startid="#d1e127298" endid="#d1e127375" staff="3" tstamp2="0m+2"/>
+              <slur tstamp="1" curvedir="below" startid="#d1e127424" endid="#d1e127495" staff="4" tstamp2="0m+2"/>
+              <slur tstamp="1" curvedir="above" startid="#d1e127618" endid="#d1e127689" staff="6" tstamp2="0m+2"/>
+              <slur tstamp="3" curvedir="above" startid="#d1e127726" endid="#d1e127801" staff="6" tstamp2="0m+4"/>
+              <slur tstamp="3" curvedir="above" startid="#d1e127917" endid="#d1e127988" staff="7" tstamp2="0m+4"/>
+              <slur tstamp="2" curvedir="above" startid="#d1e128357" endid="#d1e128434" staff="11" tstamp2="0m+3"/>
+              <slur tstamp="2" curvedir="below" startid="#d1e128491" endid="#d1e128543" staff="12" tstamp2="0m+4"/>
+              <slur tstamp="2" curvedir="below" startid="#d1e128566" endid="#d1e128637" staff="13" tstamp2="0m+3"/>
             </measure>
             <measure n="119" xml:id="d1e128799" right="end">
               <staff n="1">

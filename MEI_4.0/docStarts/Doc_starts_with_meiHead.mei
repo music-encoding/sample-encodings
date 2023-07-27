@@ -70,16 +70,13 @@
             <score>
               <scoreDef>
                 <staffGrp>
-                  <staffDef n="1" lines="5" meter.count="2" meter.unit="4" clef.shape="G"
-                    clef.line="2" key.sig="3s">
+                  <staffDef n="1" lines="5" meter.count="2" meter.unit="4" clef.shape="G" clef.line="2" key.sig="3s">
                     <label>Singstimme</label>
                   </staffDef>
                   <staffGrp symbol="brace">
                     <label>Pianoforte</label>
-                    <staffDef n="2" lines="5" meter.count="2" meter.unit="4" clef.shape="G"
-                      clef.line="2" key.sig="3s"/>
-                    <staffDef n="3" lines="5" meter.count="2" meter.unit="4" clef.shape="F"
-                      clef.line="4" key.sig="3s"/>
+                    <staffDef n="2" lines="5" meter.count="2" meter.unit="4" clef.shape="G" clef.line="2" key.sig="3s"/>
+                    <staffDef n="3" lines="5" meter.count="2" meter.unit="4" clef.shape="F" clef.line="4" key.sig="3s"/>
                   </staffGrp>
                 </staffGrp>
               </scoreDef>
@@ -266,16 +263,13 @@
             <score>
               <scoreDef>
                 <staffGrp>
-                  <staffDef n="1" lines="5" meter.count="3" meter.unit="8" clef.shape="G"
-                    clef.line="2" key.sig="2s">
+                  <staffDef n="1" lines="5" meter.count="3" meter.unit="8" clef.shape="G" clef.line="2" key.sig="2s">
                     <label>Singstimme</label>
                   </staffDef>
                   <staffGrp symbol="brace">
                     <label>Pianoforte</label>
-                    <staffDef n="2" lines="5" meter.count="3" meter.unit="8" clef.shape="G"
-                      clef.line="2" key.sig="2s"/>
-                    <staffDef n="3" lines="5" meter.count="3" meter.unit="8" clef.shape="F"
-                      clef.line="4" key.sig="2s"/>
+                    <staffDef n="2" lines="5" meter.count="3" meter.unit="8" clef.shape="G" clef.line="2" key.sig="2s"/>
+                    <staffDef n="3" lines="5" meter.count="3" meter.unit="8" clef.shape="F" clef.line="4" key.sig="2s"/>
                   </staffGrp>
                 </staffGrp>
               </scoreDef>

@@ -1,8 +1,7 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <?xml-model href="http://music-encoding.org/schema/4.0.1/mei-all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
 <?xml-model href="http://music-encoding.org/schema/4.0.1/mei-all.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
-<mei xmlns:xlink="http://www.w3.org/1999/xlink" xmlns="http://www.music-encoding.org/ns/mei"
-  meiversion="4.0.1">
+<mei xmlns:xlink="http://www.w3.org/1999/xlink" xmlns="http://www.music-encoding.org/ns/mei" meiversion="4.0.1">
   <meiHead>
     <fileDesc>
       <titleStmt>
@@ -17,9 +16,8 @@
       </titleStmt>
       <pubStmt>
         <publisher>
-          <corpName role="publisher">Musikwissenschaftliches Seminar <address>
-            <addrLine>Gartenstrasse 20</addrLine> <addrLine>32756 <geogName>Detmold</geogName>
-            <geogName>Germany</geogName> </addrLine> </address> </corpName>
+          <corpName role="publisher">Musikwissenschaftliches Seminar <address><addrLine>Gartenstrasse 20</addrLine><addrLine>32756 <geogName>Detmold</geogName>
+            <geogName>Germany</geogName> </addrLine></address> </corpName>
         </publisher>
         <availability>
           <useRestrict> This encoding is in the public domain. However, the sources used to create
@@ -32,14 +30,13 @@
       <seriesStmt>
         <title>MEI Sample Collection</title>
         <funder>
-          <corpName role="funder">German Research Foundation<address> <addrLine>Kennedyallee
-            40</addrLine> <addrLine> <geogName>Bonn</geogName> </addrLine> <addrLine>
-            <geogName>Germany</geogName> </addrLine> </address> </corpName>
+          <corpName role="funder">German Research Foundation<address><addrLine>Kennedyallee
+            40</addrLine><addrLine><geogName>Bonn</geogName></addrLine><addrLine><geogName>Germany</geogName></addrLine></address> </corpName>
         </funder>
         <funder>
-          <corpName role="funder">National Endowment for the Humanities<address> <addrLine>1100
-            Pennsylvania Avenue N.W.</addrLine> <addrLine> <geogName>Washington, DC</geogName>
-            20004</addrLine> <addrLine> <geogName>United States</geogName> </addrLine> </address>
+          <corpName role="funder">National Endowment for the Humanities<address><addrLine>1100
+            Pennsylvania Avenue N.W.</addrLine><addrLine><geogName>Washington, DC</geogName>
+            20004</addrLine><addrLine><geogName>United States</geogName></addrLine></address>
           </corpName>
         </funder>
         <respStmt>
@@ -50,8 +47,7 @@
         <source>
           <bibl>
             <identifier type="opusNumber">Op.59</identifier>
-            <identifier type="URI" label="print"
-              >http://kern.ccarh.org/cgi-bin/ksdata?l=users/craig/classical/chopin/mazurka&amp;file=mazurka59-3.krn&amp;f=pdf</identifier>
+            <identifier type="URI" label="print">http://kern.ccarh.org/cgi-bin/ksdata?l=users/craig/classical/chopin/mazurka&amp;file=mazurka59-3.krn&amp;f=pdf</identifier>
             <title>Mazurka in F-sharp Minor, Op. 59, No. 3</title>
             <composer>
               <persName role="composer">Frederic Chopin</persName>
@@ -95,10 +91,8 @@
         <score>
           <scoreDef>
             <staffGrp bar.thru="true" symbol="brace">
-              <staffDef n="1" lines="5" clef.shape="G" clef.line="2" key.sig="3s" meter.count="3"
-                meter.unit="4"/>
-              <staffDef n="2" lines="5" clef.shape="F" clef.line="4" key.sig="3s" meter.count="3"
-                meter.unit="4"/>
+              <staffDef n="1" lines="5" clef.shape="G" clef.line="2" key.sig="3s" meter.count="3" meter.unit="4"/>
+              <staffDef n="2" lines="5" clef.shape="F" clef.line="4" key.sig="3s" meter.count="3" meter.unit="4"/>
             </staffGrp>
           </scoreDef>
           <section>

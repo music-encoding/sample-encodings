@@ -1,8 +1,7 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <?xml-model href="http://music-encoding.org/schema/4.0.1/mei-all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
 <?xml-model href="http://music-encoding.org/schema/4.0.1/mei-all.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
-<mei xmlns:xlink="http://www.w3.org/1999/xlink" xmlns="http://www.music-encoding.org/ns/mei"
-  meiversion="4.0.1">
+<mei xmlns:xlink="http://www.w3.org/1999/xlink" xmlns="http://www.music-encoding.org/ns/mei" meiversion="4.0.1">
   <meiHead>
     <fileDesc>
       <titleStmt>
@@ -34,13 +33,12 @@
       <seriesStmt>
         <title>MEI Sample Collection</title>
         <funder>
-          <corpName role="funder">German Research Foundation<address> <addrLine>Kennedyallee
-            40</addrLine> <addrLine> <geogName>Bonn </geogName> </addrLine> </address> </corpName>
+          <corpName role="funder">German Research Foundation<address><addrLine>Kennedyallee
+            40</addrLine><addrLine><geogName>Bonn </geogName></addrLine></address> </corpName>
         </funder>
         <funder>
-          <corpName role="funder">National Endowment for the Humanities<address> <addrLine>1100
-            Pennsylvania Avenue N.W.</addrLine> <addrLine> <geogName>Washington, DC</geogName>
-            </addrLine> </address> </corpName>
+          <corpName role="funder">National Endowment for the Humanities<address><addrLine>1100
+            Pennsylvania Avenue N.W.</addrLine><addrLine><geogName>Washington, DC</geogName></addrLine></address> </corpName>
         </funder>
         <respStmt>
           <corpName role="publisher">MEI Project</corpName>
@@ -63,8 +61,7 @@
       </editorialDecl>
       <classDecls>
         <taxonomy>
-          <bibl xml:id="OCLC_DDC"
-            target="http://www.oclc.org/dewey/resources/summaries/default.htm#700">OCLC_DDC</bibl>
+          <bibl xml:id="OCLC_DDC" target="http://www.oclc.org/dewey/resources/summaries/default.htm#700">OCLC_DDC</bibl>
           <category xml:id="_782.42">
             <altId>782.42</altId>
             <label>Song</label>
@@ -133,14 +130,12 @@
     <manifestationList>
       <manifestation>
         <identifier type="referenceNumber">op. 105</identifier>
-        <identifier type="URI"
-          >http://petrucci.mus.auth.gr/imglnks/usimg/a/a8/IMSLP246584-PMLP52896-Brahms_-_Op._105_No._1.pdf</identifier>
+        <identifier type="URI">http://petrucci.mus.auth.gr/imglnks/usimg/a/a8/IMSLP246584-PMLP52896-Brahms_-_Op._105_No._1.pdf</identifier>
         <titleStmt>
           <title>Wie Melodien zieht es mir</title>
           <title type="uniform">Lieder, op. 105 &lt;Wie Melodien zieht es mir&gt;</title>
           <respStmt>
-            <persName role="composer" auth.uri="http://d-nb.info/gnd/" codedval="118514253"
-              auth="GND">Johannes Brahms</persName>
+            <persName role="composer" auth.uri="http://d-nb.info/gnd/" codedval="118514253" auth="GND">Johannes Brahms</persName>
             <persName role="lyricist">Klaus Groth</persName>
             <persName role="editor">Max Friedlaender</persName>
           </respStmt>
@@ -156,8 +151,7 @@
         </physDesc>
       </manifestation>
       <manifestation>
-        <identifier type="URI"
-          >http://www.musicxml.com/de/music-in-musicxml/example-set/</identifier>
+        <identifier type="URI">http://www.musicxml.com/de/music-in-musicxml/example-set/</identifier>
         <titleStmt>
           <title>Wie Melodien zieht es mir</title>
         </titleStmt>
@@ -212,8 +206,7 @@
                   <beam>
                     <note xml:id="d1e226" pname="a" oct="3" dur="8" stem.dir="down"/>
                     <note xml:id="d1e250" pname="e" oct="3" dur="8" stem.dir="down"/>
-                    <note xml:id="d1e335" pname="c" oct="3" dur="8" stem.dir="up" accid.ges="s"
-                      staff="3"/>
+                    <note xml:id="d1e335" pname="c" oct="3" dur="8" stem.dir="up" accid.ges="s" staff="3"/>
                     <note xml:id="d1e356" pname="a" oct="2" dur="8" stem.dir="up" staff="3"/>
                   </beam>
                 </layer>
@@ -259,8 +252,7 @@
                     <note xml:id="d1e527" pname="c" oct="4" dur="8" stem.dir="down" accid.ges="s"/>
                     <note xml:id="d1e546" pname="a" oct="3" dur="8" stem.dir="down"/>
                     <note xml:id="d1e612" pname="e" oct="3" dur="8" stem.dir="up" staff="3"/>
-                    <note xml:id="d1e632" pname="c" oct="3" dur="8" stem.dir="up" accid.ges="s"
-                      staff="3"/>
+                    <note xml:id="d1e632" pname="c" oct="3" dur="8" stem.dir="up" accid.ges="s" staff="3"/>
                   </beam>
                 </layer>
               </staff>
@@ -418,8 +410,7 @@
                   <note xml:id="d1e1622" pname="f" oct="4" dur="8" stem.dir="up" accid.ges="s">
                     <syl wordpos="t">lings</syl>
                   </note>
-                  <note xml:id="d1e1644" pname="g" oct="4" dur="4" dots="1" stem.dir="up"
-                    accid.ges="s">
+                  <note xml:id="d1e1644" pname="g" oct="4" dur="4" dots="1" stem.dir="up" accid.ges="s">
                     <syl wordpos="i" con="d">blu</syl>
                   </note>
                   <note xml:id="d1e1667" pname="e" oct="4" dur="8" stem.dir="up">
@@ -430,8 +421,7 @@
               <staff n="2">
                 <layer n="1">
                   <rest xml:id="d1e1688" dur="8"/>
-                  <note xml:id="d1e1699" pname="f" oct="3" dur="8" tie="i" stem.dir="up"
-                    accid.ges="s"/>
+                  <note xml:id="d1e1699" pname="f" oct="3" dur="8" tie="i" stem.dir="up" accid.ges="s"/>
                   <chord xml:id="d188e1" dur="4" stem.dir="up">
                     <note xml:id="d1e1720" pname="f" oct="4" accid.ges="s"/>
                     <note xml:id="d1e1739" pname="f" oct="3" tie="t" accid.ges="s"/>
@@ -501,8 +491,7 @@
             <measure n="8" xml:id="d1e2187">
               <staff n="1">
                 <layer n="1">
-                  <note xml:id="d1e2189" pname="d" oct="5" dur="4" dots="1" stem.dir="down"
-                    accid.ges="s">
+                  <note xml:id="d1e2189" pname="d" oct="5" dur="4" dots="1" stem.dir="down" accid.ges="s">
                     <accid accid="s"/>
                     <syl>schwebt</syl>
                   </note>
@@ -662,8 +651,7 @@
             <measure n="11" xml:id="d1e3184">
               <staff n="1">
                 <layer n="1">
-                  <note xml:id="d1e3186" pname="d" oct="5" dur="4" dots="1" stem.dir="down"
-                    accid.ges="s">
+                  <note xml:id="d1e3186" pname="d" oct="5" dur="4" dots="1" stem.dir="down" accid.ges="s">
                     <accid accid="s"/>
                     <syl>schwebt</syl>
                   </note>
@@ -829,8 +817,7 @@
                   <beam>
                     <note xml:id="d1e4285" pname="a" oct="3" dur="8" stem.dir="down"/>
                     <note xml:id="d1e4304" pname="e" oct="3" dur="8" stem.dir="down"/>
-                    <note xml:id="d1e4390" pname="c" oct="3" dur="8" stem.dir="up" accid.ges="s"
-                      staff="3"/>
+                    <note xml:id="d1e4390" pname="c" oct="3" dur="8" stem.dir="up" accid.ges="s" staff="3"/>
                     <note xml:id="d1e4411" pname="a" oct="2" dur="8" stem.dir="up" staff="3"/>
                   </beam>
                 </layer>
@@ -843,8 +830,7 @@
                 </layer>
               </staff>
               <slur tstamp="1" tstamp2="0m+4.5" curvedir="above" staff="2 3"/>
-              <slur tstamp="1" tstamp2="0m+1.5" curvedir="below" startid="#d1e4338" endid="#d1e4356"
-                staff="3"/>
+              <slur tstamp="1" tstamp2="0m+1.5" curvedir="below" startid="#d1e4338" endid="#d1e4356" staff="3"/>
             </measure>
             <measure n="15" xml:id="d1e4430">
               <staff n="1">
@@ -871,8 +857,7 @@
                     <note xml:id="d1e4578" pname="c" oct="4" dur="8" stem.dir="down" accid.ges="s"/>
                     <note xml:id="d1e4599" pname="a" oct="3" dur="8" stem.dir="down"/>
                     <note xml:id="d1e4667" pname="e" oct="3" dur="8" stem.dir="up" staff="3"/>
-                    <note xml:id="d1e4687" pname="c" oct="3" dur="8" stem.dir="up" accid.ges="s"
-                      staff="3"/>
+                    <note xml:id="d1e4687" pname="c" oct="3" dur="8" stem.dir="up" accid.ges="s" staff="3"/>
                   </beam>
                 </layer>
               </staff>

@@ -1,8 +1,7 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <?xml-model href="http://music-encoding.org/schema/4.0.1/mei-all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
 <?xml-model href="http://music-encoding.org/schema/4.0.1/mei-all.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
-<mei xmlns:xlink="http://www.w3.org/1999/xlink" xmlns="http://www.music-encoding.org/ns/mei"
-  meiversion="4.0.1">
+<mei xmlns:xlink="http://www.w3.org/1999/xlink" xmlns="http://www.music-encoding.org/ns/mei" meiversion="4.0.1">
   <meiHead>
     <fileDesc>
       <titleStmt>
@@ -16,9 +15,8 @@
       </titleStmt>
       <pubStmt>
         <publisher>
-          <corpName role="publisher">Musikwissenschaftliches Seminar <address>
-            <addrLine>Gartenstrasse 20</addrLine> <addrLine>32756 <geogName>Detmold</geogName>
-            <geogName>Germany</geogName> </addrLine> </address> </corpName>
+          <corpName role="publisher">Musikwissenschaftliches Seminar <address><addrLine>Gartenstrasse 20</addrLine><addrLine>32756 <geogName>Detmold</geogName>
+            <geogName>Germany</geogName> </addrLine></address> </corpName>
         </publisher>
         <availability>
           <useRestrict> This encoding is in the public domain. However, the sources used to create
@@ -31,14 +29,13 @@
       <seriesStmt>
         <title>MEI Sample Collection</title>
         <funder>
-          <corpName role="funder">German Research Foundation<address> <addrLine>Kennedyallee
-            40</addrLine> <addrLine> <geogName>Bonn</geogName> </addrLine> <addrLine>
-            <geogName>Germany</geogName> </addrLine> </address> </corpName>
+          <corpName role="funder">German Research Foundation<address><addrLine>Kennedyallee
+            40</addrLine><addrLine><geogName>Bonn</geogName></addrLine><addrLine><geogName>Germany</geogName></addrLine></address> </corpName>
         </funder>
         <funder>
-          <corpName role="funder">National Endowment for the Humanities<address> <addrLine>1100
-            Pennsylvania Avenue N.W.</addrLine> <addrLine> <geogName>Washington, DC</geogName>
-            20004</addrLine> <addrLine> <geogName>United States</geogName> </addrLine> </address>
+          <corpName role="funder">National Endowment for the Humanities<address><addrLine>1100
+            Pennsylvania Avenue N.W.</addrLine><addrLine><geogName>Washington, DC</geogName>
+            20004</addrLine><addrLine><geogName>United States</geogName></addrLine></address>
           </corpName>
         </funder>
         <respStmt>
@@ -61,8 +58,7 @@
       </editorialDecl>
       <classDecls>
         <taxonomy>
-          <bibl xml:id="OCLC_DDC"
-            target="http://www.oclc.org/dewey/resources/summaries/default.htm#700">OCLC_DDC</bibl>
+          <bibl xml:id="OCLC_DDC" target="http://www.oclc.org/dewey/resources/summaries/default.htm#700">OCLC_DDC</bibl>
           <category xml:id="_785.13">
             <altId>785.13</altId>
             <label>Trios</label>
@@ -109,10 +105,7 @@
     </workList>
     <manifestationList>
       <manifestation>
-        <identifier
-          auth.uri="http://imslp.org/wiki/Musikalisches_Opfer,_BWV_1079_%28Bach,_Johann_Sebastian%29"
-          auth="IMSLP" type="pdf_scan"
-          >http://imslp.org/wiki/Musikalisches_Opfer,_BWV_1079_%28Bach,_Johann_Sebastian%29</identifier>
+        <identifier auth.uri="http://imslp.org/wiki/Musikalisches_Opfer,_BWV_1079_%28Bach,_Johann_Sebastian%29" auth="IMSLP" type="pdf_scan">http://imslp.org/wiki/Musikalisches_Opfer,_BWV_1079_%28Bach,_Johann_Sebastian%29</identifier>
         <identifier type="referenceNumber">BWV 1079</identifier>
         <titleStmt>
           <title>Das Musikalische Opfer</title>
@@ -252,8 +245,7 @@
                     <note pname="c" oct="5" dur="8" dots="1"/>
                     <note pname="a" oct="5" dur="16"/>
                   </beam>
-                  <note pname="f" oct="5" dur="8" grace="unknown" slur="i1" fontsize="small"
-                    stem.dir="up"/>
+                  <note pname="f" oct="5" dur="8" grace="unknown" slur="i1" fontsize="small" stem.dir="up"/>
                   <note pname="e" oct="5" dur="4" dots="1" accid="n" slur="t1"/>
                   <note pname="f" oct="5" dur="8" stem.dir="down"/>
                 </layer>
@@ -1259,8 +1251,7 @@
                   </beam>
                   <beam>
                     <note pname="c" oct="5" dur="32" grace="unknown" slur="i1" fontsize="small"/>
-                    <note pname="d" oct="5" dur="32" accid="f" grace="unknown" slur="m1"
-                      fontsize="small"/>
+                    <note pname="d" oct="5" dur="32" accid="f" grace="unknown" slur="m1" fontsize="small"/>
                     <note pname="e" oct="5" dur="32" grace="unknown" slur="t1" fontsize="small"/>
                   </beam>
                   <note pname="d" oct="5" dur="4" dots="1" accid="f" xml:id="m37_s1_e6"/>
@@ -1305,8 +1296,7 @@
                     <note pname="c" oct="6" dur="8" dots="1" stem.dir="down"/>
                     <note pname="f" oct="5" dur="16" stem.dir="down"/>
                   </beam>
-                  <note pname="e" oct="5" dur="8" stem.dir="up" fontsize="small" grace="unknown"
-                    slur="i1"/>
+                  <note pname="e" oct="5" dur="8" stem.dir="up" fontsize="small" grace="unknown" slur="i1"/>
                   <note pname="d" oct="5" dur="4" dots="1" stem.dir="down"/>
                   <note pname="c" oct="5" dur="8" stem.dir="down"/>
                 </layer>
@@ -1317,8 +1307,7 @@
                     <note pname="g" oct="5" dur="8" stem.dir="down" dots="1"/>
                     <note pname="a" oct="4" dur="16" stem.dir="down" accid="n"/>
                   </beam>
-                  <note pname="c" oct="5" dur="8" stem.dir="up" slur="i2" fontsize="small"
-                    grace="unknown"/>
+                  <note pname="c" oct="5" dur="8" stem.dir="up" slur="i2" fontsize="small" grace="unknown"/>
                   <note pname="b" oct="4" dur="4" dots="1" stem.dir="down" accid="n"/>
                   <note pname="c" oct="5" dur="8" stem.dir="down"/>
                 </layer>

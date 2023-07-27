@@ -1,8 +1,7 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <?xml-model href="http://music-encoding.org/schema/4.0.1/mei-all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
 <?xml-model href="http://music-encoding.org/schema/4.0.1/mei-all.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
-<mei xmlns:xlink="http://www.w3.org/1999/xlink" xmlns="http://www.music-encoding.org/ns/mei"
-  meiversion="4.0.1">
+<mei xmlns:xlink="http://www.w3.org/1999/xlink" xmlns="http://www.music-encoding.org/ns/mei" meiversion="4.0.1">
   <meiHead>
     <fileDesc>
       <titleStmt>
@@ -38,14 +37,13 @@
       <seriesStmt>
         <title>MEI Sample Collection</title>
         <funder>
-          <corpName role="funder">German Research Foundation<address> <addrLine>Kennedyallee
-            40</addrLine> <addrLine> <geogName>Bonn</geogName> </addrLine> <addrLine>
-            <geogName>Germany</geogName> </addrLine> </address> </corpName>
+          <corpName role="funder">German Research Foundation<address><addrLine>Kennedyallee
+            40</addrLine><addrLine><geogName>Bonn</geogName></addrLine><addrLine><geogName>Germany</geogName></addrLine></address> </corpName>
         </funder>
         <funder>
-          <corpName role="funder">National Endowment for the Humanities<address> <addrLine>1100
-            Pennsylvania Avenue N.W.</addrLine> <addrLine> <geogName>Washington, DC</geogName>
-            20004</addrLine> <addrLine> <geogName>United States</geogName> </addrLine> </address>
+          <corpName role="funder">National Endowment for the Humanities<address><addrLine>1100
+            Pennsylvania Avenue N.W.</addrLine><addrLine><geogName>Washington, DC</geogName>
+            20004</addrLine><addrLine><geogName>United States</geogName></addrLine></address>
           </corpName>
         </funder>
         <respStmt>
@@ -58,8 +56,7 @@
       <sourceDesc>
         <source>
           <bibl>
-            <identifier type="URI"
-              >http://imslp.org/wiki/Orfeo_ed_Euridice_%28Gluck,_Christoph_Willibald%29</identifier>
+            <identifier type="URI">http://imslp.org/wiki/Orfeo_ed_Euridice_%28Gluck,_Christoph_Willibald%29</identifier>
             <title>Che farò senza Euridice?</title>
             <composer>
               <persName role="composer">Christoph Willibald Gluck</persName>
@@ -81,8 +78,7 @@
         </source>
         <source>
           <bibl>
-            <identifier type="URI"
-              >http://imslp.org/wiki/Orfeo_ed_Euridice_%28Gluck,_Christoph_Willibald%29</identifier>
+            <identifier type="URI">http://imslp.org/wiki/Orfeo_ed_Euridice_%28Gluck,_Christoph_Willibald%29</identifier>
           </bibl>
         </source>
       </sourceDesc>
@@ -104,8 +100,7 @@
       </editorialDecl>
       <classDecls>
         <taxonomy>
-          <bibl xml:id="OCLC_DDC"
-            target="http://www.oclc.org/dewey/resources/summaries/default.htm#700">OCLC_DDC</bibl>
+          <bibl xml:id="OCLC_DDC" target="http://www.oclc.org/dewey/resources/summaries/default.htm#700">OCLC_DDC</bibl>
         </taxonomy>
         <taxonomy>
           <bibl xml:id="OSWD" target="http://www.bsz-bw.de/cgi-bin/oswd-suche.pl">OSWD</bibl>
@@ -170,7 +165,7 @@
     <revisionDesc>
       <change n="1">
         <respStmt>
-           <name>Unknown</name>
+          <name>Unknown</name>
         </respStmt>
         <changeDesc>
           <p>The original MusicXML file was generated using Finale 2011 for Windows and Dolet Light
@@ -183,8 +178,7 @@
           <persName xml:id="MH"> Maja Hartwig </persName>
         </respStmt>
         <changeDesc>
-          <p>Transcoded from a MusicXML version 2.0 file on 2011-10-11 using the <ref
-            target="#xsl_mxl2mei_2.2.3">musicxml2mei</ref> stylesheet. </p>
+          <p>Transcoded from a MusicXML version 2.0 file on 2011-10-11 using the <ref target="#xsl_mxl2mei_2.2.3">musicxml2mei</ref> stylesheet. </p>
         </changeDesc>
         <date isodate="2011-10-11"/>
       </change>
@@ -244,43 +238,65 @@
               </staffGrp>
             </staffGrp>
           </scoreDef>
-          <section><!-- music goes here --></section>
+          <section>
+            <!-- music goes here -->
+          </section>
         </score>
       </mdiv>
       <mdiv n="Act1">
         <mdiv n="Act1Scene1" label="Scene 1">
           <mdiv n="Act1Scene1Chorus1" label="Ah, se intorno a quest'urna funesta">
             <score>
-              <scoreDef><!-- score and staffDefs goes here --></scoreDef>
-              <section><!-- music goes here --></section>
+              <scoreDef>
+                <!-- score and staffDefs goes here -->
+              </scoreDef>
+              <section>
+                <!-- music goes here -->
+              </section>
             </score>
           </mdiv>
           <mdiv n="Act1Scene1Rezitativo" label="Basta, basta, o compagni">
             <score>
-              <scoreDef><!-- score and staffDefs goes here --></scoreDef>
-              <section><!-- music goes here --></section>
+              <scoreDef>
+                <!-- score and staffDefs goes here -->
+              </scoreDef>
+              <section>
+                <!-- music goes here -->
+              </section>
             </score>
           </mdiv>
           <mdiv n="Act1Scene1Chorus2" label="Ah, se intorno a quest'urna funesta">
             <score>
-              <scoreDef><!-- score and staffDefs goes here --></scoreDef>
-              <section><!-- music goes here --></section>
+              <scoreDef>
+                <!-- score and staffDefs goes here -->
+              </scoreDef>
+              <section>
+                <!-- music goes here -->
+              </section>
             </score>
           </mdiv>
         </mdiv>
       </mdiv>
       <mdiv n="Act2">
         <mdiv n="Act2Scene1">
-          <mdiv n="Act2Scene1Ballo" label="Ballo"><!-- music --></mdiv>
-          <mdiv n="Act2Scene1Chorus" label="Chi mai dell' Erebo fra caligini"><!-- music --></mdiv>
+          <mdiv n="Act2Scene1Ballo" label="Ballo">
+            <!-- music -->
+          </mdiv>
+          <mdiv n="Act2Scene1Chorus" label="Chi mai dell' Erebo fra caligini">
+            <!-- music -->
+          </mdiv>
         </mdiv>
         <mdiv n="Act2Scene2">
-          <mdiv n="Act2Scene2Ballo" label="Ballo"><!-- music --></mdiv>
+          <mdiv n="Act2Scene2Ballo" label="Ballo">
+            <!-- music -->
+          </mdiv>
         </mdiv>
       </mdiv>
       <mdiv n="Act3">
         <mdiv n="Act3Scene1">
-          <mdiv n="Act3Scene1Recitativo"><!-- music --></mdiv>
+          <mdiv n="Act3Scene1Recitativo">
+            <!-- music -->
+          </mdiv>
         </mdiv>
         <!-- ... -->
         <mdiv n="Act3Scene1Aria" label="Che farò senza Euridice" decls="#work1">
@@ -300,38 +316,31 @@
                 <rend valign="bottom" halign="center">© 2010 - Gatineau,Qc.Ca.</rend>
               </pgFoot>
               <staffGrp bar.thru="true">
-                <staffDef n="1" xml:id="P1" lines="5" clef.line="2" clef.shape="G" key.sig="0"
-                  key.mode="major">
+                <staffDef n="1" xml:id="P1" lines="5" clef.line="2" clef.shape="G" key.sig="0" key.mode="major">
                   <label>Soprano</label>
                   <labelAbbr>S</labelAbbr>
                 </staffDef>
-                <staffDef n="2" xml:id="P2" lines="5" clef.line="2" clef.shape="G" key.sig="0"
-                  key.mode="major">
+                <staffDef n="2" xml:id="P2" lines="5" clef.line="2" clef.shape="G" key.sig="0" key.mode="major">
                   <label>Violin I</label>
                   <labelAbbr>Vln. I</labelAbbr>
                 </staffDef>
                 <staffGrp symbol="bracket">
-                  <staffDef n="3" xml:id="P3" lines="5" clef.line="2" clef.shape="G" key.sig="0"
-                    key.mode="major">
+                  <staffDef n="3" xml:id="P3" lines="5" clef.line="2" clef.shape="G" key.sig="0" key.mode="major">
                     <label>Violin II</label>
                     <labelAbbr>Vln. II</labelAbbr>
                   </staffDef>
-                  <staffDef n="4" xml:id="P4" lines="5" clef.line="3" clef.shape="C" key.sig="0"
-                    key.mode="major">
+                  <staffDef n="4" xml:id="P4" lines="5" clef.line="3" clef.shape="C" key.sig="0" key.mode="major">
                     <label>Viola</label>
                     <labelAbbr>Vla.</labelAbbr>
                   </staffDef>
                   <staffGrp symbol="brace">
-                    <staffDef n="5" xml:id="P5" lines="5" clef.line="3" clef.shape="G" key.sig="0"
-                      key.mode="major">
+                    <staffDef n="5" xml:id="P5" lines="5" clef.line="3" clef.shape="G" key.sig="0" key.mode="major">
                       <label>Harpsichord</label>
                       <labelAbbr>Hpschd.</labelAbbr>
                     </staffDef>
-                    <staffDef n="6" xml:id="P6" lines="5" clef.line="5" clef.shape="G" key.sig="0"
-                      key.mode="major"/>
+                    <staffDef n="6" xml:id="P6" lines="5" clef.line="5" clef.shape="G" key.sig="0" key.mode="major"/>
                   </staffGrp>
-                  <staffDef n="7" xml:id="P7" lines="5" clef.line="4" clef.shape="F" key.sig="0"
-                    key.mode="major">
+                  <staffDef n="7" xml:id="P7" lines="5" clef.line="4" clef.shape="F" key.sig="0" key.mode="major">
                     <label>Cello</label>
                     <labelAbbr>Vc.</labelAbbr>
                   </staffDef>
@@ -576,8 +585,7 @@
                 </staff>
                 <staff n="2">
                   <layer n="1">
-                    <note xml:id="m3_s2_e1" grace="unknown" pname="g" oct="5" dur="8"
-                      stem.mod="1slash" stem.dir="up"/>
+                    <note xml:id="m3_s2_e1" grace="unknown" pname="g" oct="5" dur="8" stem.mod="1slash" stem.dir="up"/>
                     <note xml:id="m3_s2_e2" pname="a" oct="5" dur="4" dots="1" stem.dir="down"/>
                     <note xml:id="m3_s2_e3" pname="a" oct="5" dur="8" stem.dir="down"/>
                     <note xml:id="m3_s2_e4" pname="g" oct="5" dur="4" stem.dir="down"/>
@@ -1197,8 +1205,7 @@
                 </staff>
                 <staff n="2">
                   <layer n="1">
-                    <note xml:id="m9_e2_e1" pname="g" oct="5" dur="8" grace="unknown"
-                      stem.mod="1slash" stem.dir="up"/>
+                    <note xml:id="m9_e2_e1" pname="g" oct="5" dur="8" grace="unknown" stem.mod="1slash" stem.dir="up"/>
                     <note xml:id="m9_s2_e2" pname="a" oct="5" dur="4" dots="1" stem.dir="down"/>
                     <note xml:id="m9_s2_e3" pname="a" oct="5" dur="8" stem.dir="down"/>
                     <note xml:id="m9_s2_e4" pname="g" oct="5" dur="4" stem.dir="down"/>
@@ -1311,8 +1318,7 @@
                 </staff>
                 <staff n="2">
                   <layer n="1">
-                    <note xml:id="m10_s2_e1" pname="f" oct="5" dur="8" stem.dir="up" grace="unknown"
-                      stem.mod="1slash"/>
+                    <note xml:id="m10_s2_e1" pname="f" oct="5" dur="8" stem.dir="up" grace="unknown" stem.mod="1slash"/>
                     <note xml:id="m10_s2_e2" pname="e" oct="5" dur="4" stem.dir="down"/>
                     <rest xml:id="m10_s2_e3" dur="4"/>
                     <beam>
@@ -1544,8 +1550,12 @@
             </section>
           </score>
         </mdiv>
-        <mdiv n="Act3Scene1Recitativo" label="Ah finisca e per sempre"><!-- music --></mdiv>
-        <mdiv><!-- ... --></mdiv>
+        <mdiv n="Act3Scene1Recitativo" label="Ah finisca e per sempre">
+          <!-- music -->
+        </mdiv>
+        <mdiv>
+          <!-- ... -->
+        </mdiv>
       </mdiv>
     </body>
   </music>

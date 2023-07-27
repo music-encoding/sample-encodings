@@ -1,8 +1,7 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <?xml-model href="http://music-encoding.org/schema/4.0.1/mei-all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
 <?xml-model href="http://music-encoding.org/schema/4.0.1/mei-all.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
-<mei xmlns="http://www.music-encoding.org/ns/mei" xmlns:xlink="http://www.w3.org/1999/xlink"
-  xmlns:functx="http://www.functx.com" meiversion="4.0.1">
+<mei xmlns="http://www.music-encoding.org/ns/mei" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:functx="http://www.functx.com" meiversion="4.0.1">
   <meiHead>
     <fileDesc>
       <titleStmt>
@@ -18,8 +17,7 @@
       <sourceDesc>
         <source>
           <bibl>
-            <identifier label="electronic" type="URI"
-              >http://www.musicxml.com/music-in-musicxml/example-set/</identifier>
+            <identifier label="electronic" type="URI">http://www.musicxml.com/music-in-musicxml/example-set/</identifier>
             <title>Das Veilchen </title>
           </bibl>
         </source>
@@ -118,10 +116,8 @@
                   </beam>
                 </layer>
               </staff>
-              <slur tstamp="1" startid="#d1e276" curvedir="below" tstamp2="0m+2.5" endid="#d1e332"
-                staff="2"/>
-              <slur tstamp="1" startid="#d1e374" curvedir="above" tstamp2="0m+2.5" endid="#d1e431"
-                staff="3"/>
+              <slur tstamp="1" startid="#d1e276" curvedir="below" tstamp2="0m+2.5" endid="#d1e332" staff="2"/>
+              <slur tstamp="1" startid="#d1e374" curvedir="above" tstamp2="0m+2.5" endid="#d1e431" staff="3"/>
             </measure>
             <measure n="2" xml:id="d1e451">
               <staff n="1">
@@ -131,8 +127,7 @@
               </staff>
               <staff n="2">
                 <layer n="1">
-                  <note xml:id="d1e462" grace="acc" grace.time="33%" pname="e" oct="5" dur="8"
-                    stem.dir="up"/>
+                  <note xml:id="d1e462" grace="acc" grace.time="33%" pname="e" oct="5" dur="8" stem.dir="up"/>
                   <beam>
                     <note xml:id="d1e479" pname="d" oct="5" dur="8" dots="1" beam="i1" stem.dir="up"/>
                     <note xml:id="d1e501" pname="c" oct="5" dur="16" beam="t1" stem.dir="up"/>
@@ -149,11 +144,9 @@
               </staff>
               <staff n="3">
                 <layer n="1">
-                  <note xml:id="d1e599" grace="acc" grace.time="33%" pname="c" oct="4" dur="8"
-                    stem.dir="up"/>
+                  <note xml:id="d1e599" grace="acc" grace.time="33%" pname="c" oct="4" dur="8" stem.dir="up"/>
                   <beam>
-                    <note xml:id="d1e617" pname="b" oct="3" dur="8" dots="1" beam="i1"
-                      stem.dir="down"/>
+                    <note xml:id="d1e617" pname="b" oct="3" dur="8" dots="1" beam="i1" stem.dir="down"/>
                     <note xml:id="d1e639" pname="a" oct="3" dur="16" beam="t1" stem.dir="down"/>
                   </beam>
                   <note xml:id="d1e659" pname="g" oct="3" dur="8" stem.dir="down"/>
@@ -166,18 +159,12 @@
                   <rest xml:id="d1e726" dur="8" ploc="b" oloc="2"/>
                 </layer>
               </staff>
-              <slur tstamp="1" startid="#d1e462" curvedir="below" tstamp2="0m+1" endid="#d1e479"
-                staff="2"/>
-              <slur tstamp="1" startid="#d1e479" curvedir="below" tstamp2="0m+2" endid="#d1e521"
-                staff="2"/>
-              <slur tstamp="1" startid="#d1e599" curvedir="below" tstamp2="0m+1" endid="#d1e617"
-                staff="3"/>
-              <slur tstamp="1" startid="#d1e617" curvedir="above" tstamp2="0m+2" endid="#d1e659"
-                staff="3"/>
-              <slur tstamp="2.75" startid="#d1e555" curvedir="below" tstamp2="1m+1" endid="#d1e751"
-                staff="2"/>
-              <slur tstamp="2.75" startid="#d1e691" curvedir="below" tstamp2="1m+1" endid="#d1e932"
-                staff="3"/>
+              <slur tstamp="1" startid="#d1e462" curvedir="below" tstamp2="0m+1" endid="#d1e479" staff="2"/>
+              <slur tstamp="1" startid="#d1e479" curvedir="below" tstamp2="0m+2" endid="#d1e521" staff="2"/>
+              <slur tstamp="1" startid="#d1e599" curvedir="below" tstamp2="0m+1" endid="#d1e617" staff="3"/>
+              <slur tstamp="1" startid="#d1e617" curvedir="above" tstamp2="0m+2" endid="#d1e659" staff="3"/>
+              <slur tstamp="2.75" startid="#d1e555" curvedir="below" tstamp2="1m+1" endid="#d1e751" staff="2"/>
+              <slur tstamp="2.75" startid="#d1e691" curvedir="below" tstamp2="1m+1" endid="#d1e932" staff="3"/>
             </measure>
             <measure n="3" xml:id="d1e740">
               <staff n="1">
@@ -188,11 +175,9 @@
               <staff n="2">
                 <layer n="1">
                   <beam>
-                    <note xml:id="d1e751" pname="f" oct="5" dur="8" beam="i1" stem.dir="up"
-                      accid.ges="s"/>
+                    <note xml:id="d1e751" pname="f" oct="5" dur="8" beam="i1" stem.dir="up" accid.ges="s"/>
                     <rest xml:id="d1e773" dur="16" beam="m1" ploc="f" oloc="5"/>
-                    <note xml:id="d1e787" pname="f" oct="5" dur="16" beam="t1" stem.dir="up"
-                      accid.ges="s"/>
+                    <note xml:id="d1e787" pname="f" oct="5" dur="16" beam="t1" stem.dir="up" accid.ges="s"/>
                   </beam>
                   <beam>
                     <note xml:id="d1e811" pname="e" oct="5" dur="8" beam="i1" stem.dir="up"/>
@@ -227,10 +212,8 @@
                   <rest xml:id="d1e1092" dur="8" ploc="b" oloc="2"/>
                 </layer>
               </staff>
-              <slur tstamp="1.75" startid="#d1e787" curvedir="below" tstamp2="0m+2" endid="#d1e811"
-                staff="2"/>
-              <slur tstamp="1.75" startid="#d1e966" curvedir="below" tstamp2="0m+2" endid="#d1e988"
-                staff="3"/>
+              <slur tstamp="1.75" startid="#d1e787" curvedir="below" tstamp2="0m+2" endid="#d1e811" staff="2"/>
+              <slur tstamp="1.75" startid="#d1e966" curvedir="below" tstamp2="0m+2" endid="#d1e988" staff="3"/>
             </measure>
             <measure n="4" xml:id="d1e1106">
               <staff n="1">
@@ -240,11 +223,9 @@
               </staff>
               <staff n="2">
                 <layer n="1">
-                  <note xml:id="d1e1117" grace="acc" grace.time="33%" pname="e" oct="5" dur="8"
-                    stem.dir="up"/>
+                  <note xml:id="d1e1117" grace="acc" grace.time="33%" pname="e" oct="5" dur="8" stem.dir="up"/>
                   <beam>
-                    <note xml:id="d1e1134" pname="d" oct="5" dur="8" dots="1" beam="i1"
-                      stem.dir="up"/>
+                    <note xml:id="d1e1134" pname="d" oct="5" dur="8" dots="1" beam="i1" stem.dir="up"/>
                     <note xml:id="d1e1155" pname="c" oct="5" dur="16" beam="t1" stem.dir="up"/>
                   </beam>
                   <note xml:id="d1e1175" pname="b" oct="4" dur="8" stem.dir="up"/>
@@ -256,11 +237,9 @@
               </staff>
               <staff n="3">
                 <layer n="1">
-                  <note xml:id="d1e1227" grace="acc" grace.time="33%" pname="c" oct="4" dur="8"
-                    stem.dir="up"/>
+                  <note xml:id="d1e1227" grace="acc" grace.time="33%" pname="c" oct="4" dur="8" stem.dir="up"/>
                   <beam>
-                    <note xml:id="d1e1244" pname="b" oct="3" dur="8" dots="1" beam="i1"
-                      stem.dir="up"/>
+                    <note xml:id="d1e1244" pname="b" oct="3" dur="8" dots="1" beam="i1" stem.dir="up"/>
                     <note xml:id="d1e1266" pname="a" oct="3" dur="16" beam="t1" stem.dir="up"/>
                   </beam>
                   <note xml:id="d1e1286" pname="g" oct="3" dur="8" stem.dir="up"/>
@@ -270,10 +249,8 @@
                   <note xml:id="d1e1319" pname="g" oct="3" dur="4" stem.dir="down"/>
                 </layer>
               </staff>
-              <slur tstamp="1" startid="#d1e1117" curvedir="below" tstamp2="0m+1" endid="#d1e1134"
-                staff="2"/>
-              <slur tstamp="1" startid="#d1e1227" curvedir="below" tstamp2="0m+1" endid="#d1e1244"
-                staff="3"/>
+              <slur tstamp="1" startid="#d1e1117" curvedir="below" tstamp2="0m+1" endid="#d1e1134" staff="2"/>
+              <slur tstamp="1" startid="#d1e1227" curvedir="below" tstamp2="0m+1" endid="#d1e1244" staff="3"/>
             </measure>
             <measure n="5" xml:id="d1e1335">
               <staff n="1">
@@ -326,10 +303,8 @@
               <dynam tstamp="1.125" place="below" staff="2">
                 <rend halign="left">f</rend>
               </dynam>
-              <slur tstamp="1.5" startid="#d1e1369" curvedir="below" tstamp2="0m+2.5"
-                endid="#d1e1443" staff="2"/>
-              <slur tstamp="1.5" startid="#d1e1521" curvedir="above" tstamp2="0m+2.5"
-                endid="#d1e1593" staff="3"/>
+              <slur tstamp="1.5" startid="#d1e1369" curvedir="below" tstamp2="0m+2.5" endid="#d1e1443" staff="2"/>
+              <slur tstamp="1.5" startid="#d1e1521" curvedir="above" tstamp2="0m+2.5" endid="#d1e1593" staff="3"/>
             </measure>
             <sb/>
             <staffDef n="1" clef.line="2" clef.shape="G" visible="true"/>
@@ -361,8 +336,7 @@
                   <space xml:id="d1e1787" dur="8"/>
                   <beam>
                     <note xml:id="d1e1795" pname="g" oct="4" dur="8" beam="i1" stem.dir="down"/>
-                    <note xml:id="d1e1813" pname="f" oct="4" dur="8" beam="t1" stem.dir="down"
-                      accid.ges="s"/>
+                    <note xml:id="d1e1813" pname="f" oct="4" dur="8" beam="t1" stem.dir="down" accid.ges="s"/>
                   </beam>
                 </layer>
               </staff>
@@ -382,8 +356,7 @@
               <dynam tstamp="1.75" place="below" staff="2">
                 <rend halign="left">p</rend>
               </dynam>
-              <slur tstamp="2" startid="#d1e1728" curvedir="below" tstamp2="0m+2.5" endid="#d1e1748"
-                staff="2"/>
+              <slur tstamp="2" startid="#d1e1728" curvedir="below" tstamp2="0m+2.5" endid="#d1e1748" staff="2"/>
             </measure>
             <measure n="7" xml:id="d1e1915">
               <staff n="1">
@@ -418,26 +391,22 @@
               <staff n="1">
                 <layer n="1">
                   <beam>
-                    <note xml:id="d1e2043" pname="d" oct="5" dur="8" beam="i1" stem.dir="down"
-                      syl="Veil-">
+                    <note xml:id="d1e2043" pname="d" oct="5" dur="8" beam="i1" stem.dir="down" syl="Veil-">
                       <verse n="1">
                         <syl wordpos="i" con="d">Veil</syl>
                       </verse>
                     </note>
-                    <note xml:id="d1e2064" pname="b" oct="4" dur="8" beam="m1" stem.dir="down"
-                      syl="chen">
+                    <note xml:id="d1e2064" pname="b" oct="4" dur="8" beam="m1" stem.dir="down" syl="chen">
                       <verse n="1">
                         <syl wordpos="t">chen</syl>
                       </verse>
                     </note>
-                    <note xml:id="d1e2085" pname="c" oct="5" dur="8" beam="m1" stem.dir="down"
-                      syl="auf">
+                    <note xml:id="d1e2085" pname="c" oct="5" dur="8" beam="m1" stem.dir="down" syl="auf">
                       <verse n="1">
                         <syl>auf</syl>
                       </verse>
                     </note>
-                    <note xml:id="d1e2106" pname="e" oct="5" dur="8" beam="t1" stem.dir="down"
-                      syl="der">
+                    <note xml:id="d1e2106" pname="e" oct="5" dur="8" beam="t1" stem.dir="down" syl="der">
                       <verse n="1">
                         <syl>der</syl>
                       </verse>
@@ -468,25 +437,20 @@
                   </beam>
                 </layer>
               </staff>
-              <slur tstamp="1" startid="#d1e2129" curvedir="below" tstamp2="0m+2.5" endid="#d1e2185"
-                staff="2"/>
-              <slur tstamp="1" startid="#d1e2227" curvedir="above" tstamp2="0m+2.5" endid="#d1e2284"
-                staff="3"/>
+              <slur tstamp="1" startid="#d1e2129" curvedir="below" tstamp2="0m+2.5" endid="#d1e2185" staff="2"/>
+              <slur tstamp="1" startid="#d1e2227" curvedir="above" tstamp2="0m+2.5" endid="#d1e2284" staff="3"/>
             </measure>
             <measure n="9" xml:id="d1e2304">
               <staff n="1">
                 <layer n="1">
-                  <note xml:id="d1e2307" grace="acc" grace.time="33%" pname="e" oct="5" dur="8"
-                    stem.dir="up"/>
+                  <note xml:id="d1e2307" grace="acc" grace.time="33%" pname="e" oct="5" dur="8" stem.dir="up"/>
                   <beam>
-                    <note xml:id="d1e2322" pname="d" oct="5" dur="8" dots="1" beam="i1"
-                      stem.dir="down" syl="Wie-">
+                    <note xml:id="d1e2322" pname="d" oct="5" dur="8" dots="1" beam="i1" stem.dir="down" syl="Wie-">
                       <verse n="1">
                         <syl wordpos="i" con="d">Wie</syl>
                       </verse>
                     </note>
-                    <note xml:id="d1e2346" pname="c" oct="5" dur="16" beam="t1" stem.dir="down"
-                      syl="se">
+                    <note xml:id="d1e2346" pname="c" oct="5" dur="16" beam="t1" stem.dir="down" syl="se">
                       <verse n="1">
                         <syl wordpos="t">se</syl>
                       </verse>
@@ -507,11 +471,9 @@
               </staff>
               <staff n="2">
                 <layer n="1">
-                  <note xml:id="d1e2417" grace="acc" grace.time="33%" pname="e" oct="5" dur="8"
-                    stem.dir="up"/>
+                  <note xml:id="d1e2417" grace="acc" grace.time="33%" pname="e" oct="5" dur="8" stem.dir="up"/>
                   <beam>
-                    <note xml:id="d1e2434" pname="d" oct="5" dur="8" dots="1" beam="i1"
-                      stem.dir="up"/>
+                    <note xml:id="d1e2434" pname="d" oct="5" dur="8" dots="1" beam="i1" stem.dir="up"/>
                     <note xml:id="d1e2455" pname="c" oct="5" dur="16" beam="t1" stem.dir="up"/>
                   </beam>
                   <note xml:id="d1e2475" pname="b" oct="4" dur="8" stem.dir="up"/>
@@ -524,11 +486,9 @@
               </staff>
               <staff n="3">
                 <layer n="1">
-                  <note xml:id="d1e2545" grace="acc" grace.time="33%" pname="c" oct="4" dur="8"
-                    stem.dir="up"/>
+                  <note xml:id="d1e2545" grace="acc" grace.time="33%" pname="c" oct="4" dur="8" stem.dir="up"/>
                   <beam>
-                    <note xml:id="d1e2563" pname="b" oct="3" dur="8" dots="1" beam="i1"
-                      stem.dir="up"/>
+                    <note xml:id="d1e2563" pname="b" oct="3" dur="8" dots="1" beam="i1" stem.dir="up"/>
                     <note xml:id="d1e2584" pname="a" oct="3" dur="16" beam="t1" stem.dir="up"/>
                   </beam>
                   <note xml:id="d1e2604" pname="g" oct="3" dur="8" stem.dir="up"/>
@@ -539,49 +499,38 @@
                   <note xml:id="d1e2655" pname="g" oct="3" dur="4" stem.dir="down"/>
                 </layer>
               </staff>
-              <slur tstamp="1" startid="#d1e2307" curvedir="below" tstamp2="0m+1" endid="#d1e2322"
-                staff="1"/>
-              <slur tstamp="1" startid="#d1e2417" curvedir="below" tstamp2="0m+1" endid="#d1e2434"
-                staff="2"/>
-              <slur tstamp="1" startid="#d1e2545" curvedir="below" tstamp2="0m+1" endid="#d1e2563"
-                staff="3"/>
-              <slur tstamp="2.75" startid="#d1e2505" curvedir="below" tstamp2="1m+1"
-                endid="#d1e2828" staff="2"/>
-              <slur tstamp="2.75" startid="#d1e2634" curvedir="below" tstamp2="1m+1"
-                endid="#d1e3009" staff="3"/>
+              <slur tstamp="1" startid="#d1e2307" curvedir="below" tstamp2="0m+1" endid="#d1e2322" staff="1"/>
+              <slur tstamp="1" startid="#d1e2417" curvedir="below" tstamp2="0m+1" endid="#d1e2434" staff="2"/>
+              <slur tstamp="1" startid="#d1e2545" curvedir="below" tstamp2="0m+1" endid="#d1e2563" staff="3"/>
+              <slur tstamp="2.75" startid="#d1e2505" curvedir="below" tstamp2="1m+1" endid="#d1e2828" staff="2"/>
+              <slur tstamp="2.75" startid="#d1e2634" curvedir="below" tstamp2="1m+1" endid="#d1e3009" staff="3"/>
             </measure>
             <measure n="10" xml:id="d1e2671">
               <staff n="1">
                 <layer n="1">
-                  <note xml:id="d1e2674" grace="acc" grace.time="50%" pname="g" oct="5" dur="8"
-                    stem.dir="up"/>
+                  <note xml:id="d1e2674" grace="acc" grace.time="50%" pname="g" oct="5" dur="8" stem.dir="up"/>
                   <beam>
-                    <note xml:id="d1e2689" pname="f" oct="5" dur="8" beam="i1" stem.dir="down"
-                      accid.ges="s" syl="bückt">
+                    <note xml:id="d1e2689" pname="f" oct="5" dur="8" beam="i1" stem.dir="down" accid.ges="s" syl="bückt">
                       <verse n="1">
                         <syl wordpos="t">bückt</syl>
                       </verse>
                     </note>
                     <rest xml:id="d1e2714" dur="16" beam="m1" ploc="f" oloc="5"/>
-                    <note xml:id="d1e2726" pname="f" oct="5" dur="16" beam="t1" stem.dir="down"
-                      accid.ges="s" syl="in">
+                    <note xml:id="d1e2726" pname="f" oct="5" dur="16" beam="t1" stem.dir="down" accid.ges="s" syl="in">
                       <verse n="1">
                         <syl>in</syl>
                       </verse>
                     </note>
                   </beam>
-                  <note xml:id="d1e2751" grace="acc" grace.time="50%" pname="f" oct="5" dur="8"
-                    stem.dir="up" accid.ges="s"/>
+                  <note xml:id="d1e2751" grace="acc" grace.time="50%" pname="f" oct="5" dur="8" stem.dir="up" accid.ges="s"/>
                   <beam>
-                    <note xml:id="d1e2768" pname="e" oct="5" dur="8" beam="i1" stem.dir="down"
-                      syl="sich">
+                    <note xml:id="d1e2768" pname="e" oct="5" dur="8" beam="i1" stem.dir="down" syl="sich">
                       <verse n="1">
                         <syl>sich</syl>
                       </verse>
                     </note>
                     <rest xml:id="d1e2791" dur="16" beam="m1" ploc="f" oloc="5"/>
-                    <note xml:id="d1e2803" pname="e" oct="5" dur="16" beam="t1" stem.dir="down"
-                      syl="und">
+                    <note xml:id="d1e2803" pname="e" oct="5" dur="16" beam="t1" stem.dir="down" syl="und">
                       <verse n="1">
                         <syl>und</syl>
                       </verse>
@@ -592,11 +541,9 @@
               <staff n="2">
                 <layer n="1">
                   <beam>
-                    <note xml:id="d1e2828" pname="f" oct="5" dur="8" beam="i1" stem.dir="up"
-                      accid.ges="s"/>
+                    <note xml:id="d1e2828" pname="f" oct="5" dur="8" beam="i1" stem.dir="up" accid.ges="s"/>
                     <rest xml:id="d1e2850" dur="16" beam="m1" ploc="f" oloc="5"/>
-                    <note xml:id="d1e2864" pname="f" oct="5" dur="16" beam="t1" stem.dir="up"
-                      accid.ges="s"/>
+                    <note xml:id="d1e2864" pname="f" oct="5" dur="16" beam="t1" stem.dir="up" accid.ges="s"/>
                   </beam>
                   <beam>
                     <note xml:id="d1e2888" pname="e" oct="5" dur="8" beam="i1" stem.dir="up"/>
@@ -631,29 +578,22 @@
                   <rest xml:id="d1e3169" dur="8" ploc="b" oloc="2"/>
                 </layer>
               </staff>
-              <slur tstamp="1" startid="#d1e2674" curvedir="below" tstamp2="0m+1" endid="#d1e2689"
-                staff="1"/>
-              <slur tstamp="1.75" startid="#d1e2864" curvedir="below" tstamp2="0m+2"
-                endid="#d1e2888" staff="2"/>
-              <slur tstamp="1.75" startid="#d1e3043" curvedir="below" tstamp2="0m+2"
-                endid="#d1e3065" staff="3"/>
-              <slur tstamp="2" startid="#d1e2751" curvedir="below" tstamp2="0m+2" endid="#d1e2768"
-                staff="1"/>
+              <slur tstamp="1" startid="#d1e2674" curvedir="below" tstamp2="0m+1" endid="#d1e2689" staff="1"/>
+              <slur tstamp="1.75" startid="#d1e2864" curvedir="below" tstamp2="0m+2" endid="#d1e2888" staff="2"/>
+              <slur tstamp="1.75" startid="#d1e3043" curvedir="below" tstamp2="0m+2" endid="#d1e3065" staff="3"/>
+              <slur tstamp="2" startid="#d1e2751" curvedir="below" tstamp2="0m+2" endid="#d1e2768" staff="1"/>
             </measure>
             <measure n="11" xml:id="d1e3183">
               <staff n="1">
                 <layer n="1">
-                  <note xml:id="d1e3186" grace="acc" grace.time="33%" pname="e" oct="5" dur="8"
-                    stem.dir="up"/>
+                  <note xml:id="d1e3186" grace="acc" grace.time="33%" pname="e" oct="5" dur="8" stem.dir="up"/>
                   <beam>
-                    <note xml:id="d1e3201" pname="d" oct="5" dur="8" dots="1" beam="i1"
-                      stem.dir="down" syl="un-">
+                    <note xml:id="d1e3201" pname="d" oct="5" dur="8" dots="1" beam="i1" stem.dir="down" syl="un-">
                       <verse n="1">
                         <syl wordpos="i" con="d">un</syl>
                       </verse>
                     </note>
-                    <note xml:id="d1e3225" pname="c" oct="5" dur="16" beam="t1" stem.dir="down"
-                      syl="be-">
+                    <note xml:id="d1e3225" pname="c" oct="5" dur="16" beam="t1" stem.dir="down" syl="be-">
                       <verse n="1">
                         <syl wordpos="m" con="d">be</syl>
                       </verse>
@@ -669,11 +609,9 @@
               </staff>
               <staff n="2">
                 <layer n="1">
-                  <note xml:id="d1e3277" grace="acc" grace.time="33%" pname="e" oct="5" dur="8"
-                    stem.dir="up"/>
+                  <note xml:id="d1e3277" grace="acc" grace.time="33%" pname="e" oct="5" dur="8" stem.dir="up"/>
                   <beam>
-                    <note xml:id="d1e3294" pname="d" oct="5" dur="8" dots="1" beam="i1"
-                      stem.dir="up"/>
+                    <note xml:id="d1e3294" pname="d" oct="5" dur="8" dots="1" beam="i1" stem.dir="up"/>
                     <note xml:id="d1e3315" pname="c" oct="5" dur="16" beam="t1" stem.dir="up"/>
                   </beam>
                   <note xml:id="d1e3335" pname="b" oct="4" dur="8" stem.dir="up"/>
@@ -685,11 +623,9 @@
               </staff>
               <staff n="3">
                 <layer n="1">
-                  <note xml:id="d1e3387" grace="acc" grace.time="33%" pname="c" oct="4" dur="8"
-                    stem.dir="up"/>
+                  <note xml:id="d1e3387" grace="acc" grace.time="33%" pname="c" oct="4" dur="8" stem.dir="up"/>
                   <beam>
-                    <note xml:id="d1e3404" pname="b" oct="3" dur="8" dots="1" beam="i1"
-                      stem.dir="up"/>
+                    <note xml:id="d1e3404" pname="b" oct="3" dur="8" dots="1" beam="i1" stem.dir="up"/>
                     <note xml:id="d1e3426" pname="a" oct="3" dur="16" beam="t1" stem.dir="up"/>
                   </beam>
                   <note xml:id="d1e3446" pname="g" oct="3" dur="8" stem.dir="up"/>
@@ -699,12 +635,9 @@
                   <note xml:id="d1e3479" pname="g" oct="3" dur="4" stem.dir="down"/>
                 </layer>
               </staff>
-              <slur tstamp="1" startid="#d1e3186" curvedir="below" tstamp2="0m+1" endid="#d1e3201"
-                staff="1"/>
-              <slur tstamp="1" startid="#d1e3277" curvedir="below" tstamp2="0m+1" endid="#d1e3294"
-                staff="2"/>
-              <slur tstamp="1" startid="#d1e3387" curvedir="below" tstamp2="0m+1" endid="#d1e3404"
-                staff="3"/>
+              <slur tstamp="1" startid="#d1e3186" curvedir="below" tstamp2="0m+1" endid="#d1e3201" staff="1"/>
+              <slur tstamp="1" startid="#d1e3277" curvedir="below" tstamp2="0m+1" endid="#d1e3294" staff="2"/>
+              <slur tstamp="1" startid="#d1e3387" curvedir="below" tstamp2="0m+1" endid="#d1e3404" staff="3"/>
             </measure>
             <sb/>
             <staffDef n="3" clef.line="2" clef.shape="G"/>
@@ -713,20 +646,17 @@
                 <layer n="1">
                   <rest xml:id="d1e3502" dur="8"/>
                   <beam>
-                    <note xml:id="d1e3510" pname="a" oct="4" dur="8" beam="i1" stem.dir="down"
-                      syl="es">
+                    <note xml:id="d1e3510" pname="a" oct="4" dur="8" beam="i1" stem.dir="down" syl="es">
                       <verse n="1">
                         <syl>es</syl>
                       </verse>
                     </note>
-                    <note xml:id="d1e3531" pname="b" oct="4" dur="8" beam="m1" stem.dir="down"
-                      syl="war">
+                    <note xml:id="d1e3531" pname="b" oct="4" dur="8" beam="m1" stem.dir="down" syl="war">
                       <verse n="1">
                         <syl>war</syl>
                       </verse>
                     </note>
-                    <note xml:id="d1e3552" pname="c" oct="5" dur="8" beam="t1" stem.dir="down"
-                      syl="ein">
+                    <note xml:id="d1e3552" pname="c" oct="5" dur="8" beam="t1" stem.dir="down" syl="ein">
                       <verse n="1">
                         <syl>ein</syl>
                       </verse>
@@ -779,31 +709,26 @@
               <dynam tstamp="1.125" place="below" staff="2">
                 <rend halign="left">f</rend>
               </dynam>
-              <slur tstamp="1.5" startid="#d1e3601" curvedir="below" tstamp2="0m+2.5"
-                endid="#d1e3675" staff="2"/>
-              <slur tstamp="1.5" startid="#d1e3753" curvedir="above" tstamp2="0m+2.5"
-                endid="#d1e3825" staff="3"/>
+              <slur tstamp="1.5" startid="#d1e3601" curvedir="below" tstamp2="0m+2.5" endid="#d1e3675" staff="2"/>
+              <slur tstamp="1.5" startid="#d1e3753" curvedir="above" tstamp2="0m+2.5" endid="#d1e3825" staff="3"/>
             </measure>
             <measure n="13" xml:id="d1e3862">
               <staff n="1">
                 <layer n="1">
                   <beam>
-                    <note xml:id="d1e3865" pname="d" oct="5" dur="8" dots="1" beam="i1"
-                      stem.dir="up" syl="her-">
+                    <note xml:id="d1e3865" pname="d" oct="5" dur="8" dots="1" beam="i1" stem.dir="up" syl="her-">
                       <verse n="1">
                         <syl wordpos="i" con="d">her</syl>
                       </verse>
                     </note>
-                    <note xml:id="d1e3887" pname="g" oct="4" dur="16" beam="t1" stem.dir="up"
-                      syl="zig’s">
+                    <note xml:id="d1e3887" pname="g" oct="4" dur="16" beam="t1" stem.dir="up" syl="zig’s">
                       <verse n="1">
                         <syl wordpos="t">zig’s</syl>
                       </verse>
                     </note>
                   </beam>
                   <beam>
-                    <note xml:id="d1e3910" pname="b" oct="4" dur="8" beam="i1" stem.dir="up"
-                      syl="Veil-">
+                    <note xml:id="d1e3910" pname="b" oct="4" dur="8" beam="i1" stem.dir="up" syl="Veil-">
                       <verse n="1">
                         <syl wordpos="i" con="d">Veil</syl>
                       </verse>
@@ -851,13 +776,11 @@
                   </beam>
                 </layer>
               </staff>
-              <slur tstamp="2" startid="#d1e3910" curvedir="below" tstamp2="0m+2.5" endid="#d1e3933"
-                staff="1"/>
+              <slur tstamp="2" startid="#d1e3910" curvedir="below" tstamp2="0m+2.5" endid="#d1e3933" staff="1"/>
               <dynam tstamp="2" place="below" staff="2">
                 <rend halign="left">p</rend>
               </dynam>
-              <slur tstamp="2" startid="#d1e4007" curvedir="below" tstamp2="0m+2.5" endid="#d1e4061"
-                staff="2"/>
+              <slur tstamp="2" startid="#d1e4007" curvedir="below" tstamp2="0m+2.5" endid="#d1e4061" staff="2"/>
             </measure>
             <measure n="14" xml:id="d1e4233">
               <staff n="1">
@@ -895,26 +818,22 @@
               <staff n="1">
                 <layer n="1">
                   <beam>
-                    <note xml:id="d1e4359" pname="d" oct="5" dur="8" beam="i1" stem.dir="down"
-                      syl="kam">
+                    <note xml:id="d1e4359" pname="d" oct="5" dur="8" beam="i1" stem.dir="down" syl="kam">
                       <verse n="1">
                         <syl>kam</syl>
                       </verse>
                     </note>
-                    <note xml:id="d1e4380" pname="c" accid="s" oct="5" dur="8" beam="m1"
-                      stem.dir="down" syl="ein’">
+                    <note xml:id="d1e4380" pname="c" accid="s" oct="5" dur="8" beam="m1" stem.dir="down" syl="ein’">
                       <verse n="1">
                         <syl>ein’</syl>
                       </verse>
                     </note>
-                    <note xml:id="d1e4405" pname="b" oct="4" dur="8" beam="m1" stem.dir="down"
-                      syl="jun-">
+                    <note xml:id="d1e4405" pname="b" oct="4" dur="8" beam="m1" stem.dir="down" syl="jun-">
                       <verse n="1">
                         <syl wordpos="i" con="d">jun</syl>
                       </verse>
                     </note>
-                    <note xml:id="d1e4426" pname="c" oct="5" dur="8" beam="t1" stem.dir="down"
-                      accid.ges="s" syl="ge">
+                    <note xml:id="d1e4426" pname="c" oct="5" dur="8" beam="t1" stem.dir="down" accid.ges="s" syl="ge">
                       <verse n="1">
                         <syl wordpos="t">ge</syl>
                       </verse>
@@ -943,37 +862,31 @@
                   <note xml:id="d1e4563" pname="a" oct="2" dur="4" stem.dir="up"/>
                 </layer>
               </staff>
-              <slur tstamp="1" startid="#d1e4470" curvedir="below" tstamp2="0m+2" endid="#d1e4507"
-                staff="2"/>
-              <slur tstamp="1" startid="#d1e4545" curvedir="above" tstamp2="0m+2" endid="#d1e4563"
-                staff="3"/>
+              <slur tstamp="1" startid="#d1e4470" curvedir="below" tstamp2="0m+2" endid="#d1e4507" staff="2"/>
+              <slur tstamp="1" startid="#d1e4545" curvedir="above" tstamp2="0m+2" endid="#d1e4563" staff="3"/>
             </measure>
             <measure n="16" xml:id="d1e4581">
               <staff n="1">
                 <layer n="1">
                   <beam>
-                    <note xml:id="d1e4584" pname="d" oct="5" dur="8" dots="1" beam="i1"
-                      stem.dir="down" syl="Schä-">
+                    <note xml:id="d1e4584" pname="d" oct="5" dur="8" dots="1" beam="i1" stem.dir="down" syl="Schä-">
                       <verse n="1">
                         <syl wordpos="i" con="d">Schä</syl>
                       </verse>
                     </note>
-                    <note xml:id="d1e4606" pname="a" oct="4" dur="16" beam="t1" stem.dir="down"
-                      syl="fer-">
+                    <note xml:id="d1e4606" pname="a" oct="4" dur="16" beam="t1" stem.dir="down" syl="fer-">
                       <verse n="1">
                         <syl wordpos="m" con="d">fer</syl>
                       </verse>
                     </note>
                   </beam>
                   <beam>
-                    <note xml:id="d1e4629" pname="a" oct="4" dur="8" beam="i1" stem.dir="up"
-                      syl="in">
+                    <note xml:id="d1e4629" pname="a" oct="4" dur="8" beam="i1" stem.dir="up" syl="in">
                       <verse n="1">
                         <syl wordpos="t">in</syl>
                       </verse>
                     </note>
-                    <note xml:id="d1e4650" pname="a" oct="4" dur="8" beam="t1" stem.dir="up"
-                      syl="mit">
+                    <note xml:id="d1e4650" pname="a" oct="4" dur="8" beam="t1" stem.dir="up" syl="mit">
                       <verse n="1">
                         <syl>mit</syl>
                       </verse>
@@ -1002,30 +915,26 @@
               <staff n="1">
                 <layer n="1">
                   <beam>
-                    <note xml:id="d1e4771" pname="d" oct="5" dur="8" beam="i1" stem.dir="down"
-                      syl="leich-">
+                    <note xml:id="d1e4771" pname="d" oct="5" dur="8" beam="i1" stem.dir="down" syl="leich-">
                       <verse n="1">
                         <syl wordpos="i" con="d">leich</syl>
                       </verse>
                     </note>
                     <rest xml:id="d1e4792" dur="16" beam="m1" ploc="d" oloc="5"/>
-                    <note xml:id="d1e4804" pname="d" oct="5" dur="16" beam="t1" stem.dir="down"
-                      syl="tem">
+                    <note xml:id="d1e4804" pname="d" oct="5" dur="16" beam="t1" stem.dir="down" syl="tem">
                       <verse n="1">
                         <syl wordpos="t">tem</syl>
                       </verse>
                     </note>
                   </beam>
                   <beam>
-                    <note xml:id="d1e4827" pname="e" oct="5" dur="8" beam="i1" stem.dir="down"
-                      syl="Schritt">
+                    <note xml:id="d1e4827" pname="e" oct="5" dur="8" beam="i1" stem.dir="down" syl="Schritt">
                       <verse n="1">
                         <syl>Schritt</syl>
                       </verse>
                     </note>
                     <rest xml:id="d1e4848" dur="16" beam="m1" ploc="d" oloc="5"/>
-                    <note xml:id="d1e4860" pname="e" oct="5" dur="16" beam="t1" stem.dir="down"
-                      syl="und">
+                    <note xml:id="d1e4860" pname="e" oct="5" dur="16" beam="t1" stem.dir="down" syl="und">
                       <verse n="1">
                         <syl>und</syl>
                       </verse>
@@ -1036,15 +945,13 @@
               <staff n="2">
                 <layer n="1">
                   <beam>
-                    <note xml:id="d1e4885" pname="f" oct="4" dur="16" beam="i1" stem.dir="up"
-                      accid.ges="s">
+                    <note xml:id="d1e4885" pname="f" oct="4" dur="16" beam="i1" stem.dir="up" accid.ges="s">
                       <artic artic="stacc" place="below"/>
                     </note>
                     <note xml:id="d1e4910" pname="a" oct="4" dur="16" beam="m1" stem.dir="up">
                       <artic artic="stacc" place="below"/>
                     </note>
-                    <note xml:id="d1e4933" pname="f" oct="4" dur="16" beam="m1" stem.dir="up"
-                      accid.ges="s">
+                    <note xml:id="d1e4933" pname="f" oct="4" dur="16" beam="m1" stem.dir="up" accid.ges="s">
                       <artic artic="stacc" place="below"/>
                     </note>
                     <note xml:id="d1e4958" pname="d" oct="4" dur="16" beam="t1" stem.dir="up">
@@ -1052,8 +959,7 @@
                     </note>
                   </beam>
                   <beam>
-                    <note xml:id="d1e4981" pname="c" accid="s" oct="4" dur="16" beam="i1"
-                      stem.dir="up">
+                    <note xml:id="d1e4981" pname="c" accid="s" oct="4" dur="16" beam="i1" stem.dir="up">
                       <artic artic="stacc" place="below"/>
                     </note>
                     <note xml:id="d1e5008" pname="g" oct="4" dur="16" beam="m1" stem.dir="up">
@@ -1062,8 +968,7 @@
                     <note xml:id="d1e5031" pname="e" oct="4" dur="16" beam="m1" stem.dir="up">
                       <artic artic="stacc" place="below"/>
                     </note>
-                    <note xml:id="d1e5054" pname="c" oct="4" dur="16" beam="t1" stem.dir="up"
-                      accid.ges="s">
+                    <note xml:id="d1e5054" pname="c" oct="4" dur="16" beam="t1" stem.dir="up" accid.ges="s">
                       <artic artic="stacc" place="below"/>
                     </note>
                   </beam>
@@ -1084,29 +989,25 @@
               <staff n="1">
                 <layer n="1">
                   <beam>
-                    <note xml:id="d1e5141" pname="f" oct="5" dur="8" beam="i1" stem.dir="down"
-                      accid.ges="s" syl="mun-">
+                    <note xml:id="d1e5141" pname="f" oct="5" dur="8" beam="i1" stem.dir="down" accid.ges="s" syl="mun-">
                       <verse n="1">
                         <syl wordpos="i" con="d">mun</syl>
                       </verse>
                     </note>
                     <rest xml:id="d1e5164" dur="16" beam="m1" ploc="d" oloc="5"/>
-                    <note xml:id="d1e5176" pname="f" oct="5" dur="16" beam="t1" stem.dir="down"
-                      accid.ges="s" syl="term">
+                    <note xml:id="d1e5176" pname="f" oct="5" dur="16" beam="t1" stem.dir="down" accid.ges="s" syl="term">
                       <verse n="1">
                         <syl wordpos="t">term</syl>
                       </verse>
                     </note>
                   </beam>
                   <beam>
-                    <note xml:id="d1e5201" pname="e" oct="5" dur="8" beam="i1" stem.dir="down"
-                      syl="Sinn">
+                    <note xml:id="d1e5201" pname="e" oct="5" dur="8" beam="i1" stem.dir="down" syl="Sinn">
                       <verse n="1">
                         <syl>Sinn</syl>
                       </verse>
                     </note>
-                    <note xml:id="d1e5222" pname="a" oct="4" dur="8" beam="t1" stem.dir="down"
-                      syl="da-">
+                    <note xml:id="d1e5222" pname="a" oct="4" dur="8" beam="t1" stem.dir="down" syl="da-">
                       <verse n="1">
                         <syl wordpos="i" con="d">da</syl>
                       </verse>
@@ -1120,8 +1021,7 @@
                     <note xml:id="d1e5248" pname="d" oct="4" dur="16" beam="i1" stem.dir="up">
                       <artic artic="stacc" place="below"/>
                     </note>
-                    <note xml:id="d1e5271" pname="f" oct="4" dur="16" beam="m1" stem.dir="up"
-                      accid.ges="s">
+                    <note xml:id="d1e5271" pname="f" oct="4" dur="16" beam="m1" stem.dir="up" accid.ges="s">
                       <artic artic="stacc" place="below"/>
                     </note>
                     <note xml:id="d1e5296" pname="a" oct="4" dur="16" beam="m1" stem.dir="up">
@@ -1147,8 +1047,7 @@
             <measure n="19" xml:id="d1e5428">
               <staff n="1">
                 <layer n="1">
-                  <note xml:id="d1e5431" pname="g" oct="5" dur="4" dots="1" stem.dir="down"
-                    syl="her,">
+                  <note xml:id="d1e5431" pname="g" oct="5" dur="4" dots="1" stem.dir="down" syl="her,">
                     <verse n="1">
                       <syl wordpos="t">her,</syl>
                     </verse>
@@ -1164,11 +1063,9 @@
                 <layer n="1">
                   <beam>
                     <note xml:id="d1e5472" pname="a" oct="3" dur="16" beam="i1" stem.dir="up"/>
-                    <note xml:id="d1e5494" pname="c" accid="s" oct="4" dur="16" beam="m1"
-                      stem.dir="up"/>
+                    <note xml:id="d1e5494" pname="c" accid="s" oct="4" dur="16" beam="m1" stem.dir="up"/>
                     <note xml:id="d1e5518" pname="e" oct="4" dur="16" beam="m1" stem.dir="up"/>
-                    <note xml:id="d1e5538" pname="c" oct="4" dur="16" beam="t1" stem.dir="up"
-                      accid.ges="s"/>
+                    <note xml:id="d1e5538" pname="c" oct="4" dur="16" beam="t1" stem.dir="up" accid.ges="s"/>
                   </beam>
                   <beam>
                     <note xml:id="d1e5560" pname="a" oct="3" dur="16" beam="i1" stem.dir="up"/>
@@ -1183,43 +1080,36 @@
                   <rest xml:id="d1e5645" dur="8"/>
                   <beam>
                     <note xml:id="d1e5656" pname="e" oct="3" dur="8" beam="i1" stem.dir="down"/>
-                    <note xml:id="d1e5676" pname="c" accid="s" oct="3" dur="8" beam="m1"
-                      stem.dir="down"/>
+                    <note xml:id="d1e5676" pname="c" accid="s" oct="3" dur="8" beam="m1" stem.dir="down"/>
                     <note xml:id="d1e5698" pname="a" oct="2" dur="8" beam="t1" stem.dir="down"/>
                   </beam>
                 </layer>
               </staff>
-              <slur tstamp="1" startid="#d1e5472" curvedir="below" tstamp2="0m+2.75"
-                endid="#d1e5620" staff="2"/>
-              <slur tstamp="1.5" startid="#d1e5656" curvedir="above" tstamp2="0m+2.5"
-                endid="#d1e5698" staff="3"/>
+              <slur tstamp="1" startid="#d1e5472" curvedir="below" tstamp2="0m+2.75" endid="#d1e5620" staff="2"/>
+              <slur tstamp="1.5" startid="#d1e5656" curvedir="above" tstamp2="0m+2.5" endid="#d1e5698" staff="3"/>
             </measure>
             <measure n="20" xml:id="d1e5718">
               <staff n="1">
                 <layer n="1">
                   <beam>
-                    <note xml:id="d1e5721" pname="f" oct="5" dur="8" beam="i1" stem.dir="down"
-                      accid.ges="s" syl="her,">
+                    <note xml:id="d1e5721" pname="f" oct="5" dur="8" beam="i1" stem.dir="down" accid.ges="s" syl="her,">
                       <verse n="1">
                         <syl wordpos="t">her,</syl>
                       </verse>
                     </note>
-                    <note xml:id="d1e5744" pname="d" oct="5" dur="8" beam="t1" stem.dir="down"
-                      syl="die">
+                    <note xml:id="d1e5744" pname="d" oct="5" dur="8" beam="t1" stem.dir="down" syl="die">
                       <verse n="1">
                         <syl>die</syl>
                       </verse>
                     </note>
                   </beam>
                   <beam>
-                    <note xml:id="d1e5765" pname="d" oct="5" dur="8" beam="i1" stem.dir="down"
-                      syl="Wie-">
+                    <note xml:id="d1e5765" pname="d" oct="5" dur="8" beam="i1" stem.dir="down" syl="Wie-">
                       <verse n="1">
                         <syl wordpos="i" con="d">Wie</syl>
                       </verse>
                     </note>
-                    <note xml:id="d1e5786" pname="c" accid="s" oct="5" dur="16" beam="m1"
-                      stem.dir="down" syl="se_">
+                    <note xml:id="d1e5786" pname="c" accid="s" oct="5" dur="16" beam="m1" stem.dir="down" syl="se_">
                       <verse n="1">
                         <syl wordpos="t" con="u">se</syl>
                       </verse>
@@ -1233,17 +1123,14 @@
                   <beam>
                     <note xml:id="d1e5838" pname="a" oct="3" dur="16" beam="i1" stem.dir="up"/>
                     <note xml:id="d1e5860" pname="d" oct="4" dur="16" beam="m1" stem.dir="up"/>
-                    <note xml:id="d1e5880" pname="f" oct="4" dur="16" beam="m1" stem.dir="up"
-                      accid.ges="s"/>
+                    <note xml:id="d1e5880" pname="f" oct="4" dur="16" beam="m1" stem.dir="up" accid.ges="s"/>
                     <note xml:id="d1e5902" pname="d" oct="4" dur="16" beam="t1" stem.dir="up"/>
                   </beam>
                   <beam>
                     <note xml:id="d1e5924" pname="d" oct="4" dur="16" beam="i1" stem.dir="up"/>
-                    <note xml:id="d1e5946" pname="f" oct="4" dur="16" beam="m1" stem.dir="up"
-                      accid.ges="s"/>
+                    <note xml:id="d1e5946" pname="f" oct="4" dur="16" beam="m1" stem.dir="up" accid.ges="s"/>
                     <note xml:id="d1e5968" pname="a" oct="4" dur="16" beam="m1" stem.dir="up"/>
-                    <note xml:id="d1e5988" pname="f" oct="4" dur="16" beam="t1" stem.dir="up"
-                      accid.ges="s"/>
+                    <note xml:id="d1e5988" pname="f" oct="4" dur="16" beam="t1" stem.dir="up" accid.ges="s"/>
                   </beam>
                 </layer>
               </staff>
@@ -1252,20 +1139,15 @@
                   <rest xml:id="d1e6015" dur="8"/>
                   <beam>
                     <note xml:id="d1e6026" pname="d" oct="3" dur="8" beam="i1" stem.dir="down"/>
-                    <note xml:id="d1e6046" pname="f" oct="3" dur="8" beam="m1" stem.dir="down"
-                      accid.ges="s"/>
+                    <note xml:id="d1e6046" pname="f" oct="3" dur="8" beam="m1" stem.dir="down" accid.ges="s"/>
                     <note xml:id="d1e6066" pname="d" oct="3" dur="8" beam="t1" stem.dir="down"/>
                   </beam>
                 </layer>
               </staff>
-              <slur tstamp="1" startid="#d1e5838" curvedir="below" tstamp2="0m+1.75"
-                endid="#d1e5902" staff="2"/>
-              <slur tstamp="1.5" startid="#d1e6026" curvedir="above" tstamp2="0m+2.5"
-                endid="#d1e6066" staff="3"/>
-              <slur tstamp="2" startid="#d1e5924" curvedir="below" tstamp2="0m+2.75"
-                endid="#d1e5988" staff="2"/>
-              <slur tstamp="2.5" startid="#d1e5786" curvedir="above" tstamp2="0m+2.75"
-                endid="#d1e5816" staff="1"/>
+              <slur tstamp="1" startid="#d1e5838" curvedir="below" tstamp2="0m+1.75" endid="#d1e5902" staff="2"/>
+              <slur tstamp="1.5" startid="#d1e6026" curvedir="above" tstamp2="0m+2.5" endid="#d1e6066" staff="3"/>
+              <slur tstamp="2" startid="#d1e5924" curvedir="below" tstamp2="0m+2.75" endid="#d1e5988" staff="2"/>
+              <slur tstamp="2.5" startid="#d1e5786" curvedir="above" tstamp2="0m+2.75" endid="#d1e5816" staff="1"/>
             </measure>
             <measure n="21" xml:id="d1e6086">
               <staff n="1">
@@ -1277,8 +1159,7 @@
                   </note>
                   <rest xml:id="d1e6108" dur="8"/>
                   <beam>
-                    <note xml:id="d1e6116" pname="c" accid="s" oct="5" dur="8" dots="1" beam="i1"
-                      stem.dir="down" syl="und_">
+                    <note xml:id="d1e6116" pname="c" accid="s" oct="5" dur="8" dots="1" beam="i1" stem.dir="down" syl="und_">
                       <verse n="1">
                         <syl con="u">und</syl>
                       </verse>
@@ -1305,12 +1186,9 @@
                   <note xml:id="d1e6278" pname="a" oct="3" dur="4" stem.dir="down"/>
                 </layer>
               </staff>
-              <slur tstamp="2" startid="#d1e6116" curvedir="above" tstamp2="0m+2.75"
-                endid="#d1e6145" staff="1"/>
-              <slur tstamp="2" startid="#d1e6193" curvedir="below" tstamp2="1m+1" endid="#d1e6328"
-                staff="2"/>
-              <slur tstamp="2" startid="#d1e6278" curvedir="above" tstamp2="1m+1" endid="#d1e6432"
-                staff="3"/>
+              <slur tstamp="2" startid="#d1e6116" curvedir="above" tstamp2="0m+2.75" endid="#d1e6145" staff="1"/>
+              <slur tstamp="2" startid="#d1e6193" curvedir="below" tstamp2="1m+1" endid="#d1e6328" staff="2"/>
+              <slur tstamp="2" startid="#d1e6278" curvedir="above" tstamp2="1m+1" endid="#d1e6432" staff="3"/>
             </measure>
             <measure n="22" xml:id="d1e6296">
               <staff n="1">
@@ -1345,8 +1223,7 @@
                   <clef xml:id="d1e6472" tstamp="3" shape="G" line="2"/>
                 </layer>
               </staff>
-              <slur tstamp="2.5" startid="#d1e6385" curvedir="above" tstamp2="0m+2.75"
-                endid="#d1e6407" staff="2"/>
+              <slur tstamp="2.5" startid="#d1e6385" curvedir="above" tstamp2="0m+2.75" endid="#d1e6407" staff="2"/>
             </measure>
           </section>
         </score>

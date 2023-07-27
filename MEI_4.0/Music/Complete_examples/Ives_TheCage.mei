@@ -1,15 +1,13 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <?xml-model href="http://music-encoding.org/schema/4.0.1/mei-all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
 <?xml-model href="http://music-encoding.org/schema/4.0.1/mei-all.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
-<mei xmlns:xlink="http://www.w3.org/1999/xlink" xmlns="http://www.music-encoding.org/ns/mei"
-  meiversion="4.0.1">
+<mei xmlns:xlink="http://www.w3.org/1999/xlink" xmlns="http://www.music-encoding.org/ns/mei" meiversion="4.0.1">
   <meiHead>
     <fileDesc>
       <titleStmt>
         <title>The Cage <titlePart type="subordinate">an electronic transcription</titlePart> </title>
         <composer>
-          <persName role="creator" auth="GND" auth.uri="http://d-nb.info/gnd/" codedval="118556142"
-            >Charles Ives</persName>
+          <persName role="creator" auth="GND" auth.uri="http://d-nb.info/gnd/" codedval="118556142">Charles Ives</persName>
         </composer>
         <respStmt>
           <persName role="encoder">Maja Hartwig</persName>
@@ -17,12 +15,7 @@
       </titleStmt>
       <pubStmt>
         <publisher>
-          <corpName role="publisher" n="2" xml:id="corpName2" codedval="5115204-6"
-            auth.uri="http://d-nb.info/gnd/" auth="GND">Musikwissenschaftliches Seminar <address>
-            <addrLine>Gartenstrasse 20</addrLine> <addrLine>32756 <geogName codedval="7004442"
-            auth.uri="http://vocab.getty.edu/page/tgn/" auth="TGN">Detmold</geogName> <geogName
-            codedval="7000084" auth.uri="http://vocab.getty.edu/page/tgn/" auth="TGN"
-            >Germany</geogName> </addrLine> </address> </corpName>
+          <corpName role="publisher" n="2" xml:id="corpName2" codedval="5115204-6" auth.uri="http://d-nb.info/gnd/" auth="GND">Musikwissenschaftliches Seminar <address><addrLine>Gartenstrasse 20</addrLine><addrLine>32756 <geogName codedval="7004442" auth.uri="http://vocab.getty.edu/page/tgn/" auth="TGN">Detmold</geogName> <geogName codedval="7000084" auth.uri="http://vocab.getty.edu/page/tgn/" auth="TGN">Germany</geogName> </addrLine></address> </corpName>
         </publisher>
         <availability>
           <useRestrict> This encoding is in the public domain. However, the sources used to create
@@ -35,21 +28,11 @@
       <seriesStmt>
         <title>MEI Sample Collection</title>
         <funder>
-          <corpName role="funder" codedval="2007744-0" auth.uri="http://d-nb.info/gnd/" auth="GND"
-            >German Research Foundation<address> <addrLine>Kennedyallee 40</addrLine> <addrLine>
-            <geogName codedval="7005090" auth.uri="http://vocab.getty.edu/page/tgn/" auth="TGN"
-            >Bonn</geogName> </addrLine> <addrLine> <geogName codedval="7000084"
-            auth.uri="http://vocab.getty.edu/page/tgn/" auth="TGN">Germany</geogName> </addrLine>
-            </address> </corpName>
+          <corpName role="funder" codedval="2007744-0" auth.uri="http://d-nb.info/gnd/" auth="GND">German Research Foundation<address><addrLine>Kennedyallee 40</addrLine><addrLine><geogName codedval="7005090" auth.uri="http://vocab.getty.edu/page/tgn/" auth="TGN">Bonn</geogName></addrLine><addrLine><geogName codedval="7000084" auth.uri="http://vocab.getty.edu/page/tgn/" auth="TGN">Germany</geogName></addrLine></address> </corpName>
         </funder>
         <funder>
-          <corpName role="funder" codedval="18183-3" auth.uri="http://d-nb.info/gnd/18183-3"
-            auth="Deutsche Nationalbibliothek">National Endowment for the Humanities<address>
-            <addrLine>1100 Pennsylvania Avenue N.W.</addrLine> <addrLine> <geogName
-            codedval="7013962" auth.uri="http://vocab.getty.edu/page/tgn/" auth="TGN">Washington,
-            DC</geogName> 20004</addrLine> <addrLine> <geogName codedval="7012149"
-            auth.uri="http://vocab.getty.edu/page/tgn/" auth="TGN">United States</geogName>
-            </addrLine> </address> </corpName>
+          <corpName role="funder" codedval="18183-3" auth.uri="http://d-nb.info/gnd/18183-3" auth="Deutsche Nationalbibliothek">National Endowment for the Humanities<address><addrLine>1100 Pennsylvania Avenue N.W.</addrLine><addrLine><geogName codedval="7013962" auth.uri="http://vocab.getty.edu/page/tgn/" auth="TGN">Washington,
+            DC</geogName> 20004</addrLine><addrLine><geogName codedval="7012149" auth.uri="http://vocab.getty.edu/page/tgn/" auth="TGN">United States</geogName></addrLine></address> </corpName>
         </funder>
         <respStmt>
           <corpName role="publisher">MEI Project</corpName>
@@ -65,12 +48,10 @@
             <title><titlePart>The Cage</titlePart> from <titlePart type="work">Two Songs</titlePart>
               <titlePart type="date">(1906)</titlePart></title>
             <composer>
-              <persName role="composer" auth="GND" auth.uri="http://d-nb.info/gnd/"
-                codedval="118556142">Charles Ives</persName>
+              <persName role="composer" auth="GND" auth.uri="http://d-nb.info/gnd/" codedval="118556142">Charles Ives</persName>
             </composer>
             <lyricist>
-              <persName role="lyricist" auth="GND" auth.uri="http://d-nb.info/gnd/"
-                codedval="118556142">Charles Ives</persName>
+              <persName role="lyricist" auth="GND" auth.uri="http://d-nb.info/gnd/" codedval="118556142">Charles Ives</persName>
             </lyricist>
             <imprint>
               <respStmt>
@@ -87,16 +68,16 @@
     <encodingDesc>
       <appInfo>
         <application version="v1.0_beta" xml:id="mei2012To2013">
-            <name>mei2012To2013.xsl</name>
-           <ptr target="https://github.com/music-encoding/encoding-tools/blob/main/mei2012To2013/mei2012To2013.xsl"/>
-         </application>
+          <name>mei2012To2013.xsl</name>
+          <ptr target="https://github.com/music-encoding/encoding-tools/blob/main/mei2012To2013/mei2012To2013.xsl"/>
+        </application>
         <application version="v1.0_beta" xml:id="mei21To30">
-           <name>mei21To30.xsl</name>
-           <ptr target="https://github.com/music-encoding/encoding-tools/blob/main/mei21To30/mei21To30.xsl"/>
+          <name>mei21To30.xsl</name>
+          <ptr target="https://github.com/music-encoding/encoding-tools/blob/main/mei21To30/mei21To30.xsl"/>
         </application>
         <application version="v1.0_beta" xml:id="mei30To40">
           <name>mei30To40.xsl</name>
-<ptr target="https://github.com/music-encoding/encoding-tools/blob/main/mei30To40/mei30To40.xsl"/>
+          <ptr target="https://github.com/music-encoding/encoding-tools/blob/main/mei30To40/mei30To40.xsl"/>
         </application>
       </appInfo>
       <samplingDecl>
@@ -104,8 +85,7 @@
       </samplingDecl>
       <classDecls>
         <taxonomy>
-          <bibl xml:id="OCLC_DDC"
-            target="http://www.oclc.org/dewey/resources/summaries/default.htm#700">OCLC_DDC</bibl>
+          <bibl xml:id="OCLC_DDC" target="http://www.oclc.org/dewey/resources/summaries/default.htm#700">OCLC_DDC</bibl>
           <category xml:id="_782.42">
             <altId>782.42</altId>
             <label>Song</label>
@@ -132,12 +112,10 @@
       <work>
         <title>The Cage</title>
         <composer>
-          <persName role="composer" auth="GND" auth.uri="http://d-nb.info/gnd/" codedval="118556142"
-            >Charles Ives</persName>
+          <persName role="composer" auth="GND" auth.uri="http://d-nb.info/gnd/" codedval="118556142">Charles Ives</persName>
         </composer>
         <lyricist>
-          <persName role="lyricist" auth="GND" auth.uri="http://d-nb.info/gnd/" codedval="118556142"
-            >Charles Ives</persName>
+          <persName role="lyricist" auth="GND" auth.uri="http://d-nb.info/gnd/" codedval="118556142">Charles Ives</persName>
         </lyricist>
         <key>undefined</key>
         <meter>undefined</meter>
@@ -182,8 +160,7 @@
                     </chord>
                   </layer>
                   <layer n="2">
-                    <note pname="c" oct="4" dur="4" stem.dir="down" accid="s" dots="1"
-                      stem.with="below"/>
+                    <note pname="c" oct="4" dur="4" stem.dir="down" accid="s" dots="1" stem.with="below"/>
                     <note pname="e" oct="4" dur="4" stem.dir="down" stem.with="below"/>
                     <note pname="c" oct="4" dur="8" stem.dir="down" stem.with="below"/>
                     <note pname="d" accid="s" oct="4" dur="8" stem.dir="down" stem.with="below"/>
@@ -343,8 +320,7 @@
                   </chord>
                 </layer>
                 <layer n="2">
-                  <note pname="c" oct="4" dur="4" stem.dir="down" accid="s" dots="1"
-                    stem.with="below"/>
+                  <note pname="c" oct="4" dur="4" stem.dir="down" accid="s" dots="1" stem.with="below"/>
                   <note pname="e" oct="4" dur="4" stem.dir="down" stem.with="below"/>
                   <note pname="c" oct="4" dur="8" stem.dir="down" stem.with="below"/>
                   <note pname="d" accid="s" oct="4" dur="8" stem.dir="down" stem.with="below"/>
@@ -454,8 +430,7 @@
                 <layer n="2">
                   <space dur="2"/>
                   <space dur="8"/>
-                  <note pname="c" oct="4" dur="4" stem.dir="down" stem.with="below" accid="s"
-                    stem.pos="right"/>
+                  <note pname="c" oct="4" dur="4" stem.dir="down" stem.with="below" accid="s" stem.pos="right"/>
                   <note pname="e" oct="4" dur="4" stem.dir="down" stem.with="below"/>
                   <note pname="c" oct="4" dur="4" stem.dir="down" stem.with="below"/>
                 </layer>
@@ -594,15 +569,11 @@
                   </chord>
                 </layer>
                 <layer n="2">
-                  <note pname="d" oct="4" dur="2" accid="s" stem.dir="down" stem.with="below"
-                    stem.pos="right"/>
-                  <note pname="e" oct="4" dur="2" dots="1" stem.dir="down" stem.with="below"
-                    stem.pos="right"/>
-                  <note pname="a" oct="4" dur="4" dots="1" stem.dir="down" stem.with="below"
-                    stem.pos="right"/>
+                  <note pname="d" oct="4" dur="2" accid="s" stem.dir="down" stem.with="below" stem.pos="right"/>
+                  <note pname="e" oct="4" dur="2" dots="1" stem.dir="down" stem.with="below" stem.pos="right"/>
+                  <note pname="a" oct="4" dur="4" dots="1" stem.dir="down" stem.with="below" stem.pos="right"/>
                   <note pname="e" oct="4" dur="4" stem.dir="down" stem.with="below" stem.pos="right"/>
-                  <note pname="e" oct="4" accid="s" dur="4" stem.dir="down" stem.with="below"
-                    stem.pos="right"/>
+                  <note pname="e" oct="4" accid="s" dur="4" stem.dir="down" stem.with="below" stem.pos="right"/>
                   <chord>
                     <note pname="c" oct="4" dur="4" accid="s" dots="1" stem.dir="down"/>
                     <note pname="f" oct="4" dur="4" accid="s" dots="1" stem.dir="down"/>
@@ -700,8 +671,7 @@
                     <note pname="b" oct="4" dur="4" dots="1" stem.dir="down"/>
                   </chord>
                   <chord>
-                    <note pname="e" oct="4" dur="4" accid="f" stem.dir="down" stem.with="below"
-                      stem.pos="right"/>
+                    <note pname="e" oct="4" dur="4" accid="f" stem.dir="down" stem.with="below" stem.pos="right"/>
                     <note pname="b" oct="4" dur="4" accid="f" stem.dir="down"/>
                   </chord>
                   <chord>
@@ -723,8 +693,7 @@
                   <space dur="2"/>
                   <space dur="8"/>
                   <space dur="4" dots="1"/>
-                  <note pname="a" oct="3" dur="8" stem.dir="up" stem.with="above" accid="f"
-                    xml:id="a1"/>
+                  <note pname="a" oct="3" dur="8" stem.dir="up" stem.with="above" accid="f" xml:id="a1"/>
                   <note pname="g" oct="3" dur="4" stem.with="above" stem.dir="up" xml:id="g1"/>
                   <note pname="f" oct="3" dur="4" stem.dir="up" stem.with="above" xml:id="f1"/>
                   <space dur="4"/>
@@ -807,15 +776,13 @@
                 </layer>
                 <layer n="2">
                   <chord>
-                    <note pname="d" oct="4" dur="2" stem.dir="down" stem.with="below" accid="s"
-                      dots="1"/>
+                    <note pname="d" oct="4" dur="2" stem.dir="down" stem.with="below" accid="s" dots="1"/>
                     <note pname="a" oct="4" dur="2" stem.dir="down" dots="1"/>
                     <note pname="c" oct="5" dur="2" stem.dir="down" dots="1" accid="s"/>
                   </chord>
                   <space dur="2"/>
                   <space dur="8"/>
-                  <note pname="c" oct="4" dur="4" stem.dir="down" stem.with="below" accid="s"
-                    stem.pos="right"/>
+                  <note pname="c" oct="4" dur="4" stem.dir="down" stem.with="below" accid="s" stem.pos="right"/>
                   <note pname="e" oct="4" dur="8" stem.pos="right" stem.with="below" stem.dir="down"/>
                   <space dur="8"/>
                   <space dur="8"/>

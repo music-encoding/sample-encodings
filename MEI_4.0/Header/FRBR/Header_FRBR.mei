@@ -1,15 +1,13 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <?xml-model href="http://music-encoding.org/schema/4.0.1/mei-all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
 <?xml-model href="http://music-encoding.org/schema/4.0.1/mei-all.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
-<mei xmlns:xlink="http://www.w3.org/1999/xlink" xmlns="http://www.music-encoding.org/ns/mei"
-  meiversion="4.0.1">
+<mei xmlns:xlink="http://www.w3.org/1999/xlink" xmlns="http://www.music-encoding.org/ns/mei" meiversion="4.0.1">
   <meiHead>
     <fileDesc>
       <titleStmt>
         <title>Example of of a header including FRBR</title>
         <composer>
-          <persName role="creator" auth="GND" auth.uri="http://d-nb.info/gnd/" codedval="118611666"
-            >Robert Schumann</persName>
+          <persName role="creator" auth="GND" auth.uri="http://d-nb.info/gnd/" codedval="118611666">Robert Schumann</persName>
         </composer>
         <respStmt>
           <persName role="encoder">Kristina Richts</persName>
@@ -22,12 +20,12 @@
     <encodingDesc>
       <appInfo>
         <application version="v1.0_beta" xml:id="mei2012To2013">
-            <name>mei2012To2013.xsl</name>
-           <ptr target="https://github.com/music-encoding/encoding-tools/blob/main/mei2012To2013/mei2012To2013.xsl"/>
-         </application>
+          <name>mei2012To2013.xsl</name>
+          <ptr target="https://github.com/music-encoding/encoding-tools/blob/main/mei2012To2013/mei2012To2013.xsl"/>
+        </application>
         <application version="v1.0_beta" xml:id="mei21To30">
-           <name>mei21To30.xsl</name>
-           <ptr target="https://github.com/music-encoding/encoding-tools/blob/main/mei21To30/mei21To30.xsl"/>
+          <name>mei21To30.xsl</name>
+          <ptr target="https://github.com/music-encoding/encoding-tools/blob/main/mei21To30/mei21To30.xsl"/>
         </application>
         <application version="v1.0_beta" xml:id="mei30To40">
           <name>mei30To40.xsl</name>
@@ -40,8 +38,7 @@
       </samplingDecl>
       <classDecls>
         <taxonomy>
-          <bibl xml:id="OCLC" target="http://www.oclc.org/dewey/resources/summaries/default.htm#700"
-            >OCLC</bibl>
+          <bibl xml:id="OCLC" target="http://www.oclc.org/dewey/resources/summaries/default.htm#700">OCLC</bibl>
           <category xml:id="_782.42">
             <altId>782.42</altId>
             <label>Song</label>
@@ -81,12 +78,10 @@
             <title type="main">Der Abendstern</title>
             <title type="uniform">Lieder für die Jugend &lt;Der Abendstern&gt;</title>
             <composer>
-              <persName role="composer" auth="GND" auth.uri="http://d-nb.info/gnd/"
-                codedval="118611666">Robert Schumann</persName>
+              <persName role="composer" auth="GND" auth.uri="http://d-nb.info/gnd/" codedval="118611666">Robert Schumann</persName>
             </composer>
             <lyricist>
-              <persName role="lyricist" auth="GND" auth.uri="http://d-nb.info/gnd/"
-                codedval="118552589">August Heinrich Hoffmann von Fallersleben</persName>
+              <persName role="lyricist" auth="GND" auth.uri="http://d-nb.info/gnd/" codedval="118552589">August Heinrich Hoffmann von Fallersleben</persName>
             </lyricist>
             <key>A major</key>
             <meter count="2" unit="4"/>
@@ -97,16 +92,13 @@
               <score>
                 <scoreDef>
                   <staffGrp>
-                    <staffDef n="1" lines="5" meter.count="2" meter.unit="4" clef.shape="G"
-                      clef.line="2" key.sig="3s">
+                    <staffDef n="1" lines="5" meter.count="2" meter.unit="4" clef.shape="G" clef.line="2" key.sig="3s">
                       <label>Singstimme</label>
                     </staffDef>
                     <staffGrp symbol="brace">
                       <label>Pianoforte</label>
-                      <staffDef n="2" lines="5" meter.count="2" meter.unit="4" clef.shape="G"
-                        clef.line="2" key.sig="3s"/>
-                      <staffDef n="3" lines="5" meter.count="2" meter.unit="4" clef.shape="F"
-                        clef.line="4" key.sig="3s"/>
+                      <staffDef n="2" lines="5" meter.count="2" meter.unit="4" clef.shape="G" clef.line="2" key.sig="3s"/>
+                      <staffDef n="3" lines="5" meter.count="2" meter.unit="4" clef.shape="F" clef.line="4" key.sig="3s"/>
                     </staffGrp>
                   </staffGrp>
                 </scoreDef>
@@ -279,12 +271,10 @@
             <title type="main">Schmetterling</title>
             <title type="uniform">Lieder für die Jugend &lt;Schmetterling&gt;</title>
             <composer>
-              <persName role="composer" auth="GND" auth.uri="http://d-nb.info/gnd/"
-                codedval="118611666">Robert Schumann</persName>
+              <persName role="composer" auth="GND" auth.uri="http://d-nb.info/gnd/" codedval="118611666">Robert Schumann</persName>
             </composer>
             <lyricist>
-              <persName role="lyricist" auth="GND" auth.uri="http://d-nb.info/gnd/"
-                codedval="118552589">August Heinrich Hoffmann von Fallersleben</persName>
+              <persName role="lyricist" auth="GND" auth.uri="http://d-nb.info/gnd/" codedval="118552589">August Heinrich Hoffmann von Fallersleben</persName>
             </lyricist>
             <key>D major</key>
             <meter count="3" unit="8"/>
@@ -295,16 +285,13 @@
               <score>
                 <scoreDef>
                   <staffGrp>
-                    <staffDef n="1" lines="5" meter.count="3" meter.unit="8" clef.shape="G"
-                      clef.line="2" key.sig="2s">
+                    <staffDef n="1" lines="5" meter.count="3" meter.unit="8" clef.shape="G" clef.line="2" key.sig="2s">
                       <label>Singstimme</label>
                     </staffDef>
                     <staffGrp symbol="brace">
                       <label>Pianoforte</label>
-                      <staffDef n="2" lines="5" meter.count="3" meter.unit="8" clef.shape="G"
-                        clef.line="2" key.sig="2s"/>
-                      <staffDef n="3" lines="5" meter.count="3" meter.unit="8" clef.shape="F"
-                        clef.line="4" key.sig="2s"/>
+                      <staffDef n="2" lines="5" meter.count="3" meter.unit="8" clef.shape="G" clef.line="2" key.sig="2s"/>
+                      <staffDef n="3" lines="5" meter.count="3" meter.unit="8" clef.shape="F" clef.line="4" key.sig="2s"/>
                     </staffGrp>
                   </staffGrp>
                 </scoreDef>
@@ -536,12 +523,10 @@
             <title type="main">Frühlingsbotschaft</title>
             <title type="uniform">Lieder für die Jugend &lt;Frühlingsbotschaft&gt;</title>
             <composer>
-              <persName role="composer" auth="GND" auth.uri="http://d-nb.info/gnd/"
-                codedval="118611666">Robert Schumann</persName>
+              <persName role="composer" auth="GND" auth.uri="http://d-nb.info/gnd/" codedval="118611666">Robert Schumann</persName>
             </composer>
             <lyricist>
-              <persName role="lyricist" auth="GND" auth.uri="http://d-nb.info/gnd/"
-                codedval="118552589">August Heinrich Hoffmann von Fallersleben</persName>
+              <persName role="lyricist" auth="GND" auth.uri="http://d-nb.info/gnd/" codedval="118552589">August Heinrich Hoffmann von Fallersleben</persName>
             </lyricist>
             <key>G major</key>
             <meter count="2" unit="4"/>
@@ -552,16 +537,13 @@
               <score>
                 <scoreDef>
                   <staffGrp>
-                    <staffDef n="1" lines="5" meter.count="2" meter.unit="4" clef.shape="G"
-                      clef.line="2" key.sig="1s">
+                    <staffDef n="1" lines="5" meter.count="2" meter.unit="4" clef.shape="G" clef.line="2" key.sig="1s">
                       <label>Singstimme</label>
                     </staffDef>
                     <staffGrp symbol="brace">
                       <label>Pianoforte</label>
-                      <staffDef n="2" lines="5" meter.count="2" meter.unit="4" clef.shape="G"
-                        clef.line="2" key.sig="1s"/>
-                      <staffDef n="3" lines="5" meter.count="2" meter.unit="4" clef.shape="F"
-                        clef.line="4" key.sig="1s"/>
+                      <staffDef n="2" lines="5" meter.count="2" meter.unit="4" clef.shape="G" clef.line="2" key.sig="1s"/>
+                      <staffDef n="3" lines="5" meter.count="2" meter.unit="4" clef.shape="F" clef.line="4" key.sig="1s"/>
                     </staffGrp>
                   </staffGrp>
                 </scoreDef>
@@ -746,12 +728,10 @@
             <title type="main">Frühlingsgruss</title>
             <title type="uniform">Lieder für die Jugend &lt;Frühlingsgruss&gt;</title>
             <composer>
-              <persName role="composer" auth="GND" auth.uri="http://d-nb.info/gnd/"
-                codedval="118611666">Robert Schumann</persName>
+              <persName role="composer" auth="GND" auth.uri="http://d-nb.info/gnd/" codedval="118611666">Robert Schumann</persName>
             </composer>
             <lyricist>
-              <persName role="lyricist" auth="GND" auth.uri="http://d-nb.info/gnd/"
-                codedval="118552589">August Heinrich Hoffmann von Fallersleben</persName>
+              <persName role="lyricist" auth="GND" auth.uri="http://d-nb.info/gnd/" codedval="118552589">August Heinrich Hoffmann von Fallersleben</persName>
             </lyricist>
             <key>G major</key>
             <incip>
@@ -761,16 +741,13 @@
               <score>
                 <scoreDef>
                   <staffGrp>
-                    <staffDef n="1" lines="5" meter.count="3" meter.unit="4" clef.shape="G"
-                      clef.line="2" key.sig="1s">
+                    <staffDef n="1" lines="5" meter.count="3" meter.unit="4" clef.shape="G" clef.line="2" key.sig="1s">
                       <label>Singstimme</label>
                     </staffDef>
                     <staffGrp symbol="brace">
                       <label>Pianoforte</label>
-                      <staffDef n="2" lines="5" meter.count="3" meter.unit="4" clef.shape="G"
-                        clef.line="2" key.sig="1s"/>
-                      <staffDef n="3" lines="5" meter.count="3" meter.unit="4" clef.shape="F"
-                        clef.line="4" key.sig="1s"/>
+                      <staffDef n="2" lines="5" meter.count="3" meter.unit="4" clef.shape="G" clef.line="2" key.sig="1s"/>
+                      <staffDef n="3" lines="5" meter.count="3" meter.unit="4" clef.shape="F" clef.line="4" key.sig="1s"/>
                     </staffGrp>
                   </staffGrp>
                 </scoreDef>
@@ -962,11 +939,9 @@
           <title type="subordinate">op. 79</title>
           <title type="uniform">Lieder für die Jugend</title>
           <respStmt>
-            <persName role="composer" auth="GND" auth.uri="http://d-nb.info/gnd/"
-              codedval="118611666">Robert Schumann</persName>
+            <persName role="composer" auth="GND" auth.uri="http://d-nb.info/gnd/" codedval="118611666">Robert Schumann</persName>
             <resp>Herausgegeben von</resp>
-            <persName role="editor" auth.uri="http://d-nb.info/gnd/" auth="GND" codedval="10400097X"
-              >Ulrich Mahlert</persName>
+            <persName role="editor" auth.uri="http://d-nb.info/gnd/" auth="GND" codedval="10400097X">Ulrich Mahlert</persName>
           </respStmt>
         </titleStmt>
         <editionStmt>
@@ -974,8 +949,7 @@
         </editionStmt>
         <pubStmt>
           <respStmt>
-            <corpName role="publisher" auth="GND" auth.uri="http://d-nb.info/gnd/"
-              codedval="330001418">Breitkopf und Härtel</corpName>
+            <corpName role="publisher" auth="GND" auth.uri="http://d-nb.info/gnd/" codedval="330001418">Breitkopf und Härtel</corpName>
             <resp>Druck:</resp>
             <corpName role="printer">PIROL Notendruckerei, Minden</corpName>
           </respStmt>
@@ -1015,8 +989,7 @@
         <seriesStmt>
           <title>Breitkopf-Archiv</title>
           <editor>
-            <persName role="editor" auth.uri="http://d-nb.info/gnd/" auth="GND" codedval="123921228"
-              >Joachim Draheim</persName>
+            <persName role="editor" auth.uri="http://d-nb.info/gnd/" auth="GND" codedval="123921228">Joachim Draheim</persName>
           </editor>
         </seriesStmt>
         <contents>

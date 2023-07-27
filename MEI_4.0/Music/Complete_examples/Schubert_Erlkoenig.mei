@@ -1,8 +1,7 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <?xml-model href="http://music-encoding.org/schema/4.0.1/mei-all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
 <?xml-model href="http://music-encoding.org/schema/4.0.1/mei-all.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
-<mei xmlns:xlink="http://www.w3.org/1999/xlink" xmlns="http://www.music-encoding.org/ns/mei"
-  meiversion="4.0.1">
+<mei xmlns:xlink="http://www.w3.org/1999/xlink" xmlns="http://www.music-encoding.org/ns/mei" meiversion="4.0.1">
   <meiHead>
     <fileDesc>
       <titleStmt>
@@ -10,8 +9,7 @@
         <title type="work">D.328 <titlePart type="subordinate">an electronic
           transcription</titlePart> </title>
         <composer>
-          <persName role="creator" auth.uri="http://d-nb.info/gnd/" codedval="118610961" auth="GND"
-            >Franz Schubert</persName>
+          <persName role="creator" auth.uri="http://d-nb.info/gnd/" codedval="118610961" auth="GND">Franz Schubert</persName>
         </composer>
         <respStmt>
           <persName role="encoder">Maja Hartwig</persName>
@@ -19,8 +17,7 @@
       </titleStmt>
       <pubStmt>
         <publisher>
-          <corpName role="publisher" codedval="5115204-6" auth.uri="http://d-nb.info/gnd/"
-            auth="GND">Musikwissenschaftliches Seminar </corpName>
+          <corpName role="publisher" codedval="5115204-6" auth.uri="http://d-nb.info/gnd/" auth="GND">Musikwissenschaftliches Seminar </corpName>
         </publisher>
         <address>
           <addrLine>Gartenstrasse 20</addrLine>
@@ -38,21 +35,11 @@
       <seriesStmt>
         <title>MEI Sample Collection</title>
         <funder>
-          <corpName role="funder" codedval="2007744-0" auth.uri="http://d-nb.info/gnd/" auth="GND"
-            >German Research Foundation<address> <addrLine>Kennedyallee 40</addrLine> <addrLine>
-            <geogName codedval="7005090" auth.uri="http://vocab.getty.edu/page/tgn/" auth="TGN"
-            >Bonn</geogName> </addrLine> <addrLine> <geogName codedval="7000084"
-            auth.uri="http://vocab.getty.edu/page/tgn/" auth="TGN">Germany</geogName> </addrLine>
-            </address> </corpName>
+          <corpName role="funder" codedval="2007744-0" auth.uri="http://d-nb.info/gnd/" auth="GND">German Research Foundation<address><addrLine>Kennedyallee 40</addrLine><addrLine><geogName codedval="7005090" auth.uri="http://vocab.getty.edu/page/tgn/" auth="TGN">Bonn</geogName></addrLine><addrLine><geogName codedval="7000084" auth.uri="http://vocab.getty.edu/page/tgn/" auth="TGN">Germany</geogName></addrLine></address> </corpName>
         </funder>
         <funder>
-          <corpName role="funder" codedval="18183-3" auth.uri="http://d-nb.info/gnd/18183-3"
-            auth="Deutsche Nationalbibliothek">National Endowment for the Humanities<address>
-            <addrLine>1100 Pennsylvania Avenue N.W.</addrLine> <addrLine> <geogName
-            codedval="7013962" auth.uri="http://vocab.getty.edu/page/tgn/" auth="TGN">Washington,
-            DC</geogName> 20004</addrLine> <addrLine> <geogName codedval="7012149"
-            auth.uri="http://vocab.getty.edu/page/tgn/" auth="TGN">United States</geogName>
-            </addrLine> </address> </corpName>
+          <corpName role="funder" codedval="18183-3" auth.uri="http://d-nb.info/gnd/18183-3" auth="Deutsche Nationalbibliothek">National Endowment for the Humanities<address><addrLine>1100 Pennsylvania Avenue N.W.</addrLine><addrLine><geogName codedval="7013962" auth.uri="http://vocab.getty.edu/page/tgn/" auth="TGN">Washington,
+            DC</geogName> 20004</addrLine><addrLine><geogName codedval="7012149" auth.uri="http://vocab.getty.edu/page/tgn/" auth="TGN">United States</geogName></addrLine></address> </corpName>
         </funder>
         <respStmt>
           <corpName role="publisher">MEI Project</corpName>
@@ -67,8 +54,7 @@
             <title>Erlkönig</title>
             <title type="work">D.328</title>
             <composer>
-              <persName role="composer" codedval="118610961" auth="GND"
-                auth.uri="http://d-nb.info/gnd/">Franz Schubert</persName>
+              <persName role="composer" codedval="118610961" auth="GND" auth.uri="http://d-nb.info/gnd/">Franz Schubert</persName>
             </composer>
             <lyricist>
               <persName role="lyricist">Johann Wolfgang von Goethe</persName>
@@ -83,16 +69,16 @@
     <encodingDesc>
       <appInfo>
         <application version="v1.0_beta" xml:id="mei2012To2013">
-            <name>mei2012To2013.xsl</name>
-           <ptr target="https://github.com/music-encoding/encoding-tools/blob/main/mei2012To2013/mei2012To2013.xsl"/>
-         </application>
+          <name>mei2012To2013.xsl</name>
+          <ptr target="https://github.com/music-encoding/encoding-tools/blob/main/mei2012To2013/mei2012To2013.xsl"/>
+        </application>
         <application version="v1.0_beta" xml:id="mei21To30">
-           <name>mei21To30.xsl</name>
-           <ptr target="https://github.com/music-encoding/encoding-tools/blob/main/mei21To30/mei21To30.xsl"/>
+          <name>mei21To30.xsl</name>
+          <ptr target="https://github.com/music-encoding/encoding-tools/blob/main/mei21To30/mei21To30.xsl"/>
         </application>
         <application version="v1.0_beta" xml:id="mei30To40">
           <name>mei30To40.xsl</name>
-<ptr target="https://github.com/music-encoding/encoding-tools/blob/main/mei30To40/mei30To40.xsl"/>
+          <ptr target="https://github.com/music-encoding/encoding-tools/blob/main/mei30To40/mei30To40.xsl"/>
         </application>
       </appInfo>
       <projectDesc>
@@ -103,8 +89,7 @@
       </samplingDecl>
       <classDecls>
         <taxonomy>
-          <bibl xml:id="OCLC" target="http://www.oclc.org/dewey/resources/summaries/default.htm#700"
-            >OCLC</bibl>
+          <bibl xml:id="OCLC" target="http://www.oclc.org/dewey/resources/summaries/default.htm#700">OCLC</bibl>
           <category xml:id="_782.42">
             <altId>782.42</altId>
             <label>Song</label>
@@ -135,8 +120,7 @@
       <work>
         <title>Erlkönig</title>
         <composer>
-          <persName role="composer" codedval="118610961" auth="GND" auth.uri="http://d-nb.info/gnd/"
-            >Franz Schubert</persName>
+          <persName role="composer" codedval="118610961" auth="GND" auth.uri="http://d-nb.info/gnd/">Franz Schubert</persName>
         </composer>
         <key pname="g" mode="minor">g Minor</key>
         <meter count="4" unit="4" sym="common"/>
@@ -169,8 +153,7 @@
                 </staff>
                 <staff n="2" xml:id="m1_s2_a">
                   <layer>
-                    <tuplet xml:id="m1_s2_e1_a" num="3" numbase="2" num.place="below"
-                      num.visible="true" bracket.visible="false">
+                    <tuplet xml:id="m1_s2_e1_a" num="3" numbase="2" num.place="below" num.visible="true" bracket.visible="false">
                       <beam>
                         <chord stem.dir="up" xml:id="m1_s2_c1_a">
                           <note pname="g" oct="3" dur="8"/>
@@ -294,8 +277,7 @@
               </staff>
               <staff n="2" xml:id="m1_s2">
                 <layer>
-                  <tuplet num="3" numbase="2" num.place="below" num.visible="true"
-                    bracket.visible="false" xml:id="m1_s2_e1">
+                  <tuplet num="3" numbase="2" num.place="below" num.visible="true" bracket.visible="false" xml:id="m1_s2_e1">
                     <beam>
                       <chord stem.dir="up" xml:id="m1_s2_c1">
                         <note pname="g" oct="3" dur="8"/>
@@ -359,16 +341,14 @@
               </staff>
               <staff n="3" xml:id="m2_s3">
                 <layer>
-                  <tuplet num="3" numbase="2" num.visible="true" num.place="below"
-                    bracket.visible="false" xml:id="m2_s3_e1">
+                  <tuplet num="3" numbase="2" num.visible="true" num.place="below" bracket.visible="false" xml:id="m2_s3_e1">
                     <beam>
                       <note pname="g" oct="2" dur="8" slur="i1" stem.dir="up"/>
                       <note pname="a" oct="2" dur="8" stem.dir="up"/>
                       <note pname="b" oct="2" dur="8" stem.dir="up"/>
                     </beam>
                   </tuplet>
-                  <tuplet num="3" numbase="2" num.visible="true" num.place="below"
-                    bracket.visible="false" xml:id="m2_s3_e2">
+                  <tuplet num="3" numbase="2" num.visible="true" num.place="below" bracket.visible="false" xml:id="m2_s3_e2">
                     <beam>
                       <note pname="c" oct="3" dur="8" stem.dir="up"/>
                       <note pname="d" oct="3" dur="8" stem.dir="up"/>

@@ -36,21 +36,19 @@
       <seriesStmt>
         <title>MEI Sample Collection</title>
         <funder>
-          <corpName role="funder">German Research Foundation<address> <addrLine>Kennedyallee
-            40</addrLine> <addrLine> <geogName>Bonn</geogName> </addrLine> <addrLine>
-            <geogName>Germany</geogName> </addrLine> </address> </corpName>
+          <corpName role="funder">German Research Foundation<address><addrLine>Kennedyallee
+            40</addrLine><addrLine><geogName>Bonn</geogName></addrLine><addrLine><geogName>Germany</geogName></addrLine></address> </corpName>
         </funder>
         <funder>
-          <corpName role="funder">National Endowment for the Humanities<address> <addrLine>1100
-            Pennsylvania Avenue N.W.</addrLine> <addrLine> <geogName>Washington, DC</geogName>
-            20004</addrLine> <addrLine> <geogName>United States</geogName> </addrLine> </address>
+          <corpName role="funder">National Endowment for the Humanities<address><addrLine>1100
+            Pennsylvania Avenue N.W.</addrLine><addrLine><geogName>Washington, DC</geogName>
+            20004</addrLine><addrLine><geogName>United States</geogName></addrLine></address>
           </corpName>
         </funder>
         <respStmt>
           <corpName role="publisher">MEI Project</corpName>
         </respStmt>
-        <identifier type="URI"
-          >http:www.music-encoding.org/Support/MEI_Sample_Collection</identifier>
+        <identifier type="URI">http:www.music-encoding.org/Support/MEI_Sample_Collection</identifier>
       </seriesStmt>
     </fileDesc>
     <encodingDesc>
@@ -562,13 +560,19 @@
               <section n="1" type="Vorspiel">
                 <measure n="1">
                   <staff n="1">
-                    <layer><!-- music goes here --></layer>
+                    <layer>
+                      <!-- music goes here -->
+                    </layer>
                   </staff>
                   <staff n="2">
-                    <layer><!-- music goes here --></layer>
+                    <layer>
+                      <!-- music goes here -->
+                    </layer>
                   </staff>
                   <staff n="3">
-                    <layer><!-- music goes here --></layer>
+                    <layer>
+                      <!-- music goes here -->
+                    </layer>
                   </staff>
                 </measure>
               </section>
@@ -582,7 +586,9 @@
             <score>
               <scoreDef/>
               <section>
-                <measure><!-- music goes here --></measure>
+                <measure>
+                  <!-- music goes here -->
+                </measure>
               </section>
             </score>
           </mdiv>
@@ -591,7 +597,9 @@
       <music n="3" decls="#n3" label="Gefror'ne Thränen">
         <body>
           <mdiv>
-            <score><!-- music goes here --></score>
+            <score>
+              <!-- music goes here -->
+            </score>
           </mdiv>
         </body>
       </music>

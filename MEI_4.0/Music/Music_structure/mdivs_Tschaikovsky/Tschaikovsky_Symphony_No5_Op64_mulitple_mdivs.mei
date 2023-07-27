@@ -1,8 +1,7 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <?xml-model href="http://music-encoding.org/schema/4.0.1/mei-all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
 <?xml-model href="http://music-encoding.org/schema/4.0.1/mei-all.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
-<mei xmlns:xlink="http://www.w3.org/1999/xlink" xmlns="http://www.music-encoding.org/ns/mei"
-  meiversion="4.0.1">
+<mei xmlns:xlink="http://www.w3.org/1999/xlink" xmlns="http://www.music-encoding.org/ns/mei" meiversion="4.0.1">
   <meiHead>
     <fileDesc>
       <titleStmt>
@@ -38,14 +37,13 @@
       <seriesStmt>
         <title>MEI Sample Collection</title>
         <funder>
-          <corpName role="funder">German Research Foundation <address> <addrLine>Kennedyallee
-            40</addrLine> <addrLine>53175 <geogName>Bonn</geogName> </addrLine> <addrLine>
-            <geogName>Germany</geogName> </addrLine> </address> </corpName>
+          <corpName role="funder">German Research Foundation <address><addrLine>Kennedyallee
+            40</addrLine><addrLine>53175 <geogName>Bonn</geogName> </addrLine><addrLine><geogName>Germany</geogName></addrLine></address> </corpName>
         </funder>
         <funder>
-          <corpName role="funder">National Endowment for the Humanities <address> <addrLine>1100
-            Pennsylvania Avenue N.W.</addrLine> <addrLine> <geogName>Washington, DC</geogName>
-            20004</addrLine> <addrLine> <geogName>United States</geogName> </addrLine> </address>
+          <corpName role="funder">National Endowment for the Humanities <address><addrLine>1100
+            Pennsylvania Avenue N.W.</addrLine><addrLine><geogName>Washington, DC</geogName>
+            20004</addrLine><addrLine><geogName>United States</geogName></addrLine></address>
           </corpName>
         </funder>
         <respStmt>
@@ -74,8 +72,7 @@
       </editorialDecl>
       <classDecls>
         <taxonomy>
-          <bibl xml:id="OCLC_DDC"
-            target="http://www.oclc.org/dewey/resources/summaries/default.htm#700">OCLC_DDC</bibl>
+          <bibl xml:id="OCLC_DDC" target="http://www.oclc.org/dewey/resources/summaries/default.htm#700">OCLC_DDC</bibl>
           <category xml:id="_784">
             <altId>784</altId>
             <label>Instruments &amp; instrumental ensembles</label>
@@ -295,8 +292,7 @@
           </respStmt>
         </titleStmt>
         <pubStmt>
-          <identifier type="URI" auth.uri="imslp.org/wiki/Symphony_No.5,_Op.64_(Tchaikovsky,_Pyotr)"
-            >imslp.org/wiki/Symphony_No.5,_Op.64_(Tchaikovsky,_Pyotr)</identifier>
+          <identifier type="URI" auth.uri="imslp.org/wiki/Symphony_No.5,_Op.64_(Tchaikovsky,_Pyotr)">imslp.org/wiki/Symphony_No.5,_Op.64_(Tchaikovsky,_Pyotr)</identifier>
           <respStmt>
             <corpName role="publisher">IMSLP</corpName>
           </respStmt>

@@ -1,16 +1,14 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <?xml-model href="http://music-encoding.org/schema/4.0.1/mei-all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
 <?xml-model href="http://music-encoding.org/schema/4.0.1/mei-all.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
-<mei xmlns:xlink="http://www.w3.org/1999/xlink" xmlns="http://www.music-encoding.org/ns/mei"
-  meiversion="4.0.1">
+<mei xmlns:xlink="http://www.w3.org/1999/xlink" xmlns="http://www.music-encoding.org/ns/mei" meiversion="4.0.1">
   <meiHead>
     <fileDesc>
       <titleStmt>
         <title>Gather round the Christmas Tree <titlePart type="subordinate">for Brass and
           Timpani</titlePart> <titlePart type="subordinate">an electronic transcription</titlePart> </title>
         <composer>
-          <persName role="creator" codedval="13701158X" auth.uri="http://d-nb.info/gnd/" auth="GND"
-            >John Henry Hopkins</persName>
+          <persName role="creator" codedval="13701158X" auth.uri="http://d-nb.info/gnd/" auth="GND">John Henry Hopkins</persName>
         </composer>
         <respStmt>
           <persName role="encoder">Maja Hartwig</persName>
@@ -19,16 +17,13 @@
       </titleStmt>
       <pubStmt>
         <publisher>
-          <corpName role="publisher" codedval="5115204-6" auth.uri="http://d-nb.info/gnd/"
-            auth="GND">Musikwissenschaftliches Seminar, Detmold</corpName>
+          <corpName role="publisher" codedval="5115204-6" auth.uri="http://d-nb.info/gnd/" auth="GND">Musikwissenschaftliches Seminar, Detmold</corpName>
         </publisher>
         <address>
           <addrLine>Gartenstrasse 20</addrLine>
-          <addrLine>32756 <geogName codedval="7004442" auth.uri="http://vocab.getty.edu/page/tgn/"
-            auth="TGN">Detmold</geogName> </addrLine>
+          <addrLine>32756 <geogName codedval="7004442" auth.uri="http://vocab.getty.edu/page/tgn/" auth="TGN">Detmold</geogName> </addrLine>
           <addrLine>
-            <geogName codedval="7000084" auth.uri="http://vocab.getty.edu/page/tgn/" auth="TGN"
-              >Germany</geogName>
+            <geogName codedval="7000084" auth.uri="http://vocab.getty.edu/page/tgn/" auth="TGN">Germany</geogName>
           </addrLine>
         </address>
         <date>2011</date>
@@ -43,21 +38,11 @@
       <seriesStmt>
         <title>MEI Sample Collection</title>
         <funder>
-          <corpName role="funder" codedval="2007744-0" auth.uri="http://d-nb.info/gnd/" auth="GND"
-            >German Research Foundation<address> <addrLine>Kennedyallee 40</addrLine> <addrLine>
-            <geogName codedval="7005090" auth.uri="http://vocab.getty.edu/page/tgn/" auth="TGN"
-            >Bonn</geogName> </addrLine> <addrLine> <geogName codedval="7000084"
-            auth.uri="http://vocab.getty.edu/page/tgn/" auth="TGN">Germany</geogName> </addrLine>
-            </address> </corpName>
+          <corpName role="funder" codedval="2007744-0" auth.uri="http://d-nb.info/gnd/" auth="GND">German Research Foundation<address><addrLine>Kennedyallee 40</addrLine><addrLine><geogName codedval="7005090" auth.uri="http://vocab.getty.edu/page/tgn/" auth="TGN">Bonn</geogName></addrLine><addrLine><geogName codedval="7000084" auth.uri="http://vocab.getty.edu/page/tgn/" auth="TGN">Germany</geogName></addrLine></address> </corpName>
         </funder>
         <funder>
-          <corpName role="funder" codedval="18183-3" auth.uri="http://d-nb.info/gnd/18183-3"
-            auth="Deutsche Nationalbibliothek">National Endowment for the Humanities<address>
-            <addrLine>1100 Pennsylvania Avenue N.W.</addrLine> <addrLine> <geogName
-            codedval="7013962" auth.uri="http://vocab.getty.edu/page/tgn/" auth="TGN">Washington,
-            DC</geogName> 20004</addrLine> <addrLine> <geogName codedval="7012149"
-            auth.uri="http://vocab.getty.edu/page/tgn/" auth="TGN">United States</geogName>
-            </addrLine> </address> </corpName>
+          <corpName role="funder" codedval="18183-3" auth.uri="http://d-nb.info/gnd/18183-3" auth="Deutsche Nationalbibliothek">National Endowment for the Humanities<address><addrLine>1100 Pennsylvania Avenue N.W.</addrLine><addrLine><geogName codedval="7013962" auth.uri="http://vocab.getty.edu/page/tgn/" auth="TGN">Washington,
+            DC</geogName> 20004</addrLine><addrLine><geogName codedval="7012149" auth.uri="http://vocab.getty.edu/page/tgn/" auth="TGN">United States</geogName></addrLine></address> </corpName>
         </funder>
         <respStmt>
           <corpName role="publisher">MEI Project</corpName>
@@ -69,13 +54,11 @@
       <sourceDesc>
         <source>
           <bibl>
-            <identifier type="URI"
-              >http://icking-music-archive.org/scores/rondeau/GaRo/GaRo-xml.zip</identifier>
+            <identifier type="URI">http://icking-music-archive.org/scores/rondeau/GaRo/GaRo-xml.zip</identifier>
             <title>Gather round the Christmas Tree</title>
             <title type="subordinate">for Brass and Timpani</title>
             <composer>
-              <persName role="composer" codedval="13701158X" auth.uri="http://d-nb.info/gnd/"
-                auth="GND">John Henry Hopkins</persName>
+              <persName role="composer" codedval="13701158X" auth.uri="http://d-nb.info/gnd/" auth="GND">John Henry Hopkins</persName>
             </composer>
             <arranger>
               <persName role="arranger">Michel Rondeau</persName>
@@ -90,8 +73,7 @@
         </source>
         <source>
           <bibl>
-            <identifier type="URI"
-              >http://javanese.imslp.info/files/imglnks/usimg/0/06/IMSLP177715-WIMA.8ccf-GaRoSco.pdf</identifier>
+            <identifier type="URI">http://javanese.imslp.info/files/imglnks/usimg/0/06/IMSLP177715-WIMA.8ccf-GaRoSco.pdf</identifier>
             <title>Gather round the Christmas Tree</title>
           </bibl>
         </source>
@@ -100,25 +82,24 @@
     <encodingDesc>
       <appInfo>
         <application version="v1.0_beta" xml:id="mei2012To2013">
-            <name>mei2012To2013.xsl</name>
-           <ptr target="https://github.com/music-encoding/encoding-tools/blob/main/mei2012To2013/mei2012To2013.xsl"/>
-         </application>
+          <name>mei2012To2013.xsl</name>
+          <ptr target="https://github.com/music-encoding/encoding-tools/blob/main/mei2012To2013/mei2012To2013.xsl"/>
+        </application>
         <application version="v1.0_beta" xml:id="mei21To30">
-           <name>mei21To30.xsl</name>
-           <ptr target="https://github.com/music-encoding/encoding-tools/blob/main/mei21To30/mei21To30.xsl"/>
+          <name>mei21To30.xsl</name>
+          <ptr target="https://github.com/music-encoding/encoding-tools/blob/main/mei21To30/mei21To30.xsl"/>
         </application>
         <application xml:id="xsl_mxl2mei_2.2.3" version="2.2.3">
           <name>MusicXML2MEI</name>
         </application>
         <application version="v1.0_beta" xml:id="mei30To40">
           <name>mei30To40.xsl</name>
-<ptr target="https://github.com/music-encoding/encoding-tools/blob/main/mei30To40/mei30To40.xsl"/>
+          <ptr target="https://github.com/music-encoding/encoding-tools/blob/main/mei30To40/mei30To40.xsl"/>
         </application>
       </appInfo>
       <classDecls>
         <taxonomy>
-          <bibl xml:id="OCLC_DDC"
-            target="http://www.oclc.org/dewey/resources/summaries/default.htm#700">OCLC_DDC</bibl>
+          <bibl xml:id="OCLC_DDC" target="http://www.oclc.org/dewey/resources/summaries/default.htm#700">OCLC_DDC</bibl>
           <category xml:id="_784">
             <altId>784</altId>
             <label>Instruments and Instrumental ensembles</label>
@@ -145,8 +126,7 @@
       <work>
         <title>Gather round the Christmas Tree</title>
         <composer>
-          <persName role="composer" codedval="13701158X" auth.uri="http://d-nb.info/gnd/" auth="GND"
-            >John Henry Hopkins</persName>
+          <persName role="composer" codedval="13701158X" auth.uri="http://d-nb.info/gnd/" auth="GND">John Henry Hopkins</persName>
         </composer>
         <key pname="g" mode="major"/>
         <meter count="2" unit="4"/>
@@ -158,24 +138,20 @@
               <staffGrp>
                 <staffGrp symbol="bracket" bar.thru="true">
                   <staffGrp symbol="bracket">
-                    <staffDef n="1" lines="5" clef.line="2" clef.shape="G" key.sig="1s"
-                      key.mode="major">
+                    <staffDef n="1" lines="5" clef.line="2" clef.shape="G" key.sig="1s" key.mode="major">
                       <label>Trumpet in C 1</label>
                       <labelAbbr>C Tpt. 1</labelAbbr>
                     </staffDef>
-                    <staffDef n="2" lines="5" clef.line="2" clef.shape="G" key.sig="1s"
-                      key.mode="major">
+                    <staffDef n="2" lines="5" clef.line="2" clef.shape="G" key.sig="1s" key.mode="major">
                       <label>Trumpet in C 2</label>
                       <labelAbbr>C Tpt. 2</labelAbbr>
                     </staffDef>
                   </staffGrp>
-                  <staffDef n="3" lines="5" clef.line="4" clef.shape="F" key.sig="1s"
-                    key.mode="major">
+                  <staffDef n="3" lines="5" clef.line="4" clef.shape="F" key.sig="1s" key.mode="major">
                     <label>Trombone</label>
                     <labelAbbr>Tbn.</labelAbbr>
                   </staffDef>
-                  <staffDef n="4" lines="5" clef.line="4" clef.shape="F" key.sig="1s"
-                    key.mode="major">
+                  <staffDef n="4" lines="5" clef.line="4" clef.shape="F" key.sig="1s" key.mode="major">
                     <label>Bass Trombone</label>
                     <labelAbbr>B. Tbn.</labelAbbr>
                   </staffDef>
@@ -255,7 +231,7 @@
     <revisionDesc>
       <change n="1">
         <respStmt>
-           <name>Unknown</name>
+          <name>Unknown</name>
         </respStmt>
         <changeDesc>
           <p>The original MusicXML file was generated using Finale 2011 for Windows and Dolet Light
@@ -268,8 +244,7 @@
           <persName xml:id="MH"> Maja Hartwig </persName>
         </respStmt>
         <changeDesc>
-          <p>Transcoded from a MusicXML version 2.0 file on 2011-10-13 using the <ref
-            target="#xsl_mxl2mei_2.2.3">musicxml2mei</ref> stylesheet. </p>
+          <p>Transcoded from a MusicXML version 2.0 file on 2011-10-13 using the <ref target="#xsl_mxl2mei_2.2.3">musicxml2mei</ref> stylesheet. </p>
         </changeDesc>
         <date isodate="2011-10-13"/>
       </change>
@@ -322,9 +297,7 @@
     <body>
       <mdiv>
         <score>
-          <scoreDef meter.count="2" meter.unit="4" key.sig="1s" key.mode="major" system.leftmar="0"
-            system.rightmar="0" spacing.system="86" system.topmar="34" spacing.staff="80"
-            music.name="Maestro" music.size="20pt">
+          <scoreDef meter.count="2" meter.unit="4" key.sig="1s" key.mode="major" system.leftmar="0" system.rightmar="0" spacing.system="86" system.topmar="34" spacing.staff="80" music.name="Maestro" music.size="20pt">
             <pgHead>
               <title>
                 <rend halign="center" valign="top">GATHER ROUND THE CHRISTMAS TREE</rend>
@@ -333,9 +306,8 @@
               <p>
                 <rend halign="left" valign="top">Score (01:05'')</rend>
               </p>
-              <rend halign="right" valign="top"> <persName role="composer">John Henry Hopkins - Jr.
-                (1820-1891)</persName> <lb/>Arr. <persName role="arranger">Michel Rondeau</persName>
-              </rend>
+              <rend halign="right" valign="top"><persName role="composer">John Henry Hopkins - Jr.
+                (1820-1891)</persName><lb/>Arr. <persName role="arranger">Michel Rondeau</persName></rend>
             </pgHead>
             <pgFoot>
               <rend halign="center" valign="bottom">© 2010 - Gatineau,Qc.Ca.</rend>
@@ -343,30 +315,25 @@
             <staffGrp>
               <staffGrp symbol="bracket" bar.thru="true">
                 <staffGrp symbol="bracket">
-                  <staffDef n="1" xml:id="P1" lines="5" clef.line="2" clef.shape="G" key.sig="1s"
-                    key.mode="major">
+                  <staffDef n="1" xml:id="P1" lines="5" clef.line="2" clef.shape="G" key.sig="1s" key.mode="major">
                     <label>Trumpet in C 1</label>
                     <labelAbbr>C Tpt. 1</labelAbbr>
                   </staffDef>
-                  <staffDef n="2" xml:id="P2" lines="5" clef.line="2" clef.shape="G" key.sig="1s"
-                    key.mode="major">
+                  <staffDef n="2" xml:id="P2" lines="5" clef.line="2" clef.shape="G" key.sig="1s" key.mode="major">
                     <label>Trumpet in C 2</label>
                     <labelAbbr>C Tpt. 2</labelAbbr>
                   </staffDef>
                 </staffGrp>
-                <staffDef n="3" xml:id="P3" lines="5" clef.line="4" clef.shape="F" key.sig="1s"
-                  key.mode="major">
+                <staffDef n="3" xml:id="P3" lines="5" clef.line="4" clef.shape="F" key.sig="1s" key.mode="major">
                   <label>Trombone</label>
                   <labelAbbr>Tbn.</labelAbbr>
                 </staffDef>
-                <staffDef n="4" xml:id="P4" lines="5" clef.line="4" clef.shape="F" key.sig="1s"
-                  key.mode="major">
+                <staffDef n="4" xml:id="P4" lines="5" clef.line="4" clef.shape="F" key.sig="1s" key.mode="major">
                   <label>Bass Trombone</label>
                   <labelAbbr>B. Tbn.</labelAbbr>
                 </staffDef>
               </staffGrp>
-              <staffDef n="5" xml:id="P5" lines="5" clef.line="4" clef.shape="F" key.sig="1s"
-                key.mode="major">
+              <staffDef n="5" xml:id="P5" lines="5" clef.line="4" clef.shape="F" key.sig="1s" key.mode="major">
                 <label>Timpani</label>
                 <labelAbbr>Timp.</labelAbbr>
               </staffDef>
@@ -413,8 +380,7 @@
               <dir tstamp="1" place="above" staff="1">
                 <rend fontsize="11.7pt" fontweight="bold">Allegro </rend>
               </dir>
-              <hairpin tstamp="1.25" form="cres" place="below" staff="1" opening="1.5" endto="1"
-                tstamp2="0m+2.875"/>
+              <hairpin tstamp="1.25" form="cres" place="below" staff="1" opening="1.5" endto="1" tstamp2="0m+2.875"/>
             </measure>
             <measure n="2" xml:id="d1e504" width="135">
               <staff n="1">
@@ -544,8 +510,7 @@
                   <mRest xml:id="d1e1064"/>
                 </layer>
               </staff>
-              <hairpin tstamp="1.125" form="cres" place="below" staff="3" opening="1.5" startto="1"
-                endto="1" tstamp2="0m+2.875"/>
+              <hairpin tstamp="1.125" form="cres" place="below" staff="3" opening="1.5" startto="1" endto="1" tstamp2="0m+2.875"/>
             </measure>
             <measure n="4" xml:id="d1e1070">
               <staff n="1">
@@ -656,8 +621,7 @@
                   <mRest xml:id="d1e1580"/>
                 </layer>
               </staff>
-              <hairpin tstamp="1.25" form="cres" place="below" staff="1" opening="1.5" endto="1"
-                tstamp2="0m+2.875"/>
+              <hairpin tstamp="1.25" form="cres" place="below" staff="1" opening="1.5" endto="1" tstamp2="0m+2.875"/>
             </measure>
             <sb/>
             <scoreDef spacing.system="108"/>
@@ -858,8 +822,7 @@
                     <note xml:id="d1e2531" pname="a" oct="4" dur="8" stem.dir="up"/>
                     <note xml:id="d1e2547" pname="g" oct="4" dur="8" stem.dir="up"/>
                   </beam>
-                  <note xml:id="d1e2563" pname="f" oct="4" dur="8" fermata="above" stem.dir="up"
-                    accid.ges="s"/>
+                  <note xml:id="d1e2563" pname="f" oct="4" dur="8" fermata="above" stem.dir="up" accid.ges="s"/>
                   <rest xml:id="d1e2581" dur="8"/>
                 </layer>
               </staff>
@@ -978,8 +941,7 @@
                 <layer n="1">
                   <beam>
                     <note xml:id="d1e3145" pname="g" oct="4" dur="8" dots="1" stem.dir="down"/>
-                    <note xml:id="d1e3162" pname="f" oct="4" dur="16" stem.dir="down" accid.ges="s"
-                    />
+                    <note xml:id="d1e3162" pname="f" oct="4" dur="16" stem.dir="down" accid.ges="s"/>
                   </beam>
                   <beam>
                     <note xml:id="d1e3182" pname="e" oct="4" dur="8" stem.dir="down"/>
@@ -1811,8 +1773,7 @@
               <staff n="2">
                 <layer n="1">
                   <note xml:id="d1e7850" pname="g" oct="4" dur="4" stem.dir="up"/>
-                  <note xml:id="d1e7864" pname="f" oct="4" dur="8" fermata="above" stem.dir="up"
-                    accid.ges="s"/>
+                  <note xml:id="d1e7864" pname="f" oct="4" dur="8" fermata="above" stem.dir="up" accid.ges="s"/>
                   <rest xml:id="d1e7882" dur="8"/>
                 </layer>
               </staff>
@@ -1931,8 +1892,7 @@
                 <layer n="1">
                   <beam>
                     <note xml:id="d1e8410" pname="g" oct="3" dur="8" dots="1" stem.dir="down"/>
-                    <note xml:id="d1e8427" pname="f" oct="3" dur="16" stem.dir="down" accid.ges="s"
-                    />
+                    <note xml:id="d1e8427" pname="f" oct="3" dur="16" stem.dir="down" accid.ges="s"/>
                   </beam>
                   <beam>
                     <note xml:id="d1e8447" pname="e" oct="3" dur="8" stem.dir="down"/>
@@ -2409,8 +2369,7 @@
                     <note xml:id="d1e10966" pname="c" oct="5" dur="16" stem.dir="down"/>
                     <note xml:id="d1e10984" pname="d" oct="5" dur="16" stem.dir="down"/>
                     <note xml:id="d1e11002" pname="e" oct="5" dur="16" stem.dir="down"/>
-                    <note xml:id="d1e11020" pname="f" oct="5" dur="16" stem.dir="down" accid.ges="s"
-                    />
+                    <note xml:id="d1e11020" pname="f" oct="5" dur="16" stem.dir="down" accid.ges="s"/>
                   </beam>
                 </layer>
               </staff>
@@ -2460,8 +2419,7 @@
                 <layer n="1">
                   <beam>
                     <note xml:id="d1e11262" pname="g" oct="5" dur="8" stem.dir="down"/>
-                    <note xml:id="d1e11278" pname="f" oct="5" dur="8" fermata="above"
-                      stem.dir="down" accid.ges="s"/>
+                    <note xml:id="d1e11278" pname="f" oct="5" dur="8" fermata="above" stem.dir="down" accid.ges="s"/>
                   </beam>
                   <note xml:id="d1e11298" pname="g" oct="5" dur="8" stem.dir="down"/>
                   <rest xml:id="d1e11312" dur="8"/>

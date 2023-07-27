@@ -1,15 +1,13 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <?xml-model href="http://music-encoding.org/schema/4.0.1/mei-all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
 <?xml-model href="http://music-encoding.org/schema/4.0.1/mei-all.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
-<mei xmlns:xlink="http://www.w3.org/1999/xlink" xmlns="http://www.music-encoding.org/ns/mei"
-  meiversion="4.0.1">
+<mei xmlns:xlink="http://www.w3.org/1999/xlink" xmlns="http://www.music-encoding.org/ns/mei" meiversion="4.0.1">
   <meiHead>
     <fileDesc>
       <titleStmt>
         <title>Example of using authority data I</title>
         <composer>
-          <persName role="composer" auth.uri="http://d-nb.info/gnd/119057077" auth="GND"
-            codedval="119057077">Niels W. Gade</persName>
+          <persName role="composer" auth.uri="http://d-nb.info/gnd/119057077" auth="GND" codedval="119057077">Niels W. Gade</persName>
         </composer>
         <respStmt>
           <persName role="encoder">Maja Hartwig</persName>
@@ -17,16 +15,13 @@
       </titleStmt>
       <pubStmt>
         <respStmt>
-          <corpName codedval="5115204-6" auth.uri="http://d-nb.info/gnd" auth="GND" role="pbl"
-            >Musikwissenschaftliches Seminar, Detmold</corpName>
+          <corpName codedval="5115204-6" auth.uri="http://d-nb.info/gnd" auth="GND" role="pbl">Musikwissenschaftliches Seminar, Detmold</corpName>
         </respStmt>
         <address>
           <addrLine>Gartenstrasse 20</addrLine>
-          <addrLine>32756 <geogName codedval="7004442" auth.uri="http://vocab.getty.edu/page/tgn/"
-            auth="TGN">Detmold</geogName> </addrLine>
+          <addrLine>32756 <geogName codedval="7004442" auth.uri="http://vocab.getty.edu/page/tgn/" auth="TGN">Detmold</geogName> </addrLine>
           <addrLine>
-            <geogName codedval="7000084" auth.uri="http://vocab.getty.edu/page/tgn/" auth="TGN"
-              >Germany</geogName>
+            <geogName codedval="7000084" auth.uri="http://vocab.getty.edu/page/tgn/" auth="TGN">Germany</geogName>
           </addrLine>
         </address>
         <date isodate="2012-11-06"/>
@@ -41,21 +36,11 @@
       <seriesStmt>
         <title>MEI Sample Collection</title>
         <funder>
-          <corpName role="funder" codedval="2007744-0" auth.uri="http://d-nb.info/gnd/" auth="GND"
-            >German Research Foundation<address> <addrLine>Kennedyallee 40</addrLine> <addrLine>
-            <geogName codedval="7005090" auth.uri="http://vocab.getty.edu/page/tgn/" auth="TGN"
-            >Bonn</geogName> </addrLine> <addrLine> <geogName codedval="7000084"
-            auth.uri="http://vocab.getty.edu/page/tgn/" auth="TGN">Germany</geogName> </addrLine>
-            </address> </corpName>
+          <corpName role="funder" codedval="2007744-0" auth.uri="http://d-nb.info/gnd/" auth="GND">German Research Foundation<address><addrLine>Kennedyallee 40</addrLine><addrLine><geogName codedval="7005090" auth.uri="http://vocab.getty.edu/page/tgn/" auth="TGN">Bonn</geogName></addrLine><addrLine><geogName codedval="7000084" auth.uri="http://vocab.getty.edu/page/tgn/" auth="TGN">Germany</geogName></addrLine></address> </corpName>
         </funder>
         <funder>
-          <corpName role="funder" codedval="18183-3" auth.uri="http://d-nb.info/gnd/18183-3"
-            auth="Deutsche Nationalbibliothek">National Endowment for the Humanities<address>
-            <addrLine>1100 Pennsylvania Avenue N.W.</addrLine> <addrLine> <geogName
-            codedval="7013962" auth.uri="http://vocab.getty.edu/page/tgn/" auth="TGN">Washington,
-            DC</geogName> 20004</addrLine> <addrLine> <geogName codedval="7012149"
-            auth.uri="http://vocab.getty.edu/page/tgn/" auth="TGN">United States</geogName>
-            </addrLine> </address> </corpName>
+          <corpName role="funder" codedval="18183-3" auth.uri="http://d-nb.info/gnd/18183-3" auth="Deutsche Nationalbibliothek">National Endowment for the Humanities<address><addrLine>1100 Pennsylvania Avenue N.W.</addrLine><addrLine><geogName codedval="7013962" auth.uri="http://vocab.getty.edu/page/tgn/" auth="TGN">Washington,
+            DC</geogName> 20004</addrLine><addrLine><geogName codedval="7012149" auth.uri="http://vocab.getty.edu/page/tgn/" auth="TGN">United States</geogName></addrLine></address> </corpName>
         </funder>
         <respStmt>
           <corpName role="publisher">MEI Project</corpName>
@@ -68,8 +53,8 @@
     <encodingDesc>
       <appInfo>
         <application version="v1.0_beta" xml:id="mei21To30">
-           <name>mei21To30.xsl</name>
-           <ptr target="https://github.com/music-encoding/encoding-tools/blob/main/mei21To30/mei21To30.xsl"/>
+          <name>mei21To30.xsl</name>
+          <ptr target="https://github.com/music-encoding/encoding-tools/blob/main/mei21To30/mei21To30.xsl"/>
         </application>
         <application version="v1.0_beta" xml:id="mei30To40">
           <name>mei30To40.xsl</name>
@@ -88,12 +73,10 @@
           <work n="1" xml:id="Gade_op26_1">
             <title>Wanderlied</title>
             <lyricist>
-              <persName role="lyricist" auth.uri="http://d-nb.info/gnd/" auth="GND"
-                codedval="11853811X">Emanuel Geibel</persName>
+              <persName role="lyricist" auth.uri="http://d-nb.info/gnd/" auth="GND" codedval="11853811X">Emanuel Geibel</persName>
             </lyricist>
             <composer>
-              <persName role="composer" auth.uri="http://d-nb.info/gnd/119057077" auth="GND"
-                codedval="119057077">Niels Wilhelm Gade</persName>
+              <persName role="composer" auth.uri="http://d-nb.info/gnd/119057077" auth="GND" codedval="119057077">Niels Wilhelm Gade</persName>
             </composer>
             <key pname="d" mode="major"/>
             <tempo>Allegro non troppo</tempo>
@@ -249,12 +232,10 @@
           <work n="2" xml:id="Gade_op26_2">
             <title>Heinrich Frauenlob</title>
             <lyricist>
-              <persName role="lyricist" auth.uri="http://d-nb.info/gnd/" codedval="119034883"
-                auth="GND">Otto Roquette</persName>
+              <persName role="lyricist" auth.uri="http://d-nb.info/gnd/" codedval="119034883" auth="GND">Otto Roquette</persName>
             </lyricist>
             <composer>
-              <persName role="composer" auth.uri="http://d-nb.info/gnd/119057077" auth="GND"
-                codedval="119057077">Niels Wilhelm Gade</persName>
+              <persName role="composer" auth.uri="http://d-nb.info/gnd/119057077" auth="GND" codedval="119057077">Niels Wilhelm Gade</persName>
             </composer>
             <key pname="g" mode="minor"/>
             <tempo>Moderato</tempo>
@@ -374,19 +355,16 @@
           <work n="3" xml:id="Gade_op26_3">
             <title>Die Studenten</title>
             <lyricist>
-              <persName role="lyricist" auth.uri="http://d-nb.info/gnd/" codedval="119034883"
-                auth="GND">Otto Roquette</persName>
+              <persName role="lyricist" auth.uri="http://d-nb.info/gnd/" codedval="119034883" auth="GND">Otto Roquette</persName>
             </lyricist>
             <composer>
-              <persName role="composer" auth.uri="http://d-nb.info/gnd/119057077" auth="GND"
-                codedval="119057077">Niels Wilhelm Gade</persName>
+              <persName role="composer" auth.uri="http://d-nb.info/gnd/119057077" auth="GND" codedval="119057077">Niels Wilhelm Gade</persName>
             </composer>
             <key pname="e" accid="f" mode="major"/>
             <meter count="4" unit="4" sym="common"/>
             <incip>
               <score>
-                <scoreDef key.sig="3f" meter.count="4" meter.unit="4" meter.sym="common"
-                  system.leftline="true">
+                <scoreDef key.sig="3f" meter.count="4" meter.unit="4" meter.sym="common" system.leftline="true">
                   <staffGrp>
                     <staffDef n="1" clef.shape="G" clef.line="2" lines="5">
                       <label>Erster Tenor</label>
@@ -524,12 +502,10 @@
           <work n="4" xml:id="Gade_op26_4">
             <title>Gondelfahrt</title>
             <lyricist>
-              <persName role="lyricist" auth.uri="http://d-nb.info/gnd/" codedval="118654292"
-                auth="GND">Ludwig Bechstein</persName>
+              <persName role="lyricist" auth.uri="http://d-nb.info/gnd/" codedval="118654292" auth="GND">Ludwig Bechstein</persName>
             </lyricist>
             <composer>
-              <persName role="composer" auth.uri="http://d-nb.info/gnd/119057077" auth="GND"
-                codedval="119057077">Niels Wilhelm Gade</persName>
+              <persName role="composer" auth.uri="http://d-nb.info/gnd/119057077" auth="GND" codedval="119057077">Niels Wilhelm Gade</persName>
             </composer>
             <key pname="f" mode="major"/>
             <tempo>Andantino</tempo>
@@ -614,20 +590,17 @@
           <work n="5" xml:id="Gade_op26_5">
             <title>Das Reh</title>
             <lyricist>
-              <persName role="lyricist" auth.uri="http://d-nb.info/gnd/" codedval="118625063"
-                auth="GND">Ludwig Uhland</persName>
+              <persName role="lyricist" auth.uri="http://d-nb.info/gnd/" codedval="118625063" auth="GND">Ludwig Uhland</persName>
             </lyricist>
             <composer>
-              <persName role="composer" auth.uri="http://d-nb.info/gnd/119057077" auth="GND"
-                codedval="119057077">Niels Wilhelm Gade</persName>
+              <persName role="composer" auth.uri="http://d-nb.info/gnd/119057077" auth="GND" codedval="119057077">Niels Wilhelm Gade</persName>
             </composer>
             <key pname="e" accid="f" mode="major"/>
             <tempo>Allegro</tempo>
             <meter count="4" unit="4" sym="common"/>
             <incip>
               <score>
-                <scoreDef key.sig="3f" meter.count="4" meter.unit="4" meter.sym="common"
-                  system.leftline="true">
+                <scoreDef key.sig="3f" meter.count="4" meter.unit="4" meter.sym="common" system.leftline="true">
                   <staffGrp bar.thru="false">
                     <staffDef n="1" lines="5" clef.shape="G" clef.line="2">
                       <label>Erster Tenor</label>
@@ -691,8 +664,7 @@
           <title type="subordinate">op. 26</title>
           <title type="uniform">Lieder, Männerchor, op. 26</title>
           <respStmt>
-            <persName role="composer" auth.uri="http://d-nb.info/gnd/119057077" auth="GND"
-              codedval="119057077">Niels Wilhelm Gade</persName>
+            <persName role="composer" auth.uri="http://d-nb.info/gnd/119057077" auth="GND" codedval="119057077">Niels Wilhelm Gade</persName>
             <corpName role="dedicatee">Pauliner Sängerverein zu Leipzig</corpName>
           </respStmt>
         </titleStmt>
@@ -702,8 +674,7 @@
               Senff</corpName>
           </publisher>
           <pubPlace>
-            <geogName codedval="7012329" auth.uri="http://vocab.getty.edu/page/tgn/" auth="TGN"
-              >Leipzig</geogName>
+            <geogName codedval="7012329" auth.uri="http://vocab.getty.edu/page/tgn/" auth="TGN">Leipzig</geogName>
           </pubPlace>
           <date>1853</date>
         </pubStmt>
