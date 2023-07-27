@@ -68,7 +68,7 @@
           <name>mei30To40.xsl</name>
           <ptr target="https://github.com/music-encoding/encoding-tools/blob/main/mei30To40/mei30To40.xsl"/>
         </application>
-        <application version="0.0.1-alpha" xml:id="mei-lint_0.0.1-alpha">
+        <application version="v0.0.1-alpha" xml:id="meiLint_v0.0.1-alpha">
           <name>meiLint.xsl</name>
           <ptr target="https://github.com/music-encoding/encoding-tools/blob/main/meiLint/meiLint.xsl"/>
         </application>
@@ -279,7 +279,7 @@
               <li>update meiversion attributes to 4.0.1</li>
               <li>add missing responsibility statements to change elements</li>
               <li>unify documentation of mei version upgrades (appInfo and revisionDesc)</li>
-               <li>linted with <ref target="#mei-lint_0.0.1-alpha">meiLint.xsl</ref></li>
+               <li>linted with <ref target="#meiLint_v0.0.1-alpha">meiLint.xsl</ref></li>
             </list></p>
         </changeDesc>
         <date isodate="2023-07-27T17:10:25+02:00"/>
