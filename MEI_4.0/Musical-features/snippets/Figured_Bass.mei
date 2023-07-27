@@ -1,8 +1,7 @@
-<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<?xml version="1.0" encoding="UTF-8"?>
 <?xml-model href="http://music-encoding.org/schema/4.0.1/mei-all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
 <?xml-model href="http://music-encoding.org/schema/4.0.1/mei-all.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
-<mei xmlns:xlink="http://www.w3.org/1999/xlink" xmlns="http://www.music-encoding.org/ns/mei"
-  meiversion="4.0.1">
+<mei xmlns="http://www.music-encoding.org/ns/mei" meiversion="4.0.1">
   <meiHead>
     <fileDesc>
       <titleStmt>
@@ -16,29 +15,33 @@
       </titleStmt>
       <pubStmt>
         <publisher>
-          <corpName role="publisher">Musikwissenschaftliches Seminar <address>
-            <addrLine>Gartenstrasse 20</addrLine> <addrLine>32756 <geogName>Detmold</geogName>
-            <geogName>Germany</geogName> </addrLine> </address> </corpName>
+          <corpName role="publisher">Musikwissenschaftliches Seminar
+            <address>
+              <addrLine>Gartenstrasse 20</addrLine>
+              <addrLine>32756<geogName>Detmold</geogName><geogName>Germany</geogName></addrLine>
+            </address> </corpName>
         </publisher>
         <availability>
-          <useRestrict> This encoding is in the public domain. However, the sources used to create
-            it may be under copyright. We believe their use by the MEI project for educational and
-            research purposes is covered by the Fair Use doctrine. However, we will remove any
-            material from the project archive when requested to do so by the copyright owner.
-          </useRestrict>
+          <useRestrict>This encoding is in the public domain. However, the sources used to create it may be under copyright. We believe their use by the MEI project for educational and research purposes is covered by the Fair Use doctrine. However, we will remove any material from the project archive when requested to do so by the copyright owner.</useRestrict>
         </availability>
       </pubStmt>
       <seriesStmt>
         <title>MEI Sample Collection</title>
         <funder>
-          <corpName role="funder">German Research Foundation<address> <addrLine>Kennedyallee
-            40</addrLine> <addrLine> <geogName>Bonn</geogName> </addrLine> <addrLine>
-            <geogName>Germany</geogName> </addrLine> </address> </corpName>
+          <corpName role="funder">German Research Foundation
+            <address>
+              <addrLine>Kennedyallee 40</addrLine>
+              <addrLine><geogName>Bonn</geogName></addrLine>
+              <addrLine><geogName>Germany</geogName></addrLine>
+            </address> </corpName>
         </funder>
         <funder>
-          <corpName role="funder">National Endowment for the Humanities<address> <addrLine>1100
-            Pennsylvania Avenue N.W.</addrLine> <addrLine> <geogName>Washington, DC</geogName>
-            20004</addrLine> <addrLine> <geogName>United States</geogName> </addrLine> </address>
+          <corpName role="funder">National Endowment for the Humanities
+            <address>
+              <addrLine>1100 Pennsylvania Avenue N.W.</addrLine>
+              <addrLine><geogName>Washington, DC</geogName> 20004</addrLine>
+              <addrLine><geogName>United States</geogName></addrLine>
+            </address>
           </corpName>
         </funder>
         <respStmt>
@@ -52,17 +55,17 @@
           <name>mei30To40.xsl</name>
           <ptr target="https://github.com/music-encoding/encoding-tools/blob/main/mei30To40/mei30To40.xsl"/>
         </application>
+        <application version="v0.0.1-alpha" xml:id="meiLint_v0.0.1-alpha">
+          <name>meiLint.xsl</name>
+          <ptr target="https://github.com/music-encoding/encoding-tools/blob/main/meiLint/meiLint.xsl"/>
+        </application>
       </appInfo>
       <editorialDecl>
-        <p>This handcoded file represents an example for figured Bass, to be found in the 3rd staff.
-          The first and second system are encoded in excerpts. Measures 27 to 34 and 38 to 46 are
-          not encoded. You can find the complete encoding in
-          MEI2012/handcodings/Bach_MusikalischesOpfer_Trio.</p>
+        <p>This handcoded file represents an example for figured Bass, to be found in the 3rd staff. The first and second system are encoded in excerpts. Measures 27 to 34 and 38 to 46 are not encoded. You can find the complete encoding in MEI2012/handcodings/Bach_MusikalischesOpfer_Trio.</p>
       </editorialDecl>
       <classDecls>
         <taxonomy>
-          <bibl xml:id="OCLC_DDC"
-            target="http://www.oclc.org/dewey/resources/summaries/default.htm#700">OCLC_DDC</bibl>
+          <bibl xml:id="OCLC_DDC" target="http://www.oclc.org/dewey/resources/summaries/default.htm#700">OCLC_DDC</bibl>
           <category xml:id="_785.13">
             <altId>785.13</altId>
             <label>Trios</label>
@@ -109,17 +112,13 @@
     </workList>
     <manifestationList>
       <manifestation>
-        <identifier
-          auth.uri="http://imslp.org/wiki/Musikalisches_Opfer,_BWV_1079_%28Bach,_Johann_Sebastian%29"
-          auth="IMSLP" type="pdf_scan"
-          >http://imslp.org/wiki/Musikalisches_Opfer,_BWV_1079_%28Bach,_Johann_Sebastian%29</identifier>
+        <identifier auth.uri="http://imslp.org/wiki/Musikalisches_Opfer,_BWV_1079_%28Bach,_Johann_Sebastian%29" auth="IMSLP" type="pdf_scan">http://imslp.org/wiki/Musikalisches_Opfer,_BWV_1079_%28Bach,_Johann_Sebastian%29</identifier>
         <identifier type="referenceNumber">BWV 1079</identifier>
         <titleStmt>
           <title>Das Musikalische Opfer</title>
           <title type="subordinate" n="1">1. Satz, Trio</title>
           <title type="subordinate" n="2">BWV 1079</title>
-          <title type="uniform">Musikalisches Opfer &lt;2. Triosonate c-Moll für Flöte, Violine und
-            Basso continuo&gt;</title>
+          <title type="uniform">Musikalisches Opfer &lt;2. Triosonate c-Moll für Flöte, Violine und Basso continuo&gt;</title>
           <respStmt>
             <persName role="composer">Johann Sebastian Bach</persName>
           </respStmt>
@@ -127,7 +126,8 @@
         <pubStmt>
           <respStmt>
             <persName role="editor">Alfred Dörffel (1821–1905)</persName>
-            <corpName role="publisher">Breitkopf &amp; Härtel <geogName>Leipzig</geogName>
+            <corpName role="publisher">Breitkopf &amp; Härtel
+              <geogName>Leipzig</geogName>
             </corpName>
           </respStmt>
           <date>1885</date>
@@ -143,6 +143,22 @@
           <p>Converted to MEI version 4.0.0 using mei30To40.xsl, version 1.0 beta</p>
         </changeDesc>
         <date isodate="2019-01-03"/>
+      </change>
+      <change n="2">
+        <respStmt>
+          <persName>Benjamin W. Bohl</persName>
+          <persName>Stefan Münnich</persName>
+        </respStmt>
+        <changeDesc>
+          <p><list>
+              <li>update xml-model schema references to v4.0.1</li>
+              <li>update meiversion attributes to 4.0.1</li>
+              <li>add missing responsibility statements to change elements</li>
+              <li>unify documentation of mei version upgrades (appInfo and revisionDesc)</li>
+               <li>linted with <ref target="#meiLint_v0.0.1-alpha">meiLint.xsl</ref></li>
+            </list></p>
+        </changeDesc>
+        <date isodate="2023-07-27T17:11:06+02:00"/>
       </change>
     </revisionDesc>
   </meiHead>
@@ -252,8 +268,7 @@
                     <note pname="c" oct="5" dur="8" dots="1"/>
                     <note pname="a" oct="5" dur="16"/>
                   </beam>
-                  <note pname="f" oct="5" dur="8" grace="unknown" slur="i1" fontsize="small"
-                    stem.dir="up"/>
+                  <note pname="f" oct="5" dur="8" grace="unknown" slur="i1" fontsize="small" stem.dir="up"/>
                   <note pname="e" oct="5" dur="4" dots="1" accid="n" slur="t1"/>
                   <note pname="f" oct="5" dur="8" stem.dir="down"/>
                 </layer>
@@ -574,10 +589,7 @@
                   <f>5♭</f>
                 </fb>
               </harm>
-              <!--<slur staff="2"
-                           startid="#m10_s2_e5"
-                           endid="#m10_s2_e8"
-                           curvedir="above"/>-->
+              <!-- <slur staff="2" startid="#m10_s2_e5" endid="#m10_s2_e8" curvedir="above"/> -->
             </measure>
             <measure n="11" xml:id="m11">
               <staff n="1">
@@ -602,10 +614,7 @@
                   </beam>
                 </layer>
               </staff>
-              <!--<slur staff="2"
-                           startid="#m11_s2_e2"
-                           endid="#m11_s2_e4"
-                           curvedir="below"/>-->
+              <!-- <slur staff="2" startid="#m11_s2_e2" endid="#m11_s2_e4" curvedir="below"/> -->
               <harm staff="3" place="below" tstamp="2" extender="true">
                 <fb>
                   <f>6</f>
@@ -635,7 +644,7 @@
                   </beam>
                 </layer>
               </staff>
-              <!--<slur staff="1" startid="#m12_s1_e5" endid="#m12_s1_e8"/>-->
+              <!-- <slur staff="1" startid="#m12_s1_e5" endid="#m12_s1_e8"/> -->
               <harm staff="3" place="below" tstamp="1">
                 <fb>
                   <f>7</f>
@@ -712,10 +721,7 @@
                   </beam>
                 </layer>
               </staff>
-              <!--<slur staff="1"
-                           startid="#m14_s1_e2"
-                           endid="#m14_s1_e7"
-                           curvedir="above"/>-->
+              <!-- <slur staff="1" startid="#m14_s1_e2" endid="#m14_s1_e7" curvedir="above"/> -->
               <slur staff="3" startid="#m14_s3_e2" endid="#m14_s3_e6" curvedir="above"/>
               <harm staff="3" place="below" tstamp="1">
                 <fb>
@@ -782,10 +788,7 @@
                   </beam>
                 </layer>
               </staff>
-              <!--<slur staff="2"
-                           startid="#m16_s2_e2"
-                           endid="#m16_s2_e7"
-                           curvedir="below"/>-->
+              <!-- <slur staff="2" startid="#m16_s2_e2" endid="#m16_s2_e7" curvedir="below"/> -->
               <slur staff="3" startid="#m16_s3_e3" endid="#m16_s3_e6" curvedir="below"/>
               <harm staff="3" place="below" tstamp="1">
                 <fb>
@@ -1022,8 +1025,7 @@
                   </beam>
                 </layer>
               </staff>
-              <!--<trill staff="1" startid="#m22_s1_e4"/>
-                     <trill staff="2" startid="#m22_s2_e4"/>-->
+              <!-- <trill staff="1" startid="#m22_s1_e4"/> <trill staff="2" startid="#m22_s2_e4"/> -->
               <slur staff="3" startid="#m22_s3_e1" endid="#m22_s3_e6" curvedir="below"/>
             </measure>
             <measure n="23" xml:id="m23">
@@ -1049,12 +1051,9 @@
                   </beam>
                 </layer>
               </staff>
-              <!--<slur staff="1"
-                           startid="#m23_s2_e1"
-                           endid="#m23_s2_e4"
-                           curvedir="below"/>-->
+              <!-- <slur staff="1" startid="#m23_s2_e1" endid="#m23_s2_e4" curvedir="below"/> -->
               <slur staff="3" startid="#m23_s3_e1" endid="#m23_s3_e6" curvedir="below"/>
-              <!--<trill staff="1" startid="#m23_s1_e5"/>-->
+              <!-- <trill staff="1" startid="#m23_s1_e5"/> -->
             </measure>
             <measure n="24" xml:id="m24">
               <staff n="1">
@@ -1079,11 +1078,7 @@
                   </beam>
                 </layer>
               </staff>
-              <!--<slur staff="1"
-                           startid="#m24_s1_e1"
-                           endid="#m24_s1_e4"
-                           curvedir="above"/>
-                     <trill staff="2" startid="#m24_s2_e4"/>-->
+              <!-- <slur staff="1" startid="#m24_s1_e1" endid="#m24_s1_e4" curvedir="above"/> <trill staff="2" startid="#m24_s2_e4"/> -->
               <slur staff="3" startid="#m24_s3_e6" endid="#m24_s3_e6"/>
             </measure>
             <measure n="25" xml:id="m25">
@@ -1119,20 +1114,7 @@
                   <f>♮</f>
                 </fb>
               </harm>
-              <!--<trill staff="1" place="above" startid="#m25_s1_e6"/>
-                     <trill staff="2" place="above" startid="#m25_s2_e6"/>
-                     <tie staff="2"
-                          startid="#m25_s2_e1"
-                          endid="#m25_s2_e2"
-                          curvedir="above"/>
-                     <slur staff="1"
-                           startid="#m25_s1_e2"
-                           endid="#m25_s1_e5"
-                           curvedir="above"/>
-                     <slur staff="2"
-                           startid="#m25_s2_e2"
-                           endid="#m25_s2_e5"
-                           curvedir="above"/>-->
+              <!-- <trill staff="1" place="above" startid="#m25_s1_e6"/> <trill staff="2" place="above" startid="#m25_s2_e6"/> <tie staff="2" startid="#m25_s2_e1" endid="#m25_s2_e2" curvedir="above"/> <slur staff="1" startid="#m25_s1_e2" endid="#m25_s1_e5" curvedir="above"/> <slur staff="2" startid="#m25_s2_e2" endid="#m25_s2_e5" curvedir="above"/> -->
             </measure>
             <measure n="26" xml:id="m26">
               <staff n="1">
@@ -1156,7 +1138,7 @@
                   </beam>
                 </layer>
               </staff>
-              <!--<trill staff="1" startid="#m26_s1_e6"/>-->
+              <!-- <trill staff="1" startid="#m26_s1_e6"/> -->
               <harm staff="3" place="below" tstamp="1">
                 <fb>
                   <f>♮</f>
@@ -1259,8 +1241,7 @@
                   </beam>
                   <beam>
                     <note pname="c" oct="5" dur="32" grace="unknown" slur="i1" fontsize="small"/>
-                    <note pname="d" oct="5" dur="32" accid="f" grace="unknown" slur="m1"
-                      fontsize="small"/>
+                    <note pname="d" oct="5" dur="32" accid="f" grace="unknown" slur="m1" fontsize="small"/>
                     <note pname="e" oct="5" dur="32" grace="unknown" slur="t1" fontsize="small"/>
                   </beam>
                   <note pname="d" oct="5" dur="4" dots="1" accid="f" xml:id="m37_s1_e6"/>
@@ -1305,8 +1286,7 @@
                     <note pname="c" oct="6" dur="8" dots="1" stem.dir="down"/>
                     <note pname="f" oct="5" dur="16" stem.dir="down"/>
                   </beam>
-                  <note pname="e" oct="5" dur="8" stem.dir="up" fontsize="small" grace="unknown"
-                    slur="i1"/>
+                  <note pname="e" oct="5" dur="8" stem.dir="up" fontsize="small" grace="unknown" slur="i1"/>
                   <note pname="d" oct="5" dur="4" dots="1" stem.dir="down"/>
                   <note pname="c" oct="5" dur="8" stem.dir="down"/>
                 </layer>
@@ -1317,8 +1297,7 @@
                     <note pname="g" oct="5" dur="8" stem.dir="down" dots="1"/>
                     <note pname="a" oct="4" dur="16" stem.dir="down" accid="n"/>
                   </beam>
-                  <note pname="c" oct="5" dur="8" stem.dir="up" slur="i2" fontsize="small"
-                    grace="unknown"/>
+                  <note pname="c" oct="5" dur="8" stem.dir="up" slur="i2" fontsize="small" grace="unknown"/>
                   <note pname="b" oct="4" dur="4" dots="1" stem.dir="down" accid="n"/>
                   <note pname="c" oct="5" dur="8" stem.dir="down"/>
                 </layer>

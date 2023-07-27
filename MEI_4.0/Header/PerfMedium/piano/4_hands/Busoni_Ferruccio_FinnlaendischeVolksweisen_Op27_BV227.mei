@@ -1,23 +1,22 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <?xml-model href="https://music-encoding.org/schema/4.0.1/mei-all_anyStart.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
 <?xml-model href="https://music-encoding.org/schema/4.0.1/mei-all_anyStart.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<!-- 2023-07-27T17:11:57+02:00 – update xml-model schema references to v4.0.1; update meiversion attributes to 4.0.1; add missing responsibility statements to change elements; unify documentation of mei version upgrades (appInfo and revisionDesc); lint with: https://github.com/music-encoding/encoding-tools/blob/main/meiLint/meiLint.xsl – v0.0.1-alpha -->
 <perfMedium xmlns="http://www.music-encoding.org/ns/mei">
-   <head>Busoni, Ferruccio: Finnländische Volksweisen, Op.27, BV 227</head>
-   
-   <perfResList>
-      <!-- piano 4 hands -->
-      <perfRes label="piano" codedval="ka">
-         <perfRes label="playerOne">
-            <perfRes label="hand">right</perfRes>
-            <perfRes label="hand">left</perfRes>
-         </perfRes>
-         <perfRes label="playerTwo">
-            <perfRes label="hand">right</perfRes>
-            <perfRes label="hand">left</perfRes>
-         </perfRes>
+  <head>Busoni, Ferruccio: Finnländische Volksweisen, Op.27, BV 227</head>
+  <perfResList>
+    <!-- piano 4 hands -->
+    <perfRes label="piano" codedval="ka">
+      <perfRes label="playerOne">
+        <perfRes label="hand">right</perfRes>
+        <perfRes label="hand">left</perfRes>
       </perfRes>
-   </perfResList>
-   
-   <annot>@auth.uri for the following &lt;perfRes/&gt; is https://www.loc.gov/standards/valuelist/marcmusperf.html</annot>
-   <annot>The score is available on IMSLP: https://imslp.org/wiki/Finnl%C3%A4ndische_Volksweisen,_Op.27,_BV_227_(Busoni,_Ferruccio)</annot>
+      <perfRes label="playerTwo">
+        <perfRes label="hand">right</perfRes>
+        <perfRes label="hand">left</perfRes>
+      </perfRes>
+    </perfRes>
+  </perfResList>
+  <annot>@auth.uri for the following &lt;perfRes/&gt; is https://www.loc.gov/standards/valuelist/marcmusperf.html</annot>
+  <annot>The score is available on IMSLP: https://imslp.org/wiki/Finnl%C3%A4ndische_Volksweisen,_Op.27,_BV_227_(Busoni,_Ferruccio)</annot>
 </perfMedium>

@@ -1,8 +1,7 @@
-<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<?xml version="1.0" encoding="UTF-8"?>
 <?xml-model href="http://music-encoding.org/schema/4.0.1/mei-all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
 <?xml-model href="http://music-encoding.org/schema/4.0.1/mei-all.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
-<mei xmlns:xlink="http://www.w3.org/1999/xlink" xmlns="http://www.music-encoding.org/ns/mei"
-  meiversion="4.0.1">
+<mei xmlns="http://www.music-encoding.org/ns/mei" meiversion="4.0.1">
   <meiHead>
     <fileDesc>
       <titleStmt>
@@ -21,46 +20,44 @@
         </publisher>
         <address>
           <addrLine>Gartenstrasse 20</addrLine>
-          <addrLine>32756 <geogName>Detmold</geogName> </addrLine>
-          <addrLine>
-            <geogName>Germany</geogName>
-          </addrLine>
+          <addrLine>32756<geogName>Detmold</geogName></addrLine>
+          <addrLine><geogName>Germany</geogName></addrLine>
         </address>
         <date>2011</date>
         <availability>
-          <useRestrict>This encoding is in the public domain. However, the sources used to create it
-            may be under copyright. We believe their use by the MEI project for educational and
-            research purposes is covered by the Fair Use doctrine. However, we will remove any
-            material from the project archive when requested to do so by the copyright
-            owner.</useRestrict>
+          <useRestrict>This encoding is in the public domain. However, the sources used to create it may be under copyright. We believe their use by the MEI project for educational and research purposes is covered by the Fair Use doctrine. However, we will remove any material from the project archive when requested to do so by the copyright owner.</useRestrict>
         </availability>
       </pubStmt>
       <seriesStmt>
         <title>MEI Sample Collection</title>
         <funder>
-          <corpName role="funder">German Research Foundation<address> <addrLine>Kennedyallee
-            40</addrLine> <addrLine> <geogName>Bonn</geogName> </addrLine> <addrLine>
-            <geogName>Germany</geogName> </addrLine> </address> </corpName>
+          <corpName role="funder">German Research Foundation
+            <address>
+              <addrLine>Kennedyallee 40</addrLine>
+              <addrLine><geogName>Bonn</geogName></addrLine>
+              <addrLine><geogName>Germany</geogName></addrLine>
+            </address> </corpName>
         </funder>
         <funder>
-          <corpName role="funder">National Endowment for the Humanities<address> <addrLine>1100
-            Pennsylvania Avenue N.W.</addrLine> <addrLine> <geogName>Washington, DC</geogName>
-            20004</addrLine> <addrLine> <geogName>United States</geogName> </addrLine> </address>
+          <corpName role="funder">National Endowment for the Humanities
+            <address>
+              <addrLine>1100 Pennsylvania Avenue N.W.</addrLine>
+              <addrLine><geogName>Washington, DC</geogName> 20004</addrLine>
+              <addrLine><geogName>United States</geogName></addrLine>
+            </address>
           </corpName>
         </funder>
         <respStmt>
           <corpName role="publisher">MEI Project</corpName>
         </respStmt>
         <identifier>
-          <ref target="http://music-encoding.org/irgendEineUnterSeite"
-            >http://music-encoding.org/irgendEineUnterSeite</ref>
+          <ref target="http://music-encoding.org/irgendEineUnterSeite">http://music-encoding.org/irgendEineUnterSeite</ref>
         </identifier>
       </seriesStmt>
       <sourceDesc>
         <source>
           <bibl>
-            <identifier type="URI" label="print"
-              >http://petrucci.mus.auth.gr/imglnks/usimg/e/ea/IMSLP24047-PMLP54610-Faur___-_Apr___une_r__ve__Op._7__No._1__c_.pdf</identifier>
+            <identifier type="URI" label="print">http://petrucci.mus.auth.gr/imglnks/usimg/e/ea/IMSLP24047-PMLP54610-Faur___-_Apr___une_r__ve__Op._7__No._1__c_.pdf</identifier>
             <title>Après un rêve</title>
             <composer>
               <persName role="composer">Gabriel Fauré</persName>
@@ -69,8 +66,7 @@
         </source>
         <source>
           <bibl>
-            <identifier label="electronic" type="URI"
-              >http://www.musicxml.com/music-in-musicxml/example-set/</identifier>
+            <identifier label="electronic" type="URI">http://www.musicxml.com/music-in-musicxml/example-set/</identifier>
           </bibl>
         </source>
       </sourceDesc>
@@ -81,15 +77,17 @@
           <name>mei30To40.xsl</name>
           <ptr target="https://github.com/music-encoding/encoding-tools/blob/main/mei30To40/mei30To40.xsl"/>
         </application>
+        <application version="v0.0.1-alpha" xml:id="meiLint_v0.0.1-alpha">
+          <name>meiLint.xsl</name>
+          <ptr target="https://github.com/music-encoding/encoding-tools/blob/main/meiLint/meiLint.xsl"/>
+        </application>
       </appInfo>
       <samplingDecl>
-        <p>This example contains 11 measures of Fauré's "Après un reve" and demonstrates the use of
-          @copyof and tupletSpans.</p>
+        <p>This example contains 11 measures of Fauré's "Après un reve" and demonstrates the use of @copyof and tupletSpans.</p>
       </samplingDecl>
       <classDecls>
         <taxonomy>
-          <bibl xml:id="OCLC" target="http://www.oclc.org/dewey/resources/summaries/default.htm#700"
-            >OCLC</bibl>
+          <bibl xml:id="OCLC" target="http://www.oclc.org/dewey/resources/summaries/default.htm#700">OCLC</bibl>
           <category xml:id="_782.42">
             <altId>782.42</altId>
             <label>Song</label>
@@ -153,6 +151,22 @@
         </changeDesc>
         <date isodate="2019-01-03"/>
       </change>
+      <change n="2">
+        <respStmt>
+          <persName>Benjamin W. Bohl</persName>
+          <persName>Stefan Münnich</persName>
+        </respStmt>
+        <changeDesc>
+          <p><list>
+              <li>update xml-model schema references to v4.0.1</li>
+              <li>update meiversion attributes to 4.0.1</li>
+              <li>add missing responsibility statements to change elements</li>
+              <li>unify documentation of mei version upgrades (appInfo and revisionDesc)</li>
+               <li>linted with <ref target="#meiLint_v0.0.1-alpha">meiLint.xsl</ref></li>
+            </list></p>
+        </changeDesc>
+        <date isodate="2023-07-27T17:11:09+02:00"/>
+      </change>
     </revisionDesc>
   </meiHead>
   <music>
@@ -161,16 +175,13 @@
         <score>
           <scoreDef meter.count="3" meter.unit="4" key.sig="3f" key.mode="minor">
             <staffGrp>
-              <staffDef n="1" xml:id="P1" lines="5" clef.line="2" clef.shape="G" key.sig="3f"
-                key.mode="minor">
+              <staffDef n="1" xml:id="P1" lines="5" clef.line="2" clef.shape="G" key.sig="3f" key.mode="minor">
                 <label>Voice</label>
               </staffDef>
               <staffGrp xml:id="P2" symbol="brace">
                 <label>Piano</label>
-                <staffDef n="2" lines="5" clef.line="2" clef.shape="G" key.sig="3f" key.mode="minor"
-                  xml:id="P2-I1"/>
-                <staffDef n="3" lines="5" clef.line="4" clef.shape="F" key.sig="3f" key.mode="minor"
-                />
+                <staffDef n="2" lines="5" clef.line="2" clef.shape="G" key.sig="3f" key.mode="minor" xml:id="P2-I1"/>
+                <staffDef n="3" lines="5" clef.line="4" clef.shape="F" key.sig="3f" key.mode="minor"/>
               </staffGrp>
             </staffGrp>
           </scoreDef>
@@ -251,21 +262,19 @@
                   <mRest xml:id="d1e1001"/>
                 </layer>
               </staff>
-              <dir tstamp="1" place="above" staff="1"> dolce </dir>
+              <dir tstamp="1" place="above" staff="1">dolce</dir>
               <hairpin tstamp="1.667" tstamp2="0m+3.542" form="cres" place="above" staff="1"/>
             </measure>
             <measure n="3" xml:id="d1e1010">
               <staff n="1">
                 <layer n="1">
-                  <note xml:id="d1e1012" pname="e" oct="5" dur="4" tie="i" stem.dir="down"
-                    accid.ges="f">
+                  <note xml:id="d1e1012" pname="e" oct="5" dur="4" tie="i" stem.dir="down" accid.ges="f">
                     <verse>
                       <syl>meil_</syl>
                     </verse>
                   </note>
                   <beam>
-                    <note xml:id="d1e1037" pname="e" oct="5" dur="8" tuplet="i1" tie="t"
-                      stem.dir="down" accid.ges="f"/>
+                    <note xml:id="d1e1037" pname="e" oct="5" dur="8" tuplet="i1" tie="t" stem.dir="down" accid.ges="f"/>
                     <note xml:id="d1e1064" pname="d" oct="5" dur="8" tuplet="m1" stem.dir="down">
                       <verse>
                         <syl>que</syl>
@@ -278,8 +287,7 @@
                     </note>
                   </beam>
                   <beam>
-                    <note xml:id="d1e1118" pname="e" oct="5" dur="8" tuplet="i1" stem.dir="down"
-                      accid.ges="f">
+                    <note xml:id="d1e1118" pname="e" oct="5" dur="8" tuplet="i1" stem.dir="down" accid.ges="f">
                       <verse>
                         <syl>mait</syl>
                       </verse>
@@ -327,10 +335,8 @@
                   </chord>
                 </layer>
               </staff>
-              <tupletSpan staff="1" num="3" numbase="2" num.visible="true" num.place="above"
-                num.format="count" bracket.visible="false" startid="#d1e1037" endid="#d1e1090"/>
-              <tupletSpan staff="1" num="3" numbase="2" num.visible="true" num.place="above"
-                num.format="count" bracket.visible="false" startid="#d1e1118" endid="#d1e1174"/>
+              <tupletSpan staff="1" num="3" numbase="2" num.visible="true" num.place="above" num.format="count" bracket.visible="false" startid="#d1e1037" endid="#d1e1090"/>
+              <tupletSpan staff="1" num="3" numbase="2" num.visible="true" num.place="above" num.format="count" bracket.visible="false" startid="#d1e1118" endid="#d1e1174"/>
               <tie tstamp="1" staff="1" curvedir="above" startid="#d1e1012" endid="#d1e1037"/>
             </measure>
             <sb/>
@@ -453,8 +459,7 @@
                     </verse>
                   </note>
                   <beam>
-                    <note xml:id="d1e2748" pname="b" accid="f" oct="4" dur="8" dots="1"
-                      stem.dir="up">
+                    <note xml:id="d1e2748" pname="b" accid="f" oct="4" dur="8" dots="1" stem.dir="up">
                       <verse>
                         <syl>dent</syl>
                       </verse>
@@ -510,18 +515,13 @@
                     </verse>
                   </note>
                   <beam>
-                    <note xml:id="d1e3237" pname="g" oct="4" dur="8" tuplet="i1" tie="t"
-                      stem.dir="up"/>
-                    <note xml:id="d1e3263" pname="a" oct="4" dur="8" tuplet="m1" stem.dir="up"
-                      accid.ges="f"/>
-                    <note xml:id="d1e3286" pname="b" accid="f" oct="4" dur="8" tuplet="t1"
-                      stem.dir="up"/>
+                    <note xml:id="d1e3237" pname="g" oct="4" dur="8" tuplet="i1" tie="t" stem.dir="up"/>
+                    <note xml:id="d1e3263" pname="a" oct="4" dur="8" tuplet="m1" stem.dir="up" accid.ges="f"/>
+                    <note xml:id="d1e3286" pname="b" accid="f" oct="4" dur="8" tuplet="t1" stem.dir="up"/>
                   </beam>
                   <beam>
-                    <note xml:id="d1e3313" pname="a" oct="4" dur="8" tuplet="i1" stem.dir="up"
-                      accid.ges="f"/>
-                    <note xml:id="d1e3338" pname="b" oct="4" dur="8" tuplet="m1" stem.dir="up"
-                      accid.ges="f"/>
+                    <note xml:id="d1e3313" pname="a" oct="4" dur="8" tuplet="i1" stem.dir="up" accid.ges="f"/>
+                    <note xml:id="d1e3338" pname="b" oct="4" dur="8" tuplet="m1" stem.dir="up" accid.ges="f"/>
                     <note xml:id="d1e3364" pname="c" oct="5" dur="8" tuplet="t1" stem.dir="up"/>
                   </beam>
                 </layer>
@@ -556,14 +556,11 @@
                   </chord>
                 </layer>
               </staff>
-              <tupletSpan staff="1" num="3" numbase="2" num.visible="true" num.place="above"
-                num.format="count" bracket.visible="false" startid="#d1e3237" endid="#d1e3286"/>
-              <tupletSpan staff="1" num="3" numbase="2" num.visible="true" num.place="above"
-                num.format="count" bracket.visible="false" startid="#d1e3313" endid="#d1e3364"/>
+              <tupletSpan staff="1" num="3" numbase="2" num.visible="true" num.place="above" num.format="count" bracket.visible="false" startid="#d1e3237" endid="#d1e3286"/>
+              <tupletSpan staff="1" num="3" numbase="2" num.visible="true" num.place="above" num.format="count" bracket.visible="false" startid="#d1e3313" endid="#d1e3364"/>
               <tie tstamp="1" staff="1" curvedir="below" startid="#d1e3210" endid="#d1e3237"/>
               <hairpin tstamp="1.562" tstamp2="0m+3.667" form="dim" place="above" staff="1"/>
-              <slur tstamp="2" tstamp2="0m+3.667" curvedir="below" startid="#d1e3237"
-                endid="#d1e3364" staff="1"/>
+              <slur tstamp="2" tstamp2="0m+3.667" curvedir="below" startid="#d1e3237" endid="#d1e3364" staff="1"/>
               <tie tstamp="1" staff="3" curvedir="below" startid="#d1e3814" endid="#d1e4310"/>
               <tie tstamp="4" staff="3" curvedir="below" startid="#d1e3834" endid="#d1e4330"/>
             </measure>
@@ -612,8 +609,7 @@
                       <syl>Tes</syl>
                     </verse>
                   </note>
-                  <note xml:id="d1e4372" pname="e" oct="4" dur="4" tuplet="i1" stem.dir="up"
-                    accid.ges="f">
+                  <note xml:id="d1e4372" pname="e" oct="4" dur="4" tuplet="i1" stem.dir="up" accid.ges="f">
                     <verse>
                       <syl>yeux</syl>
                     </verse>
@@ -628,8 +624,7 @@
                       <syl>taient</syl>
                     </verse>
                   </note>
-                  <note xml:id="d1e4458" pname="a" oct="4" dur="8" tuplet="t1" stem.dir="up"
-                    accid.ges="f">
+                  <note xml:id="d1e4458" pname="a" oct="4" dur="8" tuplet="t1" stem.dir="up" accid.ges="f">
                     <verse>
                       <syl>plus</syl>
                     </verse>
@@ -660,24 +655,19 @@
                   </chord>
                 </layer>
               </staff>
-              <tupletSpan staff="1" num="3" numbase="8" num.visible="true" num.place="above"
-                num.format="count" bracket.visible="true" bracket.place="above" startid="#d1e4372"
-                endid="#d1e4402"/>
-              <tupletSpan num.format="count" bracket.visible="true" bracket.place="above"
-                startid="#d1e4430" endid="#d1e4458"/>
+              <tupletSpan staff="1" num="3" numbase="8" num.visible="true" num.place="above" num.format="count" bracket.visible="true" bracket.place="above" startid="#d1e4372" endid="#d1e4402"/>
+              <tupletSpan num.format="count" bracket.visible="true" bracket.place="above" startid="#d1e4430" endid="#d1e4458"/>
             </measure>
             <measure n="10" xml:id="d1e4852">
               <staff n="1">
                 <layer n="1">
-                  <note xml:id="d1e4854" pname="b" oct="4" dur="4" tie="i" stem.dir="down"
-                    accid.ges="f">
+                  <note xml:id="d1e4854" pname="b" oct="4" dur="4" tie="i" stem.dir="down" accid.ges="f">
                     <verse>
                       <syl>doux,_</syl>
                     </verse>
                   </note>
                   <beam>
-                    <note xml:id="d1e4879" pname="b" oct="4" dur="8" tuplet="i1" tie="t"
-                      stem.dir="up" accid.ges="f"/>
+                    <note xml:id="d1e4879" pname="b" oct="4" dur="8" tuplet="i1" tie="t" stem.dir="up" accid.ges="f"/>
                     <note xml:id="d1e4906" pname="f" oct="4" dur="8" tuplet="m1" stem.dir="up">
                       <verse>
                         <syl>ta</syl>
@@ -695,8 +685,7 @@
                         <syl>pure</syl>
                       </verse>
                     </note>
-                    <note xml:id="d1e4988" pname="e" accid="n" oct="4" dur="8" tuplet="m1"
-                      stem.dir="up">
+                    <note xml:id="d1e4988" pname="e" accid="n" oct="4" dur="8" tuplet="m1" stem.dir="up">
                       <verse>
                         <syl>et</syl>
                       </verse>
@@ -733,10 +722,8 @@
                   </chord>
                 </layer>
               </staff>
-              <tupletSpan staff="1" num="3" numbase="2" num.visible="true" num.place="above"
-                num.format="count" bracket.visible="false" startid="#d1e4879" endid="#d1e4932"/>
-              <tupletSpan staff="1" num="3" numbase="2" num.visible="true" num.place="above"
-                num.format="count" bracket.visible="false" startid="#d1e4960" endid="#d1e5016"/>
+              <tupletSpan staff="1" num="3" numbase="2" num.visible="true" num.place="above" num.format="count" bracket.visible="false" startid="#d1e4879" endid="#d1e4932"/>
+              <tupletSpan staff="1" num="3" numbase="2" num.visible="true" num.place="above" num.format="count" bracket.visible="false" startid="#d1e4960" endid="#d1e5016"/>
               <tie tstamp="1" staff="1" curvedir="above" startid="#d1e4854" endid="#d1e4879"/>
             </measure>
             <measure n="11" xml:id="d1e5416">

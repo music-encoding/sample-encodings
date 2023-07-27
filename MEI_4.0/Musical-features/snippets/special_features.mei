@@ -1,13 +1,11 @@
-<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<?xml version="1.0" encoding="UTF-8"?>
 <?xml-model href="http://music-encoding.org/schema/4.0.1/mei-all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
 <?xml-model href="http://music-encoding.org/schema/4.0.1/mei-all.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
-<mei xmlns:xlink="http://www.w3.org/1999/xlink" xmlns="http://www.music-encoding.org/ns/mei"
-  meiversion="4.0.1">
+<mei xmlns="http://www.music-encoding.org/ns/mei" meiversion="4.0.1">
   <meiHead>
     <fileDesc>
       <titleStmt>
-        <title>Example of special musical features <titlePart type="subordinate">an electronic
-          transcription</titlePart> </title>
+        <title>Example of special musical features<titlePart type="subordinate">an electronic transcription</titlePart></title>
         <composer>
           <persName role="composer">Frederic Chopin</persName>
         </composer>
@@ -17,29 +15,33 @@
       </titleStmt>
       <pubStmt>
         <publisher>
-          <corpName role="publisher">Musikwissenschaftliches Seminar <address>
-            <addrLine>Gartenstrasse 20</addrLine> <addrLine>32756 <geogName>Detmold</geogName>
-            <geogName>Germany</geogName> </addrLine> </address> </corpName>
+          <corpName role="publisher">Musikwissenschaftliches Seminar
+            <address>
+              <addrLine>Gartenstrasse 20</addrLine>
+              <addrLine>32756<geogName>Detmold</geogName><geogName>Germany</geogName></addrLine>
+            </address> </corpName>
         </publisher>
         <availability>
-          <useRestrict> This encoding is in the public domain. However, the sources used to create
-            it may be under copyright. We believe their use by the MEI project for educational and
-            research purposes is covered by the Fair Use doctrine. However, we will remove any
-            material from the project archive when requested to do so by the copyright owner.
-          </useRestrict>
+          <useRestrict>This encoding is in the public domain. However, the sources used to create it may be under copyright. We believe their use by the MEI project for educational and research purposes is covered by the Fair Use doctrine. However, we will remove any material from the project archive when requested to do so by the copyright owner.</useRestrict>
         </availability>
       </pubStmt>
       <seriesStmt>
         <title>MEI Sample Collection</title>
         <funder>
-          <corpName role="funder">German Research Foundation<address> <addrLine>Kennedyallee
-            40</addrLine> <addrLine> <geogName>Bonn</geogName> </addrLine> <addrLine>
-            <geogName>Germany</geogName> </addrLine> </address> </corpName>
+          <corpName role="funder">German Research Foundation
+            <address>
+              <addrLine>Kennedyallee 40</addrLine>
+              <addrLine><geogName>Bonn</geogName></addrLine>
+              <addrLine><geogName>Germany</geogName></addrLine>
+            </address> </corpName>
         </funder>
         <funder>
-          <corpName role="funder">National Endowment for the Humanities<address> <addrLine>1100
-            Pennsylvania Avenue N.W.</addrLine> <addrLine> <geogName>Washington, DC</geogName>
-            20004</addrLine> <addrLine> <geogName>United States</geogName> </addrLine> </address>
+          <corpName role="funder">National Endowment for the Humanities
+            <address>
+              <addrLine>1100 Pennsylvania Avenue N.W.</addrLine>
+              <addrLine><geogName>Washington, DC</geogName> 20004</addrLine>
+              <addrLine><geogName>United States</geogName></addrLine>
+            </address>
           </corpName>
         </funder>
         <respStmt>
@@ -50,15 +52,15 @@
         <source>
           <bibl>
             <identifier type="opusNumber">Op.59</identifier>
-            <identifier type="URI" label="print"
-              >http://kern.ccarh.org/cgi-bin/ksdata?l=users/craig/classical/chopin/mazurka&amp;file=mazurka59-3.krn&amp;f=pdf</identifier>
+            <identifier type="URI" label="print">http://kern.ccarh.org/cgi-bin/ksdata?l=users/craig/classical/chopin/mazurka&amp;file=mazurka59-3.krn&amp;f=pdf</identifier>
             <title>Mazurka in F-sharp Minor, Op. 59, No. 3</title>
             <composer>
               <persName role="composer">Frederic Chopin</persName>
             </composer>
             <imprint>
               <respStmt>
-                <corpName role="publisher">CCARH <geogName>Stanford</geogName> </corpName>
+                <corpName role="publisher">CCARH
+                  <geogName>Stanford</geogName> </corpName>
               </respStmt>
             </imprint>
           </bibl>
@@ -71,10 +73,13 @@
           <name>mei30To40.xsl</name>
           <ptr target="https://github.com/music-encoding/encoding-tools/blob/main/mei30To40/mei30To40.xsl"/>
         </application>
+        <application version="v0.0.1-alpha" xml:id="meiLint_v0.0.1-alpha">
+          <name>meiLint.xsl</name>
+          <ptr target="https://github.com/music-encoding/encoding-tools/blob/main/meiLint/meiLint.xsl"/>
+        </application>
       </appInfo>
       <editorialDecl>
-        <p>This example includes special issues -- line, fingering, change of key signature and
-          sn-accidental.</p>
+        <p>This example includes special issues -- line, fingering, change of key signature and sn-accidental.</p>
       </editorialDecl>
       <samplingDecl>
         <p>Only measures 2-4 are encoded.</p>
@@ -87,6 +92,22 @@
         </changeDesc>
         <date isodate="2019-01-03"/>
       </change>
+      <change n="2">
+        <respStmt>
+          <persName>Benjamin W. Bohl</persName>
+          <persName>Stefan Münnich</persName>
+        </respStmt>
+        <changeDesc>
+          <p><list>
+              <li>update xml-model schema references to v4.0.1</li>
+              <li>update meiversion attributes to 4.0.1</li>
+              <li>add missing responsibility statements to change elements</li>
+              <li>unify documentation of mei version upgrades (appInfo and revisionDesc)</li>
+               <li>linted with <ref target="#meiLint_v0.0.1-alpha">meiLint.xsl</ref></li>
+            </list></p>
+        </changeDesc>
+        <date isodate="2023-07-27T17:11:13+02:00"/>
+      </change>
     </revisionDesc>
   </meiHead>
   <music>
@@ -95,10 +116,8 @@
         <score>
           <scoreDef>
             <staffGrp bar.thru="true" symbol="brace">
-              <staffDef n="1" lines="5" clef.shape="G" clef.line="2" key.sig="3s" meter.count="3"
-                meter.unit="4"/>
-              <staffDef n="2" lines="5" clef.shape="F" clef.line="4" key.sig="3s" meter.count="3"
-                meter.unit="4"/>
+              <staffDef n="1" lines="5" clef.shape="G" clef.line="2" key.sig="3s" meter.count="3" meter.unit="4"/>
+              <staffDef n="2" lines="5" clef.shape="F" clef.line="4" key.sig="3s" meter.count="3" meter.unit="4"/>
             </staffGrp>
           </scoreDef>
           <section>

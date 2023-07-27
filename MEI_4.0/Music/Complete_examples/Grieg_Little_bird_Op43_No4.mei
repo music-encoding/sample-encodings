@@ -1,12 +1,11 @@
-<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<?xml version="1.0" encoding="UTF-8"?>
 <?xml-model href="http://music-encoding.org/schema/4.0.1/mei-all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
 <?xml-model href="http://music-encoding.org/schema/4.0.1/mei-all.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
-<mei xmlns:xlink="http://www.w3.org/1999/xlink" xmlns="http://www.music-encoding.org/ns/mei"
-  meiversion="4.0.1">
+<mei xmlns="http://www.music-encoding.org/ns/mei" meiversion="4.0.1">
   <meiHead>
     <fileDesc>
       <titleStmt>
-        <title>Little bird <titlePart type="subordinate">an electronic transcription</titlePart> </title>
+        <title>Little bird<titlePart type="subordinate">an electronic transcription</titlePart></title>
         <composer>
           <persName role="creator">Edvard Grieg</persName>
         </composer>
@@ -17,45 +16,35 @@
       </titleStmt>
       <pubStmt>
         <publisher>
-          <corpName role="publisher" codedval="5115204-6" auth.uri="http://d-nb.info/gnd/"
-            auth="GND">Musikwissenschaftliches Seminar, Detmold</corpName>
+          <corpName role="publisher" codedval="5115204-6" auth.uri="http://d-nb.info/gnd/" auth="GND">Musikwissenschaftliches Seminar, Detmold</corpName>
         </publisher>
         <address>
           <addrLine>Gartenstrasse 20</addrLine>
-          <addrLine>32756 <geogName codedval="7004442" auth.uri="http://vocab.getty.edu/page/tgn/"
-            auth="TGN">Detmold</geogName> </addrLine>
-          <addrLine>
-            <geogName codedval="7000084" auth.uri="http://vocab.getty.edu/page/tgn/" auth="TGN"
-              >Germany</geogName>
-          </addrLine>
+          <addrLine>32756<geogName codedval="7004442" auth.uri="http://vocab.getty.edu/page/tgn/" auth="TGN">Detmold</geogName></addrLine>
+          <addrLine><geogName codedval="7000084" auth.uri="http://vocab.getty.edu/page/tgn/" auth="TGN">Germany</geogName></addrLine>
         </address>
         <date>2011</date>
         <availability>
-          <useRestrict>This encoding is in the public domain. However, the sources used to create it
-            may be under copyright. We believe their use by the MEI project for educational and
-            research purposes is covered by the Fair Use doctrine. However, we will remove any
-            material from the project archive when requested to do so by the copyright
-            owner.</useRestrict>
+          <useRestrict>This encoding is in the public domain. However, the sources used to create it may be under copyright. We believe their use by the MEI project for educational and research purposes is covered by the Fair Use doctrine. However, we will remove any material from the project archive when requested to do so by the copyright owner.</useRestrict>
         </availability>
       </pubStmt>
       <seriesStmt>
         <title>MEI Sample Collection</title>
         <funder>
-          <corpName role="funder" codedval="2007744-0" auth.uri="http://d-nb.info/gnd/" auth="GND"
-            >German Research Foundation<address> <addrLine>Kennedyallee 40</addrLine> <addrLine>
-            <geogName codedval="7005090" auth.uri="http://vocab.getty.edu/page/tgn/" auth="TGN"
-            >Bonn</geogName> </addrLine> <addrLine> <geogName codedval="7000084"
-            auth.uri="http://vocab.getty.edu/page/tgn/" auth="TGN">Germany</geogName> </addrLine>
+          <corpName role="funder" codedval="2007744-0" auth.uri="http://d-nb.info/gnd/" auth="GND">German Research Foundation
+            <address>
+              <addrLine>Kennedyallee 40</addrLine>
+              <addrLine><geogName codedval="7005090" auth.uri="http://vocab.getty.edu/page/tgn/" auth="TGN">Bonn</geogName></addrLine>
+              <addrLine><geogName codedval="7000084" auth.uri="http://vocab.getty.edu/page/tgn/" auth="TGN">Germany</geogName></addrLine>
             </address> </corpName>
         </funder>
         <funder>
-          <corpName role="funder" codedval="18183-3" auth.uri="http://d-nb.info/gnd/18183-3"
-            auth="Deutsche Nationalbibliothek">National Endowment for the Humanities<address>
-            <addrLine>1100 Pennsylvania Avenue N.W.</addrLine> <addrLine> <geogName
-            codedval="7013962" auth.uri="http://vocab.getty.edu/page/tgn/" auth="TGN">Washington,
-            DC</geogName> 20004</addrLine> <addrLine> <geogName codedval="7012149"
-            auth.uri="http://vocab.getty.edu/page/tgn/" auth="TGN">United States</geogName>
-            </addrLine> </address> </corpName>
+          <corpName role="funder" codedval="18183-3" auth.uri="http://d-nb.info/gnd/18183-3" auth="Deutsche Nationalbibliothek">National Endowment for the Humanities
+            <address>
+              <addrLine>1100 Pennsylvania Avenue N.W.</addrLine>
+              <addrLine><geogName codedval="7013962" auth.uri="http://vocab.getty.edu/page/tgn/" auth="TGN">Washington, DC</geogName>20004</addrLine>
+              <addrLine><geogName codedval="7012149" auth.uri="http://vocab.getty.edu/page/tgn/" auth="TGN">United States</geogName></addrLine>
+            </address> </corpName>
         </funder>
         <respStmt>
           <corpName role="publisher">MEI Project</corpName>
@@ -68,19 +57,23 @@
     <encodingDesc>
       <appInfo>
         <application version="v1.0_beta" xml:id="mei2012To2013">
-            <name>mei2012To2013.xsl</name>
-           <ptr target="https://github.com/music-encoding/encoding-tools/blob/main/mei2012To2013/mei2012To2013.xsl"/>
-         </application>
+          <name>mei2012To2013.xsl</name>
+          <ptr target="https://github.com/music-encoding/encoding-tools/blob/main/mei2012To2013/mei2012To2013.xsl"/>
+        </application>
         <application version="v1.0_beta" xml:id="mei21To30">
-           <name>mei21To30.xsl</name>
-           <ptr target="https://github.com/music-encoding/encoding-tools/blob/main/mei21To30/mei21To30.xsl"/>
+          <name>mei21To30.xsl</name>
+          <ptr target="https://github.com/music-encoding/encoding-tools/blob/main/mei21To30/mei21To30.xsl"/>
         </application>
         <application xml:id="xsl_mxl2mei_2.2.3" version="2.2.3">
           <name>MusicXML2MEI</name>
         </application>
         <application version="v1.0_beta" xml:id="mei30To40">
           <name>mei30To40.xsl</name>
-<ptr target="https://github.com/music-encoding/encoding-tools/blob/main/mei30To40/mei30To40.xsl"/>
+          <ptr target="https://github.com/music-encoding/encoding-tools/blob/main/mei30To40/mei30To40.xsl"/>
+        </application>
+        <application version="v0.0.1-alpha" xml:id="meiLint_v0.0.1-alpha">
+          <name>meiLint.xsl</name>
+          <ptr target="https://github.com/music-encoding/encoding-tools/blob/main/meiLint/meiLint.xsl"/>
         </application>
       </appInfo>
       <samplingDecl>
@@ -88,8 +81,7 @@
       </samplingDecl>
       <classDecls>
         <taxonomy>
-          <bibl xml:id="OCLC_DDC"
-            target="http://www.oclc.org/dewey/resources/summaries/default.htm#700">OCLC_DDC</bibl>
+          <bibl xml:id="OCLC_DDC" target="http://www.oclc.org/dewey/resources/summaries/default.htm#700">OCLC_DDC</bibl>
           <category xml:id="_786">
             <altId>786</altId>
             <label>Keyboard &amp; other instruments</label>
@@ -115,8 +107,7 @@
         <title xml:lang="no" type="original">Liden Fugl</title>
         <title type="uniform">Lyriske stykker, op. 43 &lt;Småfugl&gt;</title>
         <composer>
-          <persName role="composer" codedval="11869641" auth.uri="http://d-nb.info/gnd/" auth="GND"
-            >Edvard Grieg</persName>
+          <persName role="composer" codedval="11869641" auth.uri="http://d-nb.info/gnd/" auth="GND">Edvard Grieg</persName>
         </composer>
         <key/>
         <meter count="6" unit="8"/>
@@ -204,7 +195,9 @@
             </section>
           </score>
         </incip>
-        <creation>Date of composition<date>1886</date> </creation>
+        <creation>Date of composition
+          <date>1886</date>
+        </creation>
         <perfMedium>
           <perfResList>
             <perfRes codedval="ka">Piano</perfRes>
@@ -221,15 +214,13 @@
     </workList>
     <manifestationList>
       <manifestation>
-        <identifier type="URI"
-          >http://javanese.imslp.info/files/imglnks/usimg/7/75/IMSLP28165-PMLP01778-Grieg-KlavierwerkeBand1-Op43-Peters.pdf</identifier>
+        <identifier type="URI">http://javanese.imslp.info/files/imglnks/usimg/7/75/IMSLP28165-PMLP01778-Grieg-KlavierwerkeBand1-Op43-Peters.pdf</identifier>
         <identifier type="referenceNumber">op. 43</identifier>
         <titleStmt>
           <title>Lyric Pieces</title>
           <title type="uniform">Lyriske stykker</title>
           <respStmt>
-            <persName role="composer" codedval="11869641" auth.uri="http://d-nb.info/gnd/"
-              auth="GND">Edvard Grieg</persName>
+            <persName role="composer" codedval="11869641" auth.uri="http://d-nb.info/gnd/" auth="GND">Edvard Grieg</persName>
             <corpName role="publisher">C.F. Peters</corpName>
             <persName role="editor">Hermann Kretzschmar</persName>
           </respStmt>
@@ -241,12 +232,11 @@
           <plateNum>8800</plateNum>
         </physDesc>
         <seriesStmt>
-          <title>Edvard Grieg: Klavierwerke<num>Bd. 1</num> </title>
+          <title>Edvard Grieg: Klavierwerke<num>Bd. 1</num></title>
         </seriesStmt>
       </manifestation>
       <manifestation>
-        <identifier type="URI"
-          >http://kern.ccarh.org/cgi-bin/ksdata?l=users/craig/classical/grieg/op43&amp;file=little-bird.krn&amp;f=xml</identifier>
+        <identifier type="URI">http://kern.ccarh.org/cgi-bin/ksdata?l=users/craig/classical/grieg/op43&amp;file=little-bird.krn&amp;f=xml</identifier>
         <titleStmt>
           <title>Little bird</title>
         </titleStmt>
@@ -267,30 +257,28 @@
     <revisionDesc>
       <change n="1">
         <respStmt>
-           <name>Unknown</name>
+          <name>Unknown</name>
         </respStmt>
         <changeDesc>
-          <p>The original was transcoded from a Humdrum file and validated using Finale 2003 for
-            Windows.</p>
+          <p>The original was transcoded from a Humdrum file and validated using Finale 2003 for Windows.</p>
         </changeDesc>
         <date notbefore="2008-02-27" notafter="2008"/>
       </change>
       <change n="2">
         <respStmt>
-          <persName xml:id="MH"> Maja Hartwig </persName>
+          <persName xml:id="MH">Maja Hartwig</persName>
         </respStmt>
         <changeDesc>
-          <p>Transcoded from a MusicXML version 0.6a file on 2011-05-12 using the <ref
-            target="#xsl_mxl2mei_2.2.3">musicxml2mei</ref> stylesheet.</p>
+          <p>Transcoded from a MusicXML version 0.6a file on 2011-05-12 using the<ref target="#xsl_mxl2mei_2.2.3">musicxml2mei</ref>stylesheet.</p>
         </changeDesc>
         <date isodate="2011-05-12"/>
       </change>
       <change n="3">
         <respStmt>
-          <persName xml:id="KR"> Kristina Richts </persName>
+          <persName xml:id="KR">Kristina Richts</persName>
         </respStmt>
         <changeDesc>
-          <p> Cleaned up MEI file automatically using <ref target="#xsl_ppq">ppq.xsl</ref>. </p>
+          <p>Cleaned up MEI file automatically using<ref target="#xsl_ppq">ppq.xsl</ref>.</p>
         </changeDesc>
         <date isodate="2011-10-22"/>
       </change>
@@ -302,8 +290,7 @@
       </change>
       <change n="5" resp="#KR">
         <changeDesc>
-          <p> Cleaned up MEI file automatically using <ref target="#xsl_header">Header.xsl</ref>.
-          </p>
+          <p>Cleaned up MEI file automatically using<ref target="#xsl_header">Header.xsl</ref>.</p>
         </changeDesc>
         <date isodate="2011-12-01"/>
       </change>
@@ -334,6 +321,22 @@
         </changeDesc>
         <date isodate="2019-01-03"/>
       </change>
+      <change n="10">
+        <respStmt>
+          <persName>Benjamin W. Bohl</persName>
+          <persName>Stefan Münnich</persName>
+        </respStmt>
+        <changeDesc>
+          <p><list>
+              <li>update xml-model schema references to v4.0.1</li>
+              <li>update meiversion attributes to 4.0.1</li>
+              <li>add missing responsibility statements to change elements</li>
+              <li>unify documentation of mei version upgrades (appInfo and revisionDesc)</li>
+               <li>linted with <ref target="#meiLint_v0.0.1-alpha">meiLint.xsl</ref></li>
+            </list></p>
+        </changeDesc>
+        <date isodate="2023-07-27T17:08:50+02:00"/>
+      </change>
     </revisionDesc>
   </meiHead>
   <music>
@@ -352,11 +355,9 @@
                 <layer n="1">
                   <beam>
                     <note xml:id="d418889e30" pname="a" oct="5" dur="32" stem.dir="down"/>
-                    <note xml:id="d418889e55" pname="b" oct="5" dur="32" stem.dir="down"
-                      accid.ges="f"/>
+                    <note xml:id="d418889e55" pname="b" oct="5" dur="32" stem.dir="down" accid.ges="f"/>
                     <note xml:id="d418889e77" pname="a" oct="5" dur="32" stem.dir="down"/>
-                    <note xml:id="d418889e97" pname="b" oct="5" dur="32" stem.dir="down"
-                      accid.ges="f"/>
+                    <note xml:id="d418889e97" pname="b" oct="5" dur="32" stem.dir="down" accid.ges="f"/>
                   </beam>
                 </layer>
               </staff>
@@ -429,11 +430,9 @@
                   <rest xml:id="d418889e564" dur="4"/>
                   <beam>
                     <note xml:id="d418889e572" pname="a" oct="5" dur="32" stem.dir="down"/>
-                    <note xml:id="d418889e592" pname="b" oct="5" dur="32" stem.dir="down"
-                      accid.ges="f"/>
+                    <note xml:id="d418889e592" pname="b" oct="5" dur="32" stem.dir="down" accid.ges="f"/>
                     <note xml:id="d418889e614" pname="a" oct="5" dur="32" stem.dir="down"/>
-                    <note xml:id="d418889e634" pname="b" oct="5" dur="32" stem.dir="down"
-                      accid.ges="f"/>
+                    <note xml:id="d418889e634" pname="b" oct="5" dur="32" stem.dir="down" accid.ges="f"/>
                   </beam>
                 </layer>
               </staff>
@@ -486,11 +485,9 @@
                   <rest xml:id="d418889e965" dur="8"/>
                   <beam>
                     <note xml:id="d418889e973" pname="a" oct="5" dur="32" stem.dir="down"/>
-                    <note xml:id="d418889e993" pname="b" oct="5" dur="32" stem.dir="down"
-                      accid.ges="f"/>
+                    <note xml:id="d418889e993" pname="b" oct="5" dur="32" stem.dir="down" accid.ges="f"/>
                     <note xml:id="d418889e1015" pname="a" oct="5" dur="32" stem.dir="down"/>
-                    <note xml:id="d418889e1036" pname="b" oct="5" dur="32" stem.dir="down"
-                      accid.ges="f"/>
+                    <note xml:id="d418889e1036" pname="b" oct="5" dur="32" stem.dir="down" accid.ges="f"/>
                   </beam>
                 </layer>
               </staff>
@@ -502,15 +499,12 @@
                   </note>
                   <rest xml:id="d418889e1079" dur="8"/>
                   <beam>
-                    <note xml:id="d418889e1087" pname="b" oct="4" dur="32" stem.dir="down"
-                      accid.ges="f"/>
+                    <note xml:id="d418889e1087" pname="b" oct="4" dur="32" stem.dir="down" accid.ges="f"/>
                     <note xml:id="d418889e1109" pname="d" oct="5" dur="32" stem.dir="down"/>
-                    <note xml:id="d418889e1129" pname="b" oct="4" dur="32" stem.dir="down"
-                      accid.ges="f"/>
+                    <note xml:id="d418889e1129" pname="b" oct="4" dur="32" stem.dir="down" accid.ges="f"/>
                     <note xml:id="d418889e1151" pname="d" oct="5" dur="32" stem.dir="down"/>
                   </beam>
-                  <note xml:id="d418889e1171" pname="b" oct="4" dur="8" stem.dir="down"
-                    accid.ges="f">
+                  <note xml:id="d418889e1171" pname="b" oct="4" dur="8" stem.dir="down" accid.ges="f">
                     <artic artic="stacc" place="above"/>
                     <artic artic="acc" place="above"/>
                   </note>
@@ -666,8 +660,7 @@
                     <note xml:id="d418889e2113" pname="c" oct="5"/>
                   </chord>
                   <rest xml:id="d418889e2128" dur="16"/>
-                  <note xml:id="d418889e2136" pname="g" oct="5" dur="16" stem.dir="down"
-                    accid.ges="s"/>
+                  <note xml:id="d418889e2136" pname="g" oct="5" dur="16" stem.dir="down" accid.ges="s"/>
                   <note xml:id="d418889e2152" pname="e" oct="5" dur="8" stem.dir="down">
                     <artic artic="stacc" place="above"/>
                   </note>
@@ -748,11 +741,9 @@
               <staff n="2">
                 <layer n="1">
                   <beam>
-                    <note xml:id="d418889e2522" pname="b" oct="2" dur="32" stem.dir="up"
-                      accid.ges="f"/>
+                    <note xml:id="d418889e2522" pname="b" oct="2" dur="32" stem.dir="up" accid.ges="f"/>
                     <note xml:id="d418889e2544" pname="c" oct="3" dur="32" stem.dir="up"/>
-                    <note xml:id="d418889e2564" pname="b" oct="2" dur="32" stem.dir="up"
-                      accid.ges="f"/>
+                    <note xml:id="d418889e2564" pname="b" oct="2" dur="32" stem.dir="up" accid.ges="f"/>
                     <note xml:id="d418889e2586" pname="c" oct="3" dur="32" stem.dir="up"/>
                   </beam>
                 </layer>
@@ -782,24 +773,19 @@
               </staff>
               <staff n="2">
                 <layer n="1">
-                  <note xml:id="d418889e2728" pname="b" oct="2" dur="4" dots="1" tie="i"
-                    stem.dir="up" accid.ges="f">
+                  <note xml:id="d418889e2728" pname="b" oct="2" dur="4" dots="1" tie="i" stem.dir="up" accid.ges="f">
                     <artic artic="acc" place="above"/>
                   </note>
-                  <note xml:id="d418889e2751" pname="b" oct="2" dur="4" tie="t" stem.dir="up"
-                    accid.ges="f"/>
+                  <note xml:id="d418889e2751" pname="b" oct="2" dur="4" tie="t" stem.dir="up" accid.ges="f"/>
                   <beam>
-                    <note xml:id="d418889e2770" pname="b" oct="2" dur="32" stem.dir="up"
-                      accid.ges="f"/>
+                    <note xml:id="d418889e2770" pname="b" oct="2" dur="32" stem.dir="up" accid.ges="f"/>
                     <note xml:id="d418889e2792" pname="c" oct="3" dur="32" stem.dir="up"/>
-                    <note xml:id="d418889e2812" pname="b" oct="2" dur="32" stem.dir="up"
-                      accid.ges="f"/>
+                    <note xml:id="d418889e2812" pname="b" oct="2" dur="32" stem.dir="up" accid.ges="f"/>
                     <note xml:id="d418889e2834" pname="c" oct="3" dur="32" stem.dir="up"/>
                   </beam>
                 </layer>
               </staff>
-              <tie tstamp="1" staff="1" curvedir="below" startid="#d418889e2728"
-                endid="#d418889e2751"/>
+              <tie tstamp="1" staff="1" curvedir="below" startid="#d418889e2728" endid="#d418889e2751"/>
             </measure>
             <measure n="12" xml:id="d418889e2854">
               <staff n="1">
@@ -824,24 +810,19 @@
               </staff>
               <staff n="2">
                 <layer n="1">
-                  <note xml:id="d418889e2970" pname="b" oct="2" dur="4" dots="1" tie="i"
-                    stem.dir="up" accid.ges="f">
+                  <note xml:id="d418889e2970" pname="b" oct="2" dur="4" dots="1" tie="i" stem.dir="up" accid.ges="f">
                     <artic artic="acc" place="above"/>
                   </note>
-                  <note xml:id="d418889e2993" pname="b" oct="2" dur="4" tie="t" stem.dir="up"
-                    accid.ges="f"/>
+                  <note xml:id="d418889e2993" pname="b" oct="2" dur="4" tie="t" stem.dir="up" accid.ges="f"/>
                   <beam>
-                    <note xml:id="d418889e3012" pname="b" oct="2" dur="32" stem.dir="up"
-                      accid.ges="f"/>
+                    <note xml:id="d418889e3012" pname="b" oct="2" dur="32" stem.dir="up" accid.ges="f"/>
                     <note xml:id="d418889e3034" pname="c" oct="3" dur="32" stem.dir="up"/>
-                    <note xml:id="d418889e3054" pname="b" oct="2" dur="32" stem.dir="up"
-                      accid.ges="f"/>
+                    <note xml:id="d418889e3054" pname="b" oct="2" dur="32" stem.dir="up" accid.ges="f"/>
                     <note xml:id="d418889e3076" pname="c" oct="3" dur="32" stem.dir="up"/>
                   </beam>
                 </layer>
               </staff>
-              <tie tstamp="1" staff="2" curvedir="below" startid="#d418889e2970"
-                endid="#d418889e2993"/>
+              <tie tstamp="1" staff="2" curvedir="below" startid="#d418889e2970" endid="#d418889e2993"/>
             </measure>
             <measure n="13" xml:id="d418889e3096">
               <staff n="1">
@@ -869,21 +850,17 @@
               <staff n="2">
                 <layer n="1">
                   <beam>
-                    <note xml:id="d418889e3221" pname="b" oct="2" dur="8" stem.dir="up"
-                      accid.ges="f"/>
+                    <note xml:id="d418889e3221" pname="b" oct="2" dur="8" stem.dir="up" accid.ges="f"/>
                     <rest xml:id="d418889e3239" dur="16"/>
-                    <note xml:id="d418889e3249" pname="b" oct="2" dur="16" stem.dir="up"
-                      accid.ges="f"/>
+                    <note xml:id="d418889e3249" pname="b" oct="2" dur="16" stem.dir="up" accid.ges="f"/>
                     <note xml:id="d418889e3265" pname="c" oct="3" dur="8" stem.dir="up">
                       <artic artic="stacc" place="above"/>
                     </note>
                   </beam>
                   <beam>
-                    <note xml:id="d418889e3284" pname="b" oct="2" dur="8" stem.dir="up"
-                      accid.ges="f"/>
+                    <note xml:id="d418889e3284" pname="b" oct="2" dur="8" stem.dir="up" accid.ges="f"/>
                     <rest xml:id="d418889e3302" dur="16"/>
-                    <note xml:id="d418889e3312" pname="b" oct="2" dur="16" stem.dir="up"
-                      accid.ges="f"/>
+                    <note xml:id="d418889e3312" pname="b" oct="2" dur="16" stem.dir="up" accid.ges="f"/>
                     <note xml:id="d418889e3328" pname="c" oct="3" dur="8" stem.dir="up">
                       <artic artic="stacc" place="above"/>
                     </note>
@@ -915,8 +892,7 @@
               </staff>
               <staff n="2">
                 <layer n="1">
-                  <note xml:id="d418889e3475" pname="a" oct="2" dur="4" dots="1" tie="i"
-                    stem.dir="up"/>
+                  <note xml:id="d418889e3475" pname="a" oct="2" dur="4" dots="1" tie="i" stem.dir="up"/>
                   <beam>
                     <note xml:id="d418889e3493" pname="a" oct="2" dur="8" tie="t" stem.dir="up"/>
                     <note xml:id="d418889e3512" pname="f" accid="s" oct="2" dur="8" stem.dir="up">
@@ -928,8 +904,7 @@
                   </beam>
                 </layer>
               </staff>
-              <tie tstamp="1" staff="2" curvedir="below" startid="#d418889e3475"
-                endid="#d418889e3493"/>
+              <tie tstamp="1" staff="2" curvedir="below" startid="#d418889e3475" endid="#d418889e3493"/>
             </measure>
             <measure n="15" xml:id="d418889e3558">
               <staff n="1">
@@ -1042,8 +1017,7 @@
                   </chord>
                 </layer>
               </staff>
-              <tie tstamp="8.5" staff="1" curvedir="above" startid="#d418889e4342"
-                endid="#d418889e4620"/>
+              <tie tstamp="8.5" staff="1" curvedir="above" startid="#d418889e4342" endid="#d418889e4620"/>
             </measure>
             <measure n="17" xml:id="d418889e4363">
               <staff n="1">
@@ -1065,8 +1039,7 @@
                     <rest xml:id="d418889e4501" dur="8"/>
                     <note xml:id="d418889e4511" pname="b" accid="f" oct="3" dur="32" stem.dir="up"/>
                     <note xml:id="d418889e4535" pname="e" oct="4" dur="32" stem.dir="up"/>
-                    <note xml:id="d418889e4555" pname="b" oct="3" dur="32" stem.dir="up"
-                      accid.ges="f"/>
+                    <note xml:id="d418889e4555" pname="b" oct="3" dur="32" stem.dir="up" accid.ges="f"/>
                     <note xml:id="d418889e4578" pname="e" oct="4" dur="32" stem.dir="up"/>
                   </beam>
                 </layer>
@@ -1101,10 +1074,8 @@
                   </chord>
                 </layer>
               </staff>
-              <tie tstamp="4.75" staff="2" curvedir="above" startid="#d418889e4670"
-                endid="#d418889e4714"/>
-              <tie tstamp="8.5" staff="1" curvedir="above" startid="#d418889e4766"
-                endid="#d418889e4946"/>
+              <tie tstamp="4.75" staff="2" curvedir="above" startid="#d418889e4670" endid="#d418889e4714"/>
+              <tie tstamp="8.5" staff="1" curvedir="above" startid="#d418889e4766" endid="#d418889e4946"/>
             </measure>
             <measure n="18" xml:id="d418889e4787">
               <staff n="1">
@@ -1116,13 +1087,11 @@
                   <rest xml:id="d418889e4814" dur="8"/>
                   <rest xml:id="d418889e4822" dur="4"/>
                   <beam>
-                    <note xml:id="d418889e4830" pname="b" oct="4" dur="32" stem.dir="down"
-                      accid.ges="f" syl="&lt;">
+                    <note xml:id="d418889e4830" pname="b" oct="4" dur="32" stem.dir="down" accid.ges="f" syl="&lt;">
                       <artic artic="acc" place="above"/>
                     </note>
                     <note xml:id="d418889e4860" pname="e" oct="5" dur="32" stem.dir="down"/>
-                    <note xml:id="d418889e4880" pname="b" oct="4" dur="32" stem.dir="down"
-                      accid.ges="f"/>
+                    <note xml:id="d418889e4880" pname="b" oct="4" dur="32" stem.dir="down" accid.ges="f"/>
                     <note xml:id="d418889e4902" pname="e" oct="5" dur="32" stem.dir="down"/>
                   </beam>
                 </layer>
@@ -1151,8 +1120,7 @@
                   </chord>
                 </layer>
               </staff>
-              <tie tstamp="8.5" staff="1" curvedir="below" startid="#d418889e5055"
-                endid="#d418889e5225"/>
+              <tie tstamp="8.5" staff="1" curvedir="below" startid="#d418889e5055" endid="#d418889e5225"/>
             </measure>
             <measure n="19" xml:id="d418889e5073">
               <staff n="1">
@@ -1164,13 +1132,11 @@
                   <rest xml:id="d418889e5100" dur="8"/>
                   <rest xml:id="d418889e5108" dur="4"/>
                   <beam>
-                    <note xml:id="d418889e5116" pname="b" oct="5" dur="32" stem.dir="down"
-                      accid.ges="f">
+                    <note xml:id="d418889e5116" pname="b" oct="5" dur="32" stem.dir="down" accid.ges="f">
                       <artic artic="acc" place="above"/>
                     </note>
                     <note xml:id="d418889e5141" pname="e" oct="6" dur="32" stem.dir="down"/>
-                    <note xml:id="d418889e5161" pname="b" oct="5" dur="32" stem.dir="down"
-                      accid.ges="f"/>
+                    <note xml:id="d418889e5161" pname="b" oct="5" dur="32" stem.dir="down" accid.ges="f"/>
                     <note xml:id="d418889e5183" pname="e" oct="6" dur="32" stem.dir="down"/>
                   </beam>
                 </layer>
@@ -1202,8 +1168,7 @@
                   </chord>
                 </layer>
               </staff>
-              <tie tstamp="8.5" staff="1" curvedir="above" startid="#d418889e5342"
-                endid="#d418889e5517"/>
+              <tie tstamp="8.5" staff="1" curvedir="above" startid="#d418889e5342" endid="#d418889e5517"/>
             </measure>
             <measure n="20" xml:id="d418889e5360">
               <staff n="1">
@@ -1215,13 +1180,11 @@
                   <rest xml:id="d418889e5387" dur="8"/>
                   <rest xml:id="d418889e5395" dur="4"/>
                   <beam>
-                    <note xml:id="d418889e5403" pname="b" oct="5" dur="32" stem.dir="down"
-                      accid.ges="f">
+                    <note xml:id="d418889e5403" pname="b" oct="5" dur="32" stem.dir="down" accid.ges="f">
                       <artic artic="acc" place="above"/>
                     </note>
                     <note xml:id="d418889e5433" pname="e" oct="6" dur="32" stem.dir="down"/>
-                    <note xml:id="d418889e5453" pname="b" oct="5" dur="32" stem.dir="down"
-                      accid.ges="f"/>
+                    <note xml:id="d418889e5453" pname="b" oct="5" dur="32" stem.dir="down" accid.ges="f"/>
                     <note xml:id="d418889e5475" pname="e" oct="6" dur="32" stem.dir="down"/>
                   </beam>
                 </layer>
@@ -1254,8 +1217,7 @@
                 </layer>
               </staff>
               <octave staff="1" dis="8" dis.place="above" tstamp="6" tstamp2="4"/>
-              <tie tstamp="8.5" staff="1" curvedir="above" startid="#d418889e5625"
-                endid="#d418889e5893"/>
+              <tie tstamp="8.5" staff="1" curvedir="above" startid="#d418889e5625" endid="#d418889e5893"/>
             </measure>
             <measure n="21" xml:id="d418889e5646">
               <staff n="1">
@@ -1265,13 +1227,11 @@
                   </note>
                   <rest xml:id="d418889e5665" dur="8"/>
                   <beam>
-                    <note xml:id="d418889e5673" pname="b" oct="5" dur="32" stem.dir="down"
-                      accid.ges="f">
+                    <note xml:id="d418889e5673" pname="b" oct="5" dur="32" stem.dir="down" accid.ges="f">
                       <artic artic="acc" place="above"/>
                     </note>
                     <note xml:id="d418889e5698" pname="e" oct="6" dur="32" stem.dir="down"/>
-                    <note xml:id="d418889e5718" pname="b" oct="5" dur="32" stem.dir="down"
-                      accid.ges="f"/>
+                    <note xml:id="d418889e5718" pname="b" oct="5" dur="32" stem.dir="down" accid.ges="f"/>
                     <note xml:id="d418889e5740" pname="e" oct="6" dur="32" stem.dir="down"/>
                   </beam>
                   <note xml:id="d418889e5760" pname="a" oct="5" dur="8" stem.dir="down">
@@ -1279,13 +1239,11 @@
                   </note>
                   <rest xml:id="d418889e5777" dur="8"/>
                   <beam>
-                    <note xml:id="d418889e5785" pname="b" oct="4" dur="32" stem.dir="down"
-                      accid.ges="f">
+                    <note xml:id="d418889e5785" pname="b" oct="4" dur="32" stem.dir="down" accid.ges="f">
                       <artic artic="acc" place="above"/>
                     </note>
                     <note xml:id="d418889e5810" pname="e" oct="5" dur="32" stem.dir="down"/>
-                    <note xml:id="d418889e5830" pname="b" oct="4" dur="32" stem.dir="down"
-                      accid.ges="f"/>
+                    <note xml:id="d418889e5830" pname="b" oct="4" dur="32" stem.dir="down" accid.ges="f"/>
                     <note xml:id="d418889e5853" pname="e" oct="5" dur="32" stem.dir="down"/>
                   </beam>
                 </layer>
@@ -1318,10 +1276,8 @@
                   </chord>
                 </layer>
               </staff>
-              <tie tstamp="4.75" staff="1" curvedir="above" startid="#d418889e5936"
-                endid="#d418889e5975"/>
-              <tie tstamp="8.5" staff="2" curvedir="below" startid="#d418889e6021"
-                endid="#d418889e6294"/>
+              <tie tstamp="4.75" staff="1" curvedir="above" startid="#d418889e5936" endid="#d418889e5975"/>
+              <tie tstamp="8.5" staff="2" curvedir="below" startid="#d418889e6021" endid="#d418889e6294"/>
             </measure>
             <measure n="22" xml:id="d418889e6043">
               <staff n="1">
@@ -1331,13 +1287,11 @@
                   </note>
                   <rest xml:id="d418889e6062" dur="8"/>
                   <beam>
-                    <note xml:id="d418889e6070" pname="b" oct="3" dur="32" stem.dir="up"
-                      accid.ges="f">
+                    <note xml:id="d418889e6070" pname="b" oct="3" dur="32" stem.dir="up" accid.ges="f">
                       <artic artic="acc" place="above"/>
                     </note>
                     <note xml:id="d418889e6095" pname="e" oct="4" dur="32" stem.dir="up"/>
-                    <note xml:id="d418889e6115" pname="b" oct="3" dur="32" stem.dir="up"
-                      accid.ges="f"/>
+                    <note xml:id="d418889e6115" pname="b" oct="3" dur="32" stem.dir="up" accid.ges="f"/>
                     <note xml:id="d418889e6137" pname="e" oct="4" dur="32" stem.dir="up"/>
                   </beam>
                   <note xml:id="d418889e6157" pname="a" oct="3" dur="8" stem.dir="up">
@@ -1346,11 +1300,9 @@
                   <rest xml:id="d418889e6174" dur="8"/>
                   <beam>
                     <note xml:id="d418889e6182" pname="a" oct="5" dur="32" stem.dir="down" syl="p"/>
-                    <note xml:id="d418889e6207" pname="b" oct="5" dur="32" stem.dir="down"
-                      accid.ges="f"/>
+                    <note xml:id="d418889e6207" pname="b" oct="5" dur="32" stem.dir="down" accid.ges="f"/>
                     <note xml:id="d418889e6229" pname="a" oct="5" dur="32" stem.dir="down"/>
-                    <note xml:id="d418889e6250" pname="b" oct="5" dur="32" stem.dir="down"
-                      accid.ges="f"/>
+                    <note xml:id="d418889e6250" pname="b" oct="5" dur="32" stem.dir="down" accid.ges="f"/>
                   </beam>
                 </layer>
               </staff>
@@ -1382,8 +1334,7 @@
                   </beam>
                 </layer>
               </staff>
-              <tie tstamp="4.75" staff="1" curvedir="above" startid="#d418889e6343"
-                endid="#d418889e6377"/>
+              <tie tstamp="4.75" staff="1" curvedir="above" startid="#d418889e6343" endid="#d418889e6377"/>
             </measure>
             <measure n="23" xml:id="d418889e6490">
               <staff n="1">
@@ -1394,8 +1345,7 @@
                   </note>
                   <rest xml:id="d418889e6517" dur="8"/>
                   <beam>
-                    <note xml:id="d418889e6525" pname="b" oct="5" dur="64" stem.dir="down"
-                      accid.ges="f"/>
+                    <note xml:id="d418889e6525" pname="b" oct="5" dur="64" stem.dir="down" accid.ges="f"/>
                     <note xml:id="d418889e6547" pname="a" oct="5" dur="64" stem.dir="down"/>
                     <note xml:id="d418889e6567" pname="f" oct="5" dur="64" stem.dir="down"/>
                     <note xml:id="d418889e6587" pname="d" oct="5" dur="64" stem.dir="down"/>
@@ -1453,8 +1403,7 @@
                     <note xml:id="d418889e7016" pname="a" oct="5" dur="32" stem.dir="down"/>
                     <note xml:id="d418889e7036" pname="b" accid="f" oct="5" dur="32" stem.dir="down"/>
                     <note xml:id="d418889e7061" pname="a" oct="5" dur="32" stem.dir="down"/>
-                    <note xml:id="d418889e7081" pname="b" oct="5" dur="32" stem.dir="down"
-                      accid.ges="f"/>
+                    <note xml:id="d418889e7081" pname="b" oct="5" dur="32" stem.dir="down" accid.ges="f"/>
                   </beam>
                 </layer>
               </staff>
@@ -1500,11 +1449,9 @@
                   <rest xml:id="d418889e7375" dur="8"/>
                   <beam>
                     <note xml:id="d418889e7383" pname="a" oct="5" dur="32" stem.dir="down"/>
-                    <note xml:id="d418889e7403" pname="b" oct="5" dur="32" stem.dir="down"
-                      accid.ges="f"/>
+                    <note xml:id="d418889e7403" pname="b" oct="5" dur="32" stem.dir="down" accid.ges="f"/>
                     <note xml:id="d418889e7425" pname="a" oct="5" dur="32" stem.dir="down"/>
-                    <note xml:id="d418889e7446" pname="b" oct="5" dur="32" stem.dir="down"
-                      accid.ges="f"/>
+                    <note xml:id="d418889e7446" pname="b" oct="5" dur="32" stem.dir="down" accid.ges="f"/>
                   </beam>
                 </layer>
               </staff>
@@ -1516,15 +1463,12 @@
                   </note>
                   <rest xml:id="d418889e7489" dur="8"/>
                   <beam>
-                    <note xml:id="d418889e7497" pname="b" oct="4" dur="32" stem.dir="down"
-                      accid.ges="f"/>
+                    <note xml:id="d418889e7497" pname="b" oct="4" dur="32" stem.dir="down" accid.ges="f"/>
                     <note xml:id="d418889e7519" pname="d" oct="5" dur="32" stem.dir="down"/>
-                    <note xml:id="d418889e7539" pname="b" oct="4" dur="32" stem.dir="down"
-                      accid.ges="f"/>
+                    <note xml:id="d418889e7539" pname="b" oct="4" dur="32" stem.dir="down" accid.ges="f"/>
                     <note xml:id="d418889e7561" pname="d" oct="5" dur="32" stem.dir="down"/>
                   </beam>
-                  <note xml:id="d418889e7581" pname="b" oct="4" dur="8" stem.dir="down"
-                    accid.ges="f">
+                  <note xml:id="d418889e7581" pname="b" oct="4" dur="8" stem.dir="down" accid.ges="f">
                     <artic artic="stacc" place="above"/>
                     <artic artic="acc" place="above"/>
                   </note>
@@ -1547,8 +1491,7 @@
                   </note>
                   <rest xml:id="d418889e7714" dur="8"/>
                   <beam>
-                    <note xml:id="d418889e7722" pname="b" oct="5" dur="64" stem.dir="down"
-                      accid.ges="f"/>
+                    <note xml:id="d418889e7722" pname="b" oct="5" dur="64" stem.dir="down" accid.ges="f"/>
                     <note xml:id="d418889e7744" pname="a" oct="5" dur="64" stem.dir="down"/>
                     <note xml:id="d418889e7764" pname="f" oct="5" dur="64" stem.dir="down"/>
                     <note xml:id="d418889e7784" pname="d" oct="5" dur="64" stem.dir="down"/>
@@ -1558,11 +1501,9 @@
                   <rest xml:id="d418889e7832" dur="8"/>
                   <beam>
                     <note xml:id="d418889e7840" pname="a" oct="5" dur="32" stem.dir="down"/>
-                    <note xml:id="d418889e7860" pname="b" oct="5" dur="32" stem.dir="down"
-                      accid.ges="f"/>
+                    <note xml:id="d418889e7860" pname="b" oct="5" dur="32" stem.dir="down" accid.ges="f"/>
                     <note xml:id="d418889e7883" pname="a" oct="5" dur="32" stem.dir="down"/>
-                    <note xml:id="d418889e7903" pname="b" oct="5" dur="32" stem.dir="down"
-                      accid.ges="f"/>
+                    <note xml:id="d418889e7903" pname="b" oct="5" dur="32" stem.dir="down" accid.ges="f"/>
                   </beam>
                 </layer>
               </staff>
@@ -1581,8 +1522,7 @@
                   <beam>
                     <note xml:id="d418889e7987" pname="d" accid="f" oct="5" dur="32" stem.dir="down"/>
                     <note xml:id="d418889e8011" pname="f" oct="5" dur="32" stem.dir="down"/>
-                    <note xml:id="d418889e8031" pname="d" oct="5" dur="32" stem.dir="down"
-                      accid.ges="f"/>
+                    <note xml:id="d418889e8031" pname="d" oct="5" dur="32" stem.dir="down" accid.ges="f"/>
                     <note xml:id="d418889e8053" pname="f" oct="5" dur="32" stem.dir="down"/>
                   </beam>
                 </layer>
@@ -1597,8 +1537,7 @@
                   </note>
                   <rest xml:id="d418889e8095" dur="8"/>
                   <beam>
-                    <note xml:id="d418889e8103" pname="b" oct="5" dur="64" stem.dir="down"
-                      accid.ges="f"/>
+                    <note xml:id="d418889e8103" pname="b" oct="5" dur="64" stem.dir="down" accid.ges="f"/>
                     <note xml:id="d418889e8125" pname="a" oct="5" dur="64" stem.dir="down"/>
                     <note xml:id="d418889e8145" pname="f" oct="5" dur="64" stem.dir="down"/>
                     <note xml:id="d418889e8165" pname="d" accid="f" oct="5" dur="64" stem.dir="down"/>
@@ -1686,8 +1625,7 @@
                     <note xml:id="d418889e8760" pname="f" oct="5"/>
                   </chord>
                   <rest xml:id="d418889e8775" dur="16"/>
-                  <note xml:id="d418889e8783" pname="c" oct="6" dur="16" stem.dir="down"
-                    accid.ges="s"/>
+                  <note xml:id="d418889e8783" pname="c" oct="6" dur="16" stem.dir="down" accid.ges="s"/>
                   <note xml:id="d418889e8799" pname="a" oct="5" dur="8" stem.dir="down">
                     <artic artic="stacc" place="above"/>
                   </note>
@@ -1776,8 +1714,7 @@
                   <beam>
                     <note xml:id="d418889e9194" pname="e" accid="f" oct="2" dur="32" stem.dir="up"/>
                     <note xml:id="d418889e9218" pname="f" oct="2" dur="32" stem.dir="up"/>
-                    <note xml:id="d418889e9238" pname="e" oct="2" dur="32" stem.dir="up"
-                      accid.ges="f"/>
+                    <note xml:id="d418889e9238" pname="e" oct="2" dur="32" stem.dir="up" accid.ges="f"/>
                     <note xml:id="d418889e9260" pname="f" oct="2" dur="32" stem.dir="up"/>
                   </beam>
                 </layer>
@@ -1806,24 +1743,19 @@
               </staff>
               <staff n="2">
                 <layer n="1">
-                  <note xml:id="d418889e9401" pname="e" accid="f" oct="2" dur="4" dots="1" tie="i"
-                    stem.dir="up">
+                  <note xml:id="d418889e9401" pname="e" accid="f" oct="2" dur="4" dots="1" tie="i" stem.dir="up">
                     <artic artic="acc" place="above"/>
                   </note>
-                  <note xml:id="d418889e9426" pname="e" oct="2" dur="4" tie="t" stem.dir="up"
-                    accid.ges="f"/>
+                  <note xml:id="d418889e9426" pname="e" oct="2" dur="4" tie="t" stem.dir="up" accid.ges="f"/>
                   <beam>
-                    <note xml:id="d418889e9445" pname="e" oct="2" dur="32" stem.dir="up"
-                      accid.ges="f"/>
+                    <note xml:id="d418889e9445" pname="e" oct="2" dur="32" stem.dir="up" accid.ges="f"/>
                     <note xml:id="d418889e9467" pname="f" oct="2" dur="32" stem.dir="up"/>
-                    <note xml:id="d418889e9487" pname="e" oct="2" dur="32" stem.dir="up"
-                      accid.ges="f"/>
+                    <note xml:id="d418889e9487" pname="e" oct="2" dur="32" stem.dir="up" accid.ges="f"/>
                     <note xml:id="d418889e9509" pname="f" oct="2" dur="32" stem.dir="up"/>
                   </beam>
                 </layer>
               </staff>
-              <tie tstamp="1" staff="1" curvedir="below" startid="#d418889e9401"
-                endid="#d418889e9426"/>
+              <tie tstamp="1" staff="1" curvedir="below" startid="#d418889e9401" endid="#d418889e9426"/>
             </measure>
             <measure n="33" xml:id="d418889e9530">
               <staff n="1">
@@ -1848,24 +1780,19 @@
               </staff>
               <staff n="2">
                 <layer n="1">
-                  <note xml:id="d418889e9646" pname="e" accid="f" oct="2" dur="4" dots="1" tie="i"
-                    stem.dir="up">
+                  <note xml:id="d418889e9646" pname="e" accid="f" oct="2" dur="4" dots="1" tie="i" stem.dir="up">
                     <artic artic="acc" place="above"/>
                   </note>
-                  <note xml:id="d418889e9671" pname="e" oct="2" dur="4" tie="t" stem.dir="up"
-                    accid.ges="f"/>
+                  <note xml:id="d418889e9671" pname="e" oct="2" dur="4" tie="t" stem.dir="up" accid.ges="f"/>
                   <beam>
-                    <note xml:id="d418889e9690" pname="e" oct="2" dur="32" stem.dir="up"
-                      accid.ges="f"/>
+                    <note xml:id="d418889e9690" pname="e" oct="2" dur="32" stem.dir="up" accid.ges="f"/>
                     <note xml:id="d418889e9712" pname="f" oct="2" dur="32" stem.dir="up"/>
-                    <note xml:id="d418889e9732" pname="e" oct="2" dur="32" stem.dir="up"
-                      accid.ges="f"/>
+                    <note xml:id="d418889e9732" pname="e" oct="2" dur="32" stem.dir="up" accid.ges="f"/>
                     <note xml:id="d418889e9754" pname="f" oct="2" dur="32" stem.dir="up"/>
                   </beam>
                 </layer>
               </staff>
-              <tie tstamp="1" staff="1" curvedir="below" startid="#d418889e9646"
-                endid="#d418889e9671"/>
+              <tie tstamp="1" staff="1" curvedir="below" startid="#d418889e9646" endid="#d418889e9671"/>
             </measure>
             <measure n="34" xml:id="d418889e9774">
               <staff n="1">
@@ -1897,18 +1824,15 @@
                       <artic artic="acc" place="above"/>
                     </note>
                     <rest xml:id="d418889e9927" dur="16"/>
-                    <note xml:id="d418889e9937" pname="e" oct="2" dur="16" stem.dir="up"
-                      accid.ges="f"/>
+                    <note xml:id="d418889e9937" pname="e" oct="2" dur="16" stem.dir="up" accid.ges="f"/>
                     <note xml:id="d418889e9953" pname="f" oct="2" dur="8" stem.dir="up">
                       <artic artic="stacc" place="above"/>
                     </note>
                   </beam>
                   <beam>
-                    <note xml:id="d418889e9972" pname="e" oct="2" dur="8" stem.dir="up"
-                      accid.ges="f"/>
+                    <note xml:id="d418889e9972" pname="e" oct="2" dur="8" stem.dir="up" accid.ges="f"/>
                     <rest xml:id="d418889e9990" dur="16"/>
-                    <note xml:id="d418889e10000" pname="e" oct="2" dur="16" stem.dir="up"
-                      accid.ges="f"/>
+                    <note xml:id="d418889e10000" pname="e" oct="2" dur="16" stem.dir="up" accid.ges="f"/>
                     <note xml:id="d418889e10016" pname="f" oct="2" dur="8" stem.dir="up">
                       <artic artic="stacc" place="above"/>
                     </note>
@@ -1944,18 +1868,15 @@
                   <beam>
                     <note xml:id="d418889e10160" pname="e" accid="f" oct="2" dur="8" stem.dir="up"/>
                     <rest xml:id="d418889e10180" dur="16"/>
-                    <note xml:id="d418889e10190" pname="e" oct="2" dur="16" stem.dir="up"
-                      accid.ges="f"/>
+                    <note xml:id="d418889e10190" pname="e" oct="2" dur="16" stem.dir="up" accid.ges="f"/>
                     <note xml:id="d418889e10206" pname="f" oct="2" dur="8" stem.dir="up">
                       <artic artic="stacc" place="above"/>
                     </note>
                   </beam>
                   <beam>
-                    <note xml:id="d418889e10225" pname="e" oct="2" dur="8" stem.dir="up"
-                      accid.ges="f"/>
+                    <note xml:id="d418889e10225" pname="e" oct="2" dur="8" stem.dir="up" accid.ges="f"/>
                     <rest xml:id="d418889e10243" dur="16"/>
-                    <note xml:id="d418889e10253" pname="e" oct="2" dur="16" stem.dir="up"
-                      accid.ges="f"/>
+                    <note xml:id="d418889e10253" pname="e" oct="2" dur="16" stem.dir="up" accid.ges="f"/>
                     <note xml:id="d418889e10269" pname="f" oct="2" dur="8" stem.dir="up">
                       <artic artic="stacc" place="above"/>
                     </note>
@@ -1968,8 +1889,7 @@
                 <layer n="1">
                   <rest xml:id="d418889e10290" dur="8" dots="1"/>
                   <beam>
-                    <note xml:id="d418889e10299" pname="f" accid="s" oct="3" dur="16"
-                      stem.dir="down" syl="ppp"/>
+                    <note xml:id="d418889e10299" pname="f" accid="s" oct="3" dur="16" stem.dir="down" syl="ppp"/>
                     <note xml:id="d418889e10326" pname="a" oct="3" dur="8" stem.dir="down">
                       <artic artic="stacc" place="above"/>
                     </note>
@@ -1980,8 +1900,7 @@
                       <artic artic="stacc" place="above"/>
                     </note>
                     <rest xml:id="d418889e10370" dur="16"/>
-                    <note xml:id="d418889e10380" pname="f" oct="4" dur="16" stem.dir="up"
-                      accid.ges="s"/>
+                    <note xml:id="d418889e10380" pname="f" oct="4" dur="16" stem.dir="up" accid.ges="s"/>
                     <note xml:id="d418889e10396" pname="a" oct="4" dur="8" stem.dir="up">
                       <artic artic="stacc" place="above"/>
                     </note>
@@ -2019,8 +1938,7 @@
                       <artic artic="stacc" place="above"/>
                     </note>
                     <rest xml:id="d418889e10562" dur="16"/>
-                    <note xml:id="d418889e10572" pname="f" accid="s" oct="4" dur="16" stem.dir="up"
-                      syl="p"/>
+                    <note xml:id="d418889e10572" pname="f" accid="s" oct="4" dur="16" stem.dir="up" syl="p"/>
                     <note xml:id="d418889e10595" pname="a" oct="4" dur="8" stem.dir="up">
                       <artic artic="stacc" place="above"/>
                     </note>
@@ -2030,8 +1948,7 @@
                       <artic artic="stacc" place="above"/>
                     </note>
                     <rest xml:id="d418889e10633" dur="16"/>
-                    <note xml:id="d418889e10643" pname="f" oct="5" dur="16" stem.dir="down"
-                      accid.ges="s"/>
+                    <note xml:id="d418889e10643" pname="f" oct="5" dur="16" stem.dir="down" accid.ges="s"/>
                     <note xml:id="d418889e10659" pname="a" oct="5" dur="8" stem.dir="down">
                       <artic artic="stacc" place="above"/>
                     </note>
@@ -2052,8 +1969,7 @@
                   </beam>
                   <clef shape="G" line="2"/>
                   <beam>
-                    <note xml:id="d418889e10751" pname="f" oct="4" dur="8" stem.dir="up"
-                      accid.ges="s">
+                    <note xml:id="d418889e10751" pname="f" oct="4" dur="8" stem.dir="up" accid.ges="s">
                       <artic artic="stacc" place="above"/>
                     </note>
                     <rest xml:id="d418889e10772" dur="16"/>

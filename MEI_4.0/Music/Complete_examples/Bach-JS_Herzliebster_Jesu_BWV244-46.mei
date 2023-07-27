@@ -1,15 +1,13 @@
-<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<?xml version="1.0" encoding="UTF-8"?>
 <?xml-model href="http://music-encoding.org/schema/4.0.1/mei-all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
 <?xml-model href="http://music-encoding.org/schema/4.0.1/mei-all.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
 <mei xmlns="http://www.music-encoding.org/ns/mei" meiversion="4.0.1">
   <meiHead>
     <fileDesc>
       <titleStmt>
-        <title>Herzliebster Jesu, was hast du verbrochen <titlePart type="subordinate">an electronic
-          transcription</titlePart> </title>
+        <title>Herzliebster Jesu, was hast du verbrochen<titlePart type="subordinate">an electronic transcription</titlePart></title>
         <composer>
-          <persName role="creator" auth="GND" auth.uri="http://d-nb.info/gnd/" codedval="11850553X"
-            >Johann Sebastian Bach</persName>
+          <persName role="creator" auth="GND" auth.uri="http://d-nb.info/gnd/" codedval="11850553X">Johann Sebastian Bach</persName>
         </composer>
         <respStmt>
           <persName role="encoder">Perry Roland</persName>
@@ -17,36 +15,33 @@
       </titleStmt>
       <pubStmt>
         <publisher>
-          <corpName role="publisher" codedval="5115204-6" auth.uri="http://d-nb.info/gnd/"
-            auth="GND">Musikwissenschaftliches Seminar &lt;<geogName codedval="7004442"
-            auth.uri="http://vocab.getty.edu/page/tgn/" auth="TGN">Detmold</geogName>&gt;</corpName>
+          <corpName role="publisher" codedval="5115204-6" auth.uri="http://d-nb.info/gnd/" auth="GND">Musikwissenschaftliches Seminar &lt;
+            <geogName codedval="7004442" auth.uri="http://vocab.getty.edu/page/tgn/" auth="TGN">Detmold</geogName>&gt;</corpName>
         </publisher>
         <address>
           <addrLine>Gartenstrasse 20</addrLine>
-          <addrLine>32756 <geogName>Detmold</geogName> </addrLine>
+          <addrLine>32756<geogName>Detmold</geogName></addrLine>
         </address>
         <date/>
         <availability>
-          <useRestrict>This encoding is in the public domain. However, the sources used to create it
-            may be under copyright. We believe their use by the MEI project for educational and
-            research purposes is covered by the Fair Use doctrine. However, we will remove any
-            material from the project archive when requested to do so by the copyright
-            owner.</useRestrict>
+          <useRestrict>This encoding is in the public domain. However, the sources used to create it may be under copyright. We believe their use by the MEI project for educational and research purposes is covered by the Fair Use doctrine. However, we will remove any material from the project archive when requested to do so by the copyright owner.</useRestrict>
         </availability>
       </pubStmt>
       <seriesStmt>
         <title>MEI Sample Collection</title>
         <funder>
-          <corpName role="funder" codedval="2007744-0" auth.uri="http://d-nb.info/gnd/2007744-0"
-            auth="Deutsche Nationalbibliothek">German Research Foundation<address>
-            <addrLine>Kennedyallee 40</addrLine> <addrLine> <geogName>Bonn </geogName> </addrLine>
+          <corpName role="funder" codedval="2007744-0" auth.uri="http://d-nb.info/gnd/2007744-0" auth="Deutsche Nationalbibliothek">German Research Foundation
+            <address>
+              <addrLine>Kennedyallee 40</addrLine>
+              <addrLine><geogName>Bonn</geogName></addrLine>
             </address> </corpName>
         </funder>
         <funder>
-          <corpName role="funder" codedval="18183-3" auth.uri="http://d-nb.info/gnd/18183-3"
-            auth="Deutsche Nationalbibliothek">National Endowment for the Humanities<address>
-            <addrLine>1100 Pennsylvania Avenue N.W.</addrLine> <addrLine> <geogName>Washington,
-            DC</geogName> </addrLine> </address> </corpName>
+          <corpName role="funder" codedval="18183-3" auth.uri="http://d-nb.info/gnd/18183-3" auth="Deutsche Nationalbibliothek">National Endowment for the Humanities
+            <address>
+              <addrLine>1100 Pennsylvania Avenue N.W.</addrLine>
+              <addrLine><geogName>Washington, DC</geogName></addrLine>
+            </address> </corpName>
         </funder>
         <respStmt>
           <corpName role="publisher">MEI Project</corpName>
@@ -59,15 +54,9 @@
         <source>
           <bibl>
             <identifier type="URI">http://www.jsbchorales.net/bwv.shtml</identifier>
-            <title>
-              <titlePart>Herzliebster Jesu, was hast du verbrochen</titlePart>
-              <titlePart type="uniform">Matthäuspassion &lt;Herzliebster Jesu was hast du
-                verbrochen&gt;</titlePart>
-              <titlePart type="work">BWV 244.46</titlePart>
-            </title>
+            <title><titlePart>Herzliebster Jesu, was hast du verbrochen</titlePart><titlePart type="uniform">Matthäuspassion &lt;Herzliebster Jesu was hast du verbrochen&gt;</titlePart><titlePart type="work">BWV 244.46</titlePart></title>
             <composer>
-              <persName role="composer" auth="GND" auth.uri="http://d-nb.info/gnd/"
-                codedval="11850553X">Johann Sebastian Bach</persName>
+              <persName role="composer" auth="GND" auth.uri="http://d-nb.info/gnd/" codedval="11850553X">Johann Sebastian Bach</persName>
             </composer>
             <librettist>
               <persName role="librettist">Picander, pseud. Christian Friedrich Henrici</persName>
@@ -85,31 +74,32 @@
     <encodingDesc>
       <appInfo>
         <application version="v1.0_beta" xml:id="mei2012To2013">
-            <name>mei2012To2013.xsl</name>
-           <ptr target="https://github.com/music-encoding/encoding-tools/blob/main/mei2012To2013/mei2012To2013.xsl"/>
-         </application>
+          <name>mei2012To2013.xsl</name>
+          <ptr target="https://github.com/music-encoding/encoding-tools/blob/main/mei2012To2013/mei2012To2013.xsl"/>
+        </application>
         <application version="v1.0_beta" xml:id="mei21To30">
-           <name>mei21To30.xsl</name>
-           <ptr target="https://github.com/music-encoding/encoding-tools/blob/main/mei21To30/mei21To30.xsl"/>
+          <name>mei21To30.xsl</name>
+          <ptr target="https://github.com/music-encoding/encoding-tools/blob/main/mei21To30/mei21To30.xsl"/>
         </application>
         <application xml:id="xsl_mxl2mei_2.2.3" version="2.2.3">
           <name>MusicXML2MEI</name>
-          <p> The stylesheet is a converter from MusicXML to MEI.<ptr
-            target="http:music-encoding.org/Support/stylesheets/MusicXML2MEI"/> </p>
+          <p>The stylesheet is a converter from MusicXML to MEI.<ptr target="http:music-encoding.org/Support/stylesheets/MusicXML2MEI"/></p>
         </application>
         <application version="v1.0_beta" xml:id="mei30To40">
           <name>mei30To40.xsl</name>
-<ptr target="https://github.com/music-encoding/encoding-tools/blob/main/mei30To40/mei30To40.xsl"/>
+          <ptr target="https://github.com/music-encoding/encoding-tools/blob/main/mei30To40/mei30To40.xsl"/>
+        </application>
+        <application version="v0.0.1-alpha" xml:id="meiLint_v0.0.1-alpha">
+          <name>meiLint.xsl</name>
+          <ptr target="https://github.com/music-encoding/encoding-tools/blob/main/meiLint/meiLint.xsl"/>
         </application>
       </appInfo>
       <projectDesc>
-        <p> Transcoded from a MusicXML version 1.0 file on 2009-08-06 using an XSLT stylesheet (2mei
-          v. 2.2). </p>
+        <p>Transcoded from a MusicXML version 1.0 file on 2009-08-06 using an XSLT stylesheet (2mei v. 2.2).</p>
       </projectDesc>
       <classDecls>
         <taxonomy>
-          <bibl xml:id="OCLC_DDC"
-            target="http://www.oclc.org/dewey/resources/summaries/default.htm#700">OCLC_DDC</bibl>
+          <bibl xml:id="OCLC_DDC" target="http://www.oclc.org/dewey/resources/summaries/default.htm#700">OCLC_DDC</bibl>
           <category xml:id="_782">
             <altId>782</altId>
             <label>Vocal music</label>
@@ -128,8 +118,7 @@
       <work>
         <title>Herzliebster Jesu, was hast du verbrochen</title>
         <composer>
-          <persName role="composer" auth="GND" auth.uri="http://d-nb.info/gnd/" codedval="11850553X"
-            >Johann Sebastian Bach</persName>
+          <persName role="composer" auth="GND" auth.uri="http://d-nb.info/gnd/" codedval="11850553X">Johann Sebastian Bach</persName>
         </composer>
         <meter count="4" unit="4" sym="common"/>
         <incip>
@@ -145,8 +134,7 @@
                   <label>Alto</label>
                   <labelAbbr>A.</labelAbbr>
                 </staffDef>
-                <staffDef n="3" lines="5" clef.line="2" clef.shape="G" clef.dis="8"
-                  clef.dis.place="below">
+                <staffDef n="3" lines="5" clef.line="2" clef.shape="G" clef.dis="8" clef.dis.place="below">
                   <label>Tenor</label>
                   <labelAbbr>T.</labelAbbr>
                 </staffDef>
@@ -188,10 +176,10 @@
         <history>
           <eventList>
             <event>
-              <p>First performance<date isodate="1727-04-11"/> <geogName>Leipzig</geogName> </p>
+              <p>First performance<date isodate="1727-04-11"/> <geogName>Leipzig</geogName></p>
             </event>
             <event>
-              <p>First publication<date>1830</date> </p>
+              <p>First publication<date>1830</date></p>
             </event>
           </eventList>
         </history>
@@ -248,6 +236,22 @@
         </changeDesc>
         <date isodate="2019-01-03"/>
       </change>
+      <change n="6">
+        <respStmt>
+          <persName>Benjamin W. Bohl</persName>
+          <persName>Stefan Münnich</persName>
+        </respStmt>
+        <changeDesc>
+          <p><list>
+              <li>update xml-model schema references to v4.0.1</li>
+              <li>update meiversion attributes to 4.0.1</li>
+              <li>add missing responsibility statements to change elements</li>
+              <li>unify documentation of mei version upgrades (appInfo and revisionDesc)</li>
+               <li>linted with <ref target="#meiLint_v0.0.1-alpha">meiLint.xsl</ref></li>
+            </list></p>
+        </changeDesc>
+        <date isodate="2023-07-27T17:10:30+02:00"/>
+      </change>
     </revisionDesc>
   </meiHead>
   <music>
@@ -258,8 +262,7 @@
             <staffGrp bar.thru="true" symbol="bracket">
               <staffDef n="1" xml:id="P1" lines="5" clef.line="2" clef.shape="G"/>
               <staffDef n="2" xml:id="P2" lines="5" clef.line="2" clef.shape="G"/>
-              <staffDef n="3" xml:id="P3" lines="5" clef.line="2" clef.shape="G" clef.dis="8"
-                clef.dis.place="below"/>
+              <staffDef n="3" xml:id="P3" lines="5" clef.line="2" clef.shape="G" clef.dis="8" clef.dis.place="below"/>
               <staffDef n="4" xml:id="P4" lines="5" clef.line="4" clef.shape="F"/>
             </staffGrp>
           </scoreDef>
@@ -362,8 +365,7 @@
                 <layer n="1">
                   <note xml:id="d1e600" pname="e" oct="5" dur="4" dur.ppq="2"/>
                   <note xml:id="d1e612" pname="d" oct="5" dur="4" dur.ppq="2"/>
-                  <note xml:id="d1e624" pname="c" oct="5" dur="4" fermata="above" dur.ppq="2"
-                    accid.ges="s"/>
+                  <note xml:id="d1e624" pname="c" oct="5" dur="4" fermata="above" dur.ppq="2" accid.ges="s"/>
                   <note xml:id="d1e640" pname="c" oct="5" dur="4" dur.ppq="2" accid.ges="s"/>
                 </layer>
               </staff>
@@ -371,8 +373,7 @@
                 <layer n="1">
                   <note xml:id="d1e655" pname="c" oct="5" dur="4" dur.ppq="2" accid.ges="s"/>
                   <note xml:id="d1e669" pname="b" oct="4" dur="4" dur.ppq="2"/>
-                  <note xml:id="d1e681" pname="a" oct="4" dur="4" fermata="above" dur.ppq="2"
-                    accid="s"/>
+                  <note xml:id="d1e681" pname="a" oct="4" dur="4" fermata="above" dur.ppq="2" accid="s"/>
                   <note xml:id="d1e699" pname="f" oct="4" dur="4" dur.ppq="2" accid.ges="s"/>
                 </layer>
               </staff>
@@ -380,8 +381,7 @@
                 <layer n="1">
                   <note xml:id="d1e714" pname="g" oct="4" dur="4" dur.ppq="2"/>
                   <note xml:id="d1e726" pname="f" oct="4" dur="4" dur.ppq="2" accid.ges="s"/>
-                  <note xml:id="d1e740" pname="f" oct="4" dur="4" fermata="above" dur.ppq="2"
-                    accid.ges="s"/>
+                  <note xml:id="d1e740" pname="f" oct="4" dur="4" fermata="above" dur.ppq="2" accid.ges="s"/>
                   <note xml:id="d1e756" pname="a" oct="3" dur="4" dur.ppq="2" accid="s"/>
                 </layer>
               </staff>
@@ -389,8 +389,7 @@
                 <layer n="1">
                   <note xml:id="d1e773" pname="a" oct="3" dur="4" dur.ppq="2" accid="s"/>
                   <note xml:id="d1e789" pname="b" oct="3" dur="4" dur.ppq="2"/>
-                  <note xml:id="d1e801" pname="f" oct="3" dur="4" fermata="above" dur.ppq="2"
-                    accid.ges="s"/>
+                  <note xml:id="d1e801" pname="f" oct="3" dur="4" fermata="above" dur.ppq="2" accid.ges="s"/>
                   <note xml:id="d1e817" pname="f" oct="3" dur="4" dur.ppq="2" accid.ges="s"/>
                 </layer>
               </staff>
@@ -513,8 +512,7 @@
                     <note xml:id="d1e1466" pname="f" oct="4" dur="8" dur.ppq="1" accid.ges="s"/>
                   </beam>
                   <note xml:id="d1e1482" pname="g" oct="4" dur="4" dur.ppq="2" accid="n"/>
-                  <note xml:id="d1e1496" pname="f" oct="4" dur="4" fermata="above" dur.ppq="2"
-                    accid.ges="s"/>
+                  <note xml:id="d1e1496" pname="f" oct="4" dur="4" fermata="above" dur.ppq="2" accid.ges="s"/>
                   <note xml:id="d1e1512" pname="b" oct="4" dur="4" dur.ppq="2"/>
                 </layer>
               </staff>
@@ -638,8 +636,7 @@
               <staff n="1">
                 <layer n="1">
                   <note xml:id="d1e2212" pname="g" oct="4" dur="2" dur.ppq="4"/>
-                  <note xml:id="d1e2224" pname="f" oct="4" dur="4" fermata="above" dur.ppq="2"
-                    accid.ges="s"/>
+                  <note xml:id="d1e2224" pname="f" oct="4" dur="4" fermata="above" dur.ppq="2" accid.ges="s"/>
                   <note xml:id="d1e2240" pname="f" oct="5" dur="4" dur.ppq="2" accid.ges="s"/>
                 </layer>
               </staff>
@@ -650,8 +647,7 @@
                     <note xml:id="d1e2271" pname="d" oct="4" dur="8" dur.ppq="1" accid="s"/>
                   </beam>
                   <note xml:id="d1e2289" pname="e" oct="4" dur="4" dur.ppq="2"/>
-                  <note xml:id="d1e2301" pname="d" oct="4" dur="4" fermata="above" dur.ppq="2"
-                    accid="n"/>
+                  <note xml:id="d1e2301" pname="d" oct="4" dur="4" fermata="above" dur.ppq="2" accid="n"/>
                   <note xml:id="d1e2317" pname="b" oct="4" dur="4" dur.ppq="2"/>
                 </layer>
               </staff>
@@ -700,8 +696,7 @@
                 <layer n="1">
                   <note xml:id="d1e2548" pname="c" oct="4" dur="4" dur.ppq="2" accid.ges="s"/>
                   <note xml:id="d1e2562" pname="f" oct="3" dur="4" dur.ppq="2" accid.ges="s"/>
-                  <note xml:id="d1e2576" pname="f" oct="4" dur="4" dots="1" dur.ppq="3"
-                    accid.ges="s"/>
+                  <note xml:id="d1e2576" pname="f" oct="4" dur="4" dots="1" dur.ppq="3" accid.ges="s"/>
                   <note xml:id="d1e2591" pname="e" oct="4" dur="8" dur.ppq="1"/>
                 </layer>
               </staff>
@@ -719,26 +714,22 @@
             <measure n="11" xml:id="d1e2660" right="end">
               <staff n="1">
                 <layer n="1">
-                  <note xml:id="d1e2662" pname="b" oct="4" dur="2" dots="1" fermata="above"
-                    dur.ppq="6"/>
+                  <note xml:id="d1e2662" pname="b" oct="4" dur="2" dots="1" fermata="above" dur.ppq="6"/>
                 </layer>
               </staff>
               <staff n="2">
                 <layer n="1">
-                  <note xml:id="d1e2681" pname="f" oct="4" dur="2" dots="1" fermata="above"
-                    dur.ppq="6" accid.ges="s"/>
+                  <note xml:id="d1e2681" pname="f" oct="4" dur="2" dots="1" fermata="above" dur.ppq="6" accid.ges="s"/>
                 </layer>
               </staff>
               <staff n="3">
                 <layer n="1">
-                  <note xml:id="d1e2702" pname="d" oct="4" dur="2" dots="1" fermata="above"
-                    dur.ppq="6" accid="s"/>
+                  <note xml:id="d1e2702" pname="d" oct="4" dur="2" dots="1" fermata="above" dur.ppq="6" accid="s"/>
                 </layer>
               </staff>
               <staff n="4">
                 <layer n="1">
-                  <note xml:id="d1e2725" pname="b" oct="2" dur="2" dots="1" fermata="above"
-                    dur.ppq="6"/>
+                  <note xml:id="d1e2725" pname="b" oct="2" dur="2" dots="1" fermata="above" dur.ppq="6"/>
                 </layer>
               </staff>
               <fermata tstamp="1" staff="1" startid="#d1e2662" form="norm" place="above"/>

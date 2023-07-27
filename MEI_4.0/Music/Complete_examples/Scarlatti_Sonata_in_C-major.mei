@@ -1,12 +1,11 @@
-<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<?xml version="1.0" encoding="UTF-8"?>
 <?xml-model href="http://music-encoding.org/schema/4.0.1/mei-all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
 <?xml-model href="http://music-encoding.org/schema/4.0.1/mei-all.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
-<mei xmlns:xlink="http://www.w3.org/1999/xlink" xmlns="http://www.music-encoding.org/ns/mei"
-  meiversion="4.0.1">
+<mei xmlns="http://www.music-encoding.org/ns/mei" meiversion="4.0.1">
   <meiHead>
     <fileDesc>
       <titleStmt>
-        <title>Suite I <titlePart type="subordinate">an electronic transcription</titlePart> </title>
+        <title>Suite I<titlePart type="subordinate">an electronic transcription</titlePart></title>
         <composer>
           <persName role="creator">Domenico Scarlatti</persName>
         </composer>
@@ -17,45 +16,35 @@
       </titleStmt>
       <pubStmt>
         <publisher>
-          <corpName role="publisher" codedval="5115204-6" auth.uri="http://d-nb.info/gnd/"
-            auth="GND">Musikwissenschaftliches Seminar, Detmold</corpName>
+          <corpName role="publisher" codedval="5115204-6" auth.uri="http://d-nb.info/gnd/" auth="GND">Musikwissenschaftliches Seminar, Detmold</corpName>
         </publisher>
         <address>
           <addrLine>Gartenstrasse 20</addrLine>
-          <addrLine>32756 <geogName codedval="7004442" auth.uri="http://vocab.getty.edu/page/tgn/"
-            auth="TGN">Detmold</geogName> </addrLine>
-          <addrLine>
-            <geogName codedval="7000084" auth.uri="http://vocab.getty.edu/page/tgn/" auth="TGN"
-              >Germany</geogName>
-          </addrLine>
+          <addrLine>32756<geogName codedval="7004442" auth.uri="http://vocab.getty.edu/page/tgn/" auth="TGN">Detmold</geogName></addrLine>
+          <addrLine><geogName codedval="7000084" auth.uri="http://vocab.getty.edu/page/tgn/" auth="TGN">Germany</geogName></addrLine>
         </address>
         <date>2011</date>
         <availability>
-          <useRestrict>This encoding is in the public domain. However, the sources used to create it
-            may be under copyright. We believe their use by the MEI project for educational and
-            research purposes is covered by the Fair Use doctrine. However, we will remove any
-            material from the project archive when requested to do so by the copyright
-            owner.</useRestrict>
+          <useRestrict>This encoding is in the public domain. However, the sources used to create it may be under copyright. We believe their use by the MEI project for educational and research purposes is covered by the Fair Use doctrine. However, we will remove any material from the project archive when requested to do so by the copyright owner.</useRestrict>
         </availability>
       </pubStmt>
       <seriesStmt>
         <title>MEI Sample Collection</title>
         <funder>
-          <corpName role="funder" codedval="2007744-0" auth.uri="http://d-nb.info/gnd/" auth="GND"
-            >German Research Foundation<address> <addrLine>Kennedyallee 40</addrLine> <addrLine>
-            <geogName codedval="7005090" auth.uri="http://vocab.getty.edu/page/tgn/" auth="TGN"
-            >Bonn</geogName> </addrLine> <addrLine> <geogName codedval="7000084"
-            auth.uri="http://vocab.getty.edu/page/tgn/" auth="TGN">Germany</geogName> </addrLine>
+          <corpName role="funder" codedval="2007744-0" auth.uri="http://d-nb.info/gnd/" auth="GND">German Research Foundation
+            <address>
+              <addrLine>Kennedyallee 40</addrLine>
+              <addrLine><geogName codedval="7005090" auth.uri="http://vocab.getty.edu/page/tgn/" auth="TGN">Bonn</geogName></addrLine>
+              <addrLine><geogName codedval="7000084" auth.uri="http://vocab.getty.edu/page/tgn/" auth="TGN">Germany</geogName></addrLine>
             </address> </corpName>
         </funder>
         <funder>
-          <corpName role="funder" codedval="18183-3" auth.uri="http://d-nb.info/gnd/18183-3"
-            auth="Deutsche Nationalbibliothek">National Endowment for the Humanities<address>
-            <addrLine>1100 Pennsylvania Avenue N.W.</addrLine> <addrLine> <geogName
-            codedval="7013962" auth.uri="http://vocab.getty.edu/page/tgn/" auth="TGN">Washington,
-            DC</geogName> 20004</addrLine> <addrLine> <geogName codedval="7012149"
-            auth.uri="http://vocab.getty.edu/page/tgn/" auth="TGN">United States</geogName>
-            </addrLine> </address> </corpName>
+          <corpName role="funder" codedval="18183-3" auth.uri="http://d-nb.info/gnd/18183-3" auth="Deutsche Nationalbibliothek">National Endowment for the Humanities
+            <address>
+              <addrLine>1100 Pennsylvania Avenue N.W.</addrLine>
+              <addrLine><geogName codedval="7013962" auth.uri="http://vocab.getty.edu/page/tgn/" auth="TGN">Washington, DC</geogName>20004</addrLine>
+              <addrLine><geogName codedval="7012149" auth.uri="http://vocab.getty.edu/page/tgn/" auth="TGN">United States</geogName></addrLine>
+            </address> </corpName>
         </funder>
         <respStmt>
           <corpName role="publisher">MEI Project</corpName>
@@ -71,15 +60,13 @@
             <title type="work">L.1</title>
             <title type="uniform">Sonaten, Tasteninstr., K 514</title>
             <composer>
-              <persName role="composer" codedval="118804952" auth.uri="http://d-nb.info/gnd/"
-                auth="GND">Domenico Scarlatti</persName>
+              <persName role="composer" codedval="118804952" auth.uri="http://d-nb.info/gnd/" auth="GND">Domenico Scarlatti</persName>
             </composer>
           </bibl>
         </source>
         <source>
           <bibl>
-            <identifier type="URI"
-              >http://kern.ccarh.org/cgi-bin/ksdata?l=users/craig/classical/scarlatti/longo&amp;file=L001K514.krn&amp;f=xml</identifier>
+            <identifier type="URI">http://kern.ccarh.org/cgi-bin/ksdata?l=users/craig/classical/scarlatti/longo&amp;file=L001K514.krn&amp;f=xml</identifier>
             <imprint>
               <date isodate="2011-10-13"/>
               <respStmt>
@@ -99,25 +86,28 @@
     <encodingDesc>
       <appInfo>
         <application version="v1.0_beta" xml:id="mei2012To2013">
-            <name>mei2012To2013.xsl</name>
-           <ptr target="https://github.com/music-encoding/encoding-tools/blob/main/mei2012To2013/mei2012To2013.xsl"/>
-         </application>
+          <name>mei2012To2013.xsl</name>
+          <ptr target="https://github.com/music-encoding/encoding-tools/blob/main/mei2012To2013/mei2012To2013.xsl"/>
+        </application>
         <application version="v1.0_beta" xml:id="mei21To30">
-           <name>mei21To30.xsl</name>
-           <ptr target="https://github.com/music-encoding/encoding-tools/blob/main/mei21To30/mei21To30.xsl"/>
+          <name>mei21To30.xsl</name>
+          <ptr target="https://github.com/music-encoding/encoding-tools/blob/main/mei21To30/mei21To30.xsl"/>
         </application>
         <application xml:id="xsl_mxl2mei_2.2.3" version="2.2.3">
           <name>MusicXML2MEI</name>
         </application>
         <application version="v1.0_beta" xml:id="mei30To40">
           <name>mei30To40.xsl</name>
-<ptr target="https://github.com/music-encoding/encoding-tools/blob/main/mei30To40/mei30To40.xsl"/>
+          <ptr target="https://github.com/music-encoding/encoding-tools/blob/main/mei30To40/mei30To40.xsl"/>
+        </application>
+        <application version="v0.0.1-alpha" xml:id="meiLint_v0.0.1-alpha">
+          <name>meiLint.xsl</name>
+          <ptr target="https://github.com/music-encoding/encoding-tools/blob/main/meiLint/meiLint.xsl"/>
         </application>
       </appInfo>
       <classDecls>
         <taxonomy>
-          <bibl xml:id="OCLC_DDC"
-            target="http://www.oclc.org/dewey/resources/summaries/default.htm#700">OCLC_DDC</bibl>
+          <bibl xml:id="OCLC_DDC" target="http://www.oclc.org/dewey/resources/summaries/default.htm#700">OCLC_DDC</bibl>
           <category xml:id="_786">
             <altId>786</altId>
             <label>Keyboard &amp; other instruments</label>
@@ -141,8 +131,7 @@
         <title>Suite I</title>
         <title type="uniform">Sonaten, Tasteninstr., K 514</title>
         <composer>
-          <persName role="composer" codedval="118804952" auth.uri="http://d-nb.info/gnd/" auth="GND"
-            >Domenico Scarlatti</persName>
+          <persName role="composer" codedval="118804952" auth.uri="http://d-nb.info/gnd/" auth="GND">Domenico Scarlatti</persName>
         </composer>
         <key pname="c" mode="major"/>
         <meter count="2" unit="2" sym="cut"/>
@@ -212,30 +201,28 @@
     <revisionDesc>
       <change n="1">
         <respStmt>
-           <name>Unknown</name>
+          <name>Unknown</name>
         </respStmt>
         <changeDesc>
-          <p>The original was transcoded from a Humdrum file and validated using Finale 2003 for
-            Windows.</p>
+          <p>The original was transcoded from a Humdrum file and validated using Finale 2003 for Windows.</p>
         </changeDesc>
         <date notbefore="2005-06-30" notafter="2005"/>
       </change>
       <change n="2">
         <respStmt>
-          <persName xml:id="MH"> Maja Hartwig </persName>
+          <persName xml:id="MH">Maja Hartwig</persName>
         </respStmt>
         <changeDesc>
-          <p>Transcoded from a MusicXML version 0.6a file on 2011-05-12 using the <ref
-            target="#xsl_mxl2mei_2.2.3">musicxml2mei</ref> stylesheet. </p>
+          <p>Transcoded from a MusicXML version 0.6a file on 2011-05-12 using the<ref target="#xsl_mxl2mei_2.2.3">musicxml2mei</ref>stylesheet.</p>
         </changeDesc>
         <date isodate="2011-05-12"/>
       </change>
       <change n="3">
         <respStmt>
-          <persName xml:id="KR"> Kristina Richts </persName>
+          <persName xml:id="KR">Kristina Richts</persName>
         </respStmt>
         <changeDesc>
-          <p> Cleaned up MEI file automatically using <ref target="#xsl_ppq">ppq.xsl</ref>. </p>
+          <p>Cleaned up MEI file automatically using<ref target="#xsl_ppq">ppq.xsl</ref>.</p>
         </changeDesc>
         <date isodate="2011-10-22"/>
       </change>
@@ -247,8 +234,7 @@
       </change>
       <change n="5" resp="#KR">
         <changeDesc>
-          <p> Cleaned up MEI file automatically using <ref target="#xsl_header">Header.xsl</ref>.
-          </p>
+          <p>Cleaned up MEI file automatically using<ref target="#xsl_header">Header.xsl</ref>.</p>
         </changeDesc>
         <date isodate="2011-12-01"/>
       </change>
@@ -269,6 +255,22 @@
           <p>Converted to MEI version 4.0.0 using mei30To40.xsl, version 1.0 beta</p>
         </changeDesc>
         <date isodate="2019-01-03"/>
+      </change>
+      <change n="9">
+        <respStmt>
+          <persName>Benjamin W. Bohl</persName>
+          <persName>Stefan Münnich</persName>
+        </respStmt>
+        <changeDesc>
+          <p><list>
+              <li>update xml-model schema references to v4.0.1</li>
+              <li>update meiversion attributes to 4.0.1</li>
+              <li>add missing responsibility statements to change elements</li>
+              <li>unify documentation of mei version upgrades (appInfo and revisionDesc)</li>
+               <li>linted with <ref target="#meiLint_v0.0.1-alpha">meiLint.xsl</ref></li>
+            </list></p>
+        </changeDesc>
+        <date isodate="2023-07-27T17:08:26+02:00"/>
       </change>
     </revisionDesc>
   </meiHead>
@@ -578,8 +580,7 @@
                   <note xml:id="d1e1168" pname="b" oct="3" dur="2" stem.dir="up"/>
                   <beam>
                     <note pname="a" oct="3" dur="16" stem.dir="up" grace="unknown"/>
-                    <note pname="b" oct="3" dur="16" stem.dir="up" grace="unknown" xml:id="d1e1169"
-                    />
+                    <note pname="b" oct="3" dur="16" stem.dir="up" grace="unknown" xml:id="d1e1169"/>
                   </beam>
                 </layer>
               </staff>
@@ -1120,8 +1121,7 @@
                     <note xml:id="d1e4095" pname="g" oct="4"/>
                     <note xml:id="d1e4112" pname="e" oct="5"/>
                   </chord>
-                  <note xml:id="d1e4155" pname="c" oct="5" dur="4" dots="1" stem.dir="down"
-                    syl="&lt; ["/>
+                  <note xml:id="d1e4155" pname="c" oct="5" dur="4" dots="1" stem.dir="down" syl="&lt; ["/>
                   <beam>
                     <note xml:id="d1e4175" pname="b" oct="4" dur="16" stem.dir="down" syl="("/>
                     <note xml:id="d1e4198" pname="c" oct="5" dur="16" stem.dir="down" syl="["/>
@@ -1437,7 +1437,7 @@
                     <note xml:id="d1e5733" pname="d" accid="s" oct="4"/>
                   </chord>
                   <rest xml:id="d1e5752" dur="2"/>
-                  <!--<clefchange shape="G" line="2"/>-->
+                  <!-- <clefchange shape="G" line="2"/> -->
                 </layer>
               </staff>
             </measure>
@@ -1865,12 +1865,12 @@
                   <note xml:id="d1e8048" pname="c" oct="5" dur="4" stem.dir="down">
                     <artic artic="stacc" place="above"/>
                   </note>
-                  <!--<clefchange shape="F" line="4"/>-->
+                  <!-- <clefchange shape="F" line="4"/> -->
                   <note xml:id="d1e8071" pname="c" oct="2" dur="4" stem.dir="up">
                     <artic artic="stacc" place="above"/>
                   </note>
                   <note xml:id="d1e8088" pname="g" oct="1" dur="2" stem.dir="up"/>
-                  <!--<clefchange shape="G" line="2"/>-->
+                  <!-- <clefchange shape="G" line="2"/> -->
                 </layer>
               </staff>
               <tie tstamp="1.25" staff="1" curvedir="above" startid="#d1e7930" endid="#d1e7948"/>
@@ -1899,12 +1899,12 @@
                   <note xml:id="d1e8242" pname="c" oct="5" dur="4" stem.dir="down">
                     <artic artic="stacc" place="above"/>
                   </note>
-                  <!--<clefchange shape="F" line="4"/>-->
+                  <!-- <clefchange shape="F" line="4"/> -->
                   <note xml:id="d1e8265" pname="c" oct="2" dur="4" stem.dir="up">
                     <artic artic="stacc" place="above"/>
                   </note>
                   <note xml:id="d1e8282" pname="g" oct="1" dur="2" stem.dir="up"/>
-                  <!--<clefchange shape="G" line="2"/>-->
+                  <!-- <clefchange shape="G" line="2"/> -->
                 </layer>
               </staff>
               <tie tstamp="1.25" staff="1" curvedir="above" startid="#d1e8124" endid="#d1e8142"/>
@@ -1933,7 +1933,7 @@
                   <note xml:id="d1e8436" pname="c" oct="5" dur="4" stem.dir="down">
                     <artic artic="stacc" place="above"/>
                   </note>
-                  <!--<clefchange shape="F" line="4"/>-->
+                  <!-- <clefchange shape="F" line="4"/> -->
                   <note xml:id="d1e8459" pname="c" oct="2" dur="4" stem.dir="up">
                     <artic artic="stacc" place="above"/>
                   </note>
@@ -2040,7 +2040,7 @@
               <staff n="2">
                 <layer n="1">
                   <note xml:id="d1e9172" pname="c" oct="2" dur="2" stem.dir="up"/>
-                  <!--<clefchange shape="G" line="2"/>-->
+                  <!-- <clefchange shape="G" line="2"/> -->
                   <chord xml:id="d1021e1" dur="4" stem.dir="up">
                     <artic artic="stacc" place="above"/>
                     <artic artic="stacc" place="above"/>
@@ -2128,8 +2128,7 @@
               <staff n="1">
                 <layer n="1">
                   <rest xml:id="d1e9605" dur="2"/>
-                  <note xml:id="d1e9613" pname="d" oct="6" dur="4" dots="1" stem.dir="down"
-                    syl="&lt; ["/>
+                  <note xml:id="d1e9613" pname="d" oct="6" dur="4" dots="1" stem.dir="down" syl="&lt; ["/>
                   <beam>
                     <note xml:id="d1e9633" pname="c" oct="6" dur="16" stem.dir="down" syl="("/>
                     <note xml:id="d1e9656" pname="d" oct="6" dur="16" stem.dir="down" syl="["/>
@@ -2187,7 +2186,7 @@
                     <note xml:id="d1e9932" pname="c" oct="4"/>
                     <note xml:id="d1e9946" pname="c" oct="5"/>
                   </chord>
-                  <!--<clefchange shape="F" line="4"/>-->
+                  <!-- <clefchange shape="F" line="4"/> -->
                   <beam>
                     <note xml:id="d1e9967" pname="c" oct="4" dur="16" stem.dir="down"/>
                     <note xml:id="d1e9983" pname="g" oct="3" dur="16" stem.dir="down"/>
@@ -2326,8 +2325,7 @@
                     <note xml:id="d1e10688" pname="c" oct="5"/>
                     <note xml:id="d1e10705" pname="a" oct="5"/>
                   </chord>
-                  <note xml:id="d1e10746" pname="f" oct="5" dur="4" dots="1" stem.dir="down"
-                    syl="&lt; ["/>
+                  <note xml:id="d1e10746" pname="f" oct="5" dur="4" dots="1" stem.dir="down" syl="&lt; ["/>
                   <beam>
                     <note xml:id="d1e10766" pname="e" oct="5" dur="16" stem.dir="down" syl="("/>
                     <note xml:id="d1e10789" pname="f" oct="5" dur="16" stem.dir="down" syl="["/>

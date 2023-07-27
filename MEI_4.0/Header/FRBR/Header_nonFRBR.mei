@@ -1,15 +1,13 @@
-<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<?xml version="1.0" encoding="UTF-8"?>
 <?xml-model href="http://music-encoding.org/schema/4.0.1/mei-all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
 <?xml-model href="http://music-encoding.org/schema/4.0.1/mei-all.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
-<mei xmlns:xlink="http://www.w3.org/1999/xlink" xmlns="http://www.music-encoding.org/ns/mei"
-  meiversion="4.0.1">
+<mei xmlns="http://www.music-encoding.org/ns/mei" meiversion="4.0.1">
   <meiHead>
     <fileDesc>
       <titleStmt>
         <title>Example of a header without using the FRBR module</title>
         <composer>
-          <persName role="composer" auth="GND" auth.uri="http://d-nb.info/gnd/" codedval="118611666"
-            >Robert Schumann</persName>
+          <persName role="composer" auth="GND" auth.uri="http://d-nb.info/gnd/" codedval="118611666">Robert Schumann</persName>
         </composer>
         <respStmt>
           <persName role="encoder">Kristina Richts</persName>
@@ -22,26 +20,28 @@
     <encodingDesc>
       <appInfo>
         <application version="v1.0_beta" xml:id="mei2012To2013">
-            <name>mei2012To2013.xsl</name>
-           <ptr target="https://github.com/music-encoding/encoding-tools/blob/main/mei2012To2013/mei2012To2013.xsl"/>
-         </application>
+          <name>mei2012To2013.xsl</name>
+          <ptr target="https://github.com/music-encoding/encoding-tools/blob/main/mei2012To2013/mei2012To2013.xsl"/>
+        </application>
         <application version="v1.0_beta" xml:id="mei21To30">
-           <name>mei21To30.xsl</name>
-           <ptr target="https://github.com/music-encoding/encoding-tools/blob/main/mei21To30/mei21To30.xsl"/>
+          <name>mei21To30.xsl</name>
+          <ptr target="https://github.com/music-encoding/encoding-tools/blob/main/mei21To30/mei21To30.xsl"/>
         </application>
         <application version="v1.0_beta" xml:id="mei30To40">
           <name>mei30To40.xsl</name>
           <ptr target="https://github.com/music-encoding/encoding-tools/blob/main/mei30To40/mei30To40.xsl"/>
         </application>
+        <application version="v0.0.1-alpha" xml:id="meiLint_v0.0.1-alpha">
+          <name>meiLint.xsl</name>
+          <ptr target="https://github.com/music-encoding/encoding-tools/blob/main/meiLint/meiLint.xsl"/>
+        </application>
       </appInfo>
       <editorialDecl>
-        <p> The encoding contains a detailed meiHead based on the mei 2013 schema, but without using
-          the FRBR entities. </p>
+        <p>The encoding contains a detailed meiHead based on the mei 2013 schema, but without using the FRBR entities.</p>
       </editorialDecl>
       <classDecls>
         <taxonomy>
-          <bibl xml:id="OCLC" target="http://www.oclc.org/dewey/resources/summaries/default.htm#700"
-            >OCLC</bibl>
+          <bibl xml:id="OCLC" target="http://www.oclc.org/dewey/resources/summaries/default.htm#700">OCLC</bibl>
           <category xml:id="_782.42">
             <altId>782.42</altId>
             <label>Song</label>
@@ -69,12 +69,10 @@
         <title type="main">Der Abendstern</title>
         <title type="uniform">Lieder für die Jugend &lt;Der Abendstern&gt;</title>
         <composer>
-          <persName role="composer" auth="GND" auth.uri="http://d-nb.info/gnd/" codedval="118611666"
-            >Robert Schumann</persName>
+          <persName role="composer" auth="GND" auth.uri="http://d-nb.info/gnd/" codedval="118611666">Robert Schumann</persName>
         </composer>
         <lyricist>
-          <persName role="lyricist" auth="GND" auth.uri="http://d-nb.info/gnd/" codedval="118552589"
-            >August Heinrich Hoffmann von Fallersleben</persName>
+          <persName role="lyricist" auth="GND" auth.uri="http://d-nb.info/gnd/" codedval="118552589">August Heinrich Hoffmann von Fallersleben</persName>
         </lyricist>
         <key>A major</key>
         <tempo>Langsam.</tempo>
@@ -86,16 +84,13 @@
           <score>
             <scoreDef>
               <staffGrp>
-                <staffDef n="1" lines="5" meter.count="2" meter.unit="4" clef.shape="G"
-                  clef.line="2" key.sig="3s">
+                <staffDef n="1" lines="5" meter.count="2" meter.unit="4" clef.shape="G" clef.line="2" key.sig="3s">
                   <label>Singstimme</label>
                 </staffDef>
                 <staffGrp symbol="brace">
                   <label>Pianoforte</label>
-                  <staffDef n="2" lines="5" meter.count="2" meter.unit="4" clef.shape="G"
-                    clef.line="2" key.sig="3s"/>
-                  <staffDef n="3" lines="5" meter.count="2" meter.unit="4" clef.shape="F"
-                    clef.line="4" key.sig="3s"/>
+                  <staffDef n="2" lines="5" meter.count="2" meter.unit="4" clef.shape="G" clef.line="2" key.sig="3s"/>
+                  <staffDef n="3" lines="5" meter.count="2" meter.unit="4" clef.shape="F" clef.line="4" key.sig="3s"/>
                 </staffGrp>
               </staffGrp>
             </scoreDef>
@@ -282,12 +277,10 @@
         <title type="main">Schmetterling</title>
         <title type="uniform">Lieder für die Jugend &lt;Schmetterling&gt;</title>
         <composer>
-          <persName role="composer" auth="GND" auth.uri="http://d-nb.info/gnd/" codedval="118611666"
-            >Robert Schumann</persName>
+          <persName role="composer" auth="GND" auth.uri="http://d-nb.info/gnd/" codedval="118611666">Robert Schumann</persName>
         </composer>
         <lyricist>
-          <persName role="lyricist" auth="GND" auth.uri="http://d-nb.info/gnd/" codedval="118552589"
-            >August Heinrich Hoffmann von Fallersleben</persName>
+          <persName role="lyricist" auth="GND" auth.uri="http://d-nb.info/gnd/" codedval="118552589">August Heinrich Hoffmann von Fallersleben</persName>
         </lyricist>
         <key>D major</key>
         <tempo>Schnell.</tempo>
@@ -299,19 +292,17 @@
           <score>
             <scoreDef>
               <pgHead>
-                <title>2.<lb/>SCHMETTERLING.</title>
+                <title>2.
+                  <lb/>SCHMETTERLING.</title>
               </pgHead>
               <staffGrp>
-                <staffDef n="1" lines="5" meter.count="3" meter.unit="8" clef.shape="G"
-                  clef.line="2" key.sig="2s">
+                <staffDef n="1" lines="5" meter.count="3" meter.unit="8" clef.shape="G" clef.line="2" key.sig="2s">
                   <label>Singstimme</label>
                 </staffDef>
                 <staffGrp symbol="brace">
                   <label>Pianoforte</label>
-                  <staffDef n="2" lines="5" meter.count="3" meter.unit="8" clef.shape="G"
-                    clef.line="2" key.sig="2s"/>
-                  <staffDef n="3" lines="5" meter.count="3" meter.unit="8" clef.shape="F"
-                    clef.line="4" key.sig="2s"/>
+                  <staffDef n="2" lines="5" meter.count="3" meter.unit="8" clef.shape="G" clef.line="2" key.sig="2s"/>
+                  <staffDef n="3" lines="5" meter.count="3" meter.unit="8" clef.shape="F" clef.line="4" key.sig="2s"/>
                 </staffGrp>
               </staffGrp>
             </scoreDef>
@@ -557,12 +548,10 @@
         <title type="main">Frühlingsbotschaft</title>
         <title type="uniform">Lieder für die Jugend &lt;Frühlingsbotschaft&gt;</title>
         <composer>
-          <persName role="composer" auth="GND" auth.uri="http://d-nb.info/gnd/" codedval="118611666"
-            >Robert Schumann</persName>
+          <persName role="composer" auth="GND" auth.uri="http://d-nb.info/gnd/" codedval="118611666">Robert Schumann</persName>
         </composer>
         <lyricist>
-          <persName role="lyricist" auth="GND" auth.uri="http://d-nb.info/gnd/" codedval="118552589"
-            >August Heinrich Hoffmann von Fallersleben</persName>
+          <persName role="lyricist" auth="GND" auth.uri="http://d-nb.info/gnd/" codedval="118552589">August Heinrich Hoffmann von Fallersleben</persName>
         </lyricist>
         <key>G major</key>
         <tempo>Munter.</tempo>
@@ -574,19 +563,17 @@
           <score>
             <scoreDef>
               <pgHead>
-                <title>3.<lb/>FRÜHLINGSBOTSCHAFT.</title>
+                <title>3.
+                  <lb/>FRÜHLINGSBOTSCHAFT.</title>
               </pgHead>
               <staffGrp>
-                <staffDef n="1" lines="5" meter.count="2" meter.unit="4" clef.shape="G"
-                  clef.line="2" key.sig="1s">
+                <staffDef n="1" lines="5" meter.count="2" meter.unit="4" clef.shape="G" clef.line="2" key.sig="1s">
                   <label>Singstimme</label>
                 </staffDef>
                 <staffGrp symbol="brace">
                   <label>Pianoforte</label>
-                  <staffDef n="2" lines="5" meter.count="2" meter.unit="4" clef.shape="G"
-                    clef.line="2" key.sig="1s"/>
-                  <staffDef n="3" lines="5" meter.count="2" meter.unit="4" clef.shape="F"
-                    clef.line="4" key.sig="1s"/>
+                  <staffDef n="2" lines="5" meter.count="2" meter.unit="4" clef.shape="G" clef.line="2" key.sig="1s"/>
+                  <staffDef n="3" lines="5" meter.count="2" meter.unit="4" clef.shape="F" clef.line="4" key.sig="1s"/>
                 </staffGrp>
               </staffGrp>
             </scoreDef>
@@ -785,12 +772,10 @@
         <title type="main">Frühlingsgruss</title>
         <title type="uniform">Lieder für die Jugend &lt;Frühlingsgruss&gt;</title>
         <composer>
-          <persName role="composer" auth="GND" auth.uri="http://d-nb.info/gnd/" codedval="118611666"
-            >Robert Schumann</persName>
+          <persName role="composer" auth="GND" auth.uri="http://d-nb.info/gnd/" codedval="118611666">Robert Schumann</persName>
         </composer>
         <lyricist>
-          <persName role="lyricist" auth="GND" auth.uri="http://d-nb.info/gnd/" codedval="118552589"
-            >August Heinrich Hoffmann von Fallersleben</persName>
+          <persName role="lyricist" auth="GND" auth.uri="http://d-nb.info/gnd/" codedval="118552589">August Heinrich Hoffmann von Fallersleben</persName>
         </lyricist>
         <key>G major</key>
         <tempo>Sehr mässig.</tempo>
@@ -802,19 +787,17 @@
           <score>
             <scoreDef>
               <pgHead>
-                <title>4.<lb/>FRÜHLINGSGRUSS.</title>
+                <title>4.
+                  <lb/>FRÜHLINGSGRUSS.</title>
               </pgHead>
               <staffGrp>
-                <staffDef n="1" lines="5" meter.count="3" meter.unit="4" clef.shape="G"
-                  clef.line="2" key.sig="1s">
+                <staffDef n="1" lines="5" meter.count="3" meter.unit="4" clef.shape="G" clef.line="2" key.sig="1s">
                   <label>Singstimme</label>
                 </staffDef>
                 <staffGrp symbol="brace">
                   <label>Pianoforte</label>
-                  <staffDef n="2" lines="5" meter.count="3" meter.unit="4" clef.shape="G"
-                    clef.line="2" key.sig="1s"/>
-                  <staffDef n="3" lines="5" meter.count="3" meter.unit="4" clef.shape="F"
-                    clef.line="4" key.sig="1s"/>
+                  <staffDef n="2" lines="5" meter.count="3" meter.unit="4" clef.shape="G" clef.line="2" key.sig="1s"/>
+                  <staffDef n="3" lines="5" meter.count="3" meter.unit="4" clef.shape="F" clef.line="4" key.sig="1s"/>
                 </staffGrp>
               </staffGrp>
             </scoreDef>
@@ -1013,15 +996,12 @@
     <manifestationList>
       <manifestation>
         <titleStmt>
-          <title type="main">Lieder-Album für die Jugend für Singstimme(n) und Klavier op.
-            79</title>
+          <title type="main">Lieder-Album für die Jugend für Singstimme(n) und Klavier op. 79</title>
           <title type="uniform">Lieder für die Jugend</title>
           <respStmt>
-            <persName role="composer" auth="GND" auth.uri="http://d-nb.info/gnd/"
-              codedval="118611666">Robert Schumann</persName>
+            <persName role="composer" auth="GND" auth.uri="http://d-nb.info/gnd/" codedval="118611666">Robert Schumann</persName>
             <resp>Herausgegeben von</resp>
-            <persName role="editor" auth.uri="http://d-nb.info/gnd/" auth="GND" codedval="10400097X"
-              >Ulrich Mahlert</persName>
+            <persName role="editor" auth.uri="http://d-nb.info/gnd/" auth="GND" codedval="10400097X">Ulrich Mahlert</persName>
           </respStmt>
         </titleStmt>
         <editionStmt>
@@ -1029,8 +1009,7 @@
         </editionStmt>
         <pubStmt>
           <respStmt>
-            <corpName role="publisher" auth="GND" auth.uri="http://d-nb.info/gnd/"
-              codedval="330001418">Breitkopf und Härtel</corpName>
+            <corpName role="publisher" auth="GND" auth.uri="http://d-nb.info/gnd/" codedval="330001418">Breitkopf und Härtel</corpName>
             <resp>Druck:</resp>
             <corpName role="printer">PIROL Notendruckerei, Minden</corpName>
           </respStmt>
@@ -1048,21 +1027,32 @@
           <extent>57 S.</extent>
           <plateNum>8062</plateNum>
           <titlePage n="1">
-            <p>Breitkopf Archiv<lb/>Frühdrucke und bibliophile Ausgaben von hohem
-              Quellenwert<lb/>Early printings and bibliophiles' editions of a high documentary
-              value</p>
-            <p>herausgegen von / edited by<lb/>Joachim Draheim</p>
-            <p>Robert Schumann<lb/>(1810-1856)</p>
-            <p>Lieder-Album für die Jugend<lb/>für Singstimme(n) und Klavier<lb/>for Voice(s) and
-              Piano<lb/>op. 79</p>
-            <p>Reprint der Erstausgabe Leipzig 1849<lb/>Reprint of the First Printing Leipzig
-              1849</p>
-            <p>herausgegeben von / edited by<lb/>Ulrich Mahlert</p>
-            <p>Breitkopf &amp; Härtel, Wiesbaden<lb/>Edition Breitkopf 8307<lb/>Printed in
-              Germany</p>
+            <p>Breitkopf Archiv
+              <lb/>Frühdrucke und bibliophile Ausgaben von hohem Quellenwert
+              <lb/>Early printings and bibliophiles' editions of a high documentary value</p>
+            <p>herausgegen von / edited by
+              <lb/>Joachim Draheim</p>
+            <p>Robert Schumann
+              <lb/>(1810-1856)</p>
+            <p>Lieder-Album für die Jugend
+              <lb/>für Singstimme(n) und Klavier
+              <lb/>for Voice(s) and Piano
+              <lb/>op. 79</p>
+            <p>Reprint der Erstausgabe Leipzig 1849
+              <lb/>Reprint of the First Printing Leipzig 1849</p>
+            <p>herausgegeben von / edited by
+              <lb/>Ulrich Mahlert</p>
+            <p>Breitkopf &amp; Härtel, Wiesbaden
+              <lb/>Edition Breitkopf 8307
+              <lb/>Printed in Germany</p>
           </titlePage>
           <titlePage n="2">
-            <p>Lieder<lb/>für die <lb/>Jugend<lb/>von<lb/>Robert Schumann<lb/>op. 79</p>
+            <p>Lieder
+              <lb/>für die
+              <lb/>Jugend
+              <lb/>von
+              <lb/>Robert Schumann
+              <lb/>op. 79</p>
             <p>Leipzig, Breitkopf &amp; Härtel.</p>
             <p>C.Hahn.lith.</p>
           </titlePage>
@@ -1080,8 +1070,7 @@
         <seriesStmt>
           <title>Breitkopf-Archiv</title>
           <editor>
-            <persName role="editor" auth.uri="http://d-nb.info/gnd/" auth="GND" codedval="123921228"
-              >Joachim Draheim</persName>
+            <persName role="editor" auth.uri="http://d-nb.info/gnd/" auth="GND" codedval="123921228">Joachim Draheim</persName>
           </editor>
         </seriesStmt>
         <contents>
@@ -1132,6 +1121,22 @@
           <p>Converted to MEI version 4.0.0 using mei30To40.xsl, version 1.0 beta</p>
         </changeDesc>
         <date isodate="2019-01-03"/>
+      </change>
+      <change n="2">
+        <respStmt>
+          <persName>Benjamin W. Bohl</persName>
+          <persName>Stefan Münnich</persName>
+        </respStmt>
+        <changeDesc>
+          <p><list>
+              <li>update xml-model schema references to v4.0.1</li>
+              <li>update meiversion attributes to 4.0.1</li>
+              <li>add missing responsibility statements to change elements</li>
+              <li>unify documentation of mei version upgrades (appInfo and revisionDesc)</li>
+               <li>linted with <ref target="#meiLint_v0.0.1-alpha">meiLint.xsl</ref></li>
+            </list></p>
+        </changeDesc>
+        <date isodate="2023-07-27T17:11:46+02:00"/>
       </change>
     </revisionDesc>
   </meiHead>

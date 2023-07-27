@@ -1,8 +1,7 @@
-<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<?xml version="1.0" encoding="UTF-8"?>
 <?xml-model href="http://music-encoding.org/schema/4.0.1/mei-all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
 <?xml-model href="http://music-encoding.org/schema/4.0.1/mei-all.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
-<mei xmlns:xlink="http://www.w3.org/1999/xlink" xmlns="http://www.music-encoding.org/ns/mei"
-  meiversion="4.0.1">
+<mei xmlns="http://www.music-encoding.org/ns/mei" meiversion="4.0.1">
   <meiHead>
     <fileDesc>
       <titleStmt>
@@ -21,31 +20,31 @@
         </publisher>
         <address>
           <addrLine>Gartenstrasse 20</addrLine>
-          <addrLine>32756 <geogName>Detmold</geogName> </addrLine>
-          <addrLine>
-            <geogName>Germany</geogName>
-          </addrLine>
+          <addrLine>32756<geogName>Detmold</geogName></addrLine>
+          <addrLine><geogName>Germany</geogName></addrLine>
         </address>
         <date>2011</date>
         <availability>
-          <useRestrict>This encoding is in the public domain. However, the sources used to create it
-            may be under copyright. We believe their use by the MEI project for educational and
-            research purposes is covered by the Fair Use doctrine. However, we will remove any
-            material from the project archive when requested to do so by the copyright
-            owner.</useRestrict>
+          <useRestrict>This encoding is in the public domain. However, the sources used to create it may be under copyright. We believe their use by the MEI project for educational and research purposes is covered by the Fair Use doctrine. However, we will remove any material from the project archive when requested to do so by the copyright owner.</useRestrict>
         </availability>
       </pubStmt>
       <seriesStmt>
         <title>MEI Sample Collection</title>
         <funder>
-          <corpName role="funder">German Research Foundation<address> <addrLine>Kennedyallee
-            40</addrLine> <addrLine> <geogName>Bonn</geogName> </addrLine> <addrLine>
-            <geogName>Germany</geogName> </addrLine> </address> </corpName>
+          <corpName role="funder">German Research Foundation
+            <address>
+              <addrLine>Kennedyallee 40</addrLine>
+              <addrLine><geogName>Bonn</geogName></addrLine>
+              <addrLine><geogName>Germany</geogName></addrLine>
+            </address> </corpName>
         </funder>
         <funder>
-          <corpName role="funder">National Endowment for the Humanities<address> <addrLine>1100
-            Pennsylvania Avenue N.W.</addrLine> <addrLine> <geogName>Washington, DC</geogName>
-            20004</addrLine> <addrLine> <geogName>United States</geogName> </addrLine> </address>
+          <corpName role="funder">National Endowment for the Humanities
+            <address>
+              <addrLine>1100 Pennsylvania Avenue N.W.</addrLine>
+              <addrLine><geogName>Washington, DC</geogName> 20004</addrLine>
+              <addrLine><geogName>United States</geogName></addrLine>
+            </address>
           </corpName>
         </funder>
         <respStmt>
@@ -87,16 +86,17 @@
           <name>mei30To40.xsl</name>
           <ptr target="https://github.com/music-encoding/encoding-tools/blob/main/mei30To40/mei30To40.xsl"/>
         </application>
+        <application version="v0.0.1-alpha" xml:id="meiLint_v0.0.1-alpha">
+          <name>meiLint.xsl</name>
+          <ptr target="https://github.com/music-encoding/encoding-tools/blob/main/meiLint/meiLint.xsl"/>
+        </application>
       </appInfo>
       <editorialDecl>
-        <p>This encoding is an example for more than one section in a musical work, in this case
-          used for encoding repetitions. The encoding doesn't include a complete encoding of each
-          measure, it is only for representing the structure of repetitions.</p>
+        <p>This encoding is an example for more than one section in a musical work, in this case used for encoding repetitions. The encoding doesn't include a complete encoding of each measure, it is only for representing the structure of repetitions.</p>
       </editorialDecl>
       <classDecls>
         <taxonomy>
-          <bibl xml:id="OCLC_DDC"
-            target="http://www.oclc.org/dewey/resources/summaries/default.htm#700">OCLC_DDC</bibl>
+          <bibl xml:id="OCLC_DDC" target="http://www.oclc.org/dewey/resources/summaries/default.htm#700">OCLC_DDC</bibl>
           <category xml:id="_786.2">
             <altId>786.2</altId>
             <label>Piano</label>
@@ -152,30 +152,28 @@
     <revisionDesc>
       <change n="1">
         <respStmt>
-           <name>Unknown</name>
+          <name>Unknown</name>
         </respStmt>
         <changeDesc>
-          <p>The original MusicXML file was generated using PDFtoMusic Pro v1.2.1d Build 9F9F (c)
-            Myriad - http://www.myriad-online.com.</p>
+          <p>The original MusicXML file was generated using PDFtoMusic Pro v1.2.1d Build 9F9F (c) Myriad - http://www.myriad-online.com.</p>
         </changeDesc>
         <date/>
       </change>
       <change n="2">
         <respStmt>
-          <persName xml:id="MH"> Maja Hartwig </persName>
+          <persName xml:id="MH">Maja Hartwig</persName>
         </respStmt>
         <changeDesc>
-          <p>Transcoded from a MusicXML version 1.1 file on 2011-05-12 using the <ref
-            target="#xsl_mxl2mei_2.2.3">musicxml2mei</ref> stylesheet. </p>
+          <p>Transcoded from a MusicXML version 1.1 file on 2011-05-12 using the<ref target="#xsl_mxl2mei_2.2.3">musicxml2mei</ref>stylesheet.</p>
         </changeDesc>
         <date isodate="2011-05-12"/>
       </change>
       <change n="3">
         <respStmt>
-          <persName xml:id="KR"> Kristina Richts </persName>
+          <persName xml:id="KR">Kristina Richts</persName>
         </respStmt>
         <changeDesc>
-          <p> Cleaned up MEI file automatically using <ref target="#xsl_ppq">ppq.xsl</ref>. </p>
+          <p>Cleaned up MEI file automatically using<ref target="#xsl_ppq">ppq.xsl</ref>.</p>
         </changeDesc>
         <date isodate="2011-10-21"/>
       </change>
@@ -188,8 +186,7 @@
       </change>
       <change n="5" resp="#KR">
         <changeDesc>
-          <p> Cleaned up MEI file automatically using <ref target="#xsl_header">Header.xsl</ref>.
-          </p>
+          <p>Cleaned up MEI file automatically using<ref target="#xsl_header">Header.xsl</ref>.</p>
         </changeDesc>
         <date isodate="2011-12-01"/>
       </change>
@@ -213,6 +210,22 @@
           <p>Converted to MEI version 4.0.0 using mei30To40.xsl, version 1.0 beta</p>
         </changeDesc>
         <date isodate="2019-01-03"/>
+      </change>
+      <change n="9">
+        <respStmt>
+          <persName>Benjamin W. Bohl</persName>
+          <persName>Stefan Münnich</persName>
+        </respStmt>
+        <changeDesc>
+          <p><list>
+              <li>update xml-model schema references to v4.0.1</li>
+              <li>update meiversion attributes to 4.0.1</li>
+              <li>add missing responsibility statements to change elements</li>
+              <li>unify documentation of mei version upgrades (appInfo and revisionDesc)</li>
+               <li>linted with <ref target="#meiLint_v0.0.1-alpha">meiLint.xsl</ref></li>
+            </list></p>
+        </changeDesc>
+        <date isodate="2023-07-27T17:10:52+02:00"/>
       </change>
     </revisionDesc>
   </meiHead>
@@ -290,7 +303,7 @@
                   </beam>
                 </layer>
               </staff>
-              <dynam tstamp="1" place="above" staff="2"> f </dynam>
+              <dynam tstamp="1" place="above" staff="2">f</dynam>
             </measure>
             <measure n="3" xml:id="d1053044e583">
               <staff n="1">
@@ -339,10 +352,8 @@
                   </beam>
                 </layer>
               </staff>
-              <tie tstamp="1.75" staff="1" curvedir="above" startid="#d1053044e662"
-                endid="#d1053044e707"/>
-              <tie tstamp="2" staff="1" curvedir="below" startid="#d1053044e685"
-                endid="#d1053044e728"/>
+              <tie tstamp="1.75" staff="1" curvedir="above" startid="#d1053044e662" endid="#d1053044e707"/>
+              <tie tstamp="2" staff="1" curvedir="below" startid="#d1053044e685" endid="#d1053044e728"/>
             </measure>
             <measure n="4" xml:id="d1053044e946">
               <staff n="1">
@@ -531,18 +542,15 @@
                   </beam>
                 </layer>
               </staff>
-              <tie tstamp="1.75" staff="1" curvedir="below" startid="#d1053044e1777"
-                endid="#d1053044e1845"/>
-              <tie tstamp="2" staff="1" curvedir="above" startid="#d1053044e1800"
-                endid="#d1053044e1822"/>
-              <tie tstamp="1.75" staff="1" curvedir="below" startid="#d1053044e2194"
-                endid="#d1053044e2256"/>
-              <tie tstamp="2" staff="1" curvedir="above" startid="#d1053044e2215"
-                endid="#d1053044e2235"/>
+              <tie tstamp="1.75" staff="1" curvedir="below" startid="#d1053044e1777" endid="#d1053044e1845"/>
+              <tie tstamp="2" staff="1" curvedir="above" startid="#d1053044e1800" endid="#d1053044e1822"/>
+              <tie tstamp="1.75" staff="1" curvedir="below" startid="#d1053044e2194" endid="#d1053044e2256"/>
+              <tie tstamp="2" staff="1" curvedir="above" startid="#d1053044e2215" endid="#d1053044e2235"/>
             </measure>
             <sb/>
-            <annot> Measures 6-16 are not encoded. For a detailed encoding see the example in
-              <ref>MEI2012/other/Joplin_Maple_Leaf_Rag</ref> </annot>
+            <annot>Measures 6-16 are not encoded. For a detailed encoding see the example in
+              <ref>MEI2012/other/Joplin_Maple_Leaf_Rag</ref>
+            </annot>
             <ending n="1">
               <measure n="17" xml:id="d1053044e10972" right="rptend">
                 <staff n="1">
@@ -591,16 +599,7 @@
                     </beam>
                   </layer>
                 </staff>
-                <!--<tie tstamp="2.75"
-                             staff="1"
-                             curvedir="below"
-                             startid="#d1053044e11494"
-                             endid="#d1053044e12113"/>
-                        <tie tstamp="3"
-                             staff="1"
-                             curvedir="above"
-                             startid="#d1053044e11517"
-                             endid="#d1053044e12092"/>-->
+                <!-- <tie tstamp="2.75" staff="1" curvedir="below" startid="#d1053044e11494" endid="#d1053044e12113"/> <tie tstamp="3" staff="1" curvedir="above" startid="#d1053044e11517" endid="#d1053044e12092"/> -->
               </measure>
             </ending>
             <sb/>
@@ -704,10 +703,8 @@
                   </beam>
                 </layer>
               </staff>
-              <dynam tstamp="1" place="below" staff="1">f </dynam>
-              <dir tstamp="1.25" place="below" staff="1">
-                <rend fontfam="Times New Roman" fontsize="10pt" fontstyle="italic">staccato</rend>
-              </dir>
+              <dynam tstamp="1" place="below" staff="1">f</dynam>
+              <dir tstamp="1.25" place="below" staff="1"><rend fontfam="Times New Roman" fontsize="10pt" fontstyle="italic">staccato</rend></dir>
             </measure>
             <measure n="20" xml:id="d1053044e13208">
               <staff n="1">
@@ -763,12 +760,10 @@
                   </beam>
                 </layer>
               </staff>
-              <tie tstamp="1.75" staff="1" curvedir="below" startid="#d1053044e13291"
-                endid="#d1053044e13353"/>
-              <tie tstamp="2" staff="1" curvedir="above" startid="#d1053044e13312"
-                endid="#d1053044e13332"/>
+              <tie tstamp="1.75" staff="1" curvedir="below" startid="#d1053044e13291" endid="#d1053044e13353"/>
+              <tie tstamp="2" staff="1" curvedir="above" startid="#d1053044e13312" endid="#d1053044e13332"/>
             </measure>
-            <annot> Measures 21 - 33 are not encoded. </annot>
+            <annot>Measures 21 - 33 are not encoded.</annot>
             <sb/>
             <ending n="1">
               <measure n="34" xml:id="d1053044e21414" right="rptend">
@@ -919,7 +914,7 @@
                   </beam>
                 </layer>
               </staff>
-              <dynam tstamp="1" place="above" staff="2">f </dynam>
+              <dynam tstamp="1" place="above" staff="2">f</dynam>
             </measure>
             <measure n="37" xml:id="d1053044e22490">
               <staff n="1">
@@ -968,10 +963,8 @@
                   </beam>
                 </layer>
               </staff>
-              <tie tstamp="1.75" staff="1" curvedir="above" startid="#d1053044e22569"
-                endid="#d1053044e22614"/>
-              <tie tstamp="2" staff="1" curvedir="below" startid="#d1053044e22592"
-                endid="#d1053044e22635"/>
+              <tie tstamp="1.75" staff="1" curvedir="above" startid="#d1053044e22569" endid="#d1053044e22614"/>
+              <tie tstamp="2" staff="1" curvedir="below" startid="#d1053044e22592" endid="#d1053044e22635"/>
             </measure>
             <sb/>
             <measure n="38" xml:id="d1053044e22854">
@@ -1054,16 +1047,10 @@
                   <rest xml:id="d1053044e24496" dur="8"/>
                 </layer>
               </staff>
-              <dynam tstamp="1" place="below" staff="1">p </dynam>
-              <!--<slur tstamp="1"
-                           curvedir="below"
-                           startid="#d1053044e24272"
-                           endid="#d1053044e35593"
-                           staff="2"/>-->
-              <slur tstamp="1.25" curvedir="below" startid="#d1053044e24308" endid="#d1053044e24352"
-                staff="2"/>
-              <slur tstamp="2.25" curvedir="below" startid="#d1053044e24427" endid="#d1053044e24471"
-                staff="2"/>
+              <dynam tstamp="1" place="below" staff="1">p</dynam>
+              <!-- <slur tstamp="1" curvedir="below" startid="#d1053044e24272" endid="#d1053044e35593" staff="2"/> -->
+              <slur tstamp="1.25" curvedir="below" startid="#d1053044e24308" endid="#d1053044e24352" staff="2"/>
+              <slur tstamp="2.25" curvedir="below" startid="#d1053044e24427" endid="#d1053044e24471" staff="2"/>
             </measure>
             <measure n="43" xml:id="d1053044e24514">
               <staff n="1">
@@ -1072,15 +1059,13 @@
                   <rest xml:id="d1053044e24589" dur="16"/>
                   <beam>
                     <note xml:id="d1053044e24602" pname="a" oct="4" dur="16" stem.dir="down"/>
-                    <note xml:id="d1053044e24624" pname="c" accid="f" oct="5" dur="16"
-                      stem.dir="down"/>
+                    <note xml:id="d1053044e24624" pname="c" accid="f" oct="5" dur="16" stem.dir="down"/>
                     <note xml:id="d1053044e24646" pname="a" oct="5" dur="16" stem.dir="down"/>
                   </beam>
                   <rest xml:id="d1053044e24669" dur="16"/>
                   <beam>
                     <note xml:id="d1053044e24683" pname="a" oct="5" dur="16" stem.dir="down"/>
-                    <note xml:id="d1053044e24705" pname="c" accid="f" oct="6" dur="16"
-                      stem.dir="down"/>
+                    <note xml:id="d1053044e24705" pname="c" accid="f" oct="6" dur="16" stem.dir="down"/>
                     <note xml:id="d1053044e24727" pname="a" oct="6" dur="16" stem.dir="down"/>
                   </beam>
                 </layer>
@@ -1097,10 +1082,8 @@
                   <clef shape="G" line="2"/>
                 </layer>
               </staff>
-              <slur tstamp="1.25" curvedir="above" startid="#d1053044e24602" endid="#d1053044e24646"
-                staff="1"/>
-              <slur tstamp="2.25" curvedir="above" startid="#d1053044e24683" endid="#d1053044e24727"
-                staff="1"/>
+              <slur tstamp="1.25" curvedir="above" startid="#d1053044e24602" endid="#d1053044e24646" staff="1"/>
+              <slur tstamp="2.25" curvedir="above" startid="#d1053044e24683" endid="#d1053044e24727" staff="1"/>
             </measure>
             <measure n="44" xml:id="d1053044e24751">
               <staff n="1">
@@ -1163,15 +1146,10 @@
                   </beam>
                 </layer>
               </staff>
-              <dynam tstamp="1" place="above" staff="2">
-                <rend>mf</rend>
-              </dynam>
-              <hairpin tstamp="1.5" tstamp2="1m+1.75" form="cres" place="below" staff="1"
-                endto="-1680.00" opening="1.499"/>
-              <tie tstamp="2.75" staff="1" curvedir="above" startid="#d1053044e25213"
-                endid="#d1053044e25262"/>
-              <tie tstamp="3" staff="1" curvedir="below" startid="#d1053044e25236"
-                endid="#d1053044e25285"/>
+              <dynam tstamp="1" place="above" staff="2"><rend>mf</rend></dynam>
+              <hairpin tstamp="1.5" tstamp2="1m+1.75" form="cres" place="below" staff="1" endto="-1680.00" opening="1.499"/>
+              <tie tstamp="2.75" staff="1" curvedir="above" startid="#d1053044e25213" endid="#d1053044e25262"/>
+              <tie tstamp="3" staff="1" curvedir="below" startid="#d1053044e25236" endid="#d1053044e25285"/>
             </measure>
             <measure n="45" xml:id="d1053044e25260">
               <staff n="1">
@@ -1226,24 +1204,7 @@
                   </beam>
                 </layer>
               </staff>
-              <!--<slur tstamp="2.75"
-                           tstamp2="37m+1"
-                           curvedir="above"
-                           startid="#d1053044e25427"
-                           endid="#d1053044e48444"
-                           staff="1"/>
-                     <slur tstamp="3"
-                           tstamp2="37m+1.25"
-                           curvedir="below"
-                           startid="#d1053044e25451"
-                           endid="#d1053044e48467"
-                           staff="1"/>
-                     <slur tstamp="3"
-                           tstamp2="37m+1"
-                           curvedir="above"
-                           startid="#d1053044e25451"
-                           endid="#d1053044e48444"
-                           staff="1"/>-->
+              <!-- <slur tstamp="2.75" tstamp2="37m+1" curvedir="above" startid="#d1053044e25427" endid="#d1053044e48444" staff="1"/> <slur tstamp="3" tstamp2="37m+1.25" curvedir="below" startid="#d1053044e25451" endid="#d1053044e48467" staff="1"/> <slur tstamp="3" tstamp2="37m+1" curvedir="above" startid="#d1053044e25451" endid="#d1053044e48444" staff="1"/> -->
             </measure>
           </section>
           <section n="4">
@@ -1313,18 +1274,12 @@
                   </beam>
                 </layer>
               </staff>
-              <dir tstamp="1" place="above" staff="1">
-                <rend fontfam="Times New Roman" fontsize="12pt">Trio</rend>
-              </dir>
-              <dynam tstamp="1" place="above" staff="2">f </dynam>
-              <slur tstamp="1.75" curvedir="above" startid="#d1053044e28099" endid="#d1053044e28187"
-                staff="1"/>
-              <slur tstamp="2" curvedir="below" startid="#d1053044e28124" endid="#d1053044e28187"
-                staff="1"/>
-              <tie tstamp="2" staff="1" curvedir="above" startid="#d1053044e28124"
-                endid="#d1053044e28230"/>
-              <tie tstamp="2" staff="1" curvedir="above" startid="#d1053044e28147"
-                endid="#d1053044e28210"/>
+              <dir tstamp="1" place="above" staff="1"><rend fontfam="Times New Roman" fontsize="12pt">Trio</rend></dir>
+              <dynam tstamp="1" place="above" staff="2">f</dynam>
+              <slur tstamp="1.75" curvedir="above" startid="#d1053044e28099" endid="#d1053044e28187" staff="1"/>
+              <slur tstamp="2" curvedir="below" startid="#d1053044e28124" endid="#d1053044e28187" staff="1"/>
+              <tie tstamp="2" staff="1" curvedir="above" startid="#d1053044e28124" endid="#d1053044e28230"/>
+              <tie tstamp="2" staff="1" curvedir="above" startid="#d1053044e28147" endid="#d1053044e28210"/>
             </measure>
             <measure n="53" xml:id="d1053044e28530">
               <staff n="1">
@@ -1389,14 +1344,10 @@
                   </beam>
                 </layer>
               </staff>
-              <slur tstamp="1.75" curvedir="above" startid="#d1053044e28611" endid="#d1053044e28698"
-                staff="1"/>
-              <slur tstamp="2" curvedir="below" startid="#d1053044e28636" endid="#d1053044e28698"
-                staff="1"/>
-              <tie tstamp="2" staff="1" curvedir="above" startid="#d1053044e28636"
-                endid="#d1053044e28761"/>
-              <tie tstamp="2" staff="1" curvedir="above" startid="#d1053044e28659"
-                endid="#d1053044e28740"/>
+              <slur tstamp="1.75" curvedir="above" startid="#d1053044e28611" endid="#d1053044e28698" staff="1"/>
+              <slur tstamp="2" curvedir="below" startid="#d1053044e28636" endid="#d1053044e28698" staff="1"/>
+              <tie tstamp="2" staff="1" curvedir="above" startid="#d1053044e28636" endid="#d1053044e28761"/>
+              <tie tstamp="2" staff="1" curvedir="above" startid="#d1053044e28659" endid="#d1053044e28740"/>
             </measure>
             <sb/>
             <!-- ... -->
@@ -1458,12 +1409,9 @@
                   </beam>
                 </layer>
               </staff>
-              <slur tstamp="1.75" tstamp2="0m+2.25" curvedir="below" startid="#d1053044e31585"
-                endid="#d1053044e31684" staff="1"/>
-              <tie tstamp="2" staff="1" curvedir="above" startid="#d1053044e31625"
-                endid="#d1053044e31684"/>
-              <tie tstamp="2" staff="1" curvedir="above" startid="#d1053044e31645"
-                endid="#d1053044e31705"/>
+              <slur tstamp="1.75" tstamp2="0m+2.25" curvedir="below" startid="#d1053044e31585" endid="#d1053044e31684" staff="1"/>
+              <tie tstamp="2" staff="1" curvedir="above" startid="#d1053044e31625" endid="#d1053044e31684"/>
+              <tie tstamp="2" staff="1" curvedir="above" startid="#d1053044e31645" endid="#d1053044e31705"/>
             </measure>
             <measure n="61" xml:id="d1053044e31996">
               <staff n="1">
@@ -1527,12 +1475,9 @@
                   </beam>
                 </layer>
               </staff>
-              <slur tstamp="1.75" curvedir="below" startid="#d1053044e32077" endid="#d1053044e32195"
-                staff="1"/>
-              <tie tstamp="2" staff="1" curvedir="above" startid="#d1053044e32097"
-                endid="#d1053044e32217"/>
-              <tie tstamp="2" staff="1" curvedir="above" startid="#d1053044e32117"
-                endid="#d1053044e32195"/>
+              <slur tstamp="1.75" curvedir="below" startid="#d1053044e32077" endid="#d1053044e32195" staff="1"/>
+              <tie tstamp="2" staff="1" curvedir="above" startid="#d1053044e32097" endid="#d1053044e32217"/>
+              <tie tstamp="2" staff="1" curvedir="above" startid="#d1053044e32117" endid="#d1053044e32195"/>
             </measure>
             <sb/>
             <pb/>
@@ -1639,16 +1584,7 @@
                   </beam>
                 </layer>
               </staff>
-              <!--<tie tstamp="1.75"
-                          staff="1"
-                          curvedir="below"
-                          startid="#d1053044e33349"
-                          endid="#d1053044e33417"/>
-                     <tie tstamp="2"
-                          staff="1"
-                          curvedir="above"
-                          startid="#d1053044e33372"
-                          endid="#d1053044e33394"/>-->
+              <!-- <tie tstamp="1.75" staff="1" curvedir="below" startid="#d1053044e33349" endid="#d1053044e33417"/> <tie tstamp="2" staff="1" curvedir="above" startid="#d1053044e33372" endid="#d1053044e33394"/> -->
             </measure>
             <measure n="64" xml:id="d1053044e34109">
               <staff n="1">
@@ -1682,18 +1618,15 @@
               <staff n="2">
                 <layer n="1">
                   <beam>
-                    <note xml:id="d1053044e34688" pname="g" accid="n" oct="3" dur="16"
-                      stem.dir="down"/>
+                    <note xml:id="d1053044e34688" pname="g" accid="n" oct="3" dur="16" stem.dir="down"/>
                     <note xml:id="d1053044e34708" pname="b" oct="3" dur="8" stem.dir="down"/>
                     <note xml:id="d1053044e34728" pname="d" oct="4" dur="16" stem.dir="down"/>
                   </beam>
                   <beam>
-                    <note xml:id="d1053044e34748" pname="f" accid="f" oct="4" dur="16"
-                      stem.dir="down"/>
+                    <note xml:id="d1053044e34748" pname="f" accid="f" oct="4" dur="16" stem.dir="down"/>
                     <note xml:id="d1053044e34770" pname="d" oct="4" dur="16" stem.dir="down"/>
                     <note xml:id="d1053044e34790" pname="b" oct="3" dur="16" stem.dir="down"/>
-                    <note xml:id="d1053044e34810" pname="g" accid="n" oct="3" dur="16"
-                      stem.dir="down"/>
+                    <note xml:id="d1053044e34810" pname="g" accid="n" oct="3" dur="16" stem.dir="down"/>
                   </beam>
                 </layer>
               </staff>
@@ -1750,10 +1683,8 @@
                   </beam>
                 </layer>
               </staff>
-              <tie tstamp="1.75" staff="1" curvedir="below" startid="#d1053044e35177"
-                endid="#d1053044e35245"/>
-              <tie tstamp="2" staff="1" curvedir="above" startid="#d1053044e35200"
-                endid="#d1053044e35222"/>
+              <tie tstamp="1.75" staff="1" curvedir="below" startid="#d1053044e35177" endid="#d1053044e35245"/>
+              <tie tstamp="2" staff="1" curvedir="above" startid="#d1053044e35200" endid="#d1053044e35222"/>
             </measure>
             <sb/>
             <measure n="66" xml:id="d1053044e35507">
@@ -1814,25 +1745,12 @@
                   </beam>
                 </layer>
               </staff>
-              <dynam tstamp="1" place="below" staff="1">p </dynam>
-              <!--<slur tstamp="1.25"
-                           curvedir="below"
-                           startid="#d1053044e35549"
-                           endid="#d1053044e35593"
-                           staff="2"/>
-                     <slur tstamp="2.25"
-                           curvedir="below"
-                           startid="#d1053044e35668"
-                           endid="#d1053044e35712"
-                           staff="2"/>-->
-              <tie tstamp="1.75" staff="1" curvedir="below" startid="#d1053044e36040"
-                endid="#d1053044e36085"/>
-              <tie tstamp="2" staff="1" curvedir="above" startid="#d1053044e36065"
-                endid="#d1053044e36108"/>
-              <tie tstamp="2.75" staff="1" curvedir="above" startid="#d1053044e36186"
-                endid="#d1053044e36494"/>
-              <tie tstamp="3" staff="1" curvedir="below" startid="#d1053044e36209"
-                endid="#d1053044e36473"/>
+              <dynam tstamp="1" place="below" staff="1">p</dynam>
+              <!-- <slur tstamp="1.25" curvedir="below" startid="#d1053044e35549" endid="#d1053044e35593" staff="2"/> <slur tstamp="2.25" curvedir="below" startid="#d1053044e35668" endid="#d1053044e35712" staff="2"/> -->
+              <tie tstamp="1.75" staff="1" curvedir="below" startid="#d1053044e36040" endid="#d1053044e36085"/>
+              <tie tstamp="2" staff="1" curvedir="above" startid="#d1053044e36065" endid="#d1053044e36108"/>
+              <tie tstamp="2.75" staff="1" curvedir="above" startid="#d1053044e36186" endid="#d1053044e36494"/>
+              <tie tstamp="3" staff="1" curvedir="below" startid="#d1053044e36209" endid="#d1053044e36473"/>
             </measure>
             <ending n="1">
               <measure n="67" xml:id="d1053044e36235" right="rptend">
@@ -1889,16 +1807,7 @@
                     </beam>
                   </layer>
                 </staff>
-                <!--<slur tstamp="1.25"
-                              curvedir="above"
-                              startid="#d1053044e36323"
-                              endid="#d1053044e36367"
-                              staff="1"/>
-                        <slur tstamp="2.25"
-                              curvedir="above"
-                              startid="#d1053044e36404"
-                              endid="#d1053044e36448"
-                              staff="1"/>-->
+                <!-- <slur tstamp="1.25" curvedir="above" startid="#d1053044e36323" endid="#d1053044e36367" staff="1"/> <slur tstamp="2.25" curvedir="above" startid="#d1053044e36404" endid="#d1053044e36448" staff="1"/> -->
               </measure>
             </ending>
             <ending n="2">
@@ -1945,18 +1854,9 @@
                     </beam>
                   </layer>
                 </staff>
-                <dynam tstamp="1" place="above" staff="2">mf </dynam>
+                <dynam tstamp="1" place="above" staff="2">mf</dynam>
                 <hairpin tstamp="1.5" tstamp2="1m+1" form="cres" place="below" staff="1"/>
-                <!--<tie tstamp="2.75"
-                             staff="1"
-                             curvedir="above"
-                             startid="#d1053044e37371"
-                             endid="#d1053044e37732"/>
-                        <tie tstamp="3"
-                             staff="1"
-                             curvedir="below"
-                             startid="#d1053044e37394"
-                             endid="#d1053044e37755"/>-->
+                <!-- <tie tstamp="2.75" staff="1" curvedir="above" startid="#d1053044e37371" endid="#d1053044e37732"/> <tie tstamp="3" staff="1" curvedir="below" startid="#d1053044e37394" endid="#d1053044e37755"/> -->
               </measure>
             </ending>
           </section>
@@ -2010,17 +1910,8 @@
                   </beam>
                 </layer>
               </staff>
-              <!--<tie tstamp="2.75"
-                          staff="1"
-                          curvedir="below"
-                          startid="#d1053044e37897"
-                          endid="#d1053044e38542"/>
-                     <tie tstamp="3"
-                          staff="1"
-                          curvedir="above"
-                          startid="#d1053044e37922"
-                          endid="#d1053044e38519"/>-->
-              <dynam tstamp="1" place="above" staff="2">f </dynam>
+              <!-- <tie tstamp="2.75" staff="1" curvedir="below" startid="#d1053044e37897" endid="#d1053044e38542"/> <tie tstamp="3" staff="1" curvedir="above" startid="#d1053044e37922" endid="#d1053044e38519"/> -->
+              <dynam tstamp="1" place="above" staff="2">f</dynam>
             </measure>
             <sb/>
             <measure n="70" xml:id="d1053044e38517">
@@ -2076,10 +1967,8 @@
                   </beam>
                 </layer>
               </staff>
-              <tie tstamp="1.75" staff="1" curvedir="below" startid="#d1053044e39236"
-                endid="#d1053044e39298"/>
-              <tie tstamp="2" staff="1" curvedir="above" startid="#d1053044e39257"
-                endid="#d1053044e39277"/>
+              <tie tstamp="1.75" staff="1" curvedir="below" startid="#d1053044e39236" endid="#d1053044e39298"/>
+              <tie tstamp="2" staff="1" curvedir="above" startid="#d1053044e39257" endid="#d1053044e39277"/>
             </measure>
             <measure n="71" xml:id="d1053044e39384">
               <staff n="1">
@@ -2124,10 +2013,8 @@
                   </beam>
                 </layer>
               </staff>
-              <tie tstamp="1.75" staff="1" curvedir="below" startid="#d1053044e39976"
-                endid="#d1053044e40038"/>
-              <tie tstamp="2" staff="1" curvedir="above" startid="#d1053044e39999"
-                endid="#d1053044e40019"/>
+              <tie tstamp="1.75" staff="1" curvedir="below" startid="#d1053044e39976" endid="#d1053044e40038"/>
+              <tie tstamp="2" staff="1" curvedir="above" startid="#d1053044e39999" endid="#d1053044e40019"/>
             </measure>
             <measure n="72" xml:id="d1053044e40064">
               <staff n="1">
@@ -2175,16 +2062,7 @@
                   </beam>
                 </layer>
               </staff>
-              <!--<tie tstamp="2.75"
-                          staff="1"
-                          curvedir="above"
-                          startid="#d1053044e40546"
-                          endid="#d1053044e40940"/>
-                     <tie tstamp="3"
-                          staff="1"
-                          curvedir="below"
-                          startid="#d1053044e40569"
-                          endid="#d1053044e40963"/>-->
+              <!-- <tie tstamp="2.75" staff="1" curvedir="above" startid="#d1053044e40546" endid="#d1053044e40940"/> <tie tstamp="3" staff="1" curvedir="below" startid="#d1053044e40569" endid="#d1053044e40963"/> -->
             </measure>
             <measure n="73" xml:id="d1053044e40938">
               <staff n="1">
@@ -2231,16 +2109,7 @@
                   </beam>
                 </layer>
               </staff>
-              <!--<tie tstamp="2.75"
-                          staff="1"
-                          curvedir="below"
-                          startid="#d1053044e41117"
-                          endid="#d1053044e41739"/>
-                     <tie tstamp="3"
-                          staff="1"
-                          curvedir="above"
-                          startid="#d1053044e41142"
-                          endid="#d1053044e41716"/>-->
+              <!-- <tie tstamp="2.75" staff="1" curvedir="below" startid="#d1053044e41117" endid="#d1053044e41739"/> <tie tstamp="3" staff="1" curvedir="above" startid="#d1053044e41142" endid="#d1053044e41716"/> -->
             </measure>
             <!-- ... -->
             <ending n="1">
@@ -2294,16 +2163,7 @@
                     </beam>
                   </layer>
                 </staff>
-                <!--<tie tstamp="1.75"
-                             staff="1"
-                             curvedir="below"
-                             startid="#d1053044e49642"
-                             endid="#d1053044e49704"/>
-                        <tie tstamp="2"
-                             staff="1"
-                             curvedir="above"
-                             startid="#d1053044e49663"
-                             endid="#d1053044e49683"/>-->
+                <!-- <tie tstamp="1.75" staff="1" curvedir="below" startid="#d1053044e49642" endid="#d1053044e49704"/> <tie tstamp="2" staff="1" curvedir="above" startid="#d1053044e49663" endid="#d1053044e49683"/> -->
               </measure>
             </ending>
             <ending n="2">

@@ -1,15 +1,13 @@
-<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<?xml version="1.0" encoding="UTF-8"?>
 <?xml-model href="http://music-encoding.org/schema/4.0.1/mei-all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
 <?xml-model href="http://music-encoding.org/schema/4.0.1/mei-all.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
-<mei xmlns:xlink="http://www.w3.org/1999/xlink" xmlns="http://www.music-encoding.org/ns/mei"
-  meiversion="4.0.1">
+<mei xmlns="http://www.music-encoding.org/ns/mei" meiversion="4.0.1">
   <meiHead>
     <fileDesc>
       <titleStmt>
-        <title>Shaw' Nuff <titlePart type="subordinate">an electronic transcription</titlePart> </title>
+        <title>Shaw' Nuff<titlePart type="subordinate">an electronic transcription</titlePart></title>
         <composer>
-          <persName role="creator" auth.uri="http://d-nb.info/gnd/" codedval="118739328" auth="GND"
-            >Charles Parker</persName>
+          <persName role="creator" auth.uri="http://d-nb.info/gnd/" codedval="118739328" auth="GND">Charles Parker</persName>
         </composer>
         <composer>
           <persName role="creator">John Gillepsie</persName>
@@ -20,54 +18,32 @@
       </titleStmt>
       <pubStmt>
         <publisher>
-          <corpName role="publisher" n="2" xml:id="corpName2" codedval="5115204-6"
-            auth.uri="http://d-nb.info/gnd/" auth="GND">Musikwissenschaftliches Seminar</corpName>
+          <corpName role="publisher" n="2" xml:id="corpName2" codedval="5115204-6" auth.uri="http://d-nb.info/gnd/" auth="GND">Musikwissenschaftliches Seminar</corpName>
           <address>
             <addrLine>Gartenstrasse 20</addrLine>
-            <addrLine>32756 <geogName codedval="7004442" auth.uri="http://vocab.getty.edu/page/tgn/"
-              auth="TGN">Detmold</geogName> <geogName codedval="7000084"
-              auth.uri="http://vocab.getty.edu/page/tgn/" auth="TGN">Germany</geogName> </addrLine>
+            <addrLine>32756<geogName codedval="7004442" auth.uri="http://vocab.getty.edu/page/tgn/" auth="TGN">Detmold</geogName> <geogName codedval="7000084" auth.uri="http://vocab.getty.edu/page/tgn/" auth="TGN">Germany</geogName></addrLine>
           </address>
         </publisher>
         <availability>
-          <useRestrict> This encoding is in the public domain. However, the sources used to create
-            it may be under copyright. We believe their use by the MEI project for educational and
-            research purposes is covered by the Fair Use doctrine. However, we will remove any
-            material from the project archive when requested to do so by the copyright owner.
-          </useRestrict>
+          <useRestrict>This encoding is in the public domain. However, the sources used to create it may be under copyright. We believe their use by the MEI project for educational and research purposes is covered by the Fair Use doctrine. However, we will remove any material from the project archive when requested to do so by the copyright owner.</useRestrict>
         </availability>
       </pubStmt>
       <seriesStmt>
         <title>MEI Sample Collection</title>
         <funder>
-          <corpName role="funder" codedval="2007744-0" auth.uri="http://d-nb.info/gnd/" auth="GND"
-            >German Research Foundation</corpName>
+          <corpName role="funder" codedval="2007744-0" auth.uri="http://d-nb.info/gnd/" auth="GND">German Research Foundation</corpName>
           <address>
             <addrLine>Kennedyallee 40</addrLine>
-            <addrLine>
-              <geogName codedval="7005090" auth.uri="http://vocab.getty.edu/page/tgn/" auth="TGN"
-                >Bonn</geogName>
-            </addrLine>
-            <addrLine>
-              <geogName codedval="7000084" auth.uri="http://vocab.getty.edu/page/tgn/" auth="TGN"
-                >Germany</geogName>
-            </addrLine>
+            <addrLine><geogName codedval="7005090" auth.uri="http://vocab.getty.edu/page/tgn/" auth="TGN">Bonn</geogName></addrLine>
+            <addrLine><geogName codedval="7000084" auth.uri="http://vocab.getty.edu/page/tgn/" auth="TGN">Germany</geogName></addrLine>
           </address>
         </funder>
         <funder>
-          <corpName role="funder" codedval="18183-3" auth.uri="http://d-nb.info/gnd/18183-3"
-            auth="Deutsche Nationalbibliothek">National Endowment for the Humanities</corpName>
+          <corpName role="funder" codedval="18183-3" auth.uri="http://d-nb.info/gnd/18183-3" auth="Deutsche Nationalbibliothek">National Endowment for the Humanities</corpName>
           <address>
             <addrLine>1100 Pennsylvania Avenue N.W.</addrLine>
-            <addrLine>
-              <geogName codedval="7013962" auth.uri="http://vocab.getty.edu/page/tgn/" auth="TGN"
-                >Washington, DC</geogName>
-              <postCode>20004</postCode>
-            </addrLine>
-            <addrLine>
-              <geogName codedval="7012149" auth.uri="http://vocab.getty.edu/page/tgn/" auth="TGN"
-                >United States</geogName>
-            </addrLine>
+            <addrLine><geogName codedval="7013962" auth.uri="http://vocab.getty.edu/page/tgn/" auth="TGN">Washington, DC</geogName><postCode>20004</postCode></addrLine>
+            <addrLine><geogName codedval="7012149" auth.uri="http://vocab.getty.edu/page/tgn/" auth="TGN">United States</geogName></addrLine>
           </address>
         </funder>
         <respStmt>
@@ -83,16 +59,13 @@
             <annot>The URI of the pdf source isn't available anymore.</annot>
             <title>Shaw ´Nuff</title>
             <composer>
-              <persName role="composer" codedval="118739328" auth="GND"
-                auth.uri="http://d-nb.info/gnd/">Charles Parker</persName>
+              <persName role="composer" codedval="118739328" auth="GND" auth.uri="http://d-nb.info/gnd/">Charles Parker</persName>
             </composer>
             <respStmt>
               <persName role="performer">John "Dizzy" Gillepsie</persName>
             </respStmt>
             <imprint>
-              <annot>Copyright 1946 (Renewed) Consolidated Music Publishers, A division of Music
-                Sales Corporation (ASCAP) &amp; Atlantic Music International. International
-                Copyright Secured. All Rights Reserved. Used by Permission.</annot>
+              <annot>Copyright 1946 (Renewed) Consolidated Music Publishers, A division of Music Sales Corporation (ASCAP) &amp; Atlantic Music International. International Copyright Secured. All Rights Reserved. Used by Permission.</annot>
             </imprint>
           </bibl>
         </source>
@@ -101,29 +74,31 @@
     <encodingDesc>
       <appInfo>
         <application version="v1.0_beta" xml:id="mei2012To2013">
-            <name>mei2012To2013.xsl</name>
-           <ptr target="https://github.com/music-encoding/encoding-tools/blob/main/mei2012To2013/mei2012To2013.xsl"/>
-         </application>
+          <name>mei2012To2013.xsl</name>
+          <ptr target="https://github.com/music-encoding/encoding-tools/blob/main/mei2012To2013/mei2012To2013.xsl"/>
+        </application>
         <application version="v1.0_beta" xml:id="mei21To30">
-           <name>mei21To30.xsl</name>
-           <ptr target="https://github.com/music-encoding/encoding-tools/blob/main/mei21To30/mei21To30.xsl"/>
+          <name>mei21To30.xsl</name>
+          <ptr target="https://github.com/music-encoding/encoding-tools/blob/main/mei21To30/mei21To30.xsl"/>
         </application>
         <application version="v1.0_beta" xml:id="mei30To40">
           <name>mei30To40.xsl</name>
-<ptr target="https://github.com/music-encoding/encoding-tools/blob/main/mei30To40/mei30To40.xsl"/>
+          <ptr target="https://github.com/music-encoding/encoding-tools/blob/main/mei30To40/mei30To40.xsl"/>
+        </application>
+        <application version="v0.0.1-alpha" xml:id="meiLint_v0.0.1-alpha">
+          <name>meiLint.xsl</name>
+          <ptr target="https://github.com/music-encoding/encoding-tools/blob/main/meiLint/meiLint.xsl"/>
         </application>
       </appInfo>
       <samplingDecl>
         <p>Handcoded file</p>
         <p>contains the first page of the music (measure 1-32).</p>
-        <p>example contains "Sternchennoten", harm-element, rests above and below staves,
-          one-staff-notation</p>
+        <p>example contains "Sternchennoten", harm-element, rests above and below staves, one-staff-notation</p>
         <p>some issues unclear (read the commentaries).</p>
       </samplingDecl>
       <classDecls>
         <taxonomy>
-          <bibl xml:id="OCLC_DDC"
-            target="http://www.oclc.org/dewey/resources/summaries/default.htm#700">OCLC_DDC</bibl>
+          <bibl xml:id="OCLC_DDC" target="http://www.oclc.org/dewey/resources/summaries/default.htm#700">OCLC_DDC</bibl>
           <category xml:id="_784">
             <altId>784</altId>
             <label>Instruments &amp; instrumental ensembles</label>
@@ -146,10 +121,9 @@
       <work>
         <title>Shaw ´Nuff</title>
         <composer>
-          <persName role="composer" codedval="118739328" auth.uri="http://d-nb.info/gnd/" auth="GND"
-            >Charles Parker</persName>
+          <persName role="composer" codedval="118739328" auth.uri="http://d-nb.info/gnd/" auth="GND">Charles Parker</persName>
         </composer>
-        <key pname="b" accid="f" mode="major">B&#x1D12C; major</key>
+        <key pname="b" accid="f" mode="major">B𝄬 major</key>
         <meter count="4" unit="4" sym="common"/>
         <tempo>Fast Bebop</tempo>
         <creation>
@@ -197,6 +171,22 @@
         </changeDesc>
         <date isodate="2019-01-03"/>
       </change>
+      <change n="5">
+        <respStmt>
+          <persName>Benjamin W. Bohl</persName>
+          <persName>Stefan Münnich</persName>
+        </respStmt>
+        <changeDesc>
+          <p><list>
+              <li>update xml-model schema references to v4.0.1</li>
+              <li>update meiversion attributes to 4.0.1</li>
+              <li>add missing responsibility statements to change elements</li>
+              <li>unify documentation of mei version upgrades (appInfo and revisionDesc)</li>
+               <li>linted with <ref target="#meiLint_v0.0.1-alpha">meiLint.xsl</ref></li>
+            </list></p>
+        </changeDesc>
+        <date isodate="2023-07-27T17:09:03+02:00"/>
+      </change>
     </revisionDesc>
   </meiHead>
   <music>
@@ -206,8 +196,7 @@
           <scoreDef>
             <staffGrp>
               <staffDef n="1" clef.shape="G" clef.line="2" lines="5"/>
-              <staffDef n="2" clef.shape="F" clef.line="4" key.sig="2f" meter.count="4"
-                meter.unit="4" lines="5"/>
+              <staffDef n="2" clef.shape="F" clef.line="4" key.sig="2f" meter.count="4" meter.unit="4" lines="5"/>
             </staffGrp>
           </scoreDef>
           <section>
@@ -215,10 +204,8 @@
               <staff n="1" visible="false"/>
               <staff n="2" visible="true">
                 <layer n="1">
-                  <note stem.dir="up" head.shape="x" cue="true" dur="4" oct="3" pname.ges="b"
-                    xml:id="x1"/>
-                  <note stem.dir="up" head.shape="x" cue="true" dur="4" oct="3" pname.ges="b"
-                    xml:id="x2"/>
+                  <note stem.dir="up" head.shape="x" cue="true" dur="4" oct="3" pname.ges="b" xml:id="x1"/>
+                  <note stem.dir="up" head.shape="x" cue="true" dur="4" oct="3" pname.ges="b" xml:id="x2"/>
                   <rest dur="2" cue="true"/>
                 </layer>
                 <layer n="2">
@@ -244,8 +231,7 @@
                   </beam>
                   <rest dur="8"/>
                   <note pname.ges="b" oct="3" head.shape="x" dur="8" stem.dir="up" xml:id="x5"/>
-                  <note pname.ges="b" oct="3" head.shape="diamond" dur="2" stem.dir="up"
-                    stem.pos="center" xml:id="x6"/>
+                  <note pname.ges="b" oct="3" head.shape="diamond" dur="2" stem.dir="up" stem.pos="center" xml:id="x6"/>
                 </layer>
                 <layer n="2">
                   <beam>
@@ -283,8 +269,7 @@
                   </beam>
                   <rest dur="8"/>
                   <note pname.ges="b" oct="3" dur="8" stem.dir="up" xml:base="x11"/>
-                  <note pname.ges="b" oct="3" dur="2" head.shape="diamond" xml:id="x12"
-                    stem.dir="up" stem.pos="center"/>
+                  <note pname.ges="b" oct="3" dur="2" head.shape="diamond" xml:id="x12" stem.dir="up" stem.pos="center"/>
                 </layer>
                 <layer n="2">
                   <beam>
@@ -324,9 +309,9 @@
                 </layer>
               </staff>
               <dir staff="1" place="above" tstamp="0">(drums play time)</dir>
-              <harm staff="2" place="above" tstamp="1">B&#x1D12C;MI<rend rend="sup">(MA
-                7)</rend></harm>
-              <dir staff="1" place="below" tstamp="3">(trp.<lb/>alto)</dir>
+              <harm staff="2" place="above" tstamp="1">B𝄬MI<rend rend="sup">(MA 7)</rend></harm>
+              <dir staff="1" place="below" tstamp="3">(trp.
+                <lb/>alto)</dir>
               <dir staff="2" place="below" tstamp="1">(bs.)</dir>
               <slur staff="2" curvedir="above" startid="#m5x1" endid="#m6x1"/>
             </measure>
@@ -401,7 +386,7 @@
                   <note pname="e" oct="4" dur="4" stem.dir="down" xml:id="m7s2e4"/>
                 </layer>
               </staff>
-              <harm staff="2" place="above" tstamp="1">C&#x1D12C;/E&#x1D12C;</harm>
+              <harm staff="2" place="above" tstamp="1">C𝄬/E𝄬</harm>
               <slur staff="2" curvedir="above" startid="#m7x1" endid="#m8x1"/>
             </measure>
             <measure n="8">
@@ -451,8 +436,7 @@
                   <note pname="b" oct="3" dur="4" stem.dir="down" xml:id="m9s2e4"/>
                 </layer>
               </staff>
-              <harm staff="2" place="above" tstamp="1">B&#x1D12C;MI<rend rend="sup">(MA
-                7)</rend></harm>
+              <harm staff="2" place="above" tstamp="1">B𝄬MI<rend rend="sup">(MA 7)</rend></harm>
             </measure>
             <measure n="10">
               <staff n="1">
@@ -526,7 +510,7 @@
                   <note pname="g" oct="3" dur="4" stem.dir="down" xml:id="m11s2e4"/>
                 </layer>
               </staff>
-              <harm staff="2" place="above" tstamp="1">C&#x1D12C;7</harm>
+              <harm staff="2" place="above" tstamp="1">C𝄬7</harm>
             </measure>
             <measure n="12">
               <staff n="1">
@@ -575,10 +559,9 @@
                 </layer>
               </staff>
               <staff n="2" visible="false"/>
-              <dir staff="1" place="above" tstamp="1" extender="true" lform="dashed" tstamp2="3m+5"
-                lendsym="angledown">(hi-hat continues)</dir>
+              <dir staff="1" place="above" tstamp="1" extender="true" lform="dashed" tstamp2="3m+5" lendsym="angledown">(hi-hat continues)</dir>
               <dir staff="1" place="below" tstamp="0">(trp. w/ alto 8va b.)</dir>
-              <harm place="above" staff="1" tstamp="2">B&#x1D12C;MI</harm>
+              <harm place="above" staff="1" tstamp="2">B𝄬MI</harm>
             </measure>
             <measure n="14">
               <staff n="1">
@@ -631,11 +614,9 @@
                 <layer n="1">
                   <rest dur="4" cue="true"/>
                   <rest dur="8" cue="true"/>
-                  <note head.shape="x" stem.dir="up" pname.ges="g" oct="5" dur="8" xml:id="m17x1"
-                    cue="true"/>
+                  <note head.shape="x" stem.dir="up" pname.ges="g" oct="5" dur="8" xml:id="m17x1" cue="true"/>
                   <rest dur="8" cue="true"/>
-                  <note head.shape="x" stem.dir="up" pname.ges="g" oct="5" dur="8" xml:id="m17x2"
-                    cue="true"/>
+                  <note head.shape="x" stem.dir="up" pname.ges="g" oct="5" dur="8" xml:id="m17x2" cue="true"/>
                   <rest dur="4" cue="true"/>
                 </layer>
                 <layer n="2">
@@ -653,10 +634,8 @@
               <staff n="1">
                 <layer n="1">
                   <rest dur="8" cue="true"/>
-                  <note pname.ges="g" oct="5" dur="8" stem.dir="up" head.shape="x" xml:id="m18x1"
-                    cue="true"/>
-                  <note pname.ges="g" oct="5" dur="2" stem.dir="up" xml:id="m18x2" fermata="above"
-                    cue="true"/>
+                  <note pname.ges="g" oct="5" dur="8" stem.dir="up" head.shape="x" xml:id="m18x1" cue="true"/>
+                  <note pname.ges="g" oct="5" dur="2" stem.dir="up" xml:id="m18x2" fermata="above" cue="true"/>
                 </layer>
                 <layer n="2">
                   <rest dur="8"/>
@@ -681,22 +660,19 @@
               </staff>
               <staff n="2" visible="false"/>
               <dir staff="1" place="below" tstamp="3">(fine)</dir>
-              <dir staff="1" place="below" tstamp="4" extender="true" tstamp2="2m+5" lendsym="none"
-                >(sample pn. fill)</dir>
+              <dir staff="1" place="below" tstamp="4" extender="true" tstamp2="2m+5" lendsym="none">(sample pn. fill)</dir>
             </measure>
             <measure n="19">
               <staff n="1">
                 <layer n="1">
-                  <note pname.ges="g" oct="5" dur="4" head.shape="x" stem.dir="up" xml:id="m19x1"
-                    cue="true"/>
+                  <note pname.ges="g" oct="5" dur="4" head.shape="x" stem.dir="up" xml:id="m19x1" cue="true"/>
                 </layer>
                 <layer n="2">
                   <beam>
                     <note pname="c" oct="6" dur="8" stem.dir="down" xml:id="m19s1e1"/>
                     <note pname="d" oct="5" dur="8" stem.dir="down" xml:id="m19s1e2"/>
                   </beam>
-                  <tuplet num="3" numbase="2" bracket.place="below" num.visible="true"
-                    num.place="below">
+                  <tuplet num="3" numbase="2" bracket.place="below" num.visible="true" num.place="below">
                     <beam>
                       <note pname="c" oct="5" dur="8" stem.dir="down" xml:id="m19s1e3"/>
                       <note pname="d" oct="5" dur="8" stem.dir="down" xml:id="m19s1e4"/>
@@ -712,9 +688,8 @@
                 </layer>
               </staff>
               <staff n="2" visible="false"/>
-              <harm staff="1" place="above" tstamp="1">(B&#x1D12C;6)</harm>
-              <dir staff="1" place="above" tstamp="2" extender="true" tstamp2="1m+5"
-                lendsym="angledown">break</dir>
+              <harm staff="1" place="above" tstamp="1">(B𝄬6)</harm>
+              <dir staff="1" place="above" tstamp="2" extender="true" tstamp2="1m+5" lendsym="angledown">break</dir>
             </measure>
             <measure n="20">
               <staff n="1">
@@ -769,11 +744,9 @@
                 </layer>
               </staff>
               <staff n="2" visible="false"/>
-              <reh staff="1" tstamp="0" place="above">
-                <rend rend="box">A</rend>
-              </reh>
-              <dir staff="1" tstamp="0" place="above">&#x1D10B;</dir>
-              <harm staff="1" place="above" tstamp="1">B&#x1D12C;6</harm>
+              <reh staff="1" tstamp="0" place="above"><rend rend="box">A</rend></reh>
+              <dir staff="1" tstamp="0" place="above">𝄋</dir>
+              <harm staff="1" place="above" tstamp="1">B𝄬6</harm>
               <harm staff="1" place="above" tstamp="3">GMI7</harm>
             </measure>
             <measure n="22">
@@ -815,7 +788,7 @@
                 </layer>
               </staff>
               <staff n="2" visible="false"/>
-              <harm staff="1" place="above" tstamp="1">B&#x1D12C;6</harm>
+              <harm staff="1" place="above" tstamp="1">B𝄬6</harm>
               <harm staff="1" place="above" tstamp="3">G7<rend rend="sup">(#5)</rend></harm>
             </measure>
             <measure n="24">
@@ -864,7 +837,7 @@
               </staff>
               <staff n="2" visible="false"/>
               <dir staff="1" place="below" tstamp="0">(alto 8va b.)</dir>
-              <harm staff="1" place="above" tstamp="1">B&#x1D12C;7</harm>
+              <harm staff="1" place="above" tstamp="1">B𝄬7</harm>
             </measure>
             <measure n="26">
               <staff n="1">
@@ -885,8 +858,8 @@
                 </layer>
               </staff>
               <staff n="2" visible="false"/>
-              <harm staff="1" place="above" tstamp="1">E&#x1D12C;6</harm>
-              <harm staff="1" place="above" tstamp="3">E<rend rend="sup">&#x00B0;</rend>7</harm>
+              <harm staff="1" place="above" tstamp="1">E𝄬6</harm>
+              <harm staff="1" place="above" tstamp="3">E<rend rend="sup">°</rend>7</harm>
             </measure>
             <measure n="27">
               <staff n="1">
@@ -903,7 +876,7 @@
                 </layer>
               </staff>
               <staff n="2" visible="false"/>
-              <harm staff="1" place="above" tstamp="1">B&#x1D12C;6/F</harm>
+              <harm staff="1" place="above" tstamp="1">B𝄬6/F</harm>
               <harm staff="1" place="above" tstamp="3">G7</harm>
             </measure>
             <measure n="28">
@@ -944,7 +917,7 @@
                 </layer>
               </staff>
               <staff n="2" visible="false"/>
-              <harm staff="1" place="above" tstamp="1">B&#x1D12C;6</harm>
+              <harm staff="1" place="above" tstamp="1">B𝄬6</harm>
               <harm staff="1" place="above" tstamp="3">GMi7</harm>
             </measure>
             <measure n="30">
@@ -986,7 +959,7 @@
                 </layer>
               </staff>
               <staff n="2" visible="false"/>
-              <harm staff="1" place="above" tstamp="1">B&#x1D12C;6</harm>
+              <harm staff="1" place="above" tstamp="1">B𝄬6</harm>
               <harm staff="1" place="above" tstamp="3">G7<rend rend="sup">(#5)</rend></harm>
             </measure>
             <measure n="32">
@@ -1001,12 +974,10 @@
                     <rest dur="8"/>
                     <beam>
                       <note pname="a" oct="4" dur="8" stem.dir="up" slur="i1" xml:id="m32s1e4"/>
-                      <note pname="g" oct="4" dur="8" stem.dir="up" slur="m1" accid="f"
-                        xml:id="m32s1e5"/>
+                      <note pname="g" oct="4" dur="8" stem.dir="up" slur="m1" accid="f" xml:id="m32s1e5"/>
                     </beam>
                   </tuplet>
-                  <note pname="e" oct="4" dur="4" stem.dir="up" artic="stacc" slur="t1"
-                    xml:id="m32s1e6"/>
+                  <note pname="e" oct="4" dur="4" stem.dir="up" artic="stacc" slur="t1" xml:id="m32s1e6"/>
                 </layer>
               </staff>
               <harm staff="1" place="above" tstamp="1">CMI7</harm>
