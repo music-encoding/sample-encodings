@@ -22,6 +22,10 @@
         <name>mei30To40.xsl</name>
         <ptr target="https://github.com/music-encoding/encoding-tools/blob/main/mei30To40/mei30To40.xsl"/>
       </application>
+      <application version="0.0.1-alpha" xml:id="mei-lint_0.0.1-alpha">
+        <name>meiLint.xsl</name>
+        <ptr target="https://github.com/music-encoding/encoding-tools/blob/main/meiLint/meiLint.xsl"/>
+      </application>
     </appInfo>
     <editorialDecl>
       <p>A typical MEI document contains an MEI element, which in turn contains metadata, represented by an meiHead element, and the musical text itself, represented by a music element. Moreover, it is possible to capture only metadata without any musical text. This is an example for the use of the entry point &lt;meiHead&gt;.</p>
@@ -582,6 +586,22 @@
         <p>Converted to MEI version 4.0.0 using mei30To40.xsl, version 1.0 beta</p>
       </changeDesc>
       <date isodate="2019-01-03"/>
+    </change>
+    <change n="2">
+      <respStmt>
+        <persName>Benjamin W. Bohl</persName>
+        <persName>Stefan Münnich</persName>
+      </respStmt>
+      <changeDesc>
+        <p><list>
+            <li>update xml-model schema references to v4.0.1</li>
+            <li>update meiversion attributes to 4.0.1</li>
+            <li>add missing responsibility statements to change elements</li>
+            <li>unify documentation of mei version upgrades (appInfo and revisionDesc)</li>
+             <li>linted with <ref target="#mei-lint_0.0.1-alpha">meiLint.xsl</ref></li>
+          </list></p>
+      </changeDesc>
+      <date isodate="2023-07-27T17:11:05+02:00"/>
     </change>
   </revisionDesc>
 </meiHead>
