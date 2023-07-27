@@ -1,12 +1,11 @@
-<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<?xml version="1.0" encoding="UTF-8"?>
 <?xml-model href="http://music-encoding.org/schema/4.0.1/mei-all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
 <?xml-model href="http://music-encoding.org/schema/4.0.1/mei-all.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
-<mei xmlns:xlink="http://www.w3.org/1999/xlink" xmlns="http://www.music-encoding.org/ns/mei" meiversion="4.0.1">
+<mei xmlns="http://www.music-encoding.org/ns/mei" meiversion="4.0.1">
   <meiHead>
     <fileDesc>
       <titleStmt>
-        <title>String Quartet No. 1 <titlePart type="subordinate">Op. 18 No. 1</titlePart>
-          <titlePart type="subordinate">an electronic transcription</titlePart> </title>
+        <title>String Quartet No. 1<titlePart type="subordinate">Op. 18 No. 1</titlePart><titlePart type="subordinate">an electronic transcription</titlePart></title>
         <composer>
           <persName xml:id="LvB" role="creator">Ludwig van Beethoven</persName>
         </composer>
@@ -26,11 +25,7 @@
         </address>
         <date>2011</date>
         <availability>
-          <useRestrict>This encoding is in the public domain. However, the sources used to create it
-            may be under copyright. We believe their use by the MEI project for educational and
-            research purposes is covered by the Fair Use doctrine. However, we will remove any
-            material from the project archive when requested to do so by the copyright
-            owner.</useRestrict>
+          <useRestrict>This encoding is in the public domain. However, the sources used to create it may be under copyright. We believe their use by the MEI project for educational and research purposes is covered by the Fair Use doctrine. However, we will remove any material from the project archive when requested to do so by the copyright owner.</useRestrict>
         </availability>
       </pubStmt>
       <seriesStmt>
@@ -63,10 +58,13 @@
           <name>mei30To40.xsl</name>
           <ptr target="https://github.com/music-encoding/encoding-tools/blob/main/mei30To40/mei30To40.xsl"/>
         </application>
+        <application version="0.0.1-alpha" xml:id="lint-mei-files_0.0.1-alpha">
+          <name>mei-files.xsl</name>
+          <ptr target="https://github.com/music-encoding/encoding-tools/blob/main/linting/mei-files.xsl"/>
+        </application>
       </appInfo>
       <projectDesc>
-        <p>Transcoded from a MusicXML version 1.0 file on <date>2011-05-12</date> using an XSLT
-          stylesheet (musicxml2mei v. 2.2.3).</p>
+        <p>Transcoded from a MusicXML version 1.0 file on<date>2011-05-12</date>using an XSLT stylesheet (musicxml2mei v. 2.2.3).</p>
         <p>The MusicXML file was generated using Finale for Windows.</p>
       </projectDesc>
       <classDecls>
@@ -227,8 +225,7 @@
     <revisionDesc>
       <change n="1" resp="#MH">
         <changeDesc>
-          <p>Transformation with <ref target="#xsl_transformation">transformation.xsl</ref>, added a
-            new scoreDef.</p>
+          <p>Transformation with<ref target="#xsl_transformation">transformation.xsl</ref>, added a new scoreDef.</p>
         </changeDesc>
         <date isodate="2012-04-03"/>
       </change>
@@ -264,6 +261,21 @@
           <p>Converted to MEI version 4.0.0 using mei30To40.xsl, version 1.0 beta</p>
         </changeDesc>
         <date isodate="2019-01-03"/>
+      </change>
+      <change n="7">
+        <respStmt>
+          <persName>Benjamin W. Bohl</persName>
+          <persName>Stefan Münnich</persName>
+        </respStmt>
+        <changeDesc>
+          <p><list>
+              <li>update xml-model schema references to v4.0.1</li>
+              <li>update meiversion attributes to 4.0.1</li>
+              <li>add missing responsibility statements to change elements</li>
+              <li>unify documentation of mei version upgrades (appInfo and revisionDesc)</li>
+            </list></p>
+        </changeDesc>
+        <date isodate="2023-07-27T17:09:19+02:00"/>
       </change>
     </revisionDesc>
   </meiHead>
@@ -1116,21 +1128,13 @@
                   </beam>
                 </layer>
               </staff>
-              <dir tstamp="1" place="below" staff="1">
-                <rend fontstyle="italic" fontweight="bold">Cresc.</rend>
-              </dir>
+              <dir tstamp="1" place="below" staff="1"><rend fontstyle="italic" fontweight="bold">Cresc.</rend></dir>
               <slur tstamp="1" curvedir="above" startid="#d690095e4012" endid="#d690095e4063" staff="1"/>
-              <dir tstamp="1" place="below" staff="4">
-                <rend fontstyle="italic" fontweight="bold">Cresc.</rend>
-              </dir>
+              <dir tstamp="1" place="below" staff="4"><rend fontstyle="italic" fontweight="bold">Cresc.</rend></dir>
               <slur tstamp="1" curvedir="above" startid="#d690095e4086" endid="#d690095e4139" staff="4"/>
-              <dir tstamp="1" place="below" staff="3">
-                <rend fontstyle="italic" fontweight="bold">Cresc.</rend>
-              </dir>
+              <dir tstamp="1" place="below" staff="3"><rend fontstyle="italic" fontweight="bold">Cresc.</rend></dir>
               <slur tstamp="1" curvedir="above" startid="#d690095e4164" endid="#d690095e4201" staff="3"/>
-              <dir tstamp="1" place="below" staff="2">
-                <rend fontstyle="italic" fontweight="bold">Cresc.</rend>
-              </dir>
+              <dir tstamp="1" place="below" staff="2"><rend fontstyle="italic" fontweight="bold">Cresc.</rend></dir>
               <slur tstamp="2.5" curvedir="above" startid="#d690095e4259" endid="#d690095e4302" staff="2"/>
             </measure>
             <measure n="19" xml:id="d690095e4324">
@@ -2393,20 +2397,12 @@
                   </note>
                 </layer>
               </staff>
-              <dir tstamp="2.5" place="below" staff="1">
-                <rend fontstyle="italic" fontweight="bold">Cresc.</rend>
-              </dir>
+              <dir tstamp="2.5" place="below" staff="1"><rend fontstyle="italic" fontweight="bold">Cresc.</rend></dir>
               <slur tstamp="2.5" curvedir="above" startid="#d690095e10468" endid="#d690095e10488" staff="1"/>
-              <dir tstamp="2" place="below" staff="4">
-                <rend fontstyle="italic" fontweight="bold">Cresc.</rend>
-              </dir>
+              <dir tstamp="2" place="below" staff="4"><rend fontstyle="italic" fontweight="bold">Cresc.</rend></dir>
               <slur tstamp="2" curvedir="below" startid="#d690095e10571" endid="#d690095e10593" staff="4"/>
-              <dir tstamp="2" place="below" staff="3">
-                <rend fontstyle="italic" fontweight="bold">Cresc.</rend>
-              </dir>
-              <dir tstamp="2" place="below" staff="2">
-                <rend fontstyle="italic" fontweight="bold">Cresc.</rend>
-              </dir>
+              <dir tstamp="2" place="below" staff="3"><rend fontstyle="italic" fontweight="bold">Cresc.</rend></dir>
+              <dir tstamp="2" place="below" staff="2"><rend fontstyle="italic" fontweight="bold">Cresc.</rend></dir>
             </measure>
             <measure n="47" xml:id="d690095e10724">
               <staff n="1">
@@ -2745,15 +2741,9 @@
                   <rest xml:id="d690095e12485" dur="4"/>
                 </layer>
               </staff>
-              <dir tstamp="1.25" place="below" staff="1">
-                <rend fontstyle="italic" fontweight="bold">Cresc.</rend>
-              </dir>
-              <dir tstamp="3" place="below" staff="4">
-                <rend fontstyle="italic" fontweight="bold">Cresc.</rend>
-              </dir>
-              <dir tstamp="3" place="below" staff="3">
-                <rend fontstyle="italic" fontweight="bold">Cresc.</rend>
-              </dir>
+              <dir tstamp="1.25" place="below" staff="1"><rend fontstyle="italic" fontweight="bold">Cresc.</rend></dir>
+              <dir tstamp="3" place="below" staff="4"><rend fontstyle="italic" fontweight="bold">Cresc.</rend></dir>
+              <dir tstamp="3" place="below" staff="3"><rend fontstyle="italic" fontweight="bold">Cresc.</rend></dir>
             </measure>
             <measure n="52" xml:id="d690095e12493">
               <staff n="1">
@@ -2925,18 +2915,10 @@
                   </beam>
                 </layer>
               </staff>
-              <dir tstamp="1.75" place="below" staff="1">
-                <rend fontstyle="italic" fontweight="bold">Cresc.</rend>
-              </dir>
-              <dir tstamp="2.5" place="below" staff="4">
-                <rend fontstyle="italic" fontweight="bold">Cresc.</rend>
-              </dir>
-              <dir tstamp="2.5" place="below" staff="3">
-                <rend fontstyle="italic" fontweight="bold">Cresc.</rend>
-              </dir>
-              <dir tstamp="2.5" place="below" staff="2">
-                <rend fontstyle="italic" fontweight="bold">Cresc.</rend>
-              </dir>
+              <dir tstamp="1.75" place="below" staff="1"><rend fontstyle="italic" fontweight="bold">Cresc.</rend></dir>
+              <dir tstamp="2.5" place="below" staff="4"><rend fontstyle="italic" fontweight="bold">Cresc.</rend></dir>
+              <dir tstamp="2.5" place="below" staff="3"><rend fontstyle="italic" fontweight="bold">Cresc.</rend></dir>
+              <dir tstamp="2.5" place="below" staff="2"><rend fontstyle="italic" fontweight="bold">Cresc.</rend></dir>
             </measure>
             <measure n="54" xml:id="d690095e13475">
               <staff n="1">
@@ -3108,9 +3090,7 @@
                   <mRest xml:id="d690095e14683"/>
                 </layer>
               </staff>
-              <dir tstamp="1.5" place="below" staff="1">
-                <rend fontstyle="italic" fontweight="bold">Decresc.</rend>
-              </dir>
+              <dir tstamp="1.5" place="below" staff="1"><rend fontstyle="italic" fontweight="bold">Decresc.</rend></dir>
               <slur tstamp="3.5" curvedir="above" startid="#d690095e14650" endid="#d690095e14691" staff="1"/>
             </measure>
             <measure n="57" xml:id="d690095e14689">
@@ -3684,9 +3664,7 @@
                   <mRest xml:id="d690095e17531"/>
                 </layer>
               </staff>
-              <dir tstamp="3" place="below" staff="1">
-                <rend fontstyle="italic" fontweight="bold">Cresc.</rend>
-              </dir>
+              <dir tstamp="3" place="below" staff="1"><rend fontstyle="italic" fontweight="bold">Cresc.</rend></dir>
               <tie tstamp="3" staff="1" curvedir="above" startid="#d690095e17314" endid="#d690095e23890"/>
               <slur tstamp="1.5" curvedir="below" startid="#d690095e17356" endid="#d690095e17376" staff="4"/>
               <slur tstamp="2.5" curvedir="below" startid="#d690095e17394" endid="#d690095e17412" staff="4"/>
@@ -3737,14 +3715,10 @@
                 </layer>
               </staff>
               <slur tstamp="1" curvedir="above" startid="#d690095e17539" endid="#d690095e17569" staff="1"/>
-              <dir tstamp="1.5" place="above" staff="4">
-                <rend fontstyle="italic" fontweight="bold">Cresc.</rend>
-              </dir>
+              <dir tstamp="1.5" place="above" staff="4"><rend fontstyle="italic" fontweight="bold">Cresc.</rend></dir>
               <slur tstamp="1.5" curvedir="below" startid="#d690095e17612" endid="#d690095e17630" staff="4"/>
               <slur tstamp="2.5" curvedir="above" startid="#d690095e17646" endid="#d690095e17664" staff="4"/>
-              <dir tstamp="1.5" place="below" staff="3">
-                <rend fontstyle="italic" fontweight="bold">Cresc.</rend>
-              </dir>
+              <dir tstamp="1.5" place="below" staff="3"><rend fontstyle="italic" fontweight="bold">Cresc.</rend></dir>
               <slur tstamp="1.5" curvedir="above" startid="#d690095e17707" endid="#d690095e17725" staff="3"/>
               <slur tstamp="2.5" curvedir="below" startid="#d690095e17747" endid="#d690095e17765" staff="3"/>
               <slur tstamp="3.5" curvedir="below" startid="#d690095e17787" endid="#d690095e17932" staff="3"/>
@@ -4014,9 +3988,7 @@
                 </layer>
               </staff>
               <slur tstamp="1" curvedir="above" startid="#d690095e19050" endid="#d690095e19091" staff="1"/>
-              <dir tstamp="2.5" place="below" staff="1">
-                <rend fontstyle="italic" fontweight="bold">Cresc.</rend>
-              </dir>
+              <dir tstamp="2.5" place="below" staff="1"><rend fontstyle="italic" fontweight="bold">Cresc.</rend></dir>
             </measure>
             <measure n="76" xml:id="d690095e19217">
               <staff n="1">
@@ -4056,16 +4028,10 @@
                   </beam>
                 </layer>
               </staff>
-              <dir tstamp="4" place="above" staff="4">
-                <rend fontstyle="italic" fontweight="bold">Cresc.</rend>
-              </dir>
-              <dir tstamp="4" place="above" staff="3">
-                <rend fontstyle="italic" fontweight="bold">Cresc.</rend>
-              </dir>
+              <dir tstamp="4" place="above" staff="4"><rend fontstyle="italic" fontweight="bold">Cresc.</rend></dir>
+              <dir tstamp="4" place="above" staff="3"><rend fontstyle="italic" fontweight="bold">Cresc.</rend></dir>
               <slur tstamp="1" curvedir="above" startid="#d690095e19318" endid="#d690095e19359" staff="2"/>
-              <dir tstamp="2.5" place="below" staff="2">
-                <rend fontstyle="italic" fontweight="bold">Cresc.</rend>
-              </dir>
+              <dir tstamp="2.5" place="below" staff="2"><rend fontstyle="italic" fontweight="bold">Cresc.</rend></dir>
             </measure>
             <measure n="77" xml:id="d690095e19421">
               <staff n="1">
@@ -4289,18 +4255,10 @@
                   </beam>
                 </layer>
               </staff>
-              <dir tstamp="3.5" place="above" staff="1">
-                <rend fontstyle="italic" fontweight="bold">Cresc.</rend>
-              </dir>
-              <dir tstamp="3.5" place="above" staff="4">
-                <rend fontstyle="italic" fontweight="bold">Cresc.</rend>
-              </dir>
-              <dir tstamp="3.25" place="below" staff="3">
-                <rend fontstyle="italic" fontweight="bold">Cresc.</rend>
-              </dir>
-              <dir tstamp="3.25" place="below" staff="2">
-                <rend fontstyle="italic" fontweight="bold">Cresc.</rend>
-              </dir>
+              <dir tstamp="3.5" place="above" staff="1"><rend fontstyle="italic" fontweight="bold">Cresc.</rend></dir>
+              <dir tstamp="3.5" place="above" staff="4"><rend fontstyle="italic" fontweight="bold">Cresc.</rend></dir>
+              <dir tstamp="3.25" place="below" staff="3"><rend fontstyle="italic" fontweight="bold">Cresc.</rend></dir>
+              <dir tstamp="3.25" place="below" staff="2"><rend fontstyle="italic" fontweight="bold">Cresc.</rend></dir>
             </measure>
             <measure n="81" xml:id="d690095e20838">
               <staff n="1">
@@ -4749,21 +4707,13 @@
               </staff>
               <slur tstamp="1" curvedir="above" startid="#d690095e23597" endid="#d690095e23645" staff="1"/>
               <dynam tstamp="1.25" place="below" staff="1">p</dynam>
-              <dir tstamp="2.5" place="below" staff="1">
-                <rend fontstyle="italic" fontweight="bold">Cresc.</rend>
-              </dir>
+              <dir tstamp="2.5" place="below" staff="1"><rend fontstyle="italic" fontweight="bold">Cresc.</rend></dir>
               <dynam tstamp="1.25" place="below" staff="4">p</dynam>
-              <dir tstamp="4" place="below" staff="4">
-                <rend fontstyle="italic" fontweight="bold">Cresc.</rend>
-              </dir>
+              <dir tstamp="4" place="below" staff="4"><rend fontstyle="italic" fontweight="bold">Cresc.</rend></dir>
               <dynam tstamp="1.25" place="below" staff="3">p</dynam>
-              <dir tstamp="4" place="below" staff="3">
-                <rend fontstyle="italic" fontweight="bold">Cresc.</rend>
-              </dir>
+              <dir tstamp="4" place="below" staff="3"><rend fontstyle="italic" fontweight="bold">Cresc.</rend></dir>
               <dynam tstamp="1.25" place="below" staff="2">p</dynam>
-              <dir tstamp="4" place="below" staff="2">
-                <rend fontstyle="italic" fontweight="bold">Cresc.</rend>
-              </dir>
+              <dir tstamp="4" place="below" staff="2"><rend fontstyle="italic" fontweight="bold">Cresc.</rend></dir>
             </measure>
             <measure n="90" xml:id="d690095e23790">
               <staff n="1">
@@ -5714,9 +5664,7 @@
                   <mRest xml:id="d690095e28807"/>
                 </layer>
               </staff>
-              <dir tstamp="1.25" place="below" staff="1">
-                <rend fontstyle="italic" fontweight="bold">Cresc.</rend>
-              </dir>
+              <dir tstamp="1.25" place="below" staff="1"><rend fontstyle="italic" fontweight="bold">Cresc.</rend></dir>
             </measure>
             <measure n="111" xml:id="d690095e28813">
               <staff n="1">
@@ -5777,15 +5725,9 @@
                   </beam>
                 </layer>
               </staff>
-              <dir tstamp="3.25" place="below" staff="4">
-                <rend fontstyle="italic" fontweight="bold">Cresc.</rend>
-              </dir>
-              <dir tstamp="3.25" place="below" staff="3">
-                <rend fontstyle="italic" fontweight="bold">Cresc.</rend>
-              </dir>
-              <dir tstamp="3" place="below" staff="2">
-                <rend fontstyle="italic" fontweight="bold">Cresc.</rend>
-              </dir>
+              <dir tstamp="3.25" place="below" staff="4"><rend fontstyle="italic" fontweight="bold">Cresc.</rend></dir>
+              <dir tstamp="3.25" place="below" staff="3"><rend fontstyle="italic" fontweight="bold">Cresc.</rend></dir>
+              <dir tstamp="3" place="below" staff="2"><rend fontstyle="italic" fontweight="bold">Cresc.</rend></dir>
             </measure>
             <measure n="112" xml:id="d690095e29323">
               <staff n="1">
@@ -9524,19 +9466,11 @@
                   </beam>
                 </layer>
               </staff>
-              <dir tstamp="1" place="below" staff="1">
-                <rend fontstyle="italic" fontweight="bold">Cresc.</rend>
-              </dir>
+              <dir tstamp="1" place="below" staff="1"><rend fontstyle="italic" fontweight="bold">Cresc.</rend></dir>
               <slur tstamp="1" curvedir="below" startid="#d690095e49669" endid="#d690095e49874" staff="1"/>
-              <dir tstamp="1" place="below" staff="4">
-                <rend fontstyle="italic" fontweight="bold">Cresc.</rend>
-              </dir>
-              <dir tstamp="1.5" place="below" staff="3">
-                <rend fontstyle="italic" fontweight="bold">Cresc.</rend>
-              </dir>
-              <dir tstamp="1" place="below" staff="2">
-                <rend fontstyle="italic" fontweight="bold">Cresc.</rend>
-              </dir>
+              <dir tstamp="1" place="below" staff="4"><rend fontstyle="italic" fontweight="bold">Cresc.</rend></dir>
+              <dir tstamp="1.5" place="below" staff="3"><rend fontstyle="italic" fontweight="bold">Cresc.</rend></dir>
+              <dir tstamp="1" place="below" staff="2"><rend fontstyle="italic" fontweight="bold">Cresc.</rend></dir>
             </measure>
             <measure n="179" xml:id="d690095e50330">
               <staff n="1">
@@ -10256,21 +10190,13 @@
                   <note xml:id="d690095e53756" pname="f" oct="3" dur="2" dots="1" stem.dir="down"/>
                 </layer>
               </staff>
-              <dir tstamp="2" place="below" staff="1">
-                <rend fontstyle="italic" fontweight="bold">Cresc.</rend>
-              </dir>
+              <dir tstamp="2" place="below" staff="1"><rend fontstyle="italic" fontweight="bold">Cresc.</rend></dir>
               <slur tstamp="1" curvedir="below" startid="#d690095e53700" endid="#d690095e53898" staff="4"/>
-              <dir tstamp="4" place="below" staff="4">
-                <rend fontstyle="italic" fontweight="bold">Cresc.</rend>
-              </dir>
+              <dir tstamp="4" place="below" staff="4"><rend fontstyle="italic" fontweight="bold">Cresc.</rend></dir>
               <slur tstamp="1" curvedir="below" startid="#d690095e53728" endid="#d690095e53920" staff="3"/>
-              <dir tstamp="4" place="below" staff="3">
-                <rend fontstyle="italic" fontweight="bold">Cresc.</rend>
-              </dir>
+              <dir tstamp="4" place="below" staff="3"><rend fontstyle="italic" fontweight="bold">Cresc.</rend></dir>
               <slur tstamp="1" curvedir="above" startid="#d690095e53756" endid="#d690095e53938" staff="2"/>
-              <dir tstamp="4" place="below" staff="2">
-                <rend fontstyle="italic" fontweight="bold">Cresc.</rend>
-              </dir>
+              <dir tstamp="4" place="below" staff="2"><rend fontstyle="italic" fontweight="bold">Cresc.</rend></dir>
             </measure>
             <measure n="197" xml:id="d690095e53779">
               <staff n="1">
@@ -10694,21 +10620,13 @@
                   <note xml:id="d690095e56122" pname="g" accid="f" oct="2" dur="2" dots="1" stem.dir="up"/>
                 </layer>
               </staff>
-              <dir tstamp="1" place="below" staff="1">
-                <rend fontstyle="italic" fontweight="bold">Cresc.</rend>
-              </dir>
+              <dir tstamp="1" place="below" staff="1"><rend fontstyle="italic" fontweight="bold">Cresc.</rend></dir>
               <slur tstamp="1" curvedir="below" startid="#d690095e55896" endid="#d690095e55912" staff="1"/>
-              <dir tstamp="1" place="below" staff="4">
-                <rend fontstyle="italic" fontweight="bold">Cresc.</rend>
-              </dir>
+              <dir tstamp="1" place="below" staff="4"><rend fontstyle="italic" fontweight="bold">Cresc.</rend></dir>
               <slur tstamp="1" curvedir="below" startid="#d690095e55954" endid="#d690095e55970" staff="4"/>
-              <dir tstamp="1" place="below" staff="3">
-                <rend fontstyle="italic" fontweight="bold">Cresc.</rend>
-              </dir>
+              <dir tstamp="1" place="below" staff="3"><rend fontstyle="italic" fontweight="bold">Cresc.</rend></dir>
               <slur tstamp="1" curvedir="below" startid="#d690095e56012" endid="#d690095e56055" staff="3"/>
-              <dir tstamp="1" place="below" staff="2">
-                <rend fontstyle="italic" fontweight="bold">Cresc.</rend>
-              </dir>
+              <dir tstamp="1" place="below" staff="2"><rend fontstyle="italic" fontweight="bold">Cresc.</rend></dir>
               <slur tstamp="1" curvedir="below" startid="#d690095e56122" endid="#d690095e56365" staff="2"/>
             </measure>
             <measure n="207" xml:id="d690095e56144">
@@ -11312,18 +11230,10 @@
                   </beam>
                 </layer>
               </staff>
-              <dir tstamp="1" place="below" staff="1">
-                <rend fontstyle="italic" fontweight="bold">Cresc.</rend>
-              </dir>
-              <dir tstamp="1" place="below" staff="4">
-                <rend fontstyle="italic" fontweight="bold">Cresc.</rend>
-              </dir>
-              <dir tstamp="1" place="below" staff="3">
-                <rend fontstyle="italic" fontweight="bold">Cresc.</rend>
-              </dir>
-              <dir tstamp="1" place="below" staff="2">
-                <rend fontstyle="italic" fontweight="bold">Cresc.</rend>
-              </dir>
+              <dir tstamp="1" place="below" staff="1"><rend fontstyle="italic" fontweight="bold">Cresc.</rend></dir>
+              <dir tstamp="1" place="below" staff="4"><rend fontstyle="italic" fontweight="bold">Cresc.</rend></dir>
+              <dir tstamp="1" place="below" staff="3"><rend fontstyle="italic" fontweight="bold">Cresc.</rend></dir>
+              <dir tstamp="1" place="below" staff="2"><rend fontstyle="italic" fontweight="bold">Cresc.</rend></dir>
             </measure>
             <measure n="215" xml:id="d690095e59220">
               <staff n="1">
@@ -11496,9 +11406,7 @@
                   <mRest xml:id="d690095e60391"/>
                 </layer>
               </staff>
-              <dir tstamp="1" place="below" staff="1">
-                <rend fontstyle="italic" fontweight="bold">Decresc.</rend>
-              </dir>
+              <dir tstamp="1" place="below" staff="1"><rend fontstyle="italic" fontweight="bold">Decresc.</rend></dir>
               <slur tstamp="3.5" curvedir="above" startid="#d690095e60358" endid="#d690095e60400" staff="1"/>
             </measure>
             <measure n="218" xml:id="d690095e60398">
@@ -12115,17 +12023,11 @@
                 </layer>
               </staff>
               <slur tstamp="1" curvedir="above" startid="#d690095e63248" endid="#d690095e63284" staff="1"/>
-              <dir tstamp="2" place="below" staff="1">
-                <rend fontstyle="italic" fontweight="bold">Cresc.</rend>
-              </dir>
-              <dir tstamp="1.5" place="below" staff="4">
-                <rend fontstyle="italic" fontweight="bold">Cresc.</rend>
-              </dir>
+              <dir tstamp="2" place="below" staff="1"><rend fontstyle="italic" fontweight="bold">Cresc.</rend></dir>
+              <dir tstamp="1.5" place="below" staff="4"><rend fontstyle="italic" fontweight="bold">Cresc.</rend></dir>
               <slur tstamp="1.5" curvedir="below" startid="#d690095e63323" endid="#d690095e63341" staff="4"/>
               <slur tstamp="1.5" curvedir="above" startid="#d690095e63412" endid="#d690095e63436" staff="3"/>
-              <dir tstamp="2" place="below" staff="3">
-                <rend fontstyle="italic" fontweight="bold">Cresc.</rend>
-              </dir>
+              <dir tstamp="2" place="below" staff="3"><rend fontstyle="italic" fontweight="bold">Cresc.</rend></dir>
               <slur tstamp="2.5" curvedir="above" startid="#d690095e63458" endid="#d690095e63476" staff="3"/>
               <slur tstamp="3.5" curvedir="below" startid="#d690095e63496" endid="#d690095e63649" staff="3"/>
             </measure>
@@ -12386,9 +12288,7 @@
                 </layer>
               </staff>
               <slur tstamp="1" curvedir="above" startid="#d690095e64454" endid="#d690095e64497" staff="1"/>
-              <dir tstamp="2.5" place="below" staff="1">
-                <rend fontstyle="italic" fontweight="bold">Cresc.</rend>
-              </dir>
+              <dir tstamp="2.5" place="below" staff="1"><rend fontstyle="italic" fontweight="bold">Cresc.</rend></dir>
             </measure>
             <measure n="237" xml:id="d690095e64790">
               <staff n="1">
@@ -12447,15 +12347,9 @@
                   </beam>
                 </layer>
               </staff>
-              <dir tstamp="1" place="below" staff="4">
-                <rend fontstyle="italic" fontweight="bold">Cresc.</rend>
-              </dir>
-              <dir tstamp="4" place="below" staff="3">
-                <rend fontstyle="italic" fontweight="bold">Cresc.</rend>
-              </dir>
-              <dir tstamp="1" place="below" staff="2">
-                <rend fontstyle="italic" fontweight="bold">Cresc.</rend>
-              </dir>
+              <dir tstamp="1" place="below" staff="4"><rend fontstyle="italic" fontweight="bold">Cresc.</rend></dir>
+              <dir tstamp="4" place="below" staff="3"><rend fontstyle="italic" fontweight="bold">Cresc.</rend></dir>
+              <dir tstamp="1" place="below" staff="2"><rend fontstyle="italic" fontweight="bold">Cresc.</rend></dir>
               <slur tstamp="1" curvedir="above" startid="#d690095e65043" endid="#d690095e65078" staff="2"/>
             </measure>
             <measure n="238" xml:id="d690095e65138">
@@ -12617,9 +12511,7 @@
                   <mRest xml:id="d690095e66081"/>
                 </layer>
               </staff>
-              <dir tstamp="2.25" place="below" staff="1">
-                <rend fontstyle="italic" fontweight="bold">Cresc.</rend>
-              </dir>
+              <dir tstamp="2.25" place="below" staff="1"><rend fontstyle="italic" fontweight="bold">Cresc.</rend></dir>
             </measure>
             <measure n="241" xml:id="d690095e66087">
               <staff n="1">
@@ -12680,15 +12572,9 @@
                   </beam>
                 </layer>
               </staff>
-              <dir tstamp="3.25" place="below" staff="4">
-                <rend fontstyle="italic" fontweight="bold">Cresc.</rend>
-              </dir>
-              <dir tstamp="3.25" place="below" staff="3">
-                <rend fontstyle="italic" fontweight="bold">Cresc.</rend>
-              </dir>
-              <dir tstamp="3.25" place="below" staff="2">
-                <rend fontstyle="italic" fontweight="bold">Cresc.</rend>
-              </dir>
+              <dir tstamp="3.25" place="below" staff="4"><rend fontstyle="italic" fontweight="bold">Cresc.</rend></dir>
+              <dir tstamp="3.25" place="below" staff="3"><rend fontstyle="italic" fontweight="bold">Cresc.</rend></dir>
+              <dir tstamp="3.25" place="below" staff="2"><rend fontstyle="italic" fontweight="bold">Cresc.</rend></dir>
             </measure>
             <measure n="242" xml:id="d690095e66575">
               <staff n="1">
@@ -14128,9 +14014,7 @@
                   <mRest xml:id="d690095e74694"/>
                 </layer>
               </staff>
-              <dir tstamp="1.25" place="below" staff="1">
-                <rend fontstyle="italic" fontweight="bold">Cresc.</rend>
-              </dir>
+              <dir tstamp="1.25" place="below" staff="1"><rend fontstyle="italic" fontweight="bold">Cresc.</rend></dir>
             </measure>
             <measure n="272" xml:id="d690095e74700">
               <staff n="1">
@@ -14221,15 +14105,9 @@
                   </beam>
                 </layer>
               </staff>
-              <dir tstamp="1.5" place="below" staff="4">
-                <rend fontstyle="italic" fontweight="bold">Cresc.</rend>
-              </dir>
-              <dir tstamp="1.5" place="below" staff="3">
-                <rend fontstyle="italic" fontweight="bold">Cresc.</rend>
-              </dir>
-              <dir tstamp="1.5" place="below" staff="2">
-                <rend fontstyle="italic" fontweight="bold">Cresc.</rend>
-              </dir>
+              <dir tstamp="1.5" place="below" staff="4"><rend fontstyle="italic" fontweight="bold">Cresc.</rend></dir>
+              <dir tstamp="1.5" place="below" staff="3"><rend fontstyle="italic" fontweight="bold">Cresc.</rend></dir>
+              <dir tstamp="1.5" place="below" staff="2"><rend fontstyle="italic" fontweight="bold">Cresc.</rend></dir>
             </measure>
             <measure n="273" xml:id="d690095e75571">
               <staff n="1">
@@ -15166,13 +15044,9 @@
                 </layer>
               </staff>
               <slur tstamp="1" curvedir="above" startid="#d690095e80056" endid="#d690095e80099" staff="1"/>
-              <dir tstamp="2.5" place="below" staff="1">
-                <rend fontstyle="italic" fontweight="bold">Cresc.</rend>
-              </dir>
+              <dir tstamp="2.5" place="below" staff="1"><rend fontstyle="italic" fontweight="bold">Cresc.</rend></dir>
               <slur tstamp="1" curvedir="above" startid="#d690095e80169" endid="#d690095e80205" staff="3"/>
-              <dir tstamp="2" place="below" staff="3">
-                <rend fontstyle="italic" fontweight="bold">Cresc.</rend>
-              </dir>
+              <dir tstamp="2" place="below" staff="3"><rend fontstyle="italic" fontweight="bold">Cresc.</rend></dir>
             </measure>
             <measure n="293" xml:id="d690095e80252">
               <staff n="1">
@@ -15205,14 +15079,10 @@
               </staff>
               <slur tstamp="1" curvedir="above" startid="#d690095e80254" endid="#d690095e80286" staff="1"/>
               <slur tstamp="1" curvedir="above" startid="#d690095e80303" endid="#d690095e80339" staff="4"/>
-              <dir tstamp="2" place="below" staff="4">
-                <rend fontstyle="italic" fontweight="bold">Cresc.</rend>
-              </dir>
+              <dir tstamp="2" place="below" staff="4"><rend fontstyle="italic" fontweight="bold">Cresc.</rend></dir>
               <slur tstamp="1" curvedir="above" startid="#d690095e80358" endid="#d690095e80390" staff="3"/>
               <slur tstamp="1" curvedir="above" startid="#d690095e80407" endid="#d690095e80443" staff="2"/>
-              <dir tstamp="2" place="below" staff="2">
-                <rend fontstyle="italic" fontweight="bold">Cresc.</rend>
-              </dir>
+              <dir tstamp="2" place="below" staff="2"><rend fontstyle="italic" fontweight="bold">Cresc.</rend></dir>
             </measure>
             <measure n="294" xml:id="d690095e80463">
               <staff n="1">
@@ -15888,18 +15758,10 @@
                   </beam>
                 </layer>
               </staff>
-              <dir tstamp="1" place="below" staff="1">
-                <rend fontstyle="italic" fontweight="bold">Cresc.</rend>
-              </dir>
-              <dir tstamp="1" place="below" staff="4">
-                <rend fontstyle="italic" fontweight="bold">Cresc.</rend>
-              </dir>
-              <dir tstamp="1" place="below" staff="3">
-                <rend fontstyle="italic" fontweight="bold">Cresc.</rend>
-              </dir>
-              <dir tstamp="1" place="below" staff="2">
-                <rend fontstyle="italic" fontweight="bold">Cresc.</rend>
-              </dir>
+              <dir tstamp="1" place="below" staff="1"><rend fontstyle="italic" fontweight="bold">Cresc.</rend></dir>
+              <dir tstamp="1" place="below" staff="4"><rend fontstyle="italic" fontweight="bold">Cresc.</rend></dir>
+              <dir tstamp="1" place="below" staff="3"><rend fontstyle="italic" fontweight="bold">Cresc.</rend></dir>
+              <dir tstamp="1" place="below" staff="2"><rend fontstyle="italic" fontweight="bold">Cresc.</rend></dir>
               <slur tstamp="1" curvedir="below" startid="#d690095e83701" endid="#d690095e83902" staff="2"/>
             </measure>
             <measure n="310" xml:id="d690095e83922">
@@ -16858,21 +16720,13 @@
                   </beam>
                 </layer>
               </staff>
-              <dir tstamp="1" place="below" staff="1">
-                <rend fontstyle="italic" fontweight="bold">Cresc.</rend>
-              </dir>
+              <dir tstamp="1" place="below" staff="1"><rend fontstyle="italic" fontweight="bold">Cresc.</rend></dir>
               <slur tstamp="1" curvedir="above" startid="#d698446e4261" endid="#d698446e4278" staff="1"/>
               <tie tstamp="4" staff="1" curvedir="above" startid="#d698446e4278" endid="#d698446e4297"/>
               <slur tstamp="7" curvedir="above" startid="#d698446e4297" endid="#d698446e4333" staff="1"/>
-              <dir tstamp="1" place="below" staff="4">
-                <rend fontstyle="italic" fontweight="bold">Cresc.</rend>
-              </dir>
-              <dir tstamp="1" place="below" staff="3">
-                <rend fontstyle="italic" fontweight="bold">Cresc.</rend>
-              </dir>
-              <dir tstamp="1" place="below" staff="2">
-                <rend fontstyle="italic" fontweight="bold">Cresc.</rend>
-              </dir>
+              <dir tstamp="1" place="below" staff="4"><rend fontstyle="italic" fontweight="bold">Cresc.</rend></dir>
+              <dir tstamp="1" place="below" staff="3"><rend fontstyle="italic" fontweight="bold">Cresc.</rend></dir>
+              <dir tstamp="1" place="below" staff="2"><rend fontstyle="italic" fontweight="bold">Cresc.</rend></dir>
             </measure>
             <measure n="9" xml:id="d698446e4821">
               <staff n="1">
@@ -17195,23 +17049,15 @@
               <slur tstamp="1" curvedir="below" startid="#d698446e6444" endid="#d698446e6498" staff="1"/>
               <slur tstamp="5" curvedir="below" startid="#d698446e6516" endid="#d698446e6687" staff="1"/>
               <dynam tstamp="1" place="below" staff="4">p</dynam>
-              <dir tstamp="5" place="above" staff="4">
-                <rend fontstyle="italic" fontweight="bold">Cresc.</rend>
-              </dir>
+              <dir tstamp="5" place="above" staff="4"><rend fontstyle="italic" fontweight="bold">Cresc.</rend></dir>
               <dynam tstamp="1" place="below" staff="3">p</dynam>
               <slur tstamp="1" curvedir="below" startid="#d698446e6843" endid="#d698446e6954" staff="3"/>
               <tie tstamp="1" staff="3" curvedir="below" startid="#d698446e6843" endid="#d698446e6861"/>
-              <dir tstamp="5" place="above" staff="3">
-                <rend fontstyle="italic" fontweight="bold">Cresc.</rend>
-              </dir>
-              <dir tstamp="5" place="below" staff="3">
-                <rend fontstyle="italic" fontweight="bold">Cresc.</rend>
-              </dir>
+              <dir tstamp="5" place="above" staff="3"><rend fontstyle="italic" fontweight="bold">Cresc.</rend></dir>
+              <dir tstamp="5" place="below" staff="3"><rend fontstyle="italic" fontweight="bold">Cresc.</rend></dir>
               <dynam tstamp="1" place="below" staff="2">p</dynam>
               <slur tstamp="1" curvedir="below" startid="#d698446e6982" endid="#d698446e7020" staff="2"/>
-              <dir tstamp="4" place="below" staff="2">
-                <rend fontstyle="italic" fontweight="bold">Cresc.</rend>
-              </dir>
+              <dir tstamp="4" place="below" staff="2"><rend fontstyle="italic" fontweight="bold">Cresc.</rend></dir>
               <tie tstamp="4" staff="2" curvedir="above" startid="#d698446e7042" endid="#d698446e7060"/>
             </measure>
             <staffDef n="6" lines="5" clef.line="2" clef.shape="G"/>
@@ -17637,23 +17483,15 @@
                   </beam>
                 </layer>
               </staff>
-              <dir tstamp="1" place="below" staff="1">
-                <rend fontstyle="italic" fontweight="bold">Cresc.</rend>
-              </dir>
+              <dir tstamp="1" place="below" staff="1"><rend fontstyle="italic" fontweight="bold">Cresc.</rend></dir>
               <tie tstamp="4" staff="1" curvedir="above" startid="#d698446e9543" endid="#d698446e9564"/>
               <slur tstamp="6" curvedir="above" startid="#d698446e9564" endid="#d698446e9664" staff="1"/>
-              <dir tstamp="1" place="below" staff="4">
-                <rend fontstyle="italic" fontweight="bold">Cresc.</rend>
-              </dir>
+              <dir tstamp="1" place="below" staff="4"><rend fontstyle="italic" fontweight="bold">Cresc.</rend></dir>
               <tie tstamp="4" staff="4" curvedir="above" startid="#d698446e9708" endid="#d698446e9725"/>
-              <dir tstamp="1" place="below" staff="3">
-                <rend fontstyle="italic" fontweight="bold">Cresc.</rend>
-              </dir>
+              <dir tstamp="1" place="below" staff="3"><rend fontstyle="italic" fontweight="bold">Cresc.</rend></dir>
               <tie tstamp="1" staff="3" curvedir="below" startid="#d698446e9817" endid="#d698446e9834"/>
               <slur tstamp="5" curvedir="below" startid="#d698446e9834" endid="#d698446e9854" staff="3"/>
-              <dir tstamp="1" place="below" staff="2">
-                <rend fontstyle="italic" fontweight="bold">Cresc.</rend>
-              </dir>
+              <dir tstamp="1" place="below" staff="2"><rend fontstyle="italic" fontweight="bold">Cresc.</rend></dir>
             </measure>
             <measure n="20" xml:id="d698446e10052">
               <staff n="1">
@@ -18022,22 +17860,14 @@
                 </layer>
               </staff>
               <slur tstamp="2" curvedir="above" startid="#d698446e12040" endid="#d698446e12164" staff="1"/>
-              <dir tstamp="3" place="below" staff="1">
-                <rend fontstyle="italic" fontweight="bold">Cresc.</rend>
-              </dir>
+              <dir tstamp="3" place="below" staff="1"><rend fontstyle="italic" fontweight="bold">Cresc.</rend></dir>
               <slur tstamp="7.5" curvedir="below" startid="#d698446e12235" endid="#d698446e12317" staff="4"/>
-              <dir tstamp="8" place="below" staff="4">
-                <rend fontstyle="italic" fontweight="bold">Cresc.</rend>
-              </dir>
+              <dir tstamp="8" place="below" staff="4"><rend fontstyle="italic" fontweight="bold">Cresc.</rend></dir>
               <slur tstamp="1" curvedir="below" startid="#d698446e12340" endid="#d698446e12380" staff="3"/>
-              <dir tstamp="2" place="below" staff="3">
-                <rend fontstyle="italic" fontweight="bold">Cresc.</rend>
-              </dir>
+              <dir tstamp="2" place="below" staff="3"><rend fontstyle="italic" fontweight="bold">Cresc.</rend></dir>
               <slur tstamp="4" curvedir="below" startid="#d698446e12400" endid="#d698446e12434" staff="3"/>
               <slur tstamp="7" curvedir="below" startid="#d698446e12454" endid="#d698446e12488" staff="3"/>
-              <dir tstamp="1" place="below" staff="2">
-                <rend fontstyle="italic" fontweight="bold">Cresc.</rend>
-              </dir>
+              <dir tstamp="1" place="below" staff="2"><rend fontstyle="italic" fontweight="bold">Cresc.</rend></dir>
               <slur tstamp="1" curvedir="below" startid="#d698446e12513" endid="#d698446e12530" staff="2"/>
             </measure>
             <measure n="26" xml:id="d698446e12547">
@@ -18516,23 +18346,15 @@
                   <note xml:id="d698446e16512" pname="d" accid="f" oct="3" dur="4" dots="1" stem.dir="up"/>
                 </layer>
               </staff>
-              <dir tstamp="1" place="below" staff="1">
-                <rend fontstyle="italic" fontweight="bold">Cresc.</rend>
-              </dir>
+              <dir tstamp="1" place="below" staff="1"><rend fontstyle="italic" fontweight="bold">Cresc.</rend></dir>
               <slur tstamp="1" curvedir="below" startid="#d698446e15848" endid="#d698446e15870" staff="1"/>
               <slur tstamp="1" curvedir="below" startid="#d698446e15848" endid="#d698446e15870" staff="1"/>
-              <dir tstamp="1" place="below" staff="4">
-                <rend fontstyle="italic" fontweight="bold">Cresc.</rend>
-              </dir>
+              <dir tstamp="1" place="below" staff="4"><rend fontstyle="italic" fontweight="bold">Cresc.</rend></dir>
               <slur tstamp="1" curvedir="below" startid="#d698446e15897" endid="#d698446e16120" staff="4"/>
               <tie tstamp="1" staff="4 1" curvedir="below" startid="#d698446e15897" endid="#d698446e21792"/>
-              <dir tstamp="1" place="below" staff="3">
-                <rend fontstyle="italic" fontweight="bold">Cresc.</rend>
-              </dir>
+              <dir tstamp="1" place="below" staff="3"><rend fontstyle="italic" fontweight="bold">Cresc.</rend></dir>
               <slur tstamp="1" curvedir="below" startid="#d698446e16142" endid="#d698446e16455" staff="3"/>
-              <dir tstamp="1" place="below" staff="2">
-                <rend fontstyle="italic" fontweight="bold">Cresc.</rend>
-              </dir>
+              <dir tstamp="1" place="below" staff="2"><rend fontstyle="italic" fontweight="bold">Cresc.</rend></dir>
               <slur tstamp="1" curvedir="below" startid="#d698446e16480" endid="#d698446e16512" staff="2"/>
             </measure>
             <measure n="33" xml:id="d698446e16533">
@@ -18822,22 +18644,14 @@
                   </beam>
                 </layer>
               </staff>
-              <dir tstamp="1" place="below" staff="1">
-                <rend fontstyle="italic" fontweight="bold">Cresc.</rend>
-              </dir>
+              <dir tstamp="1" place="below" staff="1"><rend fontstyle="italic" fontweight="bold">Cresc.</rend></dir>
               <slur tstamp="1" curvedir="above" startid="#d698446e18516" endid="#d698446e18536" staff="1"/>
               <slur tstamp="4" curvedir="above" startid="#d698446e18577" endid="#d698446e18596" staff="1"/>
-              <dir tstamp="1" place="below" staff="4">
-                <rend fontstyle="italic" fontweight="bold">Cresc.</rend>
-              </dir>
-              <dir tstamp="1" place="below" staff="3">
-                <rend fontstyle="italic" fontweight="bold">Cresc.</rend>
-              </dir>
+              <dir tstamp="1" place="below" staff="4"><rend fontstyle="italic" fontweight="bold">Cresc.</rend></dir>
+              <dir tstamp="1" place="below" staff="3"><rend fontstyle="italic" fontweight="bold">Cresc.</rend></dir>
               <slur tstamp="1" curvedir="above" startid="#d698446e18703" endid="#d698446e18762" staff="3"/>
               <slur tstamp="4" curvedir="above" startid="#d698446e18782" endid="#d698446e18799" staff="3"/>
-              <dir tstamp="1" place="below" staff="2">
-                <rend fontstyle="italic" fontweight="bold">Cresc.</rend>
-              </dir>
+              <dir tstamp="1" place="below" staff="2"><rend fontstyle="italic" fontweight="bold">Cresc.</rend></dir>
               <slur tstamp="4" curvedir="below" startid="#d698446e18937" endid="#d698446e19142" staff="2"/>
             </measure>
             <measure n="37" xml:id="d698446e19162">
@@ -19273,27 +19087,19 @@
                 </layer>
               </staff>
               <slur tstamp="1" curvedir="above" startid="#d698446e22087" endid="#d698446e22127" staff="1"/>
-              <dir tstamp="3" place="below" staff="1">
-                <rend fontstyle="italic" fontweight="bold">Cresc.</rend>
-              </dir>
+              <dir tstamp="3" place="below" staff="1"><rend fontstyle="italic" fontweight="bold">Cresc.</rend></dir>
               <tie tstamp="4" staff="1" curvedir="above" startid="#d698446e22147" endid="#d698446e22165"/>
               <slur tstamp="7" curvedir="above" startid="#d698446e22165" endid="#d698446e22185" staff="1"/>
               <slur tstamp="1" curvedir="below" startid="#d698446e22220" endid="#d698446e22260" staff="4"/>
-              <dir tstamp="3" place="below" staff="4">
-                <rend fontstyle="italic" fontweight="bold">Cresc.</rend>
-              </dir>
+              <dir tstamp="3" place="below" staff="4"><rend fontstyle="italic" fontweight="bold">Cresc.</rend></dir>
               <tie tstamp="4" staff="4" curvedir="below" startid="#d698446e22280" endid="#d698446e22298"/>
               <slur tstamp="8" curvedir="below" startid="#d698446e22317" endid="#d698446e22336" staff="4"/>
               <slur tstamp="8" curvedir="below" startid="#d698446e22317" endid="#d698446e22336" staff="4"/>
               <slur tstamp="1" curvedir="below" startid="#d698446e22355" endid="#d698446e22393" staff="3"/>
-              <dir tstamp="3" place="below" staff="3">
-                <rend fontstyle="italic" fontweight="bold">Cresc.</rend>
-              </dir>
+              <dir tstamp="3" place="below" staff="3"><rend fontstyle="italic" fontweight="bold">Cresc.</rend></dir>
               <tie tstamp="4" staff="3" curvedir="below" startid="#d698446e22393" endid="#d698446e22412"/>
               <slur tstamp="7" curvedir="below" startid="#d698446e22412" endid="#d698446e22448" staff="3"/>
-              <dir tstamp="3" place="below" staff="2">
-                <rend fontstyle="italic" fontweight="bold">Cresc.</rend>
-              </dir>
+              <dir tstamp="3" place="below" staff="2"><rend fontstyle="italic" fontweight="bold">Cresc.</rend></dir>
             </measure>
             <measure n="44" xml:id="d698446e22563">
               <staff n="1">
@@ -19537,9 +19343,7 @@
                 </layer>
               </staff>
               <slur tstamp="4" curvedir="above" startid="#d698446e23903" endid="#d698446e23925" staff="1"/>
-              <dir tstamp="5" place="below" staff="1">
-                <rend fontstyle="italic" fontweight="bold">Cresc.</rend>
-              </dir>
+              <dir tstamp="5" place="below" staff="1"><rend fontstyle="italic" fontweight="bold">Cresc.</rend></dir>
               <slur tstamp="5" curvedir="above" startid="#d698446e23951" endid="#d698446e23975" staff="1"/>
               <slur tstamp="6" curvedir="above" startid="#d698446e23995" endid="#d698446e24019" staff="1"/>
               <slur tstamp="7" curvedir="below" startid="#d698446e24043" endid="#d698446e24067" staff="1"/>
@@ -20016,26 +19820,18 @@
                   </beam>
                 </layer>
               </staff>
-              <dir tstamp="1" place="below" staff="1">
-                <rend fontstyle="italic" fontweight="bold">Cresc.</rend>
-              </dir>
+              <dir tstamp="1" place="below" staff="1"><rend fontstyle="italic" fontweight="bold">Cresc.</rend></dir>
               <slur tstamp="1" curvedir="above" startid="#d698446e27726" endid="#d698446e27894" staff="1"/>
               <tie tstamp="4" staff="1" curvedir="below" startid="#d698446e27912" endid="#d698446e27933"/>
               <slur tstamp="8" curvedir="below" startid="#d698446e27952" endid="#d698446e27970" staff="1"/>
-              <dir tstamp="1" place="below" staff="4">
-                <rend fontstyle="italic" fontweight="bold">Cresc.</rend>
-              </dir>
+              <dir tstamp="1" place="below" staff="4"><rend fontstyle="italic" fontweight="bold">Cresc.</rend></dir>
               <tie tstamp="1" staff="4" curvedir="above" startid="#d698446e27993" endid="#d698446e28011"/>
               <slur tstamp="5" curvedir="above" startid="#d698446e28030" endid="#d698446e28207" staff="4"/>
-              <dir tstamp="1" place="below" staff="3">
-                <rend fontstyle="italic" fontweight="bold">Cresc.</rend>
-              </dir>
+              <dir tstamp="1" place="below" staff="3"><rend fontstyle="italic" fontweight="bold">Cresc.</rend></dir>
               <slur tstamp="1" curvedir="above" startid="#d698446e28232" endid="#d698446e28450" staff="3"/>
               <tie tstamp="1" staff="3" curvedir="above" startid="#d698446e28232" endid="#d698446e28251"/>
               <tie tstamp="4" staff="3" curvedir="above" startid="#d698446e28251" endid="#d698446e28272"/>
-              <dir tstamp="1" place="below" staff="2">
-                <rend fontstyle="italic" fontweight="bold">Cresc.</rend>
-              </dir>
+              <dir tstamp="1" place="below" staff="2"><rend fontstyle="italic" fontweight="bold">Cresc.</rend></dir>
             </measure>
             <measure n="54" xml:id="d698446e28621">
               <staff n="1">
@@ -20336,20 +20132,12 @@
                   <rest xml:id="d698446e30907" dur="8"/>
                 </layer>
               </staff>
-              <dir tstamp="1" place="below" staff="1">
-                <rend fontstyle="italic" fontweight="bold">Cresc.</rend>
-              </dir>
+              <dir tstamp="1" place="below" staff="1"><rend fontstyle="italic" fontweight="bold">Cresc.</rend></dir>
               <slur tstamp="1" curvedir="above" startid="#d698446e30479" endid="#d698446e30517" staff="1"/>
-              <dir tstamp="1" place="below" staff="4">
-                <rend fontstyle="italic" fontweight="bold">Cresc.</rend>
-              </dir>
-              <dir tstamp="1" place="below" staff="3">
-                <rend fontstyle="italic" fontweight="bold">Cresc.</rend>
-              </dir>
+              <dir tstamp="1" place="below" staff="4"><rend fontstyle="italic" fontweight="bold">Cresc.</rend></dir>
+              <dir tstamp="1" place="below" staff="3"><rend fontstyle="italic" fontweight="bold">Cresc.</rend></dir>
               <slur tstamp="1" curvedir="above" startid="#d698446e30628" endid="#d698446e30666" staff="3"/>
-              <dir tstamp="1" place="below" staff="2">
-                <rend fontstyle="italic" fontweight="bold">Cresc.</rend>
-              </dir>
+              <dir tstamp="1" place="below" staff="2"><rend fontstyle="italic" fontweight="bold">Cresc.</rend></dir>
             </measure>
             <measure n="59" xml:id="d698446e30915">
               <staff n="1">
@@ -20711,20 +20499,12 @@
               </staff>
               <tie tstamp="1" staff="1" curvedir="below" startid="#d698446e32611" endid="#d698446e32642"/>
               <dynam tstamp="1.214" place="below" staff="1">pp</dynam>
-              <dir tstamp="7" place="below" staff="1">
-                <rend fontstyle="italic" fontweight="bold">Cresc.</rend>
-              </dir>
+              <dir tstamp="7" place="below" staff="1"><rend fontstyle="italic" fontweight="bold">Cresc.</rend></dir>
               <tie tstamp="7" staff="1" curvedir="below" startid="#d698446e32642" endid="#d698446e33281"/>
-              <dir tstamp="2" place="below" staff="4">
-                <rend fontstyle="italic" fontweight="bold">Cresc.</rend>
-              </dir>
+              <dir tstamp="2" place="below" staff="4"><rend fontstyle="italic" fontweight="bold">Cresc.</rend></dir>
               <slur tstamp="7.5" curvedir="below" startid="#d698446e32880" endid="#d698446e32922" staff="4"/>
-              <dir tstamp="2" place="below" staff="3">
-                <rend fontstyle="italic" fontweight="bold">Cresc.</rend>
-              </dir>
-              <dir tstamp="2" place="below" staff="2">
-                <rend fontstyle="italic" fontweight="bold">Cresc.</rend>
-              </dir>
+              <dir tstamp="2" place="below" staff="3"><rend fontstyle="italic" fontweight="bold">Cresc.</rend></dir>
+              <dir tstamp="2" place="below" staff="2"><rend fontstyle="italic" fontweight="bold">Cresc.</rend></dir>
             </measure>
             <measure n="65" xml:id="d698446e33279">
               <staff n="1">
@@ -21707,26 +21487,18 @@
               </staff>
               <dynam tstamp="1" place="below" staff="1">p</dynam>
               <slur tstamp="1" curvedir="below" startid="#d698446e41436" endid="#d698446e41581" staff="1"/>
-              <dir tstamp="2" place="below" staff="1">
-                <rend fontstyle="italic" fontweight="bold">Cresc.</rend>
-              </dir>
+              <dir tstamp="2" place="below" staff="1"><rend fontstyle="italic" fontweight="bold">Cresc.</rend></dir>
               <dynam tstamp="1" place="below" staff="4">p</dynam>
               <slur tstamp="1" curvedir="below" startid="#d698446e41605" endid="#d698446e41752" staff="4"/>
-              <dir tstamp="2" place="below" staff="4">
-                <rend fontstyle="italic" fontweight="bold">Cresc.</rend>
-              </dir>
+              <dir tstamp="2" place="below" staff="4"><rend fontstyle="italic" fontweight="bold">Cresc.</rend></dir>
               <dynam tstamp="1" place="below" staff="3">p</dynam>
               <slur tstamp="1" curvedir="above" startid="#d698446e41776" endid="#d698446e41855" staff="3"/>
-              <dir tstamp="2" place="below" staff="3">
-                <rend fontstyle="italic" fontweight="bold">Cresc.</rend>
-              </dir>
+              <dir tstamp="2" place="below" staff="3"><rend fontstyle="italic" fontweight="bold">Cresc.</rend></dir>
               <tie tstamp="4" staff="3" curvedir="above" startid="#d698446e41837" endid="#d698446e41855"/>
               <slur tstamp="8" curvedir="above" startid="#d698446e41875" endid="#d698446e41895" staff="3"/>
               <dynam tstamp="1" place="below" staff="2">p</dynam>
               <slur tstamp="1" curvedir="above" startid="#d698446e41921" endid="#d698446e42066" staff="2"/>
-              <dir tstamp="2" place="below" staff="2">
-                <rend fontstyle="italic" fontweight="bold">Cresc.</rend>
-              </dir>
+              <dir tstamp="2" place="below" staff="2"><rend fontstyle="italic" fontweight="bold">Cresc.</rend></dir>
             </measure>
             <measure n="76" xml:id="d698446e42086">
               <staff n="1">
@@ -22235,22 +22007,14 @@
                   <note xml:id="d698446e46265" pname="b" oct="2" dur="4" dots="1" stem.dir="up"/>
                 </layer>
               </staff>
-              <dir tstamp="1" place="below" staff="1">
-                <rend fontstyle="italic" fontweight="bold">Cresc.</rend>
-              </dir>
+              <dir tstamp="1" place="below" staff="1"><rend fontstyle="italic" fontweight="bold">Cresc.</rend></dir>
               <slur tstamp="1" curvedir="below" startid="#d698446e45611" endid="#d698446e45628" staff="1"/>
-              <dir tstamp="1" place="below" staff="4">
-                <rend fontstyle="italic" fontweight="bold">Cresc.</rend>
-              </dir>
+              <dir tstamp="1" place="below" staff="4"><rend fontstyle="italic" fontweight="bold">Cresc.</rend></dir>
               <slur tstamp="1" curvedir="below" startid="#d698446e45650" endid="#d698446e45670" staff="4"/>
               <slur tstamp="1.5" curvedir="below" startid="#d698446e45670" endid="#d698446e45880" staff="4"/>
-              <dir tstamp="1" place="below" staff="3">
-                <rend fontstyle="italic" fontweight="bold">Cresc.</rend>
-              </dir>
+              <dir tstamp="1" place="below" staff="3"><rend fontstyle="italic" fontweight="bold">Cresc.</rend></dir>
               <slur tstamp="1" curvedir="below" startid="#d698446e45902" endid="#d698446e46223" staff="3"/>
-              <dir tstamp="1" place="below" staff="2">
-                <rend fontstyle="italic" fontweight="bold">Cresc.</rend>
-              </dir>
+              <dir tstamp="1" place="below" staff="2"><rend fontstyle="italic" fontweight="bold">Cresc.</rend></dir>
               <slur tstamp="1" curvedir="below" startid="#d698446e46248" endid="#d698446e46265" staff="2"/>
             </measure>
             <measure n="83" xml:id="d698446e46284">
@@ -22544,24 +22308,16 @@
                 </layer>
               </staff>
               <slur tstamp="1" curvedir="above" startid="#d698446e48326" endid="#d698446e48352" staff="1"/>
-              <dir tstamp="2" place="below" staff="1">
-                <rend fontstyle="italic" fontweight="bold">Cresc.</rend>
-              </dir>
+              <dir tstamp="2" place="below" staff="1"><rend fontstyle="italic" fontweight="bold">Cresc.</rend></dir>
               <slur tstamp="4" curvedir="above" startid="#d698446e48390" endid="#d698446e48415" staff="1"/>
               <hairpin tstamp="5.256" form="dim" place="below" staff="1" tstamp2="0m+7"/>
               <slur tstamp="1" curvedir="above" startid="#d698446e48433" endid="#d698446e48458" staff="4"/>
-              <dir tstamp="4" place="below" staff="4">
-                <rend fontstyle="italic" fontweight="bold">Cresc.</rend>
-              </dir>
+              <dir tstamp="4" place="below" staff="4"><rend fontstyle="italic" fontweight="bold">Cresc.</rend></dir>
               <tie tstamp="4" staff="4" curvedir="below" startid="#d698446e48458" endid="#d698446e48477"/>
-              <dir tstamp="2.5" place="below" staff="3">
-                <rend fontstyle="italic" fontweight="bold">Cresc.</rend>
-              </dir>
+              <dir tstamp="2.5" place="below" staff="3"><rend fontstyle="italic" fontweight="bold">Cresc.</rend></dir>
               <slur tstamp="4" curvedir="above" startid="#d698446e48614" endid="#d698446e48631" staff="3"/>
               <slur tstamp="1.5" curvedir="above" startid="#d698446e48667" endid="#d698446e48978" staff="2"/>
-              <dir tstamp="2" place="below" staff="2">
-                <rend fontstyle="italic" fontweight="bold">Cresc.</rend>
-              </dir>
+              <dir tstamp="2" place="below" staff="2"><rend fontstyle="italic" fontweight="bold">Cresc.</rend></dir>
             </measure>
             <measure n="87" xml:id="d698446e48998">
               <staff n="1">
@@ -22852,9 +22608,7 @@
                   <rest xml:id="d698446e51314" dur="8"/>
                 </layer>
               </staff>
-              <dir tstamp="1" place="below" staff="1">
-                <rend fontstyle="italic" fontweight="bold">Decresc.</rend>
-              </dir>
+              <dir tstamp="1" place="below" staff="1"><rend fontstyle="italic" fontweight="bold">Decresc.</rend></dir>
               <slur tstamp="1" curvedir="above" startid="#d698446e50757" endid="#d698446e50884" staff="1"/>
               <slur tstamp="4" curvedir="above" startid="#d698446e50774" endid="#d698446e50798" staff="1"/>
               <slur tstamp="5" curvedir="above" startid="#d698446e50818" endid="#d698446e50840" staff="1"/>
@@ -23039,28 +22793,20 @@
                   <note xml:id="d698446e52693" pname="a" accid="s" oct="2" dur="8" stem.dir="up"/>
                 </layer>
               </staff>
-              <dir tstamp="1" place="below" staff="1">
-                <rend fontstyle="italic" fontweight="bold">Cresc.</rend>
-              </dir>
+              <dir tstamp="1" place="below" staff="1"><rend fontstyle="italic" fontweight="bold">Cresc.</rend></dir>
               <slur tstamp="1" curvedir="below" startid="#d698446e52182" endid="#d698446e52218" staff="1"/>
               <slur tstamp="4" curvedir="above" startid="#d698446e52242" endid="#d698446e52281" staff="1"/>
               <tie tstamp="4" staff="1" curvedir="above" startid="#d698446e52242" endid="#d698446e52261"/>
               <slur tstamp="7" curvedir="below" startid="#d698446e52261" endid="#d698446e52281" staff="1"/>
-              <dir tstamp="1" place="below" staff="4">
-                <rend fontstyle="italic" fontweight="bold">Cresc.</rend>
-              </dir>
+              <dir tstamp="1" place="below" staff="4"><rend fontstyle="italic" fontweight="bold">Cresc.</rend></dir>
               <slur tstamp="3" curvedir="below" startid="#d698446e52344" endid="#d698446e52425" staff="4"/>
               <tie tstamp="4" staff="4" curvedir="below" startid="#d698446e52388" endid="#d698446e52406"/>
               <slur tstamp="8" curvedir="below" startid="#d698446e52425" endid="#d698446e52444" staff="4"/>
-              <dir tstamp="1" place="below" staff="3">
-                <rend fontstyle="italic" fontweight="bold">Cresc.</rend>
-              </dir>
+              <dir tstamp="1" place="below" staff="3"><rend fontstyle="italic" fontweight="bold">Cresc.</rend></dir>
               <slur tstamp="1" curvedir="below" startid="#d698446e52467" endid="#d698446e52483" staff="3"/>
               <tie tstamp="4" staff="3" curvedir="below" startid="#d698446e52499" endid="#d698446e52521"/>
               <slur tstamp="7" curvedir="below" startid="#d698446e52521" endid="#d698446e52562" staff="3"/>
-              <dir tstamp="1" place="below" staff="2">
-                <rend fontstyle="italic" fontweight="bold">Cresc.</rend>
-              </dir>
+              <dir tstamp="1" place="below" staff="2"><rend fontstyle="italic" fontweight="bold">Cresc.</rend></dir>
               <slur tstamp="4" curvedir="below" startid="#d698446e52623" endid="#d698446e52693" staff="2"/>
             </measure>
             <measure n="94" xml:id="d698446e52713">
@@ -23266,23 +23012,15 @@
               <tie tstamp="1" staff="1" curvedir="below" startid="#d698446e53872" endid="#d698446e53897"/>
               <dynam tstamp="1.229" place="below" staff="1">p</dynam>
               <tie tstamp="7" staff="1" curvedir="below" startid="#d698446e53897" endid="#d698446e53922"/>
-              <dir tstamp="9" place="below" staff="1">
-                <rend fontstyle="italic" fontweight="bold">Cresc.</rend>
-              </dir>
+              <dir tstamp="9" place="below" staff="1"><rend fontstyle="italic" fontweight="bold">Cresc.</rend></dir>
               <dynam tstamp="1.25" place="below" staff="4">p</dynam>
-              <dir tstamp="10" place="below" staff="4">
-                <rend fontstyle="italic" fontweight="bold">Cresc.</rend>
-              </dir>
+              <dir tstamp="10" place="below" staff="4"><rend fontstyle="italic" fontweight="bold">Cresc.</rend></dir>
               <dynam tstamp="1.25" place="below" staff="3">p</dynam>
-              <dir tstamp="10" place="below" staff="3">
-                <rend fontstyle="italic" fontweight="bold">Cresc.</rend>
-              </dir>
+              <dir tstamp="10" place="below" staff="3"><rend fontstyle="italic" fontweight="bold">Cresc.</rend></dir>
               <tie tstamp="1" staff="2" curvedir="above" startid="#d698446e54306" endid="#d698446e54331"/>
               <dynam tstamp="1.25" place="below" staff="2">p</dynam>
               <tie tstamp="7" staff="2" curvedir="above" startid="#d698446e54331" endid="#d698446e54728"/>
-              <dir tstamp="10" place="below" staff="2">
-                <rend fontstyle="italic" fontweight="bold">Cresc.</rend>
-              </dir>
+              <dir tstamp="10" place="below" staff="2"><rend fontstyle="italic" fontweight="bold">Cresc.</rend></dir>
             </measure>
             <measure n="97" xml:id="d698446e54358">
               <staff n="1">
@@ -23611,18 +23349,12 @@
               </staff>
               <dynam tstamp="1" place="below" staff="1">p</dynam>
               <dynam tstamp="1" place="below" staff="4">p</dynam>
-              <dir tstamp="4" place="below" staff="4">
-                <rend fontstyle="italic" fontweight="bold">Cresc.</rend>
-              </dir>
+              <dir tstamp="4" place="below" staff="4"><rend fontstyle="italic" fontweight="bold">Cresc.</rend></dir>
               <dynam tstamp="1" place="below" staff="3">p</dynam>
-              <dir tstamp="4" place="below" staff="3">
-                <rend fontstyle="italic" fontweight="bold">Cresc.</rend>
-              </dir>
+              <dir tstamp="4" place="below" staff="3"><rend fontstyle="italic" fontweight="bold">Cresc.</rend></dir>
               <dynam tstamp="1" place="below" staff="2">p</dynam>
               <slur tstamp="1" curvedir="above" startid="#d698446e57128" endid="#d698446e57149" staff="2"/>
-              <dir tstamp="4" place="below" staff="2">
-                <rend fontstyle="italic" fontweight="bold">Cresc.</rend>
-              </dir>
+              <dir tstamp="4" place="below" staff="2"><rend fontstyle="italic" fontweight="bold">Cresc.</rend></dir>
               <slur tstamp="4" curvedir="above" startid="#d698446e57149" endid="#d698446e57237" staff="2"/>
               <slur tstamp="7" curvedir="above" startid="#d698446e57257" endid="#d698446e57275" staff="2"/>
             </measure>
@@ -25877,21 +25609,13 @@
                   </note>
                 </layer>
               </staff>
-              <dir tstamp="1" place="below" staff="1">
-                <rend fontstyle="italic" fontweight="bold">Cresc.</rend>
-              </dir>
+              <dir tstamp="1" place="below" staff="1"><rend fontstyle="italic" fontweight="bold">Cresc.</rend></dir>
               <tie tstamp="1" staff="1" curvedir="below" startid="#d701474e6195" endid="#d701474e6348"/>
-              <dir tstamp="1" place="below" staff="4">
-                <rend fontstyle="italic" fontweight="bold">Cresc.</rend>
-              </dir>
+              <dir tstamp="1" place="below" staff="4"><rend fontstyle="italic" fontweight="bold">Cresc.</rend></dir>
               <slur tstamp="1" curvedir="below" startid="#d701474e6218" endid="#d701474e6404" staff="4"/>
-              <dir tstamp="1" place="below" staff="3">
-                <rend fontstyle="italic" fontweight="bold">Cresc.</rend>
-              </dir>
+              <dir tstamp="1" place="below" staff="3"><rend fontstyle="italic" fontweight="bold">Cresc.</rend></dir>
               <tie tstamp="3" staff="3" curvedir="above" startid="#d701474e6271" endid="#d701474e6438"/>
-              <dir tstamp="1" place="below" staff="2">
-                <rend fontstyle="italic" fontweight="bold">Cresc.</rend>
-              </dir>
+              <dir tstamp="1" place="below" staff="2"><rend fontstyle="italic" fontweight="bold">Cresc.</rend></dir>
             </measure>
             <measure n="38" xml:id="d701474e6346">
               <staff n="1">
@@ -26869,21 +26593,13 @@
                   </note>
                 </layer>
               </staff>
-              <dir tstamp="1" place="below" staff="1">
-                <rend fontstyle="italic" fontweight="bold">Cresc.</rend>
-              </dir>
+              <dir tstamp="1" place="below" staff="1"><rend fontstyle="italic" fontweight="bold">Cresc.</rend></dir>
               <tie tstamp="1" staff="1" curvedir="above" startid="#d701474e10689" endid="#d701474e10864"/>
-              <dir tstamp="1" place="below" staff="4">
-                <rend fontstyle="italic" fontweight="bold">Cresc.</rend>
-              </dir>
+              <dir tstamp="1" place="below" staff="4"><rend fontstyle="italic" fontweight="bold">Cresc.</rend></dir>
               <slur tstamp="1" curvedir="above" startid="#d701474e10712" endid="#d701474e10934" staff="4"/>
-              <dir tstamp="1" place="below" staff="3">
-                <rend fontstyle="italic" fontweight="bold">Cresc.</rend>
-              </dir>
+              <dir tstamp="1" place="below" staff="3"><rend fontstyle="italic" fontweight="bold">Cresc.</rend></dir>
               <slur tstamp="2" curvedir="above" startid="#d701474e10768" endid="#d701474e10786" staff="3"/>
-              <dir tstamp="1" place="below" staff="2">
-                <rend fontstyle="italic" fontweight="bold">Cresc.</rend>
-              </dir>
+              <dir tstamp="1" place="below" staff="2"><rend fontstyle="italic" fontweight="bold">Cresc.</rend></dir>
             </measure>
             <measure n="65" xml:id="d701474e10862">
               <staff n="1">
@@ -29025,18 +28741,10 @@
                   </note>
                 </layer>
               </staff>
-              <dir tstamp="1" place="below" staff="1">
-                <rend fontstyle="italic" fontweight="bold">Cresc.</rend>
-              </dir>
-              <dir tstamp="1" place="below" staff="4">
-                <rend fontstyle="italic" fontweight="bold">Cresc.</rend>
-              </dir>
-              <dir tstamp="1" place="below" staff="3">
-                <rend fontstyle="italic" fontweight="bold">Cresc.</rend>
-              </dir>
-              <dir tstamp="1" place="below" staff="2">
-                <rend fontstyle="italic" fontweight="bold">Cresc.</rend>
-              </dir>
+              <dir tstamp="1" place="below" staff="1"><rend fontstyle="italic" fontweight="bold">Cresc.</rend></dir>
+              <dir tstamp="1" place="below" staff="4"><rend fontstyle="italic" fontweight="bold">Cresc.</rend></dir>
+              <dir tstamp="1" place="below" staff="3"><rend fontstyle="italic" fontweight="bold">Cresc.</rend></dir>
+              <dir tstamp="1" place="below" staff="2"><rend fontstyle="italic" fontweight="bold">Cresc.</rend></dir>
             </measure>
             <measure n="120" xml:id="d701474e20662">
               <staff n="1">
@@ -30878,21 +30586,13 @@
               </staff>
               <tupletSpan staff="1" num="3" numbase="2" num.visible="false" num.format="count" startid="#d705229e4617" endid="#d705229e4668"/>
               <tupletSpan staff="1" num="3" numbase="2" num.visible="false" num.format="count" startid="#d705229e4693" endid="#d705229e4741"/>
-              <dir tstamp="1" place="below" staff="1">
-                <rend fontstyle="italic" fontweight="bold">Cresc.</rend>
-              </dir>
+              <dir tstamp="1" place="below" staff="1"><rend fontstyle="italic" fontweight="bold">Cresc.</rend></dir>
               <slur tstamp="1" curvedir="above" startid="#d705229e4617" endid="#d705229e4769" staff="1"/>
               <slur tstamp="1.833" curvedir="above" startid="#d705229e4741" endid="#d705229e4789" staff="1"/>
-              <dir tstamp="1.5" place="below" staff="4">
-                <rend fontstyle="italic" fontweight="bold">Cresc.</rend>
-              </dir>
+              <dir tstamp="1.5" place="below" staff="4"><rend fontstyle="italic" fontweight="bold">Cresc.</rend></dir>
               <slur tstamp="1.5" curvedir="below" startid="#d705229e4826" endid="#d705229e4844" staff="4"/>
-              <dir tstamp="1.5" place="below" staff="3">
-                <rend fontstyle="italic" fontweight="bold">Cresc.</rend>
-              </dir>
-              <dir tstamp="1.5" place="below" staff="2">
-                <rend fontstyle="italic" fontweight="bold">Cresc.</rend>
-              </dir>
+              <dir tstamp="1.5" place="below" staff="3"><rend fontstyle="italic" fontweight="bold">Cresc.</rend></dir>
+              <dir tstamp="1.5" place="below" staff="2"><rend fontstyle="italic" fontweight="bold">Cresc.</rend></dir>
               <slur tstamp="1.5" curvedir="above" startid="#d705229e4948" endid="#d705229e4966" staff="2"/>
             </measure>
             <measure n="16" xml:id="d705229e5007">
@@ -32190,18 +31890,12 @@
                   </beam>
                 </layer>
               </staff>
-              <dir tstamp="2" place="below" staff="1">
-                <rend fontstyle="italic" fontweight="bold">Cresc.</rend>
-              </dir>
+              <dir tstamp="2" place="below" staff="1"><rend fontstyle="italic" fontweight="bold">Cresc.</rend></dir>
               <tie tstamp="2" staff="1" curvedir="above" startid="#d705229e11806" endid="#d705229e12095"/>
-              <dir tstamp="1.25" place="below" staff="4">
-                <rend fontstyle="italic" fontweight="bold">Cresc.</rend>
-              </dir>
+              <dir tstamp="1.25" place="below" staff="4"><rend fontstyle="italic" fontweight="bold">Cresc.</rend></dir>
               <slur tstamp="2.25" curvedir="above" startid="#d705229e11900" endid="#d705229e11938" staff="4"/>
               <slur tstamp="1" curvedir="below" startid="#d705229e11963" endid="#d705229e11987" staff="3"/>
-              <dir tstamp="1.5" place="below" staff="3">
-                <rend fontstyle="italic" fontweight="bold">Cresc.</rend>
-              </dir>
+              <dir tstamp="1.5" place="below" staff="3"><rend fontstyle="italic" fontweight="bold">Cresc.</rend></dir>
             </measure>
             <measure n="42" xml:id="d705229e12093">
               <staff n="1">
@@ -32390,9 +32084,7 @@
                   </beam>
                 </layer>
               </staff>
-              <dir tstamp="3" place="above" staff="1">
-                <rend fontstyle="italic" fontweight="bold">Cresc.</rend>
-              </dir>
+              <dir tstamp="3" place="above" staff="1"><rend fontstyle="italic" fontweight="bold">Cresc.</rend></dir>
               <slur tstamp="1" curvedir="below" startid="#d705229e12930" endid="#d705229e13011" staff="4"/>
               <slur tstamp="1" curvedir="below" startid="#d705229e13034" endid="#d705229e13384" staff="3"/>
               <slur tstamp="1" curvedir="above" startid="#d705229e13121" endid="#d705229e13451" staff="2"/>
@@ -32600,17 +32292,11 @@
                   </beam>
                 </layer>
               </staff>
-              <dir tstamp="1" place="below" staff="4">
-                <rend fontstyle="italic" fontweight="bold">Cresc.</rend>
-              </dir>
+              <dir tstamp="1" place="below" staff="4"><rend fontstyle="italic" fontweight="bold">Cresc.</rend></dir>
               <slur tstamp="1" curvedir="below" startid="#d705229e14117" endid="#d705229e14251" staff="4"/>
-              <dir tstamp="1" place="below" staff="3">
-                <rend fontstyle="italic" fontweight="bold">Cresc.</rend>
-              </dir>
+              <dir tstamp="1" place="below" staff="3"><rend fontstyle="italic" fontweight="bold">Cresc.</rend></dir>
               <tie tstamp="2.5" staff="3" curvedir="below" startid="#d705229e14310" endid="#d705229e14557"/>
-              <dir tstamp="1" place="below" staff="2">
-                <rend fontstyle="italic" fontweight="bold">Cresc.</rend>
-              </dir>
+              <dir tstamp="1" place="below" staff="2"><rend fontstyle="italic" fontweight="bold">Cresc.</rend></dir>
               <slur tstamp="1" curvedir="below" startid="#d705229e14332" endid="#d705229e14385" staff="2"/>
             </measure>
             <measure n="50" xml:id="d705229e14403">
@@ -32671,9 +32357,7 @@
                   </beam>
                 </layer>
               </staff>
-              <dir tstamp="1.5" place="below" staff="1">
-                <rend fontstyle="italic" fontweight="bold">Cresc.</rend>
-              </dir>
+              <dir tstamp="1.5" place="below" staff="1"><rend fontstyle="italic" fontweight="bold">Cresc.</rend></dir>
               <slur tstamp="1" curvedir="below" startid="#d705229e14477" endid="#d705229e14498" staff="4"/>
               <slur tstamp="1" curvedir="below" startid="#d705229e14557" endid="#d705229e14611" staff="3"/>
               <slur tstamp="1" curvedir="below" startid="#d705229e14630" endid="#d705229e14680" staff="2"/>
@@ -32826,16 +32510,10 @@
                 </layer>
               </staff>
               <slur tstamp="1" curvedir="above" startid="#d705229e15231" endid="#d705229e15316" staff="4"/>
-              <dir tstamp="2.5" place="below" staff="4">
-                <rend fontstyle="italic" fontweight="bold">Cresc.</rend>
-              </dir>
-              <dir tstamp="1" place="below" staff="3">
-                <rend fontstyle="italic" fontweight="bold">Cresc.</rend>
-              </dir>
+              <dir tstamp="2.5" place="below" staff="4"><rend fontstyle="italic" fontweight="bold">Cresc.</rend></dir>
+              <dir tstamp="1" place="below" staff="3"><rend fontstyle="italic" fontweight="bold">Cresc.</rend></dir>
               <slur tstamp="1" curvedir="below" startid="#d705229e15343" endid="#d705229e15698" staff="3"/>
-              <dir tstamp="1" place="below" staff="2">
-                <rend fontstyle="italic" fontweight="bold">Cresc.</rend>
-              </dir>
+              <dir tstamp="1" place="below" staff="2"><rend fontstyle="italic" fontweight="bold">Cresc.</rend></dir>
               <slur tstamp="1" curvedir="below" startid="#d705229e15431" endid="#d705229e15765" staff="2"/>
             </measure>
             <measure n="54" xml:id="d705229e15499">
@@ -32893,9 +32571,7 @@
                   </beam>
                 </layer>
               </staff>
-              <dir tstamp="1.5" place="below" staff="1">
-                <rend fontstyle="italic" fontweight="bold">Cresc.</rend>
-              </dir>
+              <dir tstamp="1.5" place="below" staff="1"><rend fontstyle="italic" fontweight="bold">Cresc.</rend></dir>
               <slur tstamp="1" curvedir="below" startid="#d705229e15571" endid="#d705229e15591" staff="4"/>
             </measure>
             <measure n="55" xml:id="d705229e15785">
@@ -33049,17 +32725,11 @@
                 </layer>
               </staff>
               <slur tstamp="1" curvedir="above" startid="#d705229e16423" endid="#d705229e16541" staff="4"/>
-              <dir tstamp="1.25" place="below" staff="4">
-                <rend fontstyle="italic" fontweight="bold">Cresc.</rend>
-              </dir>
+              <dir tstamp="1.25" place="below" staff="4"><rend fontstyle="italic" fontweight="bold">Cresc.</rend></dir>
               <slur tstamp="1" curvedir="below" startid="#d705229e16580" endid="#d705229e16632" staff="3"/>
               <slur tstamp="1" curvedir="below" startid="#d705229e16651" endid="#d705229e16995" staff="2"/>
-              <dir tstamp="1.5" place="above" staff="2">
-                <rend fontstyle="italic" fontweight="bold">Cresc.</rend>
-              </dir>
-              <dir tstamp="1.5" place="below" staff="2">
-                <rend fontstyle="italic" fontweight="bold">Cresc.</rend>
-              </dir>
+              <dir tstamp="1.5" place="above" staff="2"><rend fontstyle="italic" fontweight="bold">Cresc.</rend></dir>
+              <dir tstamp="1.5" place="below" staff="2"><rend fontstyle="italic" fontweight="bold">Cresc.</rend></dir>
             </measure>
             <measure n="58" xml:id="d705229e16729">
               <staff n="1">
@@ -33116,9 +32786,7 @@
                   </beam>
                 </layer>
               </staff>
-              <dir tstamp="1.5" place="below" staff="1">
-                <rend fontstyle="italic" fontweight="bold">Cresc.</rend>
-              </dir>
+              <dir tstamp="1.5" place="below" staff="1"><rend fontstyle="italic" fontweight="bold">Cresc.</rend></dir>
               <slur tstamp="1" curvedir="below" startid="#d705229e16878" endid="#d705229e16928" staff="3"/>
             </measure>
             <measure n="59" xml:id="d705229e17015">
@@ -33642,18 +33310,12 @@
                 </layer>
               </staff>
               <slur tstamp="1" curvedir="above" startid="#d705229e19931" endid="#d705229e20065" staff="1"/>
-              <dir tstamp="1.75" place="below" staff="1">
-                <rend fontstyle="italic" fontweight="bold">Cresc.</rend>
-              </dir>
+              <dir tstamp="1.75" place="below" staff="1"><rend fontstyle="italic" fontweight="bold">Cresc.</rend></dir>
               <slur tstamp="1" curvedir="above" startid="#d705229e20086" endid="#d705229e20110" staff="4"/>
-              <dir tstamp="1.5" place="below" staff="4">
-                <rend fontstyle="italic" fontweight="bold">Cresc.</rend>
-              </dir>
+              <dir tstamp="1.5" place="below" staff="4"><rend fontstyle="italic" fontweight="bold">Cresc.</rend></dir>
               <slur tstamp="1" curvedir="above" startid="#d705229e20167" endid="#d705229e20187" staff="3"/>
               <slur tstamp="2" curvedir="above" startid="#d705229e20205" endid="#d705229e20225" staff="3"/>
-              <dir tstamp="2" place="above" staff="2">
-                <rend fontstyle="italic" fontweight="bold">Cresc.</rend>
-              </dir>
+              <dir tstamp="2" place="above" staff="2"><rend fontstyle="italic" fontweight="bold">Cresc.</rend></dir>
             </measure>
             <measure n="70" xml:id="d705229e20284">
               <staff n="1">
@@ -33703,9 +33365,7 @@
               <slur tstamp="1" curvedir="above" startid="#d705229e20286" endid="#d705229e20416" staff="1"/>
               <slur tstamp="1" curvedir="above" startid="#d705229e20439" endid="#d705229e20455" staff="4"/>
               <slur tstamp="1" curvedir="above" startid="#d705229e20490" endid="#d705229e20522" staff="3"/>
-              <dir tstamp="1.5" place="below" staff="2">
-                <rend fontstyle="italic" fontweight="bold">Cresc.</rend>
-              </dir>
+              <dir tstamp="1.5" place="below" staff="2"><rend fontstyle="italic" fontweight="bold">Cresc.</rend></dir>
             </measure>
             <measure n="71" xml:id="d705229e20611">
               <staff n="1">
@@ -34056,27 +33716,19 @@
                   </beam>
                 </layer>
               </staff>
-              <dir tstamp="1.5" place="below" staff="1">
-                <rend fontstyle="italic" fontweight="bold">Cresc.</rend>
-              </dir>
+              <dir tstamp="1.5" place="below" staff="1"><rend fontstyle="italic" fontweight="bold">Cresc.</rend></dir>
               <tie tstamp="1.5" staff="1" curvedir="above" startid="#d705229e22509" endid="#d705229e22954"/>
               <slur tstamp="1.25" curvedir="above" startid="#d705229e22549" endid="#d705229e22595" staff="4"/>
               <dynam tstamp="1.5" place="below" staff="4">sf</dynam>
               <slur tstamp="1.75" curvedir="above" startid="#d705229e22595" endid="#d705229e23117" staff="4"/>
-              <dir tstamp="2" place="below" staff="4">
-                <rend fontstyle="italic" fontweight="bold">Cresc.</rend>
-              </dir>
+              <dir tstamp="2" place="below" staff="4"><rend fontstyle="italic" fontweight="bold">Cresc.</rend></dir>
               <slur tstamp="1.25" curvedir="below" startid="#d705229e22716" endid="#d705229e22762" staff="3"/>
               <dynam tstamp="1.5" place="below" staff="3">sf</dynam>
               <slur tstamp="2" curvedir="below" startid="#d705229e22782" endid="#d705229e22846" staff="3"/>
-              <dir tstamp="2.25" place="below" staff="3">
-                <rend fontstyle="italic" fontweight="bold">Cresc.</rend>
-              </dir>
+              <dir tstamp="2.25" place="below" staff="3"><rend fontstyle="italic" fontweight="bold">Cresc.</rend></dir>
               <dynam tstamp="1.5" place="below" staff="2">sf</dynam>
               <slur tstamp="1.5" curvedir="below" startid="#d705229e22894" endid="#d705229e22934" staff="2"/>
-              <dir tstamp="2.5" place="below" staff="2">
-                <rend fontstyle="italic" fontweight="bold">Cresc.</rend>
-              </dir>
+              <dir tstamp="2.5" place="below" staff="2"><rend fontstyle="italic" fontweight="bold">Cresc.</rend></dir>
             </measure>
             <measure n="77" xml:id="d705229e22952">
               <staff n="1">
@@ -34488,21 +34140,13 @@
               <tupletSpan staff="1" num="3" numbase="2" num.visible="false" num.format="count" startid="#d705229e25366" endid="#d705229e25419"/>
               <tupletSpan staff="1" num="3" numbase="2" num.visible="false" num.format="count" startid="#d705229e25448" endid="#d705229e25498"/>
               <slur tstamp="1" curvedir="above" startid="#d705229e25366" endid="#d705229e25473" staff="1"/>
-              <dir tstamp="1.5" place="below" staff="1">
-                <rend fontstyle="italic" fontweight="bold">Cresc.</rend>
-              </dir>
+              <dir tstamp="1.5" place="below" staff="1"><rend fontstyle="italic" fontweight="bold">Cresc.</rend></dir>
               <tie tstamp="2" staff="1" curvedir="above" startid="#d705229e25525" endid="#d705229e25792"/>
-              <dir tstamp="1" place="below" staff="4">
-                <rend fontstyle="italic" fontweight="bold">Cresc.</rend>
-              </dir>
+              <dir tstamp="1" place="below" staff="4"><rend fontstyle="italic" fontweight="bold">Cresc.</rend></dir>
               <slur tstamp="1" curvedir="above" startid="#d705229e25547" endid="#d705229e25564" staff="4"/>
-              <dir tstamp="1" place="below" staff="3">
-                <rend fontstyle="italic" fontweight="bold">Cresc.</rend>
-              </dir>
+              <dir tstamp="1" place="below" staff="3"><rend fontstyle="italic" fontweight="bold">Cresc.</rend></dir>
               <slur tstamp="1" curvedir="above" startid="#d705229e25585" endid="#d705229e25602" staff="3"/>
-              <dir tstamp="1.25" place="below" staff="2">
-                <rend fontstyle="italic" fontweight="bold">Cresc.</rend>
-              </dir>
+              <dir tstamp="1.25" place="below" staff="2"><rend fontstyle="italic" fontweight="bold">Cresc.</rend></dir>
             </measure>
             <measure n="84" xml:id="d705229e25790">
               <staff n="1">
@@ -34727,23 +34371,15 @@
                 </layer>
               </staff>
               <tupletSpan staff="1" num="3" numbase="2" num.visible="false" num.format="count" startid="#d705229e27061" endid="#d705229e27109"/>
-              <dir tstamp="2.5" place="below" staff="1">
-                <rend fontstyle="italic" fontweight="bold">Cresc.</rend>
-              </dir>
+              <dir tstamp="2.5" place="below" staff="1"><rend fontstyle="italic" fontweight="bold">Cresc.</rend></dir>
               <tupletSpan staff="4" num="3" numbase="2" num.visible="false" num.format="count" startid="#d705229e27136" endid="#d705229e27191"/>
               <tupletSpan staff="4" num="3" numbase="2" num.visible="false" num.format="count" startid="#d705229e27216" endid="#d705229e27264"/>
               <slur tstamp="1" curvedir="above" startid="#d705229e27136" endid="#d705229e27264" staff="4"/>
-              <dir tstamp="1.333" place="below" staff="4">
-                <rend fontstyle="italic" fontweight="bold">Cresc.</rend>
-              </dir>
+              <dir tstamp="1.333" place="below" staff="4"><rend fontstyle="italic" fontweight="bold">Cresc.</rend></dir>
               <tie tstamp="2" staff="4" curvedir="above" startid="#d705229e27290" endid="#d705229e27521"/>
-              <dir tstamp="2.5" place="below" staff="3">
-                <rend fontstyle="italic" fontweight="bold">Cresc.</rend>
-              </dir>
+              <dir tstamp="2.5" place="below" staff="3"><rend fontstyle="italic" fontweight="bold">Cresc.</rend></dir>
               <slur tstamp="1" curvedir="below" startid="#d705229e27375" endid="#d705229e27398" staff="2"/>
-              <dir tstamp="2.5" place="below" staff="2">
-                <rend fontstyle="italic" fontweight="bold">Cresc.</rend>
-              </dir>
+              <dir tstamp="2.5" place="below" staff="2"><rend fontstyle="italic" fontweight="bold">Cresc.</rend></dir>
             </measure>
             <measure n="88" xml:id="d705229e27414">
               <staff n="1">
@@ -35643,18 +35279,10 @@
                   <rest xml:id="d705229e32845" dur="8"/>
                 </layer>
               </staff>
-              <dir tstamp="1" place="below" staff="1">
-                <rend fontstyle="italic" fontweight="bold">Cresc.</rend>
-              </dir>
-              <dir tstamp="1" place="below" staff="4">
-                <rend fontstyle="italic" fontweight="bold">Cresc.</rend>
-              </dir>
-              <dir tstamp="1" place="below" staff="3">
-                <rend fontstyle="italic" fontweight="bold">Cresc.</rend>
-              </dir>
-              <dir tstamp="1" place="below" staff="2">
-                <rend fontstyle="italic" fontweight="bold">Cresc.</rend>
-              </dir>
+              <dir tstamp="1" place="below" staff="1"><rend fontstyle="italic" fontweight="bold">Cresc.</rend></dir>
+              <dir tstamp="1" place="below" staff="4"><rend fontstyle="italic" fontweight="bold">Cresc.</rend></dir>
+              <dir tstamp="1" place="below" staff="3"><rend fontstyle="italic" fontweight="bold">Cresc.</rend></dir>
+              <dir tstamp="1" place="below" staff="2"><rend fontstyle="italic" fontweight="bold">Cresc.</rend></dir>
             </measure>
             <measure n="104" xml:id="d705229e32853">
               <staff n="1">
@@ -36220,9 +35848,7 @@
               </staff>
               <tupletSpan staff="1" num="3" numbase="2" num.visible="false" num.format="count" startid="#d705229e36244" endid="#d705229e36295"/>
               <tupletSpan staff="1" num="3" numbase="2" num.visible="false" num.format="count" startid="#d705229e36322" endid="#d705229e36372"/>
-              <dir tstamp="2" place="below" staff="1">
-                <rend fontstyle="italic" fontweight="bold">Cresc.</rend>
-              </dir>
+              <dir tstamp="2" place="below" staff="1"><rend fontstyle="italic" fontweight="bold">Cresc.</rend></dir>
               <slur tstamp="2" curvedir="above" startid="#d705229e36244" endid="#d705229e36855" staff="1"/>
               <dynam tstamp="1.5" place="below" staff="2">sf</dynam>
               <tie tstamp="1.5" staff="2" curvedir="above" startid="#d705229e36555" endid="#d705229e37366"/>
@@ -36305,18 +35931,12 @@
               <tupletSpan staff="4" num="3" numbase="2" num.visible="false" num.format="count" startid="#d705229e36966" endid="#d705229e37016"/>
               <tupletSpan staff="4" num="3" numbase="2" num.visible="false" num.format="count" startid="#d705229e37041" endid="#d705229e37093"/>
               <tupletSpan staff="4" num="3" numbase="2" num.visible="false" num.format="count" startid="#d705229e37118" endid="#d705229e37167"/>
-              <dir tstamp="1" place="below" staff="4">
-                <rend fontstyle="italic" fontweight="bold">Cresc.</rend>
-              </dir>
+              <dir tstamp="1" place="below" staff="4"><rend fontstyle="italic" fontweight="bold">Cresc.</rend></dir>
               <slur tstamp="1" curvedir="below" startid="#d705229e36888" endid="#d705229e37167" staff="4"/>
               <tupletSpan staff="3" num="3" numbase="2" num.visible="false" num.format="count" startid="#d705229e37208" endid="#d705229e37258"/>
               <tupletSpan staff="3" num="3" numbase="2" num.visible="false" num.format="count" startid="#d705229e37285" endid="#d705229e37335"/>
-              <dir tstamp="2" place="below" staff="3">
-                <rend fontstyle="italic" fontweight="bold">Cresc.</rend>
-              </dir>
-              <dir tstamp="1" place="below" staff="2">
-                <rend fontstyle="italic" fontweight="bold">Cresc.</rend>
-              </dir>
+              <dir tstamp="2" place="below" staff="3"><rend fontstyle="italic" fontweight="bold">Cresc.</rend></dir>
+              <dir tstamp="1" place="below" staff="2"><rend fontstyle="italic" fontweight="bold">Cresc.</rend></dir>
               <tie tstamp="1" staff="2" curvedir="above" startid="#d705229e37366" endid="#d705229e37980"/>
             </measure>
             <measure n="115" xml:id="d705229e37385">
@@ -37269,19 +36889,11 @@
                   </note>
                 </layer>
               </staff>
-              <dir tstamp="1" place="below" staff="1">
-                <rend fontstyle="italic" fontweight="bold">Cresc.</rend>
-              </dir>
+              <dir tstamp="1" place="below" staff="1"><rend fontstyle="italic" fontweight="bold">Cresc.</rend></dir>
               <slur tstamp="1" curvedir="above" startid="#d705229e42558" endid="#d705229e42594" staff="1"/>
-              <dir tstamp="1" place="below" staff="4">
-                <rend fontstyle="italic" fontweight="bold">Cresc.</rend>
-              </dir>
-              <dir tstamp="1" place="below" staff="3">
-                <rend fontstyle="italic" fontweight="bold">Cresc.</rend>
-              </dir>
-              <dir tstamp="1" place="below" staff="2">
-                <rend fontstyle="italic" fontweight="bold">Cresc.</rend>
-              </dir>
+              <dir tstamp="1" place="below" staff="4"><rend fontstyle="italic" fontweight="bold">Cresc.</rend></dir>
+              <dir tstamp="1" place="below" staff="3"><rend fontstyle="italic" fontweight="bold">Cresc.</rend></dir>
+              <dir tstamp="1" place="below" staff="2"><rend fontstyle="italic" fontweight="bold">Cresc.</rend></dir>
               <slur tstamp="1.5" curvedir="above" startid="#d705229e42742" endid="#d705229e42762" staff="2"/>
             </measure>
             <measure n="132" xml:id="d705229e42784">
@@ -40240,20 +39852,12 @@
                   <note xml:id="d705229e59143" pname="c" accid="s" oct="3" dur="8" stem.dir="up"/>
                 </layer>
               </staff>
-              <dir tstamp="1" place="below" staff="1">
-                <rend fontstyle="italic" fontweight="bold">Cresc.</rend>
-              </dir>
-              <dir tstamp="1" place="below" staff="4">
-                <rend fontstyle="italic" fontweight="bold">Cresc.</rend>
-              </dir>
+              <dir tstamp="1" place="below" staff="1"><rend fontstyle="italic" fontweight="bold">Cresc.</rend></dir>
+              <dir tstamp="1" place="below" staff="4"><rend fontstyle="italic" fontweight="bold">Cresc.</rend></dir>
               <slur tstamp="1" curvedir="below" startid="#d705229e59026" endid="#d705229e59046" staff="4"/>
               <tie tstamp="2" staff="4" curvedir="below" startid="#d705229e59068" endid="#d705229e59199"/>
-              <dir tstamp="1" place="below" staff="3">
-                <rend fontstyle="italic" fontweight="bold">Cresc.</rend>
-              </dir>
-              <dir tstamp="1" place="below" staff="2">
-                <rend fontstyle="italic" fontweight="bold">Cresc.</rend>
-              </dir>
+              <dir tstamp="1" place="below" staff="3"><rend fontstyle="italic" fontweight="bold">Cresc.</rend></dir>
+              <dir tstamp="1" place="below" staff="2"><rend fontstyle="italic" fontweight="bold">Cresc.</rend></dir>
             </measure>
             <measure n="198" xml:id="d705229e59161">
               <staff n="1">
@@ -40923,20 +40527,12 @@
                 </layer>
               </staff>
               <slur tstamp="1" curvedir="above" startid="#d705229e62640" endid="#d705229e62869" staff="1"/>
-              <dir tstamp="2.5" place="below" staff="1">
-                <rend fontstyle="italic" fontweight="bold">Cresc.</rend>
-              </dir>
+              <dir tstamp="2.5" place="below" staff="1"><rend fontstyle="italic" fontweight="bold">Cresc.</rend></dir>
               <slur tstamp="1" curvedir="above" startid="#d705229e62680" endid="#d705229e62938" staff="4"/>
-              <dir tstamp="2.5" place="below" staff="4">
-                <rend fontstyle="italic" fontweight="bold">Cresc.</rend>
-              </dir>
-              <dir tstamp="1" place="below" staff="3">
-                <rend fontstyle="italic" fontweight="bold">Cresc.</rend>
-              </dir>
+              <dir tstamp="2.5" place="below" staff="4"><rend fontstyle="italic" fontweight="bold">Cresc.</rend></dir>
+              <dir tstamp="1" place="below" staff="3"><rend fontstyle="italic" fontweight="bold">Cresc.</rend></dir>
               <slur tstamp="1" curvedir="below" startid="#d705229e62724" endid="#d705229e62778" staff="3"/>
-              <dir tstamp="1" place="below" staff="2">
-                <rend fontstyle="italic" fontweight="bold">Cresc.</rend>
-              </dir>
+              <dir tstamp="1" place="below" staff="2"><rend fontstyle="italic" fontweight="bold">Cresc.</rend></dir>
               <slur tstamp="1" curvedir="above" startid="#d705229e62801" endid="#d705229e63028" staff="2"/>
             </measure>
             <measure n="216" xml:id="d705229e62817">
@@ -41059,19 +40655,11 @@
                   <note xml:id="d705229e63483" pname="d" oct="3" dur="2" stem.dir="down"/>
                 </layer>
               </staff>
-              <dir tstamp="1" place="below" staff="1">
-                <rend fontstyle="italic" fontweight="bold">Decresc.</rend>
-              </dir>
-              <dir tstamp="1" place="below" staff="4">
-                <rend fontstyle="italic" fontweight="bold">Decresc.</rend>
-              </dir>
-              <dir tstamp="1" place="below" staff="3">
-                <rend fontstyle="italic" fontweight="bold">Decresc.</rend>
-              </dir>
+              <dir tstamp="1" place="below" staff="1"><rend fontstyle="italic" fontweight="bold">Decresc.</rend></dir>
+              <dir tstamp="1" place="below" staff="4"><rend fontstyle="italic" fontweight="bold">Decresc.</rend></dir>
+              <dir tstamp="1" place="below" staff="3"><rend fontstyle="italic" fontweight="bold">Decresc.</rend></dir>
               <slur tstamp="1" curvedir="below" startid="#d705229e63404" endid="#d705229e63422" staff="3"/>
-              <dir tstamp="1" place="below" staff="2">
-                <rend fontstyle="italic" fontweight="bold">Decresc.</rend>
-              </dir>
+              <dir tstamp="1" place="below" staff="2"><rend fontstyle="italic" fontweight="bold">Decresc.</rend></dir>
             </measure>
             <measure n="219" xml:id="d705229e63497">
               <staff n="1">
@@ -41997,23 +41585,15 @@
               <tupletSpan staff="1" num="3" numbase="2" num.visible="false" num.format="count" startid="#d705229e69014" endid="#d705229e69064"/>
               <tupletSpan staff="1" num="3" numbase="2" num.visible="false" num.format="count" startid="#d705229e69091" endid="#d705229e69142"/>
               <slur tstamp="1" curvedir="above" startid="#d705229e68853" endid="#d705229e69142" staff="1"/>
-              <dir tstamp="1.167" place="below" staff="1">
-                <rend fontstyle="italic" fontweight="bold">Cresc.</rend>
-              </dir>
+              <dir tstamp="1.167" place="below" staff="1"><rend fontstyle="italic" fontweight="bold">Cresc.</rend></dir>
               <tupletSpan staff="4" num="3" numbase="2" num.visible="false" num.format="count" startid="#d705229e69169" endid="#d705229e69230"/>
               <tupletSpan staff="4" num="3" numbase="2" num.visible="false" num.format="count" startid="#d705229e69255" endid="#d705229e69305"/>
               <tupletSpan staff="4" num="3" numbase="2" num.visible="false" num.format="count" startid="#d705229e69332" endid="#d705229e69382"/>
               <tupletSpan staff="4" num="3" numbase="2" num.visible="false" num.format="count" startid="#d705229e69407" endid="#d705229e69458"/>
               <slur tstamp="1" curvedir="above" startid="#d705229e69169" endid="#d705229e69458" staff="4"/>
-              <dir tstamp="1.167" place="below" staff="4">
-                <rend fontstyle="italic" fontweight="bold">Cresc.</rend>
-              </dir>
-              <dir tstamp="1.5" place="below" staff="3">
-                <rend fontstyle="italic" fontweight="bold">Cresc.</rend>
-              </dir>
-              <dir tstamp="1" place="below" staff="2">
-                <rend fontstyle="italic" fontweight="bold">Cresc.</rend>
-              </dir>
+              <dir tstamp="1.167" place="below" staff="4"><rend fontstyle="italic" fontweight="bold">Cresc.</rend></dir>
+              <dir tstamp="1.5" place="below" staff="3"><rend fontstyle="italic" fontweight="bold">Cresc.</rend></dir>
+              <dir tstamp="1" place="below" staff="2"><rend fontstyle="italic" fontweight="bold">Cresc.</rend></dir>
             </measure>
             <measure n="232" xml:id="d705229e69604">
               <staff n="1">
@@ -43176,21 +42756,13 @@
               </staff>
               <tupletSpan staff="1" num="3" numbase="2" num.visible="false" num.format="count" startid="#d705229e77239" endid="#d705229e77290"/>
               <tupletSpan staff="1" num="3" numbase="2" num.visible="false" num.format="count" startid="#d705229e77315" endid="#d705229e77363"/>
-              <dir tstamp="1" place="below" staff="1">
-                <rend fontstyle="italic" fontweight="bold">Cresc.</rend>
-              </dir>
+              <dir tstamp="1" place="below" staff="1"><rend fontstyle="italic" fontweight="bold">Cresc.</rend></dir>
               <slur tstamp="1" curvedir="above" startid="#d705229e77239" endid="#d705229e77363" staff="1"/>
               <slur tstamp="2" curvedir="above" startid="#d705229e77393" endid="#d705229e77413" staff="1"/>
               <slur tstamp="1.5" curvedir="below" startid="#d705229e77446" endid="#d705229e77470" staff="4"/>
-              <dir tstamp="2" place="below" staff="4">
-                <rend fontstyle="italic" fontweight="bold">Cresc.</rend>
-              </dir>
-              <dir tstamp="1.5" place="below" staff="3">
-                <rend fontstyle="italic" fontweight="bold">Cresc.</rend>
-              </dir>
-              <dir tstamp="1.5" place="below" staff="2">
-                <rend fontstyle="italic" fontweight="bold">Cresc.</rend>
-              </dir>
+              <dir tstamp="2" place="below" staff="4"><rend fontstyle="italic" fontweight="bold">Cresc.</rend></dir>
+              <dir tstamp="1.5" place="below" staff="3"><rend fontstyle="italic" fontweight="bold">Cresc.</rend></dir>
+              <dir tstamp="1.5" place="below" staff="2"><rend fontstyle="italic" fontweight="bold">Cresc.</rend></dir>
               <slur tstamp="1.5" curvedir="above" startid="#d705229e77561" endid="#d705229e77579" staff="2"/>
             </measure>
             <measure n="250" xml:id="d705229e77620">
@@ -44572,22 +44144,14 @@
                   </beam>
                 </layer>
               </staff>
-              <dir tstamp="2" place="below" staff="1">
-                <rend fontstyle="italic" fontweight="bold">Cresc.</rend>
-              </dir>
+              <dir tstamp="2" place="below" staff="1"><rend fontstyle="italic" fontweight="bold">Cresc.</rend></dir>
               <tie tstamp="2" staff="1" curvedir="above" startid="#d705229e84958" endid="#d705229e85238"/>
-              <dir tstamp="1.25" place="below" staff="4">
-                <rend fontstyle="italic" fontweight="bold">Cresc.</rend>
-              </dir>
+              <dir tstamp="1.25" place="below" staff="4"><rend fontstyle="italic" fontweight="bold">Cresc.</rend></dir>
               <slur tstamp="1.25" curvedir="above" startid="#d705229e84988" endid="#d705229e85026" staff="4"/>
               <slur tstamp="2.25" curvedir="above" startid="#d705229e85054" endid="#d705229e85092" staff="4"/>
-              <dir tstamp="2" place="below" staff="3">
-                <rend fontstyle="italic" fontweight="bold">Cresc.</rend>
-              </dir>
+              <dir tstamp="2" place="below" staff="3"><rend fontstyle="italic" fontweight="bold">Cresc.</rend></dir>
               <slur tstamp="2" curvedir="below" startid="#d705229e85139" endid="#d705229e85420" staff="3"/>
-              <dir tstamp="1" place="below" staff="2">
-                <rend fontstyle="italic" fontweight="bold">Cresc.</rend>
-              </dir>
+              <dir tstamp="1" place="below" staff="2"><rend fontstyle="italic" fontweight="bold">Cresc.</rend></dir>
             </measure>
             <measure n="278" xml:id="d705229e85236">
               <staff n="1">
@@ -44992,17 +44556,11 @@
                   </beam>
                 </layer>
               </staff>
-              <dir tstamp="1.5" place="below" staff="4">
-                <rend fontstyle="italic" fontweight="bold">Cresc.</rend>
-              </dir>
-              <dir tstamp="1.5" place="below" staff="3">
-                <rend fontstyle="italic" fontweight="bold">Cresc.</rend>
-              </dir>
+              <dir tstamp="1.5" place="below" staff="4"><rend fontstyle="italic" fontweight="bold">Cresc.</rend></dir>
+              <dir tstamp="1.5" place="below" staff="3"><rend fontstyle="italic" fontweight="bold">Cresc.</rend></dir>
               <tie tstamp="2.5" staff="3" curvedir="above" startid="#d705229e87401" endid="#d705229e87645"/>
               <slur tstamp="1" curvedir="above" startid="#d705229e87419" endid="#d705229e87715" staff="2"/>
-              <dir tstamp="2" place="below" staff="2">
-                <rend fontstyle="italic" fontweight="bold">Cresc.</rend>
-              </dir>
+              <dir tstamp="2" place="below" staff="2"><rend fontstyle="italic" fontweight="bold">Cresc.</rend></dir>
             </measure>
             <measure n="286" xml:id="d705229e87491">
               <staff n="1">
@@ -45059,9 +44617,7 @@
                   </beam>
                 </layer>
               </staff>
-              <dir tstamp="1.5" place="below" staff="1">
-                <rend fontstyle="italic" fontweight="bold">Cresc.</rend>
-              </dir>
+              <dir tstamp="1.5" place="below" staff="1"><rend fontstyle="italic" fontweight="bold">Cresc.</rend></dir>
               <slur tstamp="1.5" curvedir="below" startid="#d705229e87662" endid="#d705229e87696" staff="3"/>
               <slur tstamp="1.5" curvedir="below" startid="#d705229e87733" endid="#d705229e87969" staff="2"/>
             </measure>
@@ -45415,17 +44971,11 @@
                   </beam>
                 </layer>
               </staff>
-              <dir tstamp="1" place="below" staff="4">
-                <rend fontstyle="italic" fontweight="bold">Cresc.</rend>
-              </dir>
+              <dir tstamp="1" place="below" staff="4"><rend fontstyle="italic" fontweight="bold">Cresc.</rend></dir>
               <slur tstamp="1" curvedir="below" startid="#d705229e89465" endid="#d705229e89593" staff="4"/>
-              <dir tstamp="1" place="below" staff="3">
-                <rend fontstyle="italic" fontweight="bold">Cresc.</rend>
-              </dir>
+              <dir tstamp="1" place="below" staff="3"><rend fontstyle="italic" fontweight="bold">Cresc.</rend></dir>
               <slur tstamp="1" curvedir="below" startid="#d705229e89618" endid="#d705229e89955" staff="3"/>
-              <dir tstamp="1" place="below" staff="2">
-                <rend fontstyle="italic" fontweight="bold">Cresc.</rend>
-              </dir>
+              <dir tstamp="1" place="below" staff="2"><rend fontstyle="italic" fontweight="bold">Cresc.</rend></dir>
               <slur tstamp="1" curvedir="below" startid="#d705229e89689" endid="#d705229e90008" staff="2"/>
             </measure>
             <measure n="294" xml:id="d705229e89755">
@@ -45481,9 +45031,7 @@
                   </beam>
                 </layer>
               </staff>
-              <dir tstamp="1.5" place="below" staff="1">
-                <rend fontstyle="italic" fontweight="bold">Cresc.</rend>
-              </dir>
+              <dir tstamp="1.5" place="below" staff="1"><rend fontstyle="italic" fontweight="bold">Cresc.</rend></dir>
             </measure>
             <measure n="295" xml:id="d705229e90043">
               <staff n="1">
@@ -45990,17 +45538,11 @@
                   <rest xml:id="d705229e93286" dur="4"/>
                 </layer>
               </staff>
-              <dir tstamp="1" place="below" staff="1">
-                <rend fontstyle="italic" fontweight="bold">Cresc.</rend>
-              </dir>
+              <dir tstamp="1" place="below" staff="1"><rend fontstyle="italic" fontweight="bold">Cresc.</rend></dir>
               <slur tstamp="1" curvedir="above" startid="#d705229e92937" endid="#d705229e93051" staff="1"/>
               <slur tstamp="1" curvedir="below" startid="#d705229e93090" endid="#d705229e93116" staff="4"/>
-              <dir tstamp="1.5" place="below" staff="4">
-                <rend fontstyle="italic" fontweight="bold">Cresc.</rend>
-              </dir>
-              <dir tstamp="1" place="below" staff="3">
-                <rend fontstyle="italic" fontweight="bold">Cresc.</rend>
-              </dir>
+              <dir tstamp="1.5" place="below" staff="4"><rend fontstyle="italic" fontweight="bold">Cresc.</rend></dir>
+              <dir tstamp="1" place="below" staff="3"><rend fontstyle="italic" fontweight="bold">Cresc.</rend></dir>
               <slur tstamp="1" curvedir="below" startid="#d705229e93177" endid="#d705229e93197" staff="3"/>
               <slur tstamp="2" curvedir="below" startid="#d705229e93217" endid="#d705229e93239" staff="3"/>
             </measure>
@@ -46052,9 +45594,7 @@
               <slur tstamp="1" curvedir="above" startid="#d705229e93297" endid="#d705229e93409" staff="1"/>
               <slur tstamp="1" curvedir="above" startid="#d705229e93448" endid="#d705229e93480" staff="4"/>
               <slur tstamp="1" curvedir="below" startid="#d705229e93501" endid="#d705229e93535" staff="3"/>
-              <dir tstamp="2" place="below" staff="2">
-                <rend fontstyle="italic" fontweight="bold">Cresc.</rend>
-              </dir>
+              <dir tstamp="2" place="below" staff="2"><rend fontstyle="italic" fontweight="bold">Cresc.</rend></dir>
             </measure>
             <measure n="307" xml:id="d705229e93624">
               <staff n="1">
@@ -46322,20 +45862,14 @@
               <dynam tstamp="1" place="below" staff="1">p</dynam>
               <dynam tstamp="1.5" place="below" staff="1">sf</dynam>
               <tie tstamp="1.5" staff="1" curvedir="above" startid="#d705229e95014" endid="#d705229e95438"/>
-              <dir tstamp="3" place="below" staff="1">
-                <rend fontstyle="italic" fontweight="bold">Cresc.</rend>
-              </dir>
+              <dir tstamp="3" place="below" staff="1"><rend fontstyle="italic" fontweight="bold">Cresc.</rend></dir>
               <slur tstamp="1.25" curvedir="above" startid="#d705229e95057" endid="#d705229e95103" staff="4"/>
               <dynam tstamp="1.5" place="below" staff="4">sf</dynam>
               <slur tstamp="1.75" curvedir="above" startid="#d705229e95103" endid="#d705229e95182" staff="4"/>
-              <dir tstamp="2" place="below" staff="4">
-                <rend fontstyle="italic" fontweight="bold">Cresc.</rend>
-              </dir>
+              <dir tstamp="2" place="below" staff="4"><rend fontstyle="italic" fontweight="bold">Cresc.</rend></dir>
               <slur tstamp="1" curvedir="above" startid="#d705229e95203" endid="#d705229e95275" staff="3"/>
               <dynam tstamp="1.433" place="below" staff="3">sf</dynam>
-              <dir tstamp="2" place="below" staff="3">
-                <rend fontstyle="italic" fontweight="bold">Cresc.</rend>
-              </dir>
+              <dir tstamp="2" place="below" staff="3"><rend fontstyle="italic" fontweight="bold">Cresc.</rend></dir>
               <slur tstamp="2" curvedir="above" startid="#d705229e95299" endid="#d705229e95355" staff="3"/>
               <slur tstamp="1.5" curvedir="above" startid="#d705229e95384" endid="#d705229e95418" staff="2"/>
             </measure>
@@ -46810,22 +46344,14 @@
               </staff>
               <tupletSpan staff="1" num="3" numbase="2" num.visible="false" num.format="count" startid="#d705229e98297" endid="#d705229e98348"/>
               <tupletSpan staff="1" num="3" numbase="2" num.visible="false" num.format="count" startid="#d705229e98373" endid="#d705229e98421"/>
-              <dir tstamp="1" place="below" staff="1">
-                <rend fontstyle="italic" fontweight="bold">Cresc.</rend>
-              </dir>
+              <dir tstamp="1" place="below" staff="1"><rend fontstyle="italic" fontweight="bold">Cresc.</rend></dir>
               <slur tstamp="1" curvedir="above" startid="#d705229e98297" endid="#d705229e98421" staff="1"/>
               <tie tstamp="2" staff="1" curvedir="above" startid="#d705229e98447" endid="#d705229e98713"/>
-              <dir tstamp="1" place="below" staff="4">
-                <rend fontstyle="italic" fontweight="bold">Cresc.</rend>
-              </dir>
+              <dir tstamp="1" place="below" staff="4"><rend fontstyle="italic" fontweight="bold">Cresc.</rend></dir>
               <slur tstamp="1" curvedir="above" startid="#d705229e98469" endid="#d705229e98486" staff="4"/>
-              <dir tstamp="1" place="below" staff="3">
-                <rend fontstyle="italic" fontweight="bold">Cresc.</rend>
-              </dir>
+              <dir tstamp="1" place="below" staff="3"><rend fontstyle="italic" fontweight="bold">Cresc.</rend></dir>
               <slur tstamp="1" curvedir="above" startid="#d705229e98507" endid="#d705229e98524" staff="3"/>
-              <dir tstamp="1" place="below" staff="2">
-                <rend fontstyle="italic" fontweight="bold">Cresc.</rend>
-              </dir>
+              <dir tstamp="1" place="below" staff="2"><rend fontstyle="italic" fontweight="bold">Cresc.</rend></dir>
               <slur tstamp="1" curvedir="below" startid="#d705229e98545" endid="#d705229e98565" staff="2"/>
             </measure>
             <measure n="320" xml:id="d705229e98711">
@@ -47089,22 +46615,14 @@
                 </layer>
               </staff>
               <tupletSpan staff="1" num="3" numbase="2" num.visible="false" num.format="count" startid="#d705229e100024" endid="#d705229e100074"/>
-              <dir tstamp="2.5" place="below" staff="1">
-                <rend fontstyle="italic" fontweight="bold">Cresc.</rend>
-              </dir>
-              <dir tstamp="1" place="below" staff="4">
-                <rend fontstyle="italic" fontweight="bold">Cresc.</rend>
-              </dir>
+              <dir tstamp="2.5" place="below" staff="1"><rend fontstyle="italic" fontweight="bold">Cresc.</rend></dir>
+              <dir tstamp="1" place="below" staff="4"><rend fontstyle="italic" fontweight="bold">Cresc.</rend></dir>
               <slur tstamp="1" curvedir="above" startid="#d705229e100107" endid="#d705229e100199" staff="4"/>
               <tie tstamp="2.5" staff="4" curvedir="above" startid="#d705229e100219" endid="#d705229e100427"/>
               <slur tstamp="1" curvedir="above" startid="#d705229e100237" endid="#d705229e100262" staff="3"/>
-              <dir tstamp="2.5" place="below" staff="3">
-                <rend fontstyle="italic" fontweight="bold">Cresc.</rend>
-              </dir>
+              <dir tstamp="2.5" place="below" staff="3"><rend fontstyle="italic" fontweight="bold">Cresc.</rend></dir>
               <slur tstamp="1" curvedir="below" startid="#d705229e100281" endid="#d705229e100304" staff="2"/>
-              <dir tstamp="2.5" place="below" staff="2">
-                <rend fontstyle="italic" fontweight="bold">Cresc.</rend>
-              </dir>
+              <dir tstamp="2.5" place="below" staff="2"><rend fontstyle="italic" fontweight="bold">Cresc.</rend></dir>
             </measure>
             <measure n="324" xml:id="d705229e100320">
               <staff n="1">
@@ -48713,23 +48231,15 @@
                   </beam>
                 </layer>
               </staff>
-              <dir tstamp="1" place="below" staff="1">
-                <rend fontstyle="italic" fontweight="bold">Cresc.</rend>
-              </dir>
+              <dir tstamp="1" place="below" staff="1"><rend fontstyle="italic" fontweight="bold">Cresc.</rend></dir>
               <slur tstamp="1" curvedir="above" startid="#d705229e108945" endid="#d705229e109396" staff="1"/>
-              <dir tstamp="1" place="below" staff="4">
-                <rend fontstyle="italic" fontweight="bold">Cresc.</rend>
-              </dir>
-              <dir tstamp="1" place="below" staff="3">
-                <rend fontstyle="italic" fontweight="bold">Cresc.</rend>
-              </dir>
+              <dir tstamp="1" place="below" staff="4"><rend fontstyle="italic" fontweight="bold">Cresc.</rend></dir>
+              <dir tstamp="1" place="below" staff="3"><rend fontstyle="italic" fontweight="bold">Cresc.</rend></dir>
               <tupletSpan staff="2" num="3" numbase="2" num.visible="false" num.format="count" startid="#d705229e109097" endid="#d705229e109146"/>
               <tupletSpan staff="2" num="3" numbase="2" num.visible="false" num.format="count" startid="#d705229e109171" endid="#d705229e109219"/>
               <tupletSpan staff="2" num="3" numbase="2" num.visible="false" num.format="count" startid="#d705229e109244" endid="#d705229e109292"/>
               <tupletSpan staff="2" num="3" numbase="2" num.visible="false" num.format="count" startid="#d705229e109319" endid="#d705229e109368"/>
-              <dir tstamp="1" place="below" staff="2">
-                <rend fontstyle="italic" fontweight="bold">Cresc.</rend>
-              </dir>
+              <dir tstamp="1" place="below" staff="2"><rend fontstyle="italic" fontweight="bold">Cresc.</rend></dir>
               <slur tstamp="1" curvedir="above" startid="#d705229e109097" endid="#d705229e109368" staff="2"/>
             </measure>
             <measure n="355" xml:id="d705229e109394">
@@ -49637,16 +49147,10 @@
                 </layer>
               </staff>
               <slur tstamp="1" curvedir="above" startid="#d705229e114438" endid="#d705229e114504" staff="1"/>
-              <dir tstamp="2" place="below" staff="1">
-                <rend fontstyle="italic" fontweight="bold">Cresc.</rend>
-              </dir>
-              <dir tstamp="1" place="below" staff="4">
-                <rend fontstyle="italic" fontweight="bold">Cresc.</rend>
-              </dir>
+              <dir tstamp="2" place="below" staff="1"><rend fontstyle="italic" fontweight="bold">Cresc.</rend></dir>
+              <dir tstamp="1" place="below" staff="4"><rend fontstyle="italic" fontweight="bold">Cresc.</rend></dir>
               <slur tstamp="1" curvedir="below" startid="#d705229e114537" endid="#d705229e114557" staff="4"/>
-              <dir tstamp="1" place="below" staff="3">
-                <rend fontstyle="italic" fontweight="bold">Cresc.</rend>
-              </dir>
+              <dir tstamp="1" place="below" staff="3"><rend fontstyle="italic" fontweight="bold">Cresc.</rend></dir>
               <slur tstamp="1" curvedir="below" startid="#d705229e114710" endid="#d705229e114730" staff="3"/>
               <slur tstamp="2" curvedir="below" startid="#d705229e114792" endid="#d705229e114814" staff="3"/>
             </measure>
@@ -49731,9 +49235,7 @@
               <slur tstamp="2" curvedir="below" startid="#d705229e115118" endid="#d705229e115138" staff="4"/>
               <slur tstamp="1" curvedir="below" startid="#d705229e115201" endid="#d705229e115221" staff="3"/>
               <slur tstamp="2" curvedir="above" startid="#d705229e115283" endid="#d705229e115303" staff="3"/>
-              <dir tstamp="1" place="below" staff="2">
-                <rend fontstyle="italic" fontweight="bold">Cresc.</rend>
-              </dir>
+              <dir tstamp="1" place="below" staff="2"><rend fontstyle="italic" fontweight="bold">Cresc.</rend></dir>
             </measure>
             <measure n="370" xml:id="d705229e115454">
               <staff n="1">

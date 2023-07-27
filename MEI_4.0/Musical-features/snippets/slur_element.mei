@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<?xml version="1.0" encoding="UTF-8"?>
 <?xml-model href="http://music-encoding.org/schema/4.0.1/mei-all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
 <?xml-model href="http://music-encoding.org/schema/4.0.1/mei-all.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
 <mei xmlns="http://www.music-encoding.org/ns/mei" meiversion="4.0.1">
@@ -7,7 +7,7 @@
       <titleStmt>
         <title>Example of an encoded slur</title>
         <composer>
-          <persName role="composer"> Claude Debussy </persName>
+          <persName role="composer">Claude Debussy</persName>
         </composer>
         <respStmt>
           <persName role="encoder">Maja Hartwig</persName>
@@ -17,13 +17,20 @@
       <seriesStmt>
         <title>MEI Sample Collection</title>
         <funder>
-          <corpName role="funder">German Research Foundation<address><addrLine>Kennedyallee
-            40</addrLine><addrLine><geogName>Bonn</geogName></addrLine><addrLine><geogName>Germany</geogName></addrLine></address> </corpName>
+          <corpName role="funder">German Research Foundation
+            <address>
+              <addrLine>Kennedyallee 40</addrLine>
+              <addrLine><geogName>Bonn</geogName></addrLine>
+              <addrLine><geogName>Germany</geogName></addrLine>
+            </address> </corpName>
         </funder>
         <funder>
-          <corpName role="funder">National Endowment for the Humanities<address><addrLine>1100
-            Pennsylvania Avenue N.W.</addrLine><addrLine><geogName>Washington, DC</geogName>
-            20004</addrLine><addrLine><geogName>United States</geogName></addrLine></address>
+          <corpName role="funder">National Endowment for the Humanities
+            <address>
+              <addrLine>1100 Pennsylvania Avenue N.W.</addrLine>
+              <addrLine><geogName>Washington, DC</geogName> 20004</addrLine>
+              <addrLine><geogName>United States</geogName></addrLine>
+            </address>
           </corpName>
         </funder>
         <respStmt>
@@ -52,10 +59,13 @@
           <name>mei30To40.xsl</name>
           <ptr target="https://github.com/music-encoding/encoding-tools/blob/main/mei30To40/mei30To40.xsl"/>
         </application>
+        <application version="0.0.1-alpha" xml:id="lint-mei-files_0.0.1-alpha">
+          <name>mei-files.xsl</name>
+          <ptr target="https://github.com/music-encoding/encoding-tools/blob/main/linting/mei-files.xsl"/>
+        </application>
       </appInfo>
       <editorialDecl>
-        <p>The example represents the encoding of a special slur in measure 2 (measure 20 in the
-          image) in the sample as well as clef changes.</p>
+        <p>The example represents the encoding of a special slur in measure 2 (measure 20 in the image) in the sample as well as clef changes.</p>
       </editorialDecl>
     </encodingDesc>
     <revisionDesc>
@@ -79,6 +89,21 @@
           <p>Converted to MEI version 4.0.0 using mei30To40.xsl, version 1.0 beta</p>
         </changeDesc>
         <date isodate="2019-01-03"/>
+      </change>
+      <change n="4">
+        <respStmt>
+          <persName>Benjamin W. Bohl</persName>
+          <persName>Stefan Münnich</persName>
+        </respStmt>
+        <changeDesc>
+          <p><list>
+              <li>update xml-model schema references to v4.0.1</li>
+              <li>update meiversion attributes to 4.0.1</li>
+              <li>add missing responsibility statements to change elements</li>
+              <li>unify documentation of mei version upgrades (appInfo and revisionDesc)</li>
+            </list></p>
+        </changeDesc>
+        <date isodate="2023-07-27T17:11:07+02:00"/>
       </change>
     </revisionDesc>
   </meiHead>

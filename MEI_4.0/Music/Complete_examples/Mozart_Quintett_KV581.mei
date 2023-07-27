@@ -1,12 +1,11 @@
-<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<?xml version="1.0" encoding="UTF-8"?>
 <?xml-model href="http://music-encoding.org/schema/4.0.1/mei-all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
 <?xml-model href="http://music-encoding.org/schema/4.0.1/mei-all.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
 <mei xmlns="http://www.music-encoding.org/ns/mei" xml:id="_20090211164803615" meiversion="4.0.1">
   <meiHead>
     <fileDesc>
       <titleStmt>
-        <title>Quintet for Clarinet and Strings, K. 581, 3. Menuetto (Excerpt from Second
-          Trio)</title>
+        <title>Quintet for Clarinet and Strings, K. 581, 3. Menuetto (Excerpt from Second Trio)</title>
         <composer>
           <persName role="creator">Wolfgang Amadeus Mozart</persName>
         </composer>
@@ -16,29 +15,31 @@
       </titleStmt>
       <pubStmt>
         <publisher>
-          <corpName role="publisher" codedval="5115198" auth.uri="//d-nb.info/gnd" auth="GND">
-            Musikwissenschaftliches Seminar </corpName>
+          <corpName role="publisher" codedval="5115198" auth.uri="//d-nb.info/gnd" auth="GND"> Musikwissenschaftliches Seminar</corpName>
         </publisher>
         <address>
           <addrLine>Gartenstrasse 20</addrLine>
-          <addrLine>32756 <geogName>Detmold</geogName> </addrLine>
+          <addrLine>32756<geogName>Detmold</geogName></addrLine>
         </address>
         <availability>
-          <useRestrict>This encoding is in the public domain. However, the sources used to create it
-            may be under copyright. We believe their use by the MEI project for educational and
-            research purposes is covered by the Fair Use doctrine. However, we will remove any
-            material from the project archive when requested to do so by the copyright
-            owner.</useRestrict>
+          <useRestrict>This encoding is in the public domain. However, the sources used to create it may be under copyright. We believe their use by the MEI project for educational and research purposes is covered by the Fair Use doctrine. However, we will remove any material from the project archive when requested to do so by the copyright owner.</useRestrict>
         </availability>
       </pubStmt>
       <seriesStmt>
         <title>MEI Sample Collection</title>
         <funder>
-          <corpName role="funder" codedval="2007744-0" auth.uri="http://d-nb.info/gnd/2007744-0" auth="Deutsche Nationalbibliothek">German Research Foundation<address><addrLine>Kennedyallee 40</addrLine><addrLine><geogName>Bonn </geogName></addrLine></address> </corpName>
+          <corpName role="funder" codedval="2007744-0" auth.uri="http://d-nb.info/gnd/2007744-0" auth="Deutsche Nationalbibliothek">German Research Foundation
+            <address>
+              <addrLine>Kennedyallee 40</addrLine>
+              <addrLine><geogName>Bonn</geogName></addrLine>
+            </address> </corpName>
         </funder>
         <funder>
-          <corpName role="funder" codedval="18183-3" auth.uri="http://d-nb.info/gnd/18183-3" auth="Deutsche Nationalbibliothek">National Endowment for the Humanities<address><addrLine>1100 Pennsylvania Avenue N.W.</addrLine><addrLine><geogName>Washington,
-            DC</geogName></addrLine></address> </corpName>
+          <corpName role="funder" codedval="18183-3" auth.uri="http://d-nb.info/gnd/18183-3" auth="Deutsche Nationalbibliothek">National Endowment for the Humanities
+            <address>
+              <addrLine>1100 Pennsylvania Avenue N.W.</addrLine>
+              <addrLine><geogName>Washington, DC</geogName></addrLine>
+            </address> </corpName>
         </funder>
         <respStmt>
           <corpName role="publisher">MEI Project</corpName>
@@ -61,6 +62,10 @@
         <application version="v1.0_beta" xml:id="mei30To40">
           <name>mei30To40.xsl</name>
           <ptr target="https://github.com/music-encoding/encoding-tools/blob/main/mei30To40/mei30To40.xsl"/>
+        </application>
+        <application version="0.0.1-alpha" xml:id="lint-mei-files_0.0.1-alpha">
+          <name>mei-files.xsl</name>
+          <ptr target="https://github.com/music-encoding/encoding-tools/blob/main/linting/mei-files.xsl"/>
         </application>
       </appInfo>
       <samplingDecl>
@@ -89,17 +94,18 @@
     </encodingDesc>
     <workList>
       <work n="1">
-        <title>Quintet for Clarinet and Strings, K. 581 <titlePart type="subordinate">3.
-          Menuetto</titlePart> <titlePart type="subordinate">(Excerpt from Second Trio)</titlePart> </title>
+        <title>Quintet for Clarinet and Strings, K. 581<titlePart type="subordinate">3. Menuetto</titlePart> <titlePart type="subordinate">(Excerpt from Second Trio)</titlePart></title>
         <composer>
           <persName role="composer">Wolfgang Amadeus Mozart</persName>
         </composer>
         <key pname="a" mode="major"/>
         <meter count="3" unit="4"/>
         <incip>
-          <incipCode form="parsons"> *uududdduuddddududdu </incipCode>
+          <incipCode form="parsons">*uududdduuddddududdu</incipCode>
         </incip>
-        <creation>Year of composition: <date>1789</date> </creation>
+        <creation>Year of composition:
+          <date>1789</date>
+        </creation>
         <perfMedium>
           <perfResList>
             <perfRes codedval="wc">Clarinet</perfRes>
@@ -122,16 +128,16 @@
       <manifestation>
         <identifier type="URI">http://imslp.org/wiki/Clarinet_Quintet_in_A_major,_K.581_%28Mozart,_Wolfgang_Amadeus%29</identifier>
         <titleStmt>
-          <title>Quintet for Clarinet and Strings, K. 581,<lb/>3. Menuetto (Excerpt from Second
-            Trio)</title>
+          <title>Quintet for Clarinet and Strings, K. 581,
+            <lb/>3. Menuetto (Excerpt from Second Trio)</title>
           <respStmt>
             <persName role="composer" auth="GND" auth.uri="http://d-nb.info/gnd/" codedval="118584596">Wolfgang Amadeus Mozart</persName>
             <persName role="dedicatee">Anton Stadler</persName>
           </respStmt>
         </titleStmt>
         <contents>
-          <contentItem>I. Allegro </contentItem>
-          <contentItem> II. Larghetto </contentItem>
+          <contentItem>I. Allegro</contentItem>
+          <contentItem>II. Larghetto</contentItem>
           <contentItem>III. Menuetto</contentItem>
           <contentItem>IV. Allegretto con variazioni</contentItem>
         </contents>
@@ -182,6 +188,21 @@
           <p>Converted to MEI version 4.0.0 using mei30To40.xsl, version 1.0 beta</p>
         </changeDesc>
         <date isodate="2019-01-03"/>
+      </change>
+      <change n="7">
+        <respStmt>
+          <persName>Benjamin W. Bohl</persName>
+          <persName>Stefan Münnich</persName>
+        </respStmt>
+        <changeDesc>
+          <p><list>
+              <li>update xml-model schema references to v4.0.1</li>
+              <li>update meiversion attributes to 4.0.1</li>
+              <li>add missing responsibility statements to change elements</li>
+              <li>unify documentation of mei version upgrades (appInfo and revisionDesc)</li>
+            </list></p>
+        </changeDesc>
+        <date isodate="2023-07-27T17:10:45+02:00"/>
       </change>
     </revisionDesc>
   </meiHead>

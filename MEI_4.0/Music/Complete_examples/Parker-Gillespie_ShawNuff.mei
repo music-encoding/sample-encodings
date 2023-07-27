@@ -1,11 +1,11 @@
-<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<?xml version="1.0" encoding="UTF-8"?>
 <?xml-model href="http://music-encoding.org/schema/4.0.1/mei-all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
 <?xml-model href="http://music-encoding.org/schema/4.0.1/mei-all.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
-<mei xmlns:xlink="http://www.w3.org/1999/xlink" xmlns="http://www.music-encoding.org/ns/mei" meiversion="4.0.1">
+<mei xmlns="http://www.music-encoding.org/ns/mei" meiversion="4.0.1">
   <meiHead>
     <fileDesc>
       <titleStmt>
-        <title>Shaw' Nuff <titlePart type="subordinate">an electronic transcription</titlePart> </title>
+        <title>Shaw' Nuff<titlePart type="subordinate">an electronic transcription</titlePart></title>
         <composer>
           <persName role="creator" auth.uri="http://d-nb.info/gnd/" codedval="118739328" auth="GND">Charles Parker</persName>
         </composer>
@@ -21,15 +21,11 @@
           <corpName role="publisher" n="2" xml:id="corpName2" codedval="5115204-6" auth.uri="http://d-nb.info/gnd/" auth="GND">Musikwissenschaftliches Seminar</corpName>
           <address>
             <addrLine>Gartenstrasse 20</addrLine>
-            <addrLine>32756 <geogName codedval="7004442" auth.uri="http://vocab.getty.edu/page/tgn/" auth="TGN">Detmold</geogName> <geogName codedval="7000084" auth.uri="http://vocab.getty.edu/page/tgn/" auth="TGN">Germany</geogName> </addrLine>
+            <addrLine>32756<geogName codedval="7004442" auth.uri="http://vocab.getty.edu/page/tgn/" auth="TGN">Detmold</geogName> <geogName codedval="7000084" auth.uri="http://vocab.getty.edu/page/tgn/" auth="TGN">Germany</geogName></addrLine>
           </address>
         </publisher>
         <availability>
-          <useRestrict> This encoding is in the public domain. However, the sources used to create
-            it may be under copyright. We believe their use by the MEI project for educational and
-            research purposes is covered by the Fair Use doctrine. However, we will remove any
-            material from the project archive when requested to do so by the copyright owner.
-          </useRestrict>
+          <useRestrict>This encoding is in the public domain. However, the sources used to create it may be under copyright. We believe their use by the MEI project for educational and research purposes is covered by the Fair Use doctrine. However, we will remove any material from the project archive when requested to do so by the copyright owner.</useRestrict>
         </availability>
       </pubStmt>
       <seriesStmt>
@@ -38,25 +34,16 @@
           <corpName role="funder" codedval="2007744-0" auth.uri="http://d-nb.info/gnd/" auth="GND">German Research Foundation</corpName>
           <address>
             <addrLine>Kennedyallee 40</addrLine>
-            <addrLine>
-              <geogName codedval="7005090" auth.uri="http://vocab.getty.edu/page/tgn/" auth="TGN">Bonn</geogName>
-            </addrLine>
-            <addrLine>
-              <geogName codedval="7000084" auth.uri="http://vocab.getty.edu/page/tgn/" auth="TGN">Germany</geogName>
-            </addrLine>
+            <addrLine><geogName codedval="7005090" auth.uri="http://vocab.getty.edu/page/tgn/" auth="TGN">Bonn</geogName></addrLine>
+            <addrLine><geogName codedval="7000084" auth.uri="http://vocab.getty.edu/page/tgn/" auth="TGN">Germany</geogName></addrLine>
           </address>
         </funder>
         <funder>
           <corpName role="funder" codedval="18183-3" auth.uri="http://d-nb.info/gnd/18183-3" auth="Deutsche Nationalbibliothek">National Endowment for the Humanities</corpName>
           <address>
             <addrLine>1100 Pennsylvania Avenue N.W.</addrLine>
-            <addrLine>
-              <geogName codedval="7013962" auth.uri="http://vocab.getty.edu/page/tgn/" auth="TGN">Washington, DC</geogName>
-              <postCode>20004</postCode>
-            </addrLine>
-            <addrLine>
-              <geogName codedval="7012149" auth.uri="http://vocab.getty.edu/page/tgn/" auth="TGN">United States</geogName>
-            </addrLine>
+            <addrLine><geogName codedval="7013962" auth.uri="http://vocab.getty.edu/page/tgn/" auth="TGN">Washington, DC</geogName><postCode>20004</postCode></addrLine>
+            <addrLine><geogName codedval="7012149" auth.uri="http://vocab.getty.edu/page/tgn/" auth="TGN">United States</geogName></addrLine>
           </address>
         </funder>
         <respStmt>
@@ -78,9 +65,7 @@
               <persName role="performer">John "Dizzy" Gillepsie</persName>
             </respStmt>
             <imprint>
-              <annot>Copyright 1946 (Renewed) Consolidated Music Publishers, A division of Music
-                Sales Corporation (ASCAP) &amp; Atlantic Music International. International
-                Copyright Secured. All Rights Reserved. Used by Permission.</annot>
+              <annot>Copyright 1946 (Renewed) Consolidated Music Publishers, A division of Music Sales Corporation (ASCAP) &amp; Atlantic Music International. International Copyright Secured. All Rights Reserved. Used by Permission.</annot>
             </imprint>
           </bibl>
         </source>
@@ -100,12 +85,15 @@
           <name>mei30To40.xsl</name>
           <ptr target="https://github.com/music-encoding/encoding-tools/blob/main/mei30To40/mei30To40.xsl"/>
         </application>
+        <application version="0.0.1-alpha" xml:id="lint-mei-files_0.0.1-alpha">
+          <name>mei-files.xsl</name>
+          <ptr target="https://github.com/music-encoding/encoding-tools/blob/main/linting/mei-files.xsl"/>
+        </application>
       </appInfo>
       <samplingDecl>
         <p>Handcoded file</p>
         <p>contains the first page of the music (measure 1-32).</p>
-        <p>example contains "Sternchennoten", harm-element, rests above and below staves,
-          one-staff-notation</p>
+        <p>example contains "Sternchennoten", harm-element, rests above and below staves, one-staff-notation</p>
         <p>some issues unclear (read the commentaries).</p>
       </samplingDecl>
       <classDecls>
@@ -182,6 +170,21 @@
           <p>Converted to MEI version 4.0.0 using mei30To40.xsl, version 1.0 beta</p>
         </changeDesc>
         <date isodate="2019-01-03"/>
+      </change>
+      <change n="5">
+        <respStmt>
+          <persName>Benjamin W. Bohl</persName>
+          <persName>Stefan Münnich</persName>
+        </respStmt>
+        <changeDesc>
+          <p><list>
+              <li>update xml-model schema references to v4.0.1</li>
+              <li>update meiversion attributes to 4.0.1</li>
+              <li>add missing responsibility statements to change elements</li>
+              <li>unify documentation of mei version upgrades (appInfo and revisionDesc)</li>
+            </list></p>
+        </changeDesc>
+        <date isodate="2023-07-27T17:09:03+02:00"/>
       </change>
     </revisionDesc>
   </meiHead>
@@ -305,9 +308,9 @@
                 </layer>
               </staff>
               <dir staff="1" place="above" tstamp="0">(drums play time)</dir>
-              <harm staff="2" place="above" tstamp="1">B𝄬MI<rend rend="sup">(MA
-                7)</rend></harm>
-              <dir staff="1" place="below" tstamp="3">(trp.<lb/>alto)</dir>
+              <harm staff="2" place="above" tstamp="1">B𝄬MI<rend rend="sup">(MA 7)</rend></harm>
+              <dir staff="1" place="below" tstamp="3">(trp.
+                <lb/>alto)</dir>
               <dir staff="2" place="below" tstamp="1">(bs.)</dir>
               <slur staff="2" curvedir="above" startid="#m5x1" endid="#m6x1"/>
             </measure>
@@ -432,8 +435,7 @@
                   <note pname="b" oct="3" dur="4" stem.dir="down" xml:id="m9s2e4"/>
                 </layer>
               </staff>
-              <harm staff="2" place="above" tstamp="1">B𝄬MI<rend rend="sup">(MA
-                7)</rend></harm>
+              <harm staff="2" place="above" tstamp="1">B𝄬MI<rend rend="sup">(MA 7)</rend></harm>
             </measure>
             <measure n="10">
               <staff n="1">
@@ -741,9 +743,7 @@
                 </layer>
               </staff>
               <staff n="2" visible="false"/>
-              <reh staff="1" tstamp="0" place="above">
-                <rend rend="box">A</rend>
-              </reh>
+              <reh staff="1" tstamp="0" place="above"><rend rend="box">A</rend></reh>
               <dir staff="1" tstamp="0" place="above">𝄋</dir>
               <harm staff="1" place="above" tstamp="1">B𝄬6</harm>
               <harm staff="1" place="above" tstamp="3">GMI7</harm>

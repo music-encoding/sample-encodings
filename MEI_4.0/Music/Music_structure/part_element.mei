@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<?xml version="1.0" encoding="UTF-8"?>
 <?xml-model href="http://music-encoding.org/schema/4.0.1/mei-all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
 <?xml-model href="http://music-encoding.org/schema/4.0.1/mei-all.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
 <mei xmlns="http://www.music-encoding.org/ns/mei" meiversion="4.0.1">
@@ -17,27 +17,28 @@
         </publisher>
         <address>
           <addrLine>Gartenstrasse 20</addrLine>
-          <addrLine>32756 <geogName>Detmold</geogName> <geogName>Germany</geogName> </addrLine>
+          <addrLine>32756<geogName>Detmold</geogName> <geogName>Germany</geogName></addrLine>
         </address>
         <date isodate="2012-12-06"/>
         <availability>
-          <useRestrict>This encoding is in the public domain. However, the sources used to create it
-            may be under copyright. We believe their use by the MEI project for educational and
-            research purposes is covered by the Fair Use doctrine. However, we will remove any
-            material from the project archive when requested to do so by the copyright owner. 2007
-            Rector and Board of Visitors of the University of Virginia. All rights
-            reserved.</useRestrict>
+          <useRestrict>This encoding is in the public domain. However, the sources used to create it may be under copyright. We believe their use by the MEI project for educational and research purposes is covered by the Fair Use doctrine. However, we will remove any material from the project archive when requested to do so by the copyright owner. 2007 Rector and Board of Visitors of the University of Virginia. All rights reserved.</useRestrict>
         </availability>
       </pubStmt>
       <seriesStmt>
         <title>MEI Sample Collection</title>
         <funder>
-          <corpName role="funder">German Research Foundation<address><addrLine>Kennedyallee
-            40</addrLine><addrLine><geogName>Bonn </geogName></addrLine></address> </corpName>
+          <corpName role="funder">German Research Foundation
+            <address>
+              <addrLine>Kennedyallee 40</addrLine>
+              <addrLine><geogName>Bonn</geogName></addrLine>
+            </address> </corpName>
         </funder>
         <funder>
-          <corpName role="funder">National Endowment for the Humanities<address><addrLine>1100
-            Pennsylvania Avenue N.W.</addrLine><addrLine><geogName>Washington, DC</geogName></addrLine></address> </corpName>
+          <corpName role="funder">National Endowment for the Humanities
+            <address>
+              <addrLine>1100 Pennsylvania Avenue N.W.</addrLine>
+              <addrLine><geogName>Washington, DC</geogName></addrLine>
+            </address> </corpName>
         </funder>
         <respStmt>
           <corpName role="publisher">MEI Project</corpName>
@@ -68,8 +69,7 @@
               <date>2005</date>
             </imprint>
             <series>
-              <title>"Japanese Popular Music: a collection of the popular music of Japan rendered in
-                to the staff notation"</title>
+              <title>"Japanese Popular Music: a collection of the popular music of Japan rendered in to the staff notation"</title>
             </series>
           </bibl>
         </source>
@@ -88,16 +88,17 @@
           <name>mei30To40.xsl</name>
           <ptr target="https://github.com/music-encoding/encoding-tools/blob/main/mei30To40/mei30To40.xsl"/>
         </application>
+        <application version="0.0.1-alpha" xml:id="lint-mei-files_0.0.1-alpha">
+          <name>mei-files.xsl</name>
+          <ptr target="https://github.com/music-encoding/encoding-tools/blob/main/linting/mei-files.xsl"/>
+        </application>
       </appInfo>
       <editorialDecl>
         <p>This encoding is an example for music with japanese lyrics.</p>
-        <p>The encoding is not cleansed up after conversion from MusicXML, but changed from score to
-          part element. So the encoding contains all of the layout information left from MusicXML,
-          including a new scorDef after each system break.</p>
+        <p>The encoding is not cleansed up after conversion from MusicXML, but changed from score to part element. So the encoding contains all of the layout information left from MusicXML, including a new scorDef after each system break.</p>
       </editorialDecl>
       <projectDesc>
-        <p> Transcoded from MusicXML version 1.1 2007-10-29. The MusicXML file was generated from
-          Finale 2005 for Windows using Dolet 3.1.1 for Finale 2006-05-12.</p>
+        <p>Transcoded from MusicXML version 1.1 2007-10-29. The MusicXML file was generated from Finale 2005 for Windows using Dolet 3.1.1 for Finale 2006-05-12.</p>
       </projectDesc>
       <classDecls>
         <taxonomy>
@@ -196,6 +197,21 @@
         </changeDesc>
         <date isodate="2019-01-03"/>
       </change>
+      <change n="5">
+        <respStmt>
+          <persName>Benjamin W. Bohl</persName>
+          <persName>Stefan Münnich</persName>
+        </respStmt>
+        <changeDesc>
+          <p><list>
+              <li>update xml-model schema references to v4.0.1</li>
+              <li>update meiversion attributes to 4.0.1</li>
+              <li>add missing responsibility statements to change elements</li>
+              <li>unify documentation of mei version upgrades (appInfo and revisionDesc)</li>
+            </list></p>
+        </changeDesc>
+        <date isodate="2023-07-27T17:10:51+02:00"/>
+      </change>
     </revisionDesc>
   </meiHead>
   <music>
@@ -207,40 +223,24 @@
               <pgHead>
                 <table>
                   <tr y="1443">
-                    <td x="607">
-                      <rend fontfam="ＭＳ ゴシック" fontsize="24pt" fontweight="bold" halign="center" valign="top">越後獅子</rend>
-                    </td>
+                    <td x="607"><rend fontfam="ＭＳ ゴシック" fontsize="24pt" fontweight="bold" halign="center" valign="top">越後獅子</rend></td>
                   </tr>
                   <tr y="1395">
-                    <td x="607">
-                      <rend fontsize="24pt" fontweight="bold" halign="center" valign="top">Echigo-Jishi</rend>
-                    </td>
+                    <td x="607"><rend fontsize="24pt" fontweight="bold" halign="center" valign="top">Echigo-Jishi</rend></td>
                   </tr>
                   <tr y="1345">
-                    <td x="1124">
-                      <rend fontsize="12pt" fontweight="bold" halign="right" valign="top">Arr. Y.
-                        Nagai , K. Kobatake</rend>
-                    </td>
+                    <td x="1124"><rend fontsize="12pt" fontweight="bold" halign="right" valign="top">Arr. Y. Nagai , K. Kobatake</rend></td>
                   </tr>
                 </table>
               </pgHead>
               <pgFoot>
                 <table>
                   <tr y="244">
-                    <td x="129">
-                      <rend fontsize="11pt" valign="top">Source: "Japanese Popular Music: a
-                        collection of the popular music of Japan rendered in to the<lb/>staff
-                        notation", by Y. Nagai and K. Kobatake, 2nd ed., Osaka, S. Miki &amp; Co.,
-                        1892, pp. 96-97. Transcribed into Finale music notation by Tom Potter, 2005.
-                        See http://www.daisyfield.com/music/ Lyrics added by Karen Tanaka and
-                        Michael Good, 2006. See http://www.recordare.com/</rend>
-                    </td>
+                    <td x="129"><rend fontsize="11pt" valign="top">Source: "Japanese Popular Music: a collection of the popular music of Japan rendered in to the
+                        <lb/>staff notation", by Y. Nagai and K. Kobatake, 2nd ed., Osaka, S. Miki &amp; Co., 1892, pp. 96-97. Transcribed into Finale music notation by Tom Potter, 2005. See http://www.daisyfield.com/music/ Lyrics added by Karen Tanaka and Michael Good, 2006. See http://www.recordare.com/</rend></td>
                   </tr>
                   <tr y="73">
-                    <td x="602">
-                      <rend fontsize="9pt" halign="center" valign="bottom">Transcription donated to
-                        the public domain, 2005 by Tom Potter</rend>
-                    </td>
+                    <td x="602"><rend fontsize="9pt" halign="center" valign="bottom">Transcription donated to the public domain, 2005 by Tom Potter</rend></td>
                   </tr>
                 </table>
               </pgFoot>

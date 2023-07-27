@@ -1,12 +1,11 @@
-<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<?xml version="1.0" encoding="UTF-8"?>
 <?xml-model href="http://music-encoding.org/schema/4.0.1/mei-all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
 <?xml-model href="http://music-encoding.org/schema/4.0.1/mei-all.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
-<mei xmlns:xlink="http://www.w3.org/1999/xlink" xmlns="http://www.music-encoding.org/ns/mei" meiversion="4.0.1">
+<mei xmlns="http://www.music-encoding.org/ns/mei" meiversion="4.0.1">
   <meiHead>
     <fileDesc>
       <titleStmt>
-        <title>Préludes op. 67, No. 11 <titlePart type="subordinate">an electronic
-          transcription</titlePart> </title>
+        <title>Préludes op. 67, No. 11<titlePart type="subordinate">an electronic transcription</titlePart></title>
         <composer>
           <persName role="creator" auth="GND" auth.uri=" http://d-nb.info/gnd/" codedval="118554751">Johann Nepomuk Hummel</persName>
         </composer>
@@ -16,30 +15,32 @@
       </titleStmt>
       <pubStmt>
         <publisher>
-          <corpName role="publisher" codedval="5115198" auth.uri="//d-nb.info/gndGND" auth="GND">
-            Musikwissenschaftliches Seminar </corpName>
+          <corpName role="publisher" codedval="5115198" auth.uri="//d-nb.info/gndGND" auth="GND"> Musikwissenschaftliches Seminar</corpName>
         </publisher>
         <address>
           <addrLine>Gartenstrasse 20</addrLine>
-          <addrLine>32756 <geogName>Detmold</geogName> </addrLine>
+          <addrLine>32756<geogName>Detmold</geogName></addrLine>
         </address>
         <date/>
         <availability>
-          <useRestrict>This encoding is in the public domain. However, the sources used to create it
-            may be under copyright. We believe their use by the MEI project for educational and
-            research purposes is covered by the Fair Use doctrine. However, we will remove any
-            material from the project archive when requested to do so by the copyright
-            owner.</useRestrict>
+          <useRestrict>This encoding is in the public domain. However, the sources used to create it may be under copyright. We believe their use by the MEI project for educational and research purposes is covered by the Fair Use doctrine. However, we will remove any material from the project archive when requested to do so by the copyright owner.</useRestrict>
         </availability>
       </pubStmt>
       <seriesStmt>
         <title>MEI Sample Collection</title>
         <funder>
-          <corpName role="funder" codedval="2007744-0" auth.uri="http://d-nb.info/gnd/2007744-0" auth="Deutsche Nationalbibliothek">German Research Foundation<address><addrLine>Kennedyallee 40</addrLine><addrLine><geogName>Bonn </geogName></addrLine></address> </corpName>
+          <corpName role="funder" codedval="2007744-0" auth.uri="http://d-nb.info/gnd/2007744-0" auth="Deutsche Nationalbibliothek">German Research Foundation
+            <address>
+              <addrLine>Kennedyallee 40</addrLine>
+              <addrLine><geogName>Bonn</geogName></addrLine>
+            </address> </corpName>
         </funder>
         <funder>
-          <corpName role="funder" codedval="18183-3" auth.uri="http://d-nb.info/gnd/18183-3" auth="Deutsche Nationalbibliothek">National Endowment for the Humanities<address><addrLine>1100 Pennsylvania Avenue N.W.</addrLine><addrLine><geogName>Washington,
-            DC</geogName></addrLine></address> </corpName>
+          <corpName role="funder" codedval="18183-3" auth.uri="http://d-nb.info/gnd/18183-3" auth="Deutsche Nationalbibliothek">National Endowment for the Humanities
+            <address>
+              <addrLine>1100 Pennsylvania Avenue N.W.</addrLine>
+              <addrLine><geogName>Washington, DC</geogName></addrLine>
+            </address> </corpName>
         </funder>
         <respStmt>
           <corpName role="publisher">MEI Project</corpName>
@@ -61,16 +62,19 @@
         </application>
         <application xml:id="xsl_mxl2mei_2.2.3" version="2.2.3">
           <name>MusicXML2MEI</name>
-          <p> The stylesheet is a converter from MusicXML to MEI.</p>
+          <p>The stylesheet is a converter from MusicXML to MEI.</p>
         </application>
         <application version="v1.0_beta" xml:id="mei30To40">
           <name>mei30To40.xsl</name>
           <ptr target="https://github.com/music-encoding/encoding-tools/blob/main/mei30To40/mei30To40.xsl"/>
         </application>
+        <application version="0.0.1-alpha" xml:id="lint-mei-files_0.0.1-alpha">
+          <name>mei-files.xsl</name>
+          <ptr target="https://github.com/music-encoding/encoding-tools/blob/main/linting/mei-files.xsl"/>
+        </application>
       </appInfo>
       <projectDesc>
-        <p> Transcoded from a MusicXML version 1.0 file on 2010-03-03 using an XSLT stylesheet (2mei
-          v. 2.2.1). The MusicXML file was generated using SharpEye Music Reader 2. </p>
+        <p>Transcoded from a MusicXML version 1.0 file on 2010-03-03 using an XSLT stylesheet (2mei v. 2.2.1). The MusicXML file was generated using SharpEye Music Reader 2.</p>
       </projectDesc>
       <samplingDecl>
         <p>This example contains the 11th Prelude.</p>
@@ -170,7 +174,7 @@
                 <slur tstamp="4" curvedir="below" staff="1" tstamp2="0m+4.75"/>
                 <pedal staff="2" dir="down" place="below" tstamp="1" form="altpedstar"/>
                 <pedal staff="2" dir="down" place="below" tstamp="3" form="pedstar"/>
-                <dir tstamp="1" staff="1" place="below"> armonioso </dir>
+                <dir tstamp="1" staff="1" place="below">armonioso</dir>
               </measure>
             </section>
           </score>
@@ -210,8 +214,7 @@
           <plateNum>U.E. 93.</plateNum>
         </physDesc>
         <seriesStmt>
-          <title auth.uri="http://d-nb.info/" codedval="354246208" auth="GND">Sonaten und
-            Klavier-Stücke von J.N. Hummel<num>Vol. 3</num> </title>
+          <title auth.uri="http://d-nb.info/" codedval="354246208" auth="GND">Sonaten und Klavier-Stücke von J.N. Hummel<num>Vol. 3</num> </title>
         </seriesStmt>
       </manifestation>
     </manifestationList>
@@ -270,6 +273,21 @@
         </changeDesc>
         <date isodate="2019-01-03"/>
       </change>
+      <change n="8">
+        <respStmt>
+          <persName>Benjamin W. Bohl</persName>
+          <persName>Stefan Münnich</persName>
+        </respStmt>
+        <changeDesc>
+          <p><list>
+              <li>update xml-model schema references to v4.0.1</li>
+              <li>update meiversion attributes to 4.0.1</li>
+              <li>add missing responsibility statements to change elements</li>
+              <li>unify documentation of mei version upgrades (appInfo and revisionDesc)</li>
+            </list></p>
+        </changeDesc>
+        <date isodate="2023-07-27T17:10:00+02:00"/>
+      </change>
     </revisionDesc>
   </meiHead>
   <music>
@@ -278,9 +296,7 @@
         <score>
           <scoreDef meter.count="4" meter.unit="4" meter.sym="common" key.sig="5s">
             <staffGrp bar.thru="true" symbol="brace">
-              <label>
-                <rend fontsize="18pt">11.</rend>
-              </label>
+              <label><rend fontsize="18pt">11.</rend></label>
               <staffDef n="1" xml:id="P1" lines="5" clef.line="2" clef.shape="G" ppq="56" key.sig="5s"/>
               <staffDef n="2" xml:id="P2" lines="5" clef.line="4" clef.shape="F" ppq="56" key.sig="5s"/>
             </staffGrp>
@@ -348,9 +364,7 @@
               <slur tstamp="4" curvedir="below" startid="#d1e199" endid="#d1e281" staff="1" tstamp2="0m+4.75"/>
               <pedal staff="2" dir="down" place="below" tstamp="1" form="altpedstar"/>
               <pedal staff="2" dir="down" place="below" tstamp="3" form="pedstar"/>
-              <dir tstamp="1" staff="1" place="below">
-                <rend fontstyle="italic">armonioso</rend>
-              </dir>
+              <dir tstamp="1" staff="1" place="below"><rend fontstyle="italic">armonioso</rend></dir>
               <tie staff="2" startid="#d1e361" endid="#d1e441"/>
               <tie staff="2" startid="#d1e382" endid="#d1e459"/>
               <tie staff="2" startid="#d1e518" endid="#d1e598"/>
@@ -494,9 +508,7 @@
               </staff>
               <slur tstamp="1" curvedir="above" startid="#d1e1237" endid="#d1e1428" staff="1" tstamp2="0m+2.75"/>
               <slur tstamp="3" curvedir="above" startid="#d1e1428" endid="#d1e1653" staff="1" tstamp2="0m+4.75"/>
-              <dir tstamp="2.25" staff="1" place="below" tstamp2="1m+2.75">
-                <rend fontstyle="italic">cresc. e sempre più pressante</rend>
-              </dir>
+              <dir tstamp="2.25" staff="1" place="below" tstamp2="1m+2.75"><rend fontstyle="italic">cresc. e sempre più pressante</rend></dir>
             </measure>
             <measure n="4" xml:id="d1e1790">
               <staff n="1">
@@ -742,12 +754,8 @@
               </staff>
               <tupletSpan staff="1" num="7" numbase="8" num.visible="true" num.place="above" num.format="count" startid="#d1e2913" endid="#d1e3060" bracket.visible="false" tstamp2="4"/>
               <tempo staff="1" place="above" tstamp="1">Meno allegro.</tempo>
-              <dir staff="1" place="below" tstamp="4">
-                <rend fontstyle="italic">espress.</rend>
-              </dir>
-              <dir tstamp="7" place="below" staff="1">
-                <rend fontstyle="italic">allegro</rend>
-              </dir>
+              <dir staff="1" place="below" tstamp="4"><rend fontstyle="italic">espress.</rend></dir>
+              <dir tstamp="7" place="below" staff="1"><rend fontstyle="italic">allegro</rend></dir>
               <dir staff="1" place="above" tstamp="8">Andante.</dir>
               <dynam staff="1" place="above" tstamp="3">p</dynam>
               <dynam tstamp="1" place="below" staff="2">p</dynam>

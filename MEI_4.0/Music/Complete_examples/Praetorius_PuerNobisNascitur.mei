@@ -1,12 +1,11 @@
-<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<?xml version="1.0" encoding="UTF-8"?>
 <?xml-model href="http://music-encoding.org/schema/4.0.1/mei-all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
 <?xml-model href="http://music-encoding.org/schema/4.0.1/mei-all.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
-<mei xmlns:xlink="http://www.w3.org/1999/xlink" xmlns="http://www.music-encoding.org/ns/mei" meiversion="4.0.1">
+<mei xmlns="http://www.music-encoding.org/ns/mei" meiversion="4.0.1">
   <meiHead>
     <fileDesc>
       <titleStmt>
-        <title>Puer nobis nascitur <titlePart type="subordinate">for Choir, Brass and
-          Timpani</titlePart> <titlePart type="subordinate">an electronic transcription</titlePart> </title>
+        <title>Puer nobis nascitur<titlePart type="subordinate">for Choir, Brass and Timpani</titlePart> <titlePart type="subordinate">an electronic transcription</titlePart></title>
         <composer>
           <persName role="creator" codedval="118741713" auth.uri="http://d-nb.info/gnd/" auth="GND">Michael Praetorius</persName>
         </composer>
@@ -21,28 +20,31 @@
         </publisher>
         <address>
           <addrLine>Gartenstrasse 20</addrLine>
-          <addrLine>32756 <geogName codedval="7004442" auth.uri="http://vocab.getty.edu/page/tgn/" auth="TGN">Detmold</geogName> </addrLine>
-          <addrLine>
-            <geogName codedval="7000084" auth.uri="http://vocab.getty.edu/page/tgn/" auth="TGN">Germany</geogName>
-          </addrLine>
+          <addrLine>32756<geogName codedval="7004442" auth.uri="http://vocab.getty.edu/page/tgn/" auth="TGN">Detmold</geogName></addrLine>
+          <addrLine><geogName codedval="7000084" auth.uri="http://vocab.getty.edu/page/tgn/" auth="TGN">Germany</geogName></addrLine>
         </address>
         <date>2011</date>
         <availability>
-          <useRestrict>This encoding is in the public domain. However, the sources used to create it
-            may be under copyright. We believe their use by the MEI project for educational and
-            research purposes is covered by the Fair Use doctrine. However, we will remove any
-            material from the project archive when requested to do so by the copyright
-            owner.</useRestrict>
+          <useRestrict>This encoding is in the public domain. However, the sources used to create it may be under copyright. We believe their use by the MEI project for educational and research purposes is covered by the Fair Use doctrine. However, we will remove any material from the project archive when requested to do so by the copyright owner.</useRestrict>
         </availability>
       </pubStmt>
       <seriesStmt>
         <title>MEI Sample Collection</title>
         <funder>
-          <corpName role="funder" codedval="2007744-0" auth.uri="http://d-nb.info/gnd/" auth="GND">German Research Foundation<address><addrLine>Kennedyallee 40</addrLine><addrLine><geogName codedval="7005090" auth.uri="http://vocab.getty.edu/page/tgn/" auth="TGN">Bonn</geogName></addrLine><addrLine><geogName codedval="7000084" auth.uri="http://vocab.getty.edu/page/tgn/" auth="TGN">Germany</geogName></addrLine></address> </corpName>
+          <corpName role="funder" codedval="2007744-0" auth.uri="http://d-nb.info/gnd/" auth="GND">German Research Foundation
+            <address>
+              <addrLine>Kennedyallee 40</addrLine>
+              <addrLine><geogName codedval="7005090" auth.uri="http://vocab.getty.edu/page/tgn/" auth="TGN">Bonn</geogName></addrLine>
+              <addrLine><geogName codedval="7000084" auth.uri="http://vocab.getty.edu/page/tgn/" auth="TGN">Germany</geogName></addrLine>
+            </address> </corpName>
         </funder>
         <funder>
-          <corpName role="funder" codedval="18183-3" auth.uri="http://d-nb.info/gnd/18183-3" auth="Deutsche Nationalbibliothek">National Endowment for the Humanities<address><addrLine>1100 Pennsylvania Avenue N.W.</addrLine><addrLine><geogName codedval="7013962" auth.uri="http://vocab.getty.edu/page/tgn/" auth="TGN">Washington,
-            DC</geogName> 20004</addrLine><addrLine><geogName codedval="7012149" auth.uri="http://vocab.getty.edu/page/tgn/" auth="TGN">United States</geogName></addrLine></address> </corpName>
+          <corpName role="funder" codedval="18183-3" auth.uri="http://d-nb.info/gnd/18183-3" auth="Deutsche Nationalbibliothek">National Endowment for the Humanities
+            <address>
+              <addrLine>1100 Pennsylvania Avenue N.W.</addrLine>
+              <addrLine><geogName codedval="7013962" auth.uri="http://vocab.getty.edu/page/tgn/" auth="TGN">Washington, DC</geogName>20004</addrLine>
+              <addrLine><geogName codedval="7012149" auth.uri="http://vocab.getty.edu/page/tgn/" auth="TGN">United States</geogName></addrLine>
+            </address> </corpName>
         </funder>
         <respStmt>
           <corpName role="publisher">MEI Project</corpName>
@@ -96,6 +98,10 @@
           <name>mei30To40.xsl</name>
           <ptr target="https://github.com/music-encoding/encoding-tools/blob/main/mei30To40/mei30To40.xsl"/>
         </application>
+        <application version="0.0.1-alpha" xml:id="lint-mei-files_0.0.1-alpha">
+          <name>mei-files.xsl</name>
+          <ptr target="https://github.com/music-encoding/encoding-tools/blob/main/linting/mei-files.xsl"/>
+        </application>
       </appInfo>
       <classDecls>
         <taxonomy>
@@ -118,7 +124,9 @@
           </incipText>
           <incipCode form="parsons">*uuudduduuduuuduu</incipCode>
         </incip>
-        <creation>Year of composition<date notbefore="1571" notafter="1621"/> </creation>
+        <creation>Year of composition
+          <date notbefore="1571" notafter="1621"/>
+        </creation>
         <perfMedium>
           <perfResList>
             <perfRes codedval="bb">Trumpet in C 1</perfRes>
@@ -143,26 +151,25 @@
           <name>Unknown</name>
         </respStmt>
         <changeDesc>
-          <p>The original MusicXML file was generated using Finale 2011 for Windows and Dolet Light
-            for Finale 2011.</p>
+          <p>The original MusicXML file was generated using Finale 2011 for Windows and Dolet Light for Finale 2011.</p>
         </changeDesc>
         <date isodate="2010-10-23"/>
       </change>
       <change n="2">
         <respStmt>
-          <persName xml:id="MH"> Maja Hartwig </persName>
+          <persName xml:id="MH">Maja Hartwig</persName>
         </respStmt>
         <changeDesc>
-          <p>Transcoded from a MusicXML version 2.0 file on 2011-05-12 using the <ref target="#xsl_mxl2mei_2.2.3">musicxml2mei</ref> stylesheet. </p>
+          <p>Transcoded from a MusicXML version 2.0 file on 2011-05-12 using the<ref target="#xsl_mxl2mei_2.2.3">musicxml2mei</ref>stylesheet.</p>
         </changeDesc>
         <date isodate="2011-05-12"/>
       </change>
       <change n="3">
         <respStmt>
-          <persName xml:id="KR"> Kristina Richts </persName>
+          <persName xml:id="KR">Kristina Richts</persName>
         </respStmt>
         <changeDesc>
-          <p> Cleaned up MEI file automatically using <ref target="#xsl_ppq">ppq.xsl</ref>. </p>
+          <p>Cleaned up MEI file automatically using<ref target="#xsl_ppq">ppq.xsl</ref>.</p>
         </changeDesc>
         <date isodate="2011-10-21"/>
       </change>
@@ -174,8 +181,7 @@
       </change>
       <change n="5" resp="#KR">
         <changeDesc>
-          <p> Cleaned up MEI file automatically using <ref target="#xsl_header">Header.xsl</ref>.
-          </p>
+          <p>Cleaned up MEI file automatically using<ref target="#xsl_header">Header.xsl</ref>.</p>
         </changeDesc>
         <date isodate="2011-12-01"/>
       </change>
@@ -206,6 +212,21 @@
         </changeDesc>
         <date isodate="2019-01-03"/>
       </change>
+      <change n="10">
+        <respStmt>
+          <persName>Benjamin W. Bohl</persName>
+          <persName>Stefan Münnich</persName>
+        </respStmt>
+        <changeDesc>
+          <p><list>
+              <li>update xml-model schema references to v4.0.1</li>
+              <li>update meiversion attributes to 4.0.1</li>
+              <li>add missing responsibility statements to change elements</li>
+              <li>unify documentation of mei version upgrades (appInfo and revisionDesc)</li>
+            </list></p>
+        </changeDesc>
+        <date isodate="2023-07-27T17:09:17+02:00"/>
+      </change>
     </revisionDesc>
   </meiHead>
   <music>
@@ -213,20 +234,11 @@
       <mdiv>
         <score>
           <scoreDef meter.count="6" meter.unit="4" key.sig="1f" key.mode="major">
-            <pgHead>
-              <rend halign="center" valign="top">PUER NOBIS NASCITUR</rend>
-              <rend halign="center" valign="top">(Musae Sioniae, Sechster Theil, XLIV) <lb/>for
-                Choir, Brass &amp; Timpani</rend>
-              <p>
-                <rend halign="left" valign="top">Score (02:50'')</rend>
-              </p>
-              <rend halign="right" valign="top"><persName role="composer">Michael
-                Praetorius</persName> (1571-1621)<lb/> Arr. <persName role="arranger">Michel
-                Rondeau</persName> </rend>
-            </pgHead>
-            <pgFoot>
-              <rend halign="center" valign="bottom">© 2010 - Gatineau,Qc.Ca.</rend>
-            </pgFoot>
+            <pgHead><rend halign="center" valign="top">PUER NOBIS NASCITUR</rend><rend halign="center" valign="top">(Musae Sioniae, Sechster Theil, XLIV)
+                <lb/>for Choir, Brass &amp; Timpani</rend>
+              <p><rend halign="left" valign="top">Score (02:50'')</rend></p><rend halign="right" valign="top"><persName role="composer">Michael Praetorius</persName>(1571-1621)
+                <lb/>Arr.<persName role="arranger">Michel Rondeau</persName> </rend></pgHead>
+            <pgFoot><rend halign="center" valign="bottom">© 2010 - Gatineau,Qc.Ca.</rend></pgFoot>
             <staffGrp bar.thru="true" symbol="bracket">
               <staffDef n="1" xml:id="P1" lines="5" clef.line="2" clef.shape="G" key.sig="1f" key.mode="major">
                 <label>Trumpet in C 1</label>
@@ -367,14 +379,10 @@
                   <mRest xml:id="d5130e1142"/>
                 </layer>
               </staff>
-              <dir tstamp="1" place="above" staff="1"> Allegro moderato </dir>
-              <tempo tstamp="1" place="above" staff="1">
-                <rend>note4;=140</rend>
-              </tempo>
+              <dir tstamp="1" place="above" staff="1">Allegro moderato</dir>
+              <tempo tstamp="1" place="above" staff="1"><rend>note4;=140</rend></tempo>
               <dynam tstamp="1" place="below" staff="1">mf</dynam>
-              <dir tstamp="1" place="above" staff="1" ho="0.5">
-                <rend>Intro.</rend>
-              </dir>
+              <dir tstamp="1" place="above" staff="1" ho="0.5"><rend>Intro.</rend></dir>
               <dynam tstamp="1" place="below" staff="2">mf</dynam>
               <dynam tstamp="1" place="below" staff="3">mf</dynam>
               <dynam tstamp="1" place="below" staff="4">mf</dynam>
@@ -618,14 +626,8 @@
                 </layer>
               </staff>
               <dynam tstamp="1" place="below" staff="1">p</dynam>
-              <dir tstamp="1" place="above" staff="1" ho="-2">
-                <rend fontsize="12pt" fontweight="bold">
-                  <symbol glyph.auth="smufl" glyph.name="segno" glyph.num="U+E047"/>
-                </rend>
-              </dir>
-              <dir tstamp="1" place="above" staff="1">
-                <rend fontsize="12pt" fontweight="bold">V.1-3</rend>
-              </dir>
+              <dir tstamp="1" place="above" staff="1" ho="-2"><rend fontsize="12pt" fontweight="bold"><symbol glyph.auth="smufl" glyph.name="segno" glyph.num="U+E047"/></rend></dir>
+              <dir tstamp="1" place="above" staff="1"><rend fontsize="12pt" fontweight="bold">V.1-3</rend></dir>
               <dynam tstamp="1" place="below" staff="2">p</dynam>
               <dynam tstamp="1" place="below" staff="3">p</dynam>
               <dynam tstamp="1" place="below" staff="4">p</dynam>
@@ -2123,9 +2125,7 @@
                   </note>
                 </layer>
               </staff>
-              <dir tstamp="1" place="above" staff="1" ho="-1">
-                <rend fontsize="12pt" fontweight="bold">V.2-4</rend>
-              </dir>
+              <dir tstamp="1" place="above" staff="1" ho="-1"><rend fontsize="12pt" fontweight="bold">V.2-4</rend></dir>
             </measure>
             <pb n="5"/>
             <measure n="14" xml:id="d5130e7554">
@@ -3477,9 +3477,7 @@
                   <mRest xml:id="d5130e12550"/>
                 </layer>
               </staff>
-              <dir tstamp="1" place="below" staff="1" ho="6">
-                <rend fontsize="12pt" fontweight="bold">Dal Segno <symbol glyph.auth="smufl" glyph.name="segno" glyph.num="U+E047"/></rend>
-              </dir>
+              <dir tstamp="1" place="below" staff="1" ho="6"><rend fontsize="12pt" fontweight="bold">Dal Segno<symbol glyph.auth="smufl" glyph.name="segno" glyph.num="U+E047"/></rend></dir>
             </measure>
           </section>
           <section>
@@ -3630,9 +3628,7 @@
                   </note>
                 </layer>
               </staff>
-              <dir tstamp="1" place="above" staff="1">
-                <rend fontsize="12pt" fontweight="bold">V.5</rend>
-              </dir>
+              <dir tstamp="1" place="above" staff="1"><rend fontsize="12pt" fontweight="bold">V.5</rend></dir>
             </measure>
             <pb n="8"/>
             <measure n="24" xml:id="d5130e13125">

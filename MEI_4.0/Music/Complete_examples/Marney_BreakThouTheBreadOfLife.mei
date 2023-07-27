@@ -1,12 +1,11 @@
-<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<?xml version="1.0" encoding="UTF-8"?>
 <?xml-model href="http://music-encoding.org/schema/4.0.1/mei-all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
 <?xml-model href="http://music-encoding.org/schema/4.0.1/mei-all.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
-<mei xmlns:xlink="http://www.w3.org/1999/xlink" xmlns="http://www.music-encoding.org/ns/mei" meiversion="4.0.1">
+<mei xmlns="http://www.music-encoding.org/ns/mei" meiversion="4.0.1">
   <meiHead>
     <fileDesc>
       <titleStmt>
-        <title>Break Thou the Bread of Life <titlePart type="subordinate">an electronic
-          transcription</titlePart> </title>
+        <title>Break Thou the Bread of Life<titlePart type="subordinate">an electronic transcription</titlePart></title>
         <composer>
           <persName role="creator">Davide Marney</persName>
         </composer>
@@ -21,28 +20,31 @@
         </publisher>
         <address>
           <addrLine>Gartenstrasse 20</addrLine>
-          <addrLine>32756 <geogName codedval="7004442" auth.uri="http://vocab.getty.edu/page/tgn/" auth="TGN">Detmold</geogName> </addrLine>
-          <addrLine>
-            <geogName codedval="7000084" auth.uri="http://vocab.getty.edu/page/tgn/" auth="TGN">Germany</geogName>
-          </addrLine>
+          <addrLine>32756<geogName codedval="7004442" auth.uri="http://vocab.getty.edu/page/tgn/" auth="TGN">Detmold</geogName></addrLine>
+          <addrLine><geogName codedval="7000084" auth.uri="http://vocab.getty.edu/page/tgn/" auth="TGN">Germany</geogName></addrLine>
         </address>
         <date>2011</date>
         <availability>
-          <useRestrict>This encoding is in the public domain. However, the sources used to create it
-            may be under copyright. We believe their use by the MEI project for educational and
-            research purposes is covered by the Fair Use doctrine. However, we will remove any
-            material from the project archive when requested to do so by the copyright
-            owner.</useRestrict>
+          <useRestrict>This encoding is in the public domain. However, the sources used to create it may be under copyright. We believe their use by the MEI project for educational and research purposes is covered by the Fair Use doctrine. However, we will remove any material from the project archive when requested to do so by the copyright owner.</useRestrict>
         </availability>
       </pubStmt>
       <seriesStmt>
         <title>MEI Sample Collection</title>
         <funder>
-          <corpName role="funder" codedval="2007744-0" auth.uri="http://d-nb.info/gnd/" auth="GND">German Research Foundation<address><addrLine>Kennedyallee 40</addrLine><addrLine><geogName codedval="7005090" auth.uri="http://vocab.getty.edu/page/tgn/" auth="TGN">Bonn</geogName></addrLine><addrLine><geogName codedval="7000084" auth.uri="http://vocab.getty.edu/page/tgn/" auth="TGN">Germany</geogName></addrLine></address> </corpName>
+          <corpName role="funder" codedval="2007744-0" auth.uri="http://d-nb.info/gnd/" auth="GND">German Research Foundation
+            <address>
+              <addrLine>Kennedyallee 40</addrLine>
+              <addrLine><geogName codedval="7005090" auth.uri="http://vocab.getty.edu/page/tgn/" auth="TGN">Bonn</geogName></addrLine>
+              <addrLine><geogName codedval="7000084" auth.uri="http://vocab.getty.edu/page/tgn/" auth="TGN">Germany</geogName></addrLine>
+            </address> </corpName>
         </funder>
         <funder>
-          <corpName role="funder" codedval="18183-3" auth.uri="http://d-nb.info/gnd/18183-3" auth="Deutsche Nationalbibliothek">National Endowment for the Humanities<address><addrLine>1100 Pennsylvania Avenue N.W.</addrLine><addrLine><geogName codedval="7013962" auth.uri="http://vocab.getty.edu/page/tgn/" auth="TGN">Washington,
-            DC</geogName> 20004</addrLine><addrLine><geogName codedval="7012149" auth.uri="http://vocab.getty.edu/page/tgn/" auth="TGN">United States</geogName></addrLine></address> </corpName>
+          <corpName role="funder" codedval="18183-3" auth.uri="http://d-nb.info/gnd/18183-3" auth="Deutsche Nationalbibliothek">National Endowment for the Humanities
+            <address>
+              <addrLine>1100 Pennsylvania Avenue N.W.</addrLine>
+              <addrLine><geogName codedval="7013962" auth.uri="http://vocab.getty.edu/page/tgn/" auth="TGN">Washington, DC</geogName>20004</addrLine>
+              <addrLine><geogName codedval="7012149" auth.uri="http://vocab.getty.edu/page/tgn/" auth="TGN">United States</geogName></addrLine>
+            </address> </corpName>
         </funder>
         <respStmt>
           <corpName role="publisher">MEI Project</corpName>
@@ -86,6 +88,10 @@
           <name>mei30To40.xsl</name>
           <ptr target="https://github.com/music-encoding/encoding-tools/blob/main/mei30To40/mei30To40.xsl"/>
         </application>
+        <application version="0.0.1-alpha" xml:id="lint-mei-files_0.0.1-alpha">
+          <name>mei-files.xsl</name>
+          <ptr target="https://github.com/music-encoding/encoding-tools/blob/main/linting/mei-files.xsl"/>
+        </application>
       </appInfo>
       <classDecls>
         <taxonomy>
@@ -122,7 +128,7 @@
         <meter count="4" unit="4"/>
         <incip>
           <incipText>
-            <p>Break thou the bread of life, dear Lord to me </p>
+            <p>Break thou the bread of life, dear Lord to me</p>
           </incipText>
           <incipCode form="parsons">*udrdruuddrduddr</incipCode>
           <score>
@@ -208,19 +214,19 @@
     <revisionDesc>
       <change n="1">
         <respStmt>
-          <persName xml:id="MH"> Maja Hartwig </persName>
+          <persName xml:id="MH">Maja Hartwig</persName>
         </respStmt>
         <changeDesc>
-          <p>Transcoded from a MusicXML version 1.1 file on 2011-05-12 using the <ref target="#xsl_mxl2mei_2.2.3">musicxml2mei</ref> stylesheet. </p>
+          <p>Transcoded from a MusicXML version 1.1 file on 2011-05-12 using the<ref target="#xsl_mxl2mei_2.2.3">musicxml2mei</ref>stylesheet.</p>
         </changeDesc>
         <date isodate="2011-05-12"/>
       </change>
       <change n="2">
         <respStmt>
-          <persName xml:id="KR"> Kristina Richts </persName>
+          <persName xml:id="KR">Kristina Richts</persName>
         </respStmt>
         <changeDesc>
-          <p> Cleaned up MEI file automatically using <ref target="#xsl_ppq">ppq.xsl</ref>. </p>
+          <p>Cleaned up MEI file automatically using<ref target="#xsl_ppq">ppq.xsl</ref>.</p>
         </changeDesc>
         <date isodate="2011-10-21"/>
       </change>
@@ -233,8 +239,7 @@
       </change>
       <change n="4" resp="#KR">
         <changeDesc>
-          <p> Cleaned up MEI file automatically using <ref target="#xsl_header">Header.xsl</ref>.
-          </p>
+          <p>Cleaned up MEI file automatically using<ref target="#xsl_header">Header.xsl</ref>.</p>
         </changeDesc>
         <date isodate="2011-12-01"/>
       </change>
@@ -265,6 +270,21 @@
         </changeDesc>
         <date isodate="2019-01-03"/>
       </change>
+      <change n="9">
+        <respStmt>
+          <persName>Benjamin W. Bohl</persName>
+          <persName>Stefan Münnich</persName>
+        </respStmt>
+        <changeDesc>
+          <p><list>
+              <li>update xml-model schema references to v4.0.1</li>
+              <li>update meiversion attributes to 4.0.1</li>
+              <li>add missing responsibility statements to change elements</li>
+              <li>unify documentation of mei version upgrades (appInfo and revisionDesc)</li>
+            </list></p>
+        </changeDesc>
+        <date isodate="2023-07-27T17:08:47+02:00"/>
+      </change>
     </revisionDesc>
   </meiHead>
   <music>
@@ -273,24 +293,14 @@
         <score>
           <scoreDef meter.count="4" meter.unit="4" key.sig="2s" key.mode="major">
             <pgHead>
-              <title>
-                <rend valign="top" halign="center">Break Thou the Bread of Life</rend>
-              </title>
-              <persName>
-                <rend halign="left" valign="top">Mary A. Lathbury, 1877<lb/>Alt. David Coffin, Jr.,
-                  1995</rend>
-              </persName>
-              <persName>
-                <rend halign="right" valign="top">Davide Marney, 1995</rend>
-              </persName>
+              <title><rend valign="top" halign="center">Break Thou the Bread of Life</rend></title>
+              <persName><rend halign="left" valign="top">Mary A. Lathbury, 1877
+                  <lb/>Alt. David Coffin, Jr., 1995</rend></persName>
+              <persName><rend halign="right" valign="top">Davide Marney, 1995</rend></persName>
             </pgHead>
             <pgFoot>
-              <p>
-                <rend halign="center" valign="bottom">Music Copyright © 1995, Davide C. Marney..
-                  Published by New Hymns for Worship, www.NewHymns.org<lb/>Music licensed under a
-                  Creative Commons Attribution 3.0 United States license; see
-                  http://creativecommons.org/licenses/by/3.0/us/</rend>
-              </p>
+              <p><rend halign="center" valign="bottom">Music Copyright © 1995, Davide C. Marney.. Published by New Hymns for Worship, www.NewHymns.org
+                  <lb/>Music licensed under a Creative Commons Attribution 3.0 United States license; see http://creativecommons.org/licenses/by/3.0/us/</rend></p>
             </pgFoot>
             <staffGrp>
               <staffDef n="1" clef.line="2" clef.shape="G" key.sig="2s" key.mode="major" lines="5"/>
@@ -1957,9 +1967,7 @@
                 </layer>
               </staff>
               <harm tstamp="1" place="above" staff="1" ho="0.3">D</harm>
-              <dir tstamp="2" place="above" staff="1">
-                <rend fontstyle="italic">rit.</rend>
-              </dir>
+              <dir tstamp="2" place="above" staff="1"><rend fontstyle="italic">rit.</rend></dir>
               <harm tstamp="3" place="above" staff="1" ho="0.8"/>
               <dir tstamp="4" place="above" staff="1" ho="0.8">Ems7</dir>
             </measure>

@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<?xml version="1.0" encoding="UTF-8"?>
 <?xml-model href="http://music-encoding.org/schema/4.0.1/mei-all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
 <?xml-model href="http://music-encoding.org/schema/4.0.1/mei-all.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
 <mei xmlns="http://www.music-encoding.org/ns/mei" meiversion="4.0.1">
@@ -19,30 +19,31 @@
         </publisher>
         <address>
           <addrLine>Gartenstrasse 20</addrLine>
-          <addrLine>32756 <geogName>Detmold</geogName> </addrLine>
-          <addrLine>
-            <geogName>Germany</geogName>
-          </addrLine>
+          <addrLine>32756<geogName>Detmold</geogName></addrLine>
+          <addrLine><geogName>Germany</geogName></addrLine>
         </address>
         <date>2011</date>
         <availability>
-          <useRestrict>This encoding is in the public domain. However, the sources used to create it
-            may be under copyright. We believe their use by the MEI project for educational and
-            research purposes is covered by the Fair Use doctrine. However, we will remove any
-            material from the project archive when requested to do so by the copyright
-            owner.</useRestrict>
+          <useRestrict>This encoding is in the public domain. However, the sources used to create it may be under copyright. We believe their use by the MEI project for educational and research purposes is covered by the Fair Use doctrine. However, we will remove any material from the project archive when requested to do so by the copyright owner.</useRestrict>
         </availability>
       </pubStmt>
       <seriesStmt>
         <title>MEI Sample Collection</title>
         <funder>
-          <corpName role="funder">German Research Foundation<address><addrLine>Kennedyallee
-            40</addrLine><addrLine><geogName>Bonn</geogName></addrLine><addrLine><geogName>Germany</geogName></addrLine></address> </corpName>
+          <corpName role="funder">German Research Foundation
+            <address>
+              <addrLine>Kennedyallee 40</addrLine>
+              <addrLine><geogName>Bonn</geogName></addrLine>
+              <addrLine><geogName>Germany</geogName></addrLine>
+            </address> </corpName>
         </funder>
         <funder>
-          <corpName role="funder">National Endowment for the Humanities<address><addrLine>1100
-            Pennsylvania Avenue N.W.</addrLine><addrLine><geogName>Washington, DC</geogName>
-            20004</addrLine><addrLine><geogName>United States</geogName></addrLine></address>
+          <corpName role="funder">National Endowment for the Humanities
+            <address>
+              <addrLine>1100 Pennsylvania Avenue N.W.</addrLine>
+              <addrLine><geogName>Washington, DC</geogName> 20004</addrLine>
+              <addrLine><geogName>United States</geogName></addrLine>
+            </address>
           </corpName>
         </funder>
         <respStmt>
@@ -61,6 +62,10 @@
           <name>mei30To40.xsl</name>
           <ptr target="https://github.com/music-encoding/encoding-tools/blob/main/mei30To40/mei30To40.xsl"/>
         </application>
+        <application version="0.0.1-alpha" xml:id="lint-mei-files_0.0.1-alpha">
+          <name>mei-files.xsl</name>
+          <ptr target="https://github.com/music-encoding/encoding-tools/blob/main/linting/mei-files.xsl"/>
+        </application>
       </appInfo>
       <editorialDecl>
         <p>The encoding represents the use of the group-element as well as a detailed workDesc.</p>
@@ -68,7 +73,7 @@
     </encodingDesc>
     <workList>
       <work xml:id="op89">
-        <identifier> op.89 </identifier>
+        <identifier>op.89</identifier>
         <title>Winterreise</title>
         <title type="uniform">Franz Schuberts Werke. Lieder und Gesänge</title>
         <creation>
@@ -137,8 +142,7 @@
             <incip>
               <incipCode form="parsons">*rddrduduudddrdu</incipCode>
               <incipText>
-                <p>Gefror´ne Tropfen fallen von meinen Wangen ab: ob es mir denn entgangen, dass ich
-                  geweinet hab´?</p>
+                <p>Gefror´ne Tropfen fallen von meinen Wangen ab: ob es mir denn entgangen, dass ich geweinet hab´?</p>
               </incipText>
             </incip>
           </work>
@@ -235,11 +239,11 @@
             </incip>
             <expressionList>
               <expression n="10a">
-                <title>Rast <titlePart type="subordinate">(Ursprüngliche Fassung)</titlePart> </title>
+                <title>Rast<titlePart type="subordinate">(Ursprüngliche Fassung)</titlePart></title>
                 <key pname="d" mode="minor">D Minor</key>
               </expression>
               <expression n="10b">
-                <title>Rast <titlePart type="subordinate">(Spätere Fassung)</titlePart> </title>
+                <title>Rast<titlePart type="subordinate">(Spätere Fassung)</titlePart></title>
                 <key pname="c" mode="minor">C Minor</key>
               </expression>
             </expressionList>
@@ -262,7 +266,7 @@
             <meter count="2" unit="4"/>
             <expressionList>
               <expression n="1">
-                <title>Einsamkeit <titlePart type="subordinate">(Ursprüngliche Fassung)</titlePart> </title>
+                <title>Einsamkeit<titlePart type="subordinate">(Ursprüngliche Fassung)</titlePart></title>
                 <key pname="d" mode="minor">D Minor</key>
                 <tempo>Langsam</tempo>
                 <incip>
@@ -273,9 +277,9 @@
                 </incip>
               </expression>
               <expression n="2">
-                <title>Einsamkeit <titlePart type="subordinate">(Spätere Fassung)</titlePart> </title>
+                <title>Einsamkeit<titlePart type="subordinate">(Spätere Fassung)</titlePart></title>
                 <key pname="b" mode="minor">B Minor</key>
-                <tempo> Langsam </tempo>
+                <tempo>Langsam</tempo>
                 <incip>
                   <incipCode form="parsons">*rududuudrrdrruddu</incipCode>
                   <incipText>
@@ -443,16 +447,14 @@
     </workList>
     <manifestationList>
       <manifestation>
-        <identifier type="URI">
-          http://conquest.imslp.info/files/imglnks/usimg/8/8d/IMSLP60822-PMLP02203-Schubert_Werke_Breitkopf_Serie_XX_Band_9_F.S.878-904.pdf </identifier>
+        <identifier type="URI"> http://conquest.imslp.info/files/imglnks/usimg/8/8d/IMSLP60822-PMLP02203-Schubert_Werke_Breitkopf_Serie_XX_Band_9_F.S.878-904.pdf</identifier>
         <titleStmt>
-          <title>Winterreise. Ein Cyclus von Liedern von <persName role="lyricist">Wilhelm
-            Müller</persName> </title>
+          <title>Winterreise. Ein Cyclus von Liedern von<persName role="lyricist">Wilhelm Müller</persName></title>
           <title type="subordinate">Für eine Singstimme mit Begleitung des Pianoforte</title>
           <respStmt>
             <persName role="composer">Franz Schubert</persName>
             <resp>Herausgegeben von:</resp>
-            <persName role="editor"> Eusebius Mandyczewski </persName>
+            <persName role="editor">Eusebius Mandyczewski</persName>
           </respStmt>
         </titleStmt>
         <pubStmt>
@@ -466,7 +468,7 @@
         </physDesc>
         <seriesStmt>
           <title>Erste kritisch durchgesehene Gesamtausgabe.</title>
-          <title>Serie XX LIeder und Gesänge<num>Neunter Band</num> </title>
+          <title>Serie XX LIeder und Gesänge<num>Neunter Band</num></title>
           <editor>
             <persName role="editor">Eusebius Mandyczewski</persName>
           </editor>
@@ -530,14 +532,33 @@
         </changeDesc>
         <date isodate="2019-01-03"/>
       </change>
+      <change n="5">
+        <respStmt>
+          <persName>Benjamin W. Bohl</persName>
+          <persName>Stefan Münnich</persName>
+        </respStmt>
+        <changeDesc>
+          <p><list>
+              <li>update xml-model schema references to v4.0.1</li>
+              <li>update meiversion attributes to 4.0.1</li>
+              <li>add missing responsibility statements to change elements</li>
+              <li>unify documentation of mei version upgrades (appInfo and revisionDesc)</li>
+            </list></p>
+        </changeDesc>
+        <date isodate="2023-07-27T17:11:00+02:00"/>
+      </change>
     </revisionDesc>
   </meiHead>
   <music>
     <front xml:lang="german">
       <titlePage>
-        <p>Franz Schubert´s <lb/>Werke<lb/>Erste kritisch durchgesehene Gesamtausgabe.<lb/> SERIE
-          XX.<lb/>LIEDER UND GESÄNGE.<lb/>Neunter Band.<lb/>Verlag von Breitkopf &amp; Härtel in
-          Leipzig.</p>
+        <p>Franz Schubert´s
+          <lb/>Werke
+          <lb/>Erste kritisch durchgesehene Gesamtausgabe.
+          <lb/>SERIE XX.
+          <lb/>LIEDER UND GESÄNGE.
+          <lb/>Neunter Band.
+          <lb/>Verlag von Breitkopf &amp; Härtel in Leipzig.</p>
       </titlePage>
     </front>
     <group n="1" decls="#op89">

@@ -1,12 +1,11 @@
-<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<?xml version="1.0" encoding="UTF-8"?>
 <?xml-model href="http://music-encoding.org/schema/4.0.1/mei-all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
 <?xml-model href="http://music-encoding.org/schema/4.0.1/mei-all.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
-<mei xmlns:xlink="http://www.w3.org/1999/xlink" xmlns="http://www.music-encoding.org/ns/mei" meiversion="4.0.1">
+<mei xmlns="http://www.music-encoding.org/ns/mei" meiversion="4.0.1">
   <meiHead>
     <fileDesc>
       <titleStmt>
-        <title>Concerto grosso in B minor <titlePart type="subordinate">op. 6 HWV 330, no.
-          12</titlePart> <titlePart type="subordinate">an electronic transcription</titlePart> </title>
+        <title>Concerto grosso in B minor<titlePart type="subordinate">op. 6 HWV 330, no. 12</titlePart> <titlePart type="subordinate">an electronic transcription</titlePart></title>
         <composer>
           <persName role="creator" codedval="118544489" auth.uri="http://d-nb.info/gnd/" auth="GND">Georg Friedrich Händel</persName>
         </composer>
@@ -21,28 +20,31 @@
         </publisher>
         <address>
           <addrLine>Gartenstrasse 20</addrLine>
-          <addrLine>32756 <geogName codedval="7004442" auth.uri="http://vocab.getty.edu/page/tgn/" auth="TGN">Detmold</geogName> </addrLine>
-          <addrLine>
-            <geogName codedval="7000084" auth.uri="http://vocab.getty.edu/page/tgn/" auth="TGN">Germany</geogName>
-          </addrLine>
+          <addrLine>32756<geogName codedval="7004442" auth.uri="http://vocab.getty.edu/page/tgn/" auth="TGN">Detmold</geogName></addrLine>
+          <addrLine><geogName codedval="7000084" auth.uri="http://vocab.getty.edu/page/tgn/" auth="TGN">Germany</geogName></addrLine>
         </address>
         <date>2011</date>
         <availability>
-          <useRestrict>This encoding is in the public domain. However, the sources used to create it
-            may be under copyright. We believe their use by the MEI project for educational and
-            research purposes is covered by the Fair Use doctrine. However, we will remove any
-            material from the project archive when requested to do so by the copyright
-            owner.</useRestrict>
+          <useRestrict>This encoding is in the public domain. However, the sources used to create it may be under copyright. We believe their use by the MEI project for educational and research purposes is covered by the Fair Use doctrine. However, we will remove any material from the project archive when requested to do so by the copyright owner.</useRestrict>
         </availability>
       </pubStmt>
       <seriesStmt>
         <title>MEI Sample Collection</title>
         <funder>
-          <corpName role="funder" codedval="2007744-0" auth.uri="http://d-nb.info/gnd/" auth="GND">German Research Foundation<address><addrLine>Kennedyallee 40</addrLine><addrLine><geogName codedval="7005090" auth.uri="http://vocab.getty.edu/page/tgn/" auth="TGN">Bonn</geogName></addrLine><addrLine><geogName codedval="7000084" auth.uri="http://vocab.getty.edu/page/tgn/" auth="TGN">Germany</geogName></addrLine></address> </corpName>
+          <corpName role="funder" codedval="2007744-0" auth.uri="http://d-nb.info/gnd/" auth="GND">German Research Foundation
+            <address>
+              <addrLine>Kennedyallee 40</addrLine>
+              <addrLine><geogName codedval="7005090" auth.uri="http://vocab.getty.edu/page/tgn/" auth="TGN">Bonn</geogName></addrLine>
+              <addrLine><geogName codedval="7000084" auth.uri="http://vocab.getty.edu/page/tgn/" auth="TGN">Germany</geogName></addrLine>
+            </address> </corpName>
         </funder>
         <funder>
-          <corpName role="funder" codedval="18183-3" auth.uri="http://d-nb.info/gnd/18183-3" auth="Deutsche Nationalbibliothek">National Endowment for the Humanities<address><addrLine>1100 Pennsylvania Avenue N.W.</addrLine><addrLine><geogName codedval="7013962" auth.uri="http://vocab.getty.edu/page/tgn/" auth="TGN">Washington,
-            DC</geogName> 20004</addrLine><addrLine><geogName codedval="7012149" auth.uri="http://vocab.getty.edu/page/tgn/" auth="TGN">United States</geogName></addrLine></address> </corpName>
+          <corpName role="funder" codedval="18183-3" auth.uri="http://d-nb.info/gnd/18183-3" auth="Deutsche Nationalbibliothek">National Endowment for the Humanities
+            <address>
+              <addrLine>1100 Pennsylvania Avenue N.W.</addrLine>
+              <addrLine><geogName codedval="7013962" auth.uri="http://vocab.getty.edu/page/tgn/" auth="TGN">Washington, DC</geogName>20004</addrLine>
+              <addrLine><geogName codedval="7012149" auth.uri="http://vocab.getty.edu/page/tgn/" auth="TGN">United States</geogName></addrLine>
+            </address> </corpName>
         </funder>
         <respStmt>
           <corpName role="publisher">MEI Project</corpName>
@@ -79,13 +81,14 @@
           <name>mei30To40.xsl</name>
           <ptr target="https://github.com/music-encoding/encoding-tools/blob/main/mei30To40/mei30To40.xsl"/>
         </application>
+        <application version="0.0.1-alpha" xml:id="lint-mei-files_0.0.1-alpha">
+          <name>mei-files.xsl</name>
+          <ptr target="https://github.com/music-encoding/encoding-tools/blob/main/linting/mei-files.xsl"/>
+        </application>
       </appInfo>
       <samplingDecl>
-        <p>File starts in measure 5 and ends in measure 9. The encoding contains figured bass
-          encoded with the //dir element. This is the result after conversion from a MusicXML
-          file.</p>
-        <p>The figured bass was automatically encoded with the dir-element, instead of the
-          harm-element.</p>
+        <p>File starts in measure 5 and ends in measure 9. The encoding contains figured bass encoded with the //dir element. This is the result after conversion from a MusicXML file.</p>
+        <p>The figured bass was automatically encoded with the dir-element, instead of the harm-element.</p>
       </samplingDecl>
       <classDecls>
         <taxonomy>
@@ -110,8 +113,7 @@
     </encodingDesc>
     <workList>
       <work>
-        <title>Concerto grosso in B minor <titlePart type="subordinate">op. 6 HWV 330, no.
-          12</titlePart> </title>
+        <title>Concerto grosso in B minor<titlePart type="subordinate">op. 6 HWV 330, no. 12</titlePart></title>
         <title type="uniform">Concerti grossi HWV 319-330 &lt;Konzert HWV 330, 1. Satz</title>
         <composer>
           <persName role="composer" codedval="118544489" auth.uri="http://d-nb.info/gnd/" auth="GND">Georg Friedrich Händel</persName>
@@ -154,33 +156,31 @@
           <name>Unknown</name>
         </respStmt>
         <changeDesc>
-          <p>The original MusicXML file was generated using Finale 2009 for Macintosh and Dolet
-            Light for Finale 2009.</p>
+          <p>The original MusicXML file was generated using Finale 2009 for Macintosh and Dolet Light for Finale 2009.</p>
         </changeDesc>
         <date isodate="2011-10-11"/>
       </change>
       <change n="2">
         <respStmt>
-          <persName xml:id="MH"> Maja Hartwig </persName>
+          <persName xml:id="MH">Maja Hartwig</persName>
         </respStmt>
         <changeDesc>
-          <p>Transcoded from a MusicXML version 2.0 file on 2011-10-11 using the <ref target="#xsl_mxl2mei_2.2.3">musicxml2mei</ref> stylesheet. </p>
+          <p>Transcoded from a MusicXML version 2.0 file on 2011-10-11 using the<ref target="#xsl_mxl2mei_2.2.3">musicxml2mei</ref>stylesheet.</p>
         </changeDesc>
         <date isodate="2011-10-11"/>
       </change>
       <change n="3">
         <respStmt>
-          <persName xml:id="KR"> Kristina Richts </persName>
+          <persName xml:id="KR">Kristina Richts</persName>
         </respStmt>
         <changeDesc>
-          <p> Cleaned up MEI file automatically using <ref target="#xsl_ppq">ppq.xsl</ref>. </p>
+          <p>Cleaned up MEI file automatically using<ref target="#xsl_ppq">ppq.xsl</ref>.</p>
         </changeDesc>
         <date isodate="2011-10-22"/>
       </change>
       <change n="4" resp="#KR">
         <changeDesc>
-          <p> Cleaned up MEI file automatically using <ref target="#xsl_header">Header.xsl</ref>.
-          </p>
+          <p>Cleaned up MEI file automatically using<ref target="#xsl_header">Header.xsl</ref>.</p>
         </changeDesc>
         <date isodate="2011-12-01"/>
       </change>
@@ -208,6 +208,21 @@
         </changeDesc>
         <date isodate="2019-01-03"/>
       </change>
+      <change n="9">
+        <respStmt>
+          <persName>Benjamin W. Bohl</persName>
+          <persName>Stefan Münnich</persName>
+        </respStmt>
+        <changeDesc>
+          <p><list>
+              <li>update xml-model schema references to v4.0.1</li>
+              <li>update meiversion attributes to 4.0.1</li>
+              <li>add missing responsibility statements to change elements</li>
+              <li>unify documentation of mei version upgrades (appInfo and revisionDesc)</li>
+            </list></p>
+        </changeDesc>
+        <date isodate="2023-07-27T17:08:45+02:00"/>
+      </change>
     </revisionDesc>
   </meiHead>
   <music>
@@ -216,20 +231,14 @@
         <score>
           <scoreDef key.sig="2s" key.mode="minor" meter.count="4" meter.unit="4">
             <pgHead>
-              <title>
-                <rend fontstyle="italic" fontsize="14pt" halign="center" valign="top">Concerto
-                  grosso No. 12 in B minor</rend>
-                <lb/>
-                <rend fontstyle="normal" fontsize="14pt"><lb/>from </rend>
-                <lb/>
-                <rend fontstyle="italic" fontsize="14pt">Twelve Grand Concertos, Op. 6 </rend>
-                <lb/>
-                <rend fontstyle="normal" fontsize="14pt">(1739), </rend>
-                <lb/>
-                <rend fontstyle="italic" fontsize="14pt">first movement</rend>
-                <lb/>
-                <rend fontstyle="normal" fontsize="14pt"><lb/>George Frideric Handel</rend>
-              </title>
+              <title><rend fontstyle="italic" fontsize="14pt" halign="center" valign="top">Concerto grosso No. 12 in B minor</rend>
+                <lb/><rend fontstyle="normal" fontsize="14pt">
+                  <lb/>from</rend>
+                <lb/><rend fontstyle="italic" fontsize="14pt">Twelve Grand Concertos, Op. 6</rend>
+                <lb/><rend fontstyle="normal" fontsize="14pt">(1739),</rend>
+                <lb/><rend fontstyle="italic" fontsize="14pt">first movement</rend>
+                <lb/><rend fontstyle="normal" fontsize="14pt">
+                  <lb/>George Frideric Handel</rend></title>
             </pgHead>
             <staffGrp>
               <staffGrp symbol="bracket">
@@ -347,21 +356,11 @@
               <slur tstamp="1" curvedir="below" startid="#d1e596" endid="#d1e614" bezier="11 -8 -12 -7" staff="4" tstamp2="0m+1.5"/>
               <tie tstamp="1.5" staff="4" curvedir="below" startid="#d1e614" endid="#d1e634"/>
               <slur tstamp="1" curvedir="above" startid="#d1e752" endid="#d1e774" bezier="14 5 -10 10" staff="5" tstamp2="0m+1.5"/>
-              <dir tstamp="1" place="below" staff="7">
-                <rend fontfam="Times New Roman">6 5</rend>
-              </dir>
-              <dir tstamp="2" place="below" staff="7">
-                <rend fontfam="Times New Roman">6 5</rend>
-              </dir>
-              <dir tstamp="2.5" place="below" staff="7">
-                <rend fontfam="Times New Roman">6 </rend>
-              </dir>
-              <dir tstamp="3" place="below" staff="7">
-                <rend fontfam="Times New Roman">6 </rend>
-              </dir>
-              <dir tstamp="4.5" place="below" staff="7">
-                <rend fontfam="Times New Roman">6 4</rend>
-              </dir>
+              <dir tstamp="1" place="below" staff="7"><rend fontfam="Times New Roman">6 5</rend></dir>
+              <dir tstamp="2" place="below" staff="7"><rend fontfam="Times New Roman">6 5</rend></dir>
+              <dir tstamp="2.5" place="below" staff="7"><rend fontfam="Times New Roman">6</rend></dir>
+              <dir tstamp="3" place="below" staff="7"><rend fontfam="Times New Roman">6</rend></dir>
+              <dir tstamp="4.5" place="below" staff="7"><rend fontfam="Times New Roman">6 4</rend></dir>
             </measure>
             <measure n="6" xml:id="d1e1141">
               <staff n="1">
@@ -454,12 +453,8 @@
                   <rest xml:id="d1e1891" dur="4"/>
                 </layer>
               </staff>
-              <dir tstamp="1" place="below" staff="7">
-                <rend fontfam="Times New Roman">6 </rend>
-              </dir>
-              <dir tstamp="2" place="below" staff="7">
-                <rend fontfam="Times New Roman">5 4</rend>
-              </dir>
+              <dir tstamp="1" place="below" staff="7"><rend fontfam="Times New Roman">6</rend></dir>
+              <dir tstamp="2" place="below" staff="7"><rend fontfam="Times New Roman">5 4</rend></dir>
             </measure>
             <measure n="7" xml:id="d1e1899">
               <staff n="1">
@@ -687,9 +682,7 @@
               <dynam tstamp="4.5" place="below" startto="28" staff="5">f</dynam>
               <dynam tstamp="4.25" place="below" startto="26" staff="6">f</dynam>
               <dynam tstamp="1" place="below" staff="7">f</dynam>
-              <dir tstamp="4.5" place="below" staff="7">
-                <rend fontfam="Times New Roman">6 5</rend>
-              </dir>
+              <dir tstamp="4.5" place="below" staff="7"><rend fontfam="Times New Roman">6 5</rend></dir>
             </measure>
             <measure n="9" xml:id="d1e3458">
               <staff n="1">
@@ -867,25 +860,13 @@
               <dynam tstamp="2.25" place="below" startto="10" staff="3">p</dynam>
               <dynam tstamp="4.25" place="below" startto="26" staff="3">f</dynam>
               <dynam tstamp="4.25" place="below" startto="26" staff="6">f</dynam>
-              <dir tstamp="1" place="below" staff="7">
-                <rend fontfam="Times New Roman">9 4</rend>
-              </dir>
+              <dir tstamp="1" place="below" staff="7"><rend fontfam="Times New Roman">9 4</rend></dir>
               <dynam tstamp="2.25" place="below" startto="10" staff="7">p</dynam>
-              <dir tstamp="1.5" place="below" staff="7">
-                <rend fontfam="Times New Roman">8 3</rend>
-              </dir>
-              <dir tstamp="2.5" place="below" staff="7">
-                <rend fontfam="Times New Roman">6 5</rend>
-              </dir>
-              <dir tstamp="3" place="below" staff="7">
-                <rend fontfam="Times New Roman">9 4</rend>
-              </dir>
-              <dir tstamp="3.5" place="below" staff="7">
-                <rend fontfam="Times New Roman">8 3</rend>
-              </dir>
-              <dir tstamp="4.5" place="below" staff="7">
-                <rend fontfam="Times New Roman">6 5</rend>
-              </dir>
+              <dir tstamp="1.5" place="below" staff="7"><rend fontfam="Times New Roman">8 3</rend></dir>
+              <dir tstamp="2.5" place="below" staff="7"><rend fontfam="Times New Roman">6 5</rend></dir>
+              <dir tstamp="3" place="below" staff="7"><rend fontfam="Times New Roman">9 4</rend></dir>
+              <dir tstamp="3.5" place="below" staff="7"><rend fontfam="Times New Roman">8 3</rend></dir>
+              <dir tstamp="4.5" place="below" staff="7"><rend fontfam="Times New Roman">6 5</rend></dir>
             </measure>
           </section>
         </score>

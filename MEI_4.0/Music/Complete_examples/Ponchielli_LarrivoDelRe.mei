@@ -1,11 +1,11 @@
-<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<?xml version="1.0" encoding="UTF-8"?>
 <?xml-model href="http://music-encoding.org/schema/4.0.1/mei-all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
 <?xml-model href="http://music-encoding.org/schema/4.0.1/mei-all.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
-<mei xmlns:xlink="http://www.w3.org/1999/xlink" xmlns="http://www.music-encoding.org/ns/mei" meiversion="4.0.1">
+<mei xmlns="http://www.music-encoding.org/ns/mei" meiversion="4.0.1">
   <meiHead>
     <fileDesc>
       <titleStmt>
-        <title>L'arrivo del Re <titlePart type="subordinate">Marcia, Op. 164</titlePart> <titlePart type="subordinate">an electronic transcription</titlePart> </title>
+        <title>L'arrivo del Re<titlePart type="subordinate">Marcia, Op. 164</titlePart> <titlePart type="subordinate">an electronic transcription</titlePart></title>
         <composer>
           <persName role="creator" codedval="119060507" auth.uri="http://d-nb.info/gnd/" auth="GND">Amilcare Ponchielli</persName>
         </composer>
@@ -20,28 +20,31 @@
         </publisher>
         <address>
           <addrLine>Gartenstrasse 20</addrLine>
-          <addrLine>32756 <geogName codedval="7004442" auth.uri="http://vocab.getty.edu/page/tgn/" auth="TGN">Detmold</geogName> </addrLine>
-          <addrLine>
-            <geogName codedval="7000084" auth.uri="http://vocab.getty.edu/page/tgn/" auth="TGN">Germany</geogName>
-          </addrLine>
+          <addrLine>32756<geogName codedval="7004442" auth.uri="http://vocab.getty.edu/page/tgn/" auth="TGN">Detmold</geogName></addrLine>
+          <addrLine><geogName codedval="7000084" auth.uri="http://vocab.getty.edu/page/tgn/" auth="TGN">Germany</geogName></addrLine>
         </address>
         <date>2011</date>
         <availability>
-          <useRestrict>This encoding is in the public domain. However, the sources used to create it
-            may be under copyright. We believe their use by the MEI project for educational and
-            research purposes is covered by the Fair Use doctrine. However, we will remove any
-            material from the project archive when requested to do so by the copyright
-            owner.</useRestrict>
+          <useRestrict>This encoding is in the public domain. However, the sources used to create it may be under copyright. We believe their use by the MEI project for educational and research purposes is covered by the Fair Use doctrine. However, we will remove any material from the project archive when requested to do so by the copyright owner.</useRestrict>
         </availability>
       </pubStmt>
       <seriesStmt>
         <title>MEI Sample Collection</title>
         <funder>
-          <corpName role="funder" codedval="2007744-0" auth.uri="http://d-nb.info/gnd/" auth="GND">German Research Foundation<address><addrLine>Kennedyallee 40</addrLine><addrLine><geogName codedval="7005090" auth.uri="http://vocab.getty.edu/page/tgn/" auth="TGN">Bonn</geogName></addrLine><addrLine><geogName codedval="7000084" auth.uri="http://vocab.getty.edu/page/tgn/" auth="TGN">Germany</geogName></addrLine></address> </corpName>
+          <corpName role="funder" codedval="2007744-0" auth.uri="http://d-nb.info/gnd/" auth="GND">German Research Foundation
+            <address>
+              <addrLine>Kennedyallee 40</addrLine>
+              <addrLine><geogName codedval="7005090" auth.uri="http://vocab.getty.edu/page/tgn/" auth="TGN">Bonn</geogName></addrLine>
+              <addrLine><geogName codedval="7000084" auth.uri="http://vocab.getty.edu/page/tgn/" auth="TGN">Germany</geogName></addrLine>
+            </address> </corpName>
         </funder>
         <funder>
-          <corpName role="funder" codedval="18183-3" auth.uri="http://d-nb.info/gnd/18183-3" auth="Deutsche Nationalbibliothek">National Endowment for the Humanities<address><addrLine>1100 Pennsylvania Avenue N.W.</addrLine><addrLine><geogName codedval="7013962" auth.uri="http://vocab.getty.edu/page/tgn/" auth="TGN">Washington,
-            DC</geogName> 20004</addrLine><addrLine><geogName codedval="7012149" auth.uri="http://vocab.getty.edu/page/tgn/" auth="TGN">United States</geogName></addrLine></address> </corpName>
+          <corpName role="funder" codedval="18183-3" auth.uri="http://d-nb.info/gnd/18183-3" auth="Deutsche Nationalbibliothek">National Endowment for the Humanities
+            <address>
+              <addrLine>1100 Pennsylvania Avenue N.W.</addrLine>
+              <addrLine><geogName codedval="7013962" auth.uri="http://vocab.getty.edu/page/tgn/" auth="TGN">Washington, DC</geogName>20004</addrLine>
+              <addrLine><geogName codedval="7012149" auth.uri="http://vocab.getty.edu/page/tgn/" auth="TGN">United States</geogName></addrLine>
+            </address> </corpName>
         </funder>
         <respStmt>
           <corpName role="publisher">MEI Project</corpName>
@@ -71,8 +74,7 @@
             <imprint>
               <date isodate="2011-10-13"/>
               <respStmt>
-                <corpName role="publisher" codedval="10017434-6" auth="GND" auth.uri="http://d-nb.info/gnd/">Sam Houston State University (Huntsville,
-                  Tex.)</corpName>
+                <corpName role="publisher" codedval="10017434-6" auth="GND" auth.uri="http://d-nb.info/gnd/">Sam Houston State University (Huntsville, Tex.)</corpName>
               </respStmt>
               <address>
                 <addrLine>Huntsville, Texas 77341</addrLine>
@@ -99,6 +101,10 @@
         <application version="v1.0_beta" xml:id="mei30To40">
           <name>mei30To40.xsl</name>
           <ptr target="https://github.com/music-encoding/encoding-tools/blob/main/mei30To40/mei30To40.xsl"/>
+        </application>
+        <application version="0.0.1-alpha" xml:id="lint-mei-files_0.0.1-alpha">
+          <name>mei-files.xsl</name>
+          <ptr target="https://github.com/music-encoding/encoding-tools/blob/main/linting/mei-files.xsl"/>
         </application>
       </appInfo>
       <samplingDecl>
@@ -131,7 +137,7 @@
     </encodingDesc>
     <workList>
       <work>
-        <title>L'arrivo del Re <titlePart type="subordinate">Marcia, Op. 164</titlePart> </title>
+        <title>L'arrivo del Re<titlePart type="subordinate">Marcia, Op. 164</titlePart></title>
         <composer>
           <persName role="composer" codedval="119060507" auth.uri="http://d-nb.info/gnd/" auth="GND">Amilcare Ponchielli</persName>
         </composer>
@@ -428,26 +434,25 @@
           <name>Unknown</name>
         </respStmt>
         <changeDesc>
-          <p>The original MusicXML file was generated using Finale 2010 for Windows, Dolet 5.4 for
-            Finale.</p>
+          <p>The original MusicXML file was generated using Finale 2010 for Windows, Dolet 5.4 for Finale.</p>
         </changeDesc>
         <date isodate="2010-07-26"/>
       </change>
       <change n="2">
         <respStmt>
-          <persName xml:id="MH"> Maja Hartwig </persName>
+          <persName xml:id="MH">Maja Hartwig</persName>
         </respStmt>
         <changeDesc>
-          <p>Transcoded from a MusicXML version 2.0 file on 2011-05-12 using the <ref target="#xsl_mxl2mei_2.2.3">musicxml2mei</ref> stylesheet. </p>
+          <p>Transcoded from a MusicXML version 2.0 file on 2011-05-12 using the<ref target="#xsl_mxl2mei_2.2.3">musicxml2mei</ref>stylesheet.</p>
         </changeDesc>
         <date isodate="2011-05-12"/>
       </change>
       <change n="3">
         <respStmt>
-          <persName xml:id="KR"> Kristina Richts </persName>
+          <persName xml:id="KR">Kristina Richts</persName>
         </respStmt>
         <changeDesc>
-          <p> Cleaned up MEI file automatically using. </p>
+          <p>Cleaned up MEI file automatically using.</p>
         </changeDesc>
         <date isodate="2011-10-22"/>
       </change>
@@ -459,8 +464,7 @@
       </change>
       <change n="5" resp="#KR">
         <changeDesc>
-          <p> Cleaned up MEI file automatically using <ref target="#xsl_header">Header.xsl</ref>.
-          </p>
+          <p>Cleaned up MEI file automatically using<ref target="#xsl_header">Header.xsl</ref>.</p>
         </changeDesc>
         <date isodate="2011-12-01"/>
       </change>
@@ -488,6 +492,21 @@
         </changeDesc>
         <date isodate="2019-01-03"/>
       </change>
+      <change n="10">
+        <respStmt>
+          <persName>Benjamin W. Bohl</persName>
+          <persName>Stefan Münnich</persName>
+        </respStmt>
+        <changeDesc>
+          <p><list>
+              <li>update xml-model schema references to v4.0.1</li>
+              <li>update meiversion attributes to 4.0.1</li>
+              <li>add missing responsibility statements to change elements</li>
+              <li>unify documentation of mei version upgrades (appInfo and revisionDesc)</li>
+            </list></p>
+        </changeDesc>
+        <date isodate="2023-07-27T17:08:09+02:00"/>
+      </change>
     </revisionDesc>
   </meiHead>
   <music>
@@ -496,11 +515,10 @@
         <score>
           <scoreDef meter.count="6" meter.unit="8">
             <pgHead>
-              <title><rend halign="center" valign="top">L'arrivo del Re<lb/> </rend><lb/> Marcia,
-                Op. 164, PP.144.2</title>
-              <rend halign="right" valign="top"><persName>Amilcare Ponchielli</persName><lb/>ed.
-                Howey</rend>
-            </pgHead>
+              <title><rend halign="center" valign="top">L'arrivo del Re
+                  <lb/> </rend>
+                <lb/>Marcia, Op. 164, PP.144.2</title><rend halign="right" valign="top"><persName>Amilcare Ponchielli</persName>
+                <lb/>ed. Howey</rend></pgHead>
             <staffGrp symbol="bracket">
               <staffDef n="1" xml:id="P1" lines="5" clef.line="2" clef.shape="G" key.sig="0" key.mode="major" trans.semi="8" trans.diat="5">
                 <label>Clarino Lab</label>
@@ -3978,7 +3996,7 @@
             </measure>
           </section>
           <ending n="1">
-            <!--<ending n="1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1">-->
+            <!-- <ending n="1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1"> -->
             <measure n="12" xml:id="d1e23756" right="rptend" width="216">
               <staff n="1">
                 <layer n="1">
@@ -4234,8 +4252,7 @@
                 <layer n="2">
                   <note xml:id="d1e25591" pname="d" oct="4" dur="4" stem.dir="down" instr="#P18-X1" pnum="37"/>
                   <rest xml:id="d1e25606" dur="8"/>
-                  <!--vo=""
--->
+                  <!-- vo="" -->
                   <note xml:id="d1e25619" pname="d" oct="4" dur="4" stem.dir="down" instr="#P18-X1" pnum="37"/>
                   <rest xml:id="d1e25634" dur="8"/>
                 </layer>
@@ -5677,79 +5694,43 @@
                   <rest xml:id="d1e35062" dur="8"/>
                 </layer>
               </staff>
-              <dir tstamp="1" place="below" staff="1" ho="-1.2">
-                <rend fontfam="Palatino Linotype" fontstyle="italic">cresc.</rend>
-              </dir>
+              <dir tstamp="1" place="below" staff="1" ho="-1.2"><rend fontfam="Palatino Linotype" fontstyle="italic">cresc.</rend></dir>
               <slur tstamp="1" curvedir="below" startid="#d1e33376" endid="#d1e33395" staff="1" tstamp2="0m+1"/>
               <slur tstamp="4" curvedir="above" startid="#d1e33449" endid="#d1e33471" staff="1" tstamp2="0m+6"/>
-              <dir tstamp="1" place="below" staff="2" ho="-1.2">
-                <rend fontfam="Palatino Linotype" fontstyle="italic">cresc.</rend>
-              </dir>
+              <dir tstamp="1" place="below" staff="2" ho="-1.2"><rend fontfam="Palatino Linotype" fontstyle="italic">cresc.</rend></dir>
               <slur tstamp="1" curvedir="below" startid="#d1e33488" endid="#d1e33507" staff="2" tstamp2="0m+1"/>
               <slur tstamp="4" curvedir="above" startid="#d1e33559" endid="#d1e33581" staff="2" tstamp2="0m+6"/>
-              <dir tstamp="1" place="below" staff="3" ho="-1.2">
-                <rend fontfam="Palatino Linotype" fontstyle="italic">cresc.</rend>
-              </dir>
+              <dir tstamp="1" place="below" staff="3" ho="-1.2"><rend fontfam="Palatino Linotype" fontstyle="italic">cresc.</rend></dir>
               <slur tstamp="1" curvedir="below" startid="#d1e33598" endid="#d1e33617" staff="3" tstamp2="0m+1"/>
               <slur tstamp="4" curvedir="above" startid="#d1e33669" endid="#d1e33691" staff="3" tstamp2="0m+6"/>
-              <dir tstamp="1" place="below" staff="4" ho="-1.2">
-                <rend fontfam="Palatino Linotype" fontstyle="italic">cresc.</rend>
-              </dir>
+              <dir tstamp="1" place="below" staff="4" ho="-1.2"><rend fontfam="Palatino Linotype" fontstyle="italic">cresc.</rend></dir>
               <slur tstamp="1" curvedir="below" startid="#d1e33708" endid="#d1e33727" staff="4" tstamp2="0m+1"/>
               <slur tstamp="4" curvedir="above" startid="#d1e33779" endid="#d1e33801" staff="4" tstamp2="0m+6"/>
-              <dir tstamp="1" place="below" staff="5" ho="-1.2">
-                <rend fontfam="Palatino Linotype" fontstyle="italic">cresc.</rend>
-              </dir>
+              <dir tstamp="1" place="below" staff="5" ho="-1.2"><rend fontfam="Palatino Linotype" fontstyle="italic">cresc.</rend></dir>
               <slur tstamp="1" curvedir="below" startid="#d1e33818" endid="#d1e33837" staff="5" tstamp2="0m+1"/>
               <slur tstamp="4" curvedir="above" startid="#d1e33889" endid="#d1e33911" staff="5" tstamp2="0m+6"/>
-              <dir tstamp="1" place="below" staff="6" ho="-1.2">
-                <rend fontfam="Palatino Linotype" fontstyle="italic">cresc.</rend>
-              </dir>
+              <dir tstamp="1" place="below" staff="6" ho="-1.2"><rend fontfam="Palatino Linotype" fontstyle="italic">cresc.</rend></dir>
               <slur tstamp="1" curvedir="below" startid="#d1e33928" endid="#d1e33947" staff="6" tstamp2="0m+1"/>
               <slur tstamp="4" curvedir="above" startid="#d1e33999" endid="#d1e34021" staff="6" tstamp2="0m+6"/>
-              <dir tstamp="1" place="below" staff="7" ho="-1.2">
-                <rend fontfam="Palatino Linotype" fontstyle="italic">cresc.</rend>
-              </dir>
+              <dir tstamp="1" place="below" staff="7" ho="-1.2"><rend fontfam="Palatino Linotype" fontstyle="italic">cresc.</rend></dir>
               <slur tstamp="1" curvedir="below" startid="#d1e34038" endid="#d1e34057" staff="7" tstamp2="0m+1"/>
               <slur tstamp="4" curvedir="above" startid="#d1e34109" endid="#d1e34131" staff="7" tstamp2="0m+6"/>
-              <dir tstamp="1" place="below" staff="8" ho="-1.2">
-                <rend fontfam="Palatino Linotype" fontstyle="italic">cresc.</rend>
-              </dir>
+              <dir tstamp="1" place="below" staff="8" ho="-1.2"><rend fontfam="Palatino Linotype" fontstyle="italic">cresc.</rend></dir>
               <tie tstamp="1" staff="8" curvedir="below" startid="#d1e34152" endid="#d1e35834"/>
               <tie tstamp="7" staff="8" curvedir="below" startid="#d1e34172" endid="#d1e35852"/>
-              <dir tstamp="1" place="below" staff="9" ho="-1.2">
-                <rend fontfam="Palatino Linotype" fontstyle="italic">cresc.</rend>
-              </dir>
+              <dir tstamp="1" place="below" staff="9" ho="-1.2"><rend fontfam="Palatino Linotype" fontstyle="italic">cresc.</rend></dir>
               <slur tstamp="1" curvedir="below" startid="#d1e34210" endid="#d1e34229" staff="9" tstamp2="0m+1"/>
               <slur tstamp="4" curvedir="above" startid="#d1e34281" endid="#d1e34303" staff="9" tstamp2="0m+6"/>
-              <dir tstamp="1" place="below" staff="10" ho="-1.2">
-                <rend fontfam="Palatino Linotype" fontstyle="italic">cresc.</rend>
-              </dir>
-              <dir tstamp="1" place="below" staff="11" ho="-1.2">
-                <rend fontfam="Palatino Linotype" fontstyle="italic">cresc.</rend>
-              </dir>
-              <dir tstamp="1" place="below" staff="12" ho="-1.2">
-                <rend fontfam="Palatino Linotype" fontstyle="italic">cresc.</rend>
-              </dir>
-              <dir tstamp="1" place="below" staff="13" ho="-1.2">
-                <rend fontfam="Palatino Linotype" fontstyle="italic">cresc.</rend>
-              </dir>
+              <dir tstamp="1" place="below" staff="10" ho="-1.2"><rend fontfam="Palatino Linotype" fontstyle="italic">cresc.</rend></dir>
+              <dir tstamp="1" place="below" staff="11" ho="-1.2"><rend fontfam="Palatino Linotype" fontstyle="italic">cresc.</rend></dir>
+              <dir tstamp="1" place="below" staff="12" ho="-1.2"><rend fontfam="Palatino Linotype" fontstyle="italic">cresc.</rend></dir>
+              <dir tstamp="1" place="below" staff="13" ho="-1.2"><rend fontfam="Palatino Linotype" fontstyle="italic">cresc.</rend></dir>
               <tie tstamp="4" staff="13" curvedir="above" startid="#d1e34623" endid="#d1e36266"/>
-              <dir tstamp="1" place="below" staff="14" ho="-1.2">
-                <rend fontfam="Palatino Linotype" fontstyle="italic">cresc.</rend>
-              </dir>
-              <dir tstamp="1" place="below" staff="15" ho="-1.2">
-                <rend fontfam="Palatino Linotype" fontstyle="italic">cresc.</rend>
-              </dir>
-              <dir tstamp="1" place="below" staff="16" ho="-1.2">
-                <rend fontfam="Palatino Linotype" fontstyle="italic">cresc.</rend>
-              </dir>
-              <dir tstamp="1" place="below" staff="17" ho="-1.2">
-                <rend fontfam="Palatino Linotype" fontstyle="italic">cresc.</rend>
-              </dir>
-              <dir tstamp="1" place="below" staff="18" ho="-1.2">
-                <rend fontfam="Palatino Linotype" fontstyle="italic">cresc.</rend>
-              </dir>
+              <dir tstamp="1" place="below" staff="14" ho="-1.2"><rend fontfam="Palatino Linotype" fontstyle="italic">cresc.</rend></dir>
+              <dir tstamp="1" place="below" staff="15" ho="-1.2"><rend fontfam="Palatino Linotype" fontstyle="italic">cresc.</rend></dir>
+              <dir tstamp="1" place="below" staff="16" ho="-1.2"><rend fontfam="Palatino Linotype" fontstyle="italic">cresc.</rend></dir>
+              <dir tstamp="1" place="below" staff="17" ho="-1.2"><rend fontfam="Palatino Linotype" fontstyle="italic">cresc.</rend></dir>
+              <dir tstamp="1" place="below" staff="18" ho="-1.2"><rend fontfam="Palatino Linotype" fontstyle="italic">cresc.</rend></dir>
             </measure>
             <measure n="19" xml:id="d1e35074" width="197">
               <staff n="1">
@@ -9002,9 +8983,7 @@
                 </layer>
               </staff>
               <dynam tstamp="1" place="below" staff="1" ho="-0.4">p</dynam>
-              <dir tstamp="1" place="above" staff="1">
-                <rend fontfam="Palatino Linotype" fontsize="12pt">Trio</rend>
-              </dir>
+              <dir tstamp="1" place="above" staff="1"><rend fontfam="Palatino Linotype" fontsize="12pt">Trio</rend></dir>
               <tie tstamp="1" staff="1" curvedir="above" startid="#d1e54643" endid="#d1e55712"/>
               <dynam tstamp="1" place="below" staff="2" ho="-0.9">p</dynam>
               <tie tstamp="1" staff="2" curvedir="above" startid="#d1e54678" endid="#d1e55813"/>
@@ -11471,7 +11450,7 @@
                 <layer n="1">
                   <beam>
                     <note xml:id="d1e69550" pname="a" accid="f" oct="2" dur="8" stem.dir="up"/>
-                    <!--enclose.accid="paren"-->
+                    <!-- enclose.accid="paren" -->
                     <note xml:id="d1e69570" pname="d" oct="3" dur="8" stem.dir="up" accid.ges="f"/>
                     <note xml:id="d1e69588" pname="f" oct="3" dur="8" stem.dir="up"/>
                   </beam>
@@ -12526,12 +12505,8 @@
                   <rest xml:id="d1e76690" dur="8"/>
                 </layer>
               </staff>
-              <dir tstamp="6" place="above" staff="1">
-                <rend fontstyle="italic">Fine</rend>
-              </dir>
-              <dir tstamp="6" place="above" staff="1">
-                <rend fontstyle="italic">da capo alla marcia</rend>
-              </dir>
+              <dir tstamp="6" place="above" staff="1"><rend fontstyle="italic">Fine</rend></dir>
+              <dir tstamp="6" place="above" staff="1"><rend fontstyle="italic">da capo alla marcia</rend></dir>
             </measure>
           </ending>
         </score>

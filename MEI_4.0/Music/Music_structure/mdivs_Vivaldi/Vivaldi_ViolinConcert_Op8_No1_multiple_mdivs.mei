@@ -1,7 +1,7 @@
-<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<?xml version="1.0" encoding="UTF-8"?>
 <?xml-model href="http://music-encoding.org/schema/4.0.1/mei-all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
 <?xml-model href="http://music-encoding.org/schema/4.0.1/mei-all.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
-<mei xmlns:xlink="http://www.w3.org/1999/xlink" xmlns="http://www.music-encoding.org/ns/mei" meiversion="4.0.1">
+<mei xmlns="http://www.music-encoding.org/ns/mei" meiversion="4.0.1">
   <meiHead>
     <fileDesc>
       <titleStmt>
@@ -20,30 +20,31 @@
         </publisher>
         <address>
           <addrLine>Gartenstrasse 20</addrLine>
-          <addrLine>32756 <geogName>Detmold</geogName> </addrLine>
-          <addrLine>
-            <geogName>Germany</geogName>
-          </addrLine>
+          <addrLine>32756<geogName>Detmold</geogName></addrLine>
+          <addrLine><geogName>Germany</geogName></addrLine>
         </address>
         <date>2011</date>
         <availability>
-          <useRestrict>This encoding is in the public domain. However, the sources used to create it
-            may be under copyright. We believe their use by the MEI project for educational and
-            research purposes is covered by the Fair Use doctrine. However, we will remove any
-            material from the project archive when requested to do so by the copyright
-            owner.</useRestrict>
+          <useRestrict>This encoding is in the public domain. However, the sources used to create it may be under copyright. We believe their use by the MEI project for educational and research purposes is covered by the Fair Use doctrine. However, we will remove any material from the project archive when requested to do so by the copyright owner.</useRestrict>
         </availability>
       </pubStmt>
       <seriesStmt>
         <title>MEI Sample Collection</title>
         <funder>
-          <corpName role="funder">German Research Foundation<address><addrLine>Kennedyallee
-            40</addrLine><addrLine><geogName>Bonn</geogName></addrLine><addrLine><geogName>Germany</geogName></addrLine></address> </corpName>
+          <corpName role="funder">German Research Foundation
+            <address>
+              <addrLine>Kennedyallee 40</addrLine>
+              <addrLine><geogName>Bonn</geogName></addrLine>
+              <addrLine><geogName>Germany</geogName></addrLine>
+            </address> </corpName>
         </funder>
         <funder>
-          <corpName role="funder">National Endowment for the Humanities<address><addrLine>1100
-            Pennsylvania Avenue N.W.</addrLine><addrLine><geogName>Washington, DC</geogName>
-            20004</addrLine><addrLine><geogName>United States</geogName></addrLine></address>
+          <corpName role="funder">National Endowment for the Humanities
+            <address>
+              <addrLine>1100 Pennsylvania Avenue N.W.</addrLine>
+              <addrLine><geogName>Washington, DC</geogName> 20004</addrLine>
+              <addrLine><geogName>United States</geogName></addrLine>
+            </address>
           </corpName>
         </funder>
         <respStmt>
@@ -76,9 +77,7 @@
       <appInfo>
         <application xml:id="musicxml2mei" version="2.2.3">
           <name>2mei</name>
-          <p>This document was converted from MusicXML to MEI by the stylesheet
-            musicxml2mei-2.2.3.xsl. After that the file has been enriched with additional meta-data
-            and cleansed from remaining artifacts of the MusicXML conversion.</p>
+          <p>This document was converted from MusicXML to MEI by the stylesheet musicxml2mei-2.2.3.xsl. After that the file has been enriched with additional meta-data and cleansed from remaining artifacts of the MusicXML conversion.</p>
         </application>
         <application version="v1.0_beta" xml:id="mei21To30">
           <name>mei21To30.xsl</name>
@@ -88,10 +87,13 @@
           <name>mei30To40.xsl</name>
           <ptr target="https://github.com/music-encoding/encoding-tools/blob/main/mei30To40/mei30To40.xsl"/>
         </application>
+        <application version="0.0.1-alpha" xml:id="lint-mei-files_0.0.1-alpha">
+          <name>mei-files.xsl</name>
+          <ptr target="https://github.com/music-encoding/encoding-tools/blob/main/linting/mei-files.xsl"/>
+        </application>
       </appInfo>
       <editorialDecl>
-        <p>This encoding of Vivaldi's string quartet is an example of encoding multiple
-          mdiv-elements within the music-element. In each movement are several measures encoded.</p>
+        <p>This encoding of Vivaldi's string quartet is an example of encoding multiple mdiv-elements within the music-element. In each movement are several measures encoded.</p>
       </editorialDecl>
     </encodingDesc>
     <workList>
@@ -146,8 +148,7 @@
         <tempo>Allegro</tempo>
         <meter count="12" unit="8"/>
         <incip>
-          <incipCode form="parsons" label="Violino_Principale"> *udruruddudrurudduurddrd
-          </incipCode>
+          <incipCode form="parsons" label="Violino_Principale">*udruruddudrurudduurddrd</incipCode>
         </incip>
         <perfMedium>
           <perfResList>
@@ -163,26 +164,25 @@
     <revisionDesc>
       <change n="1">
         <respStmt>
-          <persName xml:id="MH"> Maja Hartwig </persName>
+          <persName xml:id="MH">Maja Hartwig</persName>
         </respStmt>
         <changeDesc>
-          <p>Transcoded from a MusicXML version 1.0 file on 2011-05-12 using the <ref target="#xsl_mxl2mei_2.2.3">musicxml2mei</ref> stylesheet. </p>
+          <p>Transcoded from a MusicXML version 1.0 file on 2011-05-12 using the<ref target="#xsl_mxl2mei_2.2.3">musicxml2mei</ref>stylesheet.</p>
         </changeDesc>
         <date isodate="2011-05-12"/>
       </change>
       <change n="2">
         <respStmt>
-          <persName xml:id="KR"> Kristina Richts </persName>
+          <persName xml:id="KR">Kristina Richts</persName>
         </respStmt>
         <changeDesc>
-          <p> Cleaned up MEI file automatically using <ref target="#xsl_ppq">ppq.xsl</ref>. </p>
+          <p>Cleaned up MEI file automatically using<ref target="#xsl_ppq">ppq.xsl</ref>.</p>
         </changeDesc>
         <date isodate="2011-10-21"/>
       </change>
       <change n="3" resp="#KR">
         <changeDesc>
-          <p> Cleaned up MEI file automatically using <ref target="#xsl_header">Header.xsl</ref>.
-          </p>
+          <p>Cleaned up MEI file automatically using<ref target="#xsl_header">Header.xsl</ref>.</p>
         </changeDesc>
         <date isodate="2011-12-06"/>
       </change>
@@ -216,6 +216,21 @@
           <p>Converted to MEI version 4.0.0 using mei30To40.xsl, version 1.0 beta</p>
         </changeDesc>
         <date isodate="2019-01-03"/>
+      </change>
+      <change n="8">
+        <respStmt>
+          <persName>Benjamin W. Bohl</persName>
+          <persName>Stefan Münnich</persName>
+        </respStmt>
+        <changeDesc>
+          <p><list>
+              <li>update xml-model schema references to v4.0.1</li>
+              <li>update meiversion attributes to 4.0.1</li>
+              <li>add missing responsibility statements to change elements</li>
+              <li>unify documentation of mei version upgrades (appInfo and revisionDesc)</li>
+            </list></p>
+        </changeDesc>
+        <date isodate="2023-07-27T17:10:55+02:00"/>
       </change>
     </revisionDesc>
   </meiHead>
@@ -1215,7 +1230,7 @@
             <annot>section C contains measures 31 to 43</annot>
           </section>
           <section n="4" label="D">
-            <annot> section D contains measures 44 to 55 </annot>
+            <annot>section D contains measures 44 to 55</annot>
           </section>
           <section n="5" label="E">
             <annot>section E contains measures 56 to 82</annot>
@@ -3726,11 +3741,7 @@
                   <note xml:id="d472647e1392" pname="b" oct="2" dur="2" dots="1" stem.dir="up"/>
                 </layer>
               </staff>
-              <!--<tie tstamp="1"
-                          staff="4"
-                          curvedir="above"
-                          startid="#d472647e1353"
-                          endid="#d472647e1788"/>-->
+              <!-- <tie tstamp="1" staff="4" curvedir="above" startid="#d472647e1353" endid="#d472647e1788"/> -->
             </measure>
             <annot>Measures 4 to 88 are not encoded</annot>
             <measure n="89" xml:id="d472647e38410" right="end">

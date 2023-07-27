@@ -1,12 +1,11 @@
-<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<?xml version="1.0" encoding="UTF-8"?>
 <?xml-model href="http://music-encoding.org/schema/4.0.1/mei-all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
 <?xml-model href="http://music-encoding.org/schema/4.0.1/mei-all.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
-<mei xmlns:xlink="http://www.w3.org/1999/xlink" xmlns="http://www.music-encoding.org/ns/mei" meiversion="4.0.1">
+<mei xmlns="http://www.music-encoding.org/ns/mei" meiversion="4.0.1">
   <meiHead>
     <fileDesc>
       <titleStmt>
-        <title>Vier kleine Klavierstücke, No.1 <titlePart type="subordinate">an electronic
-          transcription</titlePart> </title>
+        <title>Vier kleine Klavierstücke, No.1<titlePart type="subordinate">an electronic transcription</titlePart></title>
         <composer>
           <persName role="creator" auth.uri="http://d-nb.info/gnd/" auth="DNB" codedval="118573527">Franz Liszt</persName>
         </composer>
@@ -17,29 +16,40 @@
       </titleStmt>
       <pubStmt>
         <publisher>
-          <corpName role="publisher" n="1" xml:id="corpName1">University of Virginia Library
-            Charlottesville <address><addrLine>1215 Lee Street</addrLine><addrLine>VA
-            22908<geogName>Charlottesville</geogName> <geogName>USA</geogName> </addrLine></address> </corpName>
+          <corpName role="publisher" n="1" xml:id="corpName1">University of Virginia Library Charlottesville
+            <address>
+              <addrLine>1215 Lee Street</addrLine>
+              <addrLine>VA 22908<geogName>Charlottesville</geogName> <geogName>USA</geogName></addrLine>
+            </address> </corpName>
         </publisher>
         <publisher>
-          <corpName role="publisher" n="2" xml:id="corpName2" codedval="5115204-6" auth.uri="http://d-nb.info/gnd/" auth="GND">Musikwissenschaftliches Seminar <address><addrLine>Gartenstrasse 20</addrLine><addrLine>32756 <geogName codedval="7004442" auth.uri="http://vocab.getty.edu/page/tgn/" auth="TGN">Detmold</geogName> <geogName codedval="7000084" auth.uri="http://vocab.getty.edu/page/tgn/" auth="TGN">Germany</geogName> </addrLine></address> </corpName>
+          <corpName role="publisher" n="2" xml:id="corpName2" codedval="5115204-6" auth.uri="http://d-nb.info/gnd/" auth="GND">Musikwissenschaftliches Seminar
+            <address>
+              <addrLine>Gartenstrasse 20</addrLine>
+              <addrLine>32756<geogName codedval="7004442" auth.uri="http://vocab.getty.edu/page/tgn/" auth="TGN">Detmold</geogName> <geogName codedval="7000084" auth.uri="http://vocab.getty.edu/page/tgn/" auth="TGN">Germany</geogName></addrLine>
+            </address> </corpName>
         </publisher>
         <availability>
-          <useRestrict>This encoding is in the public domain. However, the sources used to create it
-            may be under copyright. We believe their use by the MEI project for educational and
-            research purposes is covered by the Fair Use doctrine. However, we will remove any
-            material from the project archive when requested to do so by the copyright
-            owner.</useRestrict>
+          <useRestrict>This encoding is in the public domain. However, the sources used to create it may be under copyright. We believe their use by the MEI project for educational and research purposes is covered by the Fair Use doctrine. However, we will remove any material from the project archive when requested to do so by the copyright owner.</useRestrict>
         </availability>
       </pubStmt>
       <seriesStmt>
         <title>MEI Sample Collection</title>
         <funder>
-          <corpName role="funder" codedval="2007744-0" auth.uri="http://d-nb.info/gnd/" auth="GND">German Research Foundation<address><addrLine>Kennedyallee 40</addrLine><addrLine><geogName codedval="7005090" auth.uri="http://vocab.getty.edu/page/tgn/" auth="TGN">Bonn</geogName></addrLine><addrLine><geogName codedval="7000084" auth.uri="http://vocab.getty.edu/page/tgn/" auth="TGN">Germany</geogName></addrLine></address> </corpName>
+          <corpName role="funder" codedval="2007744-0" auth.uri="http://d-nb.info/gnd/" auth="GND">German Research Foundation
+            <address>
+              <addrLine>Kennedyallee 40</addrLine>
+              <addrLine><geogName codedval="7005090" auth.uri="http://vocab.getty.edu/page/tgn/" auth="TGN">Bonn</geogName></addrLine>
+              <addrLine><geogName codedval="7000084" auth.uri="http://vocab.getty.edu/page/tgn/" auth="TGN">Germany</geogName></addrLine>
+            </address> </corpName>
         </funder>
         <funder>
-          <corpName role="funder" codedval="18183-3" auth.uri="http://d-nb.info/gnd/18183-3" auth="Deutsche Nationalbibliothek">National Endowment for the Humanities<address><addrLine>1100 Pennsylvania Avenue N.W.</addrLine><addrLine><geogName codedval="7013962" auth.uri="http://vocab.getty.edu/page/tgn/" auth="TGN">Washington,
-            DC</geogName> 20004</addrLine><addrLine><geogName codedval="7012149" auth.uri="http://vocab.getty.edu/page/tgn/" auth="TGN">United States</geogName></addrLine></address> </corpName>
+          <corpName role="funder" codedval="18183-3" auth.uri="http://d-nb.info/gnd/18183-3" auth="Deutsche Nationalbibliothek">National Endowment for the Humanities
+            <address>
+              <addrLine>1100 Pennsylvania Avenue N.W.</addrLine>
+              <addrLine><geogName codedval="7013962" auth.uri="http://vocab.getty.edu/page/tgn/" auth="TGN">Washington, DC</geogName>20004</addrLine>
+              <addrLine><geogName codedval="7012149" auth.uri="http://vocab.getty.edu/page/tgn/" auth="TGN">United States</geogName></addrLine>
+            </address> </corpName>
         </funder>
         <respStmt>
           <corpName role="publisher">MEI Project</corpName>
@@ -61,23 +71,24 @@
         </application>
         <application xml:id="xsl_mxl2mei_2.2.3" version="2.2.3">
           <name>MusicXML2MEI</name>
-          <p> The stylesheet is a converter from MusicXML to MEI.</p>
+          <p>The stylesheet is a converter from MusicXML to MEI.</p>
         </application>
         <application version="v1.0_beta" xml:id="mei30To40">
           <name>mei30To40.xsl</name>
           <ptr target="https://github.com/music-encoding/encoding-tools/blob/main/mei30To40/mei30To40.xsl"/>
         </application>
+        <application version="0.0.1-alpha" xml:id="lint-mei-files_0.0.1-alpha">
+          <name>mei-files.xsl</name>
+          <ptr target="https://github.com/music-encoding/encoding-tools/blob/main/linting/mei-files.xsl"/>
+        </application>
       </appInfo>
       <projectDesc>
-        <p>Transcoded from a MusicXML version 1.1 file on <date>2010-05-25</date> using an XSLT
-          stylesheet (musicxml2mei v. 2.2.3).</p>
-        <p>The MusicXML file was generated using Finale 2006 for Windows and Dolet 3.6 for Finale on
-          <date>2008-11-18</date>.</p>
+        <p>Transcoded from a MusicXML version 1.1 file on<date>2010-05-25</date>using an XSLT stylesheet (musicxml2mei v. 2.2.3).</p>
+        <p>The MusicXML file was generated using Finale 2006 for Windows and Dolet 3.6 for Finale on<date>2008-11-18</date>.</p>
       </projectDesc>
       <samplingDecl>
         <p>This encoding contains the first work of the four pieces.</p>
-        <p>This encoding is not cleansed from any layout information and additional attributes for
-          describing notes with e.g. @stem.y and so on.</p>
+        <p>This encoding is not cleansed from any layout information and additional attributes for describing notes with e.g. @stem.y and so on.</p>
       </samplingDecl>
       <classDecls>
         <taxonomy>
@@ -102,7 +113,7 @@
     </encodingDesc>
     <workList>
       <work n="1">
-        <title>Vier kleine Klavierstücke<num>I</num> </title>
+        <title>Vier kleine Klavierstücke<num>I</num></title>
         <composer>
           <persName role="composer" auth.uri="http://d-nb.info/gnd/" auth="DNB" codedval="118573527">Franz Liszt</persName>
         </composer>
@@ -169,10 +180,10 @@
         <history>
           <eventList>
             <event>
-              <p>Year of composition<date>1865</date> </p>
+              <p>Year of composition<date>1865</date></p>
             </event>
             <event>
-              <p>First publication<date>January 1928</date> </p>
+              <p>First publication<date>January 1928</date></p>
             </event>
           </eventList>
         </history>
@@ -214,8 +225,8 @@
           <plateNum>F.L. 96</plateNum>
         </physDesc>
         <seriesStmt>
-          <title>Franz Liszt: Musikalische Werke <num>Serie II</num> </title>
-          <title>Für Pianofortewerke <num>Bd. 10</num> </title>
+          <title>Franz Liszt: Musikalische Werke<num>Serie II</num></title>
+          <title>Für Pianofortewerke<num>Bd. 10</num></title>
           <title>Tänze und kleinere Klavierstücke für Pianoforte zu 2 Händen</title>
         </seriesStmt>
       </manifestation>
@@ -256,6 +267,21 @@
           <p>Converted to MEI version 4.0.0 using mei30To40.xsl, version 1.0 beta</p>
         </changeDesc>
         <date isodate="2019-01-03"/>
+      </change>
+      <change n="6">
+        <respStmt>
+          <persName>Benjamin W. Bohl</persName>
+          <persName>Stefan Münnich</persName>
+        </respStmt>
+        <changeDesc>
+          <p><list>
+              <li>update xml-model schema references to v4.0.1</li>
+              <li>update meiversion attributes to 4.0.1</li>
+              <li>add missing responsibility statements to change elements</li>
+              <li>unify documentation of mei version upgrades (appInfo and revisionDesc)</li>
+            </list></p>
+        </changeDesc>
+        <date isodate="2023-07-27T17:08:42+02:00"/>
       </change>
     </revisionDesc>
   </meiHead>
@@ -323,9 +349,7 @@
                   </note>
                 </layer>
               </staff>
-              <dir tstamp="1" place="above" staff="1">
-                <rend fontsize="12pt" fontweight="bold">Adagio</rend>
-              </dir>
+              <dir tstamp="1" place="above" staff="1"><rend fontsize="12pt" fontweight="bold">Adagio</rend></dir>
               <dynam tstamp="1.5" place="below" staff="1">pp</dynam>
               <slur tstamp="1.5" curvedir="below" startid="#d1e131" endid="#d1e297" staff="1" tstamp2="0m+3.5"/>
               <slur tstamp="1.5" curvedir="above" startid="#d1e355" endid="#d1e443" staff="2" tstamp2="0m+3.5"/>

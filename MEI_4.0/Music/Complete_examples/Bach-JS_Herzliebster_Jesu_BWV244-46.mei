@@ -1,12 +1,11 @@
-<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<?xml version="1.0" encoding="UTF-8"?>
 <?xml-model href="http://music-encoding.org/schema/4.0.1/mei-all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
 <?xml-model href="http://music-encoding.org/schema/4.0.1/mei-all.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
 <mei xmlns="http://www.music-encoding.org/ns/mei" meiversion="4.0.1">
   <meiHead>
     <fileDesc>
       <titleStmt>
-        <title>Herzliebster Jesu, was hast du verbrochen <titlePart type="subordinate">an electronic
-          transcription</titlePart> </title>
+        <title>Herzliebster Jesu, was hast du verbrochen<titlePart type="subordinate">an electronic transcription</titlePart></title>
         <composer>
           <persName role="creator" auth="GND" auth.uri="http://d-nb.info/gnd/" codedval="11850553X">Johann Sebastian Bach</persName>
         </composer>
@@ -16,29 +15,33 @@
       </titleStmt>
       <pubStmt>
         <publisher>
-          <corpName role="publisher" codedval="5115204-6" auth.uri="http://d-nb.info/gnd/" auth="GND">Musikwissenschaftliches Seminar &lt;<geogName codedval="7004442" auth.uri="http://vocab.getty.edu/page/tgn/" auth="TGN">Detmold</geogName>&gt;</corpName>
+          <corpName role="publisher" codedval="5115204-6" auth.uri="http://d-nb.info/gnd/" auth="GND">Musikwissenschaftliches Seminar &lt;
+            <geogName codedval="7004442" auth.uri="http://vocab.getty.edu/page/tgn/" auth="TGN">Detmold</geogName>&gt;</corpName>
         </publisher>
         <address>
           <addrLine>Gartenstrasse 20</addrLine>
-          <addrLine>32756 <geogName>Detmold</geogName> </addrLine>
+          <addrLine>32756<geogName>Detmold</geogName></addrLine>
         </address>
         <date/>
         <availability>
-          <useRestrict>This encoding is in the public domain. However, the sources used to create it
-            may be under copyright. We believe their use by the MEI project for educational and
-            research purposes is covered by the Fair Use doctrine. However, we will remove any
-            material from the project archive when requested to do so by the copyright
-            owner.</useRestrict>
+          <useRestrict>This encoding is in the public domain. However, the sources used to create it may be under copyright. We believe their use by the MEI project for educational and research purposes is covered by the Fair Use doctrine. However, we will remove any material from the project archive when requested to do so by the copyright owner.</useRestrict>
         </availability>
       </pubStmt>
       <seriesStmt>
         <title>MEI Sample Collection</title>
         <funder>
-          <corpName role="funder" codedval="2007744-0" auth.uri="http://d-nb.info/gnd/2007744-0" auth="Deutsche Nationalbibliothek">German Research Foundation<address><addrLine>Kennedyallee 40</addrLine><addrLine><geogName>Bonn </geogName></addrLine></address> </corpName>
+          <corpName role="funder" codedval="2007744-0" auth.uri="http://d-nb.info/gnd/2007744-0" auth="Deutsche Nationalbibliothek">German Research Foundation
+            <address>
+              <addrLine>Kennedyallee 40</addrLine>
+              <addrLine><geogName>Bonn</geogName></addrLine>
+            </address> </corpName>
         </funder>
         <funder>
-          <corpName role="funder" codedval="18183-3" auth.uri="http://d-nb.info/gnd/18183-3" auth="Deutsche Nationalbibliothek">National Endowment for the Humanities<address><addrLine>1100 Pennsylvania Avenue N.W.</addrLine><addrLine><geogName>Washington,
-            DC</geogName></addrLine></address> </corpName>
+          <corpName role="funder" codedval="18183-3" auth.uri="http://d-nb.info/gnd/18183-3" auth="Deutsche Nationalbibliothek">National Endowment for the Humanities
+            <address>
+              <addrLine>1100 Pennsylvania Avenue N.W.</addrLine>
+              <addrLine><geogName>Washington, DC</geogName></addrLine>
+            </address> </corpName>
         </funder>
         <respStmt>
           <corpName role="publisher">MEI Project</corpName>
@@ -51,12 +54,7 @@
         <source>
           <bibl>
             <identifier type="URI">http://www.jsbchorales.net/bwv.shtml</identifier>
-            <title>
-              <titlePart>Herzliebster Jesu, was hast du verbrochen</titlePart>
-              <titlePart type="uniform">Matthäuspassion &lt;Herzliebster Jesu was hast du
-                verbrochen&gt;</titlePart>
-              <titlePart type="work">BWV 244.46</titlePart>
-            </title>
+            <title><titlePart>Herzliebster Jesu, was hast du verbrochen</titlePart><titlePart type="uniform">Matthäuspassion &lt;Herzliebster Jesu was hast du verbrochen&gt;</titlePart><titlePart type="work">BWV 244.46</titlePart></title>
             <composer>
               <persName role="composer" auth="GND" auth.uri="http://d-nb.info/gnd/" codedval="11850553X">Johann Sebastian Bach</persName>
             </composer>
@@ -85,16 +83,19 @@
         </application>
         <application xml:id="xsl_mxl2mei_2.2.3" version="2.2.3">
           <name>MusicXML2MEI</name>
-          <p> The stylesheet is a converter from MusicXML to MEI.<ptr target="http:music-encoding.org/Support/stylesheets/MusicXML2MEI"/> </p>
+          <p>The stylesheet is a converter from MusicXML to MEI.<ptr target="http:music-encoding.org/Support/stylesheets/MusicXML2MEI"/></p>
         </application>
         <application version="v1.0_beta" xml:id="mei30To40">
           <name>mei30To40.xsl</name>
           <ptr target="https://github.com/music-encoding/encoding-tools/blob/main/mei30To40/mei30To40.xsl"/>
         </application>
+        <application version="0.0.1-alpha" xml:id="lint-mei-files_0.0.1-alpha">
+          <name>mei-files.xsl</name>
+          <ptr target="https://github.com/music-encoding/encoding-tools/blob/main/linting/mei-files.xsl"/>
+        </application>
       </appInfo>
       <projectDesc>
-        <p> Transcoded from a MusicXML version 1.0 file on 2009-08-06 using an XSLT stylesheet (2mei
-          v. 2.2). </p>
+        <p>Transcoded from a MusicXML version 1.0 file on 2009-08-06 using an XSLT stylesheet (2mei v. 2.2).</p>
       </projectDesc>
       <classDecls>
         <taxonomy>
@@ -175,10 +176,10 @@
         <history>
           <eventList>
             <event>
-              <p>First performance<date isodate="1727-04-11"/> <geogName>Leipzig</geogName> </p>
+              <p>First performance<date isodate="1727-04-11"/> <geogName>Leipzig</geogName></p>
             </event>
             <event>
-              <p>First publication<date>1830</date> </p>
+              <p>First publication<date>1830</date></p>
             </event>
           </eventList>
         </history>
@@ -234,6 +235,21 @@
           <p>Converted to MEI version 4.0.0 using mei30To40.xsl, version 1.0 beta</p>
         </changeDesc>
         <date isodate="2019-01-03"/>
+      </change>
+      <change n="6">
+        <respStmt>
+          <persName>Benjamin W. Bohl</persName>
+          <persName>Stefan Münnich</persName>
+        </respStmt>
+        <changeDesc>
+          <p><list>
+              <li>update xml-model schema references to v4.0.1</li>
+              <li>update meiversion attributes to 4.0.1</li>
+              <li>add missing responsibility statements to change elements</li>
+              <li>unify documentation of mei version upgrades (appInfo and revisionDesc)</li>
+            </list></p>
+        </changeDesc>
+        <date isodate="2023-07-27T17:10:30+02:00"/>
       </change>
     </revisionDesc>
   </meiHead>

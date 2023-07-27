@@ -1,12 +1,11 @@
-<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<?xml version="1.0" encoding="UTF-8"?>
 <?xml-model href="http://music-encoding.org/schema/4.0.1/mei-all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
 <?xml-model href="http://music-encoding.org/schema/4.0.1/mei-all.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
-<mei xmlns:xlink="http://www.w3.org/1999/xlink" xmlns="http://www.music-encoding.org/ns/mei" meiversion="4.0.1">
+<mei xmlns="http://www.music-encoding.org/ns/mei" meiversion="4.0.1">
   <meiHead>
     <fileDesc>
       <titleStmt>
-        <title>Gather round the Christmas Tree <titlePart type="subordinate">for Brass and
-          Timpani</titlePart> <titlePart type="subordinate">an electronic transcription</titlePart> </title>
+        <title>Gather round the Christmas Tree<titlePart type="subordinate">for Brass and Timpani</titlePart> <titlePart type="subordinate">an electronic transcription</titlePart></title>
         <composer>
           <persName role="creator" codedval="13701158X" auth.uri="http://d-nb.info/gnd/" auth="GND">John Henry Hopkins</persName>
         </composer>
@@ -21,28 +20,31 @@
         </publisher>
         <address>
           <addrLine>Gartenstrasse 20</addrLine>
-          <addrLine>32756 <geogName codedval="7004442" auth.uri="http://vocab.getty.edu/page/tgn/" auth="TGN">Detmold</geogName> </addrLine>
-          <addrLine>
-            <geogName codedval="7000084" auth.uri="http://vocab.getty.edu/page/tgn/" auth="TGN">Germany</geogName>
-          </addrLine>
+          <addrLine>32756<geogName codedval="7004442" auth.uri="http://vocab.getty.edu/page/tgn/" auth="TGN">Detmold</geogName></addrLine>
+          <addrLine><geogName codedval="7000084" auth.uri="http://vocab.getty.edu/page/tgn/" auth="TGN">Germany</geogName></addrLine>
         </address>
         <date>2011</date>
         <availability>
-          <useRestrict>This encoding is in the public domain. However, the sources used to create it
-            may be under copyright. We believe their use by the MEI project for educational and
-            research purposes is covered by the Fair Use doctrine. However, we will remove any
-            material from the project archive when requested to do so by the copyright
-            owner.</useRestrict>
+          <useRestrict>This encoding is in the public domain. However, the sources used to create it may be under copyright. We believe their use by the MEI project for educational and research purposes is covered by the Fair Use doctrine. However, we will remove any material from the project archive when requested to do so by the copyright owner.</useRestrict>
         </availability>
       </pubStmt>
       <seriesStmt>
         <title>MEI Sample Collection</title>
         <funder>
-          <corpName role="funder" codedval="2007744-0" auth.uri="http://d-nb.info/gnd/" auth="GND">German Research Foundation<address><addrLine>Kennedyallee 40</addrLine><addrLine><geogName codedval="7005090" auth.uri="http://vocab.getty.edu/page/tgn/" auth="TGN">Bonn</geogName></addrLine><addrLine><geogName codedval="7000084" auth.uri="http://vocab.getty.edu/page/tgn/" auth="TGN">Germany</geogName></addrLine></address> </corpName>
+          <corpName role="funder" codedval="2007744-0" auth.uri="http://d-nb.info/gnd/" auth="GND">German Research Foundation
+            <address>
+              <addrLine>Kennedyallee 40</addrLine>
+              <addrLine><geogName codedval="7005090" auth.uri="http://vocab.getty.edu/page/tgn/" auth="TGN">Bonn</geogName></addrLine>
+              <addrLine><geogName codedval="7000084" auth.uri="http://vocab.getty.edu/page/tgn/" auth="TGN">Germany</geogName></addrLine>
+            </address> </corpName>
         </funder>
         <funder>
-          <corpName role="funder" codedval="18183-3" auth.uri="http://d-nb.info/gnd/18183-3" auth="Deutsche Nationalbibliothek">National Endowment for the Humanities<address><addrLine>1100 Pennsylvania Avenue N.W.</addrLine><addrLine><geogName codedval="7013962" auth.uri="http://vocab.getty.edu/page/tgn/" auth="TGN">Washington,
-            DC</geogName> 20004</addrLine><addrLine><geogName codedval="7012149" auth.uri="http://vocab.getty.edu/page/tgn/" auth="TGN">United States</geogName></addrLine></address> </corpName>
+          <corpName role="funder" codedval="18183-3" auth.uri="http://d-nb.info/gnd/18183-3" auth="Deutsche Nationalbibliothek">National Endowment for the Humanities
+            <address>
+              <addrLine>1100 Pennsylvania Avenue N.W.</addrLine>
+              <addrLine><geogName codedval="7013962" auth.uri="http://vocab.getty.edu/page/tgn/" auth="TGN">Washington, DC</geogName>20004</addrLine>
+              <addrLine><geogName codedval="7012149" auth.uri="http://vocab.getty.edu/page/tgn/" auth="TGN">United States</geogName></addrLine>
+            </address> </corpName>
         </funder>
         <respStmt>
           <corpName role="publisher">MEI Project</corpName>
@@ -95,6 +97,10 @@
         <application version="v1.0_beta" xml:id="mei30To40">
           <name>mei30To40.xsl</name>
           <ptr target="https://github.com/music-encoding/encoding-tools/blob/main/mei30To40/mei30To40.xsl"/>
+        </application>
+        <application version="0.0.1-alpha" xml:id="lint-mei-files_0.0.1-alpha">
+          <name>mei-files.xsl</name>
+          <ptr target="https://github.com/music-encoding/encoding-tools/blob/main/linting/mei-files.xsl"/>
         </application>
       </appInfo>
       <classDecls>
@@ -200,7 +206,7 @@
                     <mRest/>
                   </layer>
                 </staff>
-                <dir tstamp="1" place="above" staff="1"> Allegro </dir>
+                <dir tstamp="1" place="above" staff="1">Allegro</dir>
                 <hairpin tstamp="1.25" form="cres" place="below" staff="1" tstamp2="0m+2.875"/>
               </measure>
             </section>
@@ -234,33 +240,31 @@
           <name>Unknown</name>
         </respStmt>
         <changeDesc>
-          <p>The original MusicXML file was generated using Finale 2011 for Windows and Dolet Light
-            for Finale 2011.</p>
+          <p>The original MusicXML file was generated using Finale 2011 for Windows and Dolet Light for Finale 2011.</p>
         </changeDesc>
         <date isodate="2010-12-07"/>
       </change>
       <change n="2">
         <respStmt>
-          <persName xml:id="MH"> Maja Hartwig </persName>
+          <persName xml:id="MH">Maja Hartwig</persName>
         </respStmt>
         <changeDesc>
-          <p>Transcoded from a MusicXML version 2.0 file on 2011-10-13 using the <ref target="#xsl_mxl2mei_2.2.3">musicxml2mei</ref> stylesheet. </p>
+          <p>Transcoded from a MusicXML version 2.0 file on 2011-10-13 using the<ref target="#xsl_mxl2mei_2.2.3">musicxml2mei</ref>stylesheet.</p>
         </changeDesc>
         <date isodate="2011-10-13"/>
       </change>
       <change n="3">
         <respStmt>
-          <persName xml:id="KR"> Kristina Richts </persName>
+          <persName xml:id="KR">Kristina Richts</persName>
         </respStmt>
         <changeDesc>
-          <p> Cleaned up MEI file automatically using <ref target="#xsl_ppq">ppq.xsl</ref>. </p>
+          <p>Cleaned up MEI file automatically using<ref target="#xsl_ppq">ppq.xsl</ref>.</p>
         </changeDesc>
         <date isodate="2011-10-21"/>
       </change>
       <change n="4" resp="#KR">
         <changeDesc>
-          <p> Cleaned up MEI file automatically using <ref target="#xsl_header">Header.xsl</ref>.
-          </p>
+          <p>Cleaned up MEI file automatically using<ref target="#xsl_header">Header.xsl</ref>.</p>
         </changeDesc>
         <date isodate="2011-12-01"/>
       </change>
@@ -291,6 +295,21 @@
         </changeDesc>
         <date isodate="2019-01-03"/>
       </change>
+      <change n="9">
+        <respStmt>
+          <persName>Benjamin W. Bohl</persName>
+          <persName>Stefan Münnich</persName>
+        </respStmt>
+        <changeDesc>
+          <p><list>
+              <li>update xml-model schema references to v4.0.1</li>
+              <li>update meiversion attributes to 4.0.1</li>
+              <li>add missing responsibility statements to change elements</li>
+              <li>unify documentation of mei version upgrades (appInfo and revisionDesc)</li>
+            </list></p>
+        </changeDesc>
+        <date isodate="2023-07-27T17:08:01+02:00"/>
+      </change>
     </revisionDesc>
   </meiHead>
   <music>
@@ -299,19 +318,10 @@
         <score>
           <scoreDef meter.count="2" meter.unit="4" key.sig="1s" key.mode="major" system.leftmar="0" system.rightmar="0" spacing.system="86" system.topmar="34" spacing.staff="80" music.name="Maestro" music.size="20pt">
             <pgHead>
-              <title>
-                <rend halign="center" valign="top">GATHER ROUND THE CHRISTMAS TREE</rend>
-                <rend halign="center" valign="top">for Brass &amp; Timpani</rend>
-              </title>
-              <p>
-                <rend halign="left" valign="top">Score (01:05'')</rend>
-              </p>
-              <rend halign="right" valign="top"><persName role="composer">John Henry Hopkins - Jr.
-                (1820-1891)</persName><lb/>Arr. <persName role="arranger">Michel Rondeau</persName></rend>
-            </pgHead>
-            <pgFoot>
-              <rend halign="center" valign="bottom">© 2010 - Gatineau,Qc.Ca.</rend>
-            </pgFoot>
+              <title><rend halign="center" valign="top">GATHER ROUND THE CHRISTMAS TREE</rend><rend halign="center" valign="top">for Brass &amp; Timpani</rend></title>
+              <p><rend halign="left" valign="top">Score (01:05'')</rend></p><rend halign="right" valign="top"><persName role="composer">John Henry Hopkins - Jr. (1820-1891)</persName>
+                <lb/>Arr.<persName role="arranger">Michel Rondeau</persName></rend></pgHead>
+            <pgFoot><rend halign="center" valign="bottom">© 2010 - Gatineau,Qc.Ca.</rend></pgFoot>
             <staffGrp>
               <staffGrp symbol="bracket" bar.thru="true">
                 <staffGrp symbol="bracket">
@@ -377,9 +387,7 @@
                   <mRest xml:id="d1e498"/>
                 </layer>
               </staff>
-              <dir tstamp="1" place="above" staff="1">
-                <rend fontsize="11.7pt" fontweight="bold">Allegro </rend>
-              </dir>
+              <dir tstamp="1" place="above" staff="1"><rend fontsize="11.7pt" fontweight="bold">Allegro</rend></dir>
               <hairpin tstamp="1.25" form="cres" place="below" staff="1" opening="1.5" endto="1" tstamp2="0m+2.875"/>
             </measure>
             <measure n="2" xml:id="d1e504" width="135">
@@ -848,9 +856,7 @@
                   <rest xml:id="d1e2708" dur="8"/>
                 </layer>
               </staff>
-              <dir tstamp="1" place="below" staff="1" ho="-0.8">
-                <rend fontstyle="italic">rit.</rend>
-              </dir>
+              <dir tstamp="1" place="below" staff="1" ho="-0.8"><rend fontstyle="italic">rit.</rend></dir>
               <fermata staff="1" startid="#d1e2474" form="norm" place="above"/>
               <fermata staff="2" startid="#d1e2563" form="norm" place="above"/>
               <fermata staff="3" startid="#d1e2604" form="norm" place="above"/>
@@ -1757,9 +1763,7 @@
                 </layer>
               </staff>
               <tie tstamp="2.5" staff="3" curvedir="above" startid="#d1e7624" endid="#d1e7892"/>
-              <dir tstamp="1" place="above" staff="5">
-                <rend fontsize="15pt" fontweight="bold">A-D</rend>
-              </dir>
+              <dir tstamp="1" place="above" staff="5"><rend fontsize="15pt" fontweight="bold">A-D</rend></dir>
             </measure>
             <pb n="3"/>
             <measure n="26" xml:id="d1e7803">
@@ -1804,9 +1808,7 @@
                   <rest xml:id="d1e8061" dur="8"/>
                 </layer>
               </staff>
-              <dir tstamp="1" place="below" staff="1" ho="-0.7">
-                <rend fontstyle="italic">rit.</rend>
-              </dir>
+              <dir tstamp="1" place="below" staff="1" ho="-0.7"><rend fontstyle="italic">rit.</rend></dir>
               <fermata staff="1" startid="#d1e7824" form="norm" place="above"/>
               <fermata staff="2" startid="#d1e7864" form="norm" place="above"/>
               <fermata staff="3" startid="#d1e7931" form="norm" place="above"/>

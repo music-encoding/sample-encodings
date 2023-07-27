@@ -1,7 +1,7 @@
-<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<?xml version="1.0" encoding="UTF-8"?>
 <?xml-model href="http://music-encoding.org/schema/4.0.1/mei-all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
 <?xml-model href="http://music-encoding.org/schema/4.0.1/mei-all.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
-<mei xmlns:xlink="http://www.w3.org/1999/xlink" xmlns="http://www.music-encoding.org/ns/mei" meiversion="4.0.1">
+<mei xmlns="http://www.music-encoding.org/ns/mei" meiversion="4.0.1">
   <meiHead>
     <fileDesc>
       <titleStmt>
@@ -19,28 +19,31 @@
         </respStmt>
         <address>
           <addrLine>Gartenstrasse 20</addrLine>
-          <addrLine>32756 <geogName codedval="7004442" auth.uri="http://vocab.getty.edu/page/tgn/" auth="TGN">Detmold</geogName> </addrLine>
-          <addrLine>
-            <geogName codedval="7000084" auth.uri="http://vocab.getty.edu/page/tgn/" auth="TGN">Germany</geogName>
-          </addrLine>
+          <addrLine>32756<geogName codedval="7004442" auth.uri="http://vocab.getty.edu/page/tgn/" auth="TGN">Detmold</geogName></addrLine>
+          <addrLine><geogName codedval="7000084" auth.uri="http://vocab.getty.edu/page/tgn/" auth="TGN">Germany</geogName></addrLine>
         </address>
         <date isodate="2012-11-06"/>
         <availability>
-          <useRestrict>This encoding is in the public domain. However, the sources used to create it
-            may be under copyright. We believe their use by the MEI project for educational and
-            research purposes is covered by the Fair Use doctrine. However, we will remove any
-            material from the project archive when requested to do so by the copyright
-            owner.</useRestrict>
+          <useRestrict>This encoding is in the public domain. However, the sources used to create it may be under copyright. We believe their use by the MEI project for educational and research purposes is covered by the Fair Use doctrine. However, we will remove any material from the project archive when requested to do so by the copyright owner.</useRestrict>
         </availability>
       </pubStmt>
       <seriesStmt>
         <title>MEI Sample Collection</title>
         <funder>
-          <corpName role="funder" codedval="2007744-0" auth.uri="http://d-nb.info/gnd/" auth="GND">German Research Foundation<address><addrLine>Kennedyallee 40</addrLine><addrLine><geogName codedval="7005090" auth.uri="http://vocab.getty.edu/page/tgn/" auth="TGN">Bonn</geogName></addrLine><addrLine><geogName codedval="7000084" auth.uri="http://vocab.getty.edu/page/tgn/" auth="TGN">Germany</geogName></addrLine></address> </corpName>
+          <corpName role="funder" codedval="2007744-0" auth.uri="http://d-nb.info/gnd/" auth="GND">German Research Foundation
+            <address>
+              <addrLine>Kennedyallee 40</addrLine>
+              <addrLine><geogName codedval="7005090" auth.uri="http://vocab.getty.edu/page/tgn/" auth="TGN">Bonn</geogName></addrLine>
+              <addrLine><geogName codedval="7000084" auth.uri="http://vocab.getty.edu/page/tgn/" auth="TGN">Germany</geogName></addrLine>
+            </address> </corpName>
         </funder>
         <funder>
-          <corpName role="funder" codedval="18183-3" auth.uri="http://d-nb.info/gnd/18183-3" auth="Deutsche Nationalbibliothek">National Endowment for the Humanities<address><addrLine>1100 Pennsylvania Avenue N.W.</addrLine><addrLine><geogName codedval="7013962" auth.uri="http://vocab.getty.edu/page/tgn/" auth="TGN">Washington,
-            DC</geogName> 20004</addrLine><addrLine><geogName codedval="7012149" auth.uri="http://vocab.getty.edu/page/tgn/" auth="TGN">United States</geogName></addrLine></address> </corpName>
+          <corpName role="funder" codedval="18183-3" auth.uri="http://d-nb.info/gnd/18183-3" auth="Deutsche Nationalbibliothek">National Endowment for the Humanities
+            <address>
+              <addrLine>1100 Pennsylvania Avenue N.W.</addrLine>
+              <addrLine><geogName codedval="7013962" auth.uri="http://vocab.getty.edu/page/tgn/" auth="TGN">Washington, DC</geogName>20004</addrLine>
+              <addrLine><geogName codedval="7012149" auth.uri="http://vocab.getty.edu/page/tgn/" auth="TGN">United States</geogName></addrLine>
+            </address> </corpName>
         </funder>
         <respStmt>
           <corpName role="publisher">MEI Project</corpName>
@@ -60,10 +63,13 @@
           <name>mei30To40.xsl</name>
           <ptr target="https://github.com/music-encoding/encoding-tools/blob/main/mei30To40/mei30To40.xsl"/>
         </application>
+        <application version="0.0.1-alpha" xml:id="lint-mei-files_0.0.1-alpha">
+          <name>mei-files.xsl</name>
+          <ptr target="https://github.com/music-encoding/encoding-tools/blob/main/linting/mei-files.xsl"/>
+        </application>
       </appInfo>
       <editorialDecl>
-        <p>The example demonstrates an encoding of a componentgroup within the workDesc. The music
-          is not encoded.</p>
+        <p>The example demonstrates an encoding of a componentgroup within the workDesc. The music is not encoded.</p>
       </editorialDecl>
     </encodingDesc>
     <workList>
@@ -134,7 +140,8 @@
                       </layer>
                     </staff>
                     <dynam staff="1 2 3 4 5" tstamp="0.5" place="below">mf</dynam>
-                    <dir staff="1" place="above" tstamp="1">ALLEGRO<lb/>(Leise und fröhlich)</dir>
+                    <dir staff="1" place="above" tstamp="1">ALLEGRO
+                      <lb/>(Leise und fröhlich)</dir>
                   </measure>
                   <measure n="1">
                     <staff n="1">
@@ -489,8 +496,7 @@
                 </section>
               </score>
               <incipText>
-                <p>Ihr Wandervögel in der Luft, im Aetherglanz, im Sonnenduft, in blauen
-                  Himmelswellen,</p>
+                <p>Ihr Wandervögel in der Luft, im Aetherglanz, im Sonnenduft, in blauen Himmelswellen,</p>
               </incipText>
             </incip>
             <perfMedium>
@@ -573,7 +579,8 @@
                     <dynam staff="3" place="below" tstamp="0.5">p</dynam>
                     <dynam staff="4" place="below" tstamp="0.5">p</dynam>
                     <dynam staff="5" place="below" tstamp="0.5">p</dynam>
-                    <dir staff="1" tstamp="1">Andantino. <lb/>(Leise und getragen)</dir>
+                    <dir staff="1" tstamp="1">Andantino.
+                      <lb/>(Leise und getragen)</dir>
                   </measure>
                 </section>
               </score>
@@ -640,7 +647,8 @@
                     </staff>
                     <dynam staff="3" place="above" tstamp="0.5">f</dynam>
                     <dynam staff="4" place="above" tstamp="0.5">f</dynam>
-                    <dir staff="1" place="above" tstamp="1">Allegro <lb/>Mit Humor</dir>
+                    <dir staff="1" place="above" tstamp="1">Allegro
+                      <lb/>Mit Humor</dir>
                   </measure>
                 </section>
               </score>
@@ -670,8 +678,7 @@
         </titleStmt>
         <pubStmt>
           <publisher>
-            <corpName auth="GND" auth.uri="http://d-nb.info/gnd/" codedval="6120820-6">Bartholf
-              Senff</corpName>
+            <corpName auth="GND" auth.uri="http://d-nb.info/gnd/" codedval="6120820-6">Bartholf Senff</corpName>
           </publisher>
           <pubPlace>
             <geogName codedval="7012329" auth.uri="http://vocab.getty.edu/page/tgn/" auth="TGN">Leipzig</geogName>
@@ -680,9 +687,16 @@
         </pubStmt>
         <physDesc>
           <titlePage>
-            <p>LIEDER<lb/> für Männerchor<pb/> componirt und<lb/>dem Pauliner Sängerverein <lb/>zu
-              Leipzig<lb/>gewidmet<lb/>von<lb/>NIELS W. GADE.<lb/>op. 26 <lb/>3tes Heft der Lieder
-              für Männerchor.</p>
+            <p>LIEDER
+              <lb/>für Männerchor
+              <pb/>componirt und
+              <lb/>dem Pauliner Sängerverein
+              <lb/>zu Leipzig
+              <lb/>gewidmet
+              <lb/>von
+              <lb/>NIELS W. GADE.
+              <lb/>op. 26
+              <lb/>3tes Heft der Lieder für Männerchor.</p>
             <list>
               <li>No. 1 Wanderlied, von E. Geibel.</li>
               <li>No. 2. Heinrich Frauenlob, von O. Roquette.</li>
@@ -690,8 +704,11 @@
               <li>No. 4. Gondelfahrt, von L. Bechstein.</li>
               <li>No. 5. Das Reh, von L. Uhland</li>
             </list>
-            <p>Partitur und Stimmen.<lb/>Eigenthum des Verlegers.<lb/>LEIPZIG, VERLAG VON BARTHOLF
-              SENFF<lb/> Pr. 1 Thlr. 10 Ngr.<lb/>78.</p>
+            <p>Partitur und Stimmen.
+              <lb/>Eigenthum des Verlegers.
+              <lb/>LEIPZIG, VERLAG VON BARTHOLF SENFF
+              <lb/>Pr. 1 Thlr. 10 Ngr.
+              <lb/>78.</p>
           </titlePage>
           <dimensions unit="cm">8.5 x 11</dimensions>
           <extent>46 pages</extent>
@@ -714,6 +731,21 @@
           <p>Converted to MEI version 4.0.0 using mei30To40.xsl, version 1.0 beta</p>
         </changeDesc>
         <date isodate="2019-01-03"/>
+      </change>
+      <change n="3">
+        <respStmt>
+          <persName>Benjamin W. Bohl</persName>
+          <persName>Stefan Münnich</persName>
+        </respStmt>
+        <changeDesc>
+          <p><list>
+              <li>update xml-model schema references to v4.0.1</li>
+              <li>update meiversion attributes to 4.0.1</li>
+              <li>add missing responsibility statements to change elements</li>
+              <li>unify documentation of mei version upgrades (appInfo and revisionDesc)</li>
+            </list></p>
+        </changeDesc>
+        <date isodate="2023-07-27T17:11:39+02:00"/>
       </change>
     </revisionDesc>
   </meiHead>

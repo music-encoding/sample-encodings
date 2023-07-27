@@ -1,11 +1,11 @@
-<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<?xml version="1.0" encoding="UTF-8"?>
 <?xml-model href="http://music-encoding.org/schema/4.0.1/mei-all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
 <?xml-model href="http://music-encoding.org/schema/4.0.1/mei-all.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
-<mei xmlns:xlink="http://www.w3.org/1999/xlink" xmlns="http://www.music-encoding.org/ns/mei" meiversion="4.0.1">
+<mei xmlns="http://www.music-encoding.org/ns/mei" meiversion="4.0.1">
   <meiHead>
     <fileDesc>
       <titleStmt>
-        <title>Le Cygne <titlePart type="subordinate">an electronic transcription</titlePart> </title>
+        <title>Le Cygne<titlePart type="subordinate">an electronic transcription</titlePart></title>
         <composer>
           <persName role="creator" codedval="11875081X" auth.uri="http://d-nb.info/gnd/" auth="GND">Camille Saint-Saens</persName>
         </composer>
@@ -20,28 +20,31 @@
         </publisher>
         <address>
           <addrLine>Gartenstrasse 20</addrLine>
-          <addrLine>32756 <geogName codedval="7004442" auth.uri="http://vocab.getty.edu/page/tgn/" auth="TGN">Detmold</geogName> </addrLine>
-          <addrLine>
-            <geogName codedval="7000084" auth.uri="http://vocab.getty.edu/page/tgn/" auth="TGN">Germany</geogName>
-          </addrLine>
+          <addrLine>32756<geogName codedval="7004442" auth.uri="http://vocab.getty.edu/page/tgn/" auth="TGN">Detmold</geogName></addrLine>
+          <addrLine><geogName codedval="7000084" auth.uri="http://vocab.getty.edu/page/tgn/" auth="TGN">Germany</geogName></addrLine>
         </address>
         <date>2011</date>
         <availability>
-          <useRestrict>This encoding is in the public domain. However, the sources used to create it
-            may be under copyright. We believe their use by the MEI project for educational and
-            research purposes is covered by the Fair Use doctrine. However, we will remove any
-            material from the project archive when requested to do so by the copyright
-            owner.</useRestrict>
+          <useRestrict>This encoding is in the public domain. However, the sources used to create it may be under copyright. We believe their use by the MEI project for educational and research purposes is covered by the Fair Use doctrine. However, we will remove any material from the project archive when requested to do so by the copyright owner.</useRestrict>
         </availability>
       </pubStmt>
       <seriesStmt>
         <title>MEI Sample Collection</title>
         <funder>
-          <corpName role="funder" codedval="2007744-0" auth.uri="http://d-nb.info/gnd/" auth="GND">German Research Foundation<address><addrLine>Kennedyallee 40</addrLine><addrLine><geogName codedval="7005090" auth.uri="http://vocab.getty.edu/page/tgn/" auth="TGN">Bonn</geogName></addrLine><addrLine><geogName codedval="7000084" auth.uri="http://vocab.getty.edu/page/tgn/" auth="TGN">Germany</geogName></addrLine></address> </corpName>
+          <corpName role="funder" codedval="2007744-0" auth.uri="http://d-nb.info/gnd/" auth="GND">German Research Foundation
+            <address>
+              <addrLine>Kennedyallee 40</addrLine>
+              <addrLine><geogName codedval="7005090" auth.uri="http://vocab.getty.edu/page/tgn/" auth="TGN">Bonn</geogName></addrLine>
+              <addrLine><geogName codedval="7000084" auth.uri="http://vocab.getty.edu/page/tgn/" auth="TGN">Germany</geogName></addrLine>
+            </address> </corpName>
         </funder>
         <funder>
-          <corpName role="funder" codedval="18183-3" auth.uri="http://d-nb.info/gnd/18183-3" auth="Deutsche Nationalbibliothek">National Endowment for the Humanities<address><addrLine>1100 Pennsylvania Avenue N.W.</addrLine><addrLine><geogName codedval="7013962" auth.uri="http://vocab.getty.edu/page/tgn/" auth="TGN">Washington,
-            DC</geogName> 20004</addrLine><addrLine><geogName codedval="7012149" auth.uri="http://vocab.getty.edu/page/tgn/" auth="TGN">United States</geogName></addrLine></address> </corpName>
+          <corpName role="funder" codedval="18183-3" auth.uri="http://d-nb.info/gnd/18183-3" auth="Deutsche Nationalbibliothek">National Endowment for the Humanities
+            <address>
+              <addrLine>1100 Pennsylvania Avenue N.W.</addrLine>
+              <addrLine><geogName codedval="7013962" auth.uri="http://vocab.getty.edu/page/tgn/" auth="TGN">Washington, DC</geogName>20004</addrLine>
+              <addrLine><geogName codedval="7012149" auth.uri="http://vocab.getty.edu/page/tgn/" auth="TGN">United States</geogName></addrLine>
+            </address> </corpName>
         </funder>
         <respStmt>
           <corpName role="publisher">MEI Project</corpName>
@@ -93,6 +96,10 @@
           <name>mei30To40.xsl</name>
           <ptr target="https://github.com/music-encoding/encoding-tools/blob/main/mei30To40/mei30To40.xsl"/>
         </application>
+        <application version="0.0.1-alpha" xml:id="lint-mei-files_0.0.1-alpha">
+          <name>mei-files.xsl</name>
+          <ptr target="https://github.com/music-encoding/encoding-tools/blob/main/linting/mei-files.xsl"/>
+        </application>
       </appInfo>
       <classDecls>
         <taxonomy>
@@ -123,14 +130,16 @@
         <incip>
           <incipCode form="parsons">*ddudddruu</incipCode>
         </incip>
-        <creation>Year bof composition<date>1886</date> </creation>
+        <creation>Year bof composition
+          <date>1886</date>
+        </creation>
         <history>
           <eventList>
             <event>
-              <p>First performance<date isodate="1922-02-26"/> </p>
+              <p>First performance<date isodate="1922-02-26"/></p>
             </event>
             <event>
-              <p>First publication<date>1887</date> </p>
+              <p>First publication<date>1887</date></p>
             </event>
           </eventList>
         </history>
@@ -154,33 +163,31 @@
           <name>Unknown</name>
         </respStmt>
         <changeDesc>
-          <p>The original MusicXML file was generated using CapToMusic.py CapXML to MusicXML
-            converter version 1.15.</p>
+          <p>The original MusicXML file was generated using CapToMusic.py CapXML to MusicXML converter version 1.15.</p>
         </changeDesc>
         <date isodate="2010-10-01"/>
       </change>
       <change n="2">
         <respStmt>
-          <persName xml:id="MH"> Maja Hartwig </persName>
+          <persName xml:id="MH">Maja Hartwig</persName>
         </respStmt>
         <changeDesc>
-          <p>Transcoded from a MusicXML version 1.1 file on 2011-10-13 using the <ref target="#xsl_mxl2mei_2.2.3">musicxml2mei</ref> stylesheet. </p>
+          <p>Transcoded from a MusicXML version 1.1 file on 2011-10-13 using the<ref target="#xsl_mxl2mei_2.2.3">musicxml2mei</ref>stylesheet.</p>
         </changeDesc>
         <date isodate="2011-10-13"/>
       </change>
       <change n="3">
         <respStmt>
-          <persName xml:id="KR"> Kristina Richts </persName>
+          <persName xml:id="KR">Kristina Richts</persName>
         </respStmt>
         <changeDesc>
-          <p> Cleaned up MEI file automatically using <ref target="#xsl_ppq">ppq.xsl</ref>. </p>
+          <p>Cleaned up MEI file automatically using<ref target="#xsl_ppq">ppq.xsl</ref>.</p>
         </changeDesc>
         <date isodate="2011-10-21"/>
       </change>
       <change n="4" resp="#KR">
         <changeDesc>
-          <p> Cleaned up MEI file automatically using <ref target="#xsl_header">Header.xsl</ref>.
-          </p>
+          <p>Cleaned up MEI file automatically using<ref target="#xsl_header">Header.xsl</ref>.</p>
         </changeDesc>
         <date isodate="2011-12-01"/>
       </change>
@@ -211,6 +218,21 @@
         </changeDesc>
         <date isodate="2019-01-03"/>
       </change>
+      <change n="9">
+        <respStmt>
+          <persName>Benjamin W. Bohl</persName>
+          <persName>Stefan Münnich</persName>
+        </respStmt>
+        <changeDesc>
+          <p><list>
+              <li>update xml-model schema references to v4.0.1</li>
+              <li>update meiversion attributes to 4.0.1</li>
+              <li>add missing responsibility statements to change elements</li>
+              <li>unify documentation of mei version upgrades (appInfo and revisionDesc)</li>
+            </list></p>
+        </changeDesc>
+        <date isodate="2023-07-27T17:09:56+02:00"/>
+      </change>
     </revisionDesc>
   </meiHead>
   <music>
@@ -218,9 +240,7 @@
       <mdiv>
         <score>
           <scoreDef meter.count="6" meter.unit="4" key.sig="1s" key.mode="major">
-            <pgHead>
-              <rend fontsize="10pt" fontweight="bold" halign="center">C. Saint-Saëns</rend>
-            </pgHead>
+            <pgHead><rend fontsize="10pt" fontweight="bold" halign="center">C. Saint-Saëns</rend></pgHead>
             <staffGrp>
               <staffDef n="1" xml:id="P1" lines="5" clef.line="2" clef.shape="G" key.sig="1s" key.mode="major">
                 <label>Mélodie</label>
@@ -296,11 +316,8 @@
                 </layer>
               </staff>
               <tempo tstamp="1" place="above" staff="1">Adagio</tempo>
-              <dynam tstamp="1" place="below" staff="1">
-                <rend>pp</rend>
-              </dynam>
-              <dir tstamp="1" place="above" staff="1"> Extrait du carneval des animaux arr. Martin
-                Packham 1978 </dir>
+              <dynam tstamp="1" place="below" staff="1"><rend>pp</rend></dynam>
+              <dir tstamp="1" place="above" staff="1">Extrait du carneval des animaux arr. Martin Packham 1978</dir>
             </measure>
             <measure n="2" xml:id="d1e724">
               <staff n="1">
@@ -371,9 +388,7 @@
                   </beam>
                 </layer>
               </staff>
-              <dynam tstamp="1" place="below" staff="1">
-                <rend>p</rend>
-              </dynam>
+              <dynam tstamp="1" place="below" staff="1"><rend>p</rend></dynam>
               <slur tstamp="1" curvedir="above" startid="#d1e731" endid="#d1e759" staff="1" tstamp2="0m+3"/>
               <slur tstamp="4" curvedir="above" startid="#d1e773" endid="#d1e799" staff="1" tstamp2="0m+6"/>
             </measure>
@@ -1434,14 +1449,10 @@
                   </beam>
                 </layer>
               </staff>
-              <dynam tstamp="1" place="below" staff="1">
-                <rend>p</rend>
-              </dynam>
+              <dynam tstamp="1" place="below" staff="1"><rend>p</rend></dynam>
               <slur tstamp="1" curvedir="above" startid="#d1e10616" endid="#d1e10644" staff="1" tstamp2="0m+3"/>
               <slur tstamp="4" curvedir="above" startid="#d1e10658" endid="#d1e10684" staff="1" tstamp2="0m+6"/>
-              <dynam tstamp="1" place="below" staff="2">
-                <rend>pp</rend>
-              </dynam>
+              <dynam tstamp="1" place="below" staff="2"><rend>pp</rend></dynam>
             </measure>
             <sb/>
             <measure n="19" xml:id="d1e11277">
@@ -1730,9 +1741,7 @@
                   </beam>
                 </layer>
               </staff>
-              <dynam tstamp="1" place="below" staff="1">
-                <rend>mf</rend>
-              </dynam>
+              <dynam tstamp="1" place="below" staff="1"><rend>mf</rend></dynam>
               <slur tstamp="1" curvedir="above" startid="#d1e13285" endid="#d1e13311" staff="1" tstamp2="0m+3"/>
               <slur tstamp="4" curvedir="above" startid="#d1e13325" endid="#d1e13353" staff="1" tstamp2="0m+6"/>
             </measure>
@@ -1825,9 +1834,7 @@
                   <note xml:id="d1e14735" pname="b" oct="3" dur="4" stem.dir="down"/>
                 </layer>
               </staff>
-              <dir tstamp="4" place="below" staff="1">
-                <rend fontfam="Times New Roman" fontsize="12pt" fontstyle="italic">dim.</rend>
-              </dir>
+              <dir tstamp="4" place="below" staff="1"><rend fontfam="Times New Roman" fontsize="12pt" fontstyle="italic">dim.</rend></dir>
               <slur tstamp="4" curvedir="above" startid="#d1e14428" endid="#d1e14454" staff="1" tstamp2="0m+6"/>
             </measure>
             <sb/>
@@ -1876,13 +1883,9 @@
                   <note xml:id="d1e15184" pname="d" oct="4" dur="8" stem.dir="down"/>
                 </layer>
               </staff>
-              <dir tstamp="1" place="below" staff="1">
-                <rend fontfam="Times New Roman" fontsize="12pt" fontstyle="italic">rit.</rend>
-              </dir>
+              <dir tstamp="1" place="below" staff="1"><rend fontfam="Times New Roman" fontsize="12pt" fontstyle="italic">rit.</rend></dir>
               <slur tstamp="4" curvedir="above" startid="#d1e14785" endid="#d1e14817" staff="1" tstamp2="0m+6"/>
-              <dir tstamp="5" place="below" staff="1">
-                <rend fontfam="Times New Roman" fontsize="12pt" fontstyle="italic">Lento</rend>
-              </dir>
+              <dir tstamp="5" place="below" staff="1"><rend fontfam="Times New Roman" fontsize="12pt" fontstyle="italic">Lento</rend></dir>
             </measure>
             <measure n="26" xml:id="d1e15208">
               <staff n="1">
@@ -1925,13 +1928,9 @@
                   </beam>
                 </layer>
               </staff>
-              <dir tstamp="1" place="below" staff="1">
-                <rend fontfam="Times New Roman" fontsize="12pt" fontstyle="italic">a tempo</rend>
-              </dir>
+              <dir tstamp="1" place="below" staff="1"><rend fontfam="Times New Roman" fontsize="12pt" fontstyle="italic">a tempo</rend></dir>
               <tie tstamp="1" curvedir="above" startid="#d1e15214" endid="#d1e15668" staff="1" tstamp2="1m+1"/>
-              <dir tstamp="2" place="below" staff="2">
-                <rend fontfam="Times New Roman" fontsize="7pt">HARM.</rend>
-              </dir>
+              <dir tstamp="2" place="below" staff="2"><rend fontfam="Times New Roman" fontsize="7pt">HARM.</rend></dir>
             </measure>
             <measure n="27" xml:id="d1e15666">
               <staff n="1">
@@ -1990,9 +1989,7 @@
                 </layer>
               </staff>
               <tie tstamp="1" curvedir="above" startid="#d1e15668" endid="#d1e15684" staff="1" tstamp2="0m+4"/>
-              <dir tstamp="4" place="above" staff="2">
-                <rend fontfam="Times New Roman" fontsize="12pt" fontstyle="italic">rit.</rend>
-              </dir>
+              <dir tstamp="4" place="above" staff="2"><rend fontfam="Times New Roman" fontsize="12pt" fontstyle="italic">rit.</rend></dir>
             </measure>
             <sb/>
             <measure n="28" xml:id="d1e16215" right="end">

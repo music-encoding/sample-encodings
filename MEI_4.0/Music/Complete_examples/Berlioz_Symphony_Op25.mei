@@ -1,12 +1,11 @@
-<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<?xml version="1.0" encoding="UTF-8"?>
 <?xml-model href="http://music-encoding.org/schema/4.0.1/mei-all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
 <?xml-model href="http://music-encoding.org/schema/4.0.1/mei-all.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
-<mei xmlns:xlink="http://www.w3.org/1999/xlink" xmlns="http://www.music-encoding.org/ns/mei" meiversion="4.0.1">
+<mei xmlns="http://www.music-encoding.org/ns/mei" meiversion="4.0.1">
   <meiHead>
     <fileDesc>
       <titleStmt>
-        <title>Childhood of Christ Op. 25, Part II <titlePart type="subordinate">an electronic
-          transcription</titlePart> </title>
+        <title>Childhood of Christ Op. 25, Part II<titlePart type="subordinate">an electronic transcription</titlePart></title>
         <composer>
           <persName role="creator">Hector Berlioz</persName>
         </composer>
@@ -21,28 +20,31 @@
         </publisher>
         <address>
           <addrLine>Gartenstrasse 20</addrLine>
-          <addrLine>32756 <geogName codedval="7004442" auth.uri="http://vocab.getty.edu/page/tgn/" auth="TGN">Detmold</geogName> </addrLine>
-          <addrLine>
-            <geogName codedval="7000084" auth.uri="http://vocab.getty.edu/page/tgn/" auth="TGN">Germany</geogName>
-          </addrLine>
+          <addrLine>32756<geogName codedval="7004442" auth.uri="http://vocab.getty.edu/page/tgn/" auth="TGN">Detmold</geogName></addrLine>
+          <addrLine><geogName codedval="7000084" auth.uri="http://vocab.getty.edu/page/tgn/" auth="TGN">Germany</geogName></addrLine>
         </address>
         <date>2011</date>
         <availability>
-          <useRestrict>This encoding is in the public domain. However, the sources used to create it
-            may be under copyright. We believe their use by the MEI project for educational and
-            research purposes is covered by the Fair Use doctrine. However, we will remove any
-            material from the project archive when requested to do so by the copyright
-            owner.</useRestrict>
+          <useRestrict>This encoding is in the public domain. However, the sources used to create it may be under copyright. We believe their use by the MEI project for educational and research purposes is covered by the Fair Use doctrine. However, we will remove any material from the project archive when requested to do so by the copyright owner.</useRestrict>
         </availability>
       </pubStmt>
       <seriesStmt>
         <title>MEI Sample Collection</title>
         <funder>
-          <corpName role="funder" codedval="2007744-0" auth.uri="http://d-nb.info/gnd/" auth="GND">German Research Foundation<address><addrLine>Kennedyallee 40</addrLine><addrLine><geogName codedval="7005090" auth.uri="http://vocab.getty.edu/page/tgn/" auth="TGN">Bonn</geogName></addrLine><addrLine><geogName codedval="7000084" auth.uri="http://vocab.getty.edu/page/tgn/" auth="TGN">Germany</geogName></addrLine></address> </corpName>
+          <corpName role="funder" codedval="2007744-0" auth.uri="http://d-nb.info/gnd/" auth="GND">German Research Foundation
+            <address>
+              <addrLine>Kennedyallee 40</addrLine>
+              <addrLine><geogName codedval="7005090" auth.uri="http://vocab.getty.edu/page/tgn/" auth="TGN">Bonn</geogName></addrLine>
+              <addrLine><geogName codedval="7000084" auth.uri="http://vocab.getty.edu/page/tgn/" auth="TGN">Germany</geogName></addrLine>
+            </address> </corpName>
         </funder>
         <funder>
-          <corpName role="funder" codedval="18183-3" auth.uri="http://d-nb.info/gnd/18183-3" auth="Deutsche Nationalbibliothek">National Endowment for the Humanities<address><addrLine>1100 Pennsylvania Avenue N.W.</addrLine><addrLine><geogName codedval="7013962" auth.uri="http://vocab.getty.edu/page/tgn/" auth="TGN">Washington,
-            DC</geogName> 20004</addrLine><addrLine><geogName codedval="7012149" auth.uri="http://vocab.getty.edu/page/tgn/" auth="TGN">United States</geogName></addrLine></address> </corpName>
+          <corpName role="funder" codedval="18183-3" auth.uri="http://d-nb.info/gnd/18183-3" auth="Deutsche Nationalbibliothek">National Endowment for the Humanities
+            <address>
+              <addrLine>1100 Pennsylvania Avenue N.W.</addrLine>
+              <addrLine><geogName codedval="7013962" auth.uri="http://vocab.getty.edu/page/tgn/" auth="TGN">Washington, DC</geogName>20004</addrLine>
+              <addrLine><geogName codedval="7012149" auth.uri="http://vocab.getty.edu/page/tgn/" auth="TGN">United States</geogName></addrLine>
+            </address> </corpName>
         </funder>
         <respStmt>
           <corpName role="publisher">MEI Project</corpName>
@@ -68,6 +70,10 @@
         <application version="v1.0_beta" xml:id="mei30To40">
           <name>mei30To40.xsl</name>
           <ptr target="https://github.com/music-encoding/encoding-tools/blob/main/mei30To40/mei30To40.xsl"/>
+        </application>
+        <application version="0.0.1-alpha" xml:id="lint-mei-files_0.0.1-alpha">
+          <name>mei-files.xsl</name>
+          <ptr target="https://github.com/music-encoding/encoding-tools/blob/main/linting/mei-files.xsl"/>
         </application>
       </appInfo>
       <classDecls>
@@ -97,7 +103,7 @@
     </encodingDesc>
     <workList>
       <work>
-        <title>Childhood of Christ <titlePart type="subordinate">Op. 25, Part II</titlePart> </title>
+        <title>Childhood of Christ<titlePart type="subordinate">Op. 25, Part II</titlePart></title>
         <title type="uniform">L'enfance du Christ / Ausw.</title>
         <composer>
           <persName role="composer" codedval="118509675" auth.uri="http://d-nb.info/gnd/" auth="GND">Hector Berlioz</persName>
@@ -111,14 +117,16 @@
           </incipText>
           <incipCode n="measure_65" label="Tenor" form="parsons">*uuududduduuuuuududd</incipCode>
         </incip>
-        <creation>Year of composition<date notbefore="1850" notafter="1854"/> </creation>
+        <creation>Year of composition
+          <date notbefore="1850" notafter="1854"/>
+        </creation>
         <history>
           <eventList>
             <event>
-              <p>First Performance<date isodate="1854-12-10"/>in<geogName>Paris</geogName> </p>
+              <p>First Performance<date isodate="1854-12-10"/>in<geogName>Paris</geogName></p>
             </event>
             <event>
-              <p>First published<date>1855</date> </p>
+              <p>First published<date>1855</date></p>
             </event>
           </eventList>
         </history>
@@ -200,33 +208,31 @@
           <name>Unknown</name>
         </respStmt>
         <changeDesc>
-          <p>The original MusicXML file was generated using Finale 2011 for Windows and Dolet Light
-            for Finale 2011.</p>
+          <p>The original MusicXML file was generated using Finale 2011 for Windows and Dolet Light for Finale 2011.</p>
         </changeDesc>
         <date isodate="2010-06-27"/>
       </change>
       <change n="2">
         <respStmt>
-          <persName xml:id="MH"> Maja Hartwig </persName>
+          <persName xml:id="MH">Maja Hartwig</persName>
         </respStmt>
         <changeDesc>
-          <p>Transcoded from a MusicXML version 2.0 file on 2011-10-10 using the <ref target="#xsl_mxl2mei_2.2.3">musicxml2mei</ref> stylesheet. </p>
+          <p>Transcoded from a MusicXML version 2.0 file on 2011-10-10 using the<ref target="#xsl_mxl2mei_2.2.3">musicxml2mei</ref>stylesheet.</p>
         </changeDesc>
         <date isodate="2011-10-10"/>
       </change>
       <change n="3">
         <respStmt>
-          <persName xml:id="KR"> Kristina Richts </persName>
+          <persName xml:id="KR">Kristina Richts</persName>
         </respStmt>
         <changeDesc>
-          <p> Cleaned up MEI file automatically using <ref target="#xsl_ppq">ppq.xsl</ref>. </p>
+          <p>Cleaned up MEI file automatically using<ref target="#xsl_ppq">ppq.xsl</ref>.</p>
         </changeDesc>
         <date isodate="2011-10-21"/>
       </change>
       <change n="4" resp="#KR">
         <changeDesc>
-          <p> Cleaned up MEI file automatically using <ref target="#xsl_header">Header.xsl</ref>.
-          </p>
+          <p>Cleaned up MEI file automatically using<ref target="#xsl_header">Header.xsl</ref>.</p>
         </changeDesc>
         <date isodate="2011-12-01"/>
       </change>
@@ -256,6 +262,21 @@
           <p>Converted to MEI version 4.0.0 using mei30To40.xsl, version 1.0 beta</p>
         </changeDesc>
         <date isodate="2019-01-03"/>
+      </change>
+      <change n="9">
+        <respStmt>
+          <persName>Benjamin W. Bohl</persName>
+          <persName>Stefan Münnich</persName>
+        </respStmt>
+        <changeDesc>
+          <p><list>
+              <li>update xml-model schema references to v4.0.1</li>
+              <li>update meiversion attributes to 4.0.1</li>
+              <li>add missing responsibility statements to change elements</li>
+              <li>unify documentation of mei version upgrades (appInfo and revisionDesc)</li>
+            </list></p>
+        </changeDesc>
+        <date isodate="2023-07-27T17:10:39+02:00"/>
       </change>
     </revisionDesc>
   </meiHead>
@@ -450,12 +471,8 @@
                   <mRest xml:id="d1e1487"/>
                 </layer>
               </staff>
-              <dir tstamp="1" place="above" staff="1">
-                <rend fontsize="6.3pt" fontweight="bold">Allegretto grazioso </rend>
-              </dir>
-              <tempo tstamp="1" place="above" staff="1">
-                <rend fontfam="EngraverTextT" fontsize="5.4pt"/>
-              </tempo>
+              <dir tstamp="1" place="above" staff="1"><rend fontsize="6.3pt" fontweight="bold">Allegretto grazioso</rend></dir>
+              <tempo tstamp="1" place="above" staff="1"><rend fontfam="EngraverTextT" fontsize="5.4pt"/></tempo>
               <dynam tstamp="4" place="below" startto="12" staff="2">p</dynam>
               <dynam tstamp="4" place="below" startto="12" staff="3">p</dynam>
               <dynam tstamp="4" place="below" startto="12" staff="4">p</dynam>
@@ -2652,9 +2669,7 @@
                 </layer>
               </staff>
               <reh tstamp="1" place="above" staff="1">
-                <!--enclose="box"-->
-                <rend fontsize="6.9pt" fontweight="bold">A</rend>
-              </reh>
+                <!-- enclose="box" --><rend fontsize="6.9pt" fontweight="bold">A</rend></reh>
               <slur tstamp="1" curvedir="above" startid="#d1e11924" endid="#d1e11958" staff="2" tstamp2="0m+3"/>
               <slur tstamp="1" curvedir="above" startid="#d1e11986" endid="#d1e12020" staff="3" tstamp2="0m+3"/>
               <slur tstamp="1" curvedir="above" startid="#d1e12098" endid="#d1e12134" staff="6" tstamp2="0m+3"/>
@@ -4291,9 +4306,7 @@
                 </layer>
               </staff>
               <reh tstamp="1" place="above" staff="1">
-                <!--enclose="box"-->
-                <rend fontsize="6.9pt" fontweight="bold">B</rend>
-              </reh>
+                <!-- enclose="box" --><rend fontsize="6.9pt" fontweight="bold">B</rend></reh>
             </measure>
             <measure n="27" xml:id="d1e20403" width="179">
               <staff n="1">
@@ -5993,9 +6006,7 @@
                 </layer>
               </staff>
               <reh tstamp="1" place="above" staff="1">
-                <!--enclose="box"-->
-                <rend fontsize="6.9pt" fontweight="bold">C</rend>
-              </reh>
+                <!-- enclose="box" --><rend fontsize="6.9pt" fontweight="bold">C</rend></reh>
               <dynam tstamp="1" place="below" staff="2">mf</dynam>
               <hairpin tstamp="2.25" form="dim" place="below" staff="2" opening="0" startto="5" endto="-1" tstamp2="0m+6.75"/>
               <slur tstamp="1" curvedir="above" startid="#d1e27404" endid="#d1e27459" staff="2" tstamp2="0m+6"/>
@@ -9238,9 +9249,7 @@
                 </layer>
               </staff>
               <reh tstamp="1" place="above" staff="1">
-                <!--enclose="box"-->
-                <rend fontsize="6.9pt" fontweight="bold">D</rend>
-              </reh>
+                <!-- enclose="box" --><rend fontsize="6.9pt" fontweight="bold">D</rend></reh>
               <dynam tstamp="4" place="below" startto="12" staff="2">mf</dynam>
               <slur tstamp="4" curvedir="above" startid="#d1e46331" endid="#d1e47440" staff="2" tstamp2="1m+1"/>
               <dynam tstamp="4" place="below" startto="12" staff="3">mf</dynam>
@@ -11026,9 +11035,7 @@
                 </layer>
               </staff>
               <reh tstamp="1" place="above" staff="1">
-                <!--enclose="box"-->
-                <rend fontsize="6.9pt" fontweight="bold">E</rend>
-              </reh>
+                <!-- enclose="box" --><rend fontsize="6.9pt" fontweight="bold">E</rend></reh>
               <slur tstamp="1" curvedir="above" startid="#d1e57489" endid="#d1e57581" staff="2" tstamp2="0m+3.5"/>
               <slur tstamp="4" curvedir="above" startid="#d1e57601" endid="#d1e57694" staff="2" tstamp2="0m+6.5"/>
               <slur tstamp="1" curvedir="above" startid="#d1e57715" endid="#d1e57807" staff="3" tstamp2="0m+3.5"/>
@@ -11903,9 +11910,7 @@
                 </layer>
               </staff>
               <reh tstamp="1" place="above" staff="1">
-                <!--enclose="box"-->
-                <rend fontsize="6.9pt" fontweight="bold">F</rend>
-              </reh>
+                <!-- enclose="box" --><rend fontsize="6.9pt" fontweight="bold">F</rend></reh>
             </measure>
             <measure n="67" xml:id="d1e63696" width="236">
               <staff n="1">
@@ -14078,9 +14083,7 @@
                 </layer>
               </staff>
               <reh tstamp="1" place="above" staff="1">
-                <!--enclose="box"-->
-                <rend fontsize="6.9pt" fontweight="bold">G</rend>
-              </reh>
+                <!-- enclose="box" --><rend fontsize="6.9pt" fontweight="bold">G</rend></reh>
               <slur tstamp="4" curvedir="below" startid="#d1e73548" endid="#d1e73566" staff="3" tstamp2="0m+5"/>
               <slur tstamp="4" curvedir="below" startid="#d1e73610" endid="#d1e73628" staff="4" tstamp2="0m+5"/>
               <slur tstamp="4" curvedir="above" startid="#d1e73697" endid="#d1e73717" staff="6" tstamp2="0m+5"/>
@@ -15618,9 +15621,7 @@
                 </layer>
               </staff>
               <reh tstamp="1" place="above" staff="1">
-                <!--enclose="box"-->
-                <rend fontsize="6.9pt" fontweight="bold">H</rend>
-              </reh>
+                <!-- enclose="box" --><rend fontsize="6.9pt" fontweight="bold">H</rend></reh>
               <tie tstamp="1" staff="2" curvedir="above" startid="#d1e81223" endid="#d1e81661"/>
               <tie tstamp="1" staff="3 2" curvedir="above" startid="#d1e81242" endid="#d1e81661"/>
               <slur tstamp="1" curvedir="below" startid="#d1e81275" endid="#d1e81295" staff="6" tstamp2="0m+2"/>
@@ -16377,7 +16378,7 @@
                 <layer n="1">
                   <note xml:id="d1e84423" pname="e" oct="4" dur="4" stem.dir="down" syl="dit://sprach://said:"/>
                   <rest xml:id="d1e84452" dur="8"/>
-                  <note xml:id="d1e84460" pname="a" oct="4" dur="4" dots="1" stem.dir="down" syl="&quot;Voy-//,,O//&quot;Lo!"/>
+                  <note xml:id="d1e84460" pname="a" oct="4" dur="4" dots="1" stem.dir="down" syl="&#34;Voy-//,,O//&#34;Lo!"/>
                 </layer>
               </staff>
               <staff n="2">
@@ -16488,9 +16489,7 @@
                 </layer>
               </staff>
               <reh tstamp="1" place="above" staff="1">
-                <!--enclose="box"-->
-                <rend fontsize="6.9pt" fontweight="bold">I</rend>
-              </reh>
+                <!-- enclose="box" --><rend fontsize="6.9pt" fontweight="bold">I</rend></reh>
               <trill tstamp="1" place="above" staff="3" startid="#d1e84498"/>
               <slur tstamp="4" curvedir="above" startid="#d1e84654" endid="#d1e85154" staff="6" tstamp2="1m+1"/>
             </measure>
@@ -17958,7 +17957,7 @@
             <measure n="111" xml:id="d1e91050" width="222">
               <staff n="1">
                 <layer n="1">
-                  <note xml:id="d1e91052" pname="a" oct="3" dur="4" stem.dir="up" syl="dit.&quot;//schuf.&quot;//son.&quot;"/>
+                  <note xml:id="d1e91052" pname="a" oct="3" dur="4" stem.dir="up" syl="dit.&#34;//schuf.&#34;//son.&#34;"/>
                   <rest xml:id="d1e91081" dur="8"/>
                   <rest xml:id="d1e91089" dur="4" dots="1"/>
                 </layer>
@@ -19284,9 +19283,7 @@
                 </layer>
               </staff>
               <reh tstamp="1" place="above" staff="1">
-                <!--enclose="box"-->
-                <rend fontsize="6.9pt" fontweight="bold">J</rend>
-              </reh>
+                <!-- enclose="box" --><rend fontsize="6.9pt" fontweight="bold">J</rend></reh>
               <slur tstamp="3" curvedir="above" startid="#d1e98487" endid="#d1e98505" staff="6" tstamp2="0m+4"/>
               <slur tstamp="3" curvedir="below" startid="#d1e98556" endid="#d1e98574" staff="7" tstamp2="0m+4"/>
               <slur tstamp="3" curvedir="above" startid="#d1e98674" endid="#d1e98692" staff="9" tstamp2="0m+4"/>
@@ -20626,87 +20623,47 @@
               </staff>
               <dynam tstamp="1" place="below" staff="1">p</dynam>
               <reh tstamp="1" place="above" staff="1">
-                <!--enclose="box"-->
-                <rend fontsize="6.9pt" fontweight="bold">K</rend>
-              </reh>
-              <dir tstamp="6" place="above" staff="1">
-                <rend fontstyle="italic">poco rit.</rend>
-              </dir>
+                <!-- enclose="box" --><rend fontsize="6.9pt" fontweight="bold">K</rend></reh>
+              <dir tstamp="6" place="above" staff="1"><rend fontstyle="italic">poco rit.</rend></dir>
               <dynam tstamp="4" place="below" startto="12" staff="2">p</dynam>
-              <dir tstamp="4" place="above" staff="2">
-                <rend fontstyle="italic">poco rit.</rend>
-              </dir>
+              <dir tstamp="4" place="above" staff="2"><rend fontstyle="italic">poco rit.</rend></dir>
               <dynam tstamp="4" place="below" startto="12" staff="3">p</dynam>
-              <dir tstamp="4" place="above" staff="3">
-                <rend fontstyle="italic">poco rit.</rend>
-              </dir>
+              <dir tstamp="4" place="above" staff="3"><rend fontstyle="italic">poco rit.</rend></dir>
               <tie tstamp="1.25" staff="3 4" curvedir="above" startid="#d1e107412" endid="#d1e107438"/>
               <dynam tstamp="4" place="below" startto="12" staff="4">p</dynam>
-              <dir tstamp="4" place="above" staff="4">
-                <rend fontstyle="italic">poco rit.</rend>
-              </dir>
+              <dir tstamp="4" place="above" staff="4"><rend fontstyle="italic">poco rit.</rend></dir>
               <dynam tstamp="4" place="below" startto="12" staff="5">p</dynam>
-              <dir tstamp="4" place="above" staff="5">
-                <rend fontstyle="italic">poco rit.</rend>
-              </dir>
+              <dir tstamp="4" place="above" staff="5"><rend fontstyle="italic">poco rit.</rend></dir>
               <dynam tstamp="4" place="below" startto="12" staff="6">p</dynam>
-              <dir tstamp="4" place="above" staff="6">
-                <rend fontstyle="italic">poco rit.</rend>
-              </dir>
+              <dir tstamp="4" place="above" staff="6"><rend fontstyle="italic">poco rit.</rend></dir>
               <tie tstamp="4" staff="6" curvedir="above" startid="#d1e107560" endid="#d1e108381"/>
               <dynam tstamp="4" place="below" startto="12" staff="7">p</dynam>
-              <dir tstamp="4" place="above" staff="7">
-                <rend fontstyle="italic">poco rit.</rend>
-              </dir>
+              <dir tstamp="4" place="above" staff="7"><rend fontstyle="italic">poco rit.</rend></dir>
               <tie tstamp="4" staff="7" curvedir="above" startid="#d1e107618" endid="#d1e108404"/>
               <dynam tstamp="4" place="below" startto="12" staff="8">p</dynam>
-              <dir tstamp="4" place="above" staff="8">
-                <rend fontstyle="italic">poco rit.</rend>
-              </dir>
+              <dir tstamp="4" place="above" staff="8"><rend fontstyle="italic">poco rit.</rend></dir>
               <dynam tstamp="4" place="below" startto="12" staff="9">p</dynam>
-              <dir tstamp="4" place="above" staff="9">
-                <rend fontstyle="italic">poco rit.</rend>
-              </dir>
+              <dir tstamp="4" place="above" staff="9"><rend fontstyle="italic">poco rit.</rend></dir>
               <dynam tstamp="4" place="below" startto="12" staff="10">p</dynam>
-              <dir tstamp="4" place="above" staff="10">
-                <rend fontstyle="italic">poco rit.</rend>
-              </dir>
+              <dir tstamp="4" place="above" staff="10"><rend fontstyle="italic">poco rit.</rend></dir>
               <dynam tstamp="4" place="below" startto="12" staff="11">p</dynam>
-              <dir tstamp="4" place="above" staff="11">
-                <rend fontstyle="italic">poco rit.</rend>
-              </dir>
+              <dir tstamp="4" place="above" staff="11"><rend fontstyle="italic">poco rit.</rend></dir>
               <dynam tstamp="4" place="below" startto="12" staff="12">p</dynam>
-              <dir tstamp="4" place="above" staff="12">
-                <rend fontstyle="italic">poco rit.</rend>
-              </dir>
+              <dir tstamp="4" place="above" staff="12"><rend fontstyle="italic">poco rit.</rend></dir>
               <dynam tstamp="4" place="below" startto="12" staff="13">p</dynam>
-              <dir tstamp="4" place="above" staff="13">
-                <rend fontstyle="italic">poco rit.</rend>
-              </dir>
+              <dir tstamp="4" place="above" staff="13"><rend fontstyle="italic">poco rit.</rend></dir>
               <dynam tstamp="4" place="below" startto="12" staff="14">p</dynam>
-              <dir tstamp="4" place="above" staff="14">
-                <rend fontstyle="italic">poco rit.</rend>
-              </dir>
+              <dir tstamp="4" place="above" staff="14"><rend fontstyle="italic">poco rit.</rend></dir>
               <dynam tstamp="4" place="below" startto="12" staff="15">p</dynam>
-              <dir tstamp="4" place="above" staff="15">
-                <rend fontstyle="italic">poco rit.</rend>
-              </dir>
+              <dir tstamp="4" place="above" staff="15"><rend fontstyle="italic">poco rit.</rend></dir>
               <dynam tstamp="4" place="below" startto="12" staff="16">p</dynam>
-              <dir tstamp="4" place="above" staff="16">
-                <rend fontstyle="italic">poco rit.</rend>
-              </dir>
+              <dir tstamp="4" place="above" staff="16"><rend fontstyle="italic">poco rit.</rend></dir>
               <dynam tstamp="4" place="below" startto="12" staff="17">p</dynam>
-              <dir tstamp="4" place="above" staff="17">
-                <rend fontstyle="italic">poco rit.</rend>
-              </dir>
+              <dir tstamp="4" place="above" staff="17"><rend fontstyle="italic">poco rit.</rend></dir>
               <dynam tstamp="4" place="below" startto="12" staff="18">p</dynam>
-              <dir tstamp="4" place="above" staff="18">
-                <rend fontstyle="italic">poco rit.</rend>
-              </dir>
+              <dir tstamp="4" place="above" staff="18"><rend fontstyle="italic">poco rit.</rend></dir>
               <dynam tstamp="4" place="below" startto="12" staff="19">p</dynam>
-              <dir tstamp="4" place="above" staff="19">
-                <rend fontstyle="italic">poco rit.</rend>
-              </dir>
+              <dir tstamp="4" place="above" staff="19"><rend fontstyle="italic">poco rit.</rend></dir>
             </measure>
             <measure n="124" xml:id="d1e108180" width="272">
               <staff n="1">
@@ -21752,68 +21709,28 @@
                 </layer>
               </staff>
               <reh tstamp="1" place="above" staff="1">
-                <!--enclose="box"-->
-                <rend fontsize="6.9pt" fontweight="bold">L</rend>
-              </reh>
+                <!-- enclose="box" --><rend fontsize="6.9pt" fontweight="bold">L</rend></reh>
               <tie tstamp="1" staff="1" curvedir="above" startid="#d1e111243" endid="#d1e111280"/>
-              <dir tstamp="4" place="below" staff="1">
-                <rend fontstyle="italic">poco rit.</rend>
-              </dir>
-              <dir tstamp="7" place="below" staff="2">
-                <rend fontstyle="italic">poco rit.</rend>
-              </dir>
-              <dir tstamp="7" place="below" staff="3">
-                <rend fontstyle="italic">poco rit.</rend>
-              </dir>
-              <dir tstamp="7" place="below" staff="4">
-                <rend fontstyle="italic">poco rit.</rend>
-              </dir>
-              <dir tstamp="7" place="below" staff="5">
-                <rend fontstyle="italic">poco rit.</rend>
-              </dir>
+              <dir tstamp="4" place="below" staff="1"><rend fontstyle="italic">poco rit.</rend></dir>
+              <dir tstamp="7" place="below" staff="2"><rend fontstyle="italic">poco rit.</rend></dir>
+              <dir tstamp="7" place="below" staff="3"><rend fontstyle="italic">poco rit.</rend></dir>
+              <dir tstamp="7" place="below" staff="4"><rend fontstyle="italic">poco rit.</rend></dir>
+              <dir tstamp="7" place="below" staff="5"><rend fontstyle="italic">poco rit.</rend></dir>
               <slur tstamp="1" curvedir="below" startid="#d1e111414" endid="#d1e111510" staff="6" tstamp2="0m+6"/>
-              <dir tstamp="2" place="below" staff="6">
-                <rend fontstyle="italic">poco rit.</rend>
-              </dir>
-              <dir tstamp="3" place="below" staff="7">
-                <rend fontstyle="italic">poco rit.</rend>
-              </dir>
-              <dir tstamp="2" place="below" staff="8">
-                <rend fontstyle="italic">poco rit.</rend>
-              </dir>
-              <dir tstamp="7" place="below" staff="9">
-                <rend fontstyle="italic">poco rit.</rend>
-              </dir>
-              <dir tstamp="7" place="below" staff="10">
-                <rend fontstyle="italic">poco rit.</rend>
-              </dir>
-              <dir tstamp="7" place="below" staff="11">
-                <rend fontstyle="italic">poco rit.</rend>
-              </dir>
-              <dir tstamp="7" place="below" staff="12">
-                <rend fontstyle="italic">poco rit.</rend>
-              </dir>
-              <dir tstamp="7" place="below" staff="13">
-                <rend fontstyle="italic">poco rit.</rend>
-              </dir>
-              <dir tstamp="7" place="below" staff="14">
-                <rend fontstyle="italic">poco rit.</rend>
-              </dir>
-              <dir tstamp="7" place="below" staff="15">
-                <rend fontstyle="italic">poco rit.</rend>
-              </dir>
-              <dir tstamp="7" place="below" staff="16">
-                <rend fontstyle="italic">poco rit.</rend>
-              </dir>
-              <dir tstamp="7" place="below" staff="17">
-                <rend fontstyle="italic">poco rit.</rend>
-              </dir>
-              <dir tstamp="7" place="below" staff="18">
-                <rend fontstyle="italic">poco rit.</rend>
-              </dir>
-              <dir tstamp="7" place="below" staff="19">
-                <rend fontstyle="italic">poco rit.</rend>
-              </dir>
+              <dir tstamp="2" place="below" staff="6"><rend fontstyle="italic">poco rit.</rend></dir>
+              <dir tstamp="3" place="below" staff="7"><rend fontstyle="italic">poco rit.</rend></dir>
+              <dir tstamp="2" place="below" staff="8"><rend fontstyle="italic">poco rit.</rend></dir>
+              <dir tstamp="7" place="below" staff="9"><rend fontstyle="italic">poco rit.</rend></dir>
+              <dir tstamp="7" place="below" staff="10"><rend fontstyle="italic">poco rit.</rend></dir>
+              <dir tstamp="7" place="below" staff="11"><rend fontstyle="italic">poco rit.</rend></dir>
+              <dir tstamp="7" place="below" staff="12"><rend fontstyle="italic">poco rit.</rend></dir>
+              <dir tstamp="7" place="below" staff="13"><rend fontstyle="italic">poco rit.</rend></dir>
+              <dir tstamp="7" place="below" staff="14"><rend fontstyle="italic">poco rit.</rend></dir>
+              <dir tstamp="7" place="below" staff="15"><rend fontstyle="italic">poco rit.</rend></dir>
+              <dir tstamp="7" place="below" staff="16"><rend fontstyle="italic">poco rit.</rend></dir>
+              <dir tstamp="7" place="below" staff="17"><rend fontstyle="italic">poco rit.</rend></dir>
+              <dir tstamp="7" place="below" staff="18"><rend fontstyle="italic">poco rit.</rend></dir>
+              <dir tstamp="7" place="below" staff="19"><rend fontstyle="italic">poco rit.</rend></dir>
             </measure>
             <measure n="133" xml:id="d1e111840" width="233">
               <staff n="1">
@@ -23382,9 +23299,7 @@
                 </layer>
               </staff>
               <reh tstamp="1" place="above" staff="1">
-                <!--enclose="box"-->
-                <rend fontsize="6.9pt" fontweight="bold">M</rend>
-              </reh>
+                <!-- enclose="box" --><rend fontsize="6.9pt" fontweight="bold">M</rend></reh>
               <slur tstamp="1" curvedir="below" startid="#d1e116619" endid="#d1e116901" staff="1" tstamp2="1m+1"/>
             </measure>
             <pb n="18"/>
@@ -23486,9 +23401,7 @@
                 </layer>
               </staff>
               <dynam tstamp="7" place="below" startto="24" staff="1">p</dynam>
-              <dir tstamp="4" place="above" staff="1">
-                <rend fontstyle="italic">Choir</rend>
-              </dir>
+              <dir tstamp="4" place="above" staff="1"><rend fontstyle="italic">Choir</rend></dir>
             </measure>
             <staffDef n="1" lines="5" clef.line="2" clef.shape="G"/>
             <measure n="148" xml:id="d1e117142" width="134">
@@ -23590,63 +23503,25 @@
                   <mRest xml:id="d1e117421"/>
                 </layer>
               </staff>
-              <dir tstamp="1" place="above" staff="1">
-                <rend fontstyle="italic">Perdendo</rend>
-              </dir>
-              <dir tstamp="1" place="above" staff="2">
-                <rend fontstyle="italic">Perdendo</rend>
-              </dir>
-              <dir tstamp="1" place="above" staff="3">
-                <rend fontstyle="italic">Perdendo</rend>
-              </dir>
-              <dir tstamp="1" place="above" staff="4">
-                <rend fontstyle="italic">Perdendo</rend>
-              </dir>
-              <dir tstamp="1" place="above" staff="5">
-                <rend fontstyle="italic">Perdendo</rend>
-              </dir>
-              <dir tstamp="1" place="above" staff="6">
-                <rend fontstyle="italic">Perdendo</rend>
-              </dir>
-              <dir tstamp="1" place="above" staff="7">
-                <rend fontstyle="italic">Perdendo</rend>
-              </dir>
-              <dir tstamp="1" place="above" staff="8">
-                <rend fontstyle="italic">Perdendo</rend>
-              </dir>
-              <dir tstamp="1" place="above" staff="9">
-                <rend fontstyle="italic">Perdendo</rend>
-              </dir>
-              <dir tstamp="1" place="above" staff="10">
-                <rend fontstyle="italic">Perdendo</rend>
-              </dir>
-              <dir tstamp="1" place="above" staff="11">
-                <rend fontstyle="italic">Perdendo</rend>
-              </dir>
-              <dir tstamp="1" place="above" staff="12">
-                <rend fontstyle="italic">Perdendo</rend>
-              </dir>
-              <dir tstamp="1" place="above" staff="13">
-                <rend fontstyle="italic">Perdendo</rend>
-              </dir>
-              <dir tstamp="1" place="above" staff="14">
-                <rend fontstyle="italic">Perdendo</rend>
-              </dir>
-              <dir tstamp="1" place="above" staff="15">
-                <rend fontstyle="italic">Perdendo</rend>
-              </dir>
-              <dir tstamp="1" place="above" staff="16">
-                <rend fontstyle="italic">Perdendo</rend>
-              </dir>
-              <dir tstamp="1" place="above" staff="17">
-                <rend fontstyle="italic">Perdendo</rend>
-              </dir>
-              <dir tstamp="1" place="above" staff="18">
-                <rend fontstyle="italic">Perdendo</rend>
-              </dir>
-              <dir tstamp="1" place="above" staff="19">
-                <rend fontstyle="italic">Perdendo</rend>
-              </dir>
+              <dir tstamp="1" place="above" staff="1"><rend fontstyle="italic">Perdendo</rend></dir>
+              <dir tstamp="1" place="above" staff="2"><rend fontstyle="italic">Perdendo</rend></dir>
+              <dir tstamp="1" place="above" staff="3"><rend fontstyle="italic">Perdendo</rend></dir>
+              <dir tstamp="1" place="above" staff="4"><rend fontstyle="italic">Perdendo</rend></dir>
+              <dir tstamp="1" place="above" staff="5"><rend fontstyle="italic">Perdendo</rend></dir>
+              <dir tstamp="1" place="above" staff="6"><rend fontstyle="italic">Perdendo</rend></dir>
+              <dir tstamp="1" place="above" staff="7"><rend fontstyle="italic">Perdendo</rend></dir>
+              <dir tstamp="1" place="above" staff="8"><rend fontstyle="italic">Perdendo</rend></dir>
+              <dir tstamp="1" place="above" staff="9"><rend fontstyle="italic">Perdendo</rend></dir>
+              <dir tstamp="1" place="above" staff="10"><rend fontstyle="italic">Perdendo</rend></dir>
+              <dir tstamp="1" place="above" staff="11"><rend fontstyle="italic">Perdendo</rend></dir>
+              <dir tstamp="1" place="above" staff="12"><rend fontstyle="italic">Perdendo</rend></dir>
+              <dir tstamp="1" place="above" staff="13"><rend fontstyle="italic">Perdendo</rend></dir>
+              <dir tstamp="1" place="above" staff="14"><rend fontstyle="italic">Perdendo</rend></dir>
+              <dir tstamp="1" place="above" staff="15"><rend fontstyle="italic">Perdendo</rend></dir>
+              <dir tstamp="1" place="above" staff="16"><rend fontstyle="italic">Perdendo</rend></dir>
+              <dir tstamp="1" place="above" staff="17"><rend fontstyle="italic">Perdendo</rend></dir>
+              <dir tstamp="1" place="above" staff="18"><rend fontstyle="italic">Perdendo</rend></dir>
+              <dir tstamp="1" place="above" staff="19"><rend fontstyle="italic">Perdendo</rend></dir>
             </measure>
             <measure n="149" xml:id="d1e117427" width="134">
               <staff n="1">

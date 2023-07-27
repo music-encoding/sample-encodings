@@ -1,7 +1,7 @@
-<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<?xml version="1.0" encoding="UTF-8"?>
 <?xml-model href="http://music-encoding.org/schema/4.0.1/mei-all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
 <?xml-model href="http://music-encoding.org/schema/4.0.1/mei-all.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
-<mei xmlns="http://www.music-encoding.org/ns/mei" xmlns:xlink="http://www.w3.org/1999/xlink" meiversion="4.0.1">
+<mei xmlns="http://www.music-encoding.org/ns/mei" meiversion="4.0.1">
   <meiHead>
     <fileDesc>
       <titleStmt>
@@ -17,31 +17,35 @@
       </titleStmt>
       <pubStmt>
         <publisher>
-          <corpName role="publisher" codedval="5115204-6" auth.uri="http://d-nb.info/gnd/" auth="GND">Musikwissenschaftliches Seminar &lt;Detmold&gt; <address><addrLine>Gartenstrasse 20</addrLine><addrLine>32756 <geogName>Detmold</geogName>
-            </addrLine><addrLine><geogName>Germany</geogName></addrLine></address> </corpName>
+          <corpName role="publisher" codedval="5115204-6" auth.uri="http://d-nb.info/gnd/" auth="GND">Musikwissenschaftliches Seminar &lt;Detmold&gt;
+            <address>
+              <addrLine>Gartenstrasse 20</addrLine>
+              <addrLine>32756<geogName>Detmold</geogName></addrLine>
+              <addrLine><geogName>Germany</geogName></addrLine>
+            </address> </corpName>
         </publisher>
         <date>2011</date>
         <availability>
-          <useRestrict>This encoding is in the public domain. However, the sources used to create it
-            may be under copyright. We believe their use by the MEI project for educational and
-            research purposes is covered by the Fair Use doctrine. However, we will remove any
-            material from the project archive when requested to do so by the copyright
-            owner.</useRestrict>
+          <useRestrict>This encoding is in the public domain. However, the sources used to create it may be under copyright. We believe their use by the MEI project for educational and research purposes is covered by the Fair Use doctrine. However, we will remove any material from the project archive when requested to do so by the copyright owner.</useRestrict>
         </availability>
       </pubStmt>
       <seriesStmt>
-        <title>
-          <ref target="http://music-encoding.org/Support/MEI_Sample_Collection">MEI Sample
-            Collection</ref>
-        </title>
+        <title><ref target="http://music-encoding.org/Support/MEI_Sample_Collection">MEI Sample Collection</ref></title>
         <funder>
-          <corpName role="funder">German Research Foundation <address><addrLine>Kennedyallee
-            40</addrLine><addrLine><geogName>Bonn</geogName></addrLine><addrLine><geogName>Germany</geogName></addrLine></address> </corpName>
+          <corpName role="funder">German Research Foundation
+            <address>
+              <addrLine>Kennedyallee 40</addrLine>
+              <addrLine><geogName>Bonn</geogName></addrLine>
+              <addrLine><geogName>Germany</geogName></addrLine>
+            </address> </corpName>
         </funder>
         <funder>
-          <corpName role="funder">National Endowment for the Humanities <address><addrLine>1100
-            Pennsylvania Avenue N.W.</addrLine><addrLine><geogName>Washington, DC</geogName>
-            20004</addrLine><addrLine><geogName>United States</geogName></addrLine></address>
+          <corpName role="funder">National Endowment for the Humanities
+            <address>
+              <addrLine>1100 Pennsylvania Avenue N.W.</addrLine>
+              <addrLine><geogName>Washington, DC</geogName> 20004</addrLine>
+              <addrLine><geogName>United States</geogName></addrLine>
+            </address>
           </corpName>
         </funder>
         <respStmt>
@@ -61,8 +65,8 @@
             </lyricist>
             <annot label="language">German</annot>
             <annot>MusicXML file created using SharpEye Music Reader 2.</annot>
-            <annot>Transcoded MusicXML version 1.1 file using an XSLT stylesheet (musicxml2mei v.
-              3.0) <date>2015-04-21</date>.</annot>
+            <annot>Transcoded MusicXML version 1.1 file using an XSLT stylesheet (musicxml2mei v. 3.0)
+              <date>2015-04-21</date>.</annot>
           </bibl>
         </source>
       </sourceDesc>
@@ -77,14 +81,25 @@
           <name>mei30To40.xsl</name>
           <ptr target="https://github.com/music-encoding/encoding-tools/blob/main/mei30To40/mei30To40.xsl"/>
         </application>
+        <application version="0.0.1-alpha" xml:id="lint-mei-files_0.0.1-alpha">
+          <name>mei-files.xsl</name>
+          <ptr target="https://github.com/music-encoding/encoding-tools/blob/main/linting/mei-files.xsl"/>
+        </application>
       </appInfo>
       <editorialDecl>
         <normalization>
-          <p>Calculation of @tstamp and @tstamp2 values on control events, such as dir, dynam,
-            hairpin, etc., includes MusicXML offset values.</p>
-          <p>The parameters for musicxml2mei.xsl were set as follows: <list><li>accidStyle: "both",
-            </li><li>articStyle: "both", </li><li>formeWork: "preserve", </li><li>generateMIDI:
-            "true", </li><li>keepAttributes: "true", </li><li>keepRights: "false", </li><li>labelStyle: "attr", </li><li>layout: "preserve", </li><li>tieStyle: "both"</li></list> </p>
+          <p>Calculation of @tstamp and @tstamp2 values on control events, such as dir, dynam, hairpin, etc., includes MusicXML offset values.</p>
+          <p>The parameters for musicxml2mei.xsl were set as follows:<list>
+              <li>accidStyle: "both",</li>
+              <li>articStyle: "both",</li>
+              <li>formeWork: "preserve",</li>
+              <li>generateMIDI: "true",</li>
+              <li>keepAttributes: "true",</li>
+              <li>keepRights: "false",</li>
+              <li>labelStyle: "attr",</li>
+              <li>layout: "preserve",</li>
+              <li>tieStyle: "both"</li>
+            </list></p>
         </normalization>
       </editorialDecl>
       <projectDesc>
@@ -138,6 +153,21 @@
           <p>Converted to MEI version 4.0.0 using mei30To40.xsl, version 1.0 beta</p>
         </changeDesc>
         <date isodate="2019-01-03"/>
+      </change>
+      <change n="4">
+        <respStmt>
+          <persName>Benjamin W. Bohl</persName>
+          <persName>Stefan Münnich</persName>
+        </respStmt>
+        <changeDesc>
+          <p><list>
+              <li>update xml-model schema references to v4.0.1</li>
+              <li>update meiversion attributes to 4.0.1</li>
+              <li>add missing responsibility statements to change elements</li>
+              <li>unify documentation of mei version upgrades (appInfo and revisionDesc)</li>
+            </list></p>
+        </changeDesc>
+        <date isodate="2023-07-27T17:07:46+02:00"/>
       </change>
     </revisionDesc>
   </meiHead>

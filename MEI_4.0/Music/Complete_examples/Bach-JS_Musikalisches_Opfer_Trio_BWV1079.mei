@@ -1,12 +1,11 @@
-<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<?xml version="1.0" encoding="UTF-8"?>
 <?xml-model href="http://music-encoding.org/schema/4.0.1/mei-all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
 <?xml-model href="http://music-encoding.org/schema/4.0.1/mei-all.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
-<mei xmlns:xlink="http://www.w3.org/1999/xlink" xmlns="http://www.music-encoding.org/ns/mei" meiversion="4.0.1">
+<mei xmlns="http://www.music-encoding.org/ns/mei" meiversion="4.0.1">
   <meiHead>
     <fileDesc>
       <titleStmt>
-        <title>Das musikalische Opfer <titlePart type="subordinate">BWV 1079</titlePart> <titlePart type="subordinate">2. Triosonate c-Moll für Flöte, Violine und Basso continuo (1.
-          Satz)</titlePart> <titlePart type="subordinate">an electronic transcription</titlePart> </title>
+        <title>Das musikalische Opfer<titlePart type="subordinate">BWV 1079</titlePart> <titlePart type="subordinate">2. Triosonate c-Moll für Flöte, Violine und Basso continuo (1. Satz)</titlePart> <titlePart type="subordinate">an electronic transcription</titlePart></title>
         <composer>
           <persName role="creator" auth.uri="http://d-nb.info/gnd/" codedval="11850553X" auth="GND">Johann Sebastian Bach</persName>
         </composer>
@@ -16,24 +15,33 @@
       </titleStmt>
       <pubStmt>
         <publisher>
-          <corpName role="publisher" n="2" xml:id="corpName2" codedval="5115204-6" auth.uri="http://d-nb.info/gnd/" auth="GND">Musikwissenschaftliches Seminar <address><addrLine>Gartenstrasse 20</addrLine><addrLine>32756 <geogName codedval="7004442" auth.uri="http://vocab.getty.edu/page/tgn/" auth="TGN">Detmold</geogName> <geogName codedval="7000084" auth.uri="http://vocab.getty.edu/page/tgn/" auth="TGN">Germany</geogName> </addrLine></address> </corpName>
+          <corpName role="publisher" n="2" xml:id="corpName2" codedval="5115204-6" auth.uri="http://d-nb.info/gnd/" auth="GND">Musikwissenschaftliches Seminar
+            <address>
+              <addrLine>Gartenstrasse 20</addrLine>
+              <addrLine>32756<geogName codedval="7004442" auth.uri="http://vocab.getty.edu/page/tgn/" auth="TGN">Detmold</geogName> <geogName codedval="7000084" auth.uri="http://vocab.getty.edu/page/tgn/" auth="TGN">Germany</geogName></addrLine>
+            </address> </corpName>
         </publisher>
         <availability>
-          <useRestrict> This encoding is in the public domain. However, the sources used to create
-            it may be under copyright. We believe their use by the MEI project for educational and
-            research purposes is covered by the Fair Use doctrine. However, we will remove any
-            material from the project archive when requested to do so by the copyright owner.
-          </useRestrict>
+          <useRestrict>This encoding is in the public domain. However, the sources used to create it may be under copyright. We believe their use by the MEI project for educational and research purposes is covered by the Fair Use doctrine. However, we will remove any material from the project archive when requested to do so by the copyright owner.</useRestrict>
         </availability>
       </pubStmt>
       <seriesStmt>
         <title>MEI Sample Collection</title>
         <funder>
-          <corpName role="funder" codedval="2007744-0" auth.uri="http://d-nb.info/gnd/" auth="GND">German Research Foundation<address><addrLine>Kennedyallee 40</addrLine><addrLine><geogName codedval="7005090" auth.uri="http://vocab.getty.edu/page/tgn/" auth="TGN">Bonn</geogName></addrLine><addrLine><geogName codedval="7000084" auth.uri="http://vocab.getty.edu/page/tgn/" auth="TGN">Germany</geogName></addrLine></address> </corpName>
+          <corpName role="funder" codedval="2007744-0" auth.uri="http://d-nb.info/gnd/" auth="GND">German Research Foundation
+            <address>
+              <addrLine>Kennedyallee 40</addrLine>
+              <addrLine><geogName codedval="7005090" auth.uri="http://vocab.getty.edu/page/tgn/" auth="TGN">Bonn</geogName></addrLine>
+              <addrLine><geogName codedval="7000084" auth.uri="http://vocab.getty.edu/page/tgn/" auth="TGN">Germany</geogName></addrLine>
+            </address> </corpName>
         </funder>
         <funder>
-          <corpName role="funder" codedval="18183-3" auth.uri="http://d-nb.info/gnd/18183-3" auth="Deutsche Nationalbibliothek">National Endowment for the Humanities<address><addrLine>1100 Pennsylvania Avenue N.W.</addrLine><addrLine><geogName codedval="7013962" auth.uri="http://vocab.getty.edu/page/tgn/" auth="TGN">Washington,
-            DC</geogName> 20004</addrLine><addrLine><geogName codedval="7012149" auth.uri="http://vocab.getty.edu/page/tgn/" auth="TGN">United States</geogName></addrLine></address> </corpName>
+          <corpName role="funder" codedval="18183-3" auth.uri="http://d-nb.info/gnd/18183-3" auth="Deutsche Nationalbibliothek">National Endowment for the Humanities
+            <address>
+              <addrLine>1100 Pennsylvania Avenue N.W.</addrLine>
+              <addrLine><geogName codedval="7013962" auth.uri="http://vocab.getty.edu/page/tgn/" auth="TGN">Washington, DC</geogName>20004</addrLine>
+              <addrLine><geogName codedval="7012149" auth.uri="http://vocab.getty.edu/page/tgn/" auth="TGN">United States</geogName></addrLine>
+            </address> </corpName>
         </funder>
         <respStmt>
           <corpName role="publisher">MEI Project</corpName>
@@ -56,6 +64,10 @@
         <application version="v1.0_beta" xml:id="mei30To40">
           <name>mei30To40.xsl</name>
           <ptr target="https://github.com/music-encoding/encoding-tools/blob/main/mei30To40/mei30To40.xsl"/>
+        </application>
+        <application version="0.0.1-alpha" xml:id="lint-mei-files_0.0.1-alpha">
+          <name>mei-files.xsl</name>
+          <ptr target="https://github.com/music-encoding/encoding-tools/blob/main/linting/mei-files.xsl"/>
         </application>
       </appInfo>
       <samplingDecl>
@@ -137,7 +149,9 @@
                 <trill staff="2" tstamp="2" place="above"/>
                 <harm staff="3" tstamp="2" place="below">
                   <fb>
-                    <f>6<symbol glyph.num="U+266E"/> </f>
+                    <f>6
+                      <symbol glyph.num="U+266E"/>
+                    </f>
                   </fb>
                 </harm>
                 <dir staff="1" place="above" tstamp="0.5">Largo.</dir>
@@ -170,8 +184,7 @@
           <title>Das Musikalische Opfer</title>
           <title type="subordinate">1. Satz, Trio</title>
           <title type="work">BWV 1079</title>
-          <title type="uniform">Musikalisches Opfer &lt;2. Triosonate c-Moll für Flöte, Violine und
-            Basso continuo&gt;</title>
+          <title type="uniform">Musikalisches Opfer &lt;2. Triosonate c-Moll für Flöte, Violine und Basso continuo&gt;</title>
           <respStmt>
             <persName role="composer" auth.uri="http://d-nb.info/gnd/" codedval="11850553X" auth="GND">Johann Sebastian Bach</persName>
           </respStmt>
@@ -179,7 +192,8 @@
         <pubStmt>
           <respStmt>
             <persName role="editor">Alfred Dörffel (1821–1905)</persName>
-            <corpName role="publisher">Breitkopf &amp; Härtel <geogName>Leipzig</geogName>
+            <corpName role="publisher">Breitkopf &amp; Härtel
+              <geogName>Leipzig</geogName>
             </corpName>
           </respStmt>
           <date>1885</date>
@@ -188,7 +202,7 @@
           <plateNum>B.W. XXXI(2).</plateNum>
         </physDesc>
         <seriesStmt>
-          <title>Bach-Gesellschaft, Ausgabe <num>Bd. 31.2</num> </title>
+          <title>Bach-Gesellschaft, Ausgabe<num>Bd. 31.2</num></title>
         </seriesStmt>
       </manifestation>
     </manifestationList>
@@ -198,7 +212,7 @@
           <persName>Maja Hartwig</persName>
         </respStmt>
         <changeDesc>
-          <p>Transformation to the new schema with <ref target="transformation.xsl" targettype="xsl_stylesheet">transformation.xsl</ref> </p>
+          <p>Transformation to the new schema with<ref target="transformation.xsl" targettype="xsl_stylesheet">transformation.xsl</ref></p>
         </changeDesc>
         <date isodate="2012-07-18"/>
       </change>
@@ -237,6 +251,21 @@
           <p>Converted to MEI version 4.0.0 using mei30To40.xsl, version 1.0 beta</p>
         </changeDesc>
         <date isodate="2019-01-03"/>
+      </change>
+      <change n="7">
+        <respStmt>
+          <persName>Benjamin W. Bohl</persName>
+          <persName>Stefan Münnich</persName>
+        </respStmt>
+        <changeDesc>
+          <p><list>
+              <li>update xml-model schema references to v4.0.1</li>
+              <li>update meiversion attributes to 4.0.1</li>
+              <li>add missing responsibility statements to change elements</li>
+              <li>unify documentation of mei version upgrades (appInfo and revisionDesc)</li>
+            </list></p>
+        </changeDesc>
+        <date isodate="2023-07-27T17:08:44+02:00"/>
       </change>
     </revisionDesc>
   </meiHead>
@@ -290,7 +319,9 @@
               <trill staff="2" tstamp="2" place="above"/>
               <harm staff="3" tstamp="2" place="below">
                 <fb>
-                  <f>6<symbol glyph.num="U+266E"/> </f>
+                  <f>6
+                    <symbol glyph.num="U+266E"/>
+                  </f>
                 </fb>
               </harm>
               <dir staff="1" place="above" tstamp="0.5">Largo.</dir>
@@ -335,7 +366,9 @@
               </harm>
               <harm staff="3" place="below" tstamp="3">
                 <fb>
-                  <f>5<symbol glyph.num="U+266D"/> </f>
+                  <f>5
+                    <symbol glyph.num="U+266D"/>
+                  </f>
                 </fb>
               </harm>
             </measure>
@@ -389,7 +422,9 @@
               <trill staff="1" tstamp="2" place="above"/>
               <harm staff="3" tstamp="2" place="below">
                 <fb>
-                  <f>6<symbol glyph.num="U+266E"/> </f>
+                  <f>6
+                    <symbol glyph.num="U+266E"/>
+                  </f>
                 </fb>
               </harm>
             </measure>
@@ -443,7 +478,9 @@
               <harm staff="3" place="below" tstamp="2">
                 <fb>
                   <f>6</f>
-                  <f>5<symbol glyph.num="U+266D"/> </f>
+                  <f>5
+                    <symbol glyph.num="U+266D"/>
+                  </f>
                 </fb>
               </harm>
             </measure>
@@ -680,7 +717,9 @@
               </harm>
               <harm staff="3" place="below" tstamp="3">
                 <fb>
-                  <f>5<symbol glyph.num="U+266E"/> </f>
+                  <f>5
+                    <symbol glyph.num="U+266E"/>
+                  </f>
                   <f>
                     <symbol glyph.num="U+266F"/>
                   </f>
@@ -798,7 +837,9 @@
               <harm staff="3" place="below" tstamp="2">
                 <fb>
                   <f>6</f>
-                  <f>5<symbol glyph.num="U+266D"/> </f>
+                  <f>5
+                    <symbol glyph.num="U+266D"/>
+                  </f>
                 </fb>
               </harm>
               <slur staff="2" startid="#m10_s2_e5" endid="#m10_s2_e8" curvedir="above"/>
@@ -920,8 +961,12 @@
               </harm>
               <harm staff="3" place="below" tstamp="2">
                 <fb>
-                  <f>6<symbol glyph.num="U+266E"/> </f>
-                  <f>5<symbol glyph.num="U+266D"/> </f>
+                  <f>6
+                    <symbol glyph.num="U+266E"/>
+                  </f>
+                  <f>5
+                    <symbol glyph.num="U+266D"/>
+                  </f>
                 </fb>
               </harm>
               <harm staff="3" place="below" tstamp="3">
@@ -964,7 +1009,9 @@
               <slur staff="3" startid="#m13_s3_e1" endid="#m13_s3_e6"/>
               <harm staff="3" place="below" tstamp="2">
                 <fb>
-                  <f>6<symbol glyph.num="U+266E"/> </f>
+                  <f>6
+                    <symbol glyph.num="U+266E"/>
+                  </f>
                 </fb>
               </harm>
               <trill staff="1" place="above" tstamp="2"/>
@@ -1012,7 +1059,9 @@
               <harm staff="3" place="below" tstamp="2">
                 <fb>
                   <f>6</f>
-                  <f>5<symbol glyph.num="U+266D"/> </f>
+                  <f>5
+                    <symbol glyph.num="U+266D"/>
+                  </f>
                 </fb>
               </harm>
             </measure>

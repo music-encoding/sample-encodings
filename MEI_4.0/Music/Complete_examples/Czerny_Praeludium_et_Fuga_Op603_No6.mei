@@ -1,12 +1,11 @@
-<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<?xml version="1.0" encoding="UTF-8"?>
 <?xml-model href="http://music-encoding.org/schema/4.0.1/mei-all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
 <?xml-model href="http://music-encoding.org/schema/4.0.1/mei-all.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
-<mei xmlns:xlink="http://www.w3.org/1999/xlink" xmlns="http://www.music-encoding.org/ns/mei" meiversion="4.0.1">
+<mei xmlns="http://www.music-encoding.org/ns/mei" meiversion="4.0.1">
   <meiHead>
     <fileDesc>
       <titleStmt>
-        <title>Praeludium et Fuga (d-Moll) op. 603/6 <titlePart type="subordinate">an electronic
-          transcription</titlePart> </title>
+        <title>Praeludium et Fuga (d-Moll) op. 603/6<titlePart type="subordinate">an electronic transcription</titlePart></title>
         <composer>
           <persName role="creator" auth="GND" auth.uri="http://d-nb.info/gnd/" codedval="118677667">Carl Czerny</persName>
         </composer>
@@ -21,28 +20,31 @@
         </publisher>
         <address>
           <addrLine>Gartenstrasse 20</addrLine>
-          <addrLine>32756 <geogName codedval="7004442" auth.uri="http://vocab.getty.edu/page/tgn/" auth="TGN">Detmold</geogName> </addrLine>
-          <addrLine>
-            <geogName codedval="7000084" auth.uri="http://vocab.getty.edu/page/tgn/" auth="TGN">Germany</geogName>
-          </addrLine>
+          <addrLine>32756<geogName codedval="7004442" auth.uri="http://vocab.getty.edu/page/tgn/" auth="TGN">Detmold</geogName></addrLine>
+          <addrLine><geogName codedval="7000084" auth.uri="http://vocab.getty.edu/page/tgn/" auth="TGN">Germany</geogName></addrLine>
         </address>
         <date>2011</date>
         <availability>
-          <useRestrict>This encoding is in the public domain. However, the sources used to create it
-            may be under copyright. We believe their use by the MEI project for educational and
-            research purposes is covered by the Fair Use doctrine. However, we will remove any
-            material from the project archive when requested to do so by the copyright
-            owner.</useRestrict>
+          <useRestrict>This encoding is in the public domain. However, the sources used to create it may be under copyright. We believe their use by the MEI project for educational and research purposes is covered by the Fair Use doctrine. However, we will remove any material from the project archive when requested to do so by the copyright owner.</useRestrict>
         </availability>
       </pubStmt>
       <seriesStmt>
         <title>MEI Sample Collection</title>
         <funder>
-          <corpName role="funder" codedval="2007744-0" auth.uri="http://d-nb.info/gnd/" auth="GND">German Research Foundation<address><addrLine>Kennedyallee 40</addrLine><addrLine><geogName codedval="7005090" auth.uri="http://vocab.getty.edu/page/tgn/" auth="TGN">Bonn</geogName></addrLine><addrLine><geogName codedval="7000084" auth.uri="http://vocab.getty.edu/page/tgn/" auth="TGN">Germany</geogName></addrLine></address> </corpName>
+          <corpName role="funder" codedval="2007744-0" auth.uri="http://d-nb.info/gnd/" auth="GND">German Research Foundation
+            <address>
+              <addrLine>Kennedyallee 40</addrLine>
+              <addrLine><geogName codedval="7005090" auth.uri="http://vocab.getty.edu/page/tgn/" auth="TGN">Bonn</geogName></addrLine>
+              <addrLine><geogName codedval="7000084" auth.uri="http://vocab.getty.edu/page/tgn/" auth="TGN">Germany</geogName></addrLine>
+            </address> </corpName>
         </funder>
         <funder>
-          <corpName role="funder" codedval="18183-3" auth.uri="http://d-nb.info/gnd/18183-3" auth="Deutsche Nationalbibliothek">National Endowment for the Humanities<address><addrLine>1100 Pennsylvania Avenue N.W.</addrLine><addrLine><geogName codedval="7013962" auth.uri="http://vocab.getty.edu/page/tgn/" auth="TGN">Washington,
-            DC</geogName> 20004</addrLine><addrLine><geogName codedval="7012149" auth.uri="http://vocab.getty.edu/page/tgn/" auth="TGN">United States</geogName></addrLine></address> </corpName>
+          <corpName role="funder" codedval="18183-3" auth.uri="http://d-nb.info/gnd/18183-3" auth="Deutsche Nationalbibliothek">National Endowment for the Humanities
+            <address>
+              <addrLine>1100 Pennsylvania Avenue N.W.</addrLine>
+              <addrLine><geogName codedval="7013962" auth.uri="http://vocab.getty.edu/page/tgn/" auth="TGN">Washington, DC</geogName>20004</addrLine>
+              <addrLine><geogName codedval="7012149" auth.uri="http://vocab.getty.edu/page/tgn/" auth="TGN">United States</geogName></addrLine>
+            </address> </corpName>
         </funder>
         <respStmt>
           <corpName role="publisher">MEI Project</corpName>
@@ -94,10 +96,13 @@
           <name>mei30To40.xsl</name>
           <ptr target="https://github.com/music-encoding/encoding-tools/blob/main/mei30To40/mei30To40.xsl"/>
         </application>
+        <application version="0.0.1-alpha" xml:id="lint-mei-files_0.0.1-alpha">
+          <name>mei-files.xsl</name>
+          <ptr target="https://github.com/music-encoding/encoding-tools/blob/main/linting/mei-files.xsl"/>
+        </application>
       </appInfo>
       <samplingDecl>
-        <p>The example includes layout information ans additional attributes whic are artifacts from
-          MusicXML. The file was not cleaned up with a stylesheet.</p>
+        <p>The example includes layout information ans additional attributes whic are artifacts from MusicXML. The file was not cleaned up with a stylesheet.</p>
       </samplingDecl>
       <classDecls>
         <taxonomy>
@@ -161,17 +166,16 @@
           <name/>
         </respStmt>
         <changeDesc>
-          <p>The original MusicXML file was generated using Finale 2009 for Macintosh and Dolet
-            Light for Finale 2009.</p>
+          <p>The original MusicXML file was generated using Finale 2009 for Macintosh and Dolet Light for Finale 2009.</p>
         </changeDesc>
         <date isodate="2011-10-11"/>
       </change>
       <change n="2">
         <respStmt>
-          <persName xml:id="MH"> Maja Hartwig </persName>
+          <persName xml:id="MH">Maja Hartwig</persName>
         </respStmt>
         <changeDesc>
-          <p>Transcoded from a MusicXML version 2.0 file on 2011-10-11 using the <ref target="#xsl_mxl2mei_2.2.3">musicxml2mei</ref> stylesheet. </p>
+          <p>Transcoded from a MusicXML version 2.0 file on 2011-10-11 using the<ref target="#xsl_mxl2mei_2.2.3">musicxml2mei</ref>stylesheet.</p>
         </changeDesc>
         <date isodate="2011-10-11"/>
       </change>
@@ -202,6 +206,21 @@
         </changeDesc>
         <date isodate="2019-01-03"/>
       </change>
+      <change n="7">
+        <respStmt>
+          <persName>Benjamin W. Bohl</persName>
+          <persName>Stefan Münnich</persName>
+        </respStmt>
+        <changeDesc>
+          <p><list>
+              <li>update xml-model schema references to v4.0.1</li>
+              <li>update meiversion attributes to 4.0.1</li>
+              <li>add missing responsibility statements to change elements</li>
+              <li>unify documentation of mei version upgrades (appInfo and revisionDesc)</li>
+            </list></p>
+        </changeDesc>
+        <date isodate="2023-07-27T17:08:24+02:00"/>
+      </change>
     </revisionDesc>
   </meiHead>
   <music>
@@ -210,19 +229,13 @@
         <score>
           <scoreDef meter.count="4" meter.unit="4" meter.sym="common" key.sig="1f" key.mode="minor" optimize="true" page.height="1710" page.width="1209" page.leftmar="110" page.rightmar="73" page.topmar="73" page.botmar="73" system.leftmar="0" system.rightmar="0" spacing.system="110" system.topmar="67" spacing.staff="70" music.name="Maestro" music.size="19.7pt" text.name="Times New Roman" text.size="8.2pt" vu.height="0.8678mm">
             <pgHead>
-              <anchoredText x="623" y="1631">
-                <rend fontsize="18.9pt" halign="center" valign="top">Praeludium et Fuga
-                  (d-Moll)</rend>
-                <lb/>
-                <rend fontsize="19.7pt"> <lb/> </rend>
-                <lb/>
-                <rend fontsize="11.5pt">op. 603 / 6</rend>
-              </anchoredText>
-              <anchoredText x="1136" y="1579">
-                <rend fontsize="10.7pt" halign="right" valign="top">Carl CZERNY</rend>
-                <lb/>
-                <rend fontsize="9.8pt"><lb/>(1791-1857)</rend>
-              </anchoredText>
+              <anchoredText x="623" y="1631"><rend fontsize="18.9pt" halign="center" valign="top">Praeludium et Fuga (d-Moll)</rend>
+                <lb/><rend fontsize="19.7pt"> 
+                  <lb/> </rend>
+                <lb/><rend fontsize="11.5pt">op. 603 / 6</rend></anchoredText>
+              <anchoredText x="1136" y="1579"><rend fontsize="10.7pt" halign="right" valign="top">Carl CZERNY</rend>
+                <lb/><rend fontsize="9.8pt">
+                  <lb/>(1791-1857)</rend></anchoredText>
             </pgHead>
             <staffGrp>
               <staffGrp xml:id="P1" symbol="brace" bar.thru="true">
@@ -296,12 +309,8 @@
                   <note xml:id="d1e592" pname="d" oct="2" dur="1" dur.ppq="8"/>
                 </layer>
               </staff>
-              <dir tstamp="1" place="above" staff="1" ho="-6.1">
-                <rend fontsize="10.7pt">Mit vollem Wercke</rend>
-              </dir>
-              <dir tstamp="1" place="above" staff="1" ho="-6.1">
-                <rend fontsize="9.8pt" fontweight="bold">Maestoso</rend>
-              </dir>
+              <dir tstamp="1" place="above" staff="1" ho="-6.1"><rend fontsize="10.7pt">Mit vollem Wercke</rend></dir>
+              <dir tstamp="1" place="above" staff="1" ho="-6.1"><rend fontsize="9.8pt" fontweight="bold">Maestoso</rend></dir>
             </measure>
             <measure n="2" xml:id="d1e604" width="178">
               <staff n="1">
@@ -1580,9 +1589,7 @@
                   <mRest xml:id="d1e9992" dur.ppq="8"/>
                 </layer>
               </staff>
-              <dir tstamp="1" place="above" staff="1" ho="-0.7">
-                <rend fontsize="9.8pt" fontweight="bold">Moderato</rend>
-              </dir>
+              <dir tstamp="1" place="above" staff="1" ho="-0.7"><rend fontsize="9.8pt" fontweight="bold">Moderato</rend></dir>
               <dir tstamp="1" place="above" staff="1">[Fuge]</dir>
             </measure>
             <measure n="30" xml:id="d1e9998" width="137">

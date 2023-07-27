@@ -1,7 +1,7 @@
-<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<?xml version="1.0" encoding="UTF-8"?>
 <?xml-model href="http://music-encoding.org/schema/4.0.1/mei-all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
 <?xml-model href="http://music-encoding.org/schema/4.0.1/mei-all.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
-<mei xmlns="http://www.music-encoding.org/ns/mei" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:functx="http://www.functx.com" meiversion="4.0.1">
+<mei xmlns="http://www.music-encoding.org/ns/mei" meiversion="4.0.1">
   <meiHead>
     <fileDesc>
       <titleStmt>
@@ -18,7 +18,7 @@
         <source>
           <bibl>
             <identifier label="electronic" type="URI">http://www.musicxml.com/music-in-musicxml/example-set/</identifier>
-            <title>Das Veilchen </title>
+            <title>Das Veilchen</title>
           </bibl>
         </source>
       </sourceDesc>
@@ -29,14 +29,16 @@
           <name>mei30To40.xsl</name>
           <ptr target="https://github.com/music-encoding/encoding-tools/blob/main/mei30To40/mei30To40.xsl"/>
         </application>
+        <application version="0.0.1-alpha" xml:id="lint-mei-files_0.0.1-alpha">
+          <name>mei-files.xsl</name>
+          <ptr target="https://github.com/music-encoding/encoding-tools/blob/main/linting/mei-files.xsl"/>
+        </application>
       </appInfo>
       <editorialDecl>
-        <p>The example shows the encoding with articulation encoded with attributes directly on
-          note.</p>
+        <p>The example shows the encoding with articulation encoded with attributes directly on note.</p>
       </editorialDecl>
       <projectDesc>
-        <p>Transcoded from a MusicXML version 3.0 file on <date>2013-04-16</date>using an XSLT
-          stylesheet (musicxml2mei v. 3.0).</p>
+        <p>Transcoded from a MusicXML version 3.0 file on<date>2013-04-16</date>using an XSLT stylesheet (musicxml2mei v. 3.0).</p>
       </projectDesc>
     </encodingDesc>
     <revisionDesc>
@@ -45,6 +47,21 @@
           <p>Converted to MEI version 4.0.0 using mei30To40.xsl, version 1.0 beta</p>
         </changeDesc>
         <date isodate="2019-01-03"/>
+      </change>
+      <change n="2">
+        <respStmt>
+          <persName>Benjamin W. Bohl</persName>
+          <persName>Stefan Münnich</persName>
+        </respStmt>
+        <changeDesc>
+          <p><list>
+              <li>update xml-model schema references to v4.0.1</li>
+              <li>update meiversion attributes to 4.0.1</li>
+              <li>add missing responsibility statements to change elements</li>
+              <li>unify documentation of mei version upgrades (appInfo and revisionDesc)</li>
+            </list></p>
+        </changeDesc>
+        <date isodate="2023-07-27T17:07:54+02:00"/>
       </change>
     </revisionDesc>
   </meiHead>
@@ -81,9 +98,7 @@
                   <note xml:id="d1e248" pname="g" oct="3" dur="8" stem.dir="down"/>
                 </layer>
               </staff>
-              <dynam tstamp="1" place="below" staff="2">
-                <rend halign="left">p</rend>
-              </dynam>
+              <dynam tstamp="1" place="below" staff="2"><rend halign="left">p</rend></dynam>
               <tempo tstamp="1" place="above" staff="2">Allegretto</tempo>
             </measure>
             <measure n="1" xml:id="d1e265">
@@ -299,9 +314,7 @@
                   </beam>
                 </layer>
               </staff>
-              <dynam tstamp="1.125" place="below" staff="2">
-                <rend halign="left">f</rend>
-              </dynam>
+              <dynam tstamp="1.125" place="below" staff="2"><rend halign="left">f</rend></dynam>
               <slur tstamp="1.5" startid="#d1e1369" curvedir="below" tstamp2="0m+2.5" endid="#d1e1443" staff="2"/>
               <slur tstamp="1.5" startid="#d1e1521" curvedir="above" tstamp2="0m+2.5" endid="#d1e1593" staff="3"/>
             </measure>
@@ -352,9 +365,7 @@
                   </beam>
                 </layer>
               </staff>
-              <dynam tstamp="1.75" place="below" staff="2">
-                <rend halign="left">p</rend>
-              </dynam>
+              <dynam tstamp="1.75" place="below" staff="2"><rend halign="left">p</rend></dynam>
               <slur tstamp="2" startid="#d1e1728" curvedir="below" tstamp2="0m+2.5" endid="#d1e1748" staff="2"/>
             </measure>
             <measure n="7" xml:id="d1e1915">
@@ -705,9 +716,7 @@
                   </beam>
                 </layer>
               </staff>
-              <dynam tstamp="1.125" place="below" staff="2">
-                <rend halign="left">f</rend>
-              </dynam>
+              <dynam tstamp="1.125" place="below" staff="2"><rend halign="left">f</rend></dynam>
               <slur tstamp="1.5" startid="#d1e3601" curvedir="below" tstamp2="0m+2.5" endid="#d1e3675" staff="2"/>
               <slur tstamp="1.5" startid="#d1e3753" curvedir="above" tstamp2="0m+2.5" endid="#d1e3825" staff="3"/>
             </measure>
@@ -776,9 +785,7 @@
                 </layer>
               </staff>
               <slur tstamp="2" startid="#d1e3910" curvedir="below" tstamp2="0m+2.5" endid="#d1e3933" staff="1"/>
-              <dynam tstamp="2" place="below" staff="2">
-                <rend halign="left">p</rend>
-              </dynam>
+              <dynam tstamp="2" place="below" staff="2"><rend halign="left">p</rend></dynam>
               <slur tstamp="2" startid="#d1e4007" curvedir="below" tstamp2="0m+2.5" endid="#d1e4061" staff="2"/>
             </measure>
             <measure n="14" xml:id="d1e4233">

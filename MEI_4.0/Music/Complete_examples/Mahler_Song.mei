@@ -1,12 +1,11 @@
-<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<?xml version="1.0" encoding="UTF-8"?>
 <?xml-model href="http://music-encoding.org/schema/4.0.1/mei-all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
 <?xml-model href="http://music-encoding.org/schema/4.0.1/mei-all.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
-<mei xmlns:xlink="http://www.w3.org/1999/xlink" xmlns="http://www.music-encoding.org/ns/mei" meiversion="4.0.1">
+<mei xmlns="http://www.music-encoding.org/ns/mei" meiversion="4.0.1">
   <meiHead>
     <fileDesc>
       <titleStmt>
-        <title>Die zwei blauen Augen <titlePart type="subordinate">an electronic
-          transcription</titlePart> </title>
+        <title>Die zwei blauen Augen<titlePart type="subordinate">an electronic transcription</titlePart></title>
         <composer>
           <persName role="creator">Gustav Mahler</persName>
         </composer>
@@ -21,28 +20,31 @@
         </publisher>
         <address>
           <addrLine>Gartenstrasse 20</addrLine>
-          <addrLine>32756 <geogName codedval="7004442" auth.uri="http://vocab.getty.edu/page/tgn/" auth="TGN">Detmold</geogName> </addrLine>
-          <addrLine>
-            <geogName codedval="7000084" auth.uri="http://vocab.getty.edu/page/tgn/" auth="TGN">Germany</geogName>
-          </addrLine>
+          <addrLine>32756<geogName codedval="7004442" auth.uri="http://vocab.getty.edu/page/tgn/" auth="TGN">Detmold</geogName></addrLine>
+          <addrLine><geogName codedval="7000084" auth.uri="http://vocab.getty.edu/page/tgn/" auth="TGN">Germany</geogName></addrLine>
         </address>
         <date>2011</date>
         <availability>
-          <useRestrict>This encoding is in the public domain. However, the sources used to create it
-            may be under copyright. We believe their use by the MEI project for educational and
-            research purposes is covered by the Fair Use doctrine. However, we will remove any
-            material from the project archive when requested to do so by the copyright
-            owner.</useRestrict>
+          <useRestrict>This encoding is in the public domain. However, the sources used to create it may be under copyright. We believe their use by the MEI project for educational and research purposes is covered by the Fair Use doctrine. However, we will remove any material from the project archive when requested to do so by the copyright owner.</useRestrict>
         </availability>
       </pubStmt>
       <seriesStmt>
         <title>MEI Sample Collection</title>
         <funder>
-          <corpName role="funder" codedval="2007744-0" auth.uri="http://d-nb.info/gnd/" auth="GND">German Research Foundation<address><addrLine>Kennedyallee 40</addrLine><addrLine><geogName codedval="7005090" auth.uri="http://vocab.getty.edu/page/tgn/" auth="TGN">Bonn</geogName></addrLine><addrLine><geogName codedval="7000084" auth.uri="http://vocab.getty.edu/page/tgn/" auth="TGN">Germany</geogName></addrLine></address> </corpName>
+          <corpName role="funder" codedval="2007744-0" auth.uri="http://d-nb.info/gnd/" auth="GND">German Research Foundation
+            <address>
+              <addrLine>Kennedyallee 40</addrLine>
+              <addrLine><geogName codedval="7005090" auth.uri="http://vocab.getty.edu/page/tgn/" auth="TGN">Bonn</geogName></addrLine>
+              <addrLine><geogName codedval="7000084" auth.uri="http://vocab.getty.edu/page/tgn/" auth="TGN">Germany</geogName></addrLine>
+            </address> </corpName>
         </funder>
         <funder>
-          <corpName role="funder" codedval="18183-3" auth.uri="http://d-nb.info/gnd/18183-3" auth="Deutsche Nationalbibliothek">National Endowment for the Humanities<address><addrLine>1100 Pennsylvania Avenue N.W.</addrLine><addrLine><geogName codedval="7013962" auth.uri="http://vocab.getty.edu/page/tgn/" auth="TGN">Washington,
-            DC</geogName> 20004</addrLine><addrLine><geogName codedval="7012149" auth.uri="http://vocab.getty.edu/page/tgn/" auth="TGN">United States</geogName></addrLine></address> </corpName>
+          <corpName role="funder" codedval="18183-3" auth.uri="http://d-nb.info/gnd/18183-3" auth="Deutsche Nationalbibliothek">National Endowment for the Humanities
+            <address>
+              <addrLine>1100 Pennsylvania Avenue N.W.</addrLine>
+              <addrLine><geogName codedval="7013962" auth.uri="http://vocab.getty.edu/page/tgn/" auth="TGN">Washington, DC</geogName>20004</addrLine>
+              <addrLine><geogName codedval="7012149" auth.uri="http://vocab.getty.edu/page/tgn/" auth="TGN">United States</geogName></addrLine>
+            </address> </corpName>
         </funder>
         <respStmt>
           <corpName role="publisher">MEI Project</corpName>
@@ -68,6 +70,10 @@
         <application version="v1.0_beta" xml:id="mei30To40">
           <name>mei30To40.xsl</name>
           <ptr target="https://github.com/music-encoding/encoding-tools/blob/main/mei30To40/mei30To40.xsl"/>
+        </application>
+        <application version="0.0.1-alpha" xml:id="lint-mei-files_0.0.1-alpha">
+          <name>mei-files.xsl</name>
+          <ptr target="https://github.com/music-encoding/encoding-tools/blob/main/linting/mei-files.xsl"/>
         </application>
       </appInfo>
       <samplingDecl>
@@ -208,7 +214,7 @@
         <history>
           <eventList>
             <event>
-              <p>First Publication<date>1897</date> </p>
+              <p>First Publication<date>1897</date></p>
             </event>
           </eventList>
         </history>
@@ -271,33 +277,31 @@
           <name>Unknown</name>
         </respStmt>
         <changeDesc>
-          <p>The original MusicXML file was generated using Finale 2011 for Windows, Dolet 6.0 for
-            Finale.</p>
+          <p>The original MusicXML file was generated using Finale 2011 for Windows, Dolet 6.0 for Finale.</p>
         </changeDesc>
         <date isodate="2011-08-08"/>
       </change>
       <change n="2">
         <respStmt>
-          <persName xml:id="MH"> Maja Hartwig </persName>
+          <persName xml:id="MH">Maja Hartwig</persName>
         </respStmt>
         <changeDesc>
-          <p>Transcoded from a MusicXML version 3.0 file on 2011-05-12 using the <ref target="#xsl_mxl2mei_2.2.3">musicxml2mei</ref> stylesheet. </p>
+          <p>Transcoded from a MusicXML version 3.0 file on 2011-05-12 using the<ref target="#xsl_mxl2mei_2.2.3">musicxml2mei</ref>stylesheet.</p>
         </changeDesc>
         <date isodate="2011-05-12"/>
       </change>
       <change n="3">
         <respStmt>
-          <persName xml:id="KR"> Kristina Richts </persName>
+          <persName xml:id="KR">Kristina Richts</persName>
         </respStmt>
         <changeDesc>
-          <p> Cleaned up MEI file automatically using <ref target="#xsl_ppq">ppq.xsl</ref>. </p>
+          <p>Cleaned up MEI file automatically using<ref target="#xsl_ppq">ppq.xsl</ref>.</p>
         </changeDesc>
         <date isodate="2011-10-22"/>
       </change>
       <change n="4" resp="#KR">
         <changeDesc>
-          <p> Cleaned up MEI file automatically using <ref target="#xsl_header">Header.xsl</ref>.
-          </p>
+          <p>Cleaned up MEI file automatically using<ref target="#xsl_header">Header.xsl</ref>.</p>
         </changeDesc>
         <date isodate="2011-12-01"/>
       </change>
@@ -328,6 +332,21 @@
         </changeDesc>
         <date isodate="2019-01-03"/>
       </change>
+      <change n="9">
+        <respStmt>
+          <persName>Benjamin W. Bohl</persName>
+          <persName>Stefan Münnich</persName>
+        </respStmt>
+        <changeDesc>
+          <p><list>
+              <li>update xml-model schema references to v4.0.1</li>
+              <li>update meiversion attributes to 4.0.1</li>
+              <li>add missing responsibility statements to change elements</li>
+              <li>unify documentation of mei version upgrades (appInfo and revisionDesc)</li>
+            </list></p>
+        </changeDesc>
+        <date isodate="2023-07-27T17:10:22+02:00"/>
+      </change>
     </revisionDesc>
   </meiHead>
   <music>
@@ -336,10 +355,9 @@
         <score>
           <scoreDef meter.count="4" meter.unit="4" key.sig="1s" key.mode="major">
             <pgHead>
-              <anchoredText>
-                <rend fontsize="14pt" halign="center" valign="top">Mahler<lb/>Lieder eines fahrenden
-                  Gesellen<lb/>Die zwei blauen Augen</rend>
-              </anchoredText>
+              <anchoredText><rend fontsize="14pt" halign="center" valign="top">Mahler
+                  <lb/>Lieder eines fahrenden Gesellen
+                  <lb/>Die zwei blauen Augen</rend></anchoredText>
             </pgHead>
             <staffGrp>
               <staffDef n="1" xml:id="P1" lines="5" clef.line="2" clef.shape="G" key.sig="1s" key.mode="major">
@@ -393,13 +411,8 @@
                 </layer>
               </staff>
               <dynam tstamp="1" place="above" staff="1">pp</dynam>
-              <dir tstamp="1" place="above" staff="1">
-                <rend fontsize="10.5pt" fontweight="bold">Alla Marcia</rend>
-              </dir>
-              <dir tstamp="1" place="above" staff="1" xml:lang="de">
-                <rend fontstyle="italic">Durchaus mit geheimnissvoll schwermüthigen Ausdruck (nicht
-                  schleppen)</rend>
-              </dir>
+              <dir tstamp="1" place="above" staff="1"><rend fontsize="10.5pt" fontweight="bold">Alla Marcia</rend></dir>
+              <dir tstamp="1" place="above" staff="1" xml:lang="de"><rend fontstyle="italic">Durchaus mit geheimnissvoll schwermüthigen Ausdruck (nicht schleppen)</rend></dir>
               <dynam tstamp="1" place="below" staff="2">pp</dynam>
               <slur tstamp="1" curvedir="above" startid="#d1e284" endid="#d1e323" bezier="11 12 -13 11" staff="2" tstamp2="0m+1.5"/>
             </measure>
@@ -1197,9 +1210,7 @@
                   <rest xml:id="d1e5248" dur="4"/>
                 </layer>
               </staff>
-              <dir tstamp="5" place="above" staff="1">
-                <rend fontstyle="italic">espress.</rend>
-              </dir>
+              <dir tstamp="5" place="above" staff="1"><rend fontstyle="italic">espress.</rend></dir>
               <slur tstamp="5" curvedir="below" startid="#d1e4819" endid="#d1e4843" staff="1" tstamp2="0m+5.5"/>
               <slur tstamp="2" curvedir="above" startid="#d1e5067" endid="#d1e5183" staff="3" tstamp2="0m+3"/>
               <slur tstamp="5" curvedir="above" startid="#d1e4967" endid="#d1e5006" bezier="7 10 -10 8" staff="2" tstamp2="0m+5.5"/>

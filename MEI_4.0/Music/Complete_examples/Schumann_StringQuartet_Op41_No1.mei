@@ -1,11 +1,11 @@
-<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<?xml version="1.0" encoding="UTF-8"?>
 <?xml-model href="http://music-encoding.org/schema/4.0.1/mei-all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
 <?xml-model href="http://music-encoding.org/schema/4.0.1/mei-all.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
-<mei xmlns:xlink="http://www.w3.org/1999/xlink" xmlns="http://www.music-encoding.org/ns/mei" meiversion="4.0.1">
+<mei xmlns="http://www.music-encoding.org/ns/mei" meiversion="4.0.1">
   <meiHead>
     <fileDesc>
       <titleStmt>
-        <title>String Quartet No. 1 <titlePart type="subordinate">op. 41</titlePart> <titlePart type="subordinate">an electronic transcription</titlePart> </title>
+        <title>String Quartet No. 1<titlePart type="subordinate">op. 41</titlePart> <titlePart type="subordinate">an electronic transcription</titlePart></title>
         <composer>
           <persName role="creator" codedval="118611666" auth.uri="http://d-nb.info/gnd/" auth="GND">Robert Schumann</persName>
         </composer>
@@ -20,28 +20,31 @@
         </publisher>
         <address>
           <addrLine>Gartenstrasse 20</addrLine>
-          <addrLine>32756 <geogName codedval="7004442" auth.uri="http://vocab.getty.edu/page/tgn/" auth="TGN">Detmold</geogName> </addrLine>
-          <addrLine>
-            <geogName codedval="7000084" auth.uri="http://vocab.getty.edu/page/tgn/" auth="TGN">Germany</geogName>
-          </addrLine>
+          <addrLine>32756<geogName codedval="7004442" auth.uri="http://vocab.getty.edu/page/tgn/" auth="TGN">Detmold</geogName></addrLine>
+          <addrLine><geogName codedval="7000084" auth.uri="http://vocab.getty.edu/page/tgn/" auth="TGN">Germany</geogName></addrLine>
         </address>
         <date>2011</date>
         <availability>
-          <useRestrict>This encoding is in the public domain. However, the sources used to create it
-            may be under copyright. We believe their use by the MEI project for educational and
-            research purposes is covered by the Fair Use doctrine. However, we will remove any
-            material from the project archive when requested to do so by the copyright
-            owner.</useRestrict>
+          <useRestrict>This encoding is in the public domain. However, the sources used to create it may be under copyright. We believe their use by the MEI project for educational and research purposes is covered by the Fair Use doctrine. However, we will remove any material from the project archive when requested to do so by the copyright owner.</useRestrict>
         </availability>
       </pubStmt>
       <seriesStmt>
         <title>MEI Sample Collection</title>
         <funder>
-          <corpName role="funder" codedval="2007744-0" auth.uri="http://d-nb.info/gnd/" auth="GND">German Research Foundation<address><addrLine>Kennedyallee 40</addrLine><addrLine><geogName codedval="7005090" auth.uri="http://vocab.getty.edu/page/tgn/" auth="TGN">Bonn</geogName></addrLine><addrLine><geogName codedval="7000084" auth.uri="http://vocab.getty.edu/page/tgn/" auth="TGN">Germany</geogName></addrLine></address> </corpName>
+          <corpName role="funder" codedval="2007744-0" auth.uri="http://d-nb.info/gnd/" auth="GND">German Research Foundation
+            <address>
+              <addrLine>Kennedyallee 40</addrLine>
+              <addrLine><geogName codedval="7005090" auth.uri="http://vocab.getty.edu/page/tgn/" auth="TGN">Bonn</geogName></addrLine>
+              <addrLine><geogName codedval="7000084" auth.uri="http://vocab.getty.edu/page/tgn/" auth="TGN">Germany</geogName></addrLine>
+            </address> </corpName>
         </funder>
         <funder>
-          <corpName role="funder" codedval="18183-3" auth.uri="http://d-nb.info/gnd/18183-3" auth="Deutsche Nationalbibliothek">National Endowment for the Humanities<address><addrLine>1100 Pennsylvania Avenue N.W.</addrLine><addrLine><geogName codedval="7013962" auth.uri="http://vocab.getty.edu/page/tgn/" auth="TGN">Washington,
-            DC</geogName> 20004</addrLine><addrLine><geogName codedval="7012149" auth.uri="http://vocab.getty.edu/page/tgn/" auth="TGN">United States</geogName></addrLine></address> </corpName>
+          <corpName role="funder" codedval="18183-3" auth.uri="http://d-nb.info/gnd/18183-3" auth="Deutsche Nationalbibliothek">National Endowment for the Humanities
+            <address>
+              <addrLine>1100 Pennsylvania Avenue N.W.</addrLine>
+              <addrLine><geogName codedval="7013962" auth.uri="http://vocab.getty.edu/page/tgn/" auth="TGN">Washington, DC</geogName>20004</addrLine>
+              <addrLine><geogName codedval="7012149" auth.uri="http://vocab.getty.edu/page/tgn/" auth="TGN">United States</geogName></addrLine>
+            </address> </corpName>
         </funder>
         <respStmt>
           <corpName role="publisher">MEI Project</corpName>
@@ -67,6 +70,10 @@
         <application version="v1.0_beta" xml:id="mei30To40">
           <name>mei30To40.xsl</name>
           <ptr target="https://github.com/music-encoding/encoding-tools/blob/main/mei30To40/mei30To40.xsl"/>
+        </application>
+        <application version="0.0.1-alpha" xml:id="lint-mei-files_0.0.1-alpha">
+          <name>mei-files.xsl</name>
+          <ptr target="https://github.com/music-encoding/encoding-tools/blob/main/linting/mei-files.xsl"/>
         </application>
       </appInfo>
       <classDecls>
@@ -198,8 +205,7 @@
         </perfMedium>
       </work>
       <work n="2" xml:id="movement2">
-        <title>String Quartet No. 1, Introduzione <titlePart type="subordinate">op. 41, no.
-          1</titlePart> </title>
+        <title>String Quartet No. 1, Introduzione<titlePart type="subordinate">op. 41, no. 1</titlePart></title>
         <title type="uniform">Quartette, Vl 1 2 Va Vc, op. 41,1 &lt;1. Satz&gt;</title>
         <composer>
           <persName role="composer" codedval="118611666" auth.uri="http://d-nb.info/gnd/" auth="GND">Robert Schumann</persName>
@@ -252,7 +258,7 @@
                   </layer>
                 </staff>
                 <tempo tstamp="1" place="above" staff="1">Andante espressivo</tempo>
-                <dir tstamp="1" place="above" staff="1"> Introduzione </dir>
+                <dir tstamp="1" place="above" staff="1">Introduzione</dir>
                 <dynam tstamp="1.25" place="below" staff="1">p</dynam>
                 <slur tstamp="1.25" curvedir="above" staff="1" tstamp2="0m+1.75"/>
                 <slur tstamp="2" curvedir="above" staff="1" tstamp2="0m+2.75"/>
@@ -314,8 +320,7 @@
         </perfMedium>
       </work>
       <work n="3" xml:id="movement3">
-        <title>String Quartet No. 1, Intermezzo <titlePart type="subordinate">op. 41, no.
-          1</titlePart> </title>
+        <title>String Quartet No. 1, Intermezzo<titlePart type="subordinate">op. 41, no. 1</titlePart></title>
         <composer>
           <persName role="composer" codedval="118611666" auth.uri="http://d-nb.info/gnd/" auth="GND">Robert Schumann</persName>
         </composer>
@@ -413,8 +418,7 @@
         </perfMedium>
       </work>
       <work n="4" xml:id="movement4">
-        <title>String Quartet No. 1, Intermezzo <titlePart type="subordinate">op. 41, no.
-          1</titlePart> </title>
+        <title>String Quartet No. 1, Intermezzo<titlePart type="subordinate">op. 41, no. 1</titlePart></title>
         <title type="uniform">Quartette, Vl 1 2 Va Vc, op. 41,1 &lt;2. Satz&gt;</title>
         <composer>
           <persName role="composer" codedval="118611666" auth.uri="http://d-nb.info/gnd/" auth="GND">Robert Schumann</persName>
@@ -569,7 +573,7 @@
         </perfMedium>
       </work>
       <work n="5" xml:id="movement5">
-        <title>String Quartet No. 1, Presto <titlePart type="subordinate">op. 41, no. 1</titlePart> </title>
+        <title>String Quartet No. 1, Presto<titlePart type="subordinate">op. 41, no. 1</titlePart></title>
         <title type="uniform">Quartette, Vl 1 2 Va Vc, op. 41,1 &lt;4. Satz&gt;</title>
         <composer>
           <persName role="composer" codedval="118611666" auth.uri="http://d-nb.info/gnd/" auth="GND">Robert Schumann</persName>
@@ -654,26 +658,25 @@
     <revisionDesc>
       <change n="1">
         <respStmt>
-          <persName xml:id="MH"> Maja Hartwig </persName>
+          <persName xml:id="MH">Maja Hartwig</persName>
         </respStmt>
         <changeDesc>
-          <p>Transcoded from a MusicXML version 1.0 file on 2011-05-12 using the <ref target="#xsl_mxl2mei_2.2.3">musicxml2mei</ref> stylesheet. </p>
+          <p>Transcoded from a MusicXML version 1.0 file on 2011-05-12 using the<ref target="#xsl_mxl2mei_2.2.3">musicxml2mei</ref>stylesheet.</p>
         </changeDesc>
         <date isodate="2011-05-12"/>
       </change>
       <change n="2">
         <respStmt>
-          <persName xml:id="KR"> Kristina Richts </persName>
+          <persName xml:id="KR">Kristina Richts</persName>
         </respStmt>
         <changeDesc>
-          <p> Cleaned up MEI file automatically using <ref target="#xsl_ppq">ppq.xsl</ref>. </p>
+          <p>Cleaned up MEI file automatically using<ref target="#xsl_ppq">ppq.xsl</ref>.</p>
         </changeDesc>
         <date isodate="2011-10-21"/>
       </change>
       <change n="3" resp="#KR">
         <changeDesc>
-          <p> Cleaned up MEI file automatically using <ref target="#xsl_header">Header.xsl</ref>.
-          </p>
+          <p>Cleaned up MEI file automatically using<ref target="#xsl_header">Header.xsl</ref>.</p>
         </changeDesc>
         <date isodate="2011-12-01"/>
       </change>
@@ -703,6 +706,21 @@
           <p>Converted to MEI version 4.0.0 using mei30To40.xsl, version 1.0 beta</p>
         </changeDesc>
         <date isodate="2019-01-03"/>
+      </change>
+      <change n="8">
+        <respStmt>
+          <persName>Benjamin W. Bohl</persName>
+          <persName>Stefan Münnich</persName>
+        </respStmt>
+        <changeDesc>
+          <p><list>
+              <li>update xml-model schema references to v4.0.1</li>
+              <li>update meiversion attributes to 4.0.1</li>
+              <li>add missing responsibility statements to change elements</li>
+              <li>unify documentation of mei version upgrades (appInfo and revisionDesc)</li>
+            </list></p>
+        </changeDesc>
+        <date isodate="2023-07-27T17:10:33+02:00"/>
       </change>
     </revisionDesc>
   </meiHead>
@@ -773,9 +791,7 @@
                   </beam>
                 </layer>
               </staff>
-              <tempo tstamp="1" place="above" staff="1" ho="-5.1" vo="3.8">
-                <rend fontweight="bold">Adagio</rend>
-              </tempo>
+              <tempo tstamp="1" place="above" staff="1" ho="-5.1" vo="3.8"><rend fontweight="bold">Adagio</rend></tempo>
               <dynam tstamp="2" place="below" staff="4" vo="1.3">pp</dynam>
               <tie tstamp="2" staff="4" curvedir="below" startid="#d968622e122" endid="#d968622e139"/>
               <dynam tstamp="2.479" place="below" startto="-25" staff="3" vo="1.6">pp</dynam>
@@ -1511,9 +1527,7 @@
               <tie tstamp="1.75" staff="3" curvedir="below" startid="#d968622e5505" endid="#d968622e5523"/>
               <slur tstamp="3.75" curvedir="below" startid="#d968622e5618" endid="#d968622e5708" staff="3" tstamp2="0m+4.75"/>
               <tie tstamp="3.75" staff="3" curvedir="below" startid="#d968622e5618" endid="#d968622e5640"/>
-              <dynam tstamp="4.25" place="below" staff="3">
-                <rend fontstyle="italic">cresc.</rend>
-              </dynam>
+              <dynam tstamp="4.25" place="below" staff="3"><rend fontstyle="italic">cresc.</rend></dynam>
             </measure>
             <sb/>
             <measure n="14" xml:id="d968622e5758">
@@ -1660,24 +1674,16 @@
               </staff>
               <slur tstamp="1" curvedir="above" startid="#d968622e6229" endid="#d968622e6249" staff="1" tstamp2="0m+2"/>
               <tie tstamp="2" staff="1" curvedir="above" startid="#d968622e6249" endid="#d968622e6273"/>
-              <dynam tstamp="3.99" place="below" staff="1" vo="1.8">
-                <rend fontstyle="italic">cresc.</rend>
-              </dynam>
+              <dynam tstamp="3.99" place="below" staff="1" vo="1.8"><rend fontstyle="italic">cresc.</rend></dynam>
               <slur tstamp="1" curvedir="below" startid="#d968622e6312" endid="#d968622e6352" staff="4" tstamp2="0m+4"/>
-              <dynam tstamp="4" place="below" staff="4" vo="1.7">
-                <rend fontstyle="italic">cresc.</rend>
-              </dynam>
+              <dynam tstamp="4" place="below" staff="4" vo="1.7"><rend fontstyle="italic">cresc.</rend></dynam>
               <slur tstamp="1.75" curvedir="below" startid="#d968622e6390" endid="#d968622e6465" staff="3" tstamp2="0m+2.75"/>
               <tie tstamp="1.75" staff="3" curvedir="below" startid="#d968622e6390" endid="#d968622e6408"/>
               <slur tstamp="3.75" curvedir="below" startid="#d968622e6501" endid="#d968622e6577" staff="3" tstamp2="0m+4.75"/>
               <tie tstamp="3.75" staff="3" curvedir="below" startid="#d968622e6501" endid="#d968622e6519"/>
               <trill tstamp="2.99" place="above" staff="4" startid="#d968622e6631"/>
-              <dynam tstamp="3.238" place="below" staff="4" vo="1.1">
-                <rend fontstyle="italic">cresc.</rend>
-              </dynam>
-              <dynam tstamp="3.713" place="above" staff="4">
-                <rend fontstyle="italic">cresc.</rend>
-              </dynam>
+              <dynam tstamp="3.238" place="below" staff="4" vo="1.1"><rend fontstyle="italic">cresc.</rend></dynam>
+              <dynam tstamp="3.713" place="above" staff="4"><rend fontstyle="italic">cresc.</rend></dynam>
             </measure>
             <measure n="16" xml:id="d968622e7059">
               <staff n="1">
@@ -1963,20 +1969,12 @@
                 </layer>
               </staff>
               <slur tstamp="1" curvedir="above" startid="#d968622e8869" endid="#d968622e8940" staff="1" tstamp2="0m+4.752"/>
-              <dynam tstamp="2" place="below" staff="1" vo="1">
-                <rend fontstyle="italic">dim.</rend>
-              </dynam>
+              <dynam tstamp="2" place="below" staff="1" vo="1"><rend fontstyle="italic">dim.</rend></dynam>
               <tie tstamp="2" staff="1" curvedir="above" startid="#d968622e8889" endid="#d968622e8906"/>
-              <dynam tstamp="4" place="below" staff="4" vo="1.8">
-                <rend fontstyle="italic">dim.</rend>
-              </dynam>
+              <dynam tstamp="4" place="below" staff="4" vo="1.8"><rend fontstyle="italic">dim.</rend></dynam>
               <slur tstamp="1.25" curvedir="below" startid="#d968622e9052" endid="#d968622e9319" staff="3" tstamp2="0m+4.75"/>
-              <dynam tstamp="2" place="below" staff="3">
-                <rend fontstyle="italic">dim.</rend>
-              </dynam>
-              <dynam tstamp="3.99" place="below" staff="4" vo="1">
-                <rend fontstyle="italic">dim.</rend>
-              </dynam>
+              <dynam tstamp="2" place="below" staff="3"><rend fontstyle="italic">dim.</rend></dynam>
+              <dynam tstamp="3.99" place="below" staff="4" vo="1"><rend fontstyle="italic">dim.</rend></dynam>
             </measure>
             <staffDef n="6" lines="5" clef.line="2" clef.shape="G"/>
             <measure n="20" xml:id="d968622e9369">
@@ -2548,9 +2546,7 @@
                   <rest xml:id="d968622e13094" dur="2"/>
                 </layer>
               </staff>
-              <dynam tstamp="2.238" place="below" staff="1" vo="0.7">
-                <rend fontstyle="italic">dim.</rend>
-              </dynam>
+              <dynam tstamp="2.238" place="below" staff="1" vo="0.7"><rend fontstyle="italic">dim.</rend></dynam>
               <slur tstamp="1.5" curvedir="below" startid="#d968622e12949" endid="#d968622e12982" staff="4" tstamp2="0m+2.5"/>
               <slur tstamp="1" curvedir="above" startid="#d968622e13062" endid="#d968622e13078" staff="4" tstamp2="0m+2"/>
             </measure>
@@ -2593,18 +2589,10 @@
                 </layer>
               </staff>
               <dir tstamp="2" place="above" staff="1" vo="1.1">arco</dir>
-              <dynam tstamp="2" place="below" staff="1" vo="0.7">
-                <rend fontstyle="italic">cresc.</rend>
-              </dynam>
-              <dynam tstamp="2" place="above" staff="3" vo="1.2">
-                <rend fontstyle="italic">cresc.</rend>
-              </dynam>
-              <dynam tstamp="2" place="below" staff="3" vo="0.7">
-                <rend fontstyle="italic">cresc.</rend>
-              </dynam>
-              <dynam tstamp="3.99" place="below" staff="4" vo="0.7">
-                <rend fontstyle="italic">cresc.</rend>
-              </dynam>
+              <dynam tstamp="2" place="below" staff="1" vo="0.7"><rend fontstyle="italic">cresc.</rend></dynam>
+              <dynam tstamp="2" place="above" staff="3" vo="1.2"><rend fontstyle="italic">cresc.</rend></dynam>
+              <dynam tstamp="2" place="below" staff="3" vo="0.7"><rend fontstyle="italic">cresc.</rend></dynam>
+              <dynam tstamp="3.99" place="below" staff="4" vo="0.7"><rend fontstyle="italic">cresc.</rend></dynam>
             </measure>
             <measure n="29" xml:id="d968622e13315">
               <staff n="1">
@@ -3224,7 +3212,7 @@
                     <note xml:id="d968622e17646" pname="b" accid="n" oct="4" dur="16" stem.dir="down"/>
                     <note xml:id="d968622e17666" pname="b" accid="f" oct="4" dur="16" stem.dir="down"/>
                   </beam>
-                  <!--<clefchange shape="G" line="2"/>-->
+                  <!-- <clefchange shape="G" line="2"/> -->
                   <beam>
                     <note xml:id="d968622e17694" pname="f" oct="5" dur="16" stem.dir="down"/>
                     <note xml:id="d968622e17712" pname="e" accid="f" oct="5" dur="16" stem.dir="down"/>
@@ -3330,7 +3318,7 @@
               <staff n="3">
                 <layer n="1">
                   <note xml:id="d968622e18477" pname="a" oct="4" dur="16" tie="t" stem.dir="up" accid.ges="f"/>
-                  <!--<clefchange shape="C" line="3"/>-->
+                  <!-- <clefchange shape="C" line="3"/> -->
                   <beam>
                     <note xml:id="d968622e18502" pname="a" accid="f" oct="3" dur="16" stem.dir="down"/>
                     <note xml:id="d968622e18526" pname="e" accid="f" oct="4" dur="16" stem.dir="down"/>
@@ -3342,7 +3330,7 @@
                     <note xml:id="d968622e18610" pname="b" accid="ff" oct="4" dur="16" stem.dir="down"/>
                     <note xml:id="d968622e18632" pname="a" accid="f" oct="4" dur="16" stem.dir="down"/>
                   </beam>
-                  <!--<clefchange shape="G" line="2"/>-->
+                  <!-- <clefchange shape="G" line="2"/> -->
                   <beam>
                     <note xml:id="d968622e18661" pname="e" accid="f" oct="5" dur="16" stem.dir="down"/>
                     <note xml:id="d968622e18683" pname="d" accid="f" oct="5" dur="16" stem.dir="down"/>
@@ -3564,9 +3552,7 @@
                   <note xml:id="d968622e20552" pname="e" accid="n" oct="2" dur="8" stem.dir="up"/>
                 </layer>
               </staff>
-              <dynam tstamp="2.99" place="below" staff="1" vo="2.1">
-                <rend fontstyle="italic">dim.</rend>
-              </dynam>
+              <dynam tstamp="2.99" place="below" staff="1" vo="2.1"><rend fontstyle="italic">dim.</rend></dynam>
               <slur tstamp="2.99" curvedir="above" startid="#d968622e19791" endid="#d968622e19832" staff="1" tstamp2="0m+4.98"/>
               <trill tstamp="2.99" place="above" staff="1" startid="#d968622e19791"/>
               <slur tstamp="3" curvedir="below" startid="#d968622e20241" endid="#d968622e20260" staff="4" tstamp2="0m+4.5"/>
@@ -4942,7 +4928,7 @@
                 <layer n="1">
                   <beam>
                     <note xml:id="d968622e30712" pname="c" oct="5" dur="8" dots="1" stem.dir="down"/>
-                    <!--<clefchange shape="C" line="3"/>-->
+                    <!-- <clefchange shape="C" line="3"/> -->
                     <note xml:id="d968622e30735" pname="c" oct="4" dur="16" tie="i" stem.dir="down"/>
                   </beam>
                   <beam>
@@ -5575,15 +5561,11 @@
               </staff>
               <hairpin tstamp="2.98" form="dim" place="below" staff="1" opening="0" tstamp2="0m+4.713"/>
               <slur tstamp="3.97" curvedir="below" startid="#d968622e34513" endid="#d968622e34588" staff="1" tstamp2="0m+4.713"/>
-              <tempo tstamp="4.218" place="above" staff="1" vo="3.3">
-                <rend fontstyle="italic">ritard.</rend>
-              </tempo>
+              <tempo tstamp="4.218" place="above" staff="1" vo="3.3"><rend fontstyle="italic">ritard.</rend></tempo>
               <hairpin tstamp="1.208" form="cres" place="above" staff="4" opening="1.5" startto="-86" endto="-8" tstamp2="0m+2.833"/>
               <slur tstamp="4" curvedir="below" startid="#d968622e34683" endid="#d968622e34722" staff="4" tstamp2="0m+4.75"/>
               <tie tstamp="4" staff="3" curvedir="above" startid="#d968622e34767" endid="#d968622e34952"/>
-              <tempo tstamp="3.99" place="below" staff="4">
-                <rend fontstyle="italic">ritard.</rend>
-              </tempo>
+              <tempo tstamp="3.99" place="below" staff="4"><rend fontstyle="italic">ritard.</rend></tempo>
             </measure>
             <measure n="66" xml:id="d968622e34831">
               <staff n="1">
@@ -5742,9 +5724,7 @@
                 </layer>
               </staff>
               <tempo tstamp="1" place="above" staff="1" ho="-1.8" vo="2">Andante espressivo</tempo>
-              <dir tstamp="1" place="above" staff="1">
-                <rend fontweight="bold">Introduzione</rend>
-              </dir>
+              <dir tstamp="1" place="above" staff="1"><rend fontweight="bold">Introduzione</rend></dir>
               <dynam tstamp="1.25" place="below" staff="1" vo="0.8">p</dynam>
               <slur tstamp="1.25" curvedir="above" startid="#d952721e93" endid="#d952721e131" staff="1" tstamp2="0m+1.75"/>
               <slur tstamp="2" curvedir="above" startid="#d952721e151" endid="#d952721e208" staff="1" tstamp2="0m+2.75"/>
@@ -7557,18 +7537,10 @@
                   <note xml:id="d952721e12058" pname="f" oct="3" dur="32" stem.dir="down"/>
                 </layer>
               </staff>
-              <dir tstamp="1" place="below" staff="1">
-                <rend fontstyle="italic">string.</rend>
-              </dir>
-              <dir tstamp="1" place="below" staff="4">
-                <rend fontstyle="italic">string.</rend>
-              </dir>
-              <dir tstamp="1" place="below" staff="5">
-                <rend fontstyle="italic">string.</rend>
-              </dir>
-              <dir tstamp="1" place="below" staff="6">
-                <rend fontstyle="italic">string.</rend>
-              </dir>
+              <dir tstamp="1" place="below" staff="1"><rend fontstyle="italic">string.</rend></dir>
+              <dir tstamp="1" place="below" staff="4"><rend fontstyle="italic">string.</rend></dir>
+              <dir tstamp="1" place="below" staff="5"><rend fontstyle="italic">string.</rend></dir>
+              <dir tstamp="1" place="below" staff="6"><rend fontstyle="italic">string.</rend></dir>
             </measure>
             <measure n="31" xml:id="d952721e12072">
               <staff n="1">
@@ -7688,22 +7660,14 @@
                   <note xml:id="d952721e12935" pname="d" oct="3" dur="4" stem.dir="down"/>
                 </layer>
               </staff>
-              <tempo tstamp="1" place="below" staff="1" ho="-1.4" vo="1.2">
-                <rend fontstyle="italic">rit.</rend>
-              </tempo>
+              <tempo tstamp="1" place="below" staff="1" ho="-1.4" vo="1.2"><rend fontstyle="italic">rit.</rend></tempo>
               <hairpin tstamp="1.5" form="cres" place="below" staff="1" opening="1.5" startto="-4" endto="-2" tstamp2="0m+2.75"/>
-              <tempo tstamp="1" place="below" staff="4" ho="-1.4" vo="1.2">
-                <rend fontstyle="italic">rit.</rend>
-              </tempo>
+              <tempo tstamp="1" place="below" staff="4" ho="-1.4" vo="1.2"><rend fontstyle="italic">rit.</rend></tempo>
               <hairpin tstamp="1.5" form="cres" place="below" staff="4" opening="1.5" startto="-4" endto="-2" tstamp2="0m+2.75"/>
-              <tempo tstamp="1" place="below" staff="5" ho="-1.4" vo="1.2">
-                <rend fontstyle="italic">rit.</rend>
-              </tempo>
+              <tempo tstamp="1" place="below" staff="5" ho="-1.4" vo="1.2"><rend fontstyle="italic">rit.</rend></tempo>
               <hairpin tstamp="1.176" form="cres" place="below" staff="5" opening="1.5" startto="-14" endto="-4" tstamp2="0m+2.7649999999999997"/>
               <trill tstamp="2" place="above" staff="5" startid="#d952721e12659"/>
-              <tempo tstamp="1" place="below" staff="6" ho="-1.4" vo="1.2">
-                <rend fontstyle="italic">rit.</rend>
-              </tempo>
+              <tempo tstamp="1" place="below" staff="6" ho="-1.4" vo="1.2"><rend fontstyle="italic">rit.</rend></tempo>
               <hairpin tstamp="1.75" form="cres" place="below" staff="6" opening="1.5" startto="-2" endto="-2" tstamp2="0m+2.75"/>
             </measure>
             <measure n="33" xml:id="d952721e12954" right="dbl">
@@ -7746,9 +7710,7 @@
               <fermata staff="5" startid="#d952721e13082" form="norm" place="above"/>
               <fermata staff="5" startid="#d952721e13098" form="norm" place="above"/>
               <fermata staff="6" startid="#d952721e13112" form="norm" place="above"/>
-              <dir tstamp="2" place="below" staff="6" vo="0.7">
-                <rend fontstyle="italic">attaca</rend>
-              </dir>
+              <dir tstamp="2" place="below" staff="6" vo="0.7"><rend fontstyle="italic">attaca</rend></dir>
               <fermata staff="6" startid="#d952721e13134" form="norm" place="above"/>
             </measure>
           </section>
@@ -7780,9 +7742,7 @@
                   <note xml:id="d952721e13325" pname="f" oct="2" dur="2" dots="1" tie="i" stem.dir="up"/>
                 </layer>
               </staff>
-              <tempo tstamp="1" place="above" staff="1" ho="-5.3" vo="1.3">
-                <rend fontweight="bold">Allegro</rend>
-              </tempo>
+              <tempo tstamp="1" place="above" staff="1" ho="-5.3" vo="1.3"><rend fontweight="bold">Allegro</rend></tempo>
               <dynam tstamp="1" place="below" staff="1" ho="-0.8">mf</dynam>
               <slur tstamp="1" curvedir="below" startid="#d952721e13170" endid="#d952721e13400" staff="1" tstamp2="1m+6"/>
               <tie tstamp="1" staff="1" curvedir="below" startid="#d952721e13170" endid="#d952721e13189"/>
@@ -8695,16 +8655,10 @@
               </staff>
               <tie tstamp="1" staff="1" curvedir="below" startid="#d952721e17785" endid="#d952721e17803"/>
               <tie tstamp="4" staff="4" curvedir="below" startid="#d952721e17854" endid="#d952721e18018"/>
-              <dynam tstamp="1" place="above" staff="5" vo="0.9">
-                <rend fontstyle="italic">cresc.</rend>
-              </dynam>
-              <dynam tstamp="1" place="below" staff="5">
-                <rend fontstyle="italic">cresc.</rend>
-              </dynam>
+              <dynam tstamp="1" place="above" staff="5" vo="0.9"><rend fontstyle="italic">cresc.</rend></dynam>
+              <dynam tstamp="1" place="below" staff="5"><rend fontstyle="italic">cresc.</rend></dynam>
               <tie tstamp="1" staff="5" curvedir="below" startid="#d952721e17885" endid="#d952721e18055"/>
-              <dynam tstamp="1" place="below" staff="6" vo="0.8">
-                <rend fontstyle="italic">cresc.</rend>
-              </dynam>
+              <dynam tstamp="1" place="below" staff="6" vo="0.8"><rend fontstyle="italic">cresc.</rend></dynam>
               <tie tstamp="4" staff="6" curvedir="below" startid="#d952721e17925" endid="#d952721e18090"/>
             </measure>
             <measure n="61" xml:id="d952721e17943">
@@ -8737,9 +8691,7 @@
                   <rest xml:id="d952721e18116" dur="8"/>
                 </layer>
               </staff>
-              <dynam tstamp="3" place="below" staff="1" vo="0.9">
-                <rend fontstyle="italic">cresc.</rend>
-              </dynam>
+              <dynam tstamp="3" place="below" staff="1" vo="0.9"><rend fontstyle="italic">cresc.</rend></dynam>
             </measure>
             <measure n="62" xml:id="d952721e18124">
               <staff n="1">
@@ -8936,9 +8888,7 @@
                   <note xml:id="d952721e19128" pname="f" oct="2" dur="2" dots="1" stem.dir="up"/>
                 </layer>
               </staff>
-              <dynam tstamp="1" place="below" staff="1">
-                <rend fontstyle="italic">cresc.</rend>
-              </dynam>
+              <dynam tstamp="1" place="below" staff="1"><rend fontstyle="italic">cresc.</rend></dynam>
               <tie tstamp="1" staff="1" curvedir="above" startid="#d952721e19006" endid="#d952721e19024"/>
               <dynam tstamp="1" place="below" staff="4" vo="1.3">sf</dynam>
               <dynam tstamp="1.235" place="below" startto="-48" staff="5" vo="1.2">sf</dynam>
@@ -9244,20 +9194,12 @@
                   <note xml:id="d952721e20676" pname="f" oct="2" dur="4" dots="1" stem.dir="up"/>
                 </layer>
               </staff>
-              <dynam tstamp="1" place="below" staff="1" vo="-0.5">
-                <rend fontstyle="italic">dim.</rend>
-              </dynam>
-              <dynam tstamp="1" place="below" staff="4" vo="-0.5">
-                <rend fontstyle="italic">dim.</rend>
-              </dynam>
+              <dynam tstamp="1" place="below" staff="1" vo="-0.5"><rend fontstyle="italic">dim.</rend></dynam>
+              <dynam tstamp="1" place="below" staff="4" vo="-0.5"><rend fontstyle="italic">dim.</rend></dynam>
               <slur tstamp="3" curvedir="below" startid="#d952721e20548" endid="#d952721e20564" staff="4" tstamp2="0m+4"/>
-              <dynam tstamp="1" place="below" staff="5" vo="-0.5">
-                <rend fontstyle="italic">dim.</rend>
-              </dynam>
+              <dynam tstamp="1" place="below" staff="5" vo="-0.5"><rend fontstyle="italic">dim.</rend></dynam>
               <slur tstamp="3" curvedir="below" startid="#d952721e20603" endid="#d952721e20621" staff="5" tstamp2="0m+3.941"/>
-              <dynam tstamp="1" place="below" staff="6" vo="-0.5">
-                <rend fontstyle="italic">dim.</rend>
-              </dynam>
+              <dynam tstamp="1" place="below" staff="6" vo="-0.5"><rend fontstyle="italic">dim.</rend></dynam>
               <slur tstamp="3" curvedir="below" startid="#d952721e20660" endid="#d952721e20676" staff="6" tstamp2="0m+4"/>
             </measure>
             <measure n="76" xml:id="d952721e20694">
@@ -9511,9 +9453,7 @@
               </staff>
               <dynam tstamp="1" place="below" staff="4" ho="-1.5" vo="0.7">mf</dynam>
               <slur tstamp="1" curvedir="below" startid="#d952721e21457" endid="#d952721e21614" staff="4" tstamp2="1m+4"/>
-              <dynam tstamp="4" place="below" staff="4" vo="1">
-                <rend fontstyle="italic">cresc.</rend>
-              </dynam>
+              <dynam tstamp="4" place="below" staff="4" vo="1"><rend fontstyle="italic">cresc.</rend></dynam>
               <tie tstamp="4" staff="4" curvedir="above" startid="#d952721e21480" endid="#d952721e21581"/>
               <slur tstamp="1" curvedir="below" startid="#d952721e21501" endid="#d952721e21518" staff="5" tstamp2="0m+3.941"/>
               <tie tstamp="3.941" staff="5" curvedir="above" startid="#d952721e21518" endid="#d952721e21633"/>
@@ -10550,13 +10490,9 @@
                 </layer>
               </staff>
               <slur tstamp="3" curvedir="above" startid="#d952721e26674" endid="#d952721e26696" staff="4" tstamp2="0m+4"/>
-              <dynam tstamp="5" place="below" staff="4" vo="0.7">
-                <rend fontstyle="italic">cresc.</rend>
-              </dynam>
+              <dynam tstamp="5" place="below" staff="4" vo="0.7"><rend fontstyle="italic">cresc.</rend></dynam>
               <slur tstamp="6" curvedir="above" startid="#d952721e26730" endid="#d952721e26897" staff="4" tstamp2="1m+1"/>
-              <dynam tstamp="4.765" place="below" staff="5" vo="1.2">
-                <rend fontstyle="italic">cresc.</rend>
-              </dynam>
+              <dynam tstamp="4.765" place="below" staff="5" vo="1.2"><rend fontstyle="italic">cresc.</rend></dynam>
             </measure>
             <sb/>
             <measure n="108" xml:id="d952721e26886">
@@ -10817,19 +10753,13 @@
                   </beam>
                 </layer>
               </staff>
-              <dynam tstamp="3" place="below" staff="4" vo="1.5">
-                <rend fontstyle="italic">cresc.</rend>
-              </dynam>
+              <dynam tstamp="3" place="below" staff="4" vo="1.5"><rend fontstyle="italic">cresc.</rend></dynam>
               <slur tstamp="3" curvedir="above" startid="#d952721e27900" endid="#d952721e27922" staff="4" tstamp2="0m+4"/>
               <slur tstamp="6" curvedir="above" startid="#d952721e27948" endid="#d952721e28201" staff="4" tstamp2="1m+1"/>
-              <dynam tstamp="2.8819999999999997" place="below" staff="5" vo="1.2">
-                <rend fontstyle="italic">cresc.</rend>
-              </dynam>
+              <dynam tstamp="2.8819999999999997" place="below" staff="5" vo="1.2"><rend fontstyle="italic">cresc.</rend></dynam>
               <slur tstamp="2.8819999999999997" curvedir="above" startid="#d952721e27999" endid="#d952721e28021" staff="5" tstamp2="0m+3.824"/>
               <slur tstamp="5.706" curvedir="above" startid="#d952721e28047" endid="#d952721e28294" staff="5" tstamp2="1m+1"/>
-              <dynam tstamp="3" place="below" staff="6">
-                <rend fontstyle="italic">cresc.</rend>
-              </dynam>
+              <dynam tstamp="3" place="below" staff="6"><rend fontstyle="italic">cresc.</rend></dynam>
             </measure>
             <measure n="112" xml:id="d952721e28192">
               <staff n="1">
@@ -11198,9 +11128,7 @@
               <tie tstamp="1" staff="1" curvedir="above" startid="#d952721e30019" endid="#d952721e30040"/>
               <dynam tstamp="1" place="below" staff="4">p</dynam>
               <slur tstamp="1" curvedir="below" startid="#d952721e30102" endid="#d952721e30435" staff="4" tstamp2="2m+1"/>
-              <dir tstamp="7" place="above" staff="4" vo="1.2">
-                <rend fontstyle="italic">dolce</rend>
-              </dir>
+              <dir tstamp="7" place="above" staff="4" vo="1.2"><rend fontstyle="italic">dolce</rend></dir>
               <dynam tstamp="1" place="below" staff="5">p</dynam>
               <tie tstamp="3.941" staff="5" curvedir="below" startid="#d952721e30149" endid="#d952721e30322"/>
               <dynam tstamp="1" place="below" staff="6">p</dynam>
@@ -13344,23 +13272,15 @@
                   <note xml:id="d952721e41663" pname="a" accid="f" oct="3" dur="4" dots="1" tie="i" stem.dir="down"/>
                 </layer>
               </staff>
-              <dynam tstamp="1" place="below" staff="1" vo="1">
-                <rend fontstyle="italic">dim.</rend>
-              </dynam>
+              <dynam tstamp="1" place="below" staff="1" vo="1"><rend fontstyle="italic">dim.</rend></dynam>
               <slur tstamp="1" curvedir="above" startid="#d952721e41522" endid="#d952721e41739" staff="1" tstamp2="1m+6"/>
               <tie tstamp="4" staff="1" curvedir="above" startid="#d952721e41543" endid="#d952721e41688"/>
-              <dynam tstamp="1" place="below" staff="4" vo="1">
-                <rend fontstyle="italic">dim.</rend>
-              </dynam>
+              <dynam tstamp="1" place="below" staff="4" vo="1"><rend fontstyle="italic">dim.</rend></dynam>
               <tie tstamp="1" staff="4" curvedir="below" startid="#d952721e41570" endid="#d952721e41760"/>
-              <dynam tstamp="1" place="below" staff="5" vo="1">
-                <rend fontstyle="italic">dim.</rend>
-              </dynam>
+              <dynam tstamp="1" place="below" staff="5" vo="1"><rend fontstyle="italic">dim.</rend></dynam>
               <slur tstamp="1" curvedir="above" startid="#d952721e41597" endid="#d952721e41618" staff="5" tstamp2="0m+3.941"/>
               <tie tstamp="3.941" staff="5" curvedir="above" startid="#d952721e41618" endid="#d952721e41781"/>
-              <dynam tstamp="1" place="below" staff="6" vo="1">
-                <rend fontstyle="italic">dim.</rend>
-              </dynam>
+              <dynam tstamp="1" place="below" staff="6" vo="1"><rend fontstyle="italic">dim.</rend></dynam>
               <slur tstamp="1" curvedir="above" startid="#d952721e41642" endid="#d952721e41663" staff="6" tstamp2="0m+4"/>
               <tie tstamp="4" staff="6" curvedir="above" startid="#d952721e41663" endid="#d952721e41802"/>
             </measure>
@@ -14188,22 +14108,14 @@
                 </layer>
               </staff>
               <dynam tstamp="1" place="below" staff="1" ho="-1.3" vo="-0.6">f</dynam>
-              <dir tstamp="3" place="below" staff="1" vo="1.3">
-                <rend fontstyle="italic">sempre</rend>
-              </dir>
+              <dir tstamp="3" place="below" staff="1" vo="1.3"><rend fontstyle="italic">sempre</rend></dir>
               <dynam tstamp="1" place="below" staff="4" ho="-1.3" vo="-0.6">f</dynam>
-              <dir tstamp="3" place="below" staff="4" vo="1.3">
-                <rend fontstyle="italic">sempre</rend>
-              </dir>
+              <dir tstamp="3" place="below" staff="4" vo="1.3"><rend fontstyle="italic">sempre</rend></dir>
               <dynam tstamp="1" place="below" staff="5" ho="-1.3" vo="-0.6">f</dynam>
               <tie tstamp="1" staff="5" curvedir="above" startid="#d952721e45603" endid="#d952721e45627"/>
-              <dir tstamp="3.941" place="below" staff="5" vo="1.3">
-                <rend fontstyle="italic">sempre</rend>
-              </dir>
+              <dir tstamp="3.941" place="below" staff="5" vo="1.3"><rend fontstyle="italic">sempre</rend></dir>
               <dynam tstamp="1" place="below" staff="6" ho="-1.3" vo="-0.6">f</dynam>
-              <dir tstamp="3" place="below" staff="6" vo="1.3">
-                <rend fontstyle="italic">sempre</rend>
-              </dir>
+              <dir tstamp="3" place="below" staff="6" vo="1.3"><rend fontstyle="italic">sempre</rend></dir>
             </measure>
             <sb/>
             <measure n="200" xml:id="d952721e45766">
@@ -15458,23 +15370,15 @@
               </staff>
               <slur tstamp="1" curvedir="below" startid="#d952721e52116" endid="#d952721e52335" staff="1" tstamp2="1m+6"/>
               <tie tstamp="4" staff="1" curvedir="above" startid="#d952721e52133" endid="#d952721e52290"/>
-              <dynam tstamp="7" place="below" staff="1">
-                <rend fontstyle="italic">dim.</rend>
-              </dynam>
+              <dynam tstamp="7" place="below" staff="1"><rend fontstyle="italic">dim.</rend></dynam>
               <tie tstamp="4" staff="4" curvedir="below" startid="#d952721e52175" endid="#d952721e52352"/>
-              <dynam tstamp="7" place="below" staff="4">
-                <rend fontstyle="italic">dim.</rend>
-              </dynam>
+              <dynam tstamp="7" place="below" staff="4"><rend fontstyle="italic">dim.</rend></dynam>
               <slur tstamp="1" curvedir="below" startid="#d952721e52200" endid="#d952721e52406" staff="5" tstamp2="1m+3.941"/>
               <tie tstamp="3.941" staff="5" curvedir="below" startid="#d952721e52217" endid="#d952721e52386"/>
-              <dynam tstamp="6.882" place="below" staff="5">
-                <rend fontstyle="italic">dim.</rend>
-              </dynam>
+              <dynam tstamp="6.882" place="below" staff="5"><rend fontstyle="italic">dim.</rend></dynam>
               <slur tstamp="1" curvedir="below" startid="#d952721e52246" endid="#d952721e52263" staff="6" tstamp2="0m+4"/>
               <tie tstamp="4" staff="6" curvedir="below" startid="#d952721e52263" endid="#d952721e52424"/>
-              <dynam tstamp="7" place="below" staff="6">
-                <rend fontstyle="italic">dim.</rend>
-              </dynam>
+              <dynam tstamp="7" place="below" staff="6"><rend fontstyle="italic">dim.</rend></dynam>
             </measure>
             <measure n="226" xml:id="d952721e52288">
               <staff n="1">
@@ -15530,9 +15434,7 @@
                 </layer>
               </staff>
               <dynam tstamp="1" place="below" staff="1" ho="-0.8">pp</dynam>
-              <tempo tstamp="1" place="above" staff="1" vo="2.3">
-                <rend fontstyle="italic">ritard.</rend>
-              </tempo>
+              <tempo tstamp="1" place="above" staff="1" vo="2.3"><rend fontstyle="italic">ritard.</rend></tempo>
               <slur tstamp="1" curvedir="below" startid="#d952721e52468" endid="#d952721e52707" staff="1" tstamp2="1m+6"/>
               <tie tstamp="4" staff="1" curvedir="above" startid="#d952721e52489" endid="#d952721e52652"/>
               <dynam tstamp="1" place="below" staff="4" ho="-0.8">pp</dynam>
@@ -17792,16 +17694,10 @@
               <slur tstamp="1" curvedir="below" startid="#d952721e64048" endid="#d952721e64065" staff="4" tstamp2="0m+4"/>
               <tie tstamp="4" staff="4" curvedir="below" startid="#d952721e64065" endid="#d952721e64239"/>
               <tie tstamp="1" staff="5" curvedir="below" startid="#d952721e64089" endid="#d952721e64276"/>
-              <dynam tstamp="6.882" place="above" staff="5" vo="1.3">
-                <rend fontstyle="italic">cresc.</rend>
-              </dynam>
-              <dynam tstamp="6.882" place="below" staff="5" vo="1">
-                <rend fontstyle="italic">cresc.</rend>
-              </dynam>
+              <dynam tstamp="6.882" place="above" staff="5" vo="1.3"><rend fontstyle="italic">cresc.</rend></dynam>
+              <dynam tstamp="6.882" place="below" staff="5" vo="1"><rend fontstyle="italic">cresc.</rend></dynam>
               <slur tstamp="1" curvedir="below" startid="#d952721e64120" endid="#d952721e64145" staff="6" tstamp2="0m+4"/>
-              <dynam tstamp="4" place="below" staff="6" vo="0.9">
-                <rend fontstyle="italic">cresc.</rend>
-              </dynam>
+              <dynam tstamp="4" place="below" staff="6" vo="0.9"><rend fontstyle="italic">cresc.</rend></dynam>
               <tie tstamp="4" staff="6" curvedir="below" startid="#d952721e64145" endid="#d952721e64311"/>
             </measure>
             <measure n="280" xml:id="d952721e64164">
@@ -17834,9 +17730,7 @@
                   <rest xml:id="d952721e64337" dur="8"/>
                 </layer>
               </staff>
-              <dynam tstamp="1" place="below" staff="1" vo="0.9">
-                <rend fontstyle="italic">cresc.</rend>
-              </dynam>
+              <dynam tstamp="1" place="below" staff="1" vo="0.9"><rend fontstyle="italic">cresc.</rend></dynam>
             </measure>
             <measure n="281" xml:id="d952721e64345">
               <staff n="1">
@@ -18043,9 +17937,7 @@
                   <note xml:id="d952721e65393" pname="f" oct="2" dur="2" dots="1" stem.dir="up"/>
                 </layer>
               </staff>
-              <dynam tstamp="1" place="below" staff="1" vo="1">
-                <rend fontstyle="italic">cresc.</rend>
-              </dynam>
+              <dynam tstamp="1" place="below" staff="1" vo="1"><rend fontstyle="italic">cresc.</rend></dynam>
               <slur tstamp="1" curvedir="above" startid="#d952721e65266" endid="#d952721e65322" staff="1" tstamp2="0m+6"/>
               <tie tstamp="1" staff="1" curvedir="above" startid="#d952721e65266" endid="#d952721e65285"/>
               <dynam tstamp="1.25" place="below" startto="-23" staff="4" vo="1.1">sf</dynam>
@@ -18383,9 +18275,7 @@
               </staff>
               <slur tstamp="1" curvedir="below" startid="#d952721e66961" endid="#d952721e67068" staff="5" tstamp2="1m+3.941"/>
               <tie tstamp="3.941" staff="5" curvedir="below" startid="#d952721e66978" endid="#d952721e67035"/>
-              <dynam tstamp="6.882" place="below" staff="5" vo="1.2">
-                <rend fontstyle="italic">cresc.</rend>
-              </dynam>
+              <dynam tstamp="6.882" place="below" staff="5" vo="1.2"><rend fontstyle="italic">cresc.</rend></dynam>
               <dynam tstamp="1" place="above" staff="6" vo="1.3">p</dynam>
             </measure>
             <measure n="296" xml:id="d952721e67019">
@@ -18494,9 +18384,7 @@
               <dynam tstamp="1" place="below" staff="6" ho="-0.5" vo="1.5">p</dynam>
               <slur tstamp="1" curvedir="above" startid="#d952721e67309" endid="#d952721e67452" staff="6" tstamp2="1m+4"/>
               <tie tstamp="4" staff="6" curvedir="above" startid="#d952721e67326" endid="#d952721e67421"/>
-              <dynam tstamp="7" place="below" staff="6" vo="1.3">
-                <rend fontstyle="italic">cresc.</rend>
-              </dynam>
+              <dynam tstamp="7" place="below" staff="6" vo="1.3"><rend fontstyle="italic">cresc.</rend></dynam>
             </measure>
             <measure n="300" xml:id="d952721e67352">
               <staff n="1">
@@ -18617,9 +18505,7 @@
               </staff>
               <dynam tstamp="1" place="below" staff="4" vo="1.3">mf</dynam>
               <slur tstamp="1" curvedir="below" startid="#d952721e67714" endid="#d952721e67875" staff="4" tstamp2="1m+4"/>
-              <dynam tstamp="4" place="below" staff="4" vo="0.7">
-                <rend fontstyle="italic">cresc.</rend>
-              </dynam>
+              <dynam tstamp="4" place="below" staff="4" vo="0.7"><rend fontstyle="italic">cresc.</rend></dynam>
               <tie tstamp="4" staff="4" curvedir="above" startid="#d952721e67737" endid="#d952721e67842"/>
               <slur tstamp="1" curvedir="below" startid="#d952721e67760" endid="#d952721e67777" staff="5" tstamp2="0m+3.941"/>
               <tie tstamp="3.941" staff="5" curvedir="above" startid="#d952721e67777" endid="#d952721e67894"/>
@@ -19413,13 +19299,9 @@
                 </layer>
               </staff>
               <slur tstamp="3" curvedir="above" startid="#d952721e71745" endid="#d952721e71769" staff="1" tstamp2="0m+4"/>
-              <dynam tstamp="4" place="below" staff="1" vo="1.8">
-                <rend fontstyle="italic">cresc.</rend>
-              </dynam>
+              <dynam tstamp="4" place="below" staff="1" vo="1.8"><rend fontstyle="italic">cresc.</rend></dynam>
               <slur tstamp="6" curvedir="above" startid="#d952721e71795" endid="#d952721e71952" staff="1" tstamp2="1m+1"/>
-              <dynam tstamp="6.882" place="above" staff="5" vo="0.7">
-                <rend fontstyle="italic">cresc.</rend>
-              </dynam>
+              <dynam tstamp="6.882" place="above" staff="5" vo="0.7"><rend fontstyle="italic">cresc.</rend></dynam>
             </measure>
             <measure n="323" xml:id="d952721e71950">
               <staff n="1">
@@ -19639,13 +19521,9 @@
                 </layer>
               </staff>
               <slur tstamp="3" curvedir="above" startid="#d952721e72770" endid="#d952721e72792" staff="4" tstamp2="0m+4"/>
-              <dynam tstamp="5" place="below" staff="4" vo="1">
-                <rend fontstyle="italic">cresc.</rend>
-              </dynam>
+              <dynam tstamp="5" place="below" staff="4" vo="1"><rend fontstyle="italic">cresc.</rend></dynam>
               <slur tstamp="6" curvedir="above" startid="#d952721e72824" endid="#d952721e72989" staff="4" tstamp2="1m+1"/>
-              <dynam tstamp="7" place="above" staff="6" vo="1">
-                <rend fontstyle="italic">cresc.</rend>
-              </dynam>
+              <dynam tstamp="7" place="above" staff="6" vo="1"><rend fontstyle="italic">cresc.</rend></dynam>
             </measure>
             <sb/>
             <measure n="327" xml:id="d952721e72978">
@@ -19908,18 +19786,12 @@
                 </layer>
               </staff>
               <slur tstamp="3" curvedir="below" startid="#d952721e73983" endid="#d952721e74009" staff="4" tstamp2="0m+4"/>
-              <dynam tstamp="4" place="below" staff="4" vo="0.5">
-                <rend fontstyle="italic">cresc.</rend>
-              </dynam>
+              <dynam tstamp="4" place="below" staff="4" vo="0.5"><rend fontstyle="italic">cresc.</rend></dynam>
               <slur tstamp="6" curvedir="above" startid="#d952721e74035" endid="#d952721e74282" staff="4" tstamp2="1m+1"/>
               <slur tstamp="2.8819999999999997" curvedir="above" startid="#d952721e74080" endid="#d952721e74104" staff="5" tstamp2="0m+3.824"/>
-              <dynam tstamp="3.824" place="below" staff="5" vo="2">
-                <rend fontstyle="italic">cresc.</rend>
-              </dynam>
+              <dynam tstamp="3.824" place="below" staff="5" vo="2"><rend fontstyle="italic">cresc.</rend></dynam>
               <slur tstamp="5.706" curvedir="above" startid="#d952721e74130" endid="#d952721e74371" staff="5" tstamp2="1m+1"/>
-              <dynam tstamp="4" place="below" staff="6" vo="1.6">
-                <rend fontstyle="italic">cresc.</rend>
-              </dynam>
+              <dynam tstamp="4" place="below" staff="6" vo="1.6"><rend fontstyle="italic">cresc.</rend></dynam>
             </measure>
             <measure n="331" xml:id="d952721e74273">
               <staff n="1">
@@ -20184,22 +20056,14 @@
                   <rest xml:id="d952721e75703" dur="8"/>
                 </layer>
               </staff>
-              <dynam tstamp="1" place="below" staff="1" vo="1.3">
-                <rend fontstyle="italic">cresc.</rend>
-              </dynam>
+              <dynam tstamp="1" place="below" staff="1" vo="1.3"><rend fontstyle="italic">cresc.</rend></dynam>
               <slur tstamp="3" curvedir="above" startid="#d952721e75346" endid="#d952721e75368" staff="1" tstamp2="0m+4"/>
               <slur tstamp="6" curvedir="above" startid="#d952721e75398" endid="#d952721e75713" staff="1" tstamp2="1m+1"/>
-              <dynam tstamp="2" place="below" staff="4" vo="1.5">
-                <rend fontstyle="italic">cresc.</rend>
-              </dynam>
+              <dynam tstamp="2" place="below" staff="4" vo="1.5"><rend fontstyle="italic">cresc.</rend></dynam>
               <slur tstamp="3" curvedir="below" startid="#d952721e75449" endid="#d952721e75471" staff="4" tstamp2="0m+4"/>
               <slur tstamp="6" curvedir="below" startid="#d952721e75501" endid="#d952721e75806" staff="4" tstamp2="1m+1"/>
-              <dynam tstamp="1" place="below" staff="5" vo="2">
-                <rend fontstyle="italic">cresc.</rend>
-              </dynam>
-              <dynam tstamp="4" place="below" staff="6" vo="1.2">
-                <rend fontstyle="italic">cresc.</rend>
-              </dynam>
+              <dynam tstamp="1" place="below" staff="5" vo="2"><rend fontstyle="italic">cresc.</rend></dynam>
+              <dynam tstamp="4" place="below" staff="6" vo="1.2"><rend fontstyle="italic">cresc.</rend></dynam>
             </measure>
             <measure n="335" xml:id="d952721e75711">
               <staff n="1">
@@ -20296,9 +20160,7 @@
               <slur tstamp="1" curvedir="above" startid="#d952721e76063" endid="#d952721e76335" staff="1" tstamp2="1m+6"/>
               <tie tstamp="1" staff="1" curvedir="above" startid="#d952721e76063" endid="#d952721e76089"/>
               <dynam tstamp="1.75" place="below" startto="-9" staff="1" vo="1.2">p</dynam>
-              <dir tstamp="5" place="below" staff="1" vo="1.6">
-                <rend fontstyle="italic">dolce</rend>
-              </dir>
+              <dir tstamp="5" place="below" staff="1" vo="1.6"><rend fontstyle="italic">dolce</rend></dir>
               <slur tstamp="1" curvedir="below" startid="#d952721e76152" endid="#d952721e76479" staff="4" tstamp2="2m+1"/>
               <dynam tstamp="1.75" place="below" startto="-21" staff="4" vo="1.2">p</dynam>
               <slur tstamp="1" curvedir="above" startid="#d952721e76178" endid="#d952721e76202" staff="5" tstamp2="0m+3.941"/>
@@ -21355,9 +21217,7 @@
                   <rest xml:id="d952721e81658" dur="8"/>
                 </layer>
               </staff>
-              <dynam tstamp="1" place="below" staff="1" vo="1.1">
-                <rend fontstyle="italic">dim.</rend>
-              </dynam>
+              <dynam tstamp="1" place="below" staff="1" vo="1.1"><rend fontstyle="italic">dim.</rend></dynam>
               <slur tstamp="1" curvedir="below" startid="#d952721e81491" endid="#d952721e81668" staff="1" tstamp2="1m+1"/>
               <tie tstamp="1" staff="1" curvedir="below" startid="#d952721e81491" endid="#d952721e81510"/>
             </measure>
@@ -21396,15 +21256,9 @@
               <tie tstamp="1" staff="4" curvedir="below" startid="#d952721e81686" endid="#d952721e81705"/>
               <slur tstamp="1" curvedir="below" startid="#d952721e81761" endid="#d952721e81821" staff="5" tstamp2="0m+5.824"/>
               <tie tstamp="1" staff="5" curvedir="below" startid="#d952721e81761" endid="#d952721e81786"/>
-              <dynam tstamp="3.941" place="above" staff="5" vo="-1.2">
-                <rend fontstyle="italic">dim.</rend>
-              </dynam>
-              <dynam tstamp="1" place="above" staff="6" ho="-0.5" vo="1.3">
-                <rend fontstyle="italic">dim.</rend>
-              </dynam>
-              <dynam tstamp="1" place="below" staff="6">
-                <rend fontstyle="italic">dim.</rend>
-              </dynam>
+              <dynam tstamp="3.941" place="above" staff="5" vo="-1.2"><rend fontstyle="italic">dim.</rend></dynam>
+              <dynam tstamp="1" place="above" staff="6" ho="-0.5" vo="1.3"><rend fontstyle="italic">dim.</rend></dynam>
+              <dynam tstamp="1" place="below" staff="6"><rend fontstyle="italic">dim.</rend></dynam>
               <slur tstamp="1" curvedir="below" startid="#d952721e81848" endid="#d952721e82004" staff="6" tstamp2="1m+1"/>
             </measure>
             <measure n="368" xml:id="d952721e81865">
@@ -21560,9 +21414,7 @@
                   <note xml:id="d952721e82666" pname="f" oct="2" dur="2" dots="1" tie="m" stem.dir="up"/>
                 </layer>
               </staff>
-              <tempo tstamp="1" place="above" staff="1" vo="3.3">
-                <rend fontstyle="italic">ritard.</rend>
-              </tempo>
+              <tempo tstamp="1" place="above" staff="1" vo="3.3"><rend fontstyle="italic">ritard.</rend></tempo>
               <tie tstamp="1" staff="1" curvedir="above" startid="#d952721e82482" endid="#d952721e82500"/>
               <slur tstamp="5" curvedir="above" startid="#d952721e82519" endid="#d952721e82539" staff="1" tstamp2="0m+6"/>
               <slur tstamp="1" curvedir="above" startid="#d952721e82560" endid="#d952721e82713" staff="4" tstamp2="1m+1"/>
@@ -21570,9 +21422,7 @@
               <slur tstamp="1" curvedir="below" startid="#d952721e82611" endid="#d952721e82747" staff="5" tstamp2="1m+1"/>
               <tie tstamp="1" staff="5" curvedir="below" startid="#d952721e82611" endid="#d952721e82632"/>
               <tie tstamp="1" staff="6" curvedir="below" startid="#d952721e82666" endid="#d952721e82781"/>
-              <tempo tstamp="7" place="below" staff="6">
-                <rend fontstyle="italic">ritard.</rend>
-              </tempo>
+              <tempo tstamp="7" place="below" staff="6"><rend fontstyle="italic">ritard.</rend></tempo>
             </measure>
             <measure n="372" xml:id="d952721e82692">
               <staff n="1">
@@ -22608,23 +22458,15 @@
                   <note xml:id="d965262e4917" pname="a" oct="2" dur="2" stem.dir="up"/>
                 </layer>
               </staff>
-              <dynam tstamp="2" place="below" staff="1" vo="-0.6">
-                <rend fontstyle="italic">dim</rend>
-              </dynam>
+              <dynam tstamp="2" place="below" staff="1" vo="-0.6"><rend fontstyle="italic">dim</rend></dynam>
               <slur tstamp="2" curvedir="above" startid="#d965262e4796" endid="#d965262e5265" staff="1" tstamp2="3m+1"/>
               <tie tstamp="2" staff="1" curvedir="above" startid="#d965262e4796" endid="#d965262e4933"/>
-              <dynam tstamp="2" place="below" staff="4" vo="-0.6">
-                <rend fontstyle="italic">dim</rend>
-              </dynam>
+              <dynam tstamp="2" place="below" staff="4" vo="-0.6"><rend fontstyle="italic">dim</rend></dynam>
               <slur tstamp="2" curvedir="below" startid="#d965262e4837" endid="#d965262e5297" staff="4" tstamp2="3m+1"/>
               <slur tstamp="1" curvedir="below" startid="#d965262e4854" endid="#d965262e5329" staff="3" tstamp2="3m+1"/>
-              <dynam tstamp="2" place="below" staff="3" vo="-0.6">
-                <rend fontstyle="italic">dim</rend>
-              </dynam>
+              <dynam tstamp="2" place="below" staff="3" vo="-0.6"><rend fontstyle="italic">dim</rend></dynam>
               <slur tstamp="1" curvedir="below" startid="#d965262e4891" endid="#d965262e5361" staff="4" tstamp2="3m+1"/>
-              <dynam tstamp="2" place="below" staff="4" vo="-0.6">
-                <rend fontstyle="italic">dim</rend>
-              </dynam>
+              <dynam tstamp="2" place="below" staff="4" vo="-0.6"><rend fontstyle="italic">dim</rend></dynam>
             </measure>
             <measure n="30" xml:id="d965262e4931">
               <staff n="1">
@@ -22835,18 +22677,10 @@
                   </beam>
                 </layer>
               </staff>
-              <dynam tstamp="6" place="below" staff="1" vo="1">
-                <rend fontstyle="italic">cresc.</rend>
-              </dynam>
-              <dynam tstamp="6" place="below" staff="4" vo="1">
-                <rend fontstyle="italic">cresc.</rend>
-              </dynam>
-              <dynam tstamp="6" place="below" staff="3" vo="1">
-                <rend fontstyle="italic">cresc.</rend>
-              </dynam>
-              <dynam tstamp="6" place="below" staff="4" vo="1">
-                <rend fontstyle="italic">cresc.</rend>
-              </dynam>
+              <dynam tstamp="6" place="below" staff="1" vo="1"><rend fontstyle="italic">cresc.</rend></dynam>
+              <dynam tstamp="6" place="below" staff="4" vo="1"><rend fontstyle="italic">cresc.</rend></dynam>
+              <dynam tstamp="6" place="below" staff="3" vo="1"><rend fontstyle="italic">cresc.</rend></dynam>
+              <dynam tstamp="6" place="below" staff="4" vo="1"><rend fontstyle="italic">cresc.</rend></dynam>
             </measure>
             <measure n="35" xml:id="d965262e6127" right="dbl">
               <staff n="1">
@@ -24210,16 +24044,10 @@
               <tie tstamp="1" staff="1" curvedir="below" startid="#d965262e14579" endid="#d965262e14597"/>
               <dynam tstamp="6" place="below" startto="-1" staff="1" vo="1.2">ff</dynam>
               <slur tstamp="2" curvedir="below" startid="#d965262e14677" endid="#d965262e14749" staff="4" tstamp2="0m+6"/>
-              <dynam tstamp="3" place="above" staff="4" vo="1.3">
-                <rend fontstyle="italic">cresc.</rend>
-              </dynam>
-              <dynam tstamp="2" place="above" staff="3">
-                <rend fontstyle="italic">cresc.</rend>
-              </dynam>
+              <dynam tstamp="3" place="above" staff="4" vo="1.3"><rend fontstyle="italic">cresc.</rend></dynam>
+              <dynam tstamp="2" place="above" staff="3"><rend fontstyle="italic">cresc.</rend></dynam>
               <slur tstamp="2" curvedir="below" startid="#d965262e14795" endid="#d965262e14863" staff="3" tstamp2="0m+6"/>
-              <dynam tstamp="3" place="above" staff="4" vo="0.9">
-                <rend fontstyle="italic">cresc.</rend>
-              </dynam>
+              <dynam tstamp="3" place="above" staff="4" vo="0.9"><rend fontstyle="italic">cresc.</rend></dynam>
             </measure>
             <measure n="56" xml:id="d965262e14990">
               <staff n="1">
@@ -28149,18 +27977,10 @@
                   </beam>
                 </layer>
               </staff>
-              <dynam tstamp="6" place="below" staff="1">
-                <rend fontstyle="italic">cresc.</rend>
-              </dynam>
-              <dynam tstamp="6" place="below" staff="4">
-                <rend fontstyle="italic">cresc.</rend>
-              </dynam>
-              <dynam tstamp="6" place="below" staff="3">
-                <rend fontstyle="italic">cresc.</rend>
-              </dynam>
-              <dynam tstamp="6" place="below" staff="4">
-                <rend fontstyle="italic">cresc.</rend>
-              </dynam>
+              <dynam tstamp="6" place="below" staff="1"><rend fontstyle="italic">cresc.</rend></dynam>
+              <dynam tstamp="6" place="below" staff="4"><rend fontstyle="italic">cresc.</rend></dynam>
+              <dynam tstamp="6" place="below" staff="3"><rend fontstyle="italic">cresc.</rend></dynam>
+              <dynam tstamp="6" place="below" staff="4"><rend fontstyle="italic">cresc.</rend></dynam>
             </measure>
             <measure n="3" xml:id="d962721e801" right="dbl">
               <staff n="1">
@@ -31671,18 +31491,10 @@
                   </beam>
                 </layer>
               </staff>
-              <dynam tstamp="6" place="below" staff="1" vo="0.7">
-                <rend fontstyle="italic">cresc.</rend>
-              </dynam>
-              <dynam tstamp="6" place="below" staff="4" vo="0.7">
-                <rend fontstyle="italic">cresc.</rend>
-              </dynam>
-              <dynam tstamp="6" place="below" staff="3" vo="0.7">
-                <rend fontstyle="italic">cresc.</rend>
-              </dynam>
-              <dynam tstamp="6" place="below" staff="4" vo="0.7">
-                <rend fontstyle="italic">cresc.</rend>
-              </dynam>
+              <dynam tstamp="6" place="below" staff="1" vo="0.7"><rend fontstyle="italic">cresc.</rend></dynam>
+              <dynam tstamp="6" place="below" staff="4" vo="0.7"><rend fontstyle="italic">cresc.</rend></dynam>
+              <dynam tstamp="6" place="below" staff="3" vo="0.7"><rend fontstyle="italic">cresc.</rend></dynam>
+              <dynam tstamp="6" place="below" staff="4" vo="0.7"><rend fontstyle="italic">cresc.</rend></dynam>
             </measure>
             <measure n="59" xml:id="d962721e21049" right="dbl">
               <staff n="1">
@@ -33289,9 +33101,7 @@
               <dynam tstamp="1" place="below" staff="3" ho="-0.9" vo="1.2">sf</dynam>
               <slur tstamp="1" curvedir="below" startid="#d962721e31386" endid="#d962721e31446" staff="3" tstamp2="0m+4"/>
               <dynam tstamp="1" place="above" startto="-2" staff="3">sf</dynam>
-              <dir tstamp="4" place="below" staff="4" vo="-0.7">
-                <rend fontstyle="italic">attaca</rend>
-              </dir>
+              <dir tstamp="4" place="below" staff="4" vo="-0.7"><rend fontstyle="italic">attaca</rend></dir>
             </measure>
           </section>
         </score>
