@@ -50,9 +50,9 @@
           <name>mei30To40.xsl</name>
           <ptr target="https://github.com/music-encoding/encoding-tools/blob/main/mei30To40/mei30To40.xsl"/>
         </application>
-        <application version="0.0.1-alpha" xml:id="lint-mei-files_0.0.1-alpha">
-          <name>mei-files.xsl</name>
-          <ptr target="https://github.com/music-encoding/encoding-tools/blob/main/linting/mei-files.xsl"/>
+        <application version="0.0.1-alpha" xml:id="mei-lint_0.0.1-alpha">
+          <name>mei-lint.xsl</name>
+          <ptr target="https://github.com/music-encoding/encoding-tools/blob/main/linting/mei-lint.xsl"/>
         </application>
       </appInfo>
       <editorialDecl>
@@ -166,6 +166,7 @@
               <li>update meiversion attributes to 4.0.1</li>
               <li>add missing responsibility statements to change elements</li>
               <li>unify documentation of mei version upgrades (appInfo and revisionDesc)</li>
+               <li>linted with <ref target="#mei-lint_0.0.1-alpha">mei-lint.xsl</ref></li>
             </list></p>
         </changeDesc>
         <date isodate="2023-07-27T17:10:49+02:00"/>
