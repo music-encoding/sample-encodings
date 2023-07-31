@@ -1,13 +1,11 @@
-<?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<?xml-model href="http://music-encoding.org/schema/4.0.0/mei-all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<?xml-model href="http://music-encoding.org/schema/4.0.0/mei-all.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
-<mei xmlns:xlink="http://www.w3.org/1999/xlink" xmlns="http://www.music-encoding.org/ns/mei"
-  meiversion="4.0.0">
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://music-encoding.org/schema/4.0.1/mei-all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://music-encoding.org/schema/4.0.1/mei-all.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<mei xmlns="http://www.music-encoding.org/ns/mei" meiversion="4.0.1">
   <meiHead>
     <fileDesc>
       <titleStmt>
-        <title>Jesu, meines Herzens Freud <titlePart type="subordinate">an electronic
-          transcription</titlePart> </title>
+        <title>Jesu, meines Herzens Freud<titlePart type="subordinate">an electronic transcription</titlePart></title>
         <composer>
           <persName role="creator">Johann Rudolf Ahle</persName>
         </composer>
@@ -24,45 +22,35 @@
       </titleStmt>
       <pubStmt>
         <publisher>
-          <corpName role="publisher" codedval="5115204-6" auth.uri="http://d-nb.info/gnd/"
-            auth="GND">Musikwissenschaftliches Seminar, Detmold</corpName>
+          <corpName role="publisher" codedval="5115204-6" auth.uri="http://d-nb.info/gnd/" auth="GND">Musikwissenschaftliches Seminar, Detmold</corpName>
         </publisher>
         <address>
           <addrLine>Gartenstrasse 20</addrLine>
-          <addrLine>32756 <geogName codedval="7004442" auth.uri="http://vocab.getty.edu/page/tgn/"
-            auth="TGN">Detmold</geogName> </addrLine>
-          <addrLine>
-            <geogName codedval="7000084" auth.uri="http://vocab.getty.edu/page/tgn/" auth="TGN"
-              >Germany</geogName>
-          </addrLine>
+          <addrLine>32756<geogName codedval="7004442" auth.uri="http://vocab.getty.edu/page/tgn/" auth="TGN">Detmold</geogName></addrLine>
+          <addrLine><geogName codedval="7000084" auth.uri="http://vocab.getty.edu/page/tgn/" auth="TGN">Germany</geogName></addrLine>
         </address>
         <date>2011</date>
         <availability>
-          <useRestrict>This encoding is in the public domain. However, the sources used to create it
-            may be under copyright. We believe their use by the MEI project for educational and
-            research purposes is covered by the Fair Use doctrine. However, we will remove any
-            material from the project archive when requested to do so by the copyright
-            owner.</useRestrict>
+          <useRestrict>This encoding is in the public domain. However, the sources used to create it may be under copyright. We believe their use by the MEI project for educational and research purposes is covered by the Fair Use doctrine. However, we will remove any material from the project archive when requested to do so by the copyright owner.</useRestrict>
         </availability>
       </pubStmt>
       <seriesStmt>
         <title>MEI Sample Collection</title>
         <funder>
-          <corpName role="funder" codedval="2007744-0" auth.uri="http://d-nb.info/gnd/" auth="GND"
-            >German Research Foundation<address> <addrLine>Kennedyallee 40</addrLine> <addrLine>
-            <geogName codedval="7005090" auth.uri="http://vocab.getty.edu/page/tgn/" auth="TGN"
-            >Bonn</geogName> </addrLine> <addrLine> <geogName codedval="7000084"
-            auth.uri="http://vocab.getty.edu/page/tgn/" auth="TGN">Germany</geogName> </addrLine>
+          <corpName role="funder" codedval="2007744-0" auth.uri="http://d-nb.info/gnd/" auth="GND">German Research Foundation
+            <address>
+              <addrLine>Kennedyallee 40</addrLine>
+              <addrLine><geogName codedval="7005090" auth.uri="http://vocab.getty.edu/page/tgn/" auth="TGN">Bonn</geogName></addrLine>
+              <addrLine><geogName codedval="7000084" auth.uri="http://vocab.getty.edu/page/tgn/" auth="TGN">Germany</geogName></addrLine>
             </address> </corpName>
         </funder>
         <funder>
-          <corpName role="funder" codedval="18183-3" auth.uri="http://d-nb.info/gnd/18183-3"
-            auth="Deutsche Nationalbibliothek">National Endowment for the Humanities<address>
-            <addrLine>1100 Pennsylvania Avenue N.W.</addrLine> <addrLine> <geogName
-            codedval="7013962" auth.uri="http://vocab.getty.edu/page/tgn/" auth="TGN">Washington,
-            DC</geogName> 20004</addrLine> <addrLine> <geogName codedval="7012149"
-            auth.uri="http://vocab.getty.edu/page/tgn/" auth="TGN">United States</geogName>
-            </addrLine> </address> </corpName>
+          <corpName role="funder" codedval="18183-3" auth.uri="http://d-nb.info/gnd/18183-3" auth="Deutsche Nationalbibliothek">National Endowment for the Humanities
+            <address>
+              <addrLine>1100 Pennsylvania Avenue N.W.</addrLine>
+              <addrLine><geogName codedval="7013962" auth.uri="http://vocab.getty.edu/page/tgn/" auth="TGN">Washington, DC</geogName>20004</addrLine>
+              <addrLine><geogName codedval="7012149" auth.uri="http://vocab.getty.edu/page/tgn/" auth="TGN">United States</geogName></addrLine>
+            </address> </corpName>
         </funder>
         <respStmt>
           <corpName role="publisher">MEI Project</corpName>
@@ -74,12 +62,10 @@
       <sourceDesc>
         <source>
           <bibl>
-            <identifier type="URI"
-              >http://javanese.imslp.info/files/imglnks/usimg/0/05/IMSLP80806-PMLP164410-Jesu-meines-Herzens-Freud.pdf</identifier>
+            <identifier type="URI">http://javanese.imslp.info/files/imglnks/usimg/0/05/IMSLP80806-PMLP164410-Jesu-meines-Herzens-Freud.pdf</identifier>
             <title>Jesu, meines Herzens Freud</title>
             <composer>
-              <persName role="composer" auth.uri="http://d-nb.info/gnd/" codedval="104325453"
-                auth="GND">Johann Rudolf Ahle</persName>
+              <persName role="composer" auth.uri="http://d-nb.info/gnd/" codedval="104325453" auth="GND">Johann Rudolf Ahle</persName>
             </composer>
             <editor>
               <persName role="editor">Jürgen Knuth</persName>
@@ -91,8 +77,7 @@
         </source>
         <source>
           <bibl>
-            <identifier type="URI"
-              >http://www.hausmusik.ch/notenregal/a/ahle_johann-rudolf%281625-1673%29/jesu_meines_%20herzens_%20freud/jesu_meines_herzens_freud.xml</identifier>
+            <identifier type="URI">http://www.hausmusik.ch/notenregal/a/ahle_johann-rudolf%281625-1673%29/jesu_meines_%20herzens_%20freud/jesu_meines_herzens_freud.xml</identifier>
             <title>Jesu, meines Herzens Freud</title>
             <imprint>
               <date isodate="2011-05-12"/>
@@ -111,17 +96,29 @@
     </fileDesc>
     <encodingDesc>
       <appInfo>
+        <application version="v1.0_beta" xml:id="mei2012To2013">
+          <name>mei2012To2013.xsl</name>
+          <ptr target="https://github.com/music-encoding/encoding-tools/blob/main/mei2012To2013/mei2012To2013.xsl"/>
+        </application>
+        <application version="v1.0_beta" xml:id="mei21To30">
+          <name>mei21To30.xsl</name>
+          <ptr target="https://github.com/music-encoding/encoding-tools/blob/main/mei21To30/mei21To30.xsl"/>
+        </application>
         <application xml:id="xsl_mxl2mei_2.2.3" version="2.2.3">
           <name>MusicXML2MEI</name>
         </application>
-        <application version="v1.0_beta" xml:id="app_20193104018855">
+        <application version="v1.0_beta" xml:id="mei30To40">
           <name>mei30To40.xsl</name>
+          <ptr target="https://github.com/music-encoding/encoding-tools/blob/main/mei30To40/mei30To40.xsl"/>
+        </application>
+        <application version="v0.0.1-alpha" xml:id="meiLint_v0.0.1-alpha">
+          <name>meiLint.xsl</name>
+          <ptr target="https://github.com/music-encoding/encoding-tools/blob/main/meiLint/meiLint.xsl"/>
         </application>
       </appInfo>
       <classDecls>
         <taxonomy>
-          <bibl xml:id="OCLC_DDC"
-            target="http://www.oclc.org/dewey/resources/summaries/default.htm#700">OCLC_DDC</bibl>
+          <bibl xml:id="OCLC_DDC" target="http://www.oclc.org/dewey/resources/summaries/default.htm#700">OCLC_DDC</bibl>
           <category xml:id="_782">
             <altId>782</altId>
             <label>Vocal music</label>
@@ -140,8 +137,7 @@
       <work>
         <title>Jesu, meines Herzens Freud</title>
         <composer>
-          <persName role="composer" auth.uri="http://d-nb.info/gnd/" codedval="104325453" auth="GND"
-            >Johann R. Ahle</persName>
+          <persName role="composer" auth.uri="http://d-nb.info/gnd/" codedval="104325453" auth="GND">Johann R. Ahle</persName>
         </composer>
         <arranger>
           <persName role="arranger">J. Knuth</persName>
@@ -150,8 +146,7 @@
         <meter count="4" unit="4" sym="common"/>
         <tempo>undefined</tempo>
         <incip>
-          <incipCode form="plaineAndEasie">%G-2@c
-            4A4B4C{8B8A}/x4G.8A2B/4C{8B16C16D}2B/1A</incipCode>
+          <incipCode form="plaineAndEasie">%G-2@c 4A4B4C{8B8A}/x4G.8A2B/4C{8B16C16D}2B/1A</incipCode>
           <incipCode form="parsons">*uuuddduuuduudd</incipCode>
           <incipText>
             <p>Jesu meines Herzens Freud süßer Jesu, meiner Seelen Seligkeit</p>
@@ -264,6 +259,9 @@
     </workList>
     <revisionDesc>
       <change n="1">
+        <respStmt>
+          <name>Unknown</name>
+        </respStmt>
         <changeDesc>
           <p>The original MusicXML file was generated using capella Media Producer 5.</p>
         </changeDesc>
@@ -271,47 +269,61 @@
       </change>
       <change n="2">
         <respStmt>
-          <persName xml:id="MH"> Maja Hartwig </persName>
+          <persName xml:id="MH">Maja Hartwig</persName>
         </respStmt>
         <changeDesc>
-          <p>Transcoded from a MusicXML version 1.0 file on 2011-05-12 using the <ref
-            target="#xsl_mxl2mei_2.2.3">musicxml2mei</ref> stylesheet. </p>
+          <p>Transcoded from a MusicXML version 1.0 file on 2011-05-12 using the<ref target="#xsl_mxl2mei_2.2.3">musicxml2mei</ref>stylesheet.</p>
         </changeDesc>
         <date isodate="2011-05-12"/>
       </change>
       <change n="3">
         <respStmt>
-          <persName xml:id="KR"> Kristina Richts </persName>
+          <persName xml:id="KR">Kristina Richts</persName>
         </respStmt>
         <changeDesc>
-          <p> Cleaned up MEI file automatically using <ref target="#xsl_ppq">ppq.xsl</ref>. </p>
+          <p>Cleaned up MEI file automatically using<ref target="#xsl_ppq">ppq.xsl</ref>.</p>
         </changeDesc>
         <date isodate="2011-10-22"/>
       </change>
       <change n="4" resp="#KR">
         <changeDesc>
-          <p> Cleaned up MEI file automatically using <ref target="#xsl_header">Header.xsl</ref>.
-          </p>
+          <p>Cleaned up MEI file automatically using<ref target="#xsl_header">Header.xsl</ref>.</p>
         </changeDesc>
         <date isodate="2011-12-01"/>
       </change>
-      <change n="5">
+      <change n="5" resp="#mei2012To2013">
         <changeDesc>
           <p>Converted to MEI 2013 using mei2012To2013.xsl, version 1.0 beta</p>
         </changeDesc>
         <date isodate="2014-05-30"/>
       </change>
-      <change n="6">
+      <change n="6" resp="#mei21To30">
         <changeDesc>
           <p>Converted to version 3.0.0 using mei21To30.xsl, version 1.0 beta</p>
         </changeDesc>
         <date isodate="2015-10-15"/>
       </change>
-      <change n="7" resp="#app_20193104018855">
+      <change n="7" resp="#mei30To40">
         <changeDesc>
           <p>Converted to MEI version 4.0.0 using mei30To40.xsl, version 1.0 beta</p>
         </changeDesc>
         <date isodate="2019-01-03"/>
+      </change>
+      <change n="8">
+        <respStmt>
+          <persName>Benjamin W. Bohl</persName>
+          <persName>Stefan Münnich</persName>
+        </respStmt>
+        <changeDesc>
+          <p><list>
+              <li>update xml-model schema references to v4.0.1</li>
+              <li>update meiversion attributes to 4.0.1</li>
+              <li>add missing responsibility statements to change elements</li>
+              <li>unify documentation of mei version upgrades (appInfo and revisionDesc)</li>
+               <li>linted with <ref target="#meiLint_v0.0.1-alpha">meiLint.xsl</ref></li>
+            </list></p>
+        </changeDesc>
+        <date isodate="2023-07-27T17:09:26+02:00"/>
       </change>
     </revisionDesc>
   </meiHead>
@@ -402,8 +414,7 @@
             <measure n="2" xml:id="d23378e444">
               <staff n="1">
                 <layer n="1">
-                  <note xml:id="d23378e446" pname="g" accid="s" oct="4" dur="4" dots="1"
-                    stem.dir="up"/>
+                  <note xml:id="d23378e446" pname="g" accid="s" oct="4" dur="4" dots="1" stem.dir="up"/>
                   <note xml:id="d23378e465" pname="a" oct="4" dur="8" stem.dir="up"/>
                   <note xml:id="d23378e487" pname="b" oct="4" dur="2" stem.dir="up"/>
                 </layer>
@@ -455,13 +466,8 @@
                   <note xml:id="d23378e674" pname="e" oct="3" dur="2" stem.dir="down"/>
                 </layer>
               </staff>
-              <dir tstamp="3" place="above" staff="1">
-                <rend fontfam="PlainBlackWide" fontsize="18pt">Jesu, meines Herzens Freud</rend>
-              </dir>
-              <dir tstamp="3" place="above" staff="1">
-                <rend fontfam="Times New Roman" fontsize="11pt" fontweight="bold">Johann
-                  Flitner</rend>
-              </dir>
+              <dir tstamp="3" place="above" staff="1"><rend fontfam="PlainBlackWide" fontsize="18pt">Jesu, meines Herzens Freud</rend></dir>
+              <dir tstamp="3" place="above" staff="1"><rend fontfam="Times New Roman" fontsize="11pt" fontweight="bold">Johann Flitner</rend></dir>
             </measure>
             <measure n="3" xml:id="d23378e688">
               <staff n="1">
@@ -512,8 +518,7 @@
                     <note xml:id="d23378e868" pname="g" accid="s" oct="4" dur="16" stem.dir="down"/>
                     <note xml:id="d23378e891" pname="f" accid="s" oct="4" dur="16" stem.dir="down"/>
                   </beam>
-                  <note xml:id="d23378e917" pname="g" oct="4" dur="4" stem.dir="down" accid.ges="s"
-                  />
+                  <note xml:id="d23378e917" pname="g" oct="4" dur="4" stem.dir="down" accid.ges="s"/>
                 </layer>
               </staff>
               <staff n="2">
@@ -529,18 +534,10 @@
                   <note xml:id="d23378e1027" pname="e" oct="3" dur="2" stem.dir="down"/>
                 </layer>
               </staff>
-              <dir tstamp="1" place="above" staff="1">
-                <rend fontfam="Times New Roman" fontsize="11pt" fontweight="bold">Johann R.
-                  Ahle</rend>
-              </dir>
-              <slur tstamp="3" curvedir="below" startid="#d23378e835" endid="#d23378e917" staff="1"
-                tstamp2="0m+4"/>
-              <dir tstamp="4" place="above" staff="1">
-                <rend fontfam="Times New Roman" fontsize="10pt" fontweight="bold">Satz: J.
-                  Knuth</rend>
-              </dir>
-              <slur tstamp="3" curvedir="above" startid="#d23378e964" endid="#d23378e980" staff="2"
-                tstamp2="0m+4"/>
+              <dir tstamp="1" place="above" staff="1"><rend fontfam="Times New Roman" fontsize="11pt" fontweight="bold">Johann R. Ahle</rend></dir>
+              <slur tstamp="3" curvedir="below" startid="#d23378e835" endid="#d23378e917" staff="1" tstamp2="0m+4"/>
+              <dir tstamp="4" place="above" staff="1"><rend fontfam="Times New Roman" fontsize="10pt" fontweight="bold">Satz: J. Knuth</rend></dir>
+              <slur tstamp="3" curvedir="above" startid="#d23378e964" endid="#d23378e980" staff="2" tstamp2="0m+4"/>
             </measure>
             <measure n="4" xml:id="d23378e1041">
               <staff n="1">
@@ -746,11 +743,9 @@
                       </verse>
                     </note>
                     <note xml:id="d23378e1871" pname="d" accid="s" oct="4" dur="16" stem.dir="down"/>
-                    <note xml:id="d23378e1893" pname="c" accid="s" oct="4" dur="16" stem.dir="down"
-                    />
+                    <note xml:id="d23378e1893" pname="c" accid="s" oct="4" dur="16" stem.dir="down"/>
                   </beam>
-                  <note xml:id="d23378e1915" pname="d" oct="4" dur="4" stem.dir="down" accid.ges="s"
-                  />
+                  <note xml:id="d23378e1915" pname="d" oct="4" dur="4" stem.dir="down" accid.ges="s"/>
                 </layer>
               </staff>
               <staff n="2">
@@ -767,12 +762,9 @@
                   <note xml:id="d23378e2041" pname="b" oct="2" dur="4" stem.dir="down"/>
                 </layer>
               </staff>
-              <slur tstamp="3" curvedir="below" startid="#d23378e1838" endid="#d23378e1915"
-                staff="1" tstamp2="0m+4"/>
-              <tie tstamp="3" curvedir="above" startid="#d23378e1962" endid="#d23378e1978" staff="2"
-                tstamp2="0m+4"/>
-              <slur tstamp="3" curvedir="below" startid="#d23378e2025" endid="#d23378e2041"
-                staff="2" tstamp2="0m+4"/>
+              <slur tstamp="3" curvedir="below" startid="#d23378e1838" endid="#d23378e1915" staff="1" tstamp2="0m+4"/>
+              <tie tstamp="3" curvedir="above" startid="#d23378e1962" endid="#d23378e1978" staff="2" tstamp2="0m+4"/>
+              <slur tstamp="3" curvedir="below" startid="#d23378e2025" endid="#d23378e2041" staff="2" tstamp2="0m+4"/>
             </measure>
             <measure n="8" xml:id="d23378e2058">
               <staff n="1">
@@ -932,8 +924,7 @@
                   <note xml:id="d23378e2720" pname="e" oct="3" dur="2" stem.dir="down"/>
                 </layer>
               </staff>
-              <slur tstamp="1" curvedir="below" startid="#d23378e2529" endid="#d23378e2560"
-                staff="1" tstamp2="0m+1.5"/>
+              <slur tstamp="1" curvedir="below" startid="#d23378e2529" endid="#d23378e2560" staff="1" tstamp2="0m+1.5"/>
             </measure>
             <measure n="11" xml:id="d23378e2734">
               <staff n="1">
@@ -981,11 +972,9 @@
                       </verse>
                     </note>
                     <note xml:id="d23378e2890" pname="g" accid="s" oct="4" dur="16" stem.dir="down"/>
-                    <note xml:id="d23378e2912" pname="f" accid="s" oct="4" dur="16" stem.dir="down"
-                    />
+                    <note xml:id="d23378e2912" pname="f" accid="s" oct="4" dur="16" stem.dir="down"/>
                   </beam>
-                  <note xml:id="d23378e2934" pname="g" oct="4" dur="4" stem.dir="down" accid.ges="s"
-                  />
+                  <note xml:id="d23378e2934" pname="g" oct="4" dur="4" stem.dir="down" accid.ges="s"/>
                 </layer>
               </staff>
               <staff n="2">
@@ -1001,10 +990,8 @@
                   <note xml:id="d23378e3044" pname="e" oct="3" dur="2" stem.dir="down"/>
                 </layer>
               </staff>
-              <slur tstamp="3" curvedir="below" startid="#d23378e2857" endid="#d23378e2934"
-                staff="1" tstamp2="0m+4"/>
-              <slur tstamp="3" curvedir="above" startid="#d23378e2981" endid="#d23378e2997"
-                staff="2" tstamp2="0m+4"/>
+              <slur tstamp="3" curvedir="below" startid="#d23378e2857" endid="#d23378e2934" staff="1" tstamp2="0m+4"/>
+              <slur tstamp="3" curvedir="above" startid="#d23378e2981" endid="#d23378e2997" staff="2" tstamp2="0m+4"/>
             </measure>
             <measure n="12" xml:id="d23378e3058">
               <staff n="1">
@@ -1154,10 +1141,8 @@
                   <note xml:id="d23378e3680" pname="a" oct="2" dur="2" stem.dir="down"/>
                 </layer>
               </staff>
-              <slur tstamp="1" curvedir="below" startid="#d23378e3511" endid="#d23378e3564"
-                staff="1" tstamp2="0m+2"/>
-              <slur tstamp="1" curvedir="above" startid="#d23378e3617" endid="#d23378e3633"
-                staff="2" tstamp2="0m+2"/>
+              <slur tstamp="1" curvedir="below" startid="#d23378e3511" endid="#d23378e3564" staff="1" tstamp2="0m+2"/>
+              <slur tstamp="1" curvedir="above" startid="#d23378e3617" endid="#d23378e3633" staff="2" tstamp2="0m+2"/>
             </measure>
           </section>
         </score>

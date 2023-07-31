@@ -1,16 +1,13 @@
-<?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<?xml-model href="http://music-encoding.org/schema/4.0.0/mei-all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<?xml-model href="http://music-encoding.org/schema/4.0.0/mei-all.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
-<mei xmlns:xlink="http://www.w3.org/1999/xlink" xmlns="http://www.music-encoding.org/ns/mei"
-  meiversion="4.0.0">
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://music-encoding.org/schema/4.0.1/mei-all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://music-encoding.org/schema/4.0.1/mei-all.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<mei xmlns="http://www.music-encoding.org/ns/mei" meiversion="4.0.1">
   <meiHead>
     <fileDesc>
       <titleStmt>
-        <title>Suite La Lyra, Gigue <titlePart type="subordinate">for 2 Trumpets and
-          Organ</titlePart> </title>
+        <title>Suite La Lyra, Gigue<titlePart type="subordinate">for 2 Trumpets and Organ</titlePart></title>
         <composer>
-          <persName role="creator" codedval="11862119X" auth.uri="http://d-nb.info/gnd/" auth="GND"
-            >Georg Philipp Telemann</persName>
+          <persName role="creator" codedval="11862119X" auth.uri="http://d-nb.info/gnd/" auth="GND">Georg Philipp Telemann</persName>
         </composer>
         <respStmt>
           <persName role="encoder">Maja Hartwig</persName>
@@ -19,45 +16,35 @@
       </titleStmt>
       <pubStmt>
         <publisher>
-          <corpName role="publisher" codedval="5115204-6" auth.uri="http://d-nb.info/gnd/"
-            auth="GND">Musikwissenschaftliches Seminar, Detmold</corpName>
+          <corpName role="publisher" codedval="5115204-6" auth.uri="http://d-nb.info/gnd/" auth="GND">Musikwissenschaftliches Seminar, Detmold</corpName>
         </publisher>
         <address>
           <addrLine>Gartenstrasse 20</addrLine>
-          <addrLine>32756 <geogName codedval="7004442" auth.uri="http://vocab.getty.edu/page/tgn/"
-            auth="TGN">Detmold</geogName> </addrLine>
-          <addrLine>
-            <geogName codedval="7000084" auth.uri="http://vocab.getty.edu/page/tgn/" auth="TGN"
-              >Germany</geogName>
-          </addrLine>
+          <addrLine>32756<geogName codedval="7004442" auth.uri="http://vocab.getty.edu/page/tgn/" auth="TGN">Detmold</geogName></addrLine>
+          <addrLine><geogName codedval="7000084" auth.uri="http://vocab.getty.edu/page/tgn/" auth="TGN">Germany</geogName></addrLine>
         </address>
         <date>2011</date>
         <availability>
-          <useRestrict>This encoding is in the public domain. However, the sources used to create it
-            may be under copyright. We believe their use by the MEI project for educational and
-            research purposes is covered by the Fair Use doctrine. However, we will remove any
-            material from the project archive when requested to do so by the copyright
-            owner.</useRestrict>
+          <useRestrict>This encoding is in the public domain. However, the sources used to create it may be under copyright. We believe their use by the MEI project for educational and research purposes is covered by the Fair Use doctrine. However, we will remove any material from the project archive when requested to do so by the copyright owner.</useRestrict>
         </availability>
       </pubStmt>
       <seriesStmt>
         <title>MEI Sample Collection</title>
         <funder>
-          <corpName role="funder" codedval="2007744-0" auth.uri="http://d-nb.info/gnd/" auth="GND"
-            >German Research Foundation<address> <addrLine>Kennedyallee 40</addrLine> <addrLine>
-            <geogName codedval="7005090" auth.uri="http://vocab.getty.edu/page/tgn/" auth="TGN"
-            >Bonn</geogName> </addrLine> <addrLine> <geogName codedval="7000084"
-            auth.uri="http://vocab.getty.edu/page/tgn/" auth="TGN">Germany</geogName> </addrLine>
+          <corpName role="funder" codedval="2007744-0" auth.uri="http://d-nb.info/gnd/" auth="GND">German Research Foundation
+            <address>
+              <addrLine>Kennedyallee 40</addrLine>
+              <addrLine><geogName codedval="7005090" auth.uri="http://vocab.getty.edu/page/tgn/" auth="TGN">Bonn</geogName></addrLine>
+              <addrLine><geogName codedval="7000084" auth.uri="http://vocab.getty.edu/page/tgn/" auth="TGN">Germany</geogName></addrLine>
             </address> </corpName>
         </funder>
         <funder>
-          <corpName role="funder" codedval="18183-3" auth.uri="http://d-nb.info/gnd/18183-3"
-            auth="Deutsche Nationalbibliothek">National Endowment for the Humanities<address>
-            <addrLine>1100 Pennsylvania Avenue N.W.</addrLine> <addrLine> <geogName
-            codedval="7013962" auth.uri="http://vocab.getty.edu/page/tgn/" auth="TGN">Washington,
-            DC</geogName> 20004</addrLine> <addrLine> <geogName codedval="7012149"
-            auth.uri="http://vocab.getty.edu/page/tgn/" auth="TGN">United States</geogName>
-            </addrLine> </address> </corpName>
+          <corpName role="funder" codedval="18183-3" auth.uri="http://d-nb.info/gnd/18183-3" auth="Deutsche Nationalbibliothek">National Endowment for the Humanities
+            <address>
+              <addrLine>1100 Pennsylvania Avenue N.W.</addrLine>
+              <addrLine><geogName codedval="7013962" auth.uri="http://vocab.getty.edu/page/tgn/" auth="TGN">Washington, DC</geogName>20004</addrLine>
+              <addrLine><geogName codedval="7012149" auth.uri="http://vocab.getty.edu/page/tgn/" auth="TGN">United States</geogName></addrLine>
+            </address> </corpName>
         </funder>
         <respStmt>
           <corpName role="publisher">MEI Project</corpName>
@@ -69,14 +56,12 @@
       <sourceDesc>
         <source>
           <bibl>
-            <identifier type="URI"
-              >http://icking-music-archive.org/scores/telemann/lalyra/TWV-55-Es3-xml.zip</identifier>
+            <identifier type="URI">http://icking-music-archive.org/scores/telemann/lalyra/TWV-55-Es3-xml.zip</identifier>
             <title>Suite La Lyra</title>
             <title type="subordinate">for 2 Trumpets and Organ</title>
             <title type="uniform">Suiten, TWV 55 Es 3</title>
             <composer>
-              <persName role="composer" codedval="11862119X" auth.uri="http://d-nb.info/gnd/"
-                auth="GND">Georg Philipp Telemann</persName>
+              <persName role="composer" codedval="11862119X" auth.uri="http://d-nb.info/gnd/" auth="GND">Georg Philipp Telemann</persName>
             </composer>
             <arranger>
               <persName role="arranger">Michel Rondeau</persName>
@@ -88,8 +73,7 @@
         </source>
         <source>
           <bibl>
-            <identifier type="URI"
-              >http://javanese.imslp.info/files/imglnks/usimg/7/76/IMSLP248843-PMLP173639-IMSLP188723-WIMA.abda-Tel55Es3Sco.pdf</identifier>
+            <identifier type="URI">http://javanese.imslp.info/files/imglnks/usimg/7/76/IMSLP248843-PMLP173639-IMSLP188723-WIMA.abda-Tel55Es3Sco.pdf</identifier>
             <title>Suite La Lyra</title>
             <title type="subordinate">for 2 Trumpets and Organ</title>
           </bibl>
@@ -98,17 +82,29 @@
     </fileDesc>
     <encodingDesc>
       <appInfo>
+        <application version="v1.0_beta" xml:id="mei2012To2013">
+          <name>mei2012To2013.xsl</name>
+          <ptr target="https://github.com/music-encoding/encoding-tools/blob/main/mei2012To2013/mei2012To2013.xsl"/>
+        </application>
+        <application version="v1.0_beta" xml:id="mei21To30">
+          <name>mei21To30.xsl</name>
+          <ptr target="https://github.com/music-encoding/encoding-tools/blob/main/mei21To30/mei21To30.xsl"/>
+        </application>
         <application xml:id="xsl_mxl2mei_2.2.3" version="2.2.3">
           <name>MusicXML2MEI</name>
         </application>
-        <application version="v1.0_beta" xml:id="app_20193103958288">
+        <application version="v1.0_beta" xml:id="mei30To40">
           <name>mei30To40.xsl</name>
+          <ptr target="https://github.com/music-encoding/encoding-tools/blob/main/mei30To40/mei30To40.xsl"/>
+        </application>
+        <application version="v0.0.1-alpha" xml:id="meiLint_v0.0.1-alpha">
+          <name>meiLint.xsl</name>
+          <ptr target="https://github.com/music-encoding/encoding-tools/blob/main/meiLint/meiLint.xsl"/>
         </application>
       </appInfo>
       <classDecls>
         <taxonomy>
-          <bibl xml:id="OCLC_DDC"
-            target="http://www.oclc.org/dewey/resources/summaries/default.htm#700">OCLC_DDC</bibl>
+          <bibl xml:id="OCLC_DDC" target="http://www.oclc.org/dewey/resources/summaries/default.htm#700">OCLC_DDC</bibl>
         </taxonomy>
         <taxonomy>
           <bibl xml:id="OSWD" target="http://www.bsz-bw.de/cgi-bin/oswd-suche.pl">OSWD</bibl>
@@ -127,8 +123,7 @@
       <work>
         <title>Suite La Lyra, Gigue</title>
         <composer>
-          <persName role="composer" codedval="11862119X" auth.uri="http://d-nb.info/gnd/" auth="GND"
-            >Georg Philipp Telemann</persName>
+          <persName role="composer" codedval="11862119X" auth.uri="http://d-nb.info/gnd/" auth="GND">Georg Philipp Telemann</persName>
         </composer>
         <key pname="b" mode="major">B major</key>
         <meter count="12" unit="8"/>
@@ -136,7 +131,9 @@
         <incip>
           <incipCode form="parsons">*rrrudduduududdrddrdd</incipCode>
         </incip>
-        <creation>Year of composition<date notbefore="1681" notafter="1767"/> </creation>
+        <creation>Year of composition
+          <date notbefore="1681" notafter="1767"/>
+        </creation>
         <perfMedium>
           <perfResList>
             <perfRes codedval="bb">Trumpet in C 1</perfRes>
@@ -154,28 +151,29 @@
     </workList>
     <revisionDesc>
       <change n="1">
+        <respStmt>
+          <name>Unknown</name>
+        </respStmt>
         <changeDesc>
-          <p>The original MusicXML file was generated using Finale 2010 for Windows and Dolet Light
-            for Finale 2010.</p>
+          <p>The original MusicXML file was generated using Finale 2010 for Windows and Dolet Light for Finale 2010.</p>
         </changeDesc>
         <date isodate="2010-04-30"/>
       </change>
       <change n="2">
         <respStmt>
-          <persName xml:id="MH"> Maja Hartwig </persName>
+          <persName xml:id="MH">Maja Hartwig</persName>
         </respStmt>
         <changeDesc>
-          <p>Transcoded from a MusicXML version 2.0 file on 2011-10-10 using the <ref
-            target="#xsl_mxl2mei_2.2.3">musicxml2mei</ref> stylesheet. </p>
+          <p>Transcoded from a MusicXML version 2.0 file on 2011-10-10 using the<ref target="#xsl_mxl2mei_2.2.3">musicxml2mei</ref>stylesheet.</p>
         </changeDesc>
         <date isodate="2011-10-10"/>
       </change>
       <change n="3">
         <respStmt>
-          <persName xml:id="KR"> Kristina Richts </persName>
+          <persName xml:id="KR">Kristina Richts</persName>
         </respStmt>
         <changeDesc>
-          <p> Cleaned up MEI file automatically using <ref target="#xsl_ppq">ppq.xsl</ref>. </p>
+          <p>Cleaned up MEI file automatically using<ref target="#xsl_ppq">ppq.xsl</ref>.</p>
         </changeDesc>
         <date isodate="2011-10-21"/>
       </change>
@@ -187,8 +185,7 @@
       </change>
       <change n="5" resp="#KR">
         <changeDesc>
-          <p> Cleaned up MEI file automatically using <ref target="#xsl_header">Header.xsl</ref>.
-          </p>
+          <p>Cleaned up MEI file automatically using<ref target="#xsl_header">Header.xsl</ref>.</p>
         </changeDesc>
         <date isodate="2011-12-01"/>
       </change>
@@ -201,23 +198,39 @@
         </changeDesc>
         <date isodate="2013-01-28"/>
       </change>
-      <change n="7">
+      <change n="7" resp="#mei2012To2013">
         <changeDesc>
           <p>Converted to MEI 2013 using mei2012To2013.xsl, version 1.0 beta</p>
         </changeDesc>
         <date isodate="2014-05-30"/>
       </change>
-      <change n="8">
+      <change n="8" resp="#mei21To30">
         <changeDesc>
           <p>Converted to version 3.0.0 using mei21To30.xsl, version 1.0 beta</p>
         </changeDesc>
         <date isodate="2015-10-15"/>
       </change>
-      <change n="9" resp="#app_20193103958288">
+      <change n="9" resp="#mei30To40">
         <changeDesc>
           <p>Converted to MEI version 4.0.0 using mei30To40.xsl, version 1.0 beta</p>
         </changeDesc>
         <date isodate="2019-01-03"/>
+      </change>
+      <change n="10">
+        <respStmt>
+          <persName>Benjamin W. Bohl</persName>
+          <persName>Stefan Münnich</persName>
+        </respStmt>
+        <changeDesc>
+          <p><list>
+              <li>update xml-model schema references to v4.0.1</li>
+              <li>update meiversion attributes to 4.0.1</li>
+              <li>add missing responsibility statements to change elements</li>
+              <li>unify documentation of mei version upgrades (appInfo and revisionDesc)</li>
+               <li>linted with <ref target="#meiLint_v0.0.1-alpha">meiLint.xsl</ref></li>
+            </list></p>
+        </changeDesc>
+        <date isodate="2023-07-27T17:09:52+02:00"/>
       </change>
     </revisionDesc>
   </meiHead>
@@ -226,37 +239,23 @@
       <mdiv>
         <score>
           <scoreDef meter.count="12" meter.unit="8" key.sig="2f" key.mode="major">
-            <pgHead>
-              <rend halign="center" valign="top">Suite La Lyra (55Es3)</rend>
-              <rend halign="center" valign="top">Telemann (9) Suite La Lyra (55Es3) Score</rend>
-              <rend halign="center" valign="top">Telemann (9) Suite La Lyra (55Es3) Score</rend>
-              <rend halign="center" valign="top">for 2 Trumpets &amp; Organ<lb/>9 - Gigue</rend>
-              <rend valign="top">2</rend>
-              <rend halign="right" valign="top">3</rend>
-              <rend halign="right" valign="top">Georg Philipp Telemann (1681-1767)<lb/> Arr. Michel
-                Rondeau</rend>
-            </pgHead>
-            <pgFoot>
-              <rend fontsize="11pt" fontweight="bold" halign="center" valign="bottom">© 2010 -
-                Gatineau,Qc.Ca.</rend>
-            </pgFoot>
+            <pgHead><rend halign="center" valign="top">Suite La Lyra (55Es3)</rend><rend halign="center" valign="top">Telemann (9) Suite La Lyra (55Es3) Score</rend><rend halign="center" valign="top">Telemann (9) Suite La Lyra (55Es3) Score</rend><rend halign="center" valign="top">for 2 Trumpets &amp; Organ
+                <lb/>9 - Gigue</rend><rend valign="top">2</rend><rend halign="right" valign="top">3</rend><rend halign="right" valign="top">Georg Philipp Telemann (1681-1767)
+                <lb/>Arr. Michel Rondeau</rend></pgHead>
+            <pgFoot><rend fontsize="11pt" fontweight="bold" halign="center" valign="bottom">© 2010 - Gatineau,Qc.Ca.</rend></pgFoot>
             <staffGrp bar.thru="true" symbol="bracket">
-              <staffDef n="1" xml:id="P1" lines="5" clef.line="2" clef.shape="G" key.sig="2f"
-                key.mode="major">
+              <staffDef n="1" xml:id="P1" lines="5" clef.line="2" clef.shape="G" key.sig="2f" key.mode="major">
                 <label>Trumpet in C 1</label>
                 <labelAbbr>C Tpt. 1</labelAbbr>
               </staffDef>
-              <staffDef n="2" xml:id="P2" lines="5" clef.line="2" clef.shape="G" key.sig="2f"
-                key.mode="major">
+              <staffDef n="2" xml:id="P2" lines="5" clef.line="2" clef.shape="G" key.sig="2f" key.mode="major">
                 <label>Trumpet in C 2</label>
                 <labelAbbr>C Tpt. 2</labelAbbr>
               </staffDef>
               <staffGrp symbol="brace" bar.thru="true">
                 <label>Organ</label>
-                <staffDef n="3" lines="5" clef.line="2" clef.shape="G" key.sig="2f" key.mode="major"
-                  xml:id="P3-I3"/>
-                <staffDef n="4" lines="5" clef.line="4" clef.shape="F" key.sig="2f" key.mode="major"
-                />
+                <staffDef n="3" lines="5" clef.line="2" clef.shape="G" key.sig="2f" key.mode="major" xml:id="P3-I3"/>
+                <staffDef n="4" lines="5" clef.line="4" clef.shape="F" key.sig="2f" key.mode="major"/>
               </staffGrp>
             </staffGrp>
           </scoreDef>
@@ -302,7 +301,7 @@
                   <rest xml:id="d1e521" dur="8"/>
                 </layer>
               </staff>
-              <dir tstamp="1" place="above" staff="1"> Allegro moderato </dir>
+              <dir tstamp="1" place="above" staff="1">Allegro moderato</dir>
             </measure>
             <measure n="1" xml:id="d1e531">
               <staff n="1">

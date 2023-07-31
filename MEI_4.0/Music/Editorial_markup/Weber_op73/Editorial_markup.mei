@@ -1,7 +1,7 @@
-<?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<?xml-model href="http://music-encoding.org/schema/4.0.0/mei-all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<?xml-model href="http://music-encoding.org/schema/4.0.0/mei-all.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
-<mei xmlns="http://www.music-encoding.org/ns/mei" meiversion="4.0.0">
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://music-encoding.org/schema/4.0.1/mei-all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://music-encoding.org/schema/4.0.1/mei-all.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<mei xmlns="http://www.music-encoding.org/ns/mei" meiversion="4.0.1">
   <meiHead>
     <fileDesc>
       <titleStmt>
@@ -25,11 +25,7 @@
         </address>
         <date>2011</date>
         <availability>
-          <useRestrict>This encoding is in the public domain. However, the sources used to create it
-            may be under copyright. We believe their use by the MEI project for educational and
-            research purposes is covered by the Fair Use doctrine. However, we will remove any
-            material from the project archive when requested to do so by the copyright
-            owner.</useRestrict>
+          <useRestrict>This encoding is in the public domain. However, the sources used to create it may be under copyright. We believe their use by the MEI project for educational and research purposes is covered by the Fair Use doctrine. However, we will remove any material from the project archive when requested to do so by the copyright owner.</useRestrict>
         </availability>
       </pubStmt>
       <seriesStmt>
@@ -50,8 +46,13 @@
     </fileDesc>
     <encodingDesc>
       <appInfo>
-        <application version="v1.0_beta" xml:id="app_20193103953717">
+        <application version="v1.0_beta" xml:id="mei30To40">
           <name>mei30To40.xsl</name>
+          <ptr target="https://github.com/music-encoding/encoding-tools/blob/main/mei30To40/mei30To40.xsl"/>
+        </application>
+        <application version="v0.0.1-alpha" xml:id="meiLint_v0.0.1-alpha">
+          <name>meiLint.xsl</name>
+          <ptr target="https://github.com/music-encoding/encoding-tools/blob/main/meiLint/meiLint.xsl"/>
         </application>
       </appInfo>
       <editorialDecl>
@@ -62,16 +63,13 @@
       </samplingDecl>
       <classDecls>
         <taxonomy>
-          <bibl xml:id="LoC_lcco"
-            target="http://www.loc.gov/aba/cataloging/classification/lcco/lcco_m.pdf"
-            >LoC_lcco</bibl>
+          <bibl xml:id="LoC_lcco" target="http://www.loc.gov/aba/cataloging/classification/lcco/lcco_m.pdf">LoC_lcco</bibl>
           <category xml:id="M6-175.5">
             <label>M6-175.5</label>
           </category>
         </taxonomy>
         <taxonomy>
-          <bibl xml:id="OCLC_DDC"
-            target="http://www.oclc.org/dewey/resources/summaries/default.htm#700">OCLC_DDC</bibl>
+          <bibl xml:id="OCLC_DDC" target="http://www.oclc.org/dewey/resources/summaries/default.htm#700">OCLC_DDC</bibl>
           <category xml:id="_784.23">
             <label>784.23</label>
           </category>
@@ -139,8 +137,7 @@
         <pubStmt/>
         <physDesc>
           <titlePage>
-            <p>Gran Concerto in Fa | per il | Clarinetto Principale.| composto per uso | dell suo
-              Amico, | Signore Baermann | di | Carlo Maria de Weber. | Monaco il 17t Majo 1811.</p>
+            <p>Gran Concerto in Fa | per il | Clarinetto Principale.| composto per uso | dell suo Amico, | Signore Baermann | di | Carlo Maria de Weber. | Monaco il 17t Majo 1811.</p>
           </titlePage>
         </physDesc>
         <classification>
@@ -151,6 +148,30 @@
         </classification>
       </manifestation>
     </manifestationList>
+    <revisionDesc>
+      <change n="1" resp="#mei30To40">
+        <changeDesc>
+          <p>Converted to MEI version 4.0.0 using mei30To40.xsl, version 1.0 beta</p>
+        </changeDesc>
+        <date isodate="2019-01-03"/>
+      </change>
+      <change n="2">
+        <respStmt>
+          <persName>Benjamin W. Bohl</persName>
+          <persName>Stefan Münnich</persName>
+        </respStmt>
+        <changeDesc>
+          <p><list>
+              <li>update xml-model schema references to v4.0.1</li>
+              <li>update meiversion attributes to 4.0.1</li>
+              <li>add missing responsibility statements to change elements</li>
+              <li>unify documentation of mei version upgrades (appInfo and revisionDesc)</li>
+               <li>linted with <ref target="#meiLint_v0.0.1-alpha">meiLint.xsl</ref></li>
+            </list></p>
+        </changeDesc>
+        <date isodate="2023-07-27T17:10:49+02:00"/>
+      </change>
+    </revisionDesc>
   </meiHead>
   <music>
     <body>
@@ -159,8 +180,7 @@
           <section>
             <scoreDef meter.count="3" meter.unit="4" key.sig="4f" key.mode="minor">
               <staffGrp bar.thru="true" symbol="brace">
-                <staffDef lines="5" n="1" meter.count="3" meter.unit="4" key.sig="2f"
-                  clef.shape="GG" clef.line="2" xml:id="s1">
+                <staffDef lines="5" n="1" meter.count="3" meter.unit="4" key.sig="2f" clef.shape="GG" clef.line="2" xml:id="s1">
                   <label>Clarinetto principale</label>
                 </staffDef>
                 <staffDef lines="5" n="2" clef.shape="GG" clef.line="2" key.sig="4f" xml:id="s2">
@@ -234,8 +254,7 @@
               </staff>
               <staff n="4" xml:id="m259_s4">
                 <layer>
-                  <note pname="c" accid="f" oct="5" dur="2" stem.dir="down" stem.pos="right"
-                    xml:id="m259_s4_n1"/>
+                  <note pname="c" accid="f" oct="5" dur="2" stem.dir="down" stem.pos="right" xml:id="m259_s4_n1"/>
                   <rest dur="4"/>
                 </layer>
               </staff>
@@ -302,13 +321,11 @@
               </staff>
               <staff n="11" xml:id="m259_s11">
                 <layer>
-                  <note pname="f" oct="3" dur="2" stem.dir="down" stem.pos="right"
-                    xml:id="m259_s11_n1"/>
+                  <note pname="f" oct="3" dur="2" stem.dir="down" stem.pos="right" xml:id="m259_s11_n1"/>
                   <rest dur="4" xml:id="m259_s11_n2"/>
                 </layer>
               </staff>
-              <tupletSpan startid="#m259_s1_n8" endid="#m259_s1_n16" bracket.visible="false" num="9"
-                numbase="8" num.place="below" num.visible="true" staff="1"/>
+              <tupletSpan startid="#m259_s1_n8" endid="#m259_s1_n16" bracket.visible="false" num="9" numbase="8" num.place="below" num.visible="true" staff="1"/>
               <slur staff="1" startid="#m259_s1_n1" endid="#m259_s1_n16" curvedir="below"/>
             </measure>
             <measure n="260" xml:id="m260">
@@ -349,8 +366,7 @@
               </staff>
               <staff n="2" xml:id="m260_s2">
                 <layer>
-                  <note pname="c" oct="5" dur="2" stem.dir="down" stem.pos="right"
-                    xml:id="m260_s2_n1"/>
+                  <note pname="c" oct="5" dur="2" stem.dir="down" stem.pos="right" xml:id="m260_s2_n1"/>
                   <rest dur="4"/>
                 </layer>
               </staff>
@@ -362,8 +378,7 @@
               </staff>
               <staff n="4" xml:id="m260_s4">
                 <layer>
-                  <note pname="f" oct="5" dur="2" stem.dir="down" stem.pos="right"
-                    xml:id="m260_s4_n1"/>
+                  <note pname="f" oct="5" dur="2" stem.dir="down" stem.pos="right" xml:id="m260_s4_n1"/>
                   <rest dur="4"/>
                 </layer>
               </staff>
@@ -425,8 +440,7 @@
               </app>
               <staff n="11" xml:id="m260_s11">
                 <layer>
-                  <note pname="f" oct="3" dur="2" stem.dir="down" stem.pos="right"
-                    xml:id="m260_s11_n1"/>
+                  <note pname="f" oct="3" dur="2" stem.dir="down" stem.pos="right" xml:id="m260_s11_n1"/>
                   <rest dur="4" xml:id="m260_s11_n2"/>
                 </layer>
               </staff>
@@ -474,22 +488,19 @@
               </staff>
               <staff n="2" xml:id="m261_s2">
                 <layer>
-                  <note pname="f" oct="5" dur="2" stem.dir="down" stem.pos="right"
-                    xml:id="m261_s2_n1"/>
+                  <note pname="f" oct="5" dur="2" stem.dir="down" stem.pos="right" xml:id="m261_s2_n1"/>
                   <rest dur="4"/>
                 </layer>
               </staff>
               <staff n="3" xml:id="m261_s3">
                 <layer>
-                  <note pname="c" oct="5" dur="2" stem.dir="down" stem.pos="right"
-                    xml:id="m261_s3_n1"/>
+                  <note pname="c" oct="5" dur="2" stem.dir="down" stem.pos="right" xml:id="m261_s3_n1"/>
                   <rest dur="4"/>
                 </layer>
               </staff>
               <staff n="4" xml:id="m261_s4">
                 <layer>
-                  <note pname="a" oct="5" dur="2" stem.dir="down" stem.pos="right"
-                    xml:id="m261_s4_n1"/>
+                  <note pname="a" oct="5" dur="2" stem.dir="down" stem.pos="right" xml:id="m261_s4_n1"/>
                   <rest dur="4"/>
                 </layer>
               </staff>
@@ -986,8 +997,7 @@
             <measure n="266" xml:id="m266">
               <staff n="1" xml:id="m266s1">
                 <layer>
-                  <note pname="d" oct="5" dur="2" dots="1" stem.dir="down" stem.pos="right"
-                    xml:id="m266s1e1">
+                  <note pname="d" oct="5" dur="2" dots="1" stem.dir="down" stem.pos="right" xml:id="m266s1e1">
                     <artic artic="acc" place="below"/>
                   </note>
                   <beam>
@@ -999,8 +1009,7 @@
               <trill place="above" tstamp="1" staff="1"/>
               <staff n="2" xml:id="m266s2">
                 <layer>
-                  <note pname="c" oct="5" dur="2" stem.dir="down" stem.pos="right" xml:id="m266s2e1"
-                    dots="1">
+                  <note pname="c" oct="5" dur="2" stem.dir="down" stem.pos="right" xml:id="m266s2e1" dots="1">
                     <artic artic="acc" place="below"/>
                   </note>
                 </layer>
@@ -1014,8 +1023,7 @@
               </staff>
               <staff n="4" xml:id="m266s4">
                 <layer>
-                  <note pname="f" oct="4" dur="2" dots="1" stem.dir="down" stem.pos="right"
-                    xml:id="m266s4e1">
+                  <note pname="f" oct="4" dur="2" dots="1" stem.dir="down" stem.pos="right" xml:id="m266s4e1">
                     <artic artic="acc" place="below"/>
                   </note>
                 </layer>
@@ -1040,8 +1048,7 @@
                   <note pname="g" oct="4" dur="2" dots="1" stem.dir="up" xml:id="m266s8e1"/>
                 </layer>
                 <layer n="2">
-                  <note pname="e" oct="4" dur="2" dots="1" stem.dir="down" xml:id="m266s8e2"
-                    stem.pos="right">
+                  <note pname="e" oct="4" dur="2" dots="1" stem.dir="down" xml:id="m266s8e2" stem.pos="right">
                     <artic artic="acc" place="below"/>
                   </note>
                 </layer>

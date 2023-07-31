@@ -1,8 +1,7 @@
-<?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<?xml-model href="http://music-encoding.org/schema/4.0.0/mei-all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<?xml-model href="http://music-encoding.org/schema/4.0.0/mei-all.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
-<mei xmlns:xlink="http://www.w3.org/1999/xlink" xmlns="http://www.music-encoding.org/ns/mei"
-  meiversion="4.0.0">
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://music-encoding.org/schema/4.0.1/mei-all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://music-encoding.org/schema/4.0.1/mei-all.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<mei xmlns="http://www.music-encoding.org/ns/mei" meiversion="4.0.1">
   <meiHead>
     <fileDesc>
       <titleStmt>
@@ -20,30 +19,29 @@
         </publisher>
         <address>
           <addrLine>Gartenstrasse 20</addrLine>
-          <addrLine>
-            <geogName>32756 Detmold</geogName>
-            <geogName>Germany</geogName>
-          </addrLine>
+          <addrLine><geogName>32756 Detmold</geogName><geogName>Germany</geogName></addrLine>
         </address>
         <date>2012</date>
         <availability>
-          <useRestrict> This encoding is in the public domain. However, the sources used to create
-            it may be under copyright. We believe their use by the MEI project for educational and
-            research purposes is covered by the Fair use Doctrine. However, we will remove any
-            material from the project archive whenrequested to do so by the copyright owner.
-          </useRestrict>
+          <useRestrict>This encoding is in the public domain. However, the sources used to create it may be under copyright. We believe their use by the MEI project for educational and research purposes is covered by the Fair use Doctrine. However, we will remove any material from the project archive whenrequested to do so by the copyright owner.</useRestrict>
         </availability>
       </pubStmt>
       <seriesStmt>
         <title>MEI Sample Collection</title>
         <funder>
-          <corpName role="funder">German Research Foundation <address> <addrLine>Kennedyallee
-            40</addrLine> <addrLine> <geogName>Bonn</geogName> </addrLine> </address> </corpName>
+          <corpName role="funder">German Research Foundation
+            <address>
+              <addrLine>Kennedyallee 40</addrLine>
+              <addrLine><geogName>Bonn</geogName></addrLine>
+            </address> </corpName>
         </funder>
         <funder>
-          <corpName role="funder">National Endowment for the Humanities<address> <addrLine>1100
-            Pennsylvania Avenue N.W.</addrLine> <addrLine> <geogName>Washington, DC</geogName>
-            20004</addrLine> <addrLine> <geogName>United States</geogName> </addrLine> </address>
+          <corpName role="funder">National Endowment for the Humanities
+            <address>
+              <addrLine>1100 Pennsylvania Avenue N.W.</addrLine>
+              <addrLine><geogName>Washington, DC</geogName> 20004</addrLine>
+              <addrLine><geogName>United States</geogName></addrLine>
+            </address>
           </corpName>
         </funder>
         <respStmt>
@@ -72,19 +70,25 @@
     </fileDesc>
     <encodingDesc>
       <appInfo>
-        <application version="v1.0_beta" xml:id="app_20193103959903">
+        <application version="v1.0_beta" xml:id="mei21To30">
+          <name>mei21To30.xsl</name>
+          <ptr target="https://github.com/music-encoding/encoding-tools/blob/main/mei21To30/mei21To30.xsl"/>
+        </application>
+        <application version="v1.0_beta" xml:id="mei30To40">
           <name>mei30To40.xsl</name>
+          <ptr target="https://github.com/music-encoding/encoding-tools/blob/main/mei30To40/mei30To40.xsl"/>
+        </application>
+        <application version="v0.0.1-alpha" xml:id="meiLint_v0.0.1-alpha">
+          <name>meiLint.xsl</name>
+          <ptr target="https://github.com/music-encoding/encoding-tools/blob/main/meiLint/meiLint.xsl"/>
         </application>
       </appInfo>
       <editorialDecl>
-        <p>The example demonstrates the lyrics-element as well as verses below the encoded music.
-          Only the first five measures are encoded. You can find the complete example in
-          //MEI2012/Handcodings.</p>
+        <p>The example demonstrates the lyrics-element as well as verses below the encoded music. Only the first five measures are encoded. You can find the complete example in //MEI2012/Handcodings.</p>
       </editorialDecl>
       <classDecls>
         <taxonomy>
-          <bibl xml:id="OCLC_DDC"
-            target="http://www.oclc.org/dewey/resources/summaries/default.htm#700">OCLC_DDC</bibl>
+          <bibl xml:id="OCLC_DDC" target="http://www.oclc.org/dewey/resources/summaries/default.htm#700">OCLC_DDC</bibl>
           <category xml:id="_782.42">
             <altId>782.42</altId>
             <label>Song</label>
@@ -150,17 +154,33 @@
         </changeDesc>
         <date isodate="2012-07-16"/>
       </change>
-      <change n="3">
+      <change n="3" resp="#mei21To30">
         <changeDesc>
           <p>Converted to version 3.0.0 using mei21To30.xsl, version 1.0 beta</p>
         </changeDesc>
         <date isodate="2015-10-16"/>
       </change>
-      <change n="4" resp="#app_20193103959903">
+      <change n="4" resp="#mei30To40">
         <changeDesc>
           <p>Converted to MEI version 4.0.0 using mei30To40.xsl, version 1.0 beta</p>
         </changeDesc>
         <date isodate="2019-01-03"/>
+      </change>
+      <change n="5">
+        <respStmt>
+          <persName>Benjamin W. Bohl</persName>
+          <persName>Stefan Münnich</persName>
+        </respStmt>
+        <changeDesc>
+          <p><list>
+              <li>update xml-model schema references to v4.0.1</li>
+              <li>update meiversion attributes to 4.0.1</li>
+              <li>add missing responsibility statements to change elements</li>
+              <li>unify documentation of mei version upgrades (appInfo and revisionDesc)</li>
+               <li>linted with <ref target="#meiLint_v0.0.1-alpha">meiLint.xsl</ref></li>
+            </list></p>
+        </changeDesc>
+        <date isodate="2023-07-27T17:07:45+02:00"/>
       </change>
     </revisionDesc>
   </meiHead>
@@ -169,8 +189,7 @@
       <mdiv>
         <parts>
           <part>
-            <staffDef lines="5" n="1" xml:id="s1" clef.line="2" clef.shape="G" meter.count="4"
-              meter.unit="4" key.sig="0"/>
+            <staffDef lines="5" n="1" xml:id="s1" clef.line="2" clef.shape="G" meter.count="4" meter.unit="4" key.sig="0"/>
             <section>
               <measure n="1">
                 <staff n="1">
@@ -204,8 +223,7 @@
                       <note pname="e" oct="4" dur="16" stem.dir="up" xml:id="m3e2"/>
                     </beam>
                     <note pname="d" oct="4" dur="2" dots="1" stem.dir="up" xml:id="m3e3"/>
-                    <note pname="g" oct="5" head.shape="slash" head.fill="void" stem.dir="up"
-                      xml:id="m3e4"/>
+                    <note pname="g" oct="5" head.shape="slash" head.fill="void" stem.dir="up" xml:id="m3e4"/>
                   </layer>
                 </staff>
                 <harm tstamp="1" place="above">Dm</harm>
@@ -214,10 +232,8 @@
                 <staff n="1">
                   <layer n="1">
                     <beam>
-                      <note pname="g" oct="5" head.shape="slash" head.fill="void" xml:id="m4e1"
-                        stem.dir="up"/>
-                      <note pname="g" oct="5" head.shape="slash" head.fill="void" xml:id="m4e2"
-                        stem.dir="up"/>
+                      <note pname="g" oct="5" head.shape="slash" head.fill="void" xml:id="m4e1" stem.dir="up"/>
+                      <note pname="g" oct="5" head.shape="slash" head.fill="void" xml:id="m4e2" stem.dir="up"/>
                     </beam>
                   </layer>
                   <layer n="2">
@@ -233,14 +249,20 @@
               </measure>
               <!-- measures 5 - 32 are not encoded -->
               <div n="2" type="verse">
-                <p>Ain´t got no place to lay your head, <lb/> Somebody come and took your bed <lb/>
-                  Don´t worry - Be happy <lb/> The landlord say your rent is late, <lb/> He may have
-                  to litigate <lb/> Don´t worry - Be happy</p>
+                <p>Ain´t got no place to lay your head,
+                  <lb/>Somebody come and took your bed
+                  <lb/> Don´t worry - Be happy
+                  <lb/>The landlord say your rent is late,
+                  <lb/>He may have to litigate
+                  <lb/>Don´t worry - Be happy</p>
               </div>
               <div n="3" type="verse">
-                <p>Ain´t got no cash, ain´t got no style <lb/> Ain´t got no gal to make you smile
-                  <lb/> Don´t worry - Be happy <lb/> ´Cause when you worry your face will frown
-                  <lb/> And that will bring everybody down <lb/> Don´t Worry - Be Happy</p>
+                <p>Ain´t got no cash, ain´t got no style
+                  <lb/>Ain´t got no gal to make you smile
+                  <lb/>Don´t worry - Be happy
+                  <lb/>´Cause when you worry your face will frown
+                  <lb/>And that will bring everybody down
+                  <lb/>Don´t Worry - Be Happy</p>
               </div>
             </section>
           </part>

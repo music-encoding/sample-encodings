@@ -1,8 +1,7 @@
-<?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<?xml-model href="http://music-encoding.org/schema/4.0.0/mei-all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<?xml-model href="http://music-encoding.org/schema/4.0.0/mei-all.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
-<mei xmlns:xlink="http://www.w3.org/1999/xlink" xmlns="http://www.music-encoding.org/ns/mei"
-  meiversion="4.0.0">
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://music-encoding.org/schema/4.0.1/mei-all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://music-encoding.org/schema/4.0.1/mei-all.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<mei xmlns="http://www.music-encoding.org/ns/mei" meiversion="4.0.1">
   <meiHead>
     <fileDesc>
       <titleStmt>
@@ -20,27 +19,28 @@
         </publisher>
         <address>
           <addrLine>Gartenstrasse 20</addrLine>
-          <addrLine>32756 <geogName>Detmold</geogName> </addrLine>
+          <addrLine>32756<geogName>Detmold</geogName></addrLine>
         </address>
         <date/>
         <availability>
-          <useRestrict>This encoding is in the public domain. However, the sources used to create it
-            may be under copyright. We believe their use by the MEI project for educational and
-            research purposes is covered by the Fair Use doctrine. However, we will remove any
-            material from the project archive when requested to do so by the copyright
-            owner.</useRestrict>
+          <useRestrict>This encoding is in the public domain. However, the sources used to create it may be under copyright. We believe their use by the MEI project for educational and research purposes is covered by the Fair Use doctrine. However, we will remove any material from the project archive when requested to do so by the copyright owner.</useRestrict>
         </availability>
       </pubStmt>
       <seriesStmt>
         <title>MEI Sample Collection</title>
         <funder>
-          <corpName role="funder">German Research Foundation<address> <addrLine>Kennedyallee
-            40</addrLine> <addrLine> <geogName>Bonn </geogName> </addrLine> </address> </corpName>
+          <corpName role="funder">German Research Foundation
+            <address>
+              <addrLine>Kennedyallee 40</addrLine>
+              <addrLine><geogName>Bonn</geogName></addrLine>
+            </address> </corpName>
         </funder>
         <funder>
-          <corpName role="funder">National Endowment for the Humanities<address> <addrLine>1100
-            Pennsylvania Avenue N.W.</addrLine> <addrLine> <geogName>Washington, DC</geogName>
-            </addrLine> </address> </corpName>
+          <corpName role="funder">National Endowment for the Humanities
+            <address>
+              <addrLine>1100 Pennsylvania Avenue N.W.</addrLine>
+              <addrLine><geogName>Washington, DC</geogName></addrLine>
+            </address> </corpName>
         </funder>
         <respStmt>
           <corpName role="publisher">MEI Project</corpName>
@@ -52,18 +52,21 @@
     </fileDesc>
     <encodingDesc>
       <appInfo>
-        <application version="v1.0_beta" xml:id="app_20193104021588">
+        <application version="v1.0_beta" xml:id="mei30To40">
           <name>mei30To40.xsl</name>
+          <ptr target="https://github.com/music-encoding/encoding-tools/blob/main/mei30To40/mei30To40.xsl"/>
+        </application>
+        <application version="v0.0.1-alpha" xml:id="meiLint_v0.0.1-alpha">
+          <name>meiLint.xsl</name>
+          <ptr target="https://github.com/music-encoding/encoding-tools/blob/main/meiLint/meiLint.xsl"/>
         </application>
       </appInfo>
       <editorialDecl>
-        <p>This encoding contains only the first 13 measures of the song and demonstrates the use of
-          the syl-element.</p>
+        <p>This encoding contains only the first 13 measures of the song and demonstrates the use of the syl-element.</p>
       </editorialDecl>
       <classDecls>
         <taxonomy>
-          <bibl xml:id="OCLC_DDC"
-            target="http://www.oclc.org/dewey/resources/summaries/default.htm#700">OCLC_DDC</bibl>
+          <bibl xml:id="OCLC_DDC" target="http://www.oclc.org/dewey/resources/summaries/default.htm#700">OCLC_DDC</bibl>
           <category xml:id="_782.42">
             <altId>782.42</altId>
             <label>Song</label>
@@ -103,10 +106,10 @@
         <history>
           <eventList>
             <event>
-              <p>First performance<date isodate="1887-02-11"/> in <geogName>Vienna</geogName> </p>
+              <p>First performance<date isodate="1887-02-11"/>in<geogName>Vienna</geogName></p>
             </event>
             <event>
-              <p>First publication<date>1888</date> </p>
+              <p>First publication<date>1888</date></p>
             </event>
           </eventList>
         </history>
@@ -132,14 +135,12 @@
     <manifestationList>
       <manifestation>
         <identifier type="referenceNumber">op. 105</identifier>
-        <identifier type="URI"
-          >http://petrucci.mus.auth.gr/imglnks/usimg/a/a8/IMSLP246584-PMLP52896-Brahms_-_Op._105_No._1.pdf</identifier>
+        <identifier type="URI">http://petrucci.mus.auth.gr/imglnks/usimg/a/a8/IMSLP246584-PMLP52896-Brahms_-_Op._105_No._1.pdf</identifier>
         <titleStmt>
           <title>Wie Melodien zieht es mir</title>
           <title type="uniform">Lieder, op. 105 &lt;Wie Melodien zieht es mir&gt;</title>
           <respStmt>
-            <persName role="composer" auth.uri="http://d-nb.info/gnd/" codedval="118514253"
-              auth="GND">Johannes Brahms</persName>
+            <persName role="composer" auth.uri="http://d-nb.info/gnd/" codedval="118514253" auth="GND">Johannes Brahms</persName>
             <persName role="lyricist">Klaus Groth</persName>
             <persName role="editor">Max Friedlaender</persName>
           </respStmt>
@@ -155,13 +156,36 @@
         </physDesc>
       </manifestation>
       <manifestation>
-        <identifier type="URI"
-          >http://www.musicxml.com/de/music-in-musicxml/example-set/</identifier>
+        <identifier type="URI">http://www.musicxml.com/de/music-in-musicxml/example-set/</identifier>
         <titleStmt>
           <title>Wie Melodien zieht es mir</title>
         </titleStmt>
       </manifestation>
     </manifestationList>
+    <revisionDesc>
+      <change n="1" resp="#mei30To40">
+        <changeDesc>
+          <p>Converted to MEI version 4.0.0 using mei30To40.xsl, version 1.0 beta</p>
+        </changeDesc>
+        <date isodate="2019-01-03"/>
+      </change>
+      <change n="2">
+        <respStmt>
+          <persName>Benjamin W. Bohl</persName>
+          <persName>Stefan Münnich</persName>
+        </respStmt>
+        <changeDesc>
+          <p><list>
+              <li>update xml-model schema references to v4.0.1</li>
+              <li>update meiversion attributes to 4.0.1</li>
+              <li>add missing responsibility statements to change elements</li>
+              <li>unify documentation of mei version upgrades (appInfo and revisionDesc)</li>
+               <li>linted with <ref target="#meiLint_v0.0.1-alpha">meiLint.xsl</ref></li>
+            </list></p>
+        </changeDesc>
+        <date isodate="2023-07-27T17:07:44+02:00"/>
+      </change>
+    </revisionDesc>
   </meiHead>
   <music>
     <body>
@@ -203,8 +227,7 @@
                   <beam>
                     <note xml:id="d1e226" pname="a" oct="3" dur="8" stem.dir="down"/>
                     <note xml:id="d1e250" pname="e" oct="3" dur="8" stem.dir="down"/>
-                    <note xml:id="d1e335" pname="c" oct="3" dur="8" stem.dir="up" accid.ges="s"
-                      staff="3"/>
+                    <note xml:id="d1e335" pname="c" oct="3" dur="8" stem.dir="up" accid.ges="s" staff="3"/>
                     <note xml:id="d1e356" pname="a" oct="2" dur="8" stem.dir="up" staff="3"/>
                   </beam>
                 </layer>
@@ -219,9 +242,7 @@
                 </layer>
               </staff>
               <dir tstamp="1" place="above" staff="1">Zart</dir>
-              <dir tstamp="1.25" place="below" staff="2">
-                <rend fontstyle="italic">sempre dolce</rend>
-              </dir>
+              <dir tstamp="1.25" place="below" staff="2"><rend fontstyle="italic">sempre dolce</rend></dir>
               <dynam tstamp="1" place="above" staff="3">p</dynam>
               <slur tstamp="1.25" tstamp2="0m+2.25" curvedir="above" staff="2 3"/>
             </measure>
@@ -250,8 +271,7 @@
                     <note xml:id="d1e527" pname="c" oct="4" dur="8" stem.dir="down" accid.ges="s"/>
                     <note xml:id="d1e546" pname="a" oct="3" dur="8" stem.dir="down"/>
                     <note xml:id="d1e612" pname="e" oct="3" dur="8" stem.dir="up" staff="3"/>
-                    <note xml:id="d1e632" pname="c" oct="3" dur="8" stem.dir="up" accid.ges="s"
-                      staff="3"/>
+                    <note xml:id="d1e632" pname="c" oct="3" dur="8" stem.dir="up" accid.ges="s" staff="3"/>
                   </beam>
                 </layer>
               </staff>
@@ -409,8 +429,7 @@
                   <note xml:id="d1e1622" pname="f" oct="4" dur="8" stem.dir="up" accid.ges="s">
                     <syl wordpos="t">lings</syl>
                   </note>
-                  <note xml:id="d1e1644" pname="g" oct="4" dur="4" dots="1" stem.dir="up"
-                    accid.ges="s">
+                  <note xml:id="d1e1644" pname="g" oct="4" dur="4" dots="1" stem.dir="up" accid.ges="s">
                     <syl wordpos="i" con="d">blu</syl>
                   </note>
                   <note xml:id="d1e1667" pname="e" oct="4" dur="8" stem.dir="up">
@@ -421,8 +440,7 @@
               <staff n="2">
                 <layer n="1">
                   <rest xml:id="d1e1688" dur="8"/>
-                  <note xml:id="d1e1699" pname="f" oct="3" dur="8" tie="i" stem.dir="up"
-                    accid.ges="s"/>
+                  <note xml:id="d1e1699" pname="f" oct="3" dur="8" tie="i" stem.dir="up" accid.ges="s"/>
                   <chord xml:id="d188e1" dur="4" stem.dir="up">
                     <note xml:id="d1e1720" pname="f" oct="4" accid.ges="s"/>
                     <note xml:id="d1e1739" pname="f" oct="3" tie="t" accid.ges="s"/>
@@ -492,8 +510,7 @@
             <measure n="8" xml:id="d1e2187">
               <staff n="1">
                 <layer n="1">
-                  <note xml:id="d1e2189" pname="d" oct="5" dur="4" dots="1" stem.dir="down"
-                    accid.ges="s">
+                  <note xml:id="d1e2189" pname="d" oct="5" dur="4" dots="1" stem.dir="down" accid.ges="s">
                     <accid accid="s"/>
                     <syl>schwebt</syl>
                   </note>
@@ -653,8 +670,7 @@
             <measure n="11" xml:id="d1e3184">
               <staff n="1">
                 <layer n="1">
-                  <note xml:id="d1e3186" pname="d" oct="5" dur="4" dots="1" stem.dir="down"
-                    accid.ges="s">
+                  <note xml:id="d1e3186" pname="d" oct="5" dur="4" dots="1" stem.dir="down" accid.ges="s">
                     <accid accid="s"/>
                     <syl>schwebt</syl>
                   </note>
@@ -820,8 +836,7 @@
                   <beam>
                     <note xml:id="d1e4285" pname="a" oct="3" dur="8" stem.dir="down"/>
                     <note xml:id="d1e4304" pname="e" oct="3" dur="8" stem.dir="down"/>
-                    <note xml:id="d1e4390" pname="c" oct="3" dur="8" stem.dir="up" accid.ges="s"
-                      staff="3"/>
+                    <note xml:id="d1e4390" pname="c" oct="3" dur="8" stem.dir="up" accid.ges="s" staff="3"/>
                     <note xml:id="d1e4411" pname="a" oct="2" dur="8" stem.dir="up" staff="3"/>
                   </beam>
                 </layer>
@@ -834,8 +849,7 @@
                 </layer>
               </staff>
               <slur tstamp="1" tstamp2="0m+4.5" curvedir="above" staff="2 3"/>
-              <slur tstamp="1" tstamp2="0m+1.5" curvedir="below" startid="#d1e4338" endid="#d1e4356"
-                staff="3"/>
+              <slur tstamp="1" tstamp2="0m+1.5" curvedir="below" startid="#d1e4338" endid="#d1e4356" staff="3"/>
             </measure>
             <measure n="15" xml:id="d1e4430">
               <staff n="1">
@@ -862,8 +876,7 @@
                     <note xml:id="d1e4578" pname="c" oct="4" dur="8" stem.dir="down" accid.ges="s"/>
                     <note xml:id="d1e4599" pname="a" oct="3" dur="8" stem.dir="down"/>
                     <note xml:id="d1e4667" pname="e" oct="3" dur="8" stem.dir="up" staff="3"/>
-                    <note xml:id="d1e4687" pname="c" oct="3" dur="8" stem.dir="up" accid.ges="s"
-                      staff="3"/>
+                    <note xml:id="d1e4687" pname="c" oct="3" dur="8" stem.dir="up" accid.ges="s" staff="3"/>
                   </beam>
                 </layer>
               </staff>

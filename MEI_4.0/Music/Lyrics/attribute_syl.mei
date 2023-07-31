@@ -1,8 +1,7 @@
-<?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<?xml-model href="http://music-encoding.org/schema/4.0.0/mei-all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<?xml-model href="http://music-encoding.org/schema/4.0.0/mei-all.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
-<mei xmlns:xlink="http://www.w3.org/1999/xlink" xmlns="http://www.music-encoding.org/ns/mei"
-  meiversion="4.0.0">
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://music-encoding.org/schema/4.0.1/mei-all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://music-encoding.org/schema/4.0.1/mei-all.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<mei xmlns="http://www.music-encoding.org/ns/mei" meiversion="4.0.1">
   <meiHead>
     <fileDesc>
       <titleStmt>
@@ -17,36 +16,35 @@
       </titleStmt>
       <pubStmt>
         <publisher>
-          <corpName role="publisher" codedval="5115204-6">Musikwissenschaftliches Seminar,
-            Detmold</corpName>
+          <corpName role="publisher" codedval="5115204-6">Musikwissenschaftliches Seminar, Detmold</corpName>
         </publisher>
         <address>
           <addrLine>Gartenstrasse 20</addrLine>
-          <addrLine>32756 <geogName>Detmold</geogName> </addrLine>
-          <addrLine>
-            <geogName>Germany</geogName>
-          </addrLine>
+          <addrLine>32756<geogName>Detmold</geogName></addrLine>
+          <addrLine><geogName>Germany</geogName></addrLine>
         </address>
         <date>2011</date>
         <availability>
-          <useRestrict>This encoding is in the public domain. However, the sources used to create it
-            may be under copyright. We believe their use by the MEI project for educational and
-            research purposes is covered by the Fair Use doctrine. However, we will remove any
-            material from the project archive when requested to do so by the copyright
-            owner.</useRestrict>
+          <useRestrict>This encoding is in the public domain. However, the sources used to create it may be under copyright. We believe their use by the MEI project for educational and research purposes is covered by the Fair Use doctrine. However, we will remove any material from the project archive when requested to do so by the copyright owner.</useRestrict>
         </availability>
       </pubStmt>
       <seriesStmt>
         <title>MEI Sample Collection</title>
         <funder>
-          <corpName role="funder">German Research Foundation<address> <addrLine>Kennedyallee
-            40</addrLine> <addrLine> <geogName>Bonn</geogName> </addrLine> <addrLine>
-            <geogName>Germany</geogName> </addrLine> </address> </corpName>
+          <corpName role="funder">German Research Foundation
+            <address>
+              <addrLine>Kennedyallee 40</addrLine>
+              <addrLine><geogName>Bonn</geogName></addrLine>
+              <addrLine><geogName>Germany</geogName></addrLine>
+            </address> </corpName>
         </funder>
         <funder>
-          <corpName role="funder">National Endowment for the Humanities<address> <addrLine>1100
-            Pennsylvania Avenue N.W.</addrLine> <addrLine> <geogName>Washington, DC</geogName>
-            20004</addrLine> <addrLine> <geogName>United States</geogName> </addrLine> </address>
+          <corpName role="funder">National Endowment for the Humanities
+            <address>
+              <addrLine>1100 Pennsylvania Avenue N.W.</addrLine>
+              <addrLine><geogName>Washington, DC</geogName> 20004</addrLine>
+              <addrLine><geogName>United States</geogName></addrLine>
+            </address>
           </corpName>
         </funder>
         <respStmt>
@@ -59,18 +57,21 @@
     </fileDesc>
     <encodingDesc>
       <appInfo>
-        <application version="v1.0_beta" xml:id="app_20193104001389">
+        <application version="v1.0_beta" xml:id="mei30To40">
           <name>mei30To40.xsl</name>
+          <ptr target="https://github.com/music-encoding/encoding-tools/blob/main/mei30To40/mei30To40.xsl"/>
+        </application>
+        <application version="v0.0.1-alpha" xml:id="meiLint_v0.0.1-alpha">
+          <name>meiLint.xsl</name>
+          <ptr target="https://github.com/music-encoding/encoding-tools/blob/main/meiLint/meiLint.xsl"/>
         </application>
       </appInfo>
       <editorialDecl>
-        <p>This encoding demonstrates the encoding of lyrics, using the @syl attribute. The example
-          contains 10 measures and a minimal header.</p>
+        <p>This encoding demonstrates the encoding of lyrics, using the @syl attribute. The example contains 10 measures and a minimal header.</p>
       </editorialDecl>
       <classDecls>
         <taxonomy>
-          <bibl xml:id="OCLC" target="http://www.oclc.org/dewey/resources/summaries/default.htm#700"
-            >OCLC</bibl>
+          <bibl xml:id="OCLC" target="http://www.oclc.org/dewey/resources/summaries/default.htm#700">OCLC</bibl>
           <category xml:id="_782.42">
             <altId>782.42</altId>
             <label>Song</label>
@@ -102,8 +103,7 @@
         <title>Auf dem Hügel sitz ich spähend</title>
         <title type="uniform">An die ferne Geliebte &lt;Auf dem Hügel sitz' ich spähend&gt;</title>
         <composer>
-          <persName role="composer" codedval="118508288" auth.uri="http://d-nb.info/gnd/" auth="GND"
-            >Ludwig van Beethoven</persName>
+          <persName role="composer" codedval="118508288" auth.uri="http://d-nb.info/gnd/" auth="GND">Ludwig van Beethoven</persName>
         </composer>
         <key pname="e" accid="f" mode="major">Es major</key>
         <tempo>Ziemlich langsam und mit Ausdruck</tempo>
@@ -121,10 +121,8 @@
                 </staffDef>
                 <staffGrp symbol="brace" bar.thru="true">
                   <label>Piano</label>
-                  <staffDef n="2" lines="5" clef.line="2" clef.shape="G" key.sig="3f"
-                    key.mode="major"/>
-                  <staffDef n="3" lines="5" clef.line="4" clef.shape="F" key.sig="3f"
-                    key.mode="major"/>
+                  <staffDef n="2" lines="5" clef.line="2" clef.shape="G" key.sig="3f" key.mode="major"/>
+                  <staffDef n="3" lines="5" clef.line="4" clef.shape="F" key.sig="3f" key.mode="major"/>
                 </staffGrp>
               </staffGrp>
             </scoreDef>
@@ -168,10 +166,8 @@
                     <note pname="f" oct="4" dur="4" stem.dir="up"/>
                   </layer>
                 </staff>
-                <dir tstamp="1" place="above" staff="1">
-                  <rend fontsize="11pt" fontweight="bold">Ziemlich langsam und mit Ausdruck</rend>
-                </dir>
-                <dir tstamp="1" place="above" staff="1"> No. 1 </dir>
+                <dir tstamp="1" place="above" staff="1"><rend fontsize="11pt" fontweight="bold">Ziemlich langsam und mit Ausdruck</rend></dir>
+                <dir tstamp="1" place="above" staff="1">No. 1</dir>
                 <dynam tstamp="1" place="below" staff="2">p</dynam>
                 <pedal tstamp="1" place="below" staff="3" dir="down" form="pedstar"/>
                 <pedal tstamp="2" place="below" staff="3" dir="up" form="pedstar"/>
@@ -207,15 +203,12 @@
     <manifestationList>
       <manifestation>
         <identifier type="opusNumber">Op. 98</identifier>
-        <identifier type="URI"
-          >http://conquest.imslp.info/files/imglnks/usimg/d/d4/IMSLP47561-PMLP11572-Beethoven_Lieder_Peters_9535_Op_98_An_die_ferne_Geliebte.pdf</identifier>
+        <identifier type="URI">http://conquest.imslp.info/files/imglnks/usimg/d/d4/IMSLP47561-PMLP11572-Beethoven_Lieder_Peters_9535_Op_98_An_die_ferne_Geliebte.pdf</identifier>
         <titleStmt>
           <title>An die ferne Geliebte</title>
           <respStmt>
-            <persName role="composer" codedval="118508288" auth.uri="http://d-nb.info/gnd/"
-              auth="GND">Ludwig van Beethoven</persName>
-            <persName role="lyricist" codedval="113667213" auth.uri="http://d-nb.info/gnd/"
-              auth="GND">Aloys Isidor Jeitteles</persName>
+            <persName role="composer" codedval="118508288" auth.uri="http://d-nb.info/gnd/" auth="GND">Ludwig van Beethoven</persName>
+            <persName role="lyricist" codedval="113667213" auth.uri="http://d-nb.info/gnd/" auth="GND">Aloys Isidor Jeitteles</persName>
             <persName role="dedicatee">Fürst Joseph von Lobkowitz</persName>
             <persName role="editor">Max Unger</persName>
           </respStmt>
@@ -231,13 +224,36 @@
         </physDesc>
       </manifestation>
       <manifestation>
-        <identifier type="URI"
-          >http://www.musicxml.com/de/music-in-musicxml/example-set/</identifier>
+        <identifier type="URI">http://www.musicxml.com/de/music-in-musicxml/example-set/</identifier>
         <titleStmt>
           <title>An die ferne Geliebte</title>
         </titleStmt>
       </manifestation>
     </manifestationList>
+    <revisionDesc>
+      <change n="1" resp="#mei30To40">
+        <changeDesc>
+          <p>Converted to MEI version 4.0.0 using mei30To40.xsl, version 1.0 beta</p>
+        </changeDesc>
+        <date isodate="2019-01-03"/>
+      </change>
+      <change n="2">
+        <respStmt>
+          <persName>Benjamin W. Bohl</persName>
+          <persName>Stefan Münnich</persName>
+        </respStmt>
+        <changeDesc>
+          <p><list>
+              <li>update xml-model schema references to v4.0.1</li>
+              <li>update meiversion attributes to 4.0.1</li>
+              <li>add missing responsibility statements to change elements</li>
+              <li>unify documentation of mei version upgrades (appInfo and revisionDesc)</li>
+               <li>linted with <ref target="#meiLint_v0.0.1-alpha">meiLint.xsl</ref></li>
+            </list></p>
+        </changeDesc>
+        <date isodate="2023-07-27T17:07:43+02:00"/>
+      </change>
+    </revisionDesc>
   </meiHead>
   <music>
     <body>
@@ -245,16 +261,13 @@
         <score>
           <scoreDef meter.count="3" meter.unit="4" key.sig="3f" key.mode="major">
             <staffGrp>
-              <staffDef n="1" xml:id="P1" lines="5" clef.line="2" clef.shape="G" key.sig="3f"
-                key.mode="major">
+              <staffDef n="1" xml:id="P1" lines="5" clef.line="2" clef.shape="G" key.sig="3f" key.mode="major">
                 <label>Voice</label>
               </staffDef>
               <staffGrp xml:id="P2" symbol="brace" bar.thru="true">
                 <label>Piano</label>
-                <staffDef n="2" lines="5" clef.line="2" clef.shape="G" key.sig="3f" key.mode="major"
-                  xml:id="P2-I2"/>
-                <staffDef n="3" lines="5" clef.line="4" clef.shape="F" key.sig="3f" key.mode="major"
-                  spacing="70"/>
+                <staffDef n="2" lines="5" clef.line="2" clef.shape="G" key.sig="3f" key.mode="major" xml:id="P2-I2"/>
+                <staffDef n="3" lines="5" clef.line="4" clef.shape="F" key.sig="3f" key.mode="major" spacing="70"/>
               </staffGrp>
             </staffGrp>
           </scoreDef>
@@ -290,7 +303,7 @@
                   <note xml:id="d1e457" pname="f" oct="4" dur="4"/>
                 </layer>
               </staff>
-              <dir tstamp="1" place="above" staff="1"> Ziemlich langsam und mit Ausdruck </dir>
+              <dir tstamp="1" place="above" staff="1">Ziemlich langsam und mit Ausdruck</dir>
               <dir tstamp="1" place="above" staff="1" xml:lang="de">I</dir>
               <dynam tstamp="1" place="below" staff="2">p</dynam>
               <pedal tstamp="1" place="below" staff="3" dir="down" form="pedstar"/>
@@ -661,8 +674,7 @@
                     <note xml:id="d1e3178" pname="g" oct="3"/>
                     <note xml:id="d1e3194" pname="e" oct="4" accid.ges="f"/>
                   </chord>
-                  <note xml:id="d1e3213" grace="unacc" stem.mod="1slash" pname="b" oct="4" dur="8"
-                    accid.ges="f"/>
+                  <note xml:id="d1e3213" grace="unacc" stem.mod="1slash" pname="b" oct="4" dur="8" accid.ges="f"/>
                   <note xml:id="d1e3251" pname="b" oct="5" dur="4" dots="1" accid.ges="f"/>
                   <note xml:id="d1e3279" pname="e" oct="5" dur="8" accid.ges="f"/>
                 </layer>
@@ -681,10 +693,8 @@
                   </chord>
                 </layer>
               </staff>
-              <dir tstamp="2" place="above" staff="2" xml:lang="de"> Ziemlich langsam und mit
-                Ausdruck </dir>
-              <hairpin tstamp="2" tstamp2="0m+3.146" form="dim" place="below" staff="2"
-                opening="1.5" endto="-34"/>
+              <dir tstamp="2" place="above" staff="2" xml:lang="de">Ziemlich langsam und mit Ausdruck</dir>
+              <hairpin tstamp="2" tstamp2="0m+3.146" form="dim" place="below" staff="2" opening="1.5" endto="-34"/>
               <dir tstamp="2" place="below" staff="2"/>
               <slur tstamp="2" tstamp2="0m+2" curvedir="above" staff="2"/>
             </measure>
@@ -697,8 +707,7 @@
               <staff n="2">
                 <layer n="1">
                   <note xml:id="d1e3420" pname="d" oct="5" dur="4"/>
-                  <note xml:id="d1e3436" grace="unacc" stem.mod="1slash" pname="b" oct="4" dur="8"
-                    accid.ges="f"/>
+                  <note xml:id="d1e3436" grace="unacc" stem.mod="1slash" pname="b" oct="4" dur="8" accid.ges="f"/>
                   <note xml:id="d1e3462" pname="b" oct="5" dur="4" dots="1" accid.ges="f"/>
                   <note xml:id="d1e3498" pname="d" oct="5" dur="8"/>
                 </layer>

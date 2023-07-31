@@ -1,7 +1,7 @@
-<?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<?xml-model href="http://music-encoding.org/schema/4.0.0/mei-all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<?xml-model href="http://music-encoding.org/schema/4.0.0/mei-all.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
-<mei xmlns="http://www.music-encoding.org/ns/mei" meiversion="4.0.0">
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://music-encoding.org/schema/4.0.1/mei-all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://music-encoding.org/schema/4.0.1/mei-all.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<mei xmlns="http://www.music-encoding.org/ns/mei" meiversion="4.0.1">
   <meiHead>
     <fileDesc>
       <titleStmt>
@@ -17,8 +17,7 @@
       <sourceDesc>
         <source>
           <bibl>
-            <identifier type="URI"
-              >http://kern.ccarh.org/cgi-bin/ksdata?l=users/craig/classical/chopin/prelude&amp;file=prelude28-01.krn&amp;f=pdf</identifier>
+            <identifier type="URI">http://kern.ccarh.org/cgi-bin/ksdata?l=users/craig/classical/chopin/prelude&amp;file=prelude28-01.krn&amp;f=pdf</identifier>
             <title>Prelude in C Minor, Op. 28, No. 1</title>
             <composer>
               <persName role="composer">Frederic Chopin</persName>
@@ -29,13 +28,21 @@
     </fileDesc>
     <encodingDesc>
       <appInfo>
-        <application version="v1.0_beta" xml:id="app_20193104007344">
+        <application version="v1.0_beta" xml:id="mei21To30">
+          <name>mei21To30.xsl</name>
+          <ptr target="https://github.com/music-encoding/encoding-tools/blob/main/mei21To30/mei21To30.xsl"/>
+        </application>
+        <application version="v1.0_beta" xml:id="mei30To40">
           <name>mei30To40.xsl</name>
+          <ptr target="https://github.com/music-encoding/encoding-tools/blob/main/mei30To40/mei30To40.xsl"/>
+        </application>
+        <application version="v0.0.1-alpha" xml:id="meiLint_v0.0.1-alpha">
+          <name>meiLint.xsl</name>
+          <ptr target="https://github.com/music-encoding/encoding-tools/blob/main/meiLint/meiLint.xsl"/>
         </application>
       </appInfo>
       <editorialDecl>
-        <p>The example demonstrates encoding of beams and tuplets in Chopin's Mazurka, op. 28. Beams
-          are marked with both beam and beamSpan elements.</p>
+        <p>The example demonstrates encoding of beams and tuplets in Chopin's Mazurka, op. 28. Beams are marked with both beam and beamSpan elements.</p>
         <p>The fingerings are not encoded.</p>
       </editorialDecl>
     </encodingDesc>
@@ -54,22 +61,37 @@
           <persName>Perry Roland</persName>
         </respStmt>
         <changeDesc>
-          <p>added data for measures 4 and 6, added/corrected beamSpans, replaced sameas attributes
-            with attributes from the note originally pointed to</p>
+          <p>added data for measures 4 and 6, added/corrected beamSpans, replaced sameas attributes with attributes from the note originally pointed to</p>
         </changeDesc>
         <date isodate="2015-04-15"/>
       </change>
-      <change n="3">
+      <change n="3" resp="#mei21To30">
         <changeDesc>
           <p>Converted to version 3.0.0 using mei21To30.xsl, version 1.0 beta</p>
         </changeDesc>
         <date isodate="2015-10-16"/>
       </change>
-      <change n="4" resp="#app_20193104007344">
+      <change n="4" resp="#mei30To40">
         <changeDesc>
           <p>Converted to MEI version 4.0.0 using mei30To40.xsl, version 1.0 beta</p>
         </changeDesc>
         <date isodate="2019-01-03"/>
+      </change>
+      <change n="5">
+        <respStmt>
+          <persName>Benjamin W. Bohl</persName>
+          <persName>Stefan Münnich</persName>
+        </respStmt>
+        <changeDesc>
+          <p><list>
+              <li>update xml-model schema references to v4.0.1</li>
+              <li>update meiversion attributes to 4.0.1</li>
+              <li>add missing responsibility statements to change elements</li>
+              <li>unify documentation of mei version upgrades (appInfo and revisionDesc)</li>
+               <li>linted with <ref target="#meiLint_v0.0.1-alpha">meiLint.xsl</ref></li>
+            </list></p>
+        </changeDesc>
+        <date isodate="2023-07-27T17:11:12+02:00"/>
       </change>
     </revisionDesc>
   </meiHead>
@@ -87,16 +109,14 @@
             <measure n="1">
               <staff n="1">
                 <layer n="1">
-                  <tuplet bracket.visible="true" bracket.place="above" num="3" num.visible="true"
-                    num.place="above">
+                  <tuplet bracket.visible="true" bracket.place="above" num="3" num.visible="true" num.place="above">
                     <rest dur="16" staff="2" xml:id="m1s1l1e1"/>
                     <beam>
                       <note pname="g" oct="3" dur="8" stem.dir="up" staff="2" xml:id="m1s1l1e2"/>
                       <note pname="c" oct="4" dur="16" stem.dir="up" staff="1" xml:id="m1s1l1e3"/>
                     </beam>
                   </tuplet>
-                  <tuplet num="3" num.visible="true" num.place="above" bracket.visible="true"
-                    bracket.place="above">
+                  <tuplet num="3" num.visible="true" num.place="above" bracket.visible="true" bracket.place="above">
                     <beam>
                       <note pname="g" oct="4" dur="8" stem.dir="up" staff="1" xml:id="m1s1l1e4"/>
                       <note pname="a" oct="4" dur="16" stem.dir="up" staff="1" xml:id="m1s1l1e5"/>
@@ -123,8 +143,7 @@
                   </beam>
                 </layer>
                 <layer n="2">
-                  <tuplet num="3" bracket.visible="true" bracket.place="below" num.place="below"
-                    numbase="2">
+                  <tuplet num="3" bracket.visible="true" bracket.place="below" num.place="below" numbase="2">
                     <beam>
                       <note pname="c" oct="2" dur="16" stem.dir="down" xml:id="m1s2l2e1"/>
                       <note pname="g" oct="2" dur="16" stem.dir="down" xml:id="m1s2l2e2"/>
@@ -134,14 +153,11 @@
                   </tuplet>
                 </layer>
               </staff>
-              <beamSpan staff="2 1" startid="#m1s1l1e2" endid="#m1s1l1e3"
-                plist="#m1s1l1e2 #m1s1l1e3"/>
+              <beamSpan staff="2 1" startid="#m1s1l1e2" endid="#m1s1l1e3" plist="#m1s1l1e2 #m1s1l1e3"/>
               <beamSpan staff="1" startid="#m1s1l1e4" endid="#m1s1l1e5" plist="#m1s1l1e4 #m1s1l1e5"/>
-              <beamSpan staff="1 2" startid="#m1s1l2e1" endid="#m1s1l2e3"
-                plist="#m1s1l2e1 #m1s1l2e2 #m1s1l2e3"/>
+              <beamSpan staff="1 2" startid="#m1s1l2e1" endid="#m1s1l2e3" plist="#m1s1l2e1 #m1s1l2e2 #m1s1l2e3"/>
               <beamSpan staff="2" startid="#m1s2l1e2" endid="#m1s2l1e3" plist="#m1s2l1e2 #m1s2l1e3"/>
-              <beamSpan staff="2" startid="#m1s2l2e1" endid="#m1s2l2e3"
-                plist="#m1s2l2e1 #m1s2l2e2 #m1s2l2e3"/>
+              <beamSpan staff="2" startid="#m1s2l2e1" endid="#m1s2l2e3" plist="#m1s2l2e1 #m1s2l2e2 #m1s2l2e3"/>
               <pedal dir="down" staff="2" place="below" tstamp="1"/>
               <pedal dir="up" tstamp="2" staff="2" place="below"/>
               <dynam staff="2" place="above" tstamp="1">mf</dynam>
@@ -159,8 +175,7 @@
                       <note pname="d" oct="4" dur="16" stem.dir="up" staff="1" xml:id="m2s1l1e3"/>
                     </beam>
                   </tuplet>
-                  <tuplet num="3" num.visible="true" num.place="above" bracket.visible="true"
-                    bracket.place="above">
+                  <tuplet num="3" num.visible="true" num.place="above" bracket.visible="true" bracket.place="above">
                     <beam>
                       <note pname="g" oct="4" dur="8" stem.dir="up" xml:id="m2s1l1e4"/>
                       <note pname="a" oct="4" dur="16" stem.dir="up" xml:id="m2s1l1e5"/>
@@ -197,14 +212,11 @@
                   <rest dur="8"/>
                 </layer>
               </staff>
-              <beamSpan staff="2 1" startid="#m2s1l1e2" endid="#m2s1l1e3"
-                plist="#m2s1l1e2 #m2s1l1e3"/>
+              <beamSpan staff="2 1" startid="#m2s1l1e2" endid="#m2s1l1e3" plist="#m2s1l1e2 #m2s1l1e3"/>
               <beamSpan staff="1" startid="#m2s1l1e4" endid="#m2s1l1e5" plist="#m2s1l1e4 #m2s1l1e5"/>
-              <beamSpan staff="1 2" startid="#m2s1l2e2" endid="#m2s1l2e4"
-                plist="#m2s1l2e2 #m2s1l2e3 #m2s1l2e4"/>
+              <beamSpan staff="1 2" startid="#m2s1l2e2" endid="#m2s1l2e4" plist="#m2s1l2e2 #m2s1l2e3 #m2s1l2e4"/>
               <beamSpan staff="2" startid="#m2s2l1e2" endid="#m2s2l1e3" plist="#m2s2l1e2 #m2s2l1e3"/>
-              <beamSpan staff="2" startid="#m2s2l2e1" endid="#m2s2l2e3"
-                plist="#m2s2l2e1 #m2s2l2e2 #m2s2l2e3"/>
+              <beamSpan staff="2" startid="#m2s2l2e1" endid="#m2s2l2e3" plist="#m2s2l2e1 #m2s2l2e2 #m2s2l2e3"/>
               <pedal dir="down" tstamp="1" staff="2" place="below"/>
               <pedal dir="up" tstamp="2" staff="2" place="below"/>
               <slur staff="1" curvedir="above" startid="#m2s1l1e2" endid="#m2s1l1e5"/>
@@ -257,16 +269,11 @@
                   <rest dur="8"/>
                 </layer>
               </staff>
-              <beamSpan staff="2 1" startid="#m3s1l1e2" endid="#m3s1l1e3"
-                plist="#m3s1l1e2 #m3s1l1e3"/>
+              <beamSpan staff="2 1" startid="#m3s1l1e2" endid="#m3s1l1e3" plist="#m3s1l1e2 #m3s1l1e3"/>
               <beamSpan staff="1" startid="#m3s1l1e4" endid="#m3s1l1e5" plist="#m3s1l1e4 #m3s1l1e5"/>
-              <!--<beamSpan staff="1 2"
-                               startid="#m3s1l2e2"
-                               endid="#m321l2e4"
-                               plist="#m3s1l2e2 #m3s1l2e3 #m321l2e4"/>-->
+              <!-- <beamSpan staff="1 2" startid="#m3s1l2e2" endid="#m321l2e4" plist="#m3s1l2e2 #m3s1l2e3 #m321l2e4"/> -->
               <beamSpan staff="2" startid="#m3s2l1e2" endid="#m3s2l1e3" plist="#m3s2l1e2 #m3s2l1e3"/>
-              <beamSpan staff="2" startid="#m3s2l2e1" endid="#m3s2l2e3"
-                plist="#m3s2l2e1 #m3s2l2e2 #m3s2l2e3"/>
+              <beamSpan staff="2" startid="#m3s2l2e1" endid="#m3s2l2e3" plist="#m3s2l2e1 #m3s2l2e2 #m3s2l2e3"/>
               <pedal dir="down" staff="2" place="below" tstamp="1"/>
               <pedal dir="up" staff="2" place="below" tstamp="2"/>
               <slur staff="1" curvedir="above" startid="#m3s1l1e2" endid="#m3s1l1e5"/>
@@ -319,16 +326,11 @@
                   <rest dur="8"/>
                 </layer>
               </staff>
-              <beamSpan staff="2 1" startid="#m4s1l1e2" endid="#m4s1l1e3"
-                plist="#m4s1l1e2 #m4s1l1e3"/>
+              <beamSpan staff="2 1" startid="#m4s1l1e2" endid="#m4s1l1e3" plist="#m4s1l1e2 #m4s1l1e3"/>
               <beamSpan staff="1" startid="#m4s1l1e4" endid="#m4s1l1e5" plist="#m4s1l1e4 #m4s1l1e5"/>
-              <!--<beamSpan staff="1 2"
-                               startid="#m4s1l2e2"
-                               endid="#m421l2e4"
-                               plist="#m4s1l2e2 #m4s1l2e3 #m421l2e4"/>-->
+              <!-- <beamSpan staff="1 2" startid="#m4s1l2e2" endid="#m421l2e4" plist="#m4s1l2e2 #m4s1l2e3 #m421l2e4"/> -->
               <beamSpan staff="2" startid="#m4s2l1e2" endid="#m4s2l1e3" plist="#m4s2l1e2 #m4s2l1e3"/>
-              <beamSpan staff="2" startid="#m4s2l2e1" endid="#m4s2l2e3"
-                plist="#m4s2l2e1 #m4s2l2e2 #m4s2l2e3"/>
+              <beamSpan staff="2" startid="#m4s2l2e1" endid="#m4s2l2e3" plist="#m4s2l2e1 #m4s2l2e2 #m4s2l2e3"/>
               <pedal dir="down" staff="2" place="below" tstamp="1"/>
               <pedal dir="up" staff="2" place="below" tstamp="2"/>
               <slur staff="1" curvedir="above" startid="#m4s1l1e2" endid="#m4s1l1e5"/>
@@ -383,11 +385,9 @@
               </staff>
               <beamSpan staff="1" startid="#m5s1l1e2" endid="#m5s1l1e3" plist="#m5s1l1e2 #m5s1l1e3"/>
               <beamSpan staff="1" startid="#m5s1l1e4" endid="#m5s1l1e5" plist="#m5s1l1e4 #m5s1l1e5"/>
-              <beamSpan staff="1" startid="#m5s1l2e2" endid="#m5s1l2e4"
-                plist="#m5s1l2e2 #m5s1l2e3 #m5s1l2e4"/>
+              <beamSpan staff="1" startid="#m5s1l2e2" endid="#m5s1l2e4" plist="#m5s1l2e2 #m5s1l2e3 #m5s1l2e4"/>
               <beamSpan staff="1" startid="#m5s1l3e2" endid="#m5s1l3e3" plist="#m5s1l3e2 #m5s1l3e3"/>
-              <beamSpan staff="2" startid="#m5s2l2e1" endid="#m5s2l2e3"
-                plist="#m5s2l2e1 #m5s2l2e2 #m5s2l2e3"/>
+              <beamSpan staff="2" startid="#m5s2l2e1" endid="#m5s2l2e3" plist="#m5s2l2e1 #m5s2l2e2 #m5s2l2e3"/>
               <slur staff="1" startid="#m5s1l1e2" endid="#m5s1l1e5" curvedir="above"/>
               <slur staff="2" startid="#m5s2l2e1" endid="#m5s2l2e3" curvedir="above"/>
               <pedal dir="down" tstamp="1" staff="2" place="below"/>
@@ -442,11 +442,9 @@
               </staff>
               <beamSpan staff="1" startid="#m6s1l1e2" endid="#m6s1l1e3" plist="#m6s1l1e2 #m6s1l1e3"/>
               <beamSpan staff="1" startid="#m6s1l1e4" endid="#m6s1l1e5" plist="#m6s1l1e4 #m6s1l1e5"/>
-              <beamSpan staff="1" startid="#m6s1l2e2" endid="#m6s1l2e4"
-                plist="#m6s1l2e2 #m6s1l2e3 #m6s1l2e4"/>
+              <beamSpan staff="1" startid="#m6s1l2e2" endid="#m6s1l2e4" plist="#m6s1l2e2 #m6s1l2e3 #m6s1l2e4"/>
               <beamSpan staff="1" startid="#m6s1l3e2" endid="#m6s1l3e3" plist="#m6s1l3e2 #m6s1l3e3"/>
-              <beamSpan staff="2" startid="#m6s2l2e1" endid="#m6s2l2e3"
-                plist="#m6s2l2e1 #m6s2l2e2 #m6s2l2e3"/>
+              <beamSpan staff="2" startid="#m6s2l2e1" endid="#m6s2l2e3" plist="#m6s2l2e1 #m6s2l2e2 #m6s2l2e3"/>
               <slur staff="1" startid="#m6s1l1e2" endid="#m6s1l1e5" curvedir="above"/>
               <slur staff="2" startid="#m6s2l2e1" endid="#m6s2l2e3" curvedir="above"/>
               <pedal dir="down" tstamp="1" staff="2" place="below"/>

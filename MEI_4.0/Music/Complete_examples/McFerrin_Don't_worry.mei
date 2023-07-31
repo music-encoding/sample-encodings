@@ -1,16 +1,13 @@
-<?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<?xml-model href="http://music-encoding.org/schema/4.0.0/mei-all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<?xml-model href="http://music-encoding.org/schema/4.0.0/mei-all.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
-<mei xmlns:xlink="http://www.w3.org/1999/xlink" xmlns="http://www.music-encoding.org/ns/mei"
-  meiversion="4.0.0">
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://music-encoding.org/schema/4.0.1/mei-all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://music-encoding.org/schema/4.0.1/mei-all.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<mei xmlns="http://www.music-encoding.org/ns/mei" meiversion="4.0.1">
   <meiHead>
     <fileDesc>
       <titleStmt>
-        <title>Don't worry, be happy <titlePart type="subordinate">an electronic
-          transcription</titlePart> </title>
+        <title>Don't worry, be happy<titlePart type="subordinate">an electronic transcription</titlePart></title>
         <composer>
-          <persName role="creator" auth="GND" auth.uri="http://d-nb.info/gnd/" codedval="134451260 "
-            >Bobby McFerrin</persName>
+          <persName role="creator" auth="GND" auth.uri="http://d-nb.info/gnd/" codedval="134451260 ">Bobby McFerrin</persName>
         </composer>
         <respStmt>
           <persName role="encoder">Maja Hartwig</persName>
@@ -18,40 +15,33 @@
       </titleStmt>
       <pubStmt>
         <publisher>
-          <corpName role="publisher" codedval="5115204" auth.uri="http://d-nb.info/gnd/" auth="GND"
-            >Musikwissenschaftliches Seminar Detmold</corpName>
+          <corpName role="publisher" codedval="5115204" auth.uri="http://d-nb.info/gnd/" auth="GND">Musikwissenschaftliches Seminar Detmold</corpName>
         </publisher>
         <address>
           <addrLine>Gartenstrasse 20</addrLine>
-          <addrLine>
-            <geogName>32756 Detmold</geogName>
-            <geogName>Germany</geogName>
-          </addrLine>
+          <addrLine><geogName>32756 Detmold</geogName><geogName>Germany</geogName></addrLine>
         </address>
         <date>2012</date>
         <availability>
-          <useRestrict> This encoding is in the public domain. However, the sources used to create
-            it may be under copyright. We believe their use by the MEI project for educational and
-            research purposes is covered by the Fair use Doctrine. However, we will remove any
-            material from the project archive whenrequested to do so by the copyright owner.
-          </useRestrict>
+          <useRestrict>This encoding is in the public domain. However, the sources used to create it may be under copyright. We believe their use by the MEI project for educational and research purposes is covered by the Fair use Doctrine. However, we will remove any material from the project archive whenrequested to do so by the copyright owner.</useRestrict>
         </availability>
       </pubStmt>
       <seriesStmt>
         <title>MEI Sample Collection</title>
         <funder>
-          <corpName role="funder" codedval="2007744-0" auth="GND" auth.uri="http://d-nb.info/gnd/"
-            >German Research Foundation <address> <addrLine>Kennedyallee 40</addrLine> <addrLine>
-            <geogName>Bonn</geogName> </addrLine> </address> </corpName>
+          <corpName role="funder" codedval="2007744-0" auth="GND" auth.uri="http://d-nb.info/gnd/">German Research Foundation
+            <address>
+              <addrLine>Kennedyallee 40</addrLine>
+              <addrLine><geogName>Bonn</geogName></addrLine>
+            </address> </corpName>
         </funder>
         <funder>
-          <corpName role="funder" codedval="18183-3" auth.uri="http://d-nb.info/gnd/18183-3"
-            auth="Deutsche Nationalbibliothek">National Endowment for the Humanities<address>
-            <addrLine>1100 Pennsylvania Avenue N.W.</addrLine> <addrLine> <geogName
-            codedval="7013962" auth.uri="http://vocab.getty.edu/page/tgn/" auth="TGN">Washington,
-            DC</geogName> 20004</addrLine> <addrLine> <geogName codedval="7012149"
-            auth.uri="http://vocab.getty.edu/page/tgn/" auth="TGN">United States</geogName>
-            </addrLine> </address> </corpName>
+          <corpName role="funder" codedval="18183-3" auth.uri="http://d-nb.info/gnd/18183-3" auth="Deutsche Nationalbibliothek">National Endowment for the Humanities
+            <address>
+              <addrLine>1100 Pennsylvania Avenue N.W.</addrLine>
+              <addrLine><geogName codedval="7013962" auth.uri="http://vocab.getty.edu/page/tgn/" auth="TGN">Washington, DC</geogName>20004</addrLine>
+              <addrLine><geogName codedval="7012149" auth.uri="http://vocab.getty.edu/page/tgn/" auth="TGN">United States</geogName></addrLine>
+            </address> </corpName>
         </funder>
         <respStmt>
           <corpName role="publisher">MEI Project</corpName>
@@ -65,12 +55,10 @@
           <bibl>
             <title>Don't worry be happy</title>
             <composer>
-              <persName role="composer" auth="GND" auth.uri="http://d-nb.info/gnd/"
-                codedval="134451260">Bobby Mc Ferrin</persName>
+              <persName role="composer" auth="GND" auth.uri="http://d-nb.info/gnd/" codedval="134451260">Bobby Mc Ferrin</persName>
             </composer>
             <lyricist>
-              <persName role="lyricist" auth="GND" auth.uri="http://d-nb.info/gnd/"
-                codedval="134451260">Bobby Mc Ferrin</persName>
+              <persName role="lyricist" auth="GND" auth.uri="http://d-nb.info/gnd/" codedval="134451260">Bobby Mc Ferrin</persName>
             </lyricist>
           </bibl>
         </source>
@@ -78,8 +66,21 @@
     </fileDesc>
     <encodingDesc>
       <appInfo>
-        <application version="v1.0_beta" xml:id="app_20193104011053">
+        <application version="v1.0_beta" xml:id="mei2012To2013">
+          <name>mei2012To2013.xsl</name>
+          <ptr target="https://github.com/music-encoding/encoding-tools/blob/main/mei2012To2013/mei2012To2013.xsl"/>
+        </application>
+        <application version="v1.0_beta" xml:id="mei21To30">
+          <name>mei21To30.xsl</name>
+          <ptr target="https://github.com/music-encoding/encoding-tools/blob/main/mei21To30/mei21To30.xsl"/>
+        </application>
+        <application version="v1.0_beta" xml:id="mei30To40">
           <name>mei30To40.xsl</name>
+          <ptr target="https://github.com/music-encoding/encoding-tools/blob/main/mei30To40/mei30To40.xsl"/>
+        </application>
+        <application version="v0.0.1-alpha" xml:id="meiLint_v0.0.1-alpha">
+          <name>meiLint.xsl</name>
+          <ptr target="https://github.com/music-encoding/encoding-tools/blob/main/meiLint/meiLint.xsl"/>
         </application>
       </appInfo>
       <samplingDecl>
@@ -88,8 +89,7 @@
       </samplingDecl>
       <classDecls>
         <taxonomy>
-          <bibl xml:id="OCLC_DDC"
-            target="http://www.oclc.org/dewey/resources/summaries/default.htm#700">OCLC_DDC</bibl>
+          <bibl xml:id="OCLC_DDC" target="http://www.oclc.org/dewey/resources/summaries/default.htm#700">OCLC_DDC</bibl>
           <category xml:id="_782.42">
             <altId>782.42</altId>
             <label>Song</label>
@@ -112,8 +112,7 @@
       <work>
         <title>Don't worry, be happy</title>
         <composer>
-          <persName role="composer" auth="GND" auth.uri="http://d-nb.info/gnd/" codedval="134451260"
-            >Bobby McFerrin</persName>
+          <persName role="composer" auth="GND" auth.uri="http://d-nb.info/gnd/" codedval="134451260">Bobby McFerrin</persName>
         </composer>
         <key pname="c" mode="major">C major</key>
         <meter count="4" unit="4"/>
@@ -126,8 +125,7 @@
           <score>
             <scoreDef>
               <staffGrp>
-                <staffDef n="1" lines="5" clef.line="2" clef.shape="G" meter.count="4"
-                  meter.unit="4" key.sig="0"/>
+                <staffDef n="1" lines="5" clef.line="2" clef.shape="G" meter.count="4" meter.unit="4" key.sig="0"/>
               </staffGrp>
             </scoreDef>
             <section>
@@ -218,23 +216,39 @@
         </changeDesc>
         <date isodate="2012-07-16"/>
       </change>
-      <change n="3">
+      <change n="3" resp="#mei2012To2013">
         <changeDesc>
           <p>Converted to MEI 2013 using mei2012To2013.xsl, version 1.0 beta</p>
         </changeDesc>
         <date isodate="2014-05-30"/>
       </change>
-      <change n="4">
+      <change n="4" resp="#mei21To30">
         <changeDesc>
           <p>Converted to version 3.0.0 using mei21To30.xsl, version 1.0 beta</p>
         </changeDesc>
         <date isodate="2015-10-15"/>
       </change>
-      <change n="5" resp="#app_20193104011053">
+      <change n="5" resp="#mei30To40">
         <changeDesc>
           <p>Converted to MEI version 4.0.0 using mei30To40.xsl, version 1.0 beta</p>
         </changeDesc>
         <date isodate="2019-01-03"/>
+      </change>
+      <change n="6">
+        <respStmt>
+          <persName>Benjamin W. Bohl</persName>
+          <persName>Stefan Münnich</persName>
+        </respStmt>
+        <changeDesc>
+          <p><list>
+              <li>update xml-model schema references to v4.0.1</li>
+              <li>update meiversion attributes to 4.0.1</li>
+              <li>add missing responsibility statements to change elements</li>
+              <li>unify documentation of mei version upgrades (appInfo and revisionDesc)</li>
+               <li>linted with <ref target="#meiLint_v0.0.1-alpha">meiLint.xsl</ref></li>
+            </list></p>
+        </changeDesc>
+        <date isodate="2023-07-27T17:10:28+02:00"/>
       </change>
     </revisionDesc>
   </meiHead>
@@ -243,8 +257,7 @@
       <mdiv>
         <parts>
           <part>
-            <staffDef n="1" xml:id="s1" clef.line="2" clef.shape="G" meter.count="4" meter.unit="4"
-              key.sig="0"/>
+            <staffDef n="1" xml:id="s1" clef.line="2" clef.shape="G" meter.count="4" meter.unit="4" key.sig="0"/>
             <section>
               <measure n="1">
                 <staff n="1">
@@ -285,8 +298,7 @@
                   </layer>
                   <layer n="2">
                     <space dur="2" dots="1"/>
-                    <note pname="g" oct="5" dur="4" head.shape="x" head.fill="void" stem.dir="up"
-                      xml:id="m3e4">
+                    <note pname="g" oct="5" dur="4" head.shape="x" head.fill="void" stem.dir="up" xml:id="m3e4">
                       <verse n="1">
                         <syl>Don´t</syl>
                       </verse>
@@ -308,14 +320,12 @@
                   </layer>
                   <layer n="2">
                     <beam>
-                      <note pname="g" oct="5" dur="8" head.shape="x" head.fill="void" xml:id="m4e1"
-                        stem.dir="up">
+                      <note pname="g" oct="5" dur="8" head.shape="x" head.fill="void" xml:id="m4e1" stem.dir="up">
                         <verse n="1">
                           <syl wordpos="i" con="d">wor</syl>
                         </verse>
                       </note>
-                      <note pname="g" oct="5" dur="8" head.shape="x" head.fill="void" xml:id="m4e2"
-                        stem.dir="up">
+                      <note pname="g" oct="5" dur="8" head.shape="x" head.fill="void" xml:id="m4e2" stem.dir="up">
                         <verse n="1">
                           <syl wordpos="t">ry</syl>
                         </verse>
@@ -335,8 +345,7 @@
                   </layer>
                   <layer n="2">
                     <space dur="2" dots="1"/>
-                    <note pname="g" oct="5" dur="4" head.shape="x" head.fill="void" stem.dir="up"
-                      xml:id="m5e4">
+                    <note pname="g" oct="5" dur="4" head.shape="x" head.fill="void" stem.dir="up" xml:id="m5e4">
                       <verse n="1">
                         <syl>be</syl>
                       </verse>
@@ -361,14 +370,12 @@
                   </layer>
                   <layer n="2">
                     <beam>
-                      <note pname="g" oct="5" dur="8" head.shape="x" head.fill="void" stem.dir="up"
-                        xml:id="m6e1">
+                      <note pname="g" oct="5" dur="8" head.shape="x" head.fill="void" stem.dir="up" xml:id="m6e1">
                         <verse n="1">
                           <syl wordpos="i" con="d">hap</syl>
                         </verse>
                       </note>
-                      <note pname="g" oct="5" dur="8" head.shape="x" head.fill="void" stem.dir="up"
-                        xml:id="m6e2">
+                      <note pname="g" oct="5" dur="8" head.shape="x" head.fill="void" stem.dir="up" xml:id="m6e2">
                         <verse n="1">
                           <syl wordpos="t">py</syl>
                         </verse>
@@ -480,8 +487,7 @@
                   </layer>
                   <layer n="2">
                     <space dur="2" dots="1"/>
-                    <note pname="g" oct="5" dur="4" head.shape="x" head.fill="void" stem.dir="up"
-                      xml:id="m11e7">
+                    <note pname="g" oct="5" dur="4" head.shape="x" head.fill="void" stem.dir="up" xml:id="m11e7">
                       <verse>
                         <syl>Don´t</syl>
                       </verse>
@@ -515,14 +521,12 @@
                   </layer>
                   <layer n="2">
                     <beam>
-                      <note pname="g" oct="5" dur="8" head.shape="x" head.fill="void" xml:id="m12e1"
-                        stem.dir="up">
+                      <note pname="g" oct="5" dur="8" head.shape="x" head.fill="void" xml:id="m12e1" stem.dir="up">
                         <verse>
                           <syl con="d" wordpos="i">wor</syl>
                         </verse>
                       </note>
-                      <note pname="g" oct="5" dur="8" head.shape="x" head.fill="void" xml:id="m12e2"
-                        stem.dir="up">
+                      <note pname="g" oct="5" dur="8" head.shape="x" head.fill="void" xml:id="m12e2" stem.dir="up">
                         <verse>
                           <syl wordpos="t">ry</syl>
                         </verse>
@@ -551,8 +555,7 @@
                   </layer>
                   <layer n="2">
                     <space dur="2" dots="1"/>
-                    <note pname="g" oct="5" dur="4" stem.dir="up" head.shape="x"
-                      head.fill="void" xml:id="m13x1">
+                    <note pname="g" oct="5" dur="4" stem.dir="up" head.shape="x" head.fill="void" xml:id="m13x1">
                       <verse>
                         <syl>be</syl>
                       </verse>
@@ -588,14 +591,12 @@
                   </layer>
                   <layer n="2">
                     <beam>
-                      <note pname="g" oct="5" dur="8" stem.dir="up" head.shape="x"
-                        head.fill="void" xml:id="m14x1">
+                      <note pname="g" oct="5" dur="8" stem.dir="up" head.shape="x" head.fill="void" xml:id="m14x1">
                         <verse>
                           <syl con="d" wordpos="i">hap</syl>
                         </verse>
                       </note>
-                      <note pname="g" oct="5" dur="8" stem.dir="up" head.shape="x"
-                        head.fill="void" xml:id="m14x2">
+                      <note pname="g" oct="5" dur="8" stem.dir="up" head.shape="x" head.fill="void" xml:id="m14x2">
                         <verse>
                           <syl wordpos="t">py</syl>
                         </verse>

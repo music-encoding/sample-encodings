@@ -1,15 +1,13 @@
-<?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<?xml-model href="http://music-encoding.org/schema/4.0.0/mei-all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<?xml-model href="http://music-encoding.org/schema/4.0.0/mei-all.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
-<mei xmlns:xlink="http://www.w3.org/1999/xlink" xmlns="http://www.music-encoding.org/ns/mei"
-  meiversion="4.0.0">
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://music-encoding.org/schema/4.0.1/mei-all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://music-encoding.org/schema/4.0.1/mei-all.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<mei xmlns="http://www.music-encoding.org/ns/mei" meiversion="4.0.1">
   <meiHead>
     <fileDesc>
       <titleStmt>
-        <title>Walzer G-Dur <titlePart type="subordinate">an electronic transcription</titlePart> </title>
+        <title>Walzer G-Dur<titlePart type="subordinate">an electronic transcription</titlePart></title>
         <composer>
-          <persName role="creator" codedval="133912027" auth.uri="http://d-nb.info/gnd/" auth="GND"
-            >Dionisio Aguado y García</persName>
+          <persName role="creator" codedval="133912027" auth.uri="http://d-nb.info/gnd/" auth="GND">Dionisio Aguado y García</persName>
         </composer>
         <respStmt>
           <persName role="encoder">Maja Hartwig</persName>
@@ -18,45 +16,35 @@
       </titleStmt>
       <pubStmt>
         <publisher>
-          <corpName role="publisher" codedval="5115204-6" auth.uri="http://d-nb.info/gnd/"
-            auth="GND">Musikwissenschaftliches Seminar, Detmold</corpName>
+          <corpName role="publisher" codedval="5115204-6" auth.uri="http://d-nb.info/gnd/" auth="GND">Musikwissenschaftliches Seminar, Detmold</corpName>
         </publisher>
         <address>
           <addrLine>Gartenstrasse 20</addrLine>
-          <addrLine>32756 <geogName codedval="7004442" auth.uri="http://vocab.getty.edu/page/tgn/"
-            auth="TGN">Detmold</geogName> </addrLine>
-          <addrLine>
-            <geogName codedval="7000084" auth.uri="http://vocab.getty.edu/page/tgn/" auth="TGN"
-              >Germany</geogName>
-          </addrLine>
+          <addrLine>32756<geogName codedval="7004442" auth.uri="http://vocab.getty.edu/page/tgn/" auth="TGN">Detmold</geogName></addrLine>
+          <addrLine><geogName codedval="7000084" auth.uri="http://vocab.getty.edu/page/tgn/" auth="TGN">Germany</geogName></addrLine>
         </address>
         <date>2011</date>
         <availability>
-          <useRestrict>This encoding is in the public domain. However, the sources used to create it
-            may be under copyright. We believe their use by the MEI project for educational and
-            research purposes is covered by the Fair Use doctrine. However, we will remove any
-            material from the project archive when requested to do so by the copyright
-            owner.</useRestrict>
+          <useRestrict>This encoding is in the public domain. However, the sources used to create it may be under copyright. We believe their use by the MEI project for educational and research purposes is covered by the Fair Use doctrine. However, we will remove any material from the project archive when requested to do so by the copyright owner.</useRestrict>
         </availability>
       </pubStmt>
       <seriesStmt>
         <title>MEI Sample Collection</title>
         <funder>
-          <corpName role="funder" codedval="2007744-0" auth.uri="http://d-nb.info/gnd/" auth="GND"
-            >German Research Foundation<address> <addrLine>Kennedyallee 40</addrLine> <addrLine>
-            <geogName codedval="7005090" auth.uri="http://vocab.getty.edu/page/tgn/" auth="TGN"
-            >Bonn</geogName> </addrLine> <addrLine> <geogName codedval="7000084"
-            auth.uri="http://vocab.getty.edu/page/tgn/" auth="TGN">Germany</geogName> </addrLine>
+          <corpName role="funder" codedval="2007744-0" auth.uri="http://d-nb.info/gnd/" auth="GND">German Research Foundation
+            <address>
+              <addrLine>Kennedyallee 40</addrLine>
+              <addrLine><geogName codedval="7005090" auth.uri="http://vocab.getty.edu/page/tgn/" auth="TGN">Bonn</geogName></addrLine>
+              <addrLine><geogName codedval="7000084" auth.uri="http://vocab.getty.edu/page/tgn/" auth="TGN">Germany</geogName></addrLine>
             </address> </corpName>
         </funder>
         <funder>
-          <corpName role="funder" codedval="18183-3" auth.uri="http://d-nb.info/gnd/" auth="GND"
-            >National Endowment for the Humanities<address> <addrLine>1100 Pennsylvania Avenue
-            N.W.</addrLine> <addrLine> <geogName codedval="7013962"
-            auth.uri="http://vocab.getty.edu/page/tgn/" auth="TGN">Washington, DC</geogName>
-            20004</addrLine> <addrLine> <geogName codedval="7012149"
-            auth.uri="http://vocab.getty.edu/page/tgn/" auth="TGN">United States</geogName>
-            </addrLine> </address> </corpName>
+          <corpName role="funder" codedval="18183-3" auth.uri="http://d-nb.info/gnd/" auth="GND">National Endowment for the Humanities
+            <address>
+              <addrLine>1100 Pennsylvania Avenue N.W.</addrLine>
+              <addrLine><geogName codedval="7013962" auth.uri="http://vocab.getty.edu/page/tgn/" auth="TGN">Washington, DC</geogName> 20004</addrLine>
+              <addrLine><geogName codedval="7012149" auth.uri="http://vocab.getty.edu/page/tgn/" auth="TGN">United States</geogName></addrLine>
+            </address> </corpName>
         </funder>
         <respStmt>
           <corpName role="publisher">MEI Project</corpName>
@@ -68,12 +56,10 @@
       <sourceDesc>
         <source>
           <bibl>
-            <identifier type="URI"
-              >http://www.hausmusik.ch/notenisodateal/a/aguado_dionisio(1788-1847)/walzer_g-dur/walzer_g-dur.xml</identifier>
+            <identifier type="URI">http://www.hausmusik.ch/notenisodateal/a/aguado_dionisio(1788-1847)/walzer_g-dur/walzer_g-dur.xml</identifier>
             <title>Walzer G-Dur</title>
             <composer>
-              <persName role="composer" codedval="133912027" auth.uri="http://d-nb.info/gnd/"
-                auth="GND">Dionisio Aguado y García</persName>
+              <persName role="composer" codedval="133912027" auth.uri="http://d-nb.info/gnd/" auth="GND">Dionisio Aguado y García</persName>
             </composer>
             <imprint>
               <respStmt>
@@ -89,8 +75,7 @@
         </source>
         <source>
           <bibl>
-            <identifier type="URI"
-              >http://www.hausmusik.ch/notenregal/a/aguado_dionisio(1788-1847)/walzer_g-dur/walzer_g-dur.pdf</identifier>
+            <identifier type="URI">http://www.hausmusik.ch/notenregal/a/aguado_dionisio(1788-1847)/walzer_g-dur/walzer_g-dur.pdf</identifier>
             <title>Walzer G-Dur</title>
           </bibl>
         </source>
@@ -98,17 +83,29 @@
     </fileDesc>
     <encodingDesc>
       <appInfo>
+        <application version="v1.0_beta" xml:id="mei2012To2013">
+          <name>mei2012To2013.xsl</name>
+          <ptr target="https://github.com/music-encoding/encoding-tools/blob/main/mei2012To2013/mei2012To2013.xsl"/>
+        </application>
+        <application version="v1.0_beta" xml:id="mei21To30">
+          <name>mei21To30.xsl</name>
+          <ptr target="https://github.com/music-encoding/encoding-tools/blob/main/mei21To30/mei21To30.xsl"/>
+        </application>
         <application xml:id="xsl_mxl2mei_2.2.3" version="2.2.3">
           <name>MusicXML2MEI</name>
         </application>
-        <application version="v1.0_beta" xml:id="app_20193104015181">
+        <application version="v1.0_beta" xml:id="mei30To40">
           <name>mei30To40.xsl</name>
+          <ptr target="https://github.com/music-encoding/encoding-tools/blob/main/mei30To40/mei30To40.xsl"/>
+        </application>
+        <application version="v0.0.1-alpha" xml:id="meiLint_v0.0.1-alpha">
+          <name>meiLint.xsl</name>
+          <ptr target="https://github.com/music-encoding/encoding-tools/blob/main/meiLint/meiLint.xsl"/>
         </application>
       </appInfo>
       <classDecls>
         <taxonomy>
-          <bibl xml:id="OCLC_DDC"
-            target="http://www.oclc.org/dewey/resources/summaries/default.htm#700">OCLC_DDC</bibl>
+          <bibl xml:id="OCLC_DDC" target="http://www.oclc.org/dewey/resources/summaries/default.htm#700">OCLC_DDC</bibl>
           <category xml:id="_787">
             <altId>787</altId>
             <label>Stringed instruments</label>
@@ -135,8 +132,7 @@
       <work>
         <title>Walzer G-Dur</title>
         <composer>
-          <persName role="composer" codedval="133912027" auth.uri="http://d-nb.info/gnd/" auth="GND"
-            >Dionisio Aguado y García</persName>
+          <persName role="composer" codedval="133912027" auth.uri="http://d-nb.info/gnd/" auth="GND">Dionisio Aguado y García</persName>
         </composer>
         <key pname="g" mode="major">G major</key>
         <meter count="3" unit="8"/>
@@ -163,35 +159,35 @@
     </workList>
     <revisionDesc>
       <change n="1">
+        <respStmt>
+          <name>Unknown</name>
+        </respStmt>
         <changeDesc>
-          <p>The original MusicXML file was generated using CapToMusic.py CapXML to MusicXML
-            converter version 1.11.</p>
+          <p>The original MusicXML file was generated using CapToMusic.py CapXML to MusicXML converter version 1.11.</p>
         </changeDesc>
         <date isodate="2010-04-04"/>
       </change>
       <change n="2">
         <respStmt>
-          <persName xml:id="MH"> Maja Hartwig </persName>
+          <persName xml:id="MH">Maja Hartwig</persName>
         </respStmt>
         <changeDesc>
-          <p>Transcoded from a MusicXML version 1.1 file on 2011-05-12 using the <ref
-            target="#xsl_mxl2mei_2.2.3">musicxml2mei</ref> stylesheet. </p>
+          <p>Transcoded from a MusicXML version 1.1 file on 2011-05-12 using the<ref target="#xsl_mxl2mei_2.2.3">musicxml2mei</ref>stylesheet.</p>
         </changeDesc>
         <date isodate="2011-05-12"/>
       </change>
       <change n="3">
         <respStmt>
-          <persName xml:id="KR"> Kristina Richts </persName>
+          <persName xml:id="KR">Kristina Richts</persName>
         </respStmt>
         <changeDesc>
-          <p> Cleaned up MEI file automatically using <ref target="#xsl_ppq">ppq.xsl</ref>. </p>
+          <p>Cleaned up MEI file automatically using<ref target="#xsl_ppq">ppq.xsl</ref>.</p>
         </changeDesc>
         <date isodate="2011-10-21"/>
       </change>
       <change n="4" resp="#KR">
         <changeDesc>
-          <p> Cleaned up MEI file automatically using <ref target="#xsl_header">Header.xsl</ref>.
-          </p>
+          <p>Cleaned up MEI file automatically using<ref target="#xsl_header">Header.xsl</ref>.</p>
         </changeDesc>
         <date isodate="2011-12-01"/>
       </change>
@@ -204,23 +200,39 @@
         </changeDesc>
         <date isodate="2013-01-28"/>
       </change>
-      <change n="6">
+      <change n="6" resp="#mei2012To2013">
         <changeDesc>
           <p>Converted to MEI 2013 using mei2012To2013.xsl, version 1.0 beta</p>
         </changeDesc>
         <date isodate="2014-05-30"/>
       </change>
-      <change n="7">
+      <change n="7" resp="#mei21To30">
         <changeDesc>
           <p>Converted to version 3.0.0 using mei21To30.xsl, version 1.0 beta</p>
         </changeDesc>
         <date isodate="2015-10-15"/>
       </change>
-      <change n="8" resp="#app_20193104015181">
+      <change n="8" resp="#mei30To40">
         <changeDesc>
           <p>Converted to MEI version 4.0.0 using mei30To40.xsl, version 1.0 beta</p>
         </changeDesc>
         <date isodate="2019-01-03"/>
+      </change>
+      <change n="9">
+        <respStmt>
+          <persName>Benjamin W. Bohl</persName>
+          <persName>Stefan Münnich</persName>
+        </respStmt>
+        <changeDesc>
+          <p><list>
+              <li>update xml-model schema references to v4.0.1</li>
+              <li>update meiversion attributes to 4.0.1</li>
+              <li>add missing responsibility statements to change elements</li>
+              <li>unify documentation of mei version upgrades (appInfo and revisionDesc)</li>
+               <li>linted with <ref target="#meiLint_v0.0.1-alpha">meiLint.xsl</ref></li>
+            </list></p>
+        </changeDesc>
+        <date isodate="2023-07-27T17:08:22+02:00"/>
       </change>
     </revisionDesc>
   </meiHead>
@@ -230,21 +242,15 @@
         <score>
           <scoreDef meter.count="3" meter.unit="8" key.sig="1s" key.mode="major">
             <pgHead>
-              <title>
-                <rend>WALZER G-DUR</rend>
-              </title>
-              <persName role="composer">
-                <rend halign="right" valign="top">Dionisio Aguado<lb/>1784-1849</rend>
-              </persName>
+              <title><rend>WALZER G-DUR</rend></title>
+              <persName role="composer"><rend halign="right" valign="top">Dionisio Aguado
+                  <lb/>1784-1849</rend></persName>
             </pgHead>
             <pgFoot>
-              <p>
-                <rend halign="center" valign="bottom">© Jürgen Knuth</rend>
-              </p>
+              <p><rend halign="center" valign="bottom">© Jürgen Knuth</rend></p>
             </pgFoot>
             <staffGrp>
-              <staffDef n="1" clef.line="2" clef.shape="G" clef.dis="8" clef.dis.place="below"
-                lines="5"/>
+              <staffDef n="1" clef.line="2" clef.shape="G" clef.dis="8" clef.dis.place="below" lines="5"/>
             </staffGrp>
           </scoreDef>
           <section>
@@ -401,7 +407,7 @@
                   <rest xml:id="d30278e893" dur="8" vo="-7"/>
                 </layer>
               </staff>
-              <dir tstamp="1" place="within" staff="1">2 </dir>
+              <dir tstamp="1" place="within" staff="1">2</dir>
               <dir tstamp="1" place="within" staff="1">3</dir>
             </measure>
             <measure n="9" xml:id="d30278e906" left="rptstart">
@@ -457,7 +463,7 @@
                   <note xml:id="d30278e1206" pname="d" oct="4" dur="4" dots="1" stem.dir="down"/>
                 </layer>
               </staff>
-              <dir tstamp="2" place="within" staff="1">1 </dir>
+              <dir tstamp="2" place="within" staff="1">1</dir>
               <dir tstamp="2" place="within" staff="1">3</dir>
             </measure>
             <sb/>
@@ -477,12 +483,10 @@
                   </beam>
                 </layer>
                 <layer n="2">
-                  <note xml:id="d30278e1310" pname="d" oct="4" dur="4" dots="1" tie="i"
-                    stem.dir="down"/>
+                  <note xml:id="d30278e1310" pname="d" oct="4" dur="4" dots="1" tie="i" stem.dir="down"/>
                 </layer>
               </staff>
-              <tie tstamp="1" staff="1" curvedir="below" startid="#d30278e1310" endid="#d30278e1393"
-              />
+              <tie tstamp="1" staff="1" curvedir="below" startid="#d30278e1310" endid="#d30278e1393"/>
             </measure>
             <measure n="12" xml:id="d30278e1328">
               <staff n="1">
@@ -497,8 +501,7 @@
                   </chord>
                 </layer>
                 <layer n="2">
-                  <note xml:id="d30278e1393" pname="d" oct="4" dur="4" dots="1" tie="t"
-                    stem.dir="down"/>
+                  <note xml:id="d30278e1393" pname="d" oct="4" dur="4" dots="1" tie="t" stem.dir="down"/>
                 </layer>
               </staff>
             </measure>
@@ -570,7 +573,7 @@
                   </beam>
                 </layer>
               </staff>
-              <dir tstamp="1" place="within" staff="1">3 </dir>
+              <dir tstamp="1" place="within" staff="1">3</dir>
               <dir tstamp="1" place="within" staff="1">0</dir>
               <dir tstamp="1" place="above" staff="1">2</dir>
               <dir tstamp="3" place="within" staff="1">4</dir>
@@ -592,7 +595,7 @@
                   <rest xml:id="d30278e1919" dur="8" vo="-7"/>
                 </layer>
               </staff>
-              <dir tstamp="1" place="within" staff="1">4 </dir>
+              <dir tstamp="1" place="within" staff="1">4</dir>
               <dir tstamp="1" place="within" staff="1">1</dir>
             </measure>
             <measure n="17" xml:id="d30278e1931">

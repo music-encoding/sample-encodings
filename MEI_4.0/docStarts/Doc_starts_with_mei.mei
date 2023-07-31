@@ -1,8 +1,7 @@
-<?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<?xml-model href="http://music-encoding.org/schema/4.0.0/mei-all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<?xml-model href="http://music-encoding.org/schema/4.0.0/mei-all.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
-<mei xmlns:xlink="http://www.w3.org/1999/xlink" xmlns="http://www.music-encoding.org/ns/mei"
-  meiversion="4.0.0">
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://music-encoding.org/schema/4.0.1/mei-all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://music-encoding.org/schema/4.0.1/mei-all.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<mei xmlns="http://www.music-encoding.org/ns/mei" meiversion="4.0.1">
   <meiHead>
     <fileDesc>
       <titleStmt>
@@ -17,14 +16,17 @@
     </fileDesc>
     <encodingDesc>
       <appInfo>
-        <application version="v1.0_beta" xml:id="app_20193104017386">
+        <application version="v1.0_beta" xml:id="mei30To40">
           <name>mei30To40.xsl</name>
+          <ptr target="https://github.com/music-encoding/encoding-tools/blob/main/mei30To40/mei30To40.xsl"/>
+        </application>
+        <application version="v0.0.1-alpha" xml:id="meiLint_v0.0.1-alpha">
+          <name>meiLint.xsl</name>
+          <ptr target="https://github.com/music-encoding/encoding-tools/blob/main/meiLint/meiLint.xsl"/>
         </application>
       </appInfo>
       <editorialDecl>
-        <p>A typical MEI document contains an MEI element, which in turn contains metadata,
-          represented by an meiHead element, and the musical text itself, represented by a music
-          element. This is an example for the use of the entry point &lt;mei&gt;.</p>
+        <p>A typical MEI document contains an MEI element, which in turn contains metadata, represented by an meiHead element, and the musical text itself, represented by a music element. This is an example for the use of the entry point &lt;mei&gt;.</p>
       </editorialDecl>
     </encodingDesc>
     <workList>
@@ -46,19 +48,17 @@
           <score>
             <scoreDef>
               <pgHead>
-                <title>2.<lb/>SCHMETTERLING.</title>
+                <title>2.
+                  <lb/>SCHMETTERLING.</title>
               </pgHead>
               <staffGrp>
-                <staffDef n="1" lines="5" meter.count="3" meter.unit="8" clef.shape="G"
-                  clef.line="2" key.sig="2s">
+                <staffDef n="1" lines="5" meter.count="3" meter.unit="8" clef.shape="G" clef.line="2" key.sig="2s">
                   <label>Singstimme</label>
                 </staffDef>
                 <staffGrp symbol="brace">
                   <label>Pianoforte</label>
-                  <staffDef n="2" lines="5" meter.count="3" meter.unit="8" clef.shape="G"
-                    clef.line="2" key.sig="2s"/>
-                  <staffDef n="3" lines="5" meter.count="3" meter.unit="8" clef.shape="F"
-                    clef.line="4" key.sig="2s"/>
+                  <staffDef n="2" lines="5" meter.count="3" meter.unit="8" clef.shape="G" clef.line="2" key.sig="2s"/>
+                  <staffDef n="3" lines="5" meter.count="3" meter.unit="8" clef.shape="F" clef.line="4" key.sig="2s"/>
                 </staffGrp>
               </staffGrp>
             </scoreDef>
@@ -270,7 +270,7 @@
                       <note pname="e" oct="5"/>
                     </chord>
                     <rest dur="8"/>
-                    <note pname="a" oct="4" artic="stacc"/>
+                    <note pname="a" oct="4" dur="8" artic="stacc"/>
                   </layer>
                 </staff>
                 <staff n="3">
@@ -296,8 +296,7 @@
     <manifestationList>
       <manifestation>
         <titleStmt>
-          <title type="main">Lieder-Album für die Jugend für Singstimme(n) und Klavier op.
-            79</title>
+          <title type="main">Lieder-Album für die Jugend für Singstimme(n) und Klavier op. 79</title>
           <title type="uniform">Lieder für die Jugend</title>
           <respStmt>
             <persName role="composer">Robert Schumann</persName>
@@ -336,6 +335,30 @@
         </seriesStmt>
       </manifestation>
     </manifestationList>
+    <revisionDesc>
+      <change n="1" resp="#mei30To40">
+        <changeDesc>
+          <p>Converted to MEI version 4.0.0 using mei30To40.xsl, version 1.0 beta</p>
+        </changeDesc>
+        <date isodate="2019-01-03"/>
+      </change>
+      <change n="2">
+        <respStmt>
+          <persName>Benjamin W. Bohl</persName>
+          <persName>Stefan Münnich</persName>
+        </respStmt>
+        <changeDesc>
+          <p><list>
+              <li>update xml-model schema references to v4.0.1</li>
+              <li>update meiversion attributes to 4.0.1</li>
+              <li>add missing responsibility statements to change elements</li>
+              <li>unify documentation of mei version upgrades (appInfo and revisionDesc)</li>
+               <li>linted with <ref target="#meiLint_v0.0.1-alpha">meiLint.xsl</ref></li>
+            </list></p>
+        </changeDesc>
+        <date isodate="2023-07-27T17:11:05+02:00"/>
+      </change>
+    </revisionDesc>
   </meiHead>
   <music>
     <body>
@@ -343,19 +366,17 @@
         <score>
           <scoreDef>
             <pgHead>
-              <title>2.<lb/>SCHMETTERLING.</title>
+              <title>2.
+                <lb/>SCHMETTERLING.</title>
             </pgHead>
             <staffGrp>
-              <staffDef n="1" lines="5" meter.count="3" meter.unit="8" clef.shape="G" clef.line="2"
-                key.sig="2s">
+              <staffDef n="1" lines="5" meter.count="3" meter.unit="8" clef.shape="G" clef.line="2" key.sig="2s">
                 <label>Singstimme</label>
               </staffDef>
               <staffGrp symbol="brace">
                 <label>Pianoforte</label>
-                <staffDef n="2" lines="5" meter.count="3" meter.unit="8" clef.shape="G"
-                  clef.line="2" key.sig="2s"/>
-                <staffDef n="3" lines="5" meter.count="3" meter.unit="8" clef.shape="F"
-                  clef.line="4" key.sig="2s"/>
+                <staffDef n="2" lines="5" meter.count="3" meter.unit="8" clef.shape="G" clef.line="2" key.sig="2s"/>
+                <staffDef n="3" lines="5" meter.count="3" meter.unit="8" clef.shape="F" clef.line="4" key.sig="2s"/>
               </staffGrp>
             </staffGrp>
           </scoreDef>
@@ -567,7 +588,7 @@
                     <note pname="e" oct="5"/>
                   </chord>
                   <rest dur="8"/>
-                  <note pname="a" oct="4" artic="stacc"/>
+                  <note pname="a" oct="4" dur="8" artic="stacc"/>
                 </layer>
               </staff>
               <staff n="3">
@@ -720,7 +741,7 @@
               <staff n="3">
                 <layer>
                   <beam>
-                    <note pname="b" oct="3" artic="stacc"/>
+                    <note pname="b" oct="3" dur="8" artic="stacc"/>
                     <chord dur="8" artic="stacc">
                       <note pname="e" oct="3"/>
                       <note pname="a" oct="3"/>
@@ -771,7 +792,7 @@
                     <note pname="c" oct="4"/>
                   </chord>
                   <rest dur="8"/>
-                  <note pname="a" oct="3"/>
+                  <note pname="a" oct="3" dur="8"/>
                 </layer>
               </staff>
             </measure>

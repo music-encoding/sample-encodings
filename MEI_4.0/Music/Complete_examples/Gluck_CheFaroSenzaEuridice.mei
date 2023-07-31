@@ -1,16 +1,13 @@
-<?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<?xml-model href="http://music-encoding.org/schema/4.0.0/mei-all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<?xml-model href="http://music-encoding.org/schema/4.0.0/mei-all.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
-<mei xmlns:xlink="http://www.w3.org/1999/xlink" xmlns="http://www.music-encoding.org/ns/mei"
-  meiversion="4.0.0">
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://music-encoding.org/schema/4.0.1/mei-all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://music-encoding.org/schema/4.0.1/mei-all.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<mei xmlns="http://www.music-encoding.org/ns/mei" meiversion="4.0.1">
   <meiHead>
     <fileDesc>
       <titleStmt>
-        <title>Che farò senza Euridice <titlePart type="subordinate">an electronic
-          transcription</titlePart> </title>
+        <title>Che farò senza Euridice<titlePart type="subordinate">an electronic transcription</titlePart></title>
         <composer>
-          <persName role="creator" codedval="118539841" auth.uri="http://d-nb.info/gnd/" auth="GND"
-            >Christoph Willibald Gluck</persName>
+          <persName role="creator" codedval="118539841" auth.uri="http://d-nb.info/gnd/" auth="GND">Christoph Willibald Gluck</persName>
         </composer>
         <respStmt>
           <persName role="encoder">Maja Hartwig</persName>
@@ -19,45 +16,35 @@
       </titleStmt>
       <pubStmt>
         <publisher>
-          <corpName role="publisher" codedval="5115204-6" auth.uri="http://d-nb.info/gnd/"
-            auth="GND">Musikwissenschaftliches Seminar, Detmold</corpName>
+          <corpName role="publisher" codedval="5115204-6" auth.uri="http://d-nb.info/gnd/" auth="GND">Musikwissenschaftliches Seminar, Detmold</corpName>
         </publisher>
         <address>
           <addrLine>Gartenstrasse 20</addrLine>
-          <addrLine>32756 <geogName codedval="7004442" auth.uri="http://vocab.getty.edu/page/tgn/"
-            auth="TGN">Detmold</geogName> </addrLine>
-          <addrLine>
-            <geogName codedval="7000084" auth.uri="http://vocab.getty.edu/page/tgn/" auth="TGN"
-              >Germany</geogName>
-          </addrLine>
+          <addrLine>32756<geogName codedval="7004442" auth.uri="http://vocab.getty.edu/page/tgn/" auth="TGN">Detmold</geogName></addrLine>
+          <addrLine><geogName codedval="7000084" auth.uri="http://vocab.getty.edu/page/tgn/" auth="TGN">Germany</geogName></addrLine>
         </address>
         <date>2011</date>
         <availability>
-          <useRestrict>This encoding is in the public domain. However, the sources used to create it
-            may be under copyright. We believe their use by the MEI project for educational and
-            research purposes is covered by the Fair Use doctrine. However, we will remove any
-            material from the project archive when requested to do so by the copyright
-            owner.</useRestrict>
+          <useRestrict>This encoding is in the public domain. However, the sources used to create it may be under copyright. We believe their use by the MEI project for educational and research purposes is covered by the Fair Use doctrine. However, we will remove any material from the project archive when requested to do so by the copyright owner.</useRestrict>
         </availability>
       </pubStmt>
       <seriesStmt>
         <title>MEI Sample Collection</title>
         <funder>
-          <corpName role="funder" codedval="2007744-0" auth.uri="http://d-nb.info/gnd/" auth="GND"
-            >German Research Foundation<address> <addrLine>Kennedyallee 40</addrLine> <addrLine>
-            <geogName codedval="7005090" auth.uri="http://vocab.getty.edu/page/tgn/" auth="TGN"
-            >Bonn</geogName> </addrLine> <addrLine> <geogName codedval="7000084"
-            auth.uri="http://vocab.getty.edu/page/tgn/" auth="TGN">Germany</geogName> </addrLine>
+          <corpName role="funder" codedval="2007744-0" auth.uri="http://d-nb.info/gnd/" auth="GND">German Research Foundation
+            <address>
+              <addrLine>Kennedyallee 40</addrLine>
+              <addrLine><geogName codedval="7005090" auth.uri="http://vocab.getty.edu/page/tgn/" auth="TGN">Bonn</geogName></addrLine>
+              <addrLine><geogName codedval="7000084" auth.uri="http://vocab.getty.edu/page/tgn/" auth="TGN">Germany</geogName></addrLine>
             </address> </corpName>
         </funder>
         <funder>
-          <corpName role="funder" codedval="18183-3" auth.uri="http://d-nb.info/gnd/18183-3"
-            auth="Deutsche Nationalbibliothek">National Endowment for the Humanities<address>
-            <addrLine>1100 Pennsylvania Avenue N.W.</addrLine> <addrLine> <geogName
-            codedval="7013962" auth.uri="http://vocab.getty.edu/page/tgn/" auth="TGN">Washington,
-            DC</geogName> 20004</addrLine> <addrLine> <geogName codedval="7012149"
-            auth.uri="http://vocab.getty.edu/page/tgn/" auth="TGN">United States</geogName>
-            </addrLine> </address> </corpName>
+          <corpName role="funder" codedval="18183-3" auth.uri="http://d-nb.info/gnd/18183-3" auth="Deutsche Nationalbibliothek">National Endowment for the Humanities
+            <address>
+              <addrLine>1100 Pennsylvania Avenue N.W.</addrLine>
+              <addrLine><geogName codedval="7013962" auth.uri="http://vocab.getty.edu/page/tgn/" auth="TGN">Washington, DC</geogName>20004</addrLine>
+              <addrLine><geogName codedval="7012149" auth.uri="http://vocab.getty.edu/page/tgn/" auth="TGN">United States</geogName></addrLine>
+            </address> </corpName>
         </funder>
         <respStmt>
           <corpName role="publisher">MEI Project</corpName>
@@ -69,12 +56,10 @@
       <sourceDesc>
         <source>
           <bibl>
-            <identifier type="URI"
-              >http://petrucci.mus.auth.gr/imglnks/usimg/6/66/IMSLP221917-WIMA.5df2-GluCheSco.pdf</identifier>
+            <identifier type="URI">http://petrucci.mus.auth.gr/imglnks/usimg/6/66/IMSLP221917-WIMA.5df2-GluCheSco.pdf</identifier>
             <title>Che farò senza Euridice</title>
             <composer>
-              <persName role="composer" codedval="118539841" auth.uri="http://d-nb.info/gnd/"
-                auth="GND">Christoph Willibald Gluck</persName>
+              <persName role="composer" codedval="118539841" auth.uri="http://d-nb.info/gnd/" auth="GND">Christoph Willibald Gluck</persName>
             </composer>
             <arranger>
               <persName role="arranger">Michel Rondeau</persName>
@@ -92,8 +77,7 @@
         </source>
         <source>
           <bibl>
-            <identifier type="URI"
-              >http://icking-music-archive.org/scores/haendel/H56/HanHal-xml.zip</identifier>
+            <identifier type="URI">http://icking-music-archive.org/scores/haendel/H56/HanHal-xml.zip</identifier>
             <title>Che farò senza Euridice?</title>
             <imprint>
               <date isodate="2011-10-11"/>
@@ -108,11 +92,24 @@
     </fileDesc>
     <encodingDesc>
       <appInfo>
+        <application version="v1.0_beta" xml:id="mei2012To2013">
+          <name>mei2012To2013.xsl</name>
+          <ptr target="https://github.com/music-encoding/encoding-tools/blob/main/mei2012To2013/mei2012To2013.xsl"/>
+        </application>
+        <application version="v1.0_beta" xml:id="mei21To30">
+          <name>mei21To30.xsl</name>
+          <ptr target="https://github.com/music-encoding/encoding-tools/blob/main/mei21To30/mei21To30.xsl"/>
+        </application>
         <application xml:id="xsl_mxl2mei_2.2.3" version="2.2.3">
           <name>MusicXML2MEI</name>
         </application>
-        <application version="v1.0_beta" xml:id="app_20193103949442">
+        <application version="v1.0_beta" xml:id="mei30To40">
           <name>mei30To40.xsl</name>
+          <ptr target="https://github.com/music-encoding/encoding-tools/blob/main/mei30To40/mei30To40.xsl"/>
+        </application>
+        <application version="v0.0.1-alpha" xml:id="meiLint_v0.0.1-alpha">
+          <name>meiLint.xsl</name>
+          <ptr target="https://github.com/music-encoding/encoding-tools/blob/main/meiLint/meiLint.xsl"/>
         </application>
       </appInfo>
       <samplingDecl>
@@ -120,8 +117,7 @@
       </samplingDecl>
       <classDecls>
         <taxonomy>
-          <bibl xml:id="OCLC_DDC"
-            target="http://www.oclc.org/dewey/resources/summaries/default.htm#700">OCLC_DDC</bibl>
+          <bibl xml:id="OCLC_DDC" target="http://www.oclc.org/dewey/resources/summaries/default.htm#700">OCLC_DDC</bibl>
         </taxonomy>
         <taxonomy>
           <bibl xml:id="OSWD" target="http://www.bsz-bw.de/cgi-bin/oswd-suche.pl">OSWD</bibl>
@@ -148,8 +144,7 @@
       <work>
         <title>Che farò senza Euridice?</title>
         <composer>
-          <persName role="composer" codedval="118539841" auth.uri="http://d-nb.info/gnd/" auth="GND"
-            >Christoph Willibald Gluck</persName>
+          <persName role="composer" codedval="118539841" auth.uri="http://d-nb.info/gnd/" auth="GND">Christoph Willibald Gluck</persName>
         </composer>
         <key pname="c" mode="major">C major</key>
         <meter count="2" unit="2" sym="cut"/>
@@ -162,8 +157,7 @@
           <score>
             <scoreDef meter.count="4" meter.unit="4" key.sig="0" key.mode="major">
               <staffGrp>
-                <staffDef n="1" lines="5" clef.line="2" clef.shape="G" key.sig="0" key.mode="major"
-                />
+                <staffDef n="1" lines="5" clef.line="2" clef.shape="G" key.sig="0" key.mode="major"/>
               </staffGrp>
             </scoreDef>
             <section>
@@ -248,11 +242,14 @@
             </section>
           </score>
         </incip>
-        <creation>Year of composition<date>1762</date>revised<date>1774</date> </creation>
+        <creation>Year of composition
+          <date>1762</date>revised
+          <date>1774</date>
+        </creation>
         <history>
           <eventList>
             <event>
-              <p>First performance<date isodate="1762-10-05"/>in<geogName>Vienna</geogName> </p>
+              <p>First performance<date isodate="1762-10-05"/>in<geogName>Vienna</geogName></p>
             </event>
           </eventList>
         </history>
@@ -281,35 +278,35 @@
     </workList>
     <revisionDesc>
       <change n="1">
+        <respStmt>
+          <name>Unknown</name>
+        </respStmt>
         <changeDesc>
-          <p>The original MusicXML file was generated using Finale 2011 for Windows and Dolet Light
-            for Finale 2011.</p>
+          <p>The original MusicXML file was generated using Finale 2011 for Windows and Dolet Light for Finale 2011.</p>
         </changeDesc>
         <date isodate="2010-11-14"/>
       </change>
       <change n="2">
         <respStmt>
-          <persName xml:id="MH"> Maja Hartwig </persName>
+          <persName xml:id="MH">Maja Hartwig</persName>
         </respStmt>
         <changeDesc>
-          <p>Transcoded from a MusicXML version 2.0 file on 2011-10-11 using the <ref
-            target="#xsl_mxl2mei_2.2.3">musicxml2mei</ref> stylesheet. </p>
+          <p>Transcoded from a MusicXML version 2.0 file on 2011-10-11 using the<ref target="#xsl_mxl2mei_2.2.3">musicxml2mei</ref>stylesheet.</p>
         </changeDesc>
         <date isodate="2011-10-11"/>
       </change>
       <change n="3">
         <respStmt>
-          <persName xml:id="KR"> Kristina Richts </persName>
+          <persName xml:id="KR">Kristina Richts</persName>
         </respStmt>
         <changeDesc>
-          <p> Cleaned up MEI file automatically using <ref target="#xsl_ppq">ppq.xsl</ref>. </p>
+          <p>Cleaned up MEI file automatically using<ref target="#xsl_ppq">ppq.xsl</ref>.</p>
         </changeDesc>
         <date isodate="2011-10-21"/>
       </change>
       <change n="4" resp="#KR">
         <changeDesc>
-          <p> Cleaned up MEI file automatically using <ref target="#xsl_header">Header.xsl</ref>.
-          </p>
+          <p>Cleaned up MEI file automatically using<ref target="#xsl_header">Header.xsl</ref>.</p>
         </changeDesc>
         <date isodate="2011-12-01"/>
       </change>
@@ -328,13 +325,13 @@
         </changeDesc>
         <date isodate="2013-01-28"/>
       </change>
-      <change n="7">
+      <change n="7" resp="#mei2012To2013">
         <changeDesc>
           <p>Converted to MEI 2013 using mei2012To2013.xsl, version 1.0 beta</p>
         </changeDesc>
         <date isodate="2014-05-30"/>
       </change>
-      <change n="8">
+      <change n="8" resp="#mei21To30">
         <changeDesc>
           <p>Converted to version 3.0.0 using mei21To30.xsl, version 1.0 beta</p>
         </changeDesc>
@@ -349,11 +346,27 @@
         </changeDesc>
         <date isodate="2016-07-31"/>
       </change>
-      <change n="10" resp="#app_20193103949442">
+      <change n="10" resp="#mei30To40">
         <changeDesc>
           <p>Converted to MEI version 4.0.0 using mei30To40.xsl, version 1.0 beta</p>
         </changeDesc>
         <date isodate="2019-01-03"/>
+      </change>
+      <change n="11">
+        <respStmt>
+          <persName>Benjamin W. Bohl</persName>
+          <persName>Stefan Münnich</persName>
+        </respStmt>
+        <changeDesc>
+          <p><list>
+              <li>update xml-model schema references to v4.0.1</li>
+              <li>update meiversion attributes to 4.0.1</li>
+              <li>add missing responsibility statements to change elements</li>
+              <li>unify documentation of mei version upgrades (appInfo and revisionDesc)</li>
+               <li>linted with <ref target="#meiLint_v0.0.1-alpha">meiLint.xsl</ref></li>
+            </list></p>
+        </changeDesc>
+        <date isodate="2023-07-27T17:08:29+02:00"/>
       </change>
     </revisionDesc>
   </meiHead>
@@ -363,49 +376,36 @@
         <score>
           <scoreDef meter.count="4" meter.unit="4" key.sig="0" key.mode="major">
             <pgHead>
-              <title>
-                <rend fontsize="24pt" fontweight="bold" halign="center" valign="top">Che farò senza
-                  Euridice? <lb/> </rend>
-                <lb/>
-                <rend>(de Orphée et Auridice)</rend>
-                <rend halign="right" valign="top">Christoph Willibald Gluck (1714-1787)<lb/>Arr.
-                  Michel Rondeau</rend>
-              </title>
+              <title><rend fontsize="24pt" fontweight="bold" halign="center" valign="top">Che farò senza Euridice?
+                  <lb/> </rend>
+                <lb/><rend>(de Orphée et Auridice)</rend><rend halign="right" valign="top">Christoph Willibald Gluck (1714-1787)
+                  <lb/>Arr. Michel Rondeau</rend></title>
             </pgHead>
-            <pgFoot>
-              <rend valign="bottom" halign="center">© 2010 - Gatineau,Qc.Ca.</rend>
-            </pgFoot>
+            <pgFoot><rend valign="bottom" halign="center">© 2010 - Gatineau,Qc.Ca.</rend></pgFoot>
             <staffGrp bar.thru="true">
-              <staffDef n="1" xml:id="P1" lines="5" clef.line="2" clef.shape="G" key.sig="0"
-                key.mode="major">
+              <staffDef n="1" xml:id="P1" lines="5" clef.line="2" clef.shape="G" key.sig="0" key.mode="major">
                 <label>Soprano</label>
                 <labelAbbr>S</labelAbbr>
               </staffDef>
-              <staffDef n="2" xml:id="P2" lines="5" clef.line="2" clef.shape="G" key.sig="0"
-                key.mode="major">
+              <staffDef n="2" xml:id="P2" lines="5" clef.line="2" clef.shape="G" key.sig="0" key.mode="major">
                 <label>Violin I</label>
                 <labelAbbr>Vln. I</labelAbbr>
               </staffDef>
               <staffGrp symbol="bracket">
-                <staffDef n="3" xml:id="P3" lines="5" clef.line="2" clef.shape="G" key.sig="0"
-                  key.mode="major">
+                <staffDef n="3" xml:id="P3" lines="5" clef.line="2" clef.shape="G" key.sig="0" key.mode="major">
                   <label>Violin II</label>
                   <labelAbbr>Vln. II</labelAbbr>
                 </staffDef>
-                <staffDef n="4" xml:id="P4" lines="5" clef.line="3" clef.shape="C" key.sig="0"
-                  key.mode="major">
+                <staffDef n="4" xml:id="P4" lines="5" clef.line="3" clef.shape="C" key.sig="0" key.mode="major">
                   <label>Viola</label>
                   <labelAbbr>Vla.</labelAbbr>
                 </staffDef>
                 <staffGrp symbol="brace">
                   <label>Harpsichord</label>
-                  <staffDef n="5" xml:id="P5" lines="5" clef.line="2" clef.shape="G" key.sig="0"
-                    key.mode="major"/>
-                  <staffDef n="6" xml:id="P6" lines="5" clef.line="4" clef.shape="F" key.sig="0"
-                    key.mode="major"/>
+                  <staffDef n="5" xml:id="P5" lines="5" clef.line="2" clef.shape="G" key.sig="0" key.mode="major"/>
+                  <staffDef n="6" xml:id="P6" lines="5" clef.line="4" clef.shape="F" key.sig="0" key.mode="major"/>
                 </staffGrp>
-                <staffDef n="7" xml:id="P7" lines="5" clef.line="4" clef.shape="F" key.sig="0"
-                  key.mode="major">
+                <staffDef n="7" xml:id="P7" lines="5" clef.line="4" clef.shape="F" key.sig="0" key.mode="major">
                   <label>Cello</label>
                   <labelAbbr>Vc.</labelAbbr>
                 </staffDef>
@@ -650,8 +650,7 @@
               </staff>
               <staff n="2">
                 <layer n="1">
-                  <note xml:id="m3_s2_e1" grace="unknown" pname="g" oct="5" dur="8"
-                    stem.mod="1slash" stem.dir="up"/>
+                  <note xml:id="m3_s2_e1" grace="unknown" pname="g" oct="5" dur="8" stem.mod="1slash" stem.dir="up"/>
                   <note xml:id="m3_s2_e2" pname="a" oct="5" dur="4" dots="1" stem.dir="down"/>
                   <note xml:id="m3_s2_e3" pname="a" oct="5" dur="8" stem.dir="down"/>
                   <note xml:id="m3_s2_e4" pname="g" oct="5" dur="4" stem.dir="down"/>
@@ -1271,8 +1270,7 @@
               </staff>
               <staff n="2">
                 <layer n="1">
-                  <note xml:id="m9_s2_e1" pname="g" oct="5" dur="8" grace="unknown"
-                    stem.mod="1slash" stem.dir="up"/>
+                  <note xml:id="m9_s2_e1" pname="g" oct="5" dur="8" grace="unknown" stem.mod="1slash" stem.dir="up"/>
                   <note xml:id="m9_s2_e2" pname="a" oct="5" dur="4" dots="1" stem.dir="down"/>
                   <note xml:id="m9_s2_e3" pname="a" oct="5" dur="8" stem.dir="down"/>
                   <note xml:id="m9_s2_e4" pname="g" oct="5" dur="4" stem.dir="down"/>
@@ -1385,8 +1383,7 @@
               </staff>
               <staff n="2">
                 <layer n="1">
-                  <note xml:id="m10_s2_e1" pname="f" oct="5" dur="8" stem.dir="up" grace="unknown"
-                    stem.mod="1slash"/>
+                  <note xml:id="m10_s2_e1" pname="f" oct="5" dur="8" stem.dir="up" grace="unknown" stem.mod="1slash"/>
                   <note xml:id="m10_s2_e2" pname="e" oct="5" dur="4" stem.dir="down"/>
                   <rest xml:id="m10_s2_e3" dur="4"/>
                   <beam>

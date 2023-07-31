@@ -1,8 +1,7 @@
-<?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<?xml-model href="http://music-encoding.org/schema/4.0.0/mei-all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<?xml-model href="http://music-encoding.org/schema/4.0.0/mei-all.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
-<meiCorpus xmlns:xlink="http://www.w3.org/1999/xlink" xmlns="http://www.music-encoding.org/ns/mei"
-  meiversion="4.0.0">
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://music-encoding.org/schema/4.0.1/mei-all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://music-encoding.org/schema/4.0.1/mei-all.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<meiCorpus xmlns="http://www.music-encoding.org/ns/mei" meiversion="4.0.1">
   <meiHead>
     <fileDesc>
       <titleStmt>
@@ -25,19 +24,43 @@
     </fileDesc>
     <encodingDesc>
       <appInfo>
-        <application version="v1.0_beta" xml:id="app_20193103954581">
+        <application version="v1.0_beta" xml:id="mei30To40">
           <name>mei30To40.xsl</name>
+          <ptr target="https://github.com/music-encoding/encoding-tools/blob/main/mei30To40/mei30To40.xsl"/>
+        </application>
+        <application version="v0.0.1-alpha" xml:id="meiLint_v0.0.1-alpha">
+          <name>meiLint.xsl</name>
+          <ptr target="https://github.com/music-encoding/encoding-tools/blob/main/meiLint/meiLint.xsl"/>
         </application>
       </appInfo>
       <editorialDecl>
-        <p>A typical MEI document contains an MEI element, which in turn contains metadata,
-          represented by an MEIHead element, and the musical text itself, represented by a music
-          element. It is possible to group several related MEI documents by using the entry point
-          meiCorpus, which consists of a header for the group, and one or more &lt;mei&gt; elements,
-          each with its own complete header. This is an example for the use of the entry point
-          &lt;meiCorpus&gt;.</p>
+        <p>A typical MEI document contains an MEI element, which in turn contains metadata, represented by an MEIHead element, and the musical text itself, represented by a music element. It is possible to group several related MEI documents by using the entry point meiCorpus, which consists of a header for the group, and one or more &lt;mei&gt; elements, each with its own complete header. This is an example for the use of the entry point &lt;meiCorpus&gt;.</p>
       </editorialDecl>
     </encodingDesc>
+    <revisionDesc>
+      <change n="1" resp="#mei30To40">
+        <changeDesc>
+          <p>Converted to MEI version 4.0.0 using mei30To40.xsl, version 1.0 beta</p>
+        </changeDesc>
+        <date isodate="2019-01-03"/>
+      </change>
+      <change n="2">
+        <respStmt>
+          <persName>Benjamin W. Bohl</persName>
+          <persName>Stefan Münnich</persName>
+        </respStmt>
+        <changeDesc>
+          <p><list>
+              <li>update xml-model schema references to v4.0.1</li>
+              <li>update meiversion attributes to 4.0.1</li>
+              <li>add missing responsibility statements to change elements</li>
+              <li>unify documentation of mei version upgrades (appInfo and revisionDesc)</li>
+               <li>linted with <ref target="#meiLint_v0.0.1-alpha">meiLint.xsl</ref></li>
+            </list></p>
+        </changeDesc>
+        <date isodate="2023-07-27T17:11:02+02:00"/>
+      </change>
+    </revisionDesc>
   </meiHead>
   <mei xml:id="song1">
     <meiHead>
@@ -60,7 +83,7 @@
                 <date>1642</date>
               </event>
               <event>
-                <desc>Melodie:<date>1704</date> <geogName>Halle</geogName> </desc>
+                <desc>Melodie:<date>1704</date> <geogName>Halle</geogName></desc>
               </event>
             </eventList>
           </history>
@@ -91,7 +114,7 @@
           <history>
             <eventList>
               <event>
-                <p>Text:<date cert="unknown">(1623)</date> <date>1642</date> </p>
+                <p>Text:<date cert="unknown">(1623)</date> <date>1642</date></p>
               </event>
             </eventList>
           </history>
@@ -100,7 +123,7 @@
     </meiHead>
     <music/>
   </mei>
-  <!-- etc.-->
+  <!-- etc. -->
   <mei xml:id="song714">
     <meiHead>
       <fileDesc>

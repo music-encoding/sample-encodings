@@ -1,12 +1,12 @@
-<?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<?xml-model href="http://music-encoding.org/schema/4.0.0/mei-all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<?xml-model href="http://music-encoding.org/schema/4.0.0/mei-all.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
-<mei xmlns="http://www.music-encoding.org/ns/mei" meiversion="4.0.0">
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://music-encoding.org/schema/4.0.1/mei-all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://music-encoding.org/schema/4.0.1/mei-all.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<mei xmlns="http://www.music-encoding.org/ns/mei" meiversion="4.0.1">
   <meiHead>
     <fileDesc>
       <titleStmt>
         <title>"越後獅子"</title>
-        <title>Echigo-Jishi <titlePart type="subordinate">an electronic transcription</titlePart> </title>
+        <title>Echigo-Jishi<titlePart type="subordinate">an electronic transcription</titlePart></title>
         <composer>
           <persName role="creator">Kineya Rokuzaemon</persName>
         </composer>
@@ -22,36 +22,32 @@
       </titleStmt>
       <pubStmt>
         <publisher>
-          <corpName role="publisher" codedval="5115204-6" auth.uri="http://d-nb.info/gnd/"
-            auth="GND">Musikwissenschaftliches Seminar, Detmold</corpName>
+          <corpName role="publisher" codedval="5115204-6" auth.uri="http://d-nb.info/gnd/" auth="GND">Musikwissenschaftliches Seminar, Detmold</corpName>
         </publisher>
         <address>
           <addrLine>Gartenstrasse 20</addrLine>
-          <addrLine>32756 <geogName>Detmold</geogName> <geogName>Germany</geogName> </addrLine>
+          <addrLine>32756<geogName>Detmold</geogName> <geogName>Germany</geogName></addrLine>
         </address>
         <date isodate="2012-12-06"/>
         <availability>
-          <useRestrict>This encoding is in the public domain. However, the sources used to create it
-            may be under copyright. We believe their use by the MEI project for educational and
-            research purposes is covered by the Fair Use doctrine. However, we will remove any
-            material from the project archive when requested to do so by the copyright owner. 2007
-            Rector and Board of Visitors of the University of Virginia. All rights
-            reserved.</useRestrict>
+          <useRestrict>This encoding is in the public domain. However, the sources used to create it may be under copyright. We believe their use by the MEI project for educational and research purposes is covered by the Fair Use doctrine. However, we will remove any material from the project archive when requested to do so by the copyright owner. 2007 Rector and Board of Visitors of the University of Virginia. All rights reserved.</useRestrict>
         </availability>
       </pubStmt>
       <seriesStmt>
         <title>MEI Sample Collection</title>
         <funder>
-          <corpName role="funder" codedval="2007744-0" auth.uri="http://d-nb.info/gnd/2007744-0"
-            auth="Deutsche Nationalbibliothek">German Research Foundation<address>
-            <addrLine>Kennedyallee 40</addrLine> <addrLine> <geogName>Bonn </geogName> </addrLine>
+          <corpName role="funder" codedval="2007744-0" auth.uri="http://d-nb.info/gnd/2007744-0" auth="Deutsche Nationalbibliothek">German Research Foundation
+            <address>
+              <addrLine>Kennedyallee 40</addrLine>
+              <addrLine><geogName>Bonn</geogName></addrLine>
             </address> </corpName>
         </funder>
         <funder>
-          <corpName role="funder" codedval="18183-3" auth.uri="http://d-nb.info/gnd/18183-3"
-            auth="Deutsche Nationalbibliothek">National Endowment for the Humanities<address>
-            <addrLine>1100 Pennsylvania Avenue N.W.</addrLine> <addrLine> <geogName>Washington,
-            DC</geogName> </addrLine> </address> </corpName>
+          <corpName role="funder" codedval="18183-3" auth.uri="http://d-nb.info/gnd/18183-3" auth="Deutsche Nationalbibliothek">National Endowment for the Humanities
+            <address>
+              <addrLine>1100 Pennsylvania Avenue N.W.</addrLine>
+              <addrLine><geogName>Washington, DC</geogName></addrLine>
+            </address> </corpName>
         </funder>
         <respStmt>
           <corpName role="publisher">MEI Project</corpName>
@@ -63,8 +59,7 @@
       <sourceDesc>
         <source>
           <bibl>
-            <identifier auth.uri="www.makemusic.com/" auth="make Music" type="URI"
-              >http://downloads2.makemusic.com/musicxml/Echigo-Jishi.pdf</identifier>
+            <identifier auth.uri="www.makemusic.com/" auth="make Music" type="URI">http://downloads2.makemusic.com/musicxml/Echigo-Jishi.pdf</identifier>
             <title>越後獅子</title>
             <title>Echigo-Jishi</title>
             <composer>
@@ -82,8 +77,7 @@
               <date>2005</date>
             </imprint>
             <series>
-              <title>"Japanese Popular Music: a collection of the popular music of Japan rendered in
-                to the staff notation"</title>
+              <title>"Japanese Popular Music: a collection of the popular music of Japan rendered in to the staff notation"</title>
             </series>
           </bibl>
         </source>
@@ -91,16 +85,28 @@
     </fileDesc>
     <encodingDesc>
       <appInfo>
+        <application version="v1.0_beta" xml:id="mei2012To2013">
+          <name>mei2012To2013.xsl</name>
+          <ptr target="https://github.com/music-encoding/encoding-tools/blob/main/mei2012To2013/mei2012To2013.xsl"/>
+        </application>
+        <application version="v1.0_beta" xml:id="mei21To30">
+          <name>mei21To30.xsl</name>
+          <ptr target="https://github.com/music-encoding/encoding-tools/blob/main/mei21To30/mei21To30.xsl"/>
+        </application>
         <application>
           <name/>
         </application>
-        <application version="v1.0_beta" xml:id="app_20193104014949">
+        <application version="v1.0_beta" xml:id="mei30To40">
           <name>mei30To40.xsl</name>
+          <ptr target="https://github.com/music-encoding/encoding-tools/blob/main/mei30To40/mei30To40.xsl"/>
+        </application>
+        <application version="v0.0.1-alpha" xml:id="meiLint_v0.0.1-alpha">
+          <name>meiLint.xsl</name>
+          <ptr target="https://github.com/music-encoding/encoding-tools/blob/main/meiLint/meiLint.xsl"/>
         </application>
       </appInfo>
       <projectDesc>
-        <p> Transcoded from MusicXML version 1.1 2007-10-29. The MusicXML file was generated from
-          Finale 2005 for Windows using Dolet 3.1.1 for Finale 2006-05-12. </p>
+        <p>Transcoded from MusicXML version 1.1 2007-10-29. The MusicXML file was generated from Finale 2005 for Windows using Dolet 3.1.1 for Finale 2006-05-12.</p>
       </projectDesc>
       <samplingDecl>
         <p>This encoding is an example for music with japanese lyrics.</p>
@@ -108,8 +114,7 @@
       </samplingDecl>
       <classDecls>
         <taxonomy>
-          <bibl xml:id="OCLC" target="http://www.oclc.org/dewey/resources/summaries/default.htm#700"
-            >OCLC</bibl>
+          <bibl xml:id="OCLC" target="http://www.oclc.org/dewey/resources/summaries/default.htm#700">OCLC</bibl>
           <category xml:id="_782.42">
             <altId>782.42</altId>
             <label>Song</label>
@@ -153,8 +158,7 @@
           <score>
             <scoreDef meter.count="2" meter.unit="4" key.sig="0" key.mode="major">
               <staffGrp>
-                <staffDef n="1" lines="5" clef.line="2" clef.shape="G" key.sig="0" key.mode="major"
-                />
+                <staffDef n="1" lines="5" clef.line="2" clef.shape="G" key.sig="0" key.mode="major"/>
               </staffGrp>
             </scoreDef>
             <section>
@@ -197,7 +201,7 @@
       </work>
     </workList>
     <revisionDesc>
-      <change>
+      <change n="1">
         <respStmt>
           <persName>Perry Roland</persName>
         </respStmt>
@@ -215,23 +219,39 @@
         </changeDesc>
         <date isodate="2012-12-06"/>
       </change>
-      <change n="3">
+      <change n="3" resp="#mei2012To2013">
         <changeDesc>
           <p>Converted to MEI 2013 using mei2012To2013.xsl, version 1.0 beta</p>
         </changeDesc>
         <date isodate="2014-05-30"/>
       </change>
-      <change n="4">
+      <change n="4" resp="#mei21To30">
         <changeDesc>
           <p>Converted to version 3.0.0 using mei21To30.xsl, version 1.0 beta</p>
         </changeDesc>
         <date isodate="2015-10-15"/>
       </change>
-      <change resp="#app_20193104014949">
+      <change n="5" resp="#mei30To40">
         <changeDesc>
           <p>Converted to MEI version 4.0.0 using mei30To40.xsl, version 1.0 beta</p>
         </changeDesc>
         <date isodate="2019-01-03"/>
+      </change>
+      <change n="6">
+        <respStmt>
+          <persName>Benjamin W. Bohl</persName>
+          <persName>Stefan Münnich</persName>
+        </respStmt>
+        <changeDesc>
+          <p><list>
+              <li>update xml-model schema references to v4.0.1</li>
+              <li>update meiversion attributes to 4.0.1</li>
+              <li>add missing responsibility statements to change elements</li>
+              <li>unify documentation of mei version upgrades (appInfo and revisionDesc)</li>
+               <li>linted with <ref target="#meiLint_v0.0.1-alpha">meiLint.xsl</ref></li>
+            </list></p>
+        </changeDesc>
+        <date isodate="2023-07-27T17:08:21+02:00"/>
       </change>
     </revisionDesc>
   </meiHead>
@@ -239,61 +259,33 @@
     <body>
       <mdiv>
         <score>
-          <scoreDef meter.count="2" meter.unit="4" key.sig="0" key.mode="major" page.height="1545"
-            page.width="1194" page.leftmar="105" page.rightmar="70" page.topmar="10"
-            page.botmar="70" system.leftmar="10" system.rightmar="0" spacing.system="93"
-            system.topmar="93" music.name="Maestro" music.size="20.5pt" text.name="Times New Roman"
-            text.size="10.2pt" lyric.name="ＭＳ ゴシック" lyric.size="10.2pt" vu.height="0.904mm">
+          <scoreDef meter.count="2" meter.unit="4" key.sig="0" key.mode="major" page.height="1545" page.width="1194" page.leftmar="105" page.rightmar="70" page.topmar="10" page.botmar="70" system.leftmar="10" system.rightmar="0" spacing.system="93" system.topmar="93" music.name="Maestro" music.size="20.5pt" text.name="Times New Roman" text.size="10.2pt" lyric.name="ＭＳ ゴシック" lyric.size="10.2pt" vu.height="0.904mm">
             <pgHead>
-              <anchoredText x="607" y="1443">
-                <rend fontfam="ＭＳ ゴシック" fontsize="24pt" fontweight="bold" halign="center"
-                  valign="top">越後獅子</rend>
-              </anchoredText>
-              <anchoredText x="607" y="1395">
-                <rend fontsize="24pt" fontweight="bold" halign="center" valign="top"
-                  >Echigo-Jishi</rend>
-              </anchoredText>
-              <anchoredText x="1124" y="1345">
-                <rend fontsize="12pt" fontweight="bold" halign="right" valign="top">Arr. Y. Nagai ,
-                  K. Kobatake</rend>
-              </anchoredText>
+              <anchoredText x="607" y="1443"><rend fontfam="ＭＳ ゴシック" fontsize="24pt" fontweight="bold" halign="center" valign="top">越後獅子</rend></anchoredText>
+              <anchoredText x="607" y="1395"><rend fontsize="24pt" fontweight="bold" halign="center" valign="top">Echigo-Jishi</rend></anchoredText>
+              <anchoredText x="1124" y="1345"><rend fontsize="12pt" fontweight="bold" halign="right" valign="top">Arr. Y. Nagai , K. Kobatake</rend></anchoredText>
             </pgHead>
             <pgFoot>
-              <anchoredText x="129" y="244">
-                <rend fontsize="11pt" valign="top">Source: "Japanese Popular Music: a collection of
-                  the popular music of Japan rendered in to the<lb/>staff notation", by Y. Nagai and
-                  K. Kobatake, 2nd ed., Osaka, S. Miki &amp; Co., 1892, pp. 96-97. Transcribed into
-                  Finale music notation by Tom Potter, 2005. See http://www.daisyfield.com/music/
-                  Lyrics added by Karen Tanaka and Michael Good, 2006. See
-                  http://www.recordare.com/</rend>
-              </anchoredText>
-              <anchoredText x="602" y="73">
-                <rend fontsize="9pt" halign="center" valign="bottom">Transcription donated to the
-                  public domain, 2005 by Tom Potter</rend>
-              </anchoredText>
+              <anchoredText x="129" y="244"><rend fontsize="11pt" valign="top">Source: "Japanese Popular Music: a collection of the popular music of Japan rendered in to the
+                  <lb/>staff notation", by Y. Nagai and K. Kobatake, 2nd ed., Osaka, S. Miki &amp; Co., 1892, pp. 96-97. Transcribed into Finale music notation by Tom Potter, 2005. See http://www.daisyfield.com/music/ Lyrics added by Karen Tanaka and Michael Good, 2006. See http://www.recordare.com/</rend></anchoredText>
+              <anchoredText x="602" y="73"><rend fontsize="9pt" halign="center" valign="bottom">Transcription donated to the public domain, 2005 by Tom Potter</rend></anchoredText>
             </pgFoot>
             <staffGrp>
-              <staffDef n="1" xml:id="P1-I2" lines="5" clef.line="2" clef.shape="G" ppq="8"
-                key.sig="0" key.mode="major">
+              <staffDef n="1" xml:id="P1-I2" lines="5" clef.line="2" clef.shape="G" ppq="8" key.sig="0" key.mode="major">
                 <instrDef midi.channel="1" midi.instrnum="107"/>
               </staffDef>
             </staffGrp>
           </scoreDef>
           <section>
-            <scoreDef meter.count="2" meter.unit="4" key.sig="0" key.mode="major"
-              system.leftmar="69" system.rightmar="0" system.topmar="265"/>
+            <scoreDef meter.count="2" meter.unit="4" key.sig="0" key.mode="major" system.leftmar="69" system.rightmar="0" system.topmar="265"/>
             <measure n="1" xml:id="d1e79" width="224">
               <staff n="1">
                 <layer n="1">
                   <beam>
-                    <note xml:id="d1e112" pname="a" oct="4" dur="8" dur.ppq="4" stem.dir="up"
-                      stem.len="13"/>
-                    <note xml:id="d1e131" pname="a" oct="4" dur="8" dur.ppq="4" stem.dir="up"
-                      stem.len="13"/>
-                    <note xml:id="d1e147" pname="b" oct="4" dur="8" dur.ppq="4" stem.dir="up"
-                      stem.len="13"/>
-                    <note xml:id="d1e163" pname="a" oct="4" dur="8" dur.ppq="4" stem.dir="up"
-                      stem.len="13"/>
+                    <note xml:id="d1e112" pname="a" oct="4" dur="8" dur.ppq="4" stem.dir="up" stem.len="13"/>
+                    <note xml:id="d1e131" pname="a" oct="4" dur="8" dur.ppq="4" stem.dir="up" stem.len="13"/>
+                    <note xml:id="d1e147" pname="b" oct="4" dur="8" dur.ppq="4" stem.dir="up" stem.len="13"/>
+                    <note xml:id="d1e163" pname="a" oct="4" dur="8" dur.ppq="4" stem.dir="up" stem.len="13"/>
                   </beam>
                 </layer>
               </staff>
@@ -303,14 +295,10 @@
               <staff n="1">
                 <layer n="1">
                   <beam>
-                    <note xml:id="d1e181" pname="b" oct="4" dur="8" dur.ppq="4" stem.dir="down"
-                      stem.len="55"/>
-                    <note xml:id="d1e197" pname="a" oct="4" dur="8" dur.ppq="4" stem.dir="down"
-                      stem.len="55"/>
-                    <note xml:id="d1e213" pname="b" oct="4" dur="8" dur.ppq="4" stem.dir="down"
-                      stem.len="55"/>
-                    <note xml:id="d1e229" pname="c" oct="5" dur="8" dur.ppq="4" stem.dir="down"
-                      stem.len="55"/>
+                    <note xml:id="d1e181" pname="b" oct="4" dur="8" dur.ppq="4" stem.dir="down" stem.len="55"/>
+                    <note xml:id="d1e197" pname="a" oct="4" dur="8" dur.ppq="4" stem.dir="down" stem.len="55"/>
+                    <note xml:id="d1e213" pname="b" oct="4" dur="8" dur.ppq="4" stem.dir="down" stem.len="55"/>
+                    <note xml:id="d1e229" pname="c" oct="5" dur="8" dur.ppq="4" stem.dir="down" stem.len="55"/>
                   </beam>
                 </layer>
               </staff>
@@ -319,14 +307,10 @@
               <staff n="1">
                 <layer n="1">
                   <beam>
-                    <note xml:id="d1e248" pname="e" oct="5" dur="8" dur.ppq="4" stem.dir="down"
-                      stem.len="40"/>
-                    <note xml:id="d1e264" pname="c" oct="5" dur="8" dur.ppq="4" stem.dir="down"
-                      stem.len="46"/>
-                    <note xml:id="d1e280" pname="b" oct="4" dur="8" dur.ppq="4" stem.dir="down"
-                      stem.len="52"/>
-                    <note xml:id="d1e296" pname="a" oct="4" dur="8" dur.ppq="4" stem.dir="down"
-                      stem.len="57.5"/>
+                    <note xml:id="d1e248" pname="e" oct="5" dur="8" dur.ppq="4" stem.dir="down" stem.len="40"/>
+                    <note xml:id="d1e264" pname="c" oct="5" dur="8" dur.ppq="4" stem.dir="down" stem.len="46"/>
+                    <note xml:id="d1e280" pname="b" oct="4" dur="8" dur.ppq="4" stem.dir="down" stem.len="52"/>
+                    <note xml:id="d1e296" pname="a" oct="4" dur="8" dur.ppq="4" stem.dir="down" stem.len="57.5"/>
                   </beam>
                 </layer>
               </staff>
@@ -334,8 +318,7 @@
             <measure n="4" xml:id="d1e312" width="125">
               <staff n="1">
                 <layer n="1">
-                  <note xml:id="d1e314" pname="f" oct="4" dur="4" dots="1" dur.ppq="12"
-                    stem.dir="up"/>
+                  <note xml:id="d1e314" pname="f" oct="4" dur="4" dots="1" dur.ppq="12" stem.dir="up"/>
                   <rest xml:id="d1e329" dur="8"/>
                 </layer>
               </staff>
@@ -344,14 +327,10 @@
               <staff n="1">
                 <layer n="1">
                   <beam>
-                    <note xml:id="d1e339" pname="f" oct="4" dur="8" dur.ppq="4" stem.dir="up"
-                      stem.len="13"/>
-                    <note xml:id="d1e355" pname="a" oct="4" dur="8" dur.ppq="4" stem.dir="up"
-                      stem.len="13"/>
-                    <note xml:id="d1e371" pname="b" oct="4" dur="8" dur.ppq="4" stem.dir="up"
-                      stem.len="13"/>
-                    <note xml:id="d1e387" pname="a" oct="4" dur="8" dur.ppq="4" stem.dir="up"
-                      stem.len="13"/>
+                    <note xml:id="d1e339" pname="f" oct="4" dur="8" dur.ppq="4" stem.dir="up" stem.len="13"/>
+                    <note xml:id="d1e355" pname="a" oct="4" dur="8" dur.ppq="4" stem.dir="up" stem.len="13"/>
+                    <note xml:id="d1e371" pname="b" oct="4" dur="8" dur.ppq="4" stem.dir="up" stem.len="13"/>
+                    <note xml:id="d1e387" pname="a" oct="4" dur="8" dur.ppq="4" stem.dir="up" stem.len="13"/>
                   </beam>
                 </layer>
               </staff>
@@ -359,10 +338,8 @@
             <measure n="6" xml:id="d1e403" width="135">
               <staff n="1">
                 <layer n="1">
-                  <note xml:id="d1e405" pname="f" oct="4" dur="4" dots="1" dur.ppq="12"
-                    stem.dir="up"/>
-                  <note xml:id="d1e420" pname="e" oct="4" dur="8" dur.ppq="4" stem.dir="up"
-                    stem.len="5"/>
+                  <note xml:id="d1e405" pname="f" oct="4" dur="4" dots="1" dur.ppq="12" stem.dir="up"/>
+                  <note xml:id="d1e420" pname="e" oct="4" dur="8" dur.ppq="4" stem.dir="up" stem.len="5"/>
                 </layer>
               </staff>
             </measure>
@@ -372,14 +349,10 @@
               <staff n="1">
                 <layer n="1">
                   <beam>
-                    <note xml:id="d1e445" pname="f" oct="4" dur="8" dur.ppq="4" stem.dir="up"
-                      stem.len="5"/>
-                    <note xml:id="d1e461" pname="a" oct="4" dur="8" dur.ppq="4" stem.dir="up"
-                      stem.len="5"/>
-                    <note xml:id="d1e477" pname="f" oct="4" dur="8" dur.ppq="4" stem.dir="up"
-                      stem.len="5"/>
-                    <note xml:id="d1e493" pname="e" oct="4" dur="8" dur.ppq="4" stem.dir="up"
-                      stem.len="5"/>
+                    <note xml:id="d1e445" pname="f" oct="4" dur="8" dur.ppq="4" stem.dir="up" stem.len="5"/>
+                    <note xml:id="d1e461" pname="a" oct="4" dur="8" dur.ppq="4" stem.dir="up" stem.len="5"/>
+                    <note xml:id="d1e477" pname="f" oct="4" dur="8" dur.ppq="4" stem.dir="up" stem.len="5"/>
+                    <note xml:id="d1e493" pname="e" oct="4" dur="8" dur.ppq="4" stem.dir="up" stem.len="5"/>
                   </beam>
                 </layer>
               </staff>
@@ -388,14 +361,10 @@
               <staff n="1">
                 <layer n="1">
                   <beam>
-                    <note xml:id="d1e511" pname="d" oct="4" dur="8" dur.ppq="4" stem.dir="up"
-                      stem.len="10"/>
-                    <note xml:id="d1e527" pname="d" oct="4" dur="8" dur.ppq="4" stem.dir="up"
-                      stem.len="9"/>
-                    <note xml:id="d1e543" pname="d" oct="4" dur="8" dur.ppq="4" stem.dir="up"
-                      stem.len="8"/>
-                    <note xml:id="d1e559" pname="e" oct="4" dur="8" dur.ppq="4" stem.dir="up"
-                      stem.len="7"/>
+                    <note xml:id="d1e511" pname="d" oct="4" dur="8" dur.ppq="4" stem.dir="up" stem.len="10"/>
+                    <note xml:id="d1e527" pname="d" oct="4" dur="8" dur.ppq="4" stem.dir="up" stem.len="9"/>
+                    <note xml:id="d1e543" pname="d" oct="4" dur="8" dur.ppq="4" stem.dir="up" stem.len="8"/>
+                    <note xml:id="d1e559" pname="e" oct="4" dur="8" dur.ppq="4" stem.dir="up" stem.len="7"/>
                   </beam>
                 </layer>
               </staff>
@@ -404,14 +373,10 @@
               <staff n="1">
                 <layer n="1">
                   <beam>
-                    <note xml:id="d1e578" pname="f" oct="4" dur="8" dur.ppq="4" stem.dir="up"
-                      stem.len="5"/>
-                    <note xml:id="d1e597" pname="e" oct="4" dur="8" dur.ppq="4" stem.dir="up"
-                      stem.len="7"/>
-                    <note xml:id="d1e613" pname="b" oct="3" dur="8" dur.ppq="4" stem.dir="up"
-                      stem.len="8"/>
-                    <note xml:id="d1e629" pname="d" oct="4" dur="8" dur.ppq="4" stem.dir="up"
-                      stem.len="10"/>
+                    <note xml:id="d1e578" pname="f" oct="4" dur="8" dur.ppq="4" stem.dir="up" stem.len="5"/>
+                    <note xml:id="d1e597" pname="e" oct="4" dur="8" dur.ppq="4" stem.dir="up" stem.len="7"/>
+                    <note xml:id="d1e613" pname="b" oct="3" dur="8" dur.ppq="4" stem.dir="up" stem.len="8"/>
+                    <note xml:id="d1e629" pname="d" oct="4" dur="8" dur.ppq="4" stem.dir="up" stem.len="10"/>
                   </beam>
                 </layer>
               </staff>
@@ -420,8 +385,7 @@
             <measure n="10" xml:id="d1e645" width="121">
               <staff n="1">
                 <layer n="1">
-                  <note xml:id="d1e647" pname="e" oct="4" dur="4" dots="1" dur.ppq="12"
-                    stem.dir="up" stem.len="5"/>
+                  <note xml:id="d1e647" pname="e" oct="4" dur="4" dots="1" dur.ppq="12" stem.dir="up" stem.len="5"/>
                   <rest xml:id="d1e662" dur="8"/>
                 </layer>
               </staff>
@@ -429,16 +393,13 @@
             <measure n="11" xml:id="d1e670" width="195">
               <staff n="1">
                 <layer n="1">
-                  <note xml:id="d1e673" pname="d" oct="4" dur="8" dur.ppq="4" stem.dir="up"
-                    stem.len="10"/>
-                  <note xml:id="d1e690" pname="d" oct="4" dur="4" dur.ppq="8" stem.dir="up"
-                    stem.len="10">
+                  <note xml:id="d1e673" pname="d" oct="4" dur="8" dur.ppq="4" stem.dir="up" stem.len="10"/>
+                  <note xml:id="d1e690" pname="d" oct="4" dur="4" dur.ppq="8" stem.dir="up" stem.len="10">
                     <verse n="1">
                       <syl>オノ</syl>
                     </verse>
                   </note>
-                  <note xml:id="d1e709" pname="e" oct="4" dur="8" dur.ppq="4" stem.dir="up"
-                    stem.len="5">
+                  <note xml:id="d1e709" pname="e" oct="4" dur="8" dur.ppq="4" stem.dir="up" stem.len="5">
                     <verse n="1">
                       <syl>ガ</syl>
                     </verse>
@@ -460,8 +421,7 @@
                       <syl>ガタ</syl>
                     </verse>
                   </note>
-                  <note xml:id="d1e768" pname="e" oct="4" dur="8" dur.ppq="4" stem.dir="up"
-                    stem.len="5">
+                  <note xml:id="d1e768" pname="e" oct="4" dur="8" dur.ppq="4" stem.dir="up" stem.len="5">
                     <verse n="1">
                       <syl>ヲ</syl>
                     </verse>
@@ -475,26 +435,22 @@
               <staff n="1">
                 <layer n="1">
                   <beam>
-                    <note xml:id="d1e793" pname="a" oct="4" dur="8" dur.ppq="4" stem.dir="up"
-                      stem.len="12.5">
+                    <note xml:id="d1e793" pname="a" oct="4" dur="8" dur.ppq="4" stem.dir="up" stem.len="12.5">
                       <verse n="1">
                         <syl>ハ</syl>
                       </verse>
                     </note>
-                    <note xml:id="d1e814" pname="a" oct="4" dur="8" dur.ppq="4" stem.dir="up"
-                      stem.len="12.5">
+                    <note xml:id="d1e814" pname="a" oct="4" dur="8" dur.ppq="4" stem.dir="up" stem.len="12.5">
                       <verse n="1">
                         <syl>ナ</syl>
                       </verse>
                     </note>
-                    <note xml:id="d1e835" pname="b" oct="4" dur="8" dur.ppq="4" stem.dir="up"
-                      stem.len="12.5">
+                    <note xml:id="d1e835" pname="b" oct="4" dur="8" dur.ppq="4" stem.dir="up" stem.len="12.5">
                       <verse n="1">
                         <syl>ト</syl>
                       </verse>
                     </note>
-                    <note xml:id="d1e856" pname="a" oct="4" dur="8" dur.ppq="4" stem.dir="up"
-                      stem.len="12.5">
+                    <note xml:id="d1e856" pname="a" oct="4" dur="8" dur.ppq="4" stem.dir="up" stem.len="12.5">
                       <verse n="1">
                         <syl>ミ</syl>
                       </verse>
@@ -506,17 +462,14 @@
             <measure n="14" xml:id="d1e878" width="117">
               <staff n="1">
                 <layer n="1">
-                  <note xml:id="d1e880" pname="b" oct="4" dur="4" dur.ppq="8" stem.dir="down"
-                    stem.len="55">
+                  <note xml:id="d1e880" pname="b" oct="4" dur="4" dur.ppq="8" stem.dir="down" stem.len="55">
                     <verse n="1">
                       <syl con="u">テ</syl>
                     </verse>
                   </note>
                   <beam>
-                    <note xml:id="d1e900" pname="c" oct="5" dur="8" dur.ppq="4" stem.dir="down"
-                      stem.len="45"/>
-                    <note xml:id="d1e916" pname="e" oct="5" dur="8" dur.ppq="4" stem.dir="down"
-                      stem.len="40"/>
+                    <note xml:id="d1e900" pname="c" oct="5" dur="8" dur.ppq="4" stem.dir="down" stem.len="45"/>
+                    <note xml:id="d1e916" pname="e" oct="5" dur="8" dur.ppq="4" stem.dir="down" stem.len="40"/>
                   </beam>
                 </layer>
               </staff>
@@ -524,21 +477,18 @@
             <measure n="15" xml:id="d1e932" width="146">
               <staff n="1">
                 <layer n="1">
-                  <note xml:id="d1e934" pname="f" oct="5" dur="8" dur.ppq="4" stem.dir="down"
-                    stem.len="35" accid.ges="s">
+                  <note xml:id="d1e934" pname="f" oct="5" dur="8" dur.ppq="4" stem.dir="down" stem.len="35" accid.ges="s">
                     <accid accid="s"/>
                     <verse n="1">
                       <syl/>
                     </verse>
                   </note>
-                  <note xml:id="d1e957" pname="f" oct="5" dur="4" dur.ppq="8" stem.dir="down"
-                    stem.len="35" accid.ges="s">
+                  <note xml:id="d1e957" pname="f" oct="5" dur="4" dur.ppq="8" stem.dir="down" stem.len="35" accid.ges="s">
                     <verse n="1">
                       <syl con="u">ニ</syl>
                     </verse>
                   </note>
-                  <note xml:id="d1e979" pname="e" oct="5" dur="8" dur.ppq="4" stem.dir="down"
-                    stem.len="39.5"/>
+                  <note xml:id="d1e979" pname="e" oct="5" dur="8" dur.ppq="4" stem.dir="down" stem.len="39.5"/>
                 </layer>
               </staff>
             </measure>
@@ -546,22 +496,18 @@
               <staff n="1">
                 <layer n="1">
                   <beam>
-                    <note xml:id="d1e995" pname="c" oct="5" dur="8" dur.ppq="4" stem.dir="down"
-                      stem.len="45">
+                    <note xml:id="d1e995" pname="c" oct="5" dur="8" dur.ppq="4" stem.dir="down" stem.len="45">
                       <verse n="1">
                         <syl con="u">ワ</syl>
                       </verse>
                     </note>
-                    <note xml:id="d1e1017" pname="c" oct="5" dur="8" dur.ppq="4" stem.dir="down"
-                      stem.len="45"/>
-                    <note xml:id="d1e1033" pname="c" oct="5" dur="8" dur.ppq="4" stem.dir="down"
-                      stem.len="45">
+                    <note xml:id="d1e1017" pname="c" oct="5" dur="8" dur.ppq="4" stem.dir="down" stem.len="45"/>
+                    <note xml:id="d1e1033" pname="c" oct="5" dur="8" dur.ppq="4" stem.dir="down" stem.len="45">
                       <verse n="1">
                         <syl con="u">ニ</syl>
                       </verse>
                     </note>
-                    <note xml:id="d1e1055" pname="e" oct="5" dur="8" dur.ppq="4" stem.dir="down"
-                      stem.len="45"/>
+                    <note xml:id="d1e1055" pname="e" oct="5" dur="8" dur.ppq="4" stem.dir="down" stem.len="45"/>
                   </beam>
                 </layer>
               </staff>
@@ -569,21 +515,18 @@
             <measure n="17" xml:id="d1e1071" width="172">
               <staff n="1">
                 <layer n="1">
-                  <note xml:id="d1e1073" pname="f" oct="5" dur="8" dur.ppq="4" stem.dir="down"
-                    stem.len="35" accid.ges="s">
+                  <note xml:id="d1e1073" pname="f" oct="5" dur="8" dur.ppq="4" stem.dir="down" stem.len="35" accid.ges="s">
                     <accid accid="s"/>
                     <verse n="1">
                       <syl/>
                     </verse>
                   </note>
-                  <note xml:id="d1e1096" pname="f" oct="5" dur="4" dur.ppq="8" stem.dir="down"
-                    stem.len="35" accid.ges="s">
+                  <note xml:id="d1e1096" pname="f" oct="5" dur="4" dur.ppq="8" stem.dir="down" stem.len="35" accid.ges="s">
                     <verse n="1">
                       <syl con="u">サイ</syl>
                     </verse>
                   </note>
-                  <note xml:id="d1e1118" pname="e" oct="5" dur="8" dur.ppq="4" stem.dir="down"
-                    stem.len="39.5"/>
+                  <note xml:id="d1e1118" pname="e" oct="5" dur="8" dur.ppq="4" stem.dir="down" stem.len="39.5"/>
                 </layer>
               </staff>
             </measure>
@@ -591,26 +534,21 @@
               <staff n="1">
                 <layer n="1">
                   <beam>
-                    <note xml:id="d1e1134" pname="c" oct="5" dur="8" dur.ppq="4" stem.dir="down"
-                      stem.len="50">
+                    <note xml:id="d1e1134" pname="c" oct="5" dur="8" dur.ppq="4" stem.dir="down" stem.len="50">
                       <verse n="1">
                         <syl con="u">タ</syl>
                       </verse>
                     </note>
-                    <note xml:id="d1e1156" pname="e" oct="5" dur="16" dur.ppq="2" stem.dir="down"
-                      stem.len="50"/>
-                    <note xml:id="d1e1174" pname="c" oct="5" dur="16" dur.ppq="2" stem.dir="down"
-                      stem.len="50"/>
+                    <note xml:id="d1e1156" pname="e" oct="5" dur="16" dur.ppq="2" stem.dir="down" stem.len="50"/>
+                    <note xml:id="d1e1174" pname="c" oct="5" dur="16" dur.ppq="2" stem.dir="down" stem.len="50"/>
                   </beam>
                   <beam>
-                    <note xml:id="d1e1192" pname="b" oct="4" dur="8" dur.ppq="4" stem.dir="up"
-                      stem.len="12.5">
+                    <note xml:id="d1e1192" pname="b" oct="4" dur="8" dur.ppq="4" stem.dir="up" stem.len="12.5">
                       <verse n="1">
                         <syl>リ</syl>
                       </verse>
                     </note>
-                    <note xml:id="d1e1213" pname="a" oct="4" dur="8" dur.ppq="4" stem.dir="up"
-                      stem.len="10"/>
+                    <note xml:id="d1e1213" pname="a" oct="4" dur="8" dur.ppq="4" stem.dir="up" stem.len="10"/>
                   </beam>
                 </layer>
               </staff>
@@ -621,26 +559,22 @@
               <staff n="1">
                 <layer n="1">
                   <beam>
-                    <note xml:id="d1e1235" pname="b" oct="4" dur="8" dur.ppq="4" stem.dir="down"
-                      stem.len="55">
+                    <note xml:id="d1e1235" pname="b" oct="4" dur="8" dur.ppq="4" stem.dir="down" stem.len="55">
                       <verse n="1">
                         <syl/>
                       </verse>
                     </note>
-                    <note xml:id="d1e1256" pname="c" oct="5" dur="8" dur.ppq="4" stem.dir="down"
-                      stem.len="55.5">
+                    <note xml:id="d1e1256" pname="c" oct="5" dur="8" dur.ppq="4" stem.dir="down" stem.len="55.5">
                       <verse n="1">
                         <syl>サ</syl>
                       </verse>
                     </note>
-                    <note xml:id="d1e1277" pname="e" oct="5" dur="8" dur.ppq="4" stem.dir="down"
-                      stem.len="56.5">
+                    <note xml:id="d1e1277" pname="e" oct="5" dur="8" dur.ppq="4" stem.dir="down" stem.len="56.5">
                       <verse n="1">
                         <syl con="u">カ</syl>
                       </verse>
                     </note>
-                    <note xml:id="d1e1299" pname="a" oct="4" dur="8" dur.ppq="4" stem.dir="down"
-                      stem.len="57.5"/>
+                    <note xml:id="d1e1299" pname="a" oct="4" dur="8" dur.ppq="4" stem.dir="down" stem.len="57.5"/>
                   </beam>
                 </layer>
               </staff>
@@ -649,16 +583,13 @@
               <staff n="1">
                 <layer n="1">
                   <beam>
-                    <note xml:id="d1e1317" pname="c" oct="5" dur="8" dur.ppq="4" stem.dir="up"
-                      stem.len="18">
+                    <note xml:id="d1e1317" pname="c" oct="5" dur="8" dur.ppq="4" stem.dir="up" stem.len="18">
                       <verse n="1">
                         <syl con="u">セ</syl>
                       </verse>
                     </note>
-                    <note xml:id="d1e1339" pname="b" oct="4" dur="8" dur.ppq="4" stem.dir="up"
-                      stem.len="12"/>
-                    <note xml:id="d1e1355" pname="a" oct="4" dur="8" dur.ppq="4" stem.dir="up"
-                      stem.len="6">
+                    <note xml:id="d1e1339" pname="b" oct="4" dur="8" dur.ppq="4" stem.dir="up" stem.len="12"/>
+                    <note xml:id="d1e1355" pname="a" oct="4" dur="8" dur.ppq="4" stem.dir="up" stem.len="6">
                       <verse n="1">
                         <syl con="u">タ</syl>
                       </verse>
@@ -671,8 +602,7 @@
             <measure n="21" xml:id="d1e1393" width="134">
               <staff n="1">
                 <layer n="1">
-                  <note xml:id="d1e1395" pname="e" oct="4" dur="4" dots="1" dur.ppq="12"
-                    stem.dir="up" stem.len="5">
+                  <note xml:id="d1e1395" pname="e" oct="4" dur="4" dots="1" dur.ppq="12" stem.dir="up" stem.len="5">
                     <verse n="1">
                       <syl>リ</syl>
                     </verse>
@@ -689,21 +619,18 @@
               <staff n="1">
                 <layer n="1">
                   <beam>
-                    <note xml:id="d1e1436" pname="a" oct="4" dur="8" dur.ppq="4" stem.dir="up"
-                      stem.len="10">
+                    <note xml:id="d1e1436" pname="a" oct="4" dur="8" dur.ppq="4" stem.dir="up" stem.len="10">
                       <verse n="1">
                         <syl>コ</syl>
                       </verse>
                     </note>
-                    <note xml:id="d1e1457" pname="b" oct="4" dur="8" dur.ppq="4" stem.dir="up"
-                      stem.len="13">
+                    <note xml:id="d1e1457" pname="b" oct="4" dur="8" dur.ppq="4" stem.dir="up" stem.len="13">
                       <verse n="1">
                         <syl>ナ</syl>
                       </verse>
                     </note>
                   </beam>
-                  <note xml:id="d1e1478" pname="c" oct="5" dur="4" dur.ppq="8" stem.dir="down"
-                    stem.len="50">
+                  <note xml:id="d1e1478" pname="c" oct="5" dur="4" dur.ppq="8" stem.dir="down" stem.len="50">
                     <verse n="1">
                       <syl>オ</syl>
                     </verse>
@@ -714,21 +641,18 @@
             <measure n="23" xml:id="d1e1497" width="148">
               <staff n="1">
                 <layer n="1">
-                  <note xml:id="d1e1499" pname="e" oct="5" dur="4" dur.ppq="8" stem.dir="down"
-                    stem.len="40">
+                  <note xml:id="d1e1499" pname="e" oct="5" dur="4" dur.ppq="8" stem.dir="down" stem.len="40">
                     <verse n="1">
                       <syl>ケ</syl>
                     </verse>
                   </note>
                   <beam>
-                    <note xml:id="d1e1518" pname="c" oct="5" dur="8" dur.ppq="4" stem.dir="down"
-                      stem.len="50">
+                    <note xml:id="d1e1518" pname="c" oct="5" dur="8" dur.ppq="4" stem.dir="down" stem.len="50">
                       <verse n="1">
                         <syl con="u">サ</syl>
                       </verse>
                     </note>
-                    <note xml:id="d1e1540" pname="b" oct="4" dur="8" dur.ppq="4" stem.dir="down"
-                      stem.len="52.5"/>
+                    <note xml:id="d1e1540" pname="b" oct="4" dur="8" dur.ppq="4" stem.dir="down" stem.len="52.5"/>
                   </beam>
                 </layer>
               </staff>
@@ -736,15 +660,13 @@
             <measure n="24" xml:id="d1e1556" width="162">
               <staff n="1">
                 <layer n="1">
-                  <note xml:id="d1e1558" pname="a" oct="4" dur="4" dur.ppq="8" stem.dir="up"
-                    stem.len="10">
+                  <note xml:id="d1e1558" pname="a" oct="4" dur="4" dur.ppq="8" stem.dir="up" stem.len="10">
                     <verse n="1">
                       <syl>ニ</syl>
                     </verse>
                   </note>
                   <beam>
-                    <note xml:id="d1e1577" pname="a" oct="4" dur="8" dur.ppq="4" stem.dir="up"
-                      stem.len="5">
+                    <note xml:id="d1e1577" pname="a" oct="4" dur="8" dur.ppq="4" stem.dir="up" stem.len="5">
                       <verse n="1">
                         <syl>イ</syl>
                       </verse>
@@ -763,14 +685,12 @@
             <measure n="25" xml:id="d1e1620" width="164">
               <staff n="1">
                 <layer n="1">
-                  <note xml:id="d1e1626" pname="a" oct="4" dur="4" dots="1" dur.ppq="12"
-                    stem.dir="up" stem.len="10">
+                  <note xml:id="d1e1626" pname="a" oct="4" dur="4" dots="1" dur.ppq="12" stem.dir="up" stem.len="10">
                     <verse n="1">
                       <syl>コ</syl>
                     </verse>
                   </note>
-                  <note xml:id="d1e1646" pname="b" oct="4" dur="8" dur.ppq="4" stem.dir="down"
-                    stem.len="55">
+                  <note xml:id="d1e1646" pname="b" oct="4" dur="8" dur.ppq="4" stem.dir="down" stem.len="55">
                     <verse n="1">
                       <syl>ト</syl>
                     </verse>
@@ -782,16 +702,13 @@
               <staff n="1">
                 <layer n="1">
                   <beam>
-                    <note xml:id="d1e1667" pname="c" oct="5" dur="8" dur.ppq="4" stem.dir="up"
-                      stem.len="18">
+                    <note xml:id="d1e1667" pname="c" oct="5" dur="8" dur.ppq="4" stem.dir="up" stem.len="18">
                       <verse n="1">
                         <syl con="u">イ</syl>
                       </verse>
                     </note>
-                    <note xml:id="d1e1689" pname="b" oct="4" dur="8" dur.ppq="4" stem.dir="up"
-                      stem.len="12"/>
-                    <note xml:id="d1e1705" pname="a" oct="4" dur="8" dur.ppq="4" stem.dir="up"
-                      stem.len="6">
+                    <note xml:id="d1e1689" pname="b" oct="4" dur="8" dur.ppq="4" stem.dir="up" stem.len="12"/>
+                    <note xml:id="d1e1705" pname="a" oct="4" dur="8" dur.ppq="4" stem.dir="up" stem.len="6">
                       <verse n="1">
                         <syl con="u">ワ</syl>
                       </verse>
@@ -804,14 +721,12 @@
             <measure n="27" xml:id="d1e1743" width="110">
               <staff n="1">
                 <layer n="1">
-                  <note xml:id="d1e1745" pname="e" oct="4" dur="4" dots="1" dur.ppq="12"
-                    stem.dir="up" stem.len="5">
+                  <note xml:id="d1e1745" pname="e" oct="4" dur="4" dots="1" dur.ppq="12" stem.dir="up" stem.len="5">
                     <verse n="1">
                       <syl>レ</syl>
                     </verse>
                   </note>
-                  <note xml:id="d1e1765" pname="e" oct="4" dur="8" dur.ppq="4" stem.dir="up"
-                    stem.len="5"/>
+                  <note xml:id="d1e1765" pname="e" oct="4" dur="8" dur.ppq="4" stem.dir="up" stem.len="5"/>
                 </layer>
               </staff>
             </measure>
@@ -819,22 +734,18 @@
               <staff n="1">
                 <layer n="1">
                   <beam>
-                    <note xml:id="d1e1781" pname="b" oct="4" dur="8" dur.ppq="4" stem.dir="down"
-                      stem.len="52.5"/>
-                    <note xml:id="d1e1797" pname="c" oct="5" dur="8" dur.ppq="4" stem.dir="down"
-                      stem.len="52.5">
+                    <note xml:id="d1e1781" pname="b" oct="4" dur="8" dur.ppq="4" stem.dir="down" stem.len="52.5"/>
+                    <note xml:id="d1e1797" pname="c" oct="5" dur="8" dur.ppq="4" stem.dir="down" stem.len="52.5">
                       <verse n="1">
                         <syl>ネ</syl>
                       </verse>
                     </note>
-                    <note xml:id="d1e1818" pname="c" oct="5" dur="8" dur.ppq="4" stem.dir="down"
-                      stem.len="52.5">
+                    <note xml:id="d1e1818" pname="c" oct="5" dur="8" dur.ppq="4" stem.dir="down" stem.len="52.5">
                       <verse n="1">
                         <syl>マ</syl>
                       </verse>
                     </note>
-                    <note xml:id="d1e1839" pname="b" oct="4" dur="8" dur.ppq="4" stem.dir="down"
-                      stem.len="52.5">
+                    <note xml:id="d1e1839" pname="b" oct="4" dur="8" dur.ppq="4" stem.dir="down" stem.len="52.5">
                       <verse n="1">
                         <syl>リ</syl>
                       </verse>
@@ -847,26 +758,22 @@
               <staff n="1">
                 <layer n="1">
                   <beam>
-                    <note xml:id="d1e1862" pname="c" oct="5" dur="8" dur.ppq="4" stem.dir="down"
-                      stem.len="50">
+                    <note xml:id="d1e1862" pname="c" oct="5" dur="8" dur.ppq="4" stem.dir="down" stem.len="50">
                       <verse n="1">
                         <syl>ネ</syl>
                       </verse>
                     </note>
-                    <note xml:id="d1e1883" pname="e" oct="5" dur="8" dur.ppq="4" stem.dir="down"
-                      stem.len="50.5">
+                    <note xml:id="d1e1883" pname="e" oct="5" dur="8" dur.ppq="4" stem.dir="down" stem.len="50.5">
                       <verse n="1">
                         <syl>マ</syl>
                       </verse>
                     </note>
-                    <note xml:id="d1e1904" pname="c" oct="5" dur="8" dur.ppq="4" stem.dir="down"
-                      stem.len="51.5">
+                    <note xml:id="d1e1904" pname="c" oct="5" dur="8" dur.ppq="4" stem.dir="down" stem.len="51.5">
                       <verse n="1">
                         <syl>ラ</syl>
                       </verse>
                     </note>
-                    <note xml:id="d1e1925" pname="b" oct="4" dur="8" dur.ppq="4" stem.dir="down"
-                      stem.len="52.5">
+                    <note xml:id="d1e1925" pname="b" oct="4" dur="8" dur.ppq="4" stem.dir="down" stem.len="52.5">
                       <verse n="1">
                         <syl>ズ</syl>
                       </verse>
@@ -879,26 +786,22 @@
               <staff n="1">
                 <layer n="1">
                   <beam>
-                    <note xml:id="d1e1948" pname="a" oct="4" dur="8" dur.ppq="4" stem.dir="up"
-                      stem.len="10">
+                    <note xml:id="d1e1948" pname="a" oct="4" dur="8" dur.ppq="4" stem.dir="up" stem.len="10">
                       <verse n="1">
                         <syl>マ</syl>
                       </verse>
                     </note>
-                    <note xml:id="d1e1969" pname="b" oct="4" dur="8" dur.ppq="4" stem.dir="up"
-                      stem.len="10">
+                    <note xml:id="d1e1969" pname="b" oct="4" dur="8" dur.ppq="4" stem.dir="up" stem.len="10">
                       <verse n="1">
                         <syl>チ</syl>
                       </verse>
                     </note>
-                    <note xml:id="d1e1990" pname="c" oct="5" dur="8" dur.ppq="4" stem.dir="up"
-                      stem.len="10">
+                    <note xml:id="d1e1990" pname="c" oct="5" dur="8" dur.ppq="4" stem.dir="up" stem.len="10">
                       <verse n="1">
                         <syl>ア</syl>
                       </verse>
                     </note>
-                    <note xml:id="d1e2011" pname="a" oct="4" dur="8" dur.ppq="4" stem.dir="up"
-                      stem.len="10">
+                    <note xml:id="d1e2011" pname="a" oct="4" dur="8" dur.ppq="4" stem.dir="up" stem.len="10">
                       <verse n="1">
                         <syl>カ</syl>
                       </verse>
@@ -913,22 +816,17 @@
               <staff n="1">
                 <layer n="1">
                   <beam>
-                    <note xml:id="d1e2038" pname="f" oct="4" dur="8" dur.ppq="4" stem.dir="up"
-                      stem.len="10">
+                    <note xml:id="d1e2038" pname="f" oct="4" dur="8" dur.ppq="4" stem.dir="up" stem.len="10">
                       <verse n="1">
                         <syl>ス</syl>
                       </verse>
                     </note>
-                    <note xml:id="d1e2059" pname="a" oct="4" dur="16" dur.ppq="2" stem.dir="up"
-                      stem.len="10"/>
-                    <note xml:id="d1e2077" pname="f" oct="4" dur="16" dur.ppq="2" stem.dir="up"
-                      stem.len="10"/>
+                    <note xml:id="d1e2059" pname="a" oct="4" dur="16" dur.ppq="2" stem.dir="up" stem.len="10"/>
+                    <note xml:id="d1e2077" pname="f" oct="4" dur="16" dur.ppq="2" stem.dir="up" stem.len="10"/>
                   </beam>
                   <beam>
-                    <note xml:id="d1e2095" pname="e" oct="4" dur="8" dur.ppq="4" stem.dir="up"
-                      stem.len="7"/>
-                    <note xml:id="d1e2111" pname="d" oct="4" dur="8" dur.ppq="4" stem.dir="up"
-                      stem.len="10">
+                    <note xml:id="d1e2095" pname="e" oct="4" dur="8" dur.ppq="4" stem.dir="up" stem.len="7"/>
+                    <note xml:id="d1e2111" pname="d" oct="4" dur="8" dur.ppq="4" stem.dir="up" stem.len="10">
                       <verse n="1">
                         <syl>ゴ</syl>
                       </verse>
@@ -941,40 +839,34 @@
               <staff n="1">
                 <layer n="1">
                   <beam>
-                    <note xml:id="d1e2134" pname="e" oct="4" dur="8" dur.ppq="4" stem.dir="up"
-                      stem.len="7">
+                    <note xml:id="d1e2134" pname="e" oct="4" dur="8" dur.ppq="4" stem.dir="up" stem.len="7">
                       <verse n="1">
                         <syl>ザ</syl>
                       </verse>
                     </note>
-                    <note xml:id="d1e2155" pname="f" oct="4" dur="8" dur.ppq="4" stem.dir="up"
-                      stem.len="5">
+                    <note xml:id="d1e2155" pname="f" oct="4" dur="8" dur.ppq="4" stem.dir="up" stem.len="5">
                       <verse n="1">
                         <syl>レ</syl>
                       </verse>
                     </note>
                   </beam>
                   <beam>
-                    <note xml:id="d1e2176" pname="a" oct="4" dur="16" dur.ppq="2" stem.dir="up"
-                      stem.len="10">
+                    <note xml:id="d1e2176" pname="a" oct="4" dur="16" dur.ppq="2" stem.dir="up" stem.len="10">
                       <verse n="1">
                         <syl>ハ</syl>
                       </verse>
                     </note>
-                    <note xml:id="d1e2199" pname="a" oct="4" dur="16" dur.ppq="2" stem.dir="up"
-                      stem.len="10">
+                    <note xml:id="d1e2199" pname="a" oct="4" dur="16" dur.ppq="2" stem.dir="up" stem.len="10">
                       <verse n="1">
                         <syl>ナ</syl>
                       </verse>
                     </note>
-                    <note xml:id="d1e2222" pname="a" oct="4" dur="16" dur.ppq="2" stem.dir="up"
-                      stem.len="10">
+                    <note xml:id="d1e2222" pname="a" oct="4" dur="16" dur.ppq="2" stem.dir="up" stem.len="10">
                       <verse n="1">
                         <syl>シ</syl>
                       </verse>
                     </note>
-                    <note xml:id="d1e2245" pname="a" oct="4" dur="16" dur.ppq="2" stem.dir="up"
-                      stem.len="10">
+                    <note xml:id="d1e2245" pname="a" oct="4" dur="16" dur.ppq="2" stem.dir="up" stem.len="10">
                       <verse n="1">
                         <syl>マ</syl>
                       </verse>
@@ -987,34 +879,29 @@
               <staff n="1">
                 <layer n="1">
                   <beam>
-                    <note xml:id="d1e2270" pname="b" oct="4" dur="8" dur.ppq="4" stem.dir="down"
-                      stem.len="52">
+                    <note xml:id="d1e2270" pname="b" oct="4" dur="8" dur.ppq="4" stem.dir="down" stem.len="52">
                       <verse n="1">
                         <syl>ショ</syl>
                       </verse>
                     </note>
-                    <note xml:id="d1e2291" pname="b" oct="4" dur="8" dur.ppq="4" stem.dir="down"
-                      stem.len="52">
+                    <note xml:id="d1e2291" pname="b" oct="4" dur="8" dur.ppq="4" stem.dir="down" stem.len="52">
                       <verse n="1">
                         <syl/>
                       </verse>
                     </note>
                   </beam>
                   <beam>
-                    <note xml:id="d1e2312" pname="c" oct="5" dur="8" dur.ppq="4" stem.dir="down"
-                      stem.len="50">
+                    <note xml:id="d1e2312" pname="c" oct="5" dur="8" dur.ppq="4" stem.dir="down" stem.len="50">
                       <verse n="1">
                         <syl>コン</syl>
                       </verse>
                     </note>
-                    <note xml:id="d1e2333" pname="c" oct="5" dur="16" dur.ppq="2" stem.dir="down"
-                      stem.len="50">
+                    <note xml:id="d1e2333" pname="c" oct="5" dur="16" dur.ppq="2" stem.dir="down" stem.len="50">
                       <verse n="1">
                         <syl>コ</syl>
                       </verse>
                     </note>
-                    <note xml:id="d1e2356" pname="c" oct="5" dur="16" dur.ppq="2" stem.dir="down"
-                      stem.len="50">
+                    <note xml:id="d1e2356" pname="c" oct="5" dur="16" dur.ppq="2" stem.dir="down" stem.len="50">
                       <verse n="1">
                         <syl>マ</syl>
                       </verse>
@@ -1027,36 +914,30 @@
               <staff n="1">
                 <layer n="1">
                   <beam>
-                    <note xml:id="d1e2381" pname="b" oct="4" dur="8" dur.ppq="4" stem.dir="down"
-                      stem.len="52">
+                    <note xml:id="d1e2381" pname="b" oct="4" dur="8" dur.ppq="4" stem.dir="down" stem.len="52">
                       <verse n="1">
                         <syl>ツ</syl>
                       </verse>
                     </note>
-                    <note xml:id="d1e2402" pname="c" oct="5" dur="16" dur.ppq="2" stem.dir="down"
-                      stem.len="52">
+                    <note xml:id="d1e2402" pname="c" oct="5" dur="16" dur.ppq="2" stem.dir="down" stem.len="52">
                       <verse n="1">
                         <syl con="u">ノ</syl>
                       </verse>
                     </note>
-                    <note xml:id="d1e2426" pname="b" oct="4" dur="16" dur.ppq="2" stem.dir="down"
-                      stem.len="52"/>
+                    <note xml:id="d1e2426" pname="b" oct="4" dur="16" dur.ppq="2" stem.dir="down" stem.len="52"/>
                   </beam>
                   <beam>
-                    <note xml:id="d1e2444" pname="a" oct="4" dur="8" dur.ppq="4" stem.dir="up"
-                      stem.len="13">
+                    <note xml:id="d1e2444" pname="a" oct="4" dur="8" dur.ppq="4" stem.dir="up" stem.len="13">
                       <verse n="1">
                         <syl>コ</syl>
                       </verse>
                     </note>
-                    <note xml:id="d1e2465" pname="b" oct="4" dur="16" dur.ppq="2" stem.dir="up"
-                      stem.len="13">
+                    <note xml:id="d1e2465" pname="b" oct="4" dur="16" dur.ppq="2" stem.dir="up" stem.len="13">
                       <verse n="1">
                         <syl>カ</syl>
                       </verse>
                     </note>
-                    <note xml:id="d1e2488" pname="a" oct="4" dur="16" dur.ppq="2" stem.dir="up"
-                      stem.len="13"/>
+                    <note xml:id="d1e2488" pname="a" oct="4" dur="16" dur.ppq="2" stem.dir="up" stem.len="13"/>
                   </beam>
                 </layer>
               </staff>
@@ -1065,22 +946,18 @@
               <staff n="1">
                 <layer n="1">
                   <beam>
-                    <note xml:id="d1e2508" pname="f" oct="4" dur="8" dur.ppq="4" stem.dir="up"
-                      stem.len="5">
+                    <note xml:id="d1e2508" pname="f" oct="4" dur="8" dur.ppq="4" stem.dir="up" stem.len="5">
                       <verse n="1">
                         <syl>ゲ</syl>
                       </verse>
                     </note>
-                    <note xml:id="d1e2529" pname="e" oct="4" dur="8" dur.ppq="4" stem.dir="up"
-                      stem.len="7">
+                    <note xml:id="d1e2529" pname="e" oct="4" dur="8" dur.ppq="4" stem.dir="up" stem.len="7">
                       <verse n="1">
                         <syl>デ</syl>
                       </verse>
                     </note>
-                    <note xml:id="d1e2550" pname="d" oct="4" dur="8" dur.ppq="4" stem.dir="up"
-                      stem.len="8"/>
-                    <note xml:id="d1e2566" pname="d" oct="4" dur="8" dur.ppq="4" stem.dir="up"
-                      stem.len="10">
+                    <note xml:id="d1e2550" pname="d" oct="4" dur="8" dur.ppq="4" stem.dir="up" stem.len="8"/>
+                    <note xml:id="d1e2566" pname="d" oct="4" dur="8" dur.ppq="4" stem.dir="up" stem.len="10">
                       <verse n="1">
                         <syl>マ</syl>
                       </verse>
@@ -1096,20 +973,17 @@
                 <layer n="1">
                   <rest xml:id="d1e2594" dur="8"/>
                   <beam>
-                    <note xml:id="d1e2607" pname="e" oct="4" dur="8" dur.ppq="4" stem.dir="up"
-                      stem.len="7">
+                    <note xml:id="d1e2607" pname="e" oct="4" dur="8" dur.ppq="4" stem.dir="up" stem.len="7">
                       <verse n="1">
                         <syl>ノ</syl>
                       </verse>
                     </note>
-                    <note xml:id="d1e2628" pname="f" oct="4" dur="8" dur.ppq="4" stem.dir="up"
-                      stem.len="1">
+                    <note xml:id="d1e2628" pname="f" oct="4" dur="8" dur.ppq="4" stem.dir="up" stem.len="1">
                       <verse n="1">
                         <syl>ハ</syl>
                       </verse>
                     </note>
-                    <note xml:id="d1e2649" pname="a" oct="4" dur="8" dur.ppq="4" stem.dir="up"
-                      stem.len="5">
+                    <note xml:id="d1e2649" pname="a" oct="4" dur="8" dur.ppq="4" stem.dir="up" stem.len="5">
                       <verse n="1">
                         <syl>ノ</syl>
                       </verse>
@@ -1122,34 +996,29 @@
               <staff n="1">
                 <layer n="1">
                   <beam>
-                    <note xml:id="d1e2672" pname="f" oct="4" dur="8" dur.ppq="4" stem.dir="up"
-                      stem.len="5">
+                    <note xml:id="d1e2672" pname="f" oct="4" dur="8" dur.ppq="4" stem.dir="up" stem.len="5">
                       <verse n="1">
                         <syl>ヨ</syl>
                       </verse>
                     </note>
-                    <note xml:id="d1e2693" pname="e" oct="4" dur="8" dur.ppq="4" stem.dir="up"
-                      stem.len="7">
+                    <note xml:id="d1e2693" pname="e" oct="4" dur="8" dur.ppq="4" stem.dir="up" stem.len="7">
                       <verse n="1">
                         <syl>ニ</syl>
                       </verse>
                     </note>
                   </beam>
                   <beam>
-                    <note xml:id="d1e2714" pname="b" oct="3" dur="8" dur.ppq="4" stem.dir="up"
-                      stem.len="20">
+                    <note xml:id="d1e2714" pname="b" oct="3" dur="8" dur.ppq="4" stem.dir="up" stem.len="20">
                       <verse n="1">
                         <syl>コン</syl>
                       </verse>
                     </note>
-                    <note xml:id="d1e2735" pname="b" oct="3" dur="16" dur.ppq="2" stem.dir="up"
-                      stem.len="20">
+                    <note xml:id="d1e2735" pname="b" oct="3" dur="16" dur.ppq="2" stem.dir="up" stem.len="20">
                       <verse n="1">
                         <syl>コ</syl>
                       </verse>
                     </note>
-                    <note xml:id="d1e2758" pname="b" oct="3" dur="16" dur.ppq="2" stem.dir="up"
-                      stem.len="20">
+                    <note xml:id="d1e2758" pname="b" oct="3" dur="16" dur.ppq="2" stem.dir="up" stem.len="20">
                       <verse n="1">
                         <syl>マ</syl>
                       </verse>
@@ -1162,21 +1031,18 @@
               <staff n="1">
                 <layer n="1">
                   <beam>
-                    <note xml:id="d1e2783" pname="b" oct="3" dur="8" dur.ppq="4" stem.dir="up"
-                      stem.len="20">
+                    <note xml:id="d1e2783" pname="b" oct="3" dur="8" dur.ppq="4" stem.dir="up" stem.len="20">
                       <verse n="1">
                         <syl>ヤ</syl>
                       </verse>
                     </note>
-                    <note xml:id="d1e2804" pname="d" oct="4" dur="8" dur.ppq="4" stem.dir="up"
-                      stem.len="15">
+                    <note xml:id="d1e2804" pname="d" oct="4" dur="8" dur.ppq="4" stem.dir="up" stem.len="15">
                       <verse n="1">
                         <syl>カ</syl>
                       </verse>
                     </note>
                   </beam>
-                  <note xml:id="d1e2825" pname="e" oct="4" dur="4" dur.ppq="8" stem.dir="up"
-                    stem.len="5">
+                  <note xml:id="d1e2825" pname="e" oct="4" dur="4" dur.ppq="8" stem.dir="up" stem.len="5">
                     <verse n="1">
                       <syl>ニ</syl>
                     </verse>
@@ -1188,14 +1054,12 @@
               <staff n="1">
                 <layer n="1">
                   <rest xml:id="d1e2846" dur="8"/>
-                  <note xml:id="d1e2854" pname="c" oct="5" dur="8" dur.ppq="4" stem.dir="down"
-                    stem.len="49.5">
+                  <note xml:id="d1e2854" pname="c" oct="5" dur="8" dur.ppq="4" stem.dir="down" stem.len="49.5">
                     <verse n="1">
                       <syl>ヒ</syl>
                     </verse>
                   </note>
-                  <note xml:id="d1e2875" pname="e" oct="5" dur="4" dur.ppq="8" stem.dir="down"
-                    stem.len="40">
+                  <note xml:id="d1e2875" pname="e" oct="5" dur="4" dur.ppq="8" stem.dir="down" stem.len="40">
                     <verse n="1">
                       <syl>イ</syl>
                     </verse>
@@ -1208,18 +1072,14 @@
               <staff n="1">
                 <layer n="1">
                   <beam>
-                    <note xml:id="d1e2898" pname="c" oct="5" dur="8" dur.ppq="4" stem.dir="down"
-                      stem.len="55">
+                    <note xml:id="d1e2898" pname="c" oct="5" dur="8" dur.ppq="4" stem.dir="down" stem.len="55">
                       <verse n="1">
                         <syl con="u">テ</syl>
                       </verse>
                     </note>
-                    <note xml:id="d1e2920" pname="b" oct="4" dur="8" dur.ppq="4" stem.dir="down"
-                      stem.len="55"/>
-                    <note xml:id="d1e2936" pname="a" oct="4" dur="8" dur.ppq="4" stem.dir="down"
-                      stem.len="55"/>
-                    <note xml:id="d1e2952" pname="b" oct="4" dur="8" dur.ppq="4" stem.dir="down"
-                      stem.len="55">
+                    <note xml:id="d1e2920" pname="b" oct="4" dur="8" dur.ppq="4" stem.dir="down" stem.len="55"/>
+                    <note xml:id="d1e2936" pname="a" oct="4" dur="8" dur.ppq="4" stem.dir="down" stem.len="55"/>
+                    <note xml:id="d1e2952" pname="b" oct="4" dur="8" dur.ppq="4" stem.dir="down" stem.len="55">
                       <verse n="1">
                         <syl>ウ</syl>
                       </verse>
@@ -1232,14 +1092,12 @@
               <staff n="1">
                 <layer n="1">
                   <beam>
-                    <note xml:id="d1e2975" pname="c" oct="5" dur="8" dur.ppq="4" stem.dir="down"
-                      stem.len="50">
+                    <note xml:id="d1e2975" pname="c" oct="5" dur="8" dur.ppq="4" stem.dir="down" stem.len="50">
                       <verse n="1">
                         <syl con="u">ト</syl>
                       </verse>
                     </note>
-                    <note xml:id="d1e2999" pname="a" oct="4" dur="8" dur.ppq="4" stem.dir="down"
-                      stem.len="57"/>
+                    <note xml:id="d1e2999" pname="a" oct="4" dur="8" dur.ppq="4" stem.dir="down" stem.len="57"/>
                   </beam>
                   <note xml:id="d1e3017" pname="f" oct="4" dur="4" dur.ppq="8" stem.dir="up"/>
                 </layer>
@@ -1252,18 +1110,14 @@
               <staff n="1">
                 <layer n="1">
                   <beam>
-                    <note xml:id="d1e3037" pname="e" oct="4" dur="8" dur.ppq="4" stem.dir="up"
-                      stem.len="7.5">
+                    <note xml:id="d1e3037" pname="e" oct="4" dur="8" dur.ppq="4" stem.dir="up" stem.len="7.5">
                       <verse n="1">
                         <syl con="u">ヤ</syl>
                       </verse>
                     </note>
-                    <note xml:id="d1e3059" pname="d" oct="4" dur="8" dur.ppq="4" stem.dir="up"
-                      stem.len="3"/>
-                    <note xml:id="d1e3075" pname="e" oct="4" dur="8" dur.ppq="4" stem.dir="up"
-                      stem.len="1"/>
-                    <note xml:id="d1e3091" pname="a" oct="4" dur="8" dur.ppq="4" stem.dir="up"
-                      stem.len="5">
+                    <note xml:id="d1e3059" pname="d" oct="4" dur="8" dur.ppq="4" stem.dir="up" stem.len="3"/>
+                    <note xml:id="d1e3075" pname="e" oct="4" dur="8" dur.ppq="4" stem.dir="up" stem.len="1"/>
+                    <note xml:id="d1e3091" pname="a" oct="4" dur="8" dur.ppq="4" stem.dir="up" stem.len="5">
                       <verse n="1">
                         <syl>シ</syl>
                       </verse>
@@ -1275,14 +1129,12 @@
             <measure n="43" xml:id="d1e3112" width="124">
               <staff n="1">
                 <layer n="1">
-                  <note xml:id="d1e3114" pname="f" oct="4" dur="4" dots="1" dur.ppq="12"
-                    stem.dir="up">
+                  <note xml:id="d1e3114" pname="f" oct="4" dur="4" dots="1" dur.ppq="12" stem.dir="up">
                     <verse n="1">
                       <syl con="u">シ</syl>
                     </verse>
                   </note>
-                  <note xml:id="d1e3135" pname="e" oct="4" dur="8" dur.ppq="4" stem.dir="up"
-                    stem.len="5"/>
+                  <note xml:id="d1e3135" pname="e" oct="4" dur="8" dur.ppq="4" stem.dir="up" stem.len="5"/>
                 </layer>
               </staff>
             </measure>
@@ -1299,10 +1151,8 @@
                     <note xml:id="d1e3191" pname="f" oct="4" dur="16" dur.ppq="2" stem.dir="up"/>
                   </beam>
                   <beam>
-                    <note xml:id="d1e3209" pname="e" oct="4" dur="8" dur.ppq="4" stem.dir="up"
-                      stem.len="7.5"/>
-                    <note xml:id="d1e3225" pname="d" oct="4" dur="8" dur.ppq="4" stem.dir="up"
-                      stem.len="10"/>
+                    <note xml:id="d1e3209" pname="e" oct="4" dur="8" dur.ppq="4" stem.dir="up" stem.len="7.5"/>
+                    <note xml:id="d1e3225" pname="d" oct="4" dur="8" dur.ppq="4" stem.dir="up" stem.len="10"/>
                   </beam>
                 </layer>
               </staff>
@@ -1311,25 +1161,21 @@
               <staff n="1">
                 <layer n="1">
                   <beam>
-                    <note xml:id="d1e3243" pname="d" oct="4" dur="8" dur.ppq="4" stem.dir="up"
-                      stem.len="10">
+                    <note xml:id="d1e3243" pname="d" oct="4" dur="8" dur.ppq="4" stem.dir="up" stem.len="10">
                       <verse n="1">
                         <syl/>
                       </verse>
                     </note>
-                    <note xml:id="d1e3264" pname="e" oct="4" dur="8" dur.ppq="4" stem.dir="up"
-                      stem.len="7.5"/>
+                    <note xml:id="d1e3264" pname="e" oct="4" dur="8" dur.ppq="4" stem.dir="up" stem.len="7.5"/>
                   </beam>
                   <rest xml:id="d1e3280" dur="8"/>
                   <beam>
-                    <note xml:id="d1e3288" pname="b" oct="4" dur="16" dots="1" dur.ppq="3"
-                      stem.dir="up" stem.len="12.5">
+                    <note xml:id="d1e3288" pname="b" oct="4" dur="16" dots="1" dur.ppq="3" stem.dir="up" stem.len="12.5">
                       <verse n="1">
                         <syl con="u">キョ</syl>
                       </verse>
                     </note>
-                    <note xml:id="d1e3315" pname="a" oct="4" dur="32" dur.ppq="1" stem.dir="up"
-                      stem.len="10"/>
+                    <note xml:id="d1e3315" pname="a" oct="4" dur="32" dur.ppq="1" stem.dir="up" stem.len="10"/>
                   </beam>
                 </layer>
               </staff>
@@ -1351,8 +1197,7 @@
             <measure n="47" xml:id="d1e3376" right="end" width="120">
               <staff n="1">
                 <layer n="1">
-                  <note xml:id="d1e3378" pname="e" oct="4" dur="4" dur.ppq="8" stem.dir="up"
-                    stem.len="5"/>
+                  <note xml:id="d1e3378" pname="e" oct="4" dur="4" dur.ppq="8" stem.dir="up" stem.len="5"/>
                   <rest xml:id="d1e3394" dur="4"/>
                 </layer>
               </staff>

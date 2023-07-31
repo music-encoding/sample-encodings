@@ -1,13 +1,11 @@
-<?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<?xml-model href="http://music-encoding.org/schema/4.0.0/mei-all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<?xml-model href="http://music-encoding.org/schema/4.0.0/mei-all.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
-<mei xmlns:xlink="http://www.w3.org/1999/xlink" xmlns="http://www.music-encoding.org/ns/mei"
-  meiversion="4.0.0">
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://music-encoding.org/schema/4.0.1/mei-all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://music-encoding.org/schema/4.0.1/mei-all.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<mei xmlns="http://www.music-encoding.org/ns/mei" meiversion="4.0.1">
   <meiHead>
     <fileDesc>
       <titleStmt>
-        <title>Ein feste Burg ist unser Gott <titlePart type="subordinate">an electronic
-          transcription</titlePart> </title>
+        <title>Ein feste Burg ist unser Gott<titlePart type="subordinate">an electronic transcription</titlePart></title>
         <composer>
           <persName role="creator">Michael Altenburg</persName>
         </composer>
@@ -18,45 +16,35 @@
       </titleStmt>
       <pubStmt>
         <publisher>
-          <corpName role="publisher" codedval="5115204-6" auth.uri="http://d-nb.info/gnd/"
-            auth="GND">Musikwissenschaftliches Seminar, Detmold</corpName>
+          <corpName role="publisher" codedval="5115204-6" auth.uri="http://d-nb.info/gnd/" auth="GND">Musikwissenschaftliches Seminar, Detmold</corpName>
         </publisher>
         <address>
           <addrLine>Gartenstrasse 20</addrLine>
-          <addrLine>32756 <geogName codedval="7004442" auth.uri="http://vocab.getty.edu/page/tgn/"
-            auth="TGN">Detmold</geogName> </addrLine>
-          <addrLine>
-            <geogName codedval="7000084" auth.uri="http://vocab.getty.edu/page/tgn/" auth="TGN"
-              >Germany</geogName>
-          </addrLine>
+          <addrLine>32756<geogName codedval="7004442" auth.uri="http://vocab.getty.edu/page/tgn/" auth="TGN">Detmold</geogName></addrLine>
+          <addrLine><geogName codedval="7000084" auth.uri="http://vocab.getty.edu/page/tgn/" auth="TGN">Germany</geogName></addrLine>
         </address>
         <date>2011</date>
         <availability>
-          <useRestrict>This encoding is in the public domain. However, the sources used to create it
-            may be under copyright. We believe their use by the MEI project for educational and
-            research purposes is covered by the Fair Use doctrine. However, we will remove any
-            material from the project archive when requested to do so by the copyright
-            owner.</useRestrict>
+          <useRestrict>This encoding is in the public domain. However, the sources used to create it may be under copyright. We believe their use by the MEI project for educational and research purposes is covered by the Fair Use doctrine. However, we will remove any material from the project archive when requested to do so by the copyright owner.</useRestrict>
         </availability>
       </pubStmt>
       <seriesStmt>
         <title>MEI Sample Collection</title>
         <funder>
-          <corpName role="funder" codedval="2007744-0" auth.uri="http://d-nb.info/gnd/" auth="GND"
-            >German Research Foundation<address> <addrLine>Kennedyallee 40</addrLine> <addrLine>
-            <geogName codedval="7005090" auth.uri="http://vocab.getty.edu/page/tgn/" auth="TGN"
-            >Bonn</geogName> </addrLine> <addrLine> <geogName codedval="7000084"
-            auth.uri="http://vocab.getty.edu/page/tgn/" auth="TGN">Germany</geogName> </addrLine>
+          <corpName role="funder" codedval="2007744-0" auth.uri="http://d-nb.info/gnd/" auth="GND">German Research Foundation
+            <address>
+              <addrLine>Kennedyallee 40</addrLine>
+              <addrLine><geogName codedval="7005090" auth.uri="http://vocab.getty.edu/page/tgn/" auth="TGN">Bonn</geogName></addrLine>
+              <addrLine><geogName codedval="7000084" auth.uri="http://vocab.getty.edu/page/tgn/" auth="TGN">Germany</geogName></addrLine>
             </address> </corpName>
         </funder>
         <funder>
-          <corpName role="funder" codedval="18183-3" auth.uri="http://d-nb.info/gnd/18183-3"
-            auth="Deutsche Nationalbibliothek">National Endowment for the Humanities<address>
-            <addrLine>1100 Pennsylvania Avenue N.W.</addrLine> <addrLine> <geogName
-            codedval="7013962" auth.uri="http://vocab.getty.edu/page/tgn/" auth="TGN">Washington,
-            DC</geogName> 20004</addrLine> <addrLine> <geogName codedval="7012149"
-            auth.uri="http://vocab.getty.edu/page/tgn/" auth="TGN">United States</geogName>
-            </addrLine> </address> </corpName>
+          <corpName role="funder" codedval="18183-3" auth.uri="http://d-nb.info/gnd/18183-3" auth="Deutsche Nationalbibliothek">National Endowment for the Humanities
+            <address>
+              <addrLine>1100 Pennsylvania Avenue N.W.</addrLine>
+              <addrLine><geogName codedval="7013962" auth.uri="http://vocab.getty.edu/page/tgn/" auth="TGN">Washington, DC</geogName>20004</addrLine>
+              <addrLine><geogName codedval="7012149" auth.uri="http://vocab.getty.edu/page/tgn/" auth="TGN">United States</geogName></addrLine>
+            </address> </corpName>
         </funder>
         <respStmt>
           <corpName role="publisher">MEI Project</corpName>
@@ -68,12 +56,10 @@
       <sourceDesc>
         <source>
           <bibl>
-            <identifier type="URI"
-              >http://www.hausmusik.ch/notenregal/a/altenburg_michael(1584-1640)/ein%20feste%20burg/ein%20feste%20burg.pdf</identifier>
+            <identifier type="URI">http://www.hausmusik.ch/notenregal/a/altenburg_michael(1584-1640)/ein%20feste%20burg/ein%20feste%20burg.pdf</identifier>
             <title>Ein feste Burg ist unser Gott</title>
             <composer>
-              <persName role="composer" codedval="11864839X" auth.uri="http://d-nb.info/gnd/"
-                auth="GND">Michael Altenburg</persName>
+              <persName role="composer" codedval="11864839X" auth.uri="http://d-nb.info/gnd/" auth="GND">Michael Altenburg</persName>
             </composer>
             <imprint>
               <date isodate="2011-05-12"/>
@@ -85,8 +71,7 @@
         </source>
         <source>
           <bibl>
-            <identifier type="URI"
-              >http://www.hausmusik.ch/notenregal/a/altenburg_michael(1584-1640)/ein%20feste%20burg/ein%20feste%20burg.xml</identifier>
+            <identifier type="URI">http://www.hausmusik.ch/notenregal/a/altenburg_michael(1584-1640)/ein%20feste%20burg/ein%20feste%20burg.xml</identifier>
             <imprint>
               <date isodate="2011-05-12"/>
               <respStmt>
@@ -99,17 +84,29 @@
     </fileDesc>
     <encodingDesc>
       <appInfo>
+        <application version="v1.0_beta" xml:id="mei2012To2013">
+          <name>mei2012To2013.xsl</name>
+          <ptr target="https://github.com/music-encoding/encoding-tools/blob/main/mei2012To2013/mei2012To2013.xsl"/>
+        </application>
+        <application version="v1.0_beta" xml:id="mei21To30">
+          <name>mei21To30.xsl</name>
+          <ptr target="https://github.com/music-encoding/encoding-tools/blob/main/mei21To30/mei21To30.xsl"/>
+        </application>
         <application xml:id="xsl_mxl2mei_2.2.3" version="2.2.3">
           <name>MusicXML2MEI</name>
         </application>
-        <application version="v1.0_beta" xml:id="app_20193103950618">
+        <application version="v1.0_beta" xml:id="mei30To40">
           <name>mei30To40.xsl</name>
+          <ptr target="https://github.com/music-encoding/encoding-tools/blob/main/mei30To40/mei30To40.xsl"/>
+        </application>
+        <application version="v0.0.1-alpha" xml:id="meiLint_v0.0.1-alpha">
+          <name>meiLint.xsl</name>
+          <ptr target="https://github.com/music-encoding/encoding-tools/blob/main/meiLint/meiLint.xsl"/>
         </application>
       </appInfo>
       <classDecls>
         <taxonomy>
-          <bibl xml:id="OCLC_DDC"
-            target="http://www.oclc.org/dewey/resources/summaries/default.htm#700">OCLC_DDC</bibl>
+          <bibl xml:id="OCLC_DDC" target="http://www.oclc.org/dewey/resources/summaries/default.htm#700">OCLC_DDC</bibl>
           <category xml:id="_788">
             <altId>788</altId>
             <label>Wnd instruments</label>
@@ -121,8 +118,7 @@
       <work>
         <title>Ein feste Burg ist unser Gott</title>
         <composer>
-          <persName role="composer" codedval="11864839X" auth.uri="http://d-nb.info/gnd/" auth="GND"
-            >Michael Altenburg</persName>
+          <persName role="composer" codedval="11864839X" auth.uri="http://d-nb.info/gnd/" auth="GND">Michael Altenburg</persName>
         </composer>
         <key pname="c" mode="major">C major</key>
         <meter count="4" unit="4" sym="common"/>
@@ -149,8 +145,7 @@
                   </staffDef>
                 </staffGrp>
                 <staffGrp symbol="bracket" bar.thru="true">
-                  <staffDef n="4" clef.shape="G" clef.dis="8" clef.dis.place="below" clef.line="2"
-                    key.sig="0" lines="5">
+                  <staffDef n="4" clef.shape="G" clef.dis="8" clef.dis.place="below" clef.line="2" key.sig="0" lines="5">
                     <label>Pos1 Tro 4</label>
                     <labelAbbr>P 1 Tr 4</labelAbbr>
                   </staffDef>
@@ -221,7 +216,7 @@
                     <note pname="c" oct="3" dur="1"/>
                   </layer>
                 </staff>
-                <dir tstamp="1" place="above" staff="1"> Ein feste Burg ist unser Gott </dir>
+                <dir tstamp="1" place="above" staff="1">Ein feste Burg ist unser Gott</dir>
               </measure>
             </section>
           </score>
@@ -246,28 +241,29 @@
     </workList>
     <revisionDesc>
       <change n="1">
+        <respStmt>
+          <name>Unknown</name>
+        </respStmt>
         <changeDesc>
-          <p>The original MusicXML file was generated using CapToMusic.py CapXML to MusicXML
-            converter version 1.15.</p>
+          <p>The original MusicXML file was generated using CapToMusic.py CapXML to MusicXML converter version 1.15.</p>
         </changeDesc>
         <date isodate="2010-01-31"/>
       </change>
       <change n="2">
         <respStmt>
-          <persName xml:id="MH"> Maja Hartwig </persName>
+          <persName xml:id="MH">Maja Hartwig</persName>
         </respStmt>
         <changeDesc>
-          <p>Transcoded from a MusicXML version 1.1 file on 2011-05-12 using the <ref
-            target="#xsl_mxl2mei_2.2.3">musicxml2mei</ref> stylesheet. </p>
+          <p>Transcoded from a MusicXML version 1.1 file on 2011-05-12 using the<ref target="#xsl_mxl2mei_2.2.3">musicxml2mei</ref>stylesheet.</p>
         </changeDesc>
         <date isodate="2011-05-12"/>
       </change>
       <change n="3">
         <respStmt>
-          <persName xml:id="KR"> Kristina Richts </persName>
+          <persName xml:id="KR">Kristina Richts</persName>
         </respStmt>
         <changeDesc>
-          <p> Cleaned up MEI file automatically using <ref target="#xsl_ppq">ppq.xsl</ref>. </p>
+          <p>Cleaned up MEI file automatically using<ref target="#xsl_ppq">ppq.xsl</ref>.</p>
         </changeDesc>
         <date isodate="2011-10-22"/>
       </change>
@@ -279,8 +275,7 @@
       </change>
       <change n="5" resp="#KR">
         <changeDesc>
-          <p> Cleaned up MEI file automatically using <ref target="#xsl_header">Header.xsl</ref>.
-          </p>
+          <p>Cleaned up MEI file automatically using<ref target="#xsl_header">Header.xsl</ref>.</p>
         </changeDesc>
         <date isodate="2011-12-01"/>
       </change>
@@ -293,23 +288,39 @@
         </changeDesc>
         <date isodate="2013-01-25"/>
       </change>
-      <change n="7">
+      <change n="7" resp="#mei2012To2013">
         <changeDesc>
           <p>Converted to MEI 2013 using mei2012To2013.xsl</p>
         </changeDesc>
         <date isodate="2013-09-10"/>
       </change>
-      <change n="8">
+      <change n="8" resp="#mei21To30">
         <changeDesc>
           <p>Converted to version 3.0.0 using mei21To30.xsl, version 1.0 beta</p>
         </changeDesc>
         <date isodate="2015-10-15"/>
       </change>
-      <change n="9" resp="#app_20193103950618">
+      <change n="9" resp="#mei30To40">
         <changeDesc>
           <p>Converted to MEI version 4.0.0 using mei30To40.xsl, version 1.0 beta</p>
         </changeDesc>
         <date isodate="2019-01-03"/>
+      </change>
+      <change n="10">
+        <respStmt>
+          <persName>Benjamin W. Bohl</persName>
+          <persName>Stefan Münnich</persName>
+        </respStmt>
+        <changeDesc>
+          <p><list>
+              <li>update xml-model schema references to v4.0.1</li>
+              <li>update meiversion attributes to 4.0.1</li>
+              <li>add missing responsibility statements to change elements</li>
+              <li>unify documentation of mei version upgrades (appInfo and revisionDesc)</li>
+               <li>linted with <ref target="#meiLint_v0.0.1-alpha">meiLint.xsl</ref></li>
+            </list></p>
+        </changeDesc>
+        <date isodate="2023-07-27T17:10:09+02:00"/>
       </change>
     </revisionDesc>
   </meiHead>
@@ -334,8 +345,7 @@
                 </staffDef>
               </staffGrp>
               <staffGrp symbol="bracket" bar.thru="true">
-                <staffDef n="4" clef.shape="G" clef.dis="8" clef.dis.place="below" clef.line="2"
-                  key.sig="0" lines="5">
+                <staffDef n="4" clef.shape="G" clef.dis="8" clef.dis.place="below" clef.line="2" key.sig="0" lines="5">
                   <label>Pos1 Tro 4</label>
                   <labelAbbr>P 1 Tr 4</labelAbbr>
                 </staffDef>
@@ -406,13 +416,8 @@
                   <note xml:id="d16531e558" pname="c" oct="3" dur="1"/>
                 </layer>
               </staff>
-              <dir tstamp="1" place="above" staff="1">
-                <title>
-                  <rend fontfam="Arial" fontsize="16pt">Ein feste Burg ist unser Gott</rend>
-                </title>
-              </dir>
-              <slur tstamp="2.5" curvedir="below" startid="#d16531e298" endid="#d16531e316"
-                staff="2" tstamp2="0m+3"/>
+              <dir tstamp="1" place="above" staff="1"><title><rend fontfam="Arial" fontsize="16pt">Ein feste Burg ist unser Gott</rend></title></dir>
+              <slur tstamp="2.5" curvedir="below" startid="#d16531e298" endid="#d16531e316" staff="2" tstamp2="0m+3"/>
             </measure>
             <measure n="2" xml:id="d16531e570">
               <staff n="1">
@@ -470,8 +475,7 @@
                   <note xml:id="d16531e898" pname="b" oct="2" dur="2"/>
                 </layer>
               </staff>
-              <slur tstamp="1" curvedir="above" startid="#d16531e572" endid="#d16531e590" staff="1"
-                tstamp2="0m+1.5"/>
+              <slur tstamp="1" curvedir="above" startid="#d16531e572" endid="#d16531e590" staff="1" tstamp2="0m+1.5"/>
             </measure>
             <measure n="3" xml:id="d16531e910">
               <staff n="1">
@@ -534,10 +538,8 @@
                   <note xml:id="d16531e1265" pname="a" oct="2" dur="1"/>
                 </layer>
               </staff>
-              <slur tstamp="3" curvedir="above" startid="#d16531e958" endid="#d16531e976" staff="1"
-                tstamp2="0m+3.5"/>
-              <slur tstamp="1" curvedir="above" startid="#d16531e1164" endid="#d16531e1180"
-                staff="5" tstamp2="0m+1.5"/>
+              <slur tstamp="3" curvedir="above" startid="#d16531e958" endid="#d16531e976" staff="1" tstamp2="0m+3.5"/>
+              <slur tstamp="1" curvedir="above" startid="#d16531e1164" endid="#d16531e1180" staff="5" tstamp2="0m+1.5"/>
             </measure>
             <measure n="4" xml:id="d16531e1277">
               <staff n="1">
@@ -594,9 +596,7 @@
                   <note xml:id="d16531e1591" pname="a" oct="3" dur="4"/>
                 </layer>
               </staff>
-              <dir tstamp="1" place="above" staff="1">
-                <rend fontfam="Arial" fontsize="10pt">Michael Altenburg</rend>
-              </dir>
+              <dir tstamp="1" place="above" staff="1"><rend fontfam="Arial" fontsize="10pt">Michael Altenburg</rend></dir>
               <tie tstamp="16" staff="3" startid="#d16531e1472" endid="#d16531e1804"/>
               <tie tstamp="4" staff="5" startid="#d16531e1539" endid="#d16531e1947"/>
             </measure>
@@ -667,8 +667,7 @@
                   <note xml:id="d16531e2038" pname="e" oct="3" dur="4"/>
                 </layer>
               </staff>
-              <slur tstamp="1" curvedir="above" startid="#d16531e1623" endid="#d16531e1641"
-                staff="1" tstamp2="0m+1.5"/>
+              <slur tstamp="1" curvedir="above" startid="#d16531e1623" endid="#d16531e1641" staff="1" tstamp2="0m+1.5"/>
               <tie tstamp="4" staff="5" startid="#d16531e1974" endid="#d16531e2340"/>
             </measure>
             <measure n="6" xml:id="d16531e2050">
@@ -751,12 +750,9 @@
                   </beam>
                 </layer>
               </staff>
-              <slur tstamp="1" curvedir="above" startid="#d16531e2052" endid="#d16531e2070"
-                staff="1" tstamp2="0m+1.5"/>
-              <slur tstamp="3" curvedir="below" startid="#d16531e2448" endid="#d16531e2465"
-                staff="6" tstamp2="0m+3.5"/>
-              <slur tstamp="3" curvedir="above" startid="#d16531e2448" endid="#d16531e2465"
-                staff="6" tstamp2="0m+3.5"/>
+              <slur tstamp="1" curvedir="above" startid="#d16531e2052" endid="#d16531e2070" staff="1" tstamp2="0m+1.5"/>
+              <slur tstamp="3" curvedir="below" startid="#d16531e2448" endid="#d16531e2465" staff="6" tstamp2="0m+3.5"/>
+              <slur tstamp="3" curvedir="above" startid="#d16531e2448" endid="#d16531e2465" staff="6" tstamp2="0m+3.5"/>
             </measure>
             <measure n="7" xml:id="d16531e2510">
               <staff n="1">
@@ -842,8 +838,7 @@
                   <note xml:id="d16531e2946" pname="a" oct="2" dur="4" tie="i"/>
                 </layer>
               </staff>
-              <slur tstamp="1" curvedir="below" startid="#d16531e2512" endid="#d16531e2530"
-                staff="1" tstamp2="0m+1.5"/>
+              <slur tstamp="1" curvedir="below" startid="#d16531e2512" endid="#d16531e2530" staff="1" tstamp2="0m+1.5"/>
               <tie tstamp="4" staff="4" startid="#d16531e2830" endid="#d16531e3144"/>
               <tie tstamp="4" staff="6" startid="#d16531e2946" endid="#d16531e3231"/>
             </measure>
@@ -1177,8 +1172,7 @@
                   </beam>
                 </layer>
               </staff>
-              <slur tstamp="1" curvedir="above" startid="#d16531e4312" endid="#d16531e4330"
-                staff="1" tstamp2="0m+1.5"/>
+              <slur tstamp="1" curvedir="above" startid="#d16531e4312" endid="#d16531e4330" staff="1" tstamp2="0m+1.5"/>
               <tie tstamp="4" staff="4" startid="#d16531e4654" endid="#d16531e5126"/>
             </measure>
             <sb/>
@@ -1250,11 +1244,8 @@
                   <note xml:id="d16531e5279" pname="g" oct="2" dur="2"/>
                 </layer>
               </staff>
-              <dir tstamp="1" place="above" staff="1">
-                <rend fontfam="Arial" fontsize="14pt">Ein feste Burg ist unser Gott Seite 2</rend>
-              </dir>
-              <slur tstamp="3" curvedir="above" startid="#d16531e4865" endid="#d16531e4883"
-                staff="1" tstamp2="0m+3.5"/>
+              <dir tstamp="1" place="above" staff="1"><rend fontfam="Arial" fontsize="14pt">Ein feste Burg ist unser Gott Seite 2</rend></dir>
+              <slur tstamp="3" curvedir="above" startid="#d16531e4865" endid="#d16531e4883" staff="1" tstamp2="0m+3.5"/>
             </measure>
             <measure n="14" xml:id="d16531e5291">
               <staff n="1">
@@ -1391,12 +1382,9 @@
                   <note xml:id="d16531e5946" pname="f" oct="3" dur="1"/>
                 </layer>
               </staff>
-              <slur tstamp="1" curvedir="below" startid="#d16531e5641" endid="#d16531e5659"
-                staff="1" tstamp2="0m+1.5"/>
-              <slur tstamp="3" curvedir="above" startid="#d16531e5709" endid="#d16531e5727"
-                staff="1" tstamp2="0m+3.5"/>
-              <slur tstamp="11" curvedir="below" startid="#d16531e5842" endid="#d16531e5860"
-                staff="3" tstamp2="0m+13.5"/>
+              <slur tstamp="1" curvedir="below" startid="#d16531e5641" endid="#d16531e5659" staff="1" tstamp2="0m+1.5"/>
+              <slur tstamp="3" curvedir="above" startid="#d16531e5709" endid="#d16531e5727" staff="1" tstamp2="0m+3.5"/>
+              <slur tstamp="11" curvedir="below" startid="#d16531e5842" endid="#d16531e5860" staff="3" tstamp2="0m+13.5"/>
             </measure>
             <measure n="17" xml:id="d16531e5958">
               <staff n="1">
@@ -1504,8 +1492,7 @@
                   <note xml:id="d16531e6547" pname="c" oct="3" dur="4"/>
                 </layer>
               </staff>
-              <slur tstamp="3" curvedir="below" startid="#d16531e6387" endid="#d16531e6407"
-                staff="4" tstamp2="0m+4.5"/>
+              <slur tstamp="3" curvedir="below" startid="#d16531e6387" endid="#d16531e6407" staff="4" tstamp2="0m+4.5"/>
             </measure>
             <measure n="19" xml:id="d16531e6560">
               <staff n="1">
@@ -1733,8 +1720,7 @@
                   <note xml:id="d16531e7832" pname="e" oct="3" dur="4"/>
                 </layer>
               </staff>
-              <slur tstamp="11" curvedir="below" startid="#d16531e7576" endid="#d16531e7594"
-                staff="2" tstamp2="0m+13.5"/>
+              <slur tstamp="11" curvedir="below" startid="#d16531e7576" endid="#d16531e7594" staff="2" tstamp2="0m+13.5"/>
             </measure>
             <sb/>
             <measure n="23" xml:id="d16531e7844">
@@ -1923,12 +1909,9 @@
                   <note xml:id="d16531e8830" pname="f" oct="2" dur="4"/>
                 </layer>
               </staff>
-              <slur tstamp="1" curvedir="above" startid="#d16531e8699" endid="#d16531e8714"
-                staff="5" tstamp2="0m+2.5"/>
-              <slur tstamp="3" curvedir="above" startid="#d16531e8728" endid="#d16531e8744"
-                staff="5" tstamp2="0m+3.5"/>
-              <slur tstamp="1" curvedir="below" startid="#d16531e8789" endid="#d16531e8804"
-                staff="6" tstamp2="0m+2.5"/>
+              <slur tstamp="1" curvedir="above" startid="#d16531e8699" endid="#d16531e8714" staff="5" tstamp2="0m+2.5"/>
+              <slur tstamp="3" curvedir="above" startid="#d16531e8728" endid="#d16531e8744" staff="5" tstamp2="0m+3.5"/>
+              <slur tstamp="1" curvedir="below" startid="#d16531e8789" endid="#d16531e8804" staff="6" tstamp2="0m+2.5"/>
             </measure>
             <measure n="27" xml:id="d16531e8842">
               <staff n="1">
@@ -1998,12 +1981,9 @@
                   </beam>
                 </layer>
               </staff>
-              <slur tstamp="1" curvedir="above" startid="#d16531e8844" endid="#d16531e8862"
-                staff="1" tstamp2="0m+1.5"/>
-              <slur tstamp="11" curvedir="below" startid="#d16531e9004" endid="#d16531e9039"
-                staff="3" tstamp2="0m+13.5"/>
-              <slur tstamp="3" curvedir="below" startid="#d16531e9197" endid="#d16531e9213"
-                staff="6" tstamp2="0m+3.5"/>
+              <slur tstamp="1" curvedir="above" startid="#d16531e8844" endid="#d16531e8862" staff="1" tstamp2="0m+1.5"/>
+              <slur tstamp="11" curvedir="below" startid="#d16531e9004" endid="#d16531e9039" staff="3" tstamp2="0m+13.5"/>
+              <slur tstamp="3" curvedir="below" startid="#d16531e9197" endid="#d16531e9213" staff="6" tstamp2="0m+3.5"/>
             </measure>
             <sb/>
             <staffDef n="6" spacing="60"/>
@@ -2082,13 +2062,9 @@
                   </beam>
                 </layer>
               </staff>
-              <dir tstamp="1" place="above" staff="1">
-                <rend fontfam="Arial" fontsize="14pt">Ein feste Burg ist unser Gott Seite 3</rend>
-              </dir>
-              <slur tstamp="1" curvedir="above" startid="#d16531e9400" endid="#d16531e9443"
-                staff="3" tstamp2="0m+3.5"/>
-              <slur tstamp="3" curvedir="above" startid="#d16531e9297" endid="#d16531e9315"
-                staff="1" tstamp2="0m+3.5"/>
+              <dir tstamp="1" place="above" staff="1"><rend fontfam="Arial" fontsize="14pt">Ein feste Burg ist unser Gott Seite 3</rend></dir>
+              <slur tstamp="1" curvedir="above" startid="#d16531e9400" endid="#d16531e9443" staff="3" tstamp2="0m+3.5"/>
+              <slur tstamp="3" curvedir="above" startid="#d16531e9297" endid="#d16531e9315" staff="1" tstamp2="0m+3.5"/>
             </measure>
             <measure n="29" xml:id="d16531e9784">
               <staff n="1">
@@ -2164,12 +2140,10 @@
                   <note xml:id="d16531e10191" pname="a" oct="2" dur="4"/>
                 </layer>
               </staff>
-              <slur tstamp="3" curvedir="above" startid="#d16531e9832" endid="#d16531e9850"
-                staff="1" tstamp2="0m+3.5"/>
+              <slur tstamp="3" curvedir="above" startid="#d16531e9832" endid="#d16531e9850" staff="1" tstamp2="0m+3.5"/>
               <tie tstamp="16" staff="3" startid="#d16531e10054" endid="#d16531e10268"/>
               <tie tstamp="21" staff="3" startid="#d16531e10071" endid="#d16531e10285"/>
-              <slur tstamp="1" curvedir="above" startid="#d16531e10150" endid="#d16531e10165"
-                staff="6" tstamp2="0m+2.5"/>
+              <slur tstamp="1" curvedir="above" startid="#d16531e10150" endid="#d16531e10165" staff="6" tstamp2="0m+2.5"/>
             </measure>
             <measure n="30" xml:id="d16531e10204">
               <staff n="1">
@@ -2410,8 +2384,7 @@
                   <note xml:id="d16531e11535" pname="d" oct="3" dur="4"/>
                 </layer>
               </staff>
-              <slur tstamp="11" curvedir="above" startid="#d16531e11317" endid="#d16531e11337"
-                staff="3" tstamp2="0m+13.5"/>
+              <slur tstamp="11" curvedir="above" startid="#d16531e11317" endid="#d16531e11337" staff="3" tstamp2="0m+13.5"/>
             </measure>
             <measure n="34" xml:id="d16531e11547">
               <staff n="1">
@@ -2652,14 +2625,11 @@
                   <note xml:id="d16531e12886" pname="c" oct="3" dur="8"/>
                 </layer>
               </staff>
-              <slur tstamp="3" curvedir="above" startid="#d16531e12605" endid="#d16531e12622"
-                staff="1" tstamp2="0m+4.5"/>
-              <slur tstamp="11" curvedir="below" startid="#d16531e12655" endid="#d16531e12672"
-                staff="2" tstamp2="0m+18.5"/>
+              <slur tstamp="3" curvedir="above" startid="#d16531e12605" endid="#d16531e12622" staff="1" tstamp2="0m+4.5"/>
+              <slur tstamp="11" curvedir="below" startid="#d16531e12655" endid="#d16531e12672" staff="2" tstamp2="0m+18.5"/>
               <tie tstamp="16" staff="3" startid="#d16531e12734" endid="#d16531e13043"/>
               <tie tstamp="4" staff="4" startid="#d16531e12789" endid="#d16531e13089"/>
-              <slur tstamp="3" curvedir="below" startid="#d16531e12871" endid="#d16531e12886"
-                staff="6" tstamp2="0m+4.5"/>
+              <slur tstamp="3" curvedir="below" startid="#d16531e12871" endid="#d16531e12886" staff="6" tstamp2="0m+4.5"/>
             </measure>
             <measure n="38" xml:id="d16531e12900">
               <staff n="1">
