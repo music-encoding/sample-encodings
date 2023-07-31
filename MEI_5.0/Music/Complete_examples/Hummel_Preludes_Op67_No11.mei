@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="http://music-encoding.org/schema/4.0.1/mei-all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<?xml-model href="http://music-encoding.org/schema/4.0.1/mei-all.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
-<mei xmlns="http://www.music-encoding.org/ns/mei" meiversion="4.0.1">
+<?xml-model href="https://music-encoding.org/schema/5.0/mei-all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://music-encoding.org/schema/5.0/mei-all.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<mei xmlns="http://www.music-encoding.org/ns/mei" meiversion="5.0">
   <meiHead>
     <fileDesc>
       <titleStmt>
@@ -15,7 +15,7 @@
       </titleStmt>
       <pubStmt>
         <publisher>
-          <corpName role="publisher" codedval="5115198" auth.uri="//d-nb.info/gndGND" auth="GND"> Musikwissenschaftliches Seminar</corpName>
+          <corpName role="publisher" codedval="5115198" auth.uri="//d-nb.info/gndGND" auth="GND">Musikwissenschaftliches Seminar</corpName>
         </publisher>
         <address>
           <addrLine>Gartenstrasse 20</addrLine>
@@ -33,14 +33,16 @@
             <address>
               <addrLine>Kennedyallee 40</addrLine>
               <addrLine><geogName>Bonn</geogName></addrLine>
-            </address> </corpName>
+            </address>
+          </corpName>
         </funder>
         <funder>
           <corpName role="funder" codedval="18183-3" auth.uri="http://d-nb.info/gnd/18183-3" auth="Deutsche Nationalbibliothek">National Endowment for the Humanities
             <address>
               <addrLine>1100 Pennsylvania Avenue N.W.</addrLine>
               <addrLine><geogName>Washington, DC</geogName></addrLine>
-            </address> </corpName>
+            </address>
+          </corpName>
         </funder>
         <respStmt>
           <corpName role="publisher">MEI Project</corpName>
@@ -67,6 +69,14 @@
         <application version="v1.0_beta" xml:id="mei30To40">
           <name>mei30To40.xsl</name>
           <ptr target="https://github.com/music-encoding/encoding-tools/blob/main/mei30To40/mei30To40.xsl"/>
+        </application>
+        <application version="v0.0.1-alpha" xml:id="meiLint_v0.0.1-alpha">
+          <name>meiLint.xsl</name>
+          <ptr target="https://github.com/music-encoding/encoding-tools/blob/main/meiLint/meiLint.xsl"/>
+        </application>
+        <application version="v1.0" xml:id="mei40To50.xsl">
+          <name>mei40To50.xsl</name>
+          <ptr target="https://github.com/music-encoding/encoding-tools/blob/main/mei40To50/mei40To50.xsl"/>
         </application>
         <application version="v0.0.1-alpha" xml:id="meiLint_v0.0.1-alpha">
           <name>meiLint.xsl</name>
@@ -111,7 +121,7 @@
         <tempo>Allegro</tempo>
         <incip>
           <score>
-            <scoreDef key.sig="5s" label="11">
+            <scoreDef keysig="5s" label="11">
               <staffGrp symbol="brace" bar.thru="true">
                 <staffDef n="1" clef.shape="G" clef.line="2" lines="5"/>
                 <staffDef n="2" clef.shape="F" clef.line="4" lines="5"/>
@@ -214,7 +224,7 @@
           <plateNum>U.E. 93.</plateNum>
         </physDesc>
         <seriesStmt>
-          <title auth.uri="http://d-nb.info/" codedval="354246208" auth="GND">Sonaten und Klavier-Stücke von J.N. Hummel<num>Vol. 3</num> </title>
+          <title auth.uri="http://d-nb.info/" codedval="354246208" auth="GND">Sonaten und Klavier-Stücke von J.N. Hummel<num>Vol. 3</num></title>
         </seriesStmt>
       </manifestation>
     </manifestationList>
@@ -284,10 +294,24 @@
               <li>update meiversion attributes to 4.0.1</li>
               <li>add missing responsibility statements to change elements</li>
               <li>unify documentation of mei version upgrades (appInfo and revisionDesc)</li>
-               <li>linted with <ref target="#meiLint_v0.0.1-alpha">meiLint.xsl</ref></li>
+              <li>linted with
+                <ref target="#meiLint_v0.0.1-alpha">meiLint.xsl</ref>
+              </li>
             </list></p>
         </changeDesc>
         <date isodate="2023-07-27T17:10:00+02:00"/>
+      </change>
+      <change n="9" resp="#mei40To50.xsl">
+        <changeDesc>
+          <p>Converted to MEI version 5.0 using mei40To50.xsl, version 1.0</p>
+        </changeDesc>
+        <date isodate="2023-07-31"/>
+      </change>
+      <change n="10" resp="#meiLint_v0.0.1-alpha">
+        <changeDesc>
+          <p>Applied lint mode.</p>
+        </changeDesc>
+        <date isodate="2023-07-31T15:42:02+02:00"/>
       </change>
     </revisionDesc>
   </meiHead>
@@ -295,11 +319,11 @@
     <body>
       <mdiv>
         <score>
-          <scoreDef meter.count="4" meter.unit="4" meter.sym="common" key.sig="5s">
+          <scoreDef meter.count="4" meter.unit="4" meter.sym="common" keysig="5s">
             <staffGrp bar.thru="true" symbol="brace">
               <label><rend fontsize="18pt">11.</rend></label>
-              <staffDef n="1" xml:id="P1" lines="5" clef.line="2" clef.shape="G" ppq="56" key.sig="5s"/>
-              <staffDef n="2" xml:id="P2" lines="5" clef.line="4" clef.shape="F" ppq="56" key.sig="5s"/>
+              <staffDef n="1" xml:id="P1" lines="5" clef.line="2" clef.shape="G" ppq="56" keysig="5s"/>
+              <staffDef n="2" xml:id="P2" lines="5" clef.line="4" clef.shape="F" ppq="56" keysig="5s"/>
             </staffGrp>
           </scoreDef>
           <section>

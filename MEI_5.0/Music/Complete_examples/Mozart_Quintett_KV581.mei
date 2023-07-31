@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="http://music-encoding.org/schema/4.0.1/mei-all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<?xml-model href="http://music-encoding.org/schema/4.0.1/mei-all.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
-<mei xmlns="http://www.music-encoding.org/ns/mei" xml:id="_20090211164803615" meiversion="4.0.1">
+<?xml-model href="https://music-encoding.org/schema/5.0/mei-all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://music-encoding.org/schema/5.0/mei-all.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<mei xmlns="http://www.music-encoding.org/ns/mei" xml:id="_20090211164803615" meiversion="5.0">
   <meiHead>
     <fileDesc>
       <titleStmt>
@@ -15,7 +15,7 @@
       </titleStmt>
       <pubStmt>
         <publisher>
-          <corpName role="publisher" codedval="5115198" auth.uri="//d-nb.info/gnd" auth="GND"> Musikwissenschaftliches Seminar</corpName>
+          <corpName role="publisher" codedval="5115198" auth.uri="//d-nb.info/gnd" auth="GND">Musikwissenschaftliches Seminar</corpName>
         </publisher>
         <address>
           <addrLine>Gartenstrasse 20</addrLine>
@@ -32,14 +32,16 @@
             <address>
               <addrLine>Kennedyallee 40</addrLine>
               <addrLine><geogName>Bonn</geogName></addrLine>
-            </address> </corpName>
+            </address>
+          </corpName>
         </funder>
         <funder>
           <corpName role="funder" codedval="18183-3" auth.uri="http://d-nb.info/gnd/18183-3" auth="Deutsche Nationalbibliothek">National Endowment for the Humanities
             <address>
               <addrLine>1100 Pennsylvania Avenue N.W.</addrLine>
               <addrLine><geogName>Washington, DC</geogName></addrLine>
-            </address> </corpName>
+            </address>
+          </corpName>
         </funder>
         <respStmt>
           <corpName role="publisher">MEI Project</corpName>
@@ -62,6 +64,14 @@
         <application version="v1.0_beta" xml:id="mei30To40">
           <name>mei30To40.xsl</name>
           <ptr target="https://github.com/music-encoding/encoding-tools/blob/main/mei30To40/mei30To40.xsl"/>
+        </application>
+        <application version="v0.0.1-alpha" xml:id="meiLint_v0.0.1-alpha">
+          <name>meiLint.xsl</name>
+          <ptr target="https://github.com/music-encoding/encoding-tools/blob/main/meiLint/meiLint.xsl"/>
+        </application>
+        <application version="v1.0" xml:id="mei40To50.xsl">
+          <name>mei40To50.xsl</name>
+          <ptr target="https://github.com/music-encoding/encoding-tools/blob/main/mei40To50/mei40To50.xsl"/>
         </application>
         <application version="v0.0.1-alpha" xml:id="meiLint_v0.0.1-alpha">
           <name>meiLint.xsl</name>
@@ -94,7 +104,7 @@
     </encodingDesc>
     <workList>
       <work n="1">
-        <title>Quintet for Clarinet and Strings, K. 581<titlePart type="subordinate">3. Menuetto</titlePart> <titlePart type="subordinate">(Excerpt from Second Trio)</titlePart></title>
+        <title>Quintet for Clarinet and Strings, K. 581<titlePart type="subordinate">3. Menuetto</titlePart><titlePart type="subordinate">(Excerpt from Second Trio)</titlePart></title>
         <composer>
           <persName role="composer">Wolfgang Amadeus Mozart</persName>
         </composer>
@@ -200,10 +210,24 @@
               <li>update meiversion attributes to 4.0.1</li>
               <li>add missing responsibility statements to change elements</li>
               <li>unify documentation of mei version upgrades (appInfo and revisionDesc)</li>
-               <li>linted with <ref target="#meiLint_v0.0.1-alpha">meiLint.xsl</ref></li>
+              <li>linted with
+                <ref target="#meiLint_v0.0.1-alpha">meiLint.xsl</ref>
+              </li>
             </list></p>
         </changeDesc>
         <date isodate="2023-07-27T17:10:45+02:00"/>
+      </change>
+      <change n="8" resp="#mei40To50.xsl">
+        <changeDesc>
+          <p>Converted to MEI version 5.0 using mei40To50.xsl, version 1.0</p>
+        </changeDesc>
+        <date isodate="2023-07-31"/>
+      </change>
+      <change n="9" resp="#meiLint_v0.0.1-alpha">
+        <changeDesc>
+          <p>Applied lint mode.</p>
+        </changeDesc>
+        <date isodate="2023-07-31T15:43:11+02:00"/>
       </change>
     </revisionDesc>
   </meiHead>
@@ -211,27 +235,27 @@
     <body>
       <mdiv>
         <score>
-          <scoreDef meter.count="3" meter.unit="4" key.sig="3s" key.mode="major" ppq="24">
+          <scoreDef meter.count="3" meter.unit="4" keysig="3s" key.mode="major" ppq="24">
             <staffGrp>
-              <staffDef n="1" lines="5" clef.line="2" clef.shape="G" ppq="6" key.sig="0" key.mode="major" trans.semi="-3" trans.diat="-2">
+              <staffDef n="1" lines="5" clef.line="2" clef.shape="G" ppq="6" keysig="0" key.mode="major" trans.semi="-3" trans.diat="-2">
                 <instrDef midi.channel="1" midi.instrnum="71"/>
               </staffDef>
-              <staffDef n="2" lines="5" clef.line="2" clef.shape="G" ppq="8" key.sig="3s" key.mode="major">
+              <staffDef n="2" lines="5" clef.line="2" clef.shape="G" ppq="8" keysig="3s" key.mode="major">
                 <instrDef midi.channel="3" midi.instrnum="40"/>
               </staffDef>
-              <staffDef n="3" lines="5" clef.line="2" clef.shape="G" ppq="8" key.sig="3s" key.mode="major">
+              <staffDef n="3" lines="5" clef.line="2" clef.shape="G" ppq="8" keysig="3s" key.mode="major">
                 <instrDef midi.channel="4" midi.instrnum="40"/>
               </staffDef>
-              <staffDef n="4" lines="5" clef.line="3" clef.shape="C" ppq="8" key.sig="3s" key.mode="major">
+              <staffDef n="4" lines="5" clef.line="3" clef.shape="C" ppq="8" keysig="3s" key.mode="major">
                 <instrDef midi.channel="6" midi.instrnum="41"/>
               </staffDef>
-              <staffDef n="5" lines="5" clef.line="4" clef.shape="F" ppq="8" key.sig="3s" key.mode="major">
+              <staffDef n="5" lines="5" clef.line="4" clef.shape="F" ppq="8" keysig="3s" key.mode="major">
                 <instrDef midi.channel="5" midi.instrnum="42"/>
               </staffDef>
             </staffGrp>
           </scoreDef>
           <section>
-            <scoreDef meter.count="3" meter.unit="4" key.sig="3s" key.mode="major"/>
+            <scoreDef meter.count="3" meter.unit="4" keysig="3s" key.mode="major"/>
             <measure metcon="false" n="0" xml:id="d1e83">
               <staff n="1">
                 <layer n="1">

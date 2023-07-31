@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="http://music-encoding.org/schema/4.0.1/mei-all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<?xml-model href="http://music-encoding.org/schema/4.0.1/mei-all.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
-<mei xmlns="http://www.music-encoding.org/ns/mei" meiversion="4.0.1">
+<?xml-model href="https://music-encoding.org/schema/5.0/mei-all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://music-encoding.org/schema/5.0/mei-all.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<mei xmlns="http://www.music-encoding.org/ns/mei" meiversion="5.0">
   <meiHead>
     <fileDesc>
       <titleStmt>
@@ -36,13 +36,14 @@
               <addrLine>Kennedyallee 40</addrLine>
               <addrLine><geogName>Bonn</geogName></addrLine>
               <addrLine><geogName>Germany</geogName></addrLine>
-            </address> </corpName>
+            </address>
+          </corpName>
         </funder>
         <funder>
           <corpName role="funder">National Endowment for the Humanities
             <address>
               <addrLine>1100 Pennsylvania Avenue N.W.</addrLine>
-              <addrLine><geogName>Washington, DC</geogName> 20004</addrLine>
+              <addrLine><geogName>Washington, DC</geogName>20004</addrLine>
               <addrLine><geogName>United States</geogName></addrLine>
             </address>
           </corpName>
@@ -93,6 +94,14 @@
         <application version="v1.0_beta" xml:id="mei30To40">
           <name>mei30To40.xsl</name>
           <ptr target="https://github.com/music-encoding/encoding-tools/blob/main/mei30To40/mei30To40.xsl"/>
+        </application>
+        <application version="v0.0.1-alpha" xml:id="meiLint_v0.0.1-alpha">
+          <name>meiLint.xsl</name>
+          <ptr target="https://github.com/music-encoding/encoding-tools/blob/main/meiLint/meiLint.xsl"/>
+        </application>
+        <application version="v1.0" xml:id="mei40To50.xsl">
+          <name>mei40To50.xsl</name>
+          <ptr target="https://github.com/music-encoding/encoding-tools/blob/main/mei40To50/mei40To50.xsl"/>
         </application>
         <application version="v0.0.1-alpha" xml:id="meiLint_v0.0.1-alpha">
           <name>meiLint.xsl</name>
@@ -240,10 +249,24 @@
               <li>update meiversion attributes to 4.0.1</li>
               <li>add missing responsibility statements to change elements</li>
               <li>unify documentation of mei version upgrades (appInfo and revisionDesc)</li>
-               <li>linted with <ref target="#meiLint_v0.0.1-alpha">meiLint.xsl</ref></li>
+              <li>linted with
+                <ref target="#meiLint_v0.0.1-alpha">meiLint.xsl</ref>
+              </li>
             </list></p>
         </changeDesc>
         <date isodate="2023-07-27T17:10:59+02:00"/>
+      </change>
+      <change n="10" resp="#mei40To50.xsl">
+        <changeDesc>
+          <p>Converted to MEI version 5.0 using mei40To50.xsl, version 1.0</p>
+        </changeDesc>
+        <date isodate="2023-07-31"/>
+      </change>
+      <change n="11" resp="#meiLint_v0.0.1-alpha">
+        <changeDesc>
+          <p>Applied lint mode.</p>
+        </changeDesc>
+        <date isodate="2023-07-31T15:43:32+02:00"/>
       </change>
     </revisionDesc>
   </meiHead>
@@ -321,40 +344,40 @@
         <!-- ... -->
         <mdiv n="Act3Scene1Aria" label="Che farò senza Euridice" decls="#work1">
           <score>
-            <scoreDef meter.count="4" meter.unit="4" key.sig="0" key.mode="major">
+            <scoreDef meter.count="4" meter.unit="4" keysig="0" key.mode="major">
               <pgHead>
                 <title><rend fontsize="24pt" fontweight="bold" halign="center" valign="top">Che farò senza Euridice?
-                    <lb/> </rend>
+                    <lb/></rend>
                   <lb/><rend>(de Orphée et Auridice)</rend><rend halign="right" valign="top">Christoph Willibald Gluck (1714-1787)
                     <lb/>Arr. Michel Rondeau</rend></title>
               </pgHead>
               <pgFoot><rend valign="bottom" halign="center">© 2010 - Gatineau,Qc.Ca.</rend></pgFoot>
               <staffGrp bar.thru="true">
-                <staffDef n="1" xml:id="P1" lines="5" clef.line="2" clef.shape="G" key.sig="0" key.mode="major">
+                <staffDef n="1" xml:id="P1" lines="5" clef.line="2" clef.shape="G" keysig="0" key.mode="major">
                   <label>Soprano</label>
                   <labelAbbr>S</labelAbbr>
                 </staffDef>
-                <staffDef n="2" xml:id="P2" lines="5" clef.line="2" clef.shape="G" key.sig="0" key.mode="major">
+                <staffDef n="2" xml:id="P2" lines="5" clef.line="2" clef.shape="G" keysig="0" key.mode="major">
                   <label>Violin I</label>
                   <labelAbbr>Vln. I</labelAbbr>
                 </staffDef>
                 <staffGrp symbol="bracket">
-                  <staffDef n="3" xml:id="P3" lines="5" clef.line="2" clef.shape="G" key.sig="0" key.mode="major">
+                  <staffDef n="3" xml:id="P3" lines="5" clef.line="2" clef.shape="G" keysig="0" key.mode="major">
                     <label>Violin II</label>
                     <labelAbbr>Vln. II</labelAbbr>
                   </staffDef>
-                  <staffDef n="4" xml:id="P4" lines="5" clef.line="3" clef.shape="C" key.sig="0" key.mode="major">
+                  <staffDef n="4" xml:id="P4" lines="5" clef.line="3" clef.shape="C" keysig="0" key.mode="major">
                     <label>Viola</label>
                     <labelAbbr>Vla.</labelAbbr>
                   </staffDef>
                   <staffGrp symbol="brace">
-                    <staffDef n="5" xml:id="P5" lines="5" clef.line="3" clef.shape="G" key.sig="0" key.mode="major">
+                    <staffDef n="5" xml:id="P5" lines="5" clef.line="3" clef.shape="G" keysig="0" key.mode="major">
                       <label>Harpsichord</label>
                       <labelAbbr>Hpschd.</labelAbbr>
                     </staffDef>
-                    <staffDef n="6" xml:id="P6" lines="5" clef.line="5" clef.shape="G" key.sig="0" key.mode="major"/>
+                    <staffDef n="6" xml:id="P6" lines="5" clef.line="5" clef.shape="G" keysig="0" key.mode="major"/>
                   </staffGrp>
-                  <staffDef n="7" xml:id="P7" lines="5" clef.line="4" clef.shape="F" key.sig="0" key.mode="major">
+                  <staffDef n="7" xml:id="P7" lines="5" clef.line="4" clef.shape="F" keysig="0" key.mode="major">
                     <label>Cello</label>
                     <labelAbbr>Vc.</labelAbbr>
                   </staffDef>

@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="http://music-encoding.org/schema/4.0.1/mei-all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<?xml-model href="http://music-encoding.org/schema/4.0.1/mei-all.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
-<mei xmlns="http://www.music-encoding.org/ns/mei" meiversion="4.0.1">
+<?xml-model href="https://music-encoding.org/schema/5.0/mei-all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://music-encoding.org/schema/5.0/mei-all.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<mei xmlns="http://www.music-encoding.org/ns/mei" meiversion="5.0">
   <meiHead>
     <fileDesc>
       <titleStmt>
@@ -57,6 +57,14 @@
         <application version="v1.0_beta" xml:id="mei30To40">
           <name>mei30To40.xsl</name>
           <ptr target="https://github.com/music-encoding/encoding-tools/blob/main/mei30To40/mei30To40.xsl"/>
+        </application>
+        <application version="v0.0.1-alpha" xml:id="meiLint_v0.0.1-alpha">
+          <name>meiLint.xsl</name>
+          <ptr target="https://github.com/music-encoding/encoding-tools/blob/main/meiLint/meiLint.xsl"/>
+        </application>
+        <application version="v1.0" xml:id="mei40To50.xsl">
+          <name>mei40To50.xsl</name>
+          <ptr target="https://github.com/music-encoding/encoding-tools/blob/main/mei40To50/mei40To50.xsl"/>
         </application>
         <application version="v0.0.1-alpha" xml:id="meiLint_v0.0.1-alpha">
           <name>meiLint.xsl</name>
@@ -273,10 +281,24 @@
               <li>update meiversion attributes to 4.0.1</li>
               <li>add missing responsibility statements to change elements</li>
               <li>unify documentation of mei version upgrades (appInfo and revisionDesc)</li>
-               <li>linted with <ref target="#meiLint_v0.0.1-alpha">meiLint.xsl</ref></li>
+              <li>linted with
+                <ref target="#meiLint_v0.0.1-alpha">meiLint.xsl</ref>
+              </li>
             </list></p>
         </changeDesc>
         <date isodate="2023-07-27T17:09:19+02:00"/>
+      </change>
+      <change n="8" resp="#mei40To50.xsl">
+        <changeDesc>
+          <p>Converted to MEI version 5.0 using mei40To50.xsl, version 1.0</p>
+        </changeDesc>
+        <date isodate="2023-07-31"/>
+      </change>
+      <change n="9" resp="#meiLint_v0.0.1-alpha">
+        <changeDesc>
+          <p>Applied lint mode.</p>
+        </changeDesc>
+        <date isodate="2023-07-31T15:40:57+02:00"/>
       </change>
     </revisionDesc>
   </meiHead>
@@ -284,18 +306,18 @@
     <body>
       <mdiv n="1" label="Allegro con brio" decls="#movement1">
         <score>
-          <scoreDef meter.count="3" meter.unit="4" key.sig="1f" key.mode="major">
+          <scoreDef meter.count="3" meter.unit="4" keysig="1f" key.mode="major">
             <staffGrp symbol="bracket">
-              <staffDef n="1" xml:id="s1" clef.line="2" clef.shape="G" key.sig="1f" lines="5">
+              <staffDef n="1" xml:id="s1" clef.line="2" clef.shape="G" keysig="1f" lines="5">
                 <label>Violino I</label>
               </staffDef>
-              <staffDef n="2" xml:id="s2" clef.line="2" clef.shape="G" key.sig="1f" lines="5">
+              <staffDef n="2" xml:id="s2" clef.line="2" clef.shape="G" keysig="1f" lines="5">
                 <label>Violino II</label>
               </staffDef>
-              <staffDef n="3" xml:id="s3" clef.line="3" clef.shape="C" key.sig="1f" lines="5">
+              <staffDef n="3" xml:id="s3" clef.line="3" clef.shape="C" keysig="1f" lines="5">
                 <label>Viola</label>
               </staffDef>
-              <staffDef n="4" xml:id="s4" clef.line="4" clef.shape="F" key.sig="1f" lines="5">
+              <staffDef n="4" xml:id="s4" clef.line="4" clef.shape="F" keysig="1f" lines="5">
                 <label>Violoncello</label>
               </staffDef>
             </staffGrp>
@@ -16047,12 +16069,12 @@
       </mdiv>
       <mdiv n="2" label="Adagio affettuoso ed appasionato" decls="#movement2">
         <score>
-          <scoreDef meter.count="9" meter.unit="8" key.sig="1f" key.mode="minor">
+          <scoreDef meter.count="9" meter.unit="8" keysig="1f" key.mode="minor">
             <staffGrp symbol="bracket">
-              <staffDef n="1" xml:id="s1b" clef.shape="G" clef.line="2" key.sig="1f" lines="5"/>
-              <staffDef n="2" xml:id="s2b" clef.shape="G" clef.line="2" key.sig="1f" lines="5"/>
-              <staffDef n="3" xml:id="s3b" clef.shape="C" clef.line="3" key.sig="1f" lines="5"/>
-              <staffDef n="4" xml:id="s4b" clef.shape="F" clef.line="4" key.sig="1f" lines="5"/>
+              <staffDef n="1" xml:id="s1b" clef.shape="G" clef.line="2" keysig="1f" lines="5"/>
+              <staffDef n="2" xml:id="s2b" clef.shape="G" clef.line="2" keysig="1f" lines="5"/>
+              <staffDef n="3" xml:id="s3b" clef.shape="C" clef.line="3" keysig="1f" lines="5"/>
+              <staffDef n="4" xml:id="s4b" clef.shape="F" clef.line="4" keysig="1f" lines="5"/>
             </staffGrp>
           </scoreDef>
           <section>
@@ -24172,12 +24194,12 @@
       </mdiv>
       <mdiv n="3" label="Scherzo. Allegro molto" decls="#movement3">
         <score>
-          <scoreDef meter.count="3" meter.unit="4" key.sig="1f" key.mode="major">
+          <scoreDef meter.count="3" meter.unit="4" keysig="1f" key.mode="major">
             <staffGrp symbol="bracket">
-              <staffDef n="1" xml:id="s1c" clef.line="2" clef.shape="G" key.sig="1f" lines="5"/>
-              <staffDef n="2" xml:id="s2c" clef.line="2" clef.shape="G" key.sig="1f" lines="5"/>
-              <staffDef n="3" xml:id="s3c" clef.line="3" clef.shape="C" key.sig="1f" lines="5"/>
-              <staffDef n="4" xml:id="s4c" clef.line="4" clef.shape="F" key.sig="1f" lines="5"/>
+              <staffDef n="1" xml:id="s1c" clef.line="2" clef.shape="G" keysig="1f" lines="5"/>
+              <staffDef n="2" xml:id="s2c" clef.line="2" clef.shape="G" keysig="1f" lines="5"/>
+              <staffDef n="3" xml:id="s3c" clef.line="3" clef.shape="C" keysig="1f" lines="5"/>
+              <staffDef n="4" xml:id="s4c" clef.line="4" clef.shape="F" keysig="1f" lines="5"/>
             </staffGrp>
           </scoreDef>
           <section>
@@ -29745,12 +29767,12 @@
       </mdiv>
       <mdiv n="4" label="Allegro" decls="#movement4">
         <score>
-          <scoreDef meter.count="2" meter.unit="4" key.sig="1f" key.mode="minor">
+          <scoreDef meter.count="2" meter.unit="4" keysig="1f" key.mode="minor">
             <staffGrp symbol="bracket">
-              <staffDef n="1" xml:id="s1d" clef.line="2" clef.shape="G" key.sig="1f" lines="5"/>
-              <staffDef n="2" xml:id="s2d" clef.line="2" clef.shape="G" key.sig="1f" lines="5"/>
-              <staffDef n="3" xml:id="s3d" clef.line="3" clef.shape="C" key.sig="1f" lines="5"/>
-              <staffDef n="4" xml:id="s4d" clef.line="4" clef.shape="F" key.sig="1f" lines="5"/>
+              <staffDef n="1" xml:id="s1d" clef.line="2" clef.shape="G" keysig="1f" lines="5"/>
+              <staffDef n="2" xml:id="s2d" clef.line="2" clef.shape="G" keysig="1f" lines="5"/>
+              <staffDef n="3" xml:id="s3d" clef.line="3" clef.shape="C" keysig="1f" lines="5"/>
+              <staffDef n="4" xml:id="s4d" clef.line="4" clef.shape="F" keysig="1f" lines="5"/>
             </staffGrp>
           </scoreDef>
           <section>

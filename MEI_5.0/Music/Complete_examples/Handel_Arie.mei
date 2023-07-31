@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="http://music-encoding.org/schema/4.0.1/mei-all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<?xml-model href="http://music-encoding.org/schema/4.0.1/mei-all.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
-<mei xmlns="http://www.music-encoding.org/ns/mei" meiversion="4.0.1">
+<?xml-model href="https://music-encoding.org/schema/5.0/mei-all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://music-encoding.org/schema/5.0/mei-all.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<mei xmlns="http://www.music-encoding.org/ns/mei" meiversion="5.0">
   <meiHead>
     <fileDesc>
       <titleStmt>
-        <title>Lascia ch'io pianga<titlePart type="subordinate">(Aria from the Opera Rinaldo-HWV7). Arr. for Contralto and string ensemble</titlePart> <titlePart type="subordinate">an electronic transcription</titlePart></title>
+        <title>Lascia ch'io pianga<titlePart type="subordinate">(Aria from the Opera Rinaldo-HWV7). Arr. for Contralto and string ensemble</titlePart><titlePart type="subordinate">an electronic transcription</titlePart></title>
         <composer>
           <persName role="creator" codedval="118544489" auth.uri="http://d-nb.info/gnd/" auth="GND">Georg Friedrich Haendel</persName>
         </composer>
@@ -36,7 +36,8 @@
               <addrLine>Kennedyallee 40</addrLine>
               <addrLine><geogName codedval="7005090" auth.uri="http://vocab.getty.edu/page/tgn/" auth="TGN">Bonn</geogName></addrLine>
               <addrLine><geogName codedval="7000084" auth.uri="http://vocab.getty.edu/page/tgn/" auth="TGN">Germany</geogName></addrLine>
-            </address> </corpName>
+            </address>
+          </corpName>
         </funder>
         <funder>
           <corpName role="funder" codedval="18183-3" auth.uri="http://d-nb.info/gnd/18183-3" auth="Deutsche Nationalbibliothek">National Endowment for the Humanities
@@ -44,7 +45,8 @@
               <addrLine>1100 Pennsylvania Avenue N.W.</addrLine>
               <addrLine><geogName codedval="7013962" auth.uri="http://vocab.getty.edu/page/tgn/" auth="TGN">Washington, DC</geogName>20004</addrLine>
               <addrLine><geogName codedval="7012149" auth.uri="http://vocab.getty.edu/page/tgn/" auth="TGN">United States</geogName></addrLine>
-            </address> </corpName>
+            </address>
+          </corpName>
         </funder>
         <respStmt>
           <corpName role="publisher">MEI Project</corpName>
@@ -106,6 +108,14 @@
           <name>meiLint.xsl</name>
           <ptr target="https://github.com/music-encoding/encoding-tools/blob/main/meiLint/meiLint.xsl"/>
         </application>
+        <application version="v1.0" xml:id="mei40To50.xsl">
+          <name>mei40To50.xsl</name>
+          <ptr target="https://github.com/music-encoding/encoding-tools/blob/main/mei40To50/mei40To50.xsl"/>
+        </application>
+        <application version="v0.0.1-alpha" xml:id="meiLint_v0.0.1-alpha">
+          <name>meiLint.xsl</name>
+          <ptr target="https://github.com/music-encoding/encoding-tools/blob/main/meiLint/meiLint.xsl"/>
+        </application>
       </appInfo>
       <projectDesc>
         <p>Transcoded from a MusicXML version 2.0 file on<date>2011-10-11</date>using an XSLT stylesheet (musicxml2mei v. 2.2.3).</p>
@@ -151,7 +161,7 @@
             <p>Lascia ch´io pianga mia cruda sorte e che sospiri la libeertá</p>
           </incipText>
           <score>
-            <scoreDef meter.count="3" meter.unit="2" key.sig="2s" key.mode="major">
+            <scoreDef meter.count="3" meter.unit="2" keysig="2s" key.mode="major">
               <staffGrp>
                 <staffDef n="1" lines="5" clef.line="2" clef.shape="G"/>
               </staffGrp>
@@ -300,10 +310,24 @@
               <li>update meiversion attributes to 4.0.1</li>
               <li>add missing responsibility statements to change elements</li>
               <li>unify documentation of mei version upgrades (appInfo and revisionDesc)</li>
-               <li>linted with <ref target="#meiLint_v0.0.1-alpha">meiLint.xsl</ref></li>
+              <li>linted with
+                <ref target="#meiLint_v0.0.1-alpha">meiLint.xsl</ref>
+              </li>
             </list></p>
         </changeDesc>
         <date isodate="2023-07-27T17:09:29+02:00"/>
+      </change>
+      <change n="11" resp="#mei40To50.xsl">
+        <changeDesc>
+          <p>Converted to MEI version 5.0 using mei40To50.xsl, version 1.0</p>
+        </changeDesc>
+        <date isodate="2023-07-31"/>
+      </change>
+      <change n="12" resp="#meiLint_v0.0.1-alpha">
+        <changeDesc>
+          <p>Applied lint mode.</p>
+        </changeDesc>
+        <date isodate="2023-07-31T15:41:08+02:00"/>
       </change>
     </revisionDesc>
   </meiHead>
@@ -311,30 +335,30 @@
     <body>
       <mdiv>
         <score>
-          <scoreDef meter.count="3" meter.unit="2" key.sig="2s" key.mode="major">
+          <scoreDef meter.count="3" meter.unit="2" keysig="2s" key.mode="major">
             <pgHead>
-              <title><rend fontsize="12pt" fontweight="bold" halign="center" valign="top">Händel - Lascia ch'io pianga - Score</rend><rend fontsize="24pt" fontweight="bold" halign="center" valign="top">Lascia ch'io pianga</rend><rend fontstyle="italic" fontsize="14pt" fontweight="bold" halign="center" valign="top">(Aria from the Opera Rinaldo-HWV7)</rend><rend halign="right" valign="top"><persName>Georg Friedrich Händel</persName> (1685-1759)
-                  <lb/>Arr.<persName>Michel Rondeau</persName> </rend></title>
+              <title><rend fontsize="12pt" fontweight="bold" halign="center" valign="top">Händel - Lascia ch'io pianga - Score</rend><rend fontsize="24pt" fontweight="bold" halign="center" valign="top">Lascia ch'io pianga</rend><rend fontstyle="italic" fontsize="14pt" fontweight="bold" halign="center" valign="top">(Aria from the Opera Rinaldo-HWV7)</rend><rend halign="right" valign="top"><persName>Georg Friedrich Händel</persName>(1685-1759)
+                  <lb/>Arr.<persName>Michel Rondeau</persName></rend></title>
             </pgHead>
             <pgFoot><rend halign="center" valign="bottom">© 2010 - Gatineau,Qc.Ca.</rend></pgFoot>
             <staffGrp>
-              <staffDef n="1" xml:id="P1" lines="5" clef.line="2" clef.shape="G" key.sig="2s" key.mode="major">
+              <staffDef n="1" xml:id="P1" lines="5" clef.line="2" clef.shape="G" keysig="2s" key.mode="major">
                 <label>Alto</label>
                 <labelAbbr>A.</labelAbbr>
               </staffDef>
-              <staffDef n="2" xml:id="P2" lines="5" clef.line="2" clef.shape="G" key.sig="2s" key.mode="major">
+              <staffDef n="2" xml:id="P2" lines="5" clef.line="2" clef.shape="G" keysig="2s" key.mode="major">
                 <label>Violin I</label>
                 <labelAbbr>Vln. I</labelAbbr>
               </staffDef>
-              <staffDef n="3" xml:id="P3" lines="5" clef.line="2" clef.shape="G" key.sig="2s" key.mode="major">
+              <staffDef n="3" xml:id="P3" lines="5" clef.line="2" clef.shape="G" keysig="2s" key.mode="major">
                 <label>Violin II</label>
                 <labelAbbr>Vln. II</labelAbbr>
               </staffDef>
-              <staffDef n="4" xml:id="P4" lines="5" clef.line="3" clef.shape="C" key.sig="2s" key.mode="major">
+              <staffDef n="4" xml:id="P4" lines="5" clef.line="3" clef.shape="C" keysig="2s" key.mode="major">
                 <label>Viola</label>
                 <labelAbbr>Vla.</labelAbbr>
               </staffDef>
-              <staffDef n="5" xml:id="P5" lines="5" clef.line="4" clef.shape="F" key.sig="2s" key.mode="major" trans.semi="-12" trans.diat="0">
+              <staffDef n="5" xml:id="P5" lines="5" clef.line="4" clef.shape="F" keysig="2s" key.mode="major" trans.semi="-12" trans.diat="0">
                 <label>Double Bass</label>
                 <labelAbbr>D.B.</labelAbbr>
               </staffDef>

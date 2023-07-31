@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="http://music-encoding.org/schema/4.0.1/mei-all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<?xml-model href="http://music-encoding.org/schema/4.0.1/mei-all.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
-<mei xmlns="http://www.music-encoding.org/ns/mei" meiversion="4.0.1">
+<?xml-model href="https://music-encoding.org/schema/5.0/mei-all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://music-encoding.org/schema/5.0/mei-all.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<mei xmlns="http://www.music-encoding.org/ns/mei" meiversion="5.0">
   <meiHead>
     <fileDesc>
       <titleStmt>
@@ -33,6 +33,14 @@
           <name>meiLint.xsl</name>
           <ptr target="https://github.com/music-encoding/encoding-tools/blob/main/meiLint/meiLint.xsl"/>
         </application>
+        <application version="v1.0" xml:id="mei40To50.xsl">
+          <name>mei40To50.xsl</name>
+          <ptr target="https://github.com/music-encoding/encoding-tools/blob/main/mei40To50/mei40To50.xsl"/>
+        </application>
+        <application version="v0.0.1-alpha" xml:id="meiLint_v0.0.1-alpha">
+          <name>meiLint.xsl</name>
+          <ptr target="https://github.com/music-encoding/encoding-tools/blob/main/meiLint/meiLint.xsl"/>
+        </application>
       </appInfo>
       <projectDesc>
         <p>Transcoded from a MusicXML version 3.0 file on<date>2013-04-16</date>using an XSLT stylesheet (musicxml2mei v. 3.0).</p>
@@ -59,10 +67,24 @@
               <li>update meiversion attributes to 4.0.1</li>
               <li>add missing responsibility statements to change elements</li>
               <li>unify documentation of mei version upgrades (appInfo and revisionDesc)</li>
-               <li>linted with <ref target="#meiLint_v0.0.1-alpha">meiLint.xsl</ref></li>
+              <li>linted with
+                <ref target="#meiLint_v0.0.1-alpha">meiLint.xsl</ref>
+              </li>
             </list></p>
         </changeDesc>
         <date isodate="2023-07-27T17:07:52+02:00"/>
+      </change>
+      <change n="3" resp="#mei40To50.xsl">
+        <changeDesc>
+          <p>Converted to MEI version 5.0 using mei40To50.xsl, version 1.0</p>
+        </changeDesc>
+        <date isodate="2023-07-31"/>
+      </change>
+      <change n="4" resp="#meiLint_v0.0.1-alpha">
+        <changeDesc>
+          <p>Applied lint mode.</p>
+        </changeDesc>
+        <date isodate="2023-07-31T15:39:25+02:00"/>
       </change>
     </revisionDesc>
   </meiHead>
@@ -70,7 +92,7 @@
     <body>
       <mdiv>
         <score>
-          <scoreDef meter.count="2" meter.unit="4" key.sig="1s" key.mode="major" optimize="true" music.name="Maestro,engraved" music.size="18pt" text.name="Times New Roman" text.size="9pt" lyric.name="Times New Roman" lyric.size="10pt" vu.height="0.79375mm" page.height="352" page.width="272" page.leftmar="16" page.rightmar="16" page.topmar="16" page.botmar="16" system.leftmar="0" system.rightmar="0" spacing.system="26" system.topmar="14" spacing.staff="16">
+          <scoreDef meter.count="2" meter.unit="4" keysig="1s" key.mode="major" optimize="true" music.name="Maestro,engraved" music.size="18pt" text.name="Times New Roman" text.size="9pt" lyric.name="Times New Roman" lyric.size="10pt" vu.height="0.79375mm" page.height="352" page.width="272" page.leftmar="16" page.rightmar="16" page.topmar="16" page.botmar="16" system.leftmar="0" system.rightmar="0" spacing.system="26" system.topmar="14" spacing.staff="16">
             <staffGrp>
               <staffDef n="1" xml:id="P1" lines="5" clef.line="2" clef.shape="G" visible="false">
                 <label>Voice</label>

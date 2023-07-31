@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="http://music-encoding.org/schema/4.0.1/mei-all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<?xml-model href="http://music-encoding.org/schema/4.0.1/mei-all.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
-<mei xmlns="http://www.music-encoding.org/ns/mei" meiversion="4.0.1">
+<?xml-model href="https://music-encoding.org/schema/5.0/mei-all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://music-encoding.org/schema/5.0/mei-all.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<mei xmlns="http://www.music-encoding.org/ns/mei" meiversion="5.0">
   <meiHead>
     <fileDesc>
       <titleStmt>
@@ -19,7 +19,8 @@
             <address>
               <addrLine>Gartenstrasse 20</addrLine>
               <addrLine>32756<geogName>Detmold</geogName><geogName>Germany</geogName></addrLine>
-            </address> </corpName>
+            </address>
+          </corpName>
         </publisher>
         <availability>
           <useRestrict>This encoding is in the public domain. However, the sources used to create it may be under copyright. We believe their use by the MEI project for educational and research purposes is covered by the Fair Use doctrine. However, we will remove any material from the project archive when requested to do so by the copyright owner.</useRestrict>
@@ -33,13 +34,14 @@
               <addrLine>Kennedyallee 40</addrLine>
               <addrLine><geogName>Bonn</geogName></addrLine>
               <addrLine><geogName>Germany</geogName></addrLine>
-            </address> </corpName>
+            </address>
+          </corpName>
         </funder>
         <funder>
           <corpName role="funder">National Endowment for the Humanities
             <address>
               <addrLine>1100 Pennsylvania Avenue N.W.</addrLine>
-              <addrLine><geogName>Washington, DC</geogName> 20004</addrLine>
+              <addrLine><geogName>Washington, DC</geogName>20004</addrLine>
               <addrLine><geogName>United States</geogName></addrLine>
             </address>
           </corpName>
@@ -54,6 +56,14 @@
         <application version="v1.0_beta" xml:id="mei30To40">
           <name>mei30To40.xsl</name>
           <ptr target="https://github.com/music-encoding/encoding-tools/blob/main/mei30To40/mei30To40.xsl"/>
+        </application>
+        <application version="v0.0.1-alpha" xml:id="meiLint_v0.0.1-alpha">
+          <name>meiLint.xsl</name>
+          <ptr target="https://github.com/music-encoding/encoding-tools/blob/main/meiLint/meiLint.xsl"/>
+        </application>
+        <application version="v1.0" xml:id="mei40To50.xsl">
+          <name>mei40To50.xsl</name>
+          <ptr target="https://github.com/music-encoding/encoding-tools/blob/main/mei40To50/mei40To50.xsl"/>
         </application>
         <application version="v0.0.1-alpha" xml:id="meiLint_v0.0.1-alpha">
           <name>meiLint.xsl</name>
@@ -155,10 +165,24 @@
               <li>update meiversion attributes to 4.0.1</li>
               <li>add missing responsibility statements to change elements</li>
               <li>unify documentation of mei version upgrades (appInfo and revisionDesc)</li>
-               <li>linted with <ref target="#meiLint_v0.0.1-alpha">meiLint.xsl</ref></li>
+              <li>linted with
+                <ref target="#meiLint_v0.0.1-alpha">meiLint.xsl</ref>
+              </li>
             </list></p>
         </changeDesc>
         <date isodate="2023-07-27T17:11:06+02:00"/>
+      </change>
+      <change n="3" resp="#mei40To50.xsl">
+        <changeDesc>
+          <p>Converted to MEI version 5.0 using mei40To50.xsl, version 1.0</p>
+        </changeDesc>
+        <date isodate="2023-07-31"/>
+      </change>
+      <change n="4" resp="#meiLint_v0.0.1-alpha">
+        <changeDesc>
+          <p>Applied lint mode.</p>
+        </changeDesc>
+        <date isodate="2023-07-31T15:43:42+02:00"/>
       </change>
     </revisionDesc>
   </meiHead>
@@ -166,7 +190,7 @@
     <body>
       <mdiv>
         <score>
-          <scoreDef meter.count="3" meter.unit="4" key.sig="3f" key.mode="minor" key.pname="c">
+          <scoreDef meter.count="3" meter.unit="4" keysig="3f" key.mode="minor" key.pname="c">
             <staffGrp symbol="bracket">
               <staffDef n="1" lines="5" clef.shape="G" clef.line="2">
                 <label>Flauto traverso.</label>

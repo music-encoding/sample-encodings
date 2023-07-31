@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="http://music-encoding.org/schema/4.0.1/mei-all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<?xml-model href="http://music-encoding.org/schema/4.0.1/mei-all.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
-<mei xmlns="http://www.music-encoding.org/ns/mei" meiversion="4.0.1">
+<?xml-model href="https://music-encoding.org/schema/5.0/mei-all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://music-encoding.org/schema/5.0/mei-all.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<mei xmlns="http://www.music-encoding.org/ns/mei" meiversion="5.0">
   <meiHead>
     <fileDesc>
       <titleStmt>
-        <title>Hallelujah - Chorus<titlePart type="subordinate">(from Messiah-HWV-56) for choir and wind ensemble</titlePart> <titlePart type="subordinate">an electronic transcription</titlePart></title>
+        <title>Hallelujah - Chorus<titlePart type="subordinate">(from Messiah-HWV-56) for choir and wind ensemble</titlePart><titlePart type="subordinate">an electronic transcription</titlePart></title>
         <composer>
           <persName role="creator" codedval="118544489" auth.uri="http://d-nb.info/gnd/" auth="GND">Georg Friedrich Händel</persName>
         </composer>
@@ -36,7 +36,8 @@
               <addrLine>Kennedyallee 40</addrLine>
               <addrLine><geogName codedval="7005090" auth.uri="http://vocab.getty.edu/page/tgn/" auth="TGN">Bonn</geogName></addrLine>
               <addrLine><geogName codedval="7000084" auth.uri="http://vocab.getty.edu/page/tgn/" auth="TGN">Germany</geogName></addrLine>
-            </address> </corpName>
+            </address>
+          </corpName>
         </funder>
         <funder>
           <corpName role="funder" codedval="18183-3" auth.uri="http://d-nb.info/gnd/18183-3" auth="Deutsche Nationalbibliothek">National Endowment for the Humanities
@@ -44,7 +45,8 @@
               <addrLine>1100 Pennsylvania Avenue N.W.</addrLine>
               <addrLine><geogName codedval="7013962" auth.uri="http://vocab.getty.edu/page/tgn/" auth="TGN">Washington, DC</geogName>20004</addrLine>
               <addrLine><geogName codedval="7012149" auth.uri="http://vocab.getty.edu/page/tgn/" auth="TGN">United States</geogName></addrLine>
-            </address> </corpName>
+            </address>
+          </corpName>
         </funder>
         <respStmt>
           <corpName role="publisher">MEI Project</corpName>
@@ -96,6 +98,14 @@
         <application version="v1.0_beta" xml:id="mei30To40">
           <name>mei30To40.xsl</name>
           <ptr target="https://github.com/music-encoding/encoding-tools/blob/main/mei30To40/mei30To40.xsl"/>
+        </application>
+        <application version="v0.0.1-alpha" xml:id="meiLint_v0.0.1-alpha">
+          <name>meiLint.xsl</name>
+          <ptr target="https://github.com/music-encoding/encoding-tools/blob/main/meiLint/meiLint.xsl"/>
+        </application>
+        <application version="v1.0" xml:id="mei40To50.xsl">
+          <name>mei40To50.xsl</name>
+          <ptr target="https://github.com/music-encoding/encoding-tools/blob/main/mei40To50/mei40To50.xsl"/>
         </application>
         <application version="v0.0.1-alpha" xml:id="meiLint_v0.0.1-alpha">
           <name>meiLint.xsl</name>
@@ -263,10 +273,24 @@
               <li>update meiversion attributes to 4.0.1</li>
               <li>add missing responsibility statements to change elements</li>
               <li>unify documentation of mei version upgrades (appInfo and revisionDesc)</li>
-               <li>linted with <ref target="#meiLint_v0.0.1-alpha">meiLint.xsl</ref></li>
+              <li>linted with
+                <ref target="#meiLint_v0.0.1-alpha">meiLint.xsl</ref>
+              </li>
             </list></p>
         </changeDesc>
         <date isodate="2023-07-27T17:09:39+02:00"/>
+      </change>
+      <change n="10" resp="#mei40To50.xsl">
+        <changeDesc>
+          <p>Converted to MEI version 5.0 using mei40To50.xsl, version 1.0</p>
+        </changeDesc>
+        <date isodate="2023-07-31"/>
+      </change>
+      <change n="11" resp="#meiLint_v0.0.1-alpha">
+        <changeDesc>
+          <p>Applied lint mode.</p>
+        </changeDesc>
+        <date isodate="2023-07-31T15:41:19+02:00"/>
       </change>
     </revisionDesc>
   </meiHead>
@@ -274,108 +298,108 @@
     <body>
       <mdiv>
         <score>
-          <scoreDef meter.count="4" meter.unit="4" key.sig="0" key.mode="major">
+          <scoreDef meter.count="4" meter.unit="4" keysig="0" key.mode="major">
             <pgHead>
               <title><rend fontsize="24pt" fontweight="bold" halign="center" valign="top">HALLELUJAH - Chorus
-                  <lb/> </rend>
+                  <lb/></rend>
                 <lb/><rend fontsize="14pt" fontweight="bold">(From Messiah-HWV-56)</rend><rend fontstyle="italic" fontsize="12pt" fontweight="bold" halign="center" valign="top">for Choir &amp; Wind Ensemble</rend><rend fontsize="12pt" fontweight="bold" halign="right" valign="top">Georg Friedrich Händel (1685-1759)
                   <lb/>Arr. Michel Rondeau</rend></title>
             </pgHead>
             <pgFoot><rend fontsize="11pt" fontweight="bold" valign="top">© 2010 - Gatineau,Qc.Ca.</rend></pgFoot>
             <staffGrp bar.thru="true" symbol="bracket">
-              <staffDef n="1" xml:id="P1" lines="5" clef.line="2" clef.shape="G" key.sig="0" key.mode="major" trans.semi="12" trans.diat="0">
+              <staffDef n="1" xml:id="P1" lines="5" clef.line="2" clef.shape="G" keysig="0" key.mode="major" trans.semi="12" trans.diat="0">
                 <label>Piccolo</label>
                 <labelAbbr>Picc.</labelAbbr>
               </staffDef>
-              <staffDef n="2" xml:id="P2" lines="5" clef.line="2" clef.shape="G" key.sig="0" key.mode="major">
+              <staffDef n="2" xml:id="P2" lines="5" clef.line="2" clef.shape="G" keysig="0" key.mode="major">
                 <label>Flute 1</label>
                 <labelAbbr>Fl. 1</labelAbbr>
               </staffDef>
-              <staffDef n="3" xml:id="P3" lines="5" clef.line="2" clef.shape="G" key.sig="0" key.mode="major">
+              <staffDef n="3" xml:id="P3" lines="5" clef.line="2" clef.shape="G" keysig="0" key.mode="major">
                 <label>Flute 2</label>
                 <labelAbbr>Fl. 2</labelAbbr>
               </staffDef>
-              <staffDef n="4" xml:id="P4" lines="5" clef.line="2" clef.shape="G" key.sig="0" key.mode="major">
+              <staffDef n="4" xml:id="P4" lines="5" clef.line="2" clef.shape="G" keysig="0" key.mode="major">
                 <label>Oboe</label>
                 <labelAbbr>Ob.</labelAbbr>
               </staffDef>
-              <staffDef n="5" xml:id="P5" lines="5" clef.line="2" clef.shape="G" key.sig="2s" key.mode="major" trans.semi="-2" trans.diat="-1">
+              <staffDef n="5" xml:id="P5" lines="5" clef.line="2" clef.shape="G" keysig="2s" key.mode="major" trans.semi="-2" trans.diat="-1">
                 <label>Clarinet in Bb 1</label>
                 <labelAbbr>Bb Cl. 1</labelAbbr>
               </staffDef>
-              <staffDef n="6" xml:id="P6" lines="5" clef.line="2" clef.shape="G" key.sig="2s" key.mode="major" trans.semi="-2" trans.diat="-1">
+              <staffDef n="6" xml:id="P6" lines="5" clef.line="2" clef.shape="G" keysig="2s" key.mode="major" trans.semi="-2" trans.diat="-1">
                 <label>Clarinet in Bb 2</label>
                 <labelAbbr>Bb Cl. 2</labelAbbr>
               </staffDef>
-              <staffDef n="7" xml:id="P7" lines="5" clef.line="2" clef.shape="G" key.sig="2s" key.mode="major" trans.semi="-14" trans.diat="-1">
+              <staffDef n="7" xml:id="P7" lines="5" clef.line="2" clef.shape="G" keysig="2s" key.mode="major" trans.semi="-14" trans.diat="-1">
                 <label>Bass Clarinet</label>
                 <labelAbbr>B. Cl.</labelAbbr>
               </staffDef>
-              <staffDef n="8" xml:id="P8" lines="5" clef.line="2" clef.shape="G" key.sig="3s" key.mode="major" trans.semi="-9" trans.diat="-5">
+              <staffDef n="8" xml:id="P8" lines="5" clef.line="2" clef.shape="G" keysig="3s" key.mode="major" trans.semi="-9" trans.diat="-5">
                 <label>Alto Sax. 1</label>
                 <labelAbbr>A. Sx. 1</labelAbbr>
               </staffDef>
-              <staffDef n="9" xml:id="P9" lines="5" clef.line="2" clef.shape="G" key.sig="3s" key.mode="major" trans.semi="-9" trans.diat="-5">
+              <staffDef n="9" xml:id="P9" lines="5" clef.line="2" clef.shape="G" keysig="3s" key.mode="major" trans.semi="-9" trans.diat="-5">
                 <label>Alto Sax. 2</label>
                 <labelAbbr>A. Sx. 2</labelAbbr>
               </staffDef>
-              <staffDef n="10" xml:id="P10" lines="5" clef.line="2" clef.shape="G" key.sig="2s" key.mode="major" trans.semi="-14" trans.diat="-1">
+              <staffDef n="10" xml:id="P10" lines="5" clef.line="2" clef.shape="G" keysig="2s" key.mode="major" trans.semi="-14" trans.diat="-1">
                 <label>Tenor Sax.</label>
                 <labelAbbr>T. Sx.</labelAbbr>
               </staffDef>
-              <staffDef n="11" xml:id="P11" lines="5" clef.line="2" clef.shape="G" key.sig="3s" key.mode="major" trans.semi="-21" trans.diat="-5">
+              <staffDef n="11" xml:id="P11" lines="5" clef.line="2" clef.shape="G" keysig="3s" key.mode="major" trans.semi="-21" trans.diat="-5">
                 <label>Baritone Sax.</label>
                 <labelAbbr>B. Sx.</labelAbbr>
               </staffDef>
-              <staffDef n="12" xml:id="P12" lines="5" clef.line="4" clef.shape="F" key.sig="0" key.mode="major">
+              <staffDef n="12" xml:id="P12" lines="5" clef.line="4" clef.shape="F" keysig="0" key.mode="major">
                 <label>Bassoon</label>
                 <labelAbbr>Bsn.</labelAbbr>
               </staffDef>
-              <staffDef n="13" xml:id="P13" lines="5" clef.line="2" clef.shape="G" key.sig="1s" key.mode="major" trans.semi="-7" trans.diat="-4">
+              <staffDef n="13" xml:id="P13" lines="5" clef.line="2" clef.shape="G" keysig="1s" key.mode="major" trans.semi="-7" trans.diat="-4">
                 <label>Horn in F</label>
                 <labelAbbr>Hn.</labelAbbr>
               </staffDef>
-              <staffDef n="14" xml:id="P14" lines="5" clef.line="2" clef.shape="G" key.sig="2s" key.mode="major" trans.semi="-2" trans.diat="-1">
+              <staffDef n="14" xml:id="P14" lines="5" clef.line="2" clef.shape="G" keysig="2s" key.mode="major" trans.semi="-2" trans.diat="-1">
                 <label>Trumpet in Bb 1</label>
                 <labelAbbr>Bb Tpt. 1</labelAbbr>
               </staffDef>
-              <staffDef n="15" xml:id="P15" lines="5" clef.line="2" clef.shape="G" key.sig="2s" key.mode="major" trans.semi="-2" trans.diat="-1">
+              <staffDef n="15" xml:id="P15" lines="5" clef.line="2" clef.shape="G" keysig="2s" key.mode="major" trans.semi="-2" trans.diat="-1">
                 <label>Trumpet in Bb 2</label>
                 <labelAbbr>Bb Tpt. 2</labelAbbr>
               </staffDef>
-              <staffDef n="16" xml:id="P16" lines="5" clef.line="4" clef.shape="F" key.sig="0" key.mode="major">
+              <staffDef n="16" xml:id="P16" lines="5" clef.line="4" clef.shape="F" keysig="0" key.mode="major">
                 <label>Trombone</label>
                 <labelAbbr>Tbn.</labelAbbr>
               </staffDef>
-              <staffDef n="17" xml:id="P17" lines="5" clef.line="4" clef.shape="F" key.sig="0" key.mode="major">
+              <staffDef n="17" xml:id="P17" lines="5" clef.line="4" clef.shape="F" keysig="0" key.mode="major">
                 <label>Bass Trombone</label>
                 <labelAbbr>B. Tbn.</labelAbbr>
               </staffDef>
-              <staffDef n="18" xml:id="P18" lines="5" clef.line="4" clef.shape="F" key.sig="0" key.mode="major">
+              <staffDef n="18" xml:id="P18" lines="5" clef.line="4" clef.shape="F" keysig="0" key.mode="major">
                 <label>Euphonium</label>
                 <labelAbbr>Euph.</labelAbbr>
               </staffDef>
-              <staffDef n="19" xml:id="P19" lines="5" clef.line="4" clef.shape="F" key.sig="0" key.mode="major">
+              <staffDef n="19" xml:id="P19" lines="5" clef.line="4" clef.shape="F" keysig="0" key.mode="major">
                 <label>Tuba</label>
                 <labelAbbr>Tuba</labelAbbr>
               </staffDef>
-              <staffDef n="20" xml:id="P20" lines="5" clef.line="4" clef.shape="F" key.sig="0" key.mode="major">
+              <staffDef n="20" xml:id="P20" lines="5" clef.line="4" clef.shape="F" keysig="0" key.mode="major">
                 <label>Timpani</label>
                 <labelAbbr>Timp.</labelAbbr>
               </staffDef>
-              <staffDef n="21" xml:id="P21" lines="5" clef.line="2" clef.shape="G" key.sig="0" key.mode="major">
+              <staffDef n="21" xml:id="P21" lines="5" clef.line="2" clef.shape="G" keysig="0" key.mode="major">
                 <label>Soprano</label>
                 <labelAbbr>S</labelAbbr>
               </staffDef>
-              <staffDef n="22" xml:id="P22" lines="5" clef.line="2" clef.shape="G" key.sig="0" key.mode="major">
+              <staffDef n="22" xml:id="P22" lines="5" clef.line="2" clef.shape="G" keysig="0" key.mode="major">
                 <label>Alto</label>
                 <labelAbbr>A</labelAbbr>
               </staffDef>
-              <staffDef n="23" xml:id="P23" clef.dis="8" clef.dis.place="below" lines="5" clef.line="2" clef.shape="G" key.sig="0" key.mode="major">
+              <staffDef n="23" xml:id="P23" clef.dis="8" clef.dis.place="below" lines="5" clef.line="2" clef.shape="G" keysig="0" key.mode="major">
                 <label>Tenor</label>
                 <labelAbbr>T</labelAbbr>
               </staffDef>
-              <staffDef n="24" xml:id="P24" lines="5" clef.line="4" clef.shape="F" key.sig="0" key.mode="major">
+              <staffDef n="24" xml:id="P24" lines="5" clef.line="4" clef.shape="F" keysig="0" key.mode="major">
                 <label>Bass</label>
                 <labelAbbr>B</labelAbbr>
               </staffDef>

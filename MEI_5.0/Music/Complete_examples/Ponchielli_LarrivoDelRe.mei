@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="http://music-encoding.org/schema/4.0.1/mei-all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<?xml-model href="http://music-encoding.org/schema/4.0.1/mei-all.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
-<mei xmlns="http://www.music-encoding.org/ns/mei" meiversion="4.0.1">
+<?xml-model href="https://music-encoding.org/schema/5.0/mei-all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://music-encoding.org/schema/5.0/mei-all.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<mei xmlns="http://www.music-encoding.org/ns/mei" meiversion="5.0">
   <meiHead>
     <fileDesc>
       <titleStmt>
-        <title>L'arrivo del Re<titlePart type="subordinate">Marcia, Op. 164</titlePart> <titlePart type="subordinate">an electronic transcription</titlePart></title>
+        <title>L'arrivo del Re<titlePart type="subordinate">Marcia, Op. 164</titlePart><titlePart type="subordinate">an electronic transcription</titlePart></title>
         <composer>
           <persName role="creator" codedval="119060507" auth.uri="http://d-nb.info/gnd/" auth="GND">Amilcare Ponchielli</persName>
         </composer>
@@ -36,7 +36,8 @@
               <addrLine>Kennedyallee 40</addrLine>
               <addrLine><geogName codedval="7005090" auth.uri="http://vocab.getty.edu/page/tgn/" auth="TGN">Bonn</geogName></addrLine>
               <addrLine><geogName codedval="7000084" auth.uri="http://vocab.getty.edu/page/tgn/" auth="TGN">Germany</geogName></addrLine>
-            </address> </corpName>
+            </address>
+          </corpName>
         </funder>
         <funder>
           <corpName role="funder" codedval="18183-3" auth.uri="http://d-nb.info/gnd/18183-3" auth="Deutsche Nationalbibliothek">National Endowment for the Humanities
@@ -44,7 +45,8 @@
               <addrLine>1100 Pennsylvania Avenue N.W.</addrLine>
               <addrLine><geogName codedval="7013962" auth.uri="http://vocab.getty.edu/page/tgn/" auth="TGN">Washington, DC</geogName>20004</addrLine>
               <addrLine><geogName codedval="7012149" auth.uri="http://vocab.getty.edu/page/tgn/" auth="TGN">United States</geogName></addrLine>
-            </address> </corpName>
+            </address>
+          </corpName>
         </funder>
         <respStmt>
           <corpName role="publisher">MEI Project</corpName>
@@ -106,6 +108,14 @@
           <name>meiLint.xsl</name>
           <ptr target="https://github.com/music-encoding/encoding-tools/blob/main/meiLint/meiLint.xsl"/>
         </application>
+        <application version="v1.0" xml:id="mei40To50.xsl">
+          <name>mei40To50.xsl</name>
+          <ptr target="https://github.com/music-encoding/encoding-tools/blob/main/mei40To50/mei40To50.xsl"/>
+        </application>
+        <application version="v0.0.1-alpha" xml:id="meiLint_v0.0.1-alpha">
+          <name>meiLint.xsl</name>
+          <ptr target="https://github.com/music-encoding/encoding-tools/blob/main/meiLint/meiLint.xsl"/>
+        </application>
       </appInfo>
       <samplingDecl>
         <p>The encoding includes additional layout information.</p>
@@ -148,75 +158,75 @@
           <score>
             <scoreDef>
               <staffGrp>
-                <staffDef n="1" lines="5" clef.line="2" clef.shape="G" key.sig="0" key.mode="major" trans.semi="8" trans.diat="5">
+                <staffDef n="1" lines="5" clef.line="2" clef.shape="G" keysig="0" key.mode="major" trans.semi="8" trans.diat="5">
                   <label>Clarino Lab</label>
                   <labelAbbr>Lab</labelAbbr>
                 </staffDef>
-                <staffDef n="2" lines="5" clef.line="2" clef.shape="G" key.sig="1f" key.mode="major" trans.semi="3" trans.diat="2">
+                <staffDef n="2" lines="5" clef.line="2" clef.shape="G" keysig="1f" key.mode="major" trans.semi="3" trans.diat="2">
                   <label>Clarino Mib</label>
                   <labelAbbr>Mib</labelAbbr>
                 </staffDef>
-                <staffDef n="3" lines="5" clef.line="2" clef.shape="G" key.sig="2f" key.mode="major" trans.semi="-2" trans.diat="-1">
+                <staffDef n="3" lines="5" clef.line="2" clef.shape="G" keysig="2f" key.mode="major" trans.semi="-2" trans.diat="-1">
                   <label>Clarino Sib 1</label>
                   <labelAbbr>Sib 1</labelAbbr>
                 </staffDef>
-                <staffDef n="4" lines="5" clef.line="2" clef.shape="G" key.sig="2f" key.mode="major" trans.semi="-2" trans.diat="-1" spacing="97">
+                <staffDef n="4" lines="5" clef.line="2" clef.shape="G" keysig="2f" key.mode="major" trans.semi="-2" trans.diat="-1" spacing="97">
                   <label>Clarino Sib 2</label>
                   <labelAbbr>Sib 2</labelAbbr>
                 </staffDef>
-                <staffDef n="5" lines="5" clef.line="2" clef.shape="G" key.sig="2f" key.mode="major" trans.semi="-2" trans.diat="-1" spacing="97">
+                <staffDef n="5" lines="5" clef.line="2" clef.shape="G" keysig="2f" key.mode="major" trans.semi="-2" trans.diat="-1" spacing="97">
                   <label>Clarino Sib 3</label>
                   <labelAbbr>Sib 3</labelAbbr>
                 </staffDef>
-                <staffDef n="6" lines="5" clef.line="2" clef.shape="G" key.sig="2f" key.mode="major" trans.semi="-2" trans.diat="-1">
+                <staffDef n="6" lines="5" clef.line="2" clef.shape="G" keysig="2f" key.mode="major" trans.semi="-2" trans.diat="-1">
                   <label>Cornetto Sib</label>
                   <labelAbbr>Cnt. Sib</labelAbbr>
                 </staffDef>
-                <staffDef n="7" lines="5" clef.line="2" clef.shape="G" key.sig="2f" key.mode="major" trans.semi="-2" trans.diat="-1" spacing="96">
+                <staffDef n="7" lines="5" clef.line="2" clef.shape="G" keysig="2f" key.mode="major" trans.semi="-2" trans.diat="-1" spacing="96">
                   <label>Flicorno Sib</label>
                   <labelAbbr>Flc. Sib</labelAbbr>
                 </staffDef>
-                <staffDef n="8" lines="5" clef.line="2" clef.shape="G" key.sig="1f" key.mode="major" trans.semi="-9" trans.diat="-5" spacing="97">
+                <staffDef n="8" lines="5" clef.line="2" clef.shape="G" keysig="1f" key.mode="major" trans.semi="-9" trans.diat="-5" spacing="97">
                   <label>Corni Mib</label>
                   <labelAbbr>Cni. Mib</labelAbbr>
                 </staffDef>
-                <staffDef n="9" lines="5" clef.line="2" clef.shape="G" key.sig="1f" key.mode="major" trans.semi="3" trans.diat="2">
+                <staffDef n="9" lines="5" clef.line="2" clef.shape="G" keysig="1f" key.mode="major" trans.semi="3" trans.diat="2">
                   <label>Tromba Mib 1</label>
                   <labelAbbr>Tr. Mib 1</labelAbbr>
                 </staffDef>
-                <staffDef n="10" lines="5" clef.line="2" clef.shape="G" key.sig="1f" key.mode="major" trans.semi="3" trans.diat="2">
+                <staffDef n="10" lines="5" clef.line="2" clef.shape="G" keysig="1f" key.mode="major" trans.semi="3" trans.diat="2">
                   <label>Tromba Mib 2</label>
                   <labelAbbr>Tr. Mib 2</labelAbbr>
                 </staffDef>
-                <staffDef n="11" lines="5" clef.line="2" clef.shape="G" key.sig="1f" key.mode="major" trans.semi="3" trans.diat="2">
+                <staffDef n="11" lines="5" clef.line="2" clef.shape="G" keysig="1f" key.mode="major" trans.semi="3" trans.diat="2">
                   <label>Trombe Mib 3&amp;4</label>
                   <labelAbbr>Tr. Mib 3&amp;4</labelAbbr>
                 </staffDef>
-                <staffDef n="12" lines="5" clef.line="2" clef.shape="G" key.sig="1f" key.mode="major" trans.semi="3" trans.diat="2" spacing="97">
+                <staffDef n="12" lines="5" clef.line="2" clef.shape="G" keysig="1f" key.mode="major" trans.semi="3" trans.diat="2" spacing="97">
                   <label>Tromba Mib 5</label>
                   <labelAbbr>Tr. Mib 5</labelAbbr>
                 </staffDef>
-                <staffDef n="13" lines="5" clef.line="4" clef.shape="F" key.sig="4f" key.mode="major">
+                <staffDef n="13" lines="5" clef.line="4" clef.shape="F" keysig="4f" key.mode="major">
                   <label>Flicornobasso</label>
                   <labelAbbr>Flcb.</labelAbbr>
                 </staffDef>
-                <staffDef n="14" lines="5" clef.line="4" clef.shape="F" key.sig="4f" key.mode="major">
+                <staffDef n="14" lines="5" clef.line="4" clef.shape="F" keysig="4f" key.mode="major">
                   <label>Bombardino</label>
                   <labelAbbr>Bino.</labelAbbr>
                 </staffDef>
-                <staffDef n="15" lines="5" clef.line="4" clef.shape="F" key.sig="4f" key.mode="major" spacing="97">
+                <staffDef n="15" lines="5" clef.line="4" clef.shape="F" keysig="4f" key.mode="major" spacing="97">
                   <label>Trombone 1&amp;2</label>
                   <labelAbbr>Tbn. 1&amp;2</labelAbbr>
                 </staffDef>
-                <staffDef n="16" lines="5" clef.line="4" clef.shape="F" key.sig="4f" key.mode="major" spacing="97">
+                <staffDef n="16" lines="5" clef.line="4" clef.shape="F" keysig="4f" key.mode="major" spacing="97">
                   <label>Trombone 3</label>
                   <labelAbbr>Tbn. 3</labelAbbr>
                 </staffDef>
-                <staffDef n="17" lines="5" clef.line="4" clef.shape="F" key.sig="4f" key.mode="major" spacing="96">
+                <staffDef n="17" lines="5" clef.line="4" clef.shape="F" keysig="4f" key.mode="major" spacing="96">
                   <label>Bassi</label>
                   <labelAbbr>Bassi</labelAbbr>
                 </staffDef>
-                <staffDef n="18" lines="1" clef.shape="perc" key.sig="4f" key.mode="major" spacing="117">
+                <staffDef n="18" lines="1" clef.shape="perc" keysig="4f" key.mode="major" spacing="117">
                   <label>Batteria</label>
                   <labelAbbr>Batt.</labelAbbr>
                 </staffDef>
@@ -503,10 +513,24 @@
               <li>update meiversion attributes to 4.0.1</li>
               <li>add missing responsibility statements to change elements</li>
               <li>unify documentation of mei version upgrades (appInfo and revisionDesc)</li>
-               <li>linted with <ref target="#meiLint_v0.0.1-alpha">meiLint.xsl</ref></li>
+              <li>linted with
+                <ref target="#meiLint_v0.0.1-alpha">meiLint.xsl</ref>
+              </li>
             </list></p>
         </changeDesc>
         <date isodate="2023-07-27T17:08:09+02:00"/>
+      </change>
+      <change n="11" resp="#mei40To50.xsl">
+        <changeDesc>
+          <p>Converted to MEI version 5.0 using mei40To50.xsl, version 1.0</p>
+        </changeDesc>
+        <date isodate="2023-07-31"/>
+      </change>
+      <change n="12" resp="#meiLint_v0.0.1-alpha">
+        <changeDesc>
+          <p>Applied lint mode.</p>
+        </changeDesc>
+        <date isodate="2023-07-31T15:39:42+02:00"/>
       </change>
     </revisionDesc>
   </meiHead>
@@ -517,103 +541,103 @@
           <scoreDef meter.count="6" meter.unit="8">
             <pgHead>
               <title><rend halign="center" valign="top">L'arrivo del Re
-                  <lb/> </rend>
+                  <lb/></rend>
                 <lb/>Marcia, Op. 164, PP.144.2</title><rend halign="right" valign="top"><persName>Amilcare Ponchielli</persName>
                 <lb/>ed. Howey</rend></pgHead>
             <staffGrp symbol="bracket">
-              <staffDef n="1" xml:id="P1" lines="5" clef.line="2" clef.shape="G" key.sig="0" key.mode="major" trans.semi="8" trans.diat="5">
+              <staffDef n="1" xml:id="P1" lines="5" clef.line="2" clef.shape="G" keysig="0" key.mode="major" trans.semi="8" trans.diat="5">
                 <label>Clarino Lab</label>
                 <labelAbbr>Lab</labelAbbr>
-                <instrDef n="Clarinet_in_Eb_1" xml:id="P1-I1"/>
+                <instrDef label="Clarinet_in_Eb_1" xml:id="P1-I1"/>
               </staffDef>
-              <staffDef n="2" xml:id="P2" lines="5" clef.line="2" clef.shape="G" key.sig="1f" key.mode="major" trans.semi="3" trans.diat="2">
+              <staffDef n="2" xml:id="P2" lines="5" clef.line="2" clef.shape="G" keysig="1f" key.mode="major" trans.semi="3" trans.diat="2">
                 <label>Clarino Mib</label>
                 <labelAbbr>Mib</labelAbbr>
-                <instrDef n="Clarinet_in_Eb_2" xml:id="P2-I2"/>
+                <instrDef label="Clarinet_in_Eb_2" xml:id="P2-I2"/>
               </staffDef>
-              <staffDef n="3" xml:id="P3" lines="5" clef.line="2" clef.shape="G" key.sig="2f" key.mode="major" trans.semi="-2" trans.diat="-1">
+              <staffDef n="3" xml:id="P3" lines="5" clef.line="2" clef.shape="G" keysig="2f" key.mode="major" trans.semi="-2" trans.diat="-1">
                 <label>Clarino Sib 1</label>
                 <labelAbbr>Sib 1</labelAbbr>
-                <instrDef n="Clarinet_in_Bb_1" xml:id="P3-I3"/>
+                <instrDef label="Clarinet_in_Bb_1" xml:id="P3-I3"/>
               </staffDef>
-              <staffDef n="4" xml:id="P4" lines="5" clef.line="2" clef.shape="G" key.sig="2f" key.mode="major" trans.semi="-2" trans.diat="-1" spacing="97">
+              <staffDef n="4" xml:id="P4" lines="5" clef.line="2" clef.shape="G" keysig="2f" key.mode="major" trans.semi="-2" trans.diat="-1" spacing="97">
                 <label>Clarino Sib 2</label>
                 <labelAbbr>Sib 2</labelAbbr>
-                <instrDef n="Clarinet_in_Bb_2" xml:id="P4-I4"/>
+                <instrDef label="Clarinet_in_Bb_2" xml:id="P4-I4"/>
               </staffDef>
-              <staffDef n="5" xml:id="P5" lines="5" clef.line="2" clef.shape="G" key.sig="2f" key.mode="major" trans.semi="-2" trans.diat="-1" spacing="97">
+              <staffDef n="5" xml:id="P5" lines="5" clef.line="2" clef.shape="G" keysig="2f" key.mode="major" trans.semi="-2" trans.diat="-1" spacing="97">
                 <label>Clarino Sib 3</label>
                 <labelAbbr>Sib 3</labelAbbr>
-                <instrDef n="Clarinet_in_Bb_3" xml:id="P5-I5"/>
+                <instrDef label="Clarinet_in_Bb_3" xml:id="P5-I5"/>
               </staffDef>
-              <staffDef n="6" xml:id="P6" lines="5" clef.line="2" clef.shape="G" key.sig="2f" key.mode="major" trans.semi="-2" trans.diat="-1">
+              <staffDef n="6" xml:id="P6" lines="5" clef.line="2" clef.shape="G" keysig="2f" key.mode="major" trans.semi="-2" trans.diat="-1">
                 <label>Cornetto Sib</label>
                 <labelAbbr>Cnt. Sib</labelAbbr>
-                <instrDef n="Cornet_2" xml:id="P6-I9"/>
+                <instrDef label="Cornet_2" xml:id="P6-I9"/>
               </staffDef>
-              <staffDef n="7" xml:id="P7" lines="5" clef.line="2" clef.shape="G" key.sig="2f" key.mode="major" trans.semi="-2" trans.diat="-1" spacing="96">
+              <staffDef n="7" xml:id="P7" lines="5" clef.line="2" clef.shape="G" keysig="2f" key.mode="major" trans.semi="-2" trans.diat="-1" spacing="96">
                 <label>Flicorno Sib</label>
                 <labelAbbr>Flc. Sib</labelAbbr>
-                <instrDef n="Flugelhorn_1" xml:id="P7-I11"/>
+                <instrDef label="Flugelhorn_1" xml:id="P7-I11"/>
               </staffDef>
-              <staffDef n="8" xml:id="P8" lines="5" clef.line="2" clef.shape="G" key.sig="1f" key.mode="major" trans.semi="-9" trans.diat="-5" spacing="97">
+              <staffDef n="8" xml:id="P8" lines="5" clef.line="2" clef.shape="G" keysig="1f" key.mode="major" trans.semi="-9" trans.diat="-5" spacing="97">
                 <label>Corni Mib</label>
                 <labelAbbr>Cni. Mib</labelAbbr>
-                <instrDef n="Horn_in_F" xml:id="P8-I13"/>
+                <instrDef label="Horn_in_F" xml:id="P8-I13"/>
               </staffDef>
-              <staffDef n="9" xml:id="P9" lines="5" clef.line="2" clef.shape="G" key.sig="1f" key.mode="major" trans.semi="3" trans.diat="2">
+              <staffDef n="9" xml:id="P9" lines="5" clef.line="2" clef.shape="G" keysig="1f" key.mode="major" trans.semi="3" trans.diat="2">
                 <label>Tromba Mib 1</label>
                 <labelAbbr>Tr. Mib 1</labelAbbr>
-                <instrDef n="Trumpet_in_Bb_1" xml:id="P9-I14"/>
+                <instrDef label="Trumpet_in_Bb_1" xml:id="P9-I14"/>
               </staffDef>
-              <staffDef n="10" xml:id="P10" lines="5" clef.line="2" clef.shape="G" key.sig="1f" key.mode="major" trans.semi="3" trans.diat="2">
+              <staffDef n="10" xml:id="P10" lines="5" clef.line="2" clef.shape="G" keysig="1f" key.mode="major" trans.semi="3" trans.diat="2">
                 <label>Tromba Mib 2</label>
                 <labelAbbr>Tr. Mib 2</labelAbbr>
-                <instrDef n="Trumpet_in_Bb_2" xml:id="P10-I15"/>
+                <instrDef label="Trumpet_in_Bb_2" xml:id="P10-I15"/>
               </staffDef>
-              <staffDef n="11" xml:id="P11" lines="5" clef.line="2" clef.shape="G" key.sig="1f" key.mode="major" trans.semi="3" trans.diat="2">
+              <staffDef n="11" xml:id="P11" lines="5" clef.line="2" clef.shape="G" keysig="1f" key.mode="major" trans.semi="3" trans.diat="2">
                 <label>Trombe Mib 3&amp;4</label>
                 <labelAbbr>Tr. Mib 3&amp;4</labelAbbr>
-                <instrDef n="Trumpet_in_Bb_3" xml:id="P11-I16"/>
+                <instrDef label="Trumpet_in_Bb_3" xml:id="P11-I16"/>
               </staffDef>
-              <staffDef n="12" xml:id="P12" lines="5" clef.line="2" clef.shape="G" key.sig="1f" key.mode="major" trans.semi="3" trans.diat="2" spacing="97">
+              <staffDef n="12" xml:id="P12" lines="5" clef.line="2" clef.shape="G" keysig="1f" key.mode="major" trans.semi="3" trans.diat="2" spacing="97">
                 <label>Tromba Mib 5</label>
                 <labelAbbr>Tr. Mib 5</labelAbbr>
-                <instrDef n="Trumpet_in_Bb_4" xml:id="P12-I17"/>
+                <instrDef label="Trumpet_in_Bb_4" xml:id="P12-I17"/>
               </staffDef>
-              <staffDef n="13" xml:id="P13" lines="5" clef.line="4" clef.shape="F" key.sig="4f" key.mode="major">
+              <staffDef n="13" xml:id="P13" lines="5" clef.line="4" clef.shape="F" keysig="4f" key.mode="major">
                 <label>Flicornobasso</label>
                 <labelAbbr>Flcb.</labelAbbr>
-                <instrDef n="Baritone" xml:id="P13-I18"/>
+                <instrDef label="Baritone" xml:id="P13-I18"/>
               </staffDef>
-              <staffDef n="14" xml:id="P14" lines="5" clef.line="4" clef.shape="F" key.sig="4f" key.mode="major">
+              <staffDef n="14" xml:id="P14" lines="5" clef.line="4" clef.shape="F" keysig="4f" key.mode="major">
                 <label>Bombardino</label>
                 <labelAbbr>Bino.</labelAbbr>
-                <instrDef n="Euphonium" xml:id="P14-I19"/>
+                <instrDef label="Euphonium" xml:id="P14-I19"/>
               </staffDef>
-              <staffDef n="15" xml:id="P15" lines="5" clef.line="4" clef.shape="F" key.sig="4f" key.mode="major" spacing="97">
+              <staffDef n="15" xml:id="P15" lines="5" clef.line="4" clef.shape="F" keysig="4f" key.mode="major" spacing="97">
                 <label>Trombone 1&amp;2</label>
                 <labelAbbr>Tbn. 1&amp;2</labelAbbr>
-                <instrDef n="Trombone_1" xml:id="P15-I20"/>
+                <instrDef label="Trombone_1" xml:id="P15-I20"/>
               </staffDef>
-              <staffDef n="16" xml:id="P16" lines="5" clef.line="4" clef.shape="F" key.sig="4f" key.mode="major" spacing="97">
+              <staffDef n="16" xml:id="P16" lines="5" clef.line="4" clef.shape="F" keysig="4f" key.mode="major" spacing="97">
                 <label>Trombone 3</label>
                 <labelAbbr>Tbn. 3</labelAbbr>
-                <instrDef n="Trombone_3" xml:id="P16-I22"/>
+                <instrDef label="Trombone_3" xml:id="P16-I22"/>
               </staffDef>
-              <staffDef n="17" xml:id="P17" lines="5" clef.line="4" clef.shape="F" key.sig="4f" key.mode="major" spacing="96">
+              <staffDef n="17" xml:id="P17" lines="5" clef.line="4" clef.shape="F" keysig="4f" key.mode="major" spacing="96">
                 <label>Bassi</label>
                 <labelAbbr>Bassi</labelAbbr>
-                <instrDef n="Tuba" xml:id="P17-I23"/>
+                <instrDef label="Tuba" xml:id="P17-I23"/>
               </staffDef>
-              <staffDef n="18" xml:id="P18" lines="1" clef.shape="perc" key.sig="4f" key.mode="major" spacing="117">
+              <staffDef n="18" xml:id="P18" lines="1" clef.shape="perc" keysig="4f" key.mode="major" spacing="117">
                 <label>Batteria</label>
                 <labelAbbr>Batt.</labelAbbr>
                 <layerDef n="1">
-                  <instrDef n="Snare_Drum" xml:id="P18-X2"/>
+                  <instrDef label="Snare_Drum" xml:id="P18-X2"/>
                 </layerDef>
                 <layerDef n="2">
-                  <instrDef n="Bass_Drum" xml:id="P18-X1"/>
+                  <instrDef label="Bass_Drum" xml:id="P18-X1"/>
                 </layerDef>
               </staffDef>
             </staffGrp>
@@ -8829,7 +8853,7 @@
           </ending>
           <section>
             <pb n="5"/>
-            <scoreDef key.sig="1f" key.mode="major"/>
+            <scoreDef keysig="1f" key.mode="major"/>
             <staffDef n="4" spacing="97"/>
             <staffDef n="5" spacing="97"/>
             <staffDef n="7" spacing="96"/>

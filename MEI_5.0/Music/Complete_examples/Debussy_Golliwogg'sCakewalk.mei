@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="http://music-encoding.org/schema/4.0.1/mei-all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<?xml-model href="http://music-encoding.org/schema/4.0.1/mei-all.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
-<mei xmlns="http://www.music-encoding.org/ns/mei" meiversion="4.0.1">
+<?xml-model href="https://music-encoding.org/schema/5.0/mei-all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://music-encoding.org/schema/5.0/mei-all.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<mei xmlns="http://www.music-encoding.org/ns/mei" meiversion="5.0">
   <meiHead>
     <fileDesc>
       <titleStmt>
@@ -33,14 +33,16 @@
             <address>
               <addrLine>Kennedyallee 40</addrLine>
               <addrLine><geogName>Bonn</geogName></addrLine>
-            </address> </corpName>
+            </address>
+          </corpName>
         </funder>
         <funder>
           <corpName role="funder" codedval="18183-3" auth.uri="http://d-nb.info/gnd/18183-3" auth="Deutsche Nationalbibliothek">National Endowment for the Humanities
             <address>
               <addrLine>1100 Pennsylvania Avenue N.W.</addrLine>
               <addrLine><geogName>Washington, DC</geogName></addrLine>
-            </address> </corpName>
+            </address>
+          </corpName>
         </funder>
         <respStmt>
           <corpName role="publisher">MEI Project</corpName>
@@ -67,6 +69,14 @@
         <application version="v1.0_beta" xml:id="mei30To40">
           <name>mei30To40.xsl</name>
           <ptr target="https://github.com/music-encoding/encoding-tools/blob/main/mei30To40/mei30To40.xsl"/>
+        </application>
+        <application version="v0.0.1-alpha" xml:id="meiLint_v0.0.1-alpha">
+          <name>meiLint.xsl</name>
+          <ptr target="https://github.com/music-encoding/encoding-tools/blob/main/meiLint/meiLint.xsl"/>
+        </application>
+        <application version="v1.0" xml:id="mei40To50.xsl">
+          <name>mei40To50.xsl</name>
+          <ptr target="https://github.com/music-encoding/encoding-tools/blob/main/mei40To50/mei40To50.xsl"/>
         </application>
         <application version="v0.0.1-alpha" xml:id="meiLint_v0.0.1-alpha">
           <name>meiLint.xsl</name>
@@ -114,7 +124,7 @@
         <incip>
           <incipCode form="parsons">*dududdddddddddddu</incipCode>
           <score>
-            <scoreDef key.sig="3f" meter.count="2" meter.unit="4">
+            <scoreDef keysig="3f" meter.count="2" meter.unit="4">
               <staffGrp symbol="brace">
                 <staffDef n="1" lines="5" clef.line="2" clef.shape="G"/>
                 <staffDef n="2" lines="5" clef.line="2" clef.shape="G"/>
@@ -279,10 +289,24 @@
               <li>update meiversion attributes to 4.0.1</li>
               <li>add missing responsibility statements to change elements</li>
               <li>unify documentation of mei version upgrades (appInfo and revisionDesc)</li>
-               <li>linted with <ref target="#meiLint_v0.0.1-alpha">meiLint.xsl</ref></li>
+              <li>linted with
+                <ref target="#meiLint_v0.0.1-alpha">meiLint.xsl</ref>
+              </li>
             </list></p>
         </changeDesc>
         <date isodate="2023-07-27T17:10:25+02:00"/>
+      </change>
+      <change n="10" resp="#mei40To50.xsl">
+        <changeDesc>
+          <p>Converted to MEI version 5.0 using mei40To50.xsl, version 1.0</p>
+        </changeDesc>
+        <date isodate="2023-07-31"/>
+      </change>
+      <change n="11" resp="#meiLint_v0.0.1-alpha">
+        <changeDesc>
+          <p>Applied lint mode.</p>
+        </changeDesc>
+        <date isodate="2023-07-31T15:42:40+02:00"/>
       </change>
     </revisionDesc>
   </meiHead>
@@ -290,19 +314,19 @@
     <body>
       <mdiv>
         <score>
-          <scoreDef meter.count="2" meter.unit="4" key.sig="3f" key.mode="major" page.height="1545" page.width="1194" page.leftmar="70" page.rightmar="70" page.topmar="88" page.botmar="88" system.leftmar="0" system.rightmar="0" spacing.system="121" system.topmar="70" spacing.staff="93" music.name="Maestro" music.size="20.5pt" text.name="Times New Roman" text.size="10.25pt" vu.height="0.904mm">
+          <scoreDef meter.count="2" meter.unit="4" keysig="3f" key.mode="major" page.height="1545" page.width="1194" page.leftmar="70" page.rightmar="70" page.topmar="88" page.botmar="88" system.leftmar="0" system.rightmar="0" spacing.system="121" system.topmar="70" spacing.staff="93" music.name="Maestro" music.size="20.5pt" text.name="Times New Roman" text.size="10.25pt" vu.height="0.904mm">
             <pgHead>
               <anchoredText x="597" y="1440"><rend fontsize="24pt" fontweight="bold" halign="center" valign="top">Golliwogg's Cake-walk</rend></anchoredText>
               <anchoredText x="1124" y="1355"><rend fontsize="12pt" fontweight="bold" halign="right" valign="top">Claude Debussy</rend></anchoredText>
             </pgHead>
             <staffGrp xml:id="P1" symbol="brace">
-              <instrDef n="Grand_Piano" xml:id="P1-I1" midi.channel="1" midi.instrnum="0"/>
-              <staffDef n="1" lines="5" clef.line="2" clef.shape="G" ppq="24" key.sig="3f" key.mode="major"/>
-              <staffDef n="2" lines="5" clef.line="2" clef.shape="G" ppq="24" key.sig="3f" key.mode="major"/>
+              <instrDef label="Grand_Piano" xml:id="P1-I1" midi.channel="1" midi.instrnum="0"/>
+              <staffDef n="1" lines="5" clef.line="2" clef.shape="G" ppq="24" keysig="3f" key.mode="major"/>
+              <staffDef n="2" lines="5" clef.line="2" clef.shape="G" ppq="24" keysig="3f" key.mode="major"/>
             </staffGrp>
           </scoreDef>
           <section>
-            <scoreDef meter.count="2" meter.unit="4" key.sig="3f" key.mode="major" system.leftmar="70" system.rightmar="0" system.topmar="211"/>
+            <scoreDef meter.count="2" meter.unit="4" keysig="3f" key.mode="major" system.leftmar="70" system.rightmar="0" system.topmar="211"/>
             <measure n="1" xml:id="d1e67" width="253">
               <staff n="1">
                 <layer n="1">
@@ -2220,7 +2244,7 @@
           </section>
           <section>
             <sb/>
-            <scoreDef key.sig="6f" key.mode="major" spacing.system="114"/>
+            <scoreDef keysig="6f" key.mode="major" spacing.system="114"/>
             <measure n="47" xml:id="d1e12529" width="267">
               <staff n="1">
                 <layer n="1">
@@ -3774,7 +3798,7 @@
             </measure>
           </section>
           <section>
-            <scoreDef key.sig="3f" key.mode="major"/>
+            <scoreDef keysig="3f" key.mode="major"/>
             <measure n="90" xml:id="d1e22377" width="164">
               <staff n="1">
                 <layer n="1">

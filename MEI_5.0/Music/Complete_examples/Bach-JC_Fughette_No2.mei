@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="http://music-encoding.org/schema/4.0.1/mei-all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<?xml-model href="http://music-encoding.org/schema/4.0.1/mei-all.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
-<mei xmlns="http://www.music-encoding.org/ns/mei" meiversion="4.0.1">
+<?xml-model href="https://music-encoding.org/schema/5.0/mei-all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://music-encoding.org/schema/5.0/mei-all.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<mei xmlns="http://www.music-encoding.org/ns/mei" meiversion="5.0">
   <meiHead>
     <fileDesc>
       <titleStmt>
@@ -40,7 +40,8 @@
               <addrLine>Kennedyallee 40</addrLine>
               <addrLine><geogName codedval="7005090" auth.uri="http://vocab.getty.edu/page/tgn/" auth="TGN">Bonn</geogName></addrLine>
               <addrLine><geogName codedval="7000084" auth.uri="http://vocab.getty.edu/page/tgn/" auth="TGN">Germany</geogName></addrLine>
-            </address> </corpName>
+            </address>
+          </corpName>
         </funder>
         <funder>
           <corpName role="funder" codedval="18183-3" auth.uri="http://d-nb.info/gnd/18183-3" auth="Deutsche Nationalbibliothek">National Endowment for the Humanities
@@ -48,7 +49,8 @@
               <addrLine>1100 Pennsylvania Avenue N.W.</addrLine>
               <addrLine><geogName codedval="7013962" auth.uri="http://vocab.getty.edu/page/tgn/" auth="TGN">Washington, DC</geogName>20004</addrLine>
               <addrLine><geogName codedval="7012149" auth.uri="http://vocab.getty.edu/page/tgn/" auth="TGN">United States</geogName></addrLine>
-            </address> </corpName>
+            </address>
+          </corpName>
         </funder>
         <respStmt>
           <corpName role="publisher">MEI Project</corpName>
@@ -100,6 +102,14 @@
           <name>meiLint.xsl</name>
           <ptr target="https://github.com/music-encoding/encoding-tools/blob/main/meiLint/meiLint.xsl"/>
         </application>
+        <application version="v1.0" xml:id="mei40To50.xsl">
+          <name>mei40To50.xsl</name>
+          <ptr target="https://github.com/music-encoding/encoding-tools/blob/main/mei40To50/mei40To50.xsl"/>
+        </application>
+        <application version="v0.0.1-alpha" xml:id="meiLint_v0.0.1-alpha">
+          <name>meiLint.xsl</name>
+          <ptr target="https://github.com/music-encoding/encoding-tools/blob/main/meiLint/meiLint.xsl"/>
+        </application>
       </appInfo>
       <classDecls>
         <taxonomy>
@@ -141,20 +151,20 @@
             <scoreDef>
               <staffGrp symbol="bracket" bar.thru="true">
                 <staffGrp symbol="bracket">
-                  <staffDef n="1" lines="5" clef.line="2" clef.shape="G" key.sig="1f" key.mode="major">
+                  <staffDef n="1" lines="5" clef.line="2" clef.shape="G" keysig="1f" key.mode="major">
                     <label>Trumpet in C 1</label>
                     <labelAbbr>C Tpt. 1</labelAbbr>
                   </staffDef>
-                  <staffDef n="2" lines="5" clef.line="2" clef.shape="G" key.sig="1f" key.mode="major">
+                  <staffDef n="2" lines="5" clef.line="2" clef.shape="G" keysig="1f" key.mode="major">
                     <label>Trumpet in C 2</label>
                     <labelAbbr>C Tpt. 2</labelAbbr>
                   </staffDef>
                 </staffGrp>
-                <staffDef n="3" lines="5" clef.line="4" clef.shape="F" key.sig="1f" key.mode="major" spacing="57">
+                <staffDef n="3" lines="5" clef.line="4" clef.shape="F" keysig="1f" key.mode="major" spacing="57">
                   <label>Trombone</label>
                   <labelAbbr>Tbn.</labelAbbr>
                 </staffDef>
-                <staffDef n="4" lines="5" clef.line="4" clef.shape="F" key.sig="1f" key.mode="major">
+                <staffDef n="4" lines="5" clef.line="4" clef.shape="F" keysig="1f" key.mode="major">
                   <label>Bass Trombone</label>
                   <labelAbbr>B. Tbn.</labelAbbr>
                 </staffDef>
@@ -319,10 +329,24 @@
               <li>update meiversion attributes to 4.0.1</li>
               <li>add missing responsibility statements to change elements</li>
               <li>unify documentation of mei version upgrades (appInfo and revisionDesc)</li>
-               <li>linted with <ref target="#meiLint_v0.0.1-alpha">meiLint.xsl</ref></li>
+              <li>linted with
+                <ref target="#meiLint_v0.0.1-alpha">meiLint.xsl</ref>
+              </li>
             </list></p>
         </changeDesc>
         <date isodate="2023-07-27T17:10:27+02:00"/>
+      </change>
+      <change n="11" resp="#mei40To50.xsl">
+        <changeDesc>
+          <p>Converted to MEI version 5.0 using mei40To50.xsl, version 1.0</p>
+        </changeDesc>
+        <date isodate="2023-07-31"/>
+      </change>
+      <change n="12" resp="#meiLint_v0.0.1-alpha">
+        <changeDesc>
+          <p>Applied lint mode.</p>
+        </changeDesc>
+        <date isodate="2023-07-31T15:42:44+02:00"/>
       </change>
     </revisionDesc>
   </meiHead>
@@ -330,7 +354,7 @@
     <body>
       <mdiv>
         <score>
-          <scoreDef meter.count="4" meter.unit="4" key.sig="1f" key.mode="major">
+          <scoreDef meter.count="4" meter.unit="4" keysig="1f" key.mode="major">
             <pgHead>
               <table>
                 <tr>
@@ -344,21 +368,21 @@
             <pgFoot><rend fontsize="11pt" fontweight="bold" halign="center" valign="bottom">© - 2010 - Gatineau,Qc.Ca.</rend></pgFoot>
             <staffGrp symbol="bracket" bar.thru="true">
               <staffGrp symbol="bracket">
-                <staffDef n="1" xml:id="P1" lines="5" clef.line="2" clef.shape="G" key.sig="1f" key.mode="major">
+                <staffDef n="1" xml:id="P1" lines="5" clef.line="2" clef.shape="G" keysig="1f" key.mode="major">
                   <label>Trumpet in C 1</label>
                   <labelAbbr>C Tpt. 1</labelAbbr>
                 </staffDef>
-                <staffDef n="2" xml:id="P2" lines="5" clef.line="2" clef.shape="G" key.sig="1f" key.mode="major">
+                <staffDef n="2" xml:id="P2" lines="5" clef.line="2" clef.shape="G" keysig="1f" key.mode="major">
                   <label>Trumpet in C 2</label>
                   <labelAbbr>C Tpt. 2</labelAbbr>
                 </staffDef>
               </staffGrp>
-              <staffDef n="3" xml:id="P3" lines="5" clef.line="4" clef.shape="F" key.sig="1f" key.mode="major">
+              <staffDef n="3" xml:id="P3" lines="5" clef.line="4" clef.shape="F" keysig="1f" key.mode="major">
                 <label>Trombone</label>
                 <labelAbbr>Tbn.</labelAbbr>
-                <instrDef n="Trombone" xml:id="P3-I3"/>
+                <instrDef label="Trombone" xml:id="P3-I3"/>
               </staffDef>
-              <staffDef n="4" xml:id="P4" lines="5" clef.line="4" clef.shape="F" key.sig="1f" key.mode="major">
+              <staffDef n="4" xml:id="P4" lines="5" clef.line="4" clef.shape="F" keysig="1f" key.mode="major">
                 <label>Bass Trombone</label>
                 <labelAbbr>B. Tbn.</labelAbbr>
               </staffDef>

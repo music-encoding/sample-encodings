@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="http://music-encoding.org/schema/4.0.1/mei-all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0" ?>
-<?xml-model href="http://music-encoding.org/schema/4.0.1/mei-all.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron" ?>
-<mei xmlns="http://www.music-encoding.org/ns/mei" meiversion="4.0.1">
+<?xml-model href="https://music-encoding.org/schema/5.0/mei-all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://music-encoding.org/schema/5.0/mei-all.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<mei xmlns="http://www.music-encoding.org/ns/mei" meiversion="5.0">
   <meiHead>
     <fileDesc>
       <titleStmt>
-        <title> Maple Leaf Rag<titlePart type="subordinate">an electronic transcription</titlePart></title>
+        <title>Maple Leaf Rag<titlePart type="subordinate">an electronic transcription</titlePart></title>
         <composer>
           <persName role="creator" codedval="119174030" auth.uri="http://d-nb.info/gnd/" auth="GND">Scott Joplin</persName>
         </composer>
@@ -20,7 +20,7 @@
         </publisher>
         <address>
           <addrLine>Gartenstrasse 20</addrLine>
-          <addrLine> 32756<geogName codedval="7004442" auth.uri="http://vocab.getty.edu/page/tgn/" auth="TGN">Detmold</geogName></addrLine>
+          <addrLine>32756<geogName codedval="7004442" auth.uri="http://vocab.getty.edu/page/tgn/" auth="TGN">Detmold</geogName></addrLine>
           <addrLine><geogName codedval="7000084" auth.uri="http://vocab.getty.edu/page/tgn/" auth="TGN">Germany</geogName></addrLine>
         </address>
         <date>2011</date>
@@ -31,7 +31,7 @@
       <seriesStmt>
         <title>MEI Sample Collection</title>
         <funder>
-          <corpName role="funder" codedval="2007744-0" auth.uri="http://d-nb.info/gnd/" auth="GND"> German Research Foundation
+          <corpName role="funder" codedval="2007744-0" auth.uri="http://d-nb.info/gnd/" auth="GND">German Research Foundation
             <address>
               <addrLine>Kennedyallee 40</addrLine>
               <addrLine><geogName codedval="7005090" auth.uri="http://vocab.getty.edu/page/tgn/" auth="TGN">Bonn</geogName></addrLine>
@@ -40,10 +40,10 @@
           </corpName>
         </funder>
         <funder>
-          <corpName role="funder" codedval="18183-3" auth.uri="http://d-nb.info/gnd/18183-3" auth="Deutsche Nationalbibliothek"> National Endowment for the Humanities
+          <corpName role="funder" codedval="18183-3" auth.uri="http://d-nb.info/gnd/18183-3" auth="Deutsche Nationalbibliothek">National Endowment for the Humanities
             <address>
               <addrLine>1100 Pennsylvania Avenue N.W.</addrLine>
-              <addrLine><geogName codedval="7013962" auth.uri="http://vocab.getty.edu/page/tgn/" auth="TGN">Washington, DC</geogName> 20004</addrLine>
+              <addrLine><geogName codedval="7013962" auth.uri="http://vocab.getty.edu/page/tgn/" auth="TGN">Washington, DC</geogName>20004</addrLine>
               <addrLine><geogName codedval="7012149" auth.uri="http://vocab.getty.edu/page/tgn/" auth="TGN">United States</geogName></addrLine>
             </address>
           </corpName>
@@ -89,6 +89,14 @@
         <application version="v1.0_beta" xml:id="mei30To40">
           <name>mei30To40.xsl</name>
           <ptr target="https://github.com/music-encoding/encoding-tools/blob/main/mei30To40/mei30To40.xsl"/>
+        </application>
+        <application version="v0.0.1-alpha" xml:id="meiLint_v0.0.1-alpha">
+          <name>meiLint.xsl</name>
+          <ptr target="https://github.com/music-encoding/encoding-tools/blob/main/meiLint/meiLint.xsl"/>
+        </application>
+        <application version="v1.0" xml:id="mei40To50.xsl">
+          <name>mei40To50.xsl</name>
+          <ptr target="https://github.com/music-encoding/encoding-tools/blob/main/mei40To50/mei40To50.xsl"/>
         </application>
         <application version="v0.0.1-alpha" xml:id="meiLint_v0.0.1-alpha">
           <name>meiLint.xsl</name>
@@ -162,19 +170,19 @@
       </change>
       <change n="2">
         <respStmt>
-          <persName xml:id="MH"> Maja Hartwig</persName>
+          <persName xml:id="MH">Maja Hartwig</persName>
         </respStmt>
         <changeDesc>
-          <p> Transcoded from a MusicXML version 1.1 file on 2011-05-12 using the<ref target="#xsl_mxl2mei_2.2.3">musicxml2mei</ref> stylesheet.</p>
+          <p>Transcoded from a MusicXML version 1.1 file on 2011-05-12 using the<ref target="#xsl_mxl2mei_2.2.3">musicxml2mei</ref>stylesheet.</p>
         </changeDesc>
         <date isodate="2011-05-12"/>
       </change>
       <change n="3">
         <respStmt>
-          <persName xml:id="KR"> Kristina Richts</persName>
+          <persName xml:id="KR">Kristina Richts</persName>
         </respStmt>
         <changeDesc>
-          <p> Cleaned up MEI file automatically using<ref target="#xsl_ppq">ppq.xsl</ref> .</p>
+          <p>Cleaned up MEI file automatically using<ref target="#xsl_ppq">ppq.xsl</ref>.</p>
         </changeDesc>
         <date isodate="2011-10-21"/>
       </change>
@@ -187,7 +195,7 @@
       </change>
       <change n="5" resp="#KR">
         <changeDesc>
-          <p> Cleaned up MEI file automatically using<ref target="#xsl_header">Header.xsl</ref> .</p>
+          <p>Cleaned up MEI file automatically using<ref target="#xsl_header">Header.xsl</ref>.</p>
         </changeDesc>
         <date isodate="2011-12-01"/>
       </change>
@@ -232,7 +240,7 @@
           <persName>Klaus Rettinghaus</persName>
         </respStmt>
         <changeDesc>
-          <p> Manually corrected after first edition:<list>
+          <p>Manually corrected after first edition:<list>
               <li>Changed doubled accid attribute on note to accid.ges.</li>
               <li>Removed tie attributes.</li>
               <li>Fixed clef changes.</li>
@@ -262,10 +270,24 @@
               <li>update meiversion attributes to 4.0.1</li>
               <li>add missing responsibility statements to change elements</li>
               <li>unify documentation of mei version upgrades (appInfo and revisionDesc)</li>
-               <li>linted with <ref target="#meiLint_v0.0.1-alpha">meiLint.xsl</ref></li>
+              <li>linted with
+                <ref target="#meiLint_v0.0.1-alpha">meiLint.xsl</ref>
+              </li>
             </list></p>
         </changeDesc>
         <date isodate="2023-07-27T17:09:27+02:00"/>
+      </change>
+      <change n="14" resp="#mei40To50.xsl">
+        <changeDesc>
+          <p>Converted to MEI version 5.0 using mei40To50.xsl, version 1.0</p>
+        </changeDesc>
+        <date isodate="2023-07-31"/>
+      </change>
+      <change n="15" resp="#meiLint_v0.0.1-alpha">
+        <changeDesc>
+          <p>Applied lint mode.</p>
+        </changeDesc>
+        <date isodate="2023-07-31T15:41:06+02:00"/>
       </change>
     </revisionDesc>
   </meiHead>
@@ -273,7 +295,7 @@
     <body>
       <mdiv>
         <score>
-          <scoreDef ppq="4" meter.count="2" meter.unit="4" key.sig="4f" key.mode="major" text.name="FreeSerif" text.size="10pt" lyric.name="FreeSerif" lyric.size="11pt" vu.height="0.75mm" page.height="372.534" page.width="287.866" page.leftmar="11.644" page.rightmar="11.644" page.topmar="20.288" page.botmar="20.288" midi.bpm="52">
+          <scoreDef ppq="4" meter.count="2" meter.unit="4" keysig="4f" key.mode="major" text.name="FreeSerif" text.size="10pt" lyric.name="FreeSerif" lyric.size="11pt" vu.height="0.75mm" page.height="372.534" page.width="287.866" page.leftmar="11.644" page.rightmar="11.644" page.topmar="20.288" page.botmar="20.288" midi.bpm="52">
             <pgHead>
               <anchoredText x="143.933" y="352.246"><rend fontsize="24pt" halign="center" valign="top">MAPLE LEAF RAG.</rend></anchoredText>
               <anchoredText x="276.222" y="335.006"><rend fontsize="12pt" halign="right" valign="bottom">BY SCOTT JOPLIN.</rend></anchoredText>
@@ -3033,11 +3055,11 @@
             </measure>
           </section>
           <section>
-            <scoreDef key.sig="5f" key.mode="major">
+            <scoreDef keysig="5f" key.mode="major">
               <staffGrp>
                 <staffGrp symbol="brace">
-                  <staffDef n="1" key.sig="5f"/>
-                  <staffDef n="2" key.sig="5f"/>
+                  <staffDef n="1" keysig="5f"/>
+                  <staffDef n="2" keysig="5f"/>
                 </staffGrp>
               </staffGrp>
             </scoreDef>
@@ -4019,11 +4041,11 @@
             </measure>
           </ending>
           <section>
-            <scoreDef key.sig="4f" key.mode="major" keysig.showchange="true">
+            <scoreDef keysig="4f" key.mode="major" keysig.cancelaccid="before">
               <staffGrp>
                 <staffGrp symbol="brace">
-                  <staffDef n="1" key.sig="4f"/>
-                  <staffDef n="2" key.sig="4f"/>
+                  <staffDef n="1" keysig="4f"/>
+                  <staffDef n="2" keysig="4f"/>
                 </staffGrp>
               </staffGrp>
             </scoreDef>

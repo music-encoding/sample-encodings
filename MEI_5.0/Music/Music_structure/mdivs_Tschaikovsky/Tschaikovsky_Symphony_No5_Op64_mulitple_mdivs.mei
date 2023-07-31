@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="http://music-encoding.org/schema/4.0.1/mei-all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<?xml-model href="http://music-encoding.org/schema/4.0.1/mei-all.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
-<mei xmlns="http://www.music-encoding.org/ns/mei" meiversion="4.0.1">
+<?xml-model href="https://music-encoding.org/schema/5.0/mei-all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://music-encoding.org/schema/5.0/mei-all.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<mei xmlns="http://www.music-encoding.org/ns/mei" meiversion="5.0">
   <meiHead>
     <fileDesc>
       <titleStmt>
@@ -36,13 +36,14 @@
               <addrLine>Kennedyallee 40</addrLine>
               <addrLine>53175<geogName>Bonn</geogName></addrLine>
               <addrLine><geogName>Germany</geogName></addrLine>
-            </address> </corpName>
+            </address>
+          </corpName>
         </funder>
         <funder>
           <corpName role="funder">National Endowment for the Humanities
             <address>
               <addrLine>1100 Pennsylvania Avenue N.W.</addrLine>
-              <addrLine><geogName>Washington, DC</geogName> 20004</addrLine>
+              <addrLine><geogName>Washington, DC</geogName>20004</addrLine>
               <addrLine><geogName>United States</geogName></addrLine>
             </address>
           </corpName>
@@ -64,6 +65,14 @@
         <application version="v1.0_beta" xml:id="mei30To40">
           <name>mei30To40.xsl</name>
           <ptr target="https://github.com/music-encoding/encoding-tools/blob/main/mei30To40/mei30To40.xsl"/>
+        </application>
+        <application version="v0.0.1-alpha" xml:id="meiLint_v0.0.1-alpha">
+          <name>meiLint.xsl</name>
+          <ptr target="https://github.com/music-encoding/encoding-tools/blob/main/meiLint/meiLint.xsl"/>
+        </application>
+        <application version="v1.0" xml:id="mei40To50.xsl">
+          <name>mei40To50.xsl</name>
+          <ptr target="https://github.com/music-encoding/encoding-tools/blob/main/mei40To50/mei40To50.xsl"/>
         </application>
         <application version="v0.0.1-alpha" xml:id="meiLint_v0.0.1-alpha">
           <name>meiLint.xsl</name>
@@ -345,10 +354,24 @@
               <li>update meiversion attributes to 4.0.1</li>
               <li>add missing responsibility statements to change elements</li>
               <li>unify documentation of mei version upgrades (appInfo and revisionDesc)</li>
-               <li>linted with <ref target="#meiLint_v0.0.1-alpha">meiLint.xsl</ref></li>
+              <li>linted with
+                <ref target="#meiLint_v0.0.1-alpha">meiLint.xsl</ref>
+              </li>
             </list></p>
         </changeDesc>
         <date isodate="2023-07-27T17:10:53+02:00"/>
+      </change>
+      <change n="5" resp="#mei40To50.xsl">
+        <changeDesc>
+          <p>Converted to MEI version 5.0 using mei40To50.xsl, version 1.0</p>
+        </changeDesc>
+        <date isodate="2023-07-31"/>
+      </change>
+      <change n="6" resp="#meiLint_v0.0.1-alpha">
+        <changeDesc>
+          <p>Applied lint mode.</p>
+        </changeDesc>
+        <date isodate="2023-07-31T15:43:23+02:00"/>
       </change>
     </revisionDesc>
   </meiHead>
@@ -359,53 +382,53 @@
           <scoreDef meter.count="4" meter.unit="4" meter.sym="common">
             <staffGrp n="1">
               <staffGrp n="woodwinds" bar.thru="true">
-                <staffDef n="1" lines="5" clef.shape="G" clef.line="2" key.sig="1s">
+                <staffDef n="1" lines="5" clef.shape="G" clef.line="2" keysig="1s">
                   <label>Flöten I, II</label>
                 </staffDef>
-                <staffDef n="2" lines="5" clef.line="2" clef.shape="G" key.sig="1s">
+                <staffDef n="2" lines="5" clef.line="2" clef.shape="G" keysig="1s">
                   <label>Flöte III</label>
                 </staffDef>
-                <staffDef n="3" lines="5" clef.line="2" clef.shape="G" key.sig="1s">
+                <staffDef n="3" lines="5" clef.line="2" clef.shape="G" keysig="1s">
                   <label>Oboen I, II</label>
                 </staffDef>
-                <staffDef n="4" lines="5" clef.line="2" clef.shape="G" key.sig="2f">
+                <staffDef n="4" lines="5" clef.line="2" clef.shape="G" keysig="2f">
                   <label>Klarinetten in A I, II</label>
                 </staffDef>
-                <staffDef n="5" lines="5" clef.line="4" clef.shape="F" key.sig="1s">
+                <staffDef n="5" lines="5" clef.line="4" clef.shape="F" keysig="1s">
                   <label>Fagotte I, II</label>
                 </staffDef>
-                <staffDef n="6" lines="5" clef.shape="G" clef.line="2" key.sig="0">
+                <staffDef n="6" lines="5" clef.shape="G" clef.line="2" keysig="0">
                   <label>Hörner in F I, II, III, IV</label>
                 </staffDef>
               </staffGrp>
               <staffGrp n="brass" bar.thru="true">
-                <staffDef n="7" lines="5" key.sig="0" clef.line="2" clef.shape="G">
+                <staffDef n="7" lines="5" keysig="0" clef.line="2" clef.shape="G">
                   <label>Trompeten in A I, II</label>
                 </staffDef>
-                <staffDef n="8" lines="5" key.sig="1s" clef.shape="C" clef.line="3">
+                <staffDef n="8" lines="5" keysig="1s" clef.shape="C" clef.line="3">
                   <label>Posaunen I, II</label>
                 </staffDef>
-                <staffDef n="9" lines="5" key.sig="1s" clef.line="4" clef.shape="F">
+                <staffDef n="9" lines="5" keysig="1s" clef.line="4" clef.shape="F">
                   <label>Posaune III</label>
                 </staffDef>
-                <staffDef n="10" lines="5" clef.line="4" clef.shape="F" key.sig="0">
+                <staffDef n="10" lines="5" clef.line="4" clef.shape="F" keysig="0">
                   <label>Pauken in G, D, E</label>
                 </staffDef>
               </staffGrp>
               <staffGrp n="strings" bar.thru="true">
-                <staffDef n="11" lines="5" clef.shape="G" clef.line="2" key.sig="1s">
+                <staffDef n="11" lines="5" clef.shape="G" clef.line="2" keysig="1s">
                   <label>Violine I</label>
                 </staffDef>
-                <staffDef n="12" lines="5" clef.line="2" clef.shape="G" key.sig="1s">
+                <staffDef n="12" lines="5" clef.line="2" clef.shape="G" keysig="1s">
                   <label>Violine II</label>
                 </staffDef>
-                <staffDef n="13" lines="5" clef.shape="C" clef.line="3" key.sig="1s">
+                <staffDef n="13" lines="5" clef.shape="C" clef.line="3" keysig="1s">
                   <label>Viola</label>
                 </staffDef>
-                <staffDef n="14" lines="5" clef.line="4" clef.shape="F" key.sig="1s">
+                <staffDef n="14" lines="5" clef.line="4" clef.shape="F" keysig="1s">
                   <label>Violoncell</label>
                 </staffDef>
-                <staffDef n="15" lines="5" clef.shape="F" clef.line="4" key.sig="1s">
+                <staffDef n="15" lines="5" clef.shape="F" clef.line="4" keysig="1s">
                   <label>Kontrabass</label>
                 </staffDef>
               </staffGrp>
@@ -608,59 +631,59 @@
           <scoreDef meter.count="12" meter.unit="8">
             <staffGrp>
               <staffGrp n="woodwinds" bar.thru="true">
-                <staffDef n="1" lines="5" clef.shape="G" clef.line="2" key.sig="2s">
+                <staffDef n="1" lines="5" clef.shape="G" clef.line="2" keysig="2s">
                   <label>Flöten I, II</label>
                 </staffDef>
-                <staffDef n="2" lines="5" clef.line="2" clef.shape="G" key.sig="2s">
+                <staffDef n="2" lines="5" clef.line="2" clef.shape="G" keysig="2s">
                   <label>Flöte III</label>
                 </staffDef>
-                <staffDef n="3" lines="5" clef.line="2" clef.shape="G" key.sig="2s">
+                <staffDef n="3" lines="5" clef.line="2" clef.shape="G" keysig="2s">
                   <label>Oboen I, II</label>
                 </staffDef>
-                <staffDef n="4" lines="5" clef.line="2" clef.shape="G" key.sig="1f">
+                <staffDef n="4" lines="5" clef.line="2" clef.shape="G" keysig="1f">
                   <label>Klarinetten in A I, II</label>
                 </staffDef>
-                <staffDef n="5" lines="5" clef.line="4" clef.shape="F" key.sig="2s">
+                <staffDef n="5" lines="5" clef.line="4" clef.shape="F" keysig="2s">
                   <label>Fagotte I, II</label>
                 </staffDef>
                 <staffGrp>
                   <label>Hörner in F</label>
-                  <staffDef n="6" lines="5" clef.line="2" clef.shape="G" key.sig="0">
+                  <staffDef n="6" lines="5" clef.line="2" clef.shape="G" keysig="0">
                     <label>I, II</label>
                   </staffDef>
-                  <staffDef n="7" lines="5" clef.shape="G" clef.line="2" key.sig="0">
+                  <staffDef n="7" lines="5" clef.shape="G" clef.line="2" keysig="0">
                     <label>III, IV</label>
                   </staffDef>
                 </staffGrp>
               </staffGrp>
               <staffGrp n="brass" bar.thru="true">
-                <staffDef n="8" lines="5" key.sig="0" clef.line="2" clef.shape="G">
+                <staffDef n="8" lines="5" keysig="0" clef.line="2" clef.shape="G">
                   <label>Trompeten in A I, II</label>
                 </staffDef>
-                <staffDef n="9" lines="5" key.sig="2s" clef.shape="C" clef.line="3">
+                <staffDef n="9" lines="5" keysig="2s" clef.shape="C" clef.line="3">
                   <label>Posaunen I, II</label>
                 </staffDef>
-                <staffDef n="10" lines="5" key.sig="2s" clef.line="4" clef.shape="F">
+                <staffDef n="10" lines="5" keysig="2s" clef.line="4" clef.shape="F">
                   <label>Posaune III</label>
                 </staffDef>
-                <staffDef n="11" lines="5" clef.line="4" clef.shape="F" key.sig="0">
+                <staffDef n="11" lines="5" clef.line="4" clef.shape="F" keysig="0">
                   <label>Pauken in G, D, E</label>
                 </staffDef>
               </staffGrp>
               <staffGrp n="strings" bar.thru="true">
-                <staffDef n="12" lines="5" clef.shape="G" clef.line="2" key.sig="2s">
+                <staffDef n="12" lines="5" clef.shape="G" clef.line="2" keysig="2s">
                   <label>Violine I</label>
                 </staffDef>
-                <staffDef n="13" lines="5" clef.line="2" clef.shape="G" key.sig="3s">
+                <staffDef n="13" lines="5" clef.line="2" clef.shape="G" keysig="3s">
                   <label>Violine II</label>
                 </staffDef>
-                <staffDef n="14" lines="5" clef.shape="C" clef.line="3" key.sig="2s">
+                <staffDef n="14" lines="5" clef.shape="C" clef.line="3" keysig="2s">
                   <label>Viola</label>
                 </staffDef>
-                <staffDef n="15" lines="5" clef.line="4" clef.shape="F" key.sig="2s">
+                <staffDef n="15" lines="5" clef.line="4" clef.shape="F" keysig="2s">
                   <label>Violoncell</label>
                 </staffDef>
-                <staffDef n="16" lines="5" clef.shape="F" clef.line="4" key.sig="2s">
+                <staffDef n="16" lines="5" clef.shape="F" clef.line="4" keysig="2s">
                   <label>Kontrabass</label>
                 </staffDef>
               </staffGrp>
@@ -766,53 +789,53 @@
           <scoreDef meter.count="3" meter.unit="4">
             <staffGrp>
               <staffGrp n="woodwinds" bar.thru="true">
-                <staffDef n="1" clef.shape="G" clef.line="2" key.sig="3s">
+                <staffDef n="1" clef.shape="G" clef.line="2" keysig="3s">
                   <label>Flöten I, II</label>
                 </staffDef>
-                <staffDef n="2" clef.line="2" clef.shape="G" key.sig="3s">
+                <staffDef n="2" clef.line="2" clef.shape="G" keysig="3s">
                   <label>Flöte III</label>
                 </staffDef>
-                <staffDef n="3" clef.line="2" clef.shape="G" key.sig="3s">
+                <staffDef n="3" clef.line="2" clef.shape="G" keysig="3s">
                   <label>Oboen I, II</label>
                 </staffDef>
-                <staffDef n="4" clef.line="2" clef.shape="G" key.sig="0">
+                <staffDef n="4" clef.line="2" clef.shape="G" keysig="0">
                   <label>Klarinetten in A I, II</label>
                 </staffDef>
-                <staffDef n="5" clef.line="4" clef.shape="F" key.sig="3s">
+                <staffDef n="5" clef.line="4" clef.shape="F" keysig="3s">
                   <label>Fagotte I, II</label>
                 </staffDef>
                 <staffGrp>
                   <label>Hörner in F</label>
-                  <staffDef n="6" clef.line="2" clef.shape="G" key.sig="0">
+                  <staffDef n="6" clef.line="2" clef.shape="G" keysig="0">
                     <label>I, II</label>
                   </staffDef>
-                  <staffDef n="7" clef.shape="G" clef.line="2" key.sig="0">
+                  <staffDef n="7" clef.shape="G" clef.line="2" keysig="0">
                     <label>III, IV</label>
                   </staffDef>
                 </staffGrp>
               </staffGrp>
               <staffGrp n="brass" bar.thru="true">
-                <staffDef n="8" key.sig="0" clef.line="2" clef.shape="G">
+                <staffDef n="8" keysig="0" clef.line="2" clef.shape="G">
                   <label>Trompeten in A I, II</label>
                 </staffDef>
-                <staffDef n="9" clef.line="4" clef.shape="F" key.sig="3s">
+                <staffDef n="9" clef.line="4" clef.shape="F" keysig="3s">
                   <label>Pauken in Fis, Cis</label>
                 </staffDef>
               </staffGrp>
               <staffGrp n="strings" bar.thru="true">
-                <staffDef n="10" clef.shape="G" clef.line="2" key.sig="3s">
+                <staffDef n="10" clef.shape="G" clef.line="2" keysig="3s">
                   <label>Violine I</label>
                 </staffDef>
-                <staffDef n="11" clef.line="2" clef.shape="G" key.sig="3s">
+                <staffDef n="11" clef.line="2" clef.shape="G" keysig="3s">
                   <label>Violine II</label>
                 </staffDef>
-                <staffDef n="12" clef.shape="C" clef.line="3" key.sig="3s">
+                <staffDef n="12" clef.shape="C" clef.line="3" keysig="3s">
                   <label>Viola</label>
                 </staffDef>
-                <staffDef n="13" clef.line="4" clef.shape="F" key.sig="3s">
+                <staffDef n="13" clef.line="4" clef.shape="F" keysig="3s">
                   <label>Violoncell</label>
                 </staffDef>
-                <staffDef n="14" clef.shape="F" clef.line="4" key.sig="3s">
+                <staffDef n="14" clef.shape="F" clef.line="4" keysig="3s">
                   <label>Kontrabass</label>
                 </staffDef>
               </staffGrp>
@@ -941,57 +964,57 @@
           <scoreDef meter.count="4" meter.unit="4">
             <staffGrp>
               <staffGrp n="woodwinds">
-                <staffDef n="1" lines="5" clef.shape="G" clef.line="2" key.sig="4s"/>
-                <staffDef n="2" lines="5" clef.line="2" clef.shape="G" key.sig="4s">
+                <staffDef n="1" lines="5" clef.shape="G" clef.line="2" keysig="4s"/>
+                <staffDef n="2" lines="5" clef.line="2" clef.shape="G" keysig="4s">
                   <label>Flöte III</label>
                 </staffDef>
-                <staffDef n="3" lines="5" clef.line="2" clef.shape="G" key.sig="4s">
+                <staffDef n="3" lines="5" clef.line="2" clef.shape="G" keysig="4s">
                   <label>Oboen I, II</label>
                 </staffDef>
-                <staffDef n="4" lines="5" clef.line="2" clef.shape="G" key.sig="1s">
+                <staffDef n="4" lines="5" clef.line="2" clef.shape="G" keysig="1s">
                   <label>Klarinetten in A I, II</label>
                 </staffDef>
-                <staffDef n="5" lines="5" clef.line="4" clef.shape="F" key.sig="4s">
+                <staffDef n="5" lines="5" clef.line="4" clef.shape="F" keysig="4s">
                   <label>Fagotte I, II</label>
                 </staffDef>
                 <staffGrp>
                   <label>Hörner in F</label>
-                  <staffDef n="6" lines="5" clef.line="2" clef.shape="G" key.sig="0">
+                  <staffDef n="6" lines="5" clef.line="2" clef.shape="G" keysig="0">
                     <label>I, II</label>
                   </staffDef>
-                  <staffDef n="7" lines="5" clef.shape="G" clef.line="2" key.sig="0">
+                  <staffDef n="7" lines="5" clef.shape="G" clef.line="2" keysig="0">
                     <label>III, IV</label>
                   </staffDef>
                 </staffGrp>
               </staffGrp>
               <staffGrp n="2">
-                <staffDef n="8" lines="5" key.sig="0" clef.line="2" clef.shape="G">
+                <staffDef n="8" lines="5" keysig="0" clef.line="2" clef.shape="G">
                   <label>Trompeten in A I, II</label>
                 </staffDef>
-                <staffDef n="9" lines="5" key.sig="4s" clef.shape="C" clef.line="3">
+                <staffDef n="9" lines="5" keysig="4s" clef.shape="C" clef.line="3">
                   <label>Posaunen I, II</label>
                 </staffDef>
-                <staffDef n="10" lines="5" key.sig="4s" clef.line="4" clef.shape="F">
+                <staffDef n="10" lines="5" keysig="4s" clef.line="4" clef.shape="F">
                   <label>Posaune III</label>
                 </staffDef>
-                <staffDef n="11" lines="5" clef.line="4" clef.shape="F" key.sig="0">
+                <staffDef n="11" lines="5" clef.line="4" clef.shape="F" keysig="0">
                   <label>Pauken in G, C, E</label>
                 </staffDef>
               </staffGrp>
               <staffGrp n="3">
-                <staffDef n="12" lines="5" clef.shape="G" clef.line="2" key.sig="4s">
+                <staffDef n="12" lines="5" clef.shape="G" clef.line="2" keysig="4s">
                   <label>Violine I</label>
                 </staffDef>
-                <staffDef n="13" lines="5" clef.line="2" clef.shape="G" key.sig="4s">
+                <staffDef n="13" lines="5" clef.line="2" clef.shape="G" keysig="4s">
                   <label>Violine II</label>
                 </staffDef>
-                <staffDef n="14" lines="5" clef.shape="C" clef.line="3" key.sig="4s">
+                <staffDef n="14" lines="5" clef.shape="C" clef.line="3" keysig="4s">
                   <label>Viola</label>
                 </staffDef>
-                <staffDef n="15" lines="5" clef.line="4" clef.shape="F" key.sig="4s">
+                <staffDef n="15" lines="5" clef.line="4" clef.shape="F" keysig="4s">
                   <label>Violoncell</label>
                 </staffDef>
-                <staffDef n="16" lines="5" clef.shape="F" clef.line="4" key.sig="4s">
+                <staffDef n="16" lines="5" clef.shape="F" clef.line="4" keysig="4s">
                   <label>Kontrabass</label>
                 </staffDef>
               </staffGrp>

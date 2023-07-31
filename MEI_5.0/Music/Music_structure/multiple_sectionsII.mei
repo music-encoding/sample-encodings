@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="http://music-encoding.org/schema/4.0.1/mei-all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<?xml-model href="http://music-encoding.org/schema/4.0.1/mei-all.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
-<mei xmlns="http://www.music-encoding.org/ns/mei" meiversion="4.0.1">
+<?xml-model href="https://music-encoding.org/schema/5.0/mei-all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://music-encoding.org/schema/5.0/mei-all.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<mei xmlns="http://www.music-encoding.org/ns/mei" meiversion="5.0">
   <meiHead>
     <fileDesc>
       <titleStmt>
@@ -36,13 +36,14 @@
               <addrLine>Kennedyallee 40</addrLine>
               <addrLine><geogName>Bonn</geogName></addrLine>
               <addrLine><geogName>Germany</geogName></addrLine>
-            </address> </corpName>
+            </address>
+          </corpName>
         </funder>
         <funder>
           <corpName role="funder">National Endowment for the Humanities
             <address>
               <addrLine>1100 Pennsylvania Avenue N.W.</addrLine>
-              <addrLine><geogName>Washington, DC</geogName> 20004</addrLine>
+              <addrLine><geogName>Washington, DC</geogName>20004</addrLine>
               <addrLine><geogName>United States</geogName></addrLine>
             </address>
           </corpName>
@@ -85,6 +86,14 @@
         <application version="v1.0_beta" xml:id="mei30To40">
           <name>mei30To40.xsl</name>
           <ptr target="https://github.com/music-encoding/encoding-tools/blob/main/mei30To40/mei30To40.xsl"/>
+        </application>
+        <application version="v0.0.1-alpha" xml:id="meiLint_v0.0.1-alpha">
+          <name>meiLint.xsl</name>
+          <ptr target="https://github.com/music-encoding/encoding-tools/blob/main/meiLint/meiLint.xsl"/>
+        </application>
+        <application version="v1.0" xml:id="mei40To50.xsl">
+          <name>mei40To50.xsl</name>
+          <ptr target="https://github.com/music-encoding/encoding-tools/blob/main/mei40To50/mei40To50.xsl"/>
         </application>
         <application version="v0.0.1-alpha" xml:id="meiLint_v0.0.1-alpha">
           <name>meiLint.xsl</name>
@@ -222,10 +231,24 @@
               <li>update meiversion attributes to 4.0.1</li>
               <li>add missing responsibility statements to change elements</li>
               <li>unify documentation of mei version upgrades (appInfo and revisionDesc)</li>
-               <li>linted with <ref target="#meiLint_v0.0.1-alpha">meiLint.xsl</ref></li>
+              <li>linted with
+                <ref target="#meiLint_v0.0.1-alpha">meiLint.xsl</ref>
+              </li>
             </list></p>
         </changeDesc>
         <date isodate="2023-07-27T17:10:52+02:00"/>
+      </change>
+      <change n="10" resp="#mei40To50.xsl">
+        <changeDesc>
+          <p>Converted to MEI version 5.0 using mei40To50.xsl, version 1.0</p>
+        </changeDesc>
+        <date isodate="2023-07-31"/>
+      </change>
+      <change n="11" resp="#meiLint_v0.0.1-alpha">
+        <changeDesc>
+          <p>Applied lint mode.</p>
+        </changeDesc>
+        <date isodate="2023-07-31T15:43:19+02:00"/>
       </change>
     </revisionDesc>
   </meiHead>
@@ -233,10 +256,10 @@
     <body>
       <mdiv>
         <score>
-          <scoreDef meter.count="2" meter.unit="4" key.sig="4f" key.mode="major">
+          <scoreDef meter.count="2" meter.unit="4" keysig="4f" key.mode="major">
             <staffGrp symbol="brace" bar.thru="true">
-              <staffDef n="1" clef.line="2" clef.shape="G" key.sig="4f" lines="5"/>
-              <staffDef n="2" clef.line="4" clef.shape="F" key.sig="4f" lines="5"/>
+              <staffDef n="1" clef.line="2" clef.shape="G" keysig="4f" lines="5"/>
+              <staffDef n="2" clef.line="4" clef.shape="F" keysig="4f" lines="5"/>
             </staffGrp>
           </scoreDef>
           <section n="1">
@@ -1212,8 +1235,8 @@
             <!-- ... -->
           </section>
           <section n="5">
-            <staffDef key.sig="5f" lines="5" n="1"/>
-            <staffDef key.sig="5f" lines="5" n="2"/>
+            <staffDef keysig="5f" lines="5" n="1"/>
+            <staffDef keysig="5f" lines="5" n="2"/>
             <measure n="52" xml:id="d1053044e28002" left="rptstart">
               <staff n="1">
                 <layer n="1">
@@ -1861,7 +1884,7 @@
             </ending>
           </section>
           <section n="6">
-            <scoreDef key.sig="4f"/>
+            <scoreDef keysig="4f"/>
             <measure n="69" xml:id="d1053044e37730" left="rptstart">
               <staff n="1">
                 <layer n="1">

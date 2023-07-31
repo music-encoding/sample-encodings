@@ -1,8 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="http://music-encoding.org/schema/4.0.1/mei-all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<?xml-model href="http://music-encoding.org/schema/4.0.1/mei-all.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="https://music-encoding.org/schema/5.0/mei-all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://music-encoding.org/schema/5.0/mei-all.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
 <!-- 2023-07-27T17:11:03+02:00 – update xml-model schema references to v4.0.1; update meiversion attributes to 4.0.1; add missing responsibility statements to change elements; unify documentation of mei version upgrades (appInfo and revisionDesc); lint with: https://github.com/music-encoding/encoding-tools/blob/main/meiLint/meiLint.xsl – v0.0.1-alpha -->
-<music xmlns="http://www.music-encoding.org/ns/mei">
+<!-- 2023-07-31T15:43:38+02:00 – Applied lint mode. Agent: https://github.com/music-encoding/encoding-tools/blob/main/meiLint/meiLint.xsl – v0.0.1-alpha -->
+<music xmlns="http://www.music-encoding.org/ns/mei" meiversion="5.0">
   <!-- A typical MEI document contains an MEI element, which in turn contains metadata, represented by an MEIHead element, and the musical text itself, represented by a music element. Moreover, it is possible to capture only musical texts without any metadata. This is an example for the use of the entry point &lt;music&gt;. -->
   <body>
     <mdiv>
@@ -13,13 +14,13 @@
             <title>SCHMETTERLING.</title>
           </pgHead>
           <staffGrp>
-            <staffDef n="1" lines="5" meter.count="3" meter.unit="8" clef.shape="G" clef.line="2" key.sig="2s">
+            <staffDef n="1" lines="5" meter.count="3" meter.unit="8" clef.shape="G" clef.line="2" keysig="2s">
               <label>Singstimme</label>
             </staffDef>
             <staffGrp symbol="brace">
               <label>Pianoforte</label>
-              <staffDef n="2" lines="5" meter.count="3" meter.unit="8" clef.shape="G" clef.line="2" key.sig="2s"/>
-              <staffDef n="3" lines="5" meter.count="3" meter.unit="8" clef.shape="F" clef.line="4" key.sig="2s"/>
+              <staffDef n="2" lines="5" meter.count="3" meter.unit="8" clef.shape="G" clef.line="2" keysig="2s"/>
+              <staffDef n="3" lines="5" meter.count="3" meter.unit="8" clef.shape="F" clef.line="4" keysig="2s"/>
             </staffGrp>
           </staffGrp>
         </scoreDef>

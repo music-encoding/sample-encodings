@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="http://music-encoding.org/schema/4.0.1/mei-all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<?xml-model href="http://music-encoding.org/schema/4.0.1/mei-all.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
-<mei xmlns="http://www.music-encoding.org/ns/mei" meiversion="4.0.1">
+<?xml-model href="https://music-encoding.org/schema/5.0/mei-all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://music-encoding.org/schema/5.0/mei-all.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<mei xmlns="http://www.music-encoding.org/ns/mei" meiversion="5.0">
   <meiHead>
     <fileDesc>
       <titleStmt>
         <title>Violin Concerto in G minor</title>
-        <title type="work">RV 315<titlePart type="subordinate">op. 8, no. 2</titlePart> <titlePart type="subordinate">an electronic transcription</titlePart> </title>
+        <title type="work">RV 315<titlePart type="subordinate">op. 8, no. 2</titlePart><titlePart type="subordinate">an electronic transcription</titlePart></title>
         <title type="alternative">The Four Seasons, Summer</title>
         <title type="popular">L'Estate</title>
         <composer>
@@ -39,7 +39,8 @@
               <addrLine>Kennedyallee 40</addrLine>
               <addrLine><geogName codedval="7005090" auth.uri="http://vocab.getty.edu/page/tgn/" auth="TGN">Bonn</geogName></addrLine>
               <addrLine><geogName codedval="7000084" auth.uri="http://vocab.getty.edu/page/tgn/" auth="TGN">Germany</geogName></addrLine>
-            </address> </corpName>
+            </address>
+          </corpName>
         </funder>
         <funder>
           <corpName role="funder" codedval="18183-3" auth.uri="http://d-nb.info/gnd/18183-3" auth="Deutsche Nationalbibliothek">National Endowment for the Humanities
@@ -47,7 +48,8 @@
               <addrLine>1100 Pennsylvania Avenue N.W.</addrLine>
               <addrLine><geogName codedval="7013962" auth.uri="http://vocab.getty.edu/page/tgn/" auth="TGN">Washington, DC</geogName>20004</addrLine>
               <addrLine><geogName codedval="7012149" auth.uri="http://vocab.getty.edu/page/tgn/" auth="TGN">United States</geogName></addrLine>
-            </address> </corpName>
+            </address>
+          </corpName>
         </funder>
         <respStmt>
           <corpName role="publisher">MEI Project</corpName>
@@ -73,6 +75,14 @@
         <application version="v1.0_beta" xml:id="mei30To40">
           <name>mei30To40.xsl</name>
           <ptr target="https://github.com/music-encoding/encoding-tools/blob/main/mei30To40/mei30To40.xsl"/>
+        </application>
+        <application version="v0.0.1-alpha" xml:id="meiLint_v0.0.1-alpha">
+          <name>meiLint.xsl</name>
+          <ptr target="https://github.com/music-encoding/encoding-tools/blob/main/meiLint/meiLint.xsl"/>
+        </application>
+        <application version="v1.0" xml:id="mei40To50.xsl">
+          <name>mei40To50.xsl</name>
+          <ptr target="https://github.com/music-encoding/encoding-tools/blob/main/mei40To50/mei40To50.xsl"/>
         </application>
         <application version="v0.0.1-alpha" xml:id="meiLint_v0.0.1-alpha">
           <name>meiLint.xsl</name>
@@ -111,7 +121,7 @@
     <workList>
       <work n="1" xml:id="movement1">
         <title>Violin Concerto in G minor, Allegro non molto</title>
-        <title type="work">RV 315<titlePart type="subordinate">op. 8, no. 2</titlePart> </title>
+        <title type="work">RV 315<titlePart type="subordinate">op. 8, no. 2</titlePart></title>
         <title type="uniform">Il cimento dell'armonia e dell'inventione &lt;Konzert RV 315, 1. Satz&gt;</title>
         <composer>
           <persName role="composer" codedval="118627287" auth.uri="http://d-nb.info/gnd/" auth="GND">Antonio Vivaldi</persName>
@@ -137,7 +147,7 @@
       </work>
       <work n="2" xml:id="movement2">
         <title>Violin Concerto in G minor, Adagio</title>
-        <title type="work">RV 315<titlePart type="subordinate">op. 8, no. 2</titlePart> </title>
+        <title type="work">RV 315<titlePart type="subordinate">op. 8, no. 2</titlePart></title>
         <title type="uniform">Il cimento dell'armonia e dell'inventione &lt;Konzert RV 315, 2. Satz&gt;</title>
         <composer>
           <persName role="composer" codedval="118627287" auth.uri="http://d-nb.info/gnd/" auth="GND">Antonio Vivaldi</persName>
@@ -163,7 +173,7 @@
       </work>
       <work n="3" xml:id="movement3">
         <title>Violin Concerto in G minor, Presto</title>
-        <title type="work">RV 315<titlePart type="subordinate">op. 8, no. 2</titlePart> </title>
+        <title type="work">RV 315<titlePart type="subordinate">op. 8, no. 2</titlePart></title>
         <title type="uniform">Il cimento dell'armonia e dell'inventione &lt;Konzert RV 315, 3. Satz&gt;</title>
         <composer>
           <persName role="composer" codedval="118627287" auth.uri="http://d-nb.info/gnd/" auth="GND">Antonio Vivaldi</persName>
@@ -298,10 +308,24 @@
               <li>update meiversion attributes to 4.0.1</li>
               <li>add missing responsibility statements to change elements</li>
               <li>unify documentation of mei version upgrades (appInfo and revisionDesc)</li>
-               <li>linted with <ref target="#meiLint_v0.0.1-alpha">meiLint.xsl</ref></li>
+              <li>linted with
+                <ref target="#meiLint_v0.0.1-alpha">meiLint.xsl</ref>
+              </li>
             </list></p>
         </changeDesc>
         <date isodate="2023-07-27T17:08:33+02:00"/>
+      </change>
+      <change n="9" resp="#mei40To50.xsl">
+        <changeDesc>
+          <p>Converted to MEI version 5.0 using mei40To50.xsl, version 1.0</p>
+        </changeDesc>
+        <date isodate="2023-07-31"/>
+      </change>
+      <change n="10" resp="#meiLint_v0.0.1-alpha">
+        <changeDesc>
+          <p>Applied lint mode.</p>
+        </changeDesc>
+        <date isodate="2023-07-31T15:40:07+02:00"/>
       </change>
     </revisionDesc>
   </meiHead>
@@ -309,7 +333,7 @@
     <body>
       <mdiv n="1" decls="#movement1">
         <score>
-          <scoreDef meter.count="3" meter.unit="8" key.sig="2f">
+          <scoreDef meter.count="3" meter.unit="8" keysig="2f">
             <staffGrp>
               <staffDef n="1" lines="5" clef.shape="G" clef.line="2">
                 <label>Violino Principale</label>
@@ -10317,7 +10341,7 @@
       </mdiv>
       <mdiv n="2" decls="#movement2">
         <score>
-          <scoreDef meter.count="4" meter.unit="4" key.sig="2f">
+          <scoreDef meter.count="4" meter.unit="4" keysig="2f">
             <staffGrp>
               <staffDef n="1" lines="5" xml:id="P1-I1">
                 <label>Violino Principale</label>
@@ -11857,7 +11881,7 @@
       </mdiv>
       <mdiv n="3" decls="#movement3">
         <score>
-          <scoreDef meter.count="3" meter.unit="4" key.sig="2f">
+          <scoreDef meter.count="3" meter.unit="4" keysig="2f">
             <staffGrp>
               <staffDef n="1" lines="5" xml:id="P1-I1c">
                 <label>Violino Principale</label>
