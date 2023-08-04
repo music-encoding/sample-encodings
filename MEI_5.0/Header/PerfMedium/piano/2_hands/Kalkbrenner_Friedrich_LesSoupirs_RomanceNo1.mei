@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://music-encoding.org/schema/5.0/mei-all_anyStart.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://music-encoding.org/schema/5.0/mei-all_anyStart.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<!-- 2023-07-27T17:11:53+02:00 – update xml-model schema references to v4.0.1; update meiversion attributes to 4.0.1; add missing responsibility statements to change elements; unify documentation of mei version upgrades (appInfo and revisionDesc); lint with: https://github.com/music-encoding/encoding-tools/blob/main/meiLint/meiLint.xsl – v0.0.1-alpha -->
+<!-- 2023-07-31T15:44:38+02:00 – Applied lint mode. Agent: https://github.com/music-encoding/encoding-tools/blob/main/meiLint/meiLint.xsl – v0.0.1-alpha -->
+<perfMedium xmlns="http://www.music-encoding.org/ns/mei" meiversion="5.0">
+  <head>Les Soupirs. | deux Romances | pour le piano | dédicés à son Altesse Royale | Madame la Princesse | Charles de Prusse| par | Fried. Kalkbrenner. | op. 121 [Romance No 1]</head>
+  <perfResList label="Sonata I–III">
+    <perfRes label="piano" codedval="ka">
+      <!-- <perfRes label="hand">right</perfRes> <perfRes label="hand">left</perfRes> -->
+    </perfRes>
+  </perfResList>
+  <annot>@auth.uri for the following &lt;perfRes/&gt; is https://www.loc.gov/standards/valuelist/marcmusperf.html</annot>
+  <annot>The score is available on IMSLP: https://imslp.org/wiki/Les_Soupirs%2C_Op.121_(Kalkbrenner%2C_Friedrich_Wilhelm)</annot>
+</perfMedium>

@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://music-encoding.org/schema/5.0/mei-all_anyStart.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://music-encoding.org/schema/5.0/mei-all_anyStart.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<!-- 2023-07-27T17:11:54+02:00 – update xml-model schema references to v4.0.1; update meiversion attributes to 4.0.1; add missing responsibility statements to change elements; unify documentation of mei version upgrades (appInfo and revisionDesc); lint with: https://github.com/music-encoding/encoding-tools/blob/main/meiLint/meiLint.xsl – v0.0.1-alpha -->
+<!-- 2023-07-31T15:44:39+02:00 – Applied lint mode. Agent: https://github.com/music-encoding/encoding-tools/blob/main/meiLint/meiLint.xsl – v0.0.1-alpha -->
+<perfMedium xmlns="http://www.music-encoding.org/ns/mei" meiversion="5.0">
+  <head>Sechs leichte Sonaten fürs Clavier oder Piano=Forte, | wovon | Zwei mit Begleitung einer Flöte oder Violine | und | Eine für drei Hände auf Einem Claviere, | von | Johann Wilhelm Häßler, | Musikdirektor des öffentlichen Konzerts und Organist an der Barfüßerkirche in Erfurth.</head>
+  <perfResList label="Sonata I–III">
+    <perfRes codedval="ka">piano</perfRes>
+  </perfResList>
+  <annot>@auth.uri for the following &lt;perfRes/&gt; is https://www.loc.gov/standards/valuelist/marcmusperf.html</annot>
+  <annot>The score is available on IMSLP: https://imslp.org/wiki/6_Leichte_Sonaten%2C_Theil_1_(H%C3%A4ssler%2C_Johann_Wilhelm)</annot>
+</perfMedium>

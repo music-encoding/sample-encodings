@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://music-encoding.org/schema/5.0/mei-all_anyStart.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://music-encoding.org/schema/5.0/mei-all_anyStart.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<!-- 2023-07-27T17:12:11+02:00 – update xml-model schema references to v4.0.1; update meiversion attributes to 4.0.1; add missing responsibility statements to change elements; unify documentation of mei version upgrades (appInfo and revisionDesc); lint with: https://github.com/music-encoding/encoding-tools/blob/main/meiLint/meiLint.xsl – v0.0.1-alpha -->
+<!-- 2023-07-31T15:44:58+02:00 – Applied lint mode. Agent: https://github.com/music-encoding/encoding-tools/blob/main/meiLint/meiLint.xsl – v0.0.1-alpha -->
+<perfMedium xmlns="http://www.music-encoding.org/ns/mei" meiversion="5.0">
+  <head>Example if one player (here flute 3 and percussions) performs on more than one instrument</head>
+  <castList type="performers">
+    <castItem xml:id="perf.flute-01">Performer flute (I)</castItem>
+    <castItem xml:id="perf.flute-02">Performer flute (II)</castItem>
+    <castItem xml:id="perf.flute-03">Performer flute (III)</castItem>
+    <castItem xml:id="perf.perc-01">Performer percussion</castItem>
+  </castList>
+  <perfResList>
+    <perfResList codedval="winds">
+      <perfRes count="1" corresp="#perf.flute-03">piccolo</perfRes>
+      <perfRes count="1" corresp="#perf.flute-01">flute I</perfRes>
+      <perfRes count="1" corresp="#perf.flute-02">flute II</perfRes>
+      <perfRes count="1" corresp="#perf.flute-03">flute III</perfRes>
+    </perfResList>
+    <perfResList codedval="percussion">
+      <!-- Here The group is somewhere else -->
+      <perfRes count="1" corresp="#perf.perc-01">bass drum</perfRes>
+      <perfRes count="1" corresp="#perf.perc-01">snare drum</perfRes>
+      <perfRes count="1" corresp="#perf.perc-01">hi-hat</perfRes>
+    </perfResList>
+  </perfResList>
+  <annot>
+    <list>
+      <head>There are two different things in here:</head>
+      <li>1. The performance resources that are needed to perform a work.</li>
+      <li>2. The (number/kind of) people that are needed to perform a work.</li>
+    </list>
+  </annot>
+</perfMedium>

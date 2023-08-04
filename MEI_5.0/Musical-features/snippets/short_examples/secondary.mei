@@ -1,0 +1,236 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://music-encoding.org/schema/5.0/mei-all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://music-encoding.org/schema/5.0/mei-all.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<mei xmlns="http://www.music-encoding.org/ns/mei" meiversion="5.0">
+  <meiHead>
+    <fileDesc>
+      <titleStmt>
+        <title>beam-secondary</title>
+      </titleStmt>
+      <pubStmt>
+        <publisher>
+          <corpName role="publisher" codedval="5115204-6" auth.uri="http://d-nb.info/gnd/" auth="GND">Musikwissenschaftliches Seminar, Detmold</corpName>
+        </publisher>
+        <address>
+          <addrLine>Gartenstrasse 20</addrLine>
+          <addrLine>32756<geogName codedval="7004442" auth.uri="http://vocab.getty.edu/page/tgn/" auth="TGN">Detmold</geogName></addrLine>
+          <addrLine><geogName codedval="7000084" auth.uri="http://vocab.getty.edu/page/tgn/" auth="TGN">Germany</geogName></addrLine>
+        </address>
+        <date>2011</date>
+        <availability>
+          <useRestrict>This encoding is in the public domain. However, the sources used to create it may be under copyright. We believe their use by the MEI project for educational and research purposes is covered by the Fair Use doctrine. However, we will remove any material from the project archive when requested to do so by the copyright owner.</useRestrict>
+        </availability>
+      </pubStmt>
+      <seriesStmt>
+        <title>MEI Sample Collection</title>
+        <funder>
+          <corpName role="funder" codedval="2007744-0" auth.uri="http://d-nb.info/gnd/" auth="GND">German Research Foundation
+            <address>
+              <addrLine>Kennedyallee 40</addrLine>
+              <addrLine><geogName codedval="7005090" auth.uri="http://vocab.getty.edu/page/tgn/" auth="TGN">Bonn</geogName></addrLine>
+              <addrLine><geogName codedval="7000084" auth.uri="http://vocab.getty.edu/page/tgn/" auth="TGN">Germany</geogName></addrLine>
+            </address>
+          </corpName>
+        </funder>
+        <funder>
+          <corpName role="funder" codedval="18183-3" auth.uri="http://d-nb.info/gnd/18183-3" auth="Deutsche Nationalbibliothek">National Endowment for the Humanities
+            <address>
+              <addrLine>1100 Pennsylvania Avenue N.W.</addrLine>
+              <addrLine><geogName codedval="7013962" auth.uri="http://vocab.getty.edu/page/tgn/" auth="TGN">Washington, DC</geogName>20004</addrLine>
+              <addrLine><geogName codedval="7012149" auth.uri="http://vocab.getty.edu/page/tgn/" auth="TGN">United States</geogName></addrLine>
+            </address>
+          </corpName>
+        </funder>
+        <respStmt>
+          <corpName role="publisher">MEI Project</corpName>
+        </respStmt>
+        <identifier>
+          <ref target="http://music-encoding.org/irgendEineUnterSeite">http://music-encoding.org/irgendEineUnterSeite</ref>
+        </identifier>
+      </seriesStmt>
+    </fileDesc>
+    <encodingDesc>
+      <appInfo>
+        <application xml:id="SharpEye2" version="2">
+          <name>SharpEye</name>
+        </application>
+        <application xml:id="xsl_2mei_2.2.1" version="2.2.1">
+          <name>2mei</name>
+        </application>
+        <application version="v1.0_beta" xml:id="mei21To30">
+          <name>mei21To30.xsl</name>
+          <ptr target="https://github.com/music-encoding/encoding-tools/blob/main/mei21To30/mei21To30.xsl"/>
+        </application>
+        <application version="v1.0_beta" xml:id="mei30To40">
+          <name>mei30To40.xsl</name>
+          <ptr target="https://github.com/music-encoding/encoding-tools/blob/main/mei30To40/mei30To40.xsl"/>
+        </application>
+        <application version="v0.0.1-alpha" xml:id="meiLint_v0.0.1-alpha">
+          <name>meiLint.xsl</name>
+          <ptr target="https://github.com/music-encoding/encoding-tools/blob/main/meiLint/meiLint.xsl"/>
+        </application>
+        <application version="v1.0" xml:id="mei40To50.xsl">
+          <name>mei40To50.xsl</name>
+          <ptr target="https://github.com/music-encoding/encoding-tools/blob/main/mei40To50/mei40To50.xsl"/>
+        </application>
+        <application version="v0.0.1-alpha" xml:id="meiLint_v0.0.1-alpha">
+          <name>meiLint.xsl</name>
+          <ptr target="https://github.com/music-encoding/encoding-tools/blob/main/meiLint/meiLint.xsl"/>
+        </application>
+      </appInfo>
+    </encodingDesc>
+    <revisionDesc>
+      <change n="1" resp="#SharpEye2">
+        <changeDesc>
+          <p>The original MusicXML file was generated using SharpEye Music Reader 2.</p>
+        </changeDesc>
+        <date/>
+      </change>
+      <change n="2" resp="#xsl_2mei_2.2.1">
+        <changeDesc>
+          <p>Transcoded from a MusicXML version 1.0 file on 2009-11-05 using the<ref target="#xsl_2mei_2.2.1">2mei</ref>stylesheet.</p>
+        </changeDesc>
+        <date isodate="2009-11-05"/>
+      </change>
+      <change n="3">
+        <respStmt>
+          <persName xml:id="PR">Perry Roland</persName>
+        </respStmt>
+        <changeDesc>
+          <p>hand-edited</p>
+        </changeDesc>
+        <date isodate="2009-11-12"/>
+      </change>
+      <change n="4">
+        <respStmt>
+          <persName xml:id="KR">Kristina Richts</persName>
+        </respStmt>
+        <changeDesc>
+          <p>Addition of header information</p>
+        </changeDesc>
+        <date isodate="2012-04-03"/>
+      </change>
+      <change n="5" resp="#mei21To30">
+        <changeDesc>
+          <p>Converted to version 3.0.0 using mei21To30.xsl, version 1.0 beta</p>
+        </changeDesc>
+        <date isodate="2015-11-18"/>
+      </change>
+      <change n="6" resp="#mei30To40">
+        <changeDesc>
+          <p>Converted to MEI version 4.0.0 using mei30To40.xsl, version 1.0 beta</p>
+        </changeDesc>
+        <date isodate="2019-01-03"/>
+      </change>
+      <change n="7">
+        <respStmt>
+          <persName>Benjamin W. Bohl</persName>
+          <persName>Stefan Münnich</persName>
+        </respStmt>
+        <changeDesc>
+          <p><list>
+              <li>update xml-model schema references to v4.0.1</li>
+              <li>update meiversion attributes to 4.0.1</li>
+              <li>add missing responsibility statements to change elements</li>
+              <li>unify documentation of mei version upgrades (appInfo and revisionDesc)</li>
+              <li>linted with
+                <ref target="#meiLint_v0.0.1-alpha">meiLint.xsl</ref>
+              </li>
+            </list></p>
+        </changeDesc>
+        <date isodate="2023-07-27T17:11:19+02:00"/>
+      </change>
+      <change n="8" resp="#mei40To50.xsl">
+        <changeDesc>
+          <p>Converted to MEI version 5.0 using mei40To50.xsl, version 1.0</p>
+        </changeDesc>
+        <date isodate="2023-07-31"/>
+      </change>
+      <change n="9" resp="#meiLint_v0.0.1-alpha">
+        <changeDesc>
+          <p>Applied lint mode.</p>
+        </changeDesc>
+        <date isodate="2023-07-31T15:43:59+02:00"/>
+      </change>
+    </revisionDesc>
+  </meiHead>
+  <music>
+    <body>
+      <mdiv>
+        <score>
+          <scoreDef meter.count="3" meter.unit="8" keysig="0">
+            <staffGrp>
+              <staffDef n="1" xml:id="P1" lines="5" clef.line="2" clef.shape="G" keysig="0"/>
+            </staffGrp>
+          </scoreDef>
+          <section>
+            <measure n="1" right="invis">
+              <staff n="1">
+                <layer n="1">
+                  <!-- unbroken secondary beam -->
+                  <beam>
+                    <note pname="g" dur="16"/>
+                    <note pname="g" dur="16"/>
+                    <note pname="g" dur="16"/>
+                    <note pname="g" dur="16"/>
+                    <note pname="g" dur="16"/>
+                    <note pname="g" dur="16"/>
+                  </beam>
+                </layer>
+              </staff>
+            </measure>
+          </section>
+          <section restart="true">
+            <measure n="2" right="invis">
+              <staff n="1">
+                <layer n="1">
+                  <!-- secondary beam broken into 2 dotted 8th note groups -->
+                  <beam>
+                    <note pname="g" dur="16"/>
+                    <note pname="g" dur="16"/>
+                    <note pname="g" dur="16" breaksec="1"/>
+                    <note pname="g" dur="16"/>
+                    <note pname="g" dur="16"/>
+                    <note pname="g" dur="16"/>
+                  </beam>
+                </layer>
+              </staff>
+            </measure>
+          </section>
+          <section restart="true">
+            <measure n="3" right="invis">
+              <staff n="1">
+                <layer n="1">
+                  <!-- secondary beam broken into 3 8th note groups -->
+                  <beam>
+                    <note pname="g" dur="16"/>
+                    <note pname="g" dur="16" breaksec="1"/>
+                    <note pname="g" dur="16"/>
+                    <note pname="g" dur="16" breaksec="1"/>
+                    <note pname="g" dur="16"/>
+                    <note pname="g" dur="16"/>
+                  </beam>
+                </layer>
+              </staff>
+            </measure>
+            <measure n="4" right="invis">
+              <staff n="1">
+                <layer n="1">
+                  <!-- secondary beam broken into 3 8th note groups -->
+                  <beam>
+                    <note pname="g" dur="16"/>
+                    <note pname="g" dur="16" breaksec="1"/>
+                    <note pname="g" dur="16"/>
+                    <note pname="g" dur="16" breaksec="1"/>
+                    <note pname="g" dur="16"/>
+                    <note pname="g" dur="16"/>
+                  </beam>
+                </layer>
+              </staff>
+            </measure>
+          </section>
+        </score>
+      </mdiv>
+    </body>
+  </music>
+</mei>
