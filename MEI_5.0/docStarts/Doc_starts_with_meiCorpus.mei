@@ -36,10 +36,6 @@
           <name>mei40To50.xsl</name>
           <ptr target="https://github.com/music-encoding/encoding-tools/blob/main/mei40To50/mei40To50.xsl"/>
         </application>
-        <application version="v0.0.1-alpha" xml:id="meiLint_v0.0.1-alpha">
-          <name>meiLint.xsl</name>
-          <ptr target="https://github.com/music-encoding/encoding-tools/blob/main/meiLint/meiLint.xsl"/>
-        </application>
       </appInfo>
       <editorialDecl>
         <p>A typical MEI document contains an MEI element, which in turn contains metadata, represented by an MEIHead element, and the musical text itself, represented by a music element. It is possible to group several related MEI documents by using the entry point meiCorpus, which consists of a header for the group, and one or more &lt;mei&gt; elements, each with its own complete header. This is an example for the use of the entry point &lt;meiCorpus&gt;.</p>
@@ -95,14 +91,6 @@
         </titleStmt>
         <pubStmt/>
       </fileDesc>
-      <encodingDesc>
-        <appInfo>
-          <application version="v1.0" xml:id="mei40To50.xsl">
-            <name>mei40To50.xsl</name>
-            <ptr target="https://github.com/music-encoding/encoding-tools/blob/main/mei40To50/mei40To50.xsl"/>
-          </application>
-        </appInfo>
-      </encodingDesc>
       <workList>
         <work>
           <title/>
@@ -146,14 +134,6 @@
         </titleStmt>
         <pubStmt/>
       </fileDesc>
-      <encodingDesc>
-        <appInfo>
-          <application version="v1.0" xml:id="mei40To50.xsl">
-            <name>mei40To50.xsl</name>
-            <ptr target="https://github.com/music-encoding/encoding-tools/blob/main/mei40To50/mei40To50.xsl"/>
-          </application>
-        </appInfo>
-      </encodingDesc>
       <workList>
         <work>
           <title/>
@@ -186,14 +166,6 @@
         </titleStmt>
         <pubStmt/>
       </fileDesc>
-      <encodingDesc>
-        <appInfo>
-          <application version="v1.0" xml:id="mei40To50.xsl">
-            <name>mei40To50.xsl</name>
-            <ptr target="https://github.com/music-encoding/encoding-tools/blob/main/mei40To50/mei40To50.xsl"/>
-          </application>
-        </appInfo>
-      </encodingDesc>
       <workList>
         <work>
           <title/>

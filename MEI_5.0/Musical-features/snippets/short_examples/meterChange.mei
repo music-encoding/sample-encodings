@@ -59,10 +59,6 @@
           <name>mei30To40.xsl</name>
           <ptr target="https://github.com/music-encoding/encoding-tools/blob/main/mei30To40/mei30To40.xsl"/>
         </application>
-        <application version="v0.0.1-alpha" xml:id="meiLint_v0.0.1-alpha">
-          <name>meiLint.xsl</name>
-          <ptr target="https://github.com/music-encoding/encoding-tools/blob/main/meiLint/meiLint.xsl"/>
-        </application>
         <application version="v1.0" xml:id="mei40To50.xsl">
           <name>mei40To50.xsl</name>
           <ptr target="https://github.com/music-encoding/encoding-tools/blob/main/mei40To50/mei40To50.xsl"/>
