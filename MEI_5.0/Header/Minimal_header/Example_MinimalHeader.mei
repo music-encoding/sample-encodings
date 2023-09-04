@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://music-encoding.org/schema/5.0/mei-all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://music-encoding.org/schema/5.0/mei-all.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<mei xmlns="http://www.music-encoding.org/ns/mei" meiversion="5.0">
+  <meiHead>
+    <fileDesc>
+      <titleStmt>
+        <title>Example of a Minimal header</title>
+        <title>Der Abendstern: an electronic transcription</title>
+        <composer>
+          <persName role="creator" codedval="118611666" auth="GND" auth.uri="http://d-nb.info/gnd/">Robert Schumann</persName>
+        </composer>
+        <respStmt>
+          <persName role="encoder">John Doe</persName>
+        </respStmt>
+      </titleStmt>
+      <pubStmt>
+        <unpub>Incomplete!</unpub>
+      </pubStmt>
+    </fileDesc>
+    <encodingDesc>
+      <appInfo>
+        <application version="v1.0" xml:id="mei40To50.xsl">
+          <name>mei40To50.xsl</name>
+          <ptr target="https://github.com/music-encoding/encoding-tools/blob/main/mei40To50/mei40To50.xsl"/>
+        </application>
+        <application version="v0.0.1-alpha" xml:id="meiLint_v0.0.1-alpha">
+          <name>meiLint.xsl</name>
+          <ptr target="https://github.com/music-encoding/encoding-tools/blob/main/meiLint/meiLint.xsl"/>
+        </application>
+      </appInfo>
+    </encodingDesc>
+    <revisionDesc>
+      <change n="1">
+        <respStmt>
+          <persName>Benjamin W. Bohl</persName>
+          <persName>Stefan Münnich</persName>
+        </respStmt>
+        <changeDesc>
+          <p><list>
+              <li>update xml-model schema references to v4.0.1</li>
+              <li>update meiversion attributes to 4.0.1</li>
+              <li>add missing responsibility statements to change elements</li>
+              <li>unify documentation of mei version upgrades (appInfo and revisionDesc)</li>
+              <li>linted with
+                <ref target="#meiLint_v0.0.1-alpha">meiLint.xsl</ref>
+              </li>
+            </list></p>
+        </changeDesc>
+        <date isodate="2023-07-27T17:11:38+02:00"/>
+      </change>
+      <change n="2" resp="#mei40To50.xsl">
+        <changeDesc>
+          <p>Converted to MEI version 5.0 using mei40To50.xsl, version 1.0</p>
+        </changeDesc>
+        <date isodate="2023-07-31"/>
+      </change>
+      <change n="3" resp="#meiLint_v0.0.1-alpha">
+        <changeDesc>
+          <p>Applied lint mode.</p>
+        </changeDesc>
+        <date isodate="2023-07-31T15:44:21+02:00"/>
+      </change>
+    </revisionDesc>
+  </meiHead>
+  <music/>
+</mei>
