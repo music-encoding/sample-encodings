@@ -1,0 +1,259 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://music-encoding.org/schema/5.0/mei-all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://music-encoding.org/schema/5.0/mei-all.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<mei xmlns="http://www.music-encoding.org/ns/mei" meiversion="5.0">
+  <meiHead>
+    <fileDesc>
+      <titleStmt>
+        <title>Ties II</title>
+      </titleStmt>
+      <pubStmt>
+        <publisher>
+          <corpName role="publisher" codedval="5115204-6" auth.uri="http://d-nb.info/gnd/" auth="GND">Musikwissenschaftliches Seminar, Detmold</corpName>
+        </publisher>
+        <address>
+          <addrLine>Gartenstrasse 20</addrLine>
+          <addrLine>32756<geogName codedval="7004442" auth.uri="http://vocab.getty.edu/page/tgn/" auth="TGN">Detmold</geogName></addrLine>
+          <addrLine><geogName codedval="7000084" auth.uri="http://vocab.getty.edu/page/tgn/" auth="TGN">Germany</geogName></addrLine>
+        </address>
+        <date>2011</date>
+        <availability>
+          <useRestrict>This encoding is in the public domain. However, the sources used to create it may be under copyright. We believe their use by the MEI project for educational and research purposes is covered by the Fair Use doctrine. However, we will remove any material from the project archive when requested to do so by the copyright owner.</useRestrict>
+        </availability>
+      </pubStmt>
+      <seriesStmt>
+        <title>MEI Sample Collection</title>
+        <funder>
+          <corpName role="funder" codedval="2007744-0" auth.uri="http://d-nb.info/gnd/" auth="GND">German Research Foundation
+            <address>
+              <addrLine>Kennedyallee 40</addrLine>
+              <addrLine><geogName codedval="7005090" auth.uri="http://vocab.getty.edu/page/tgn/" auth="TGN">Bonn</geogName></addrLine>
+              <addrLine><geogName codedval="7000084" auth.uri="http://vocab.getty.edu/page/tgn/" auth="TGN">Germany</geogName></addrLine>
+            </address>
+          </corpName>
+        </funder>
+        <funder>
+          <corpName role="funder" codedval="18183-3" auth.uri="http://d-nb.info/gnd/18183-3" auth="Deutsche Nationalbibliothek">National Endowment for the Humanities
+            <address>
+              <addrLine>1100 Pennsylvania Avenue N.W.</addrLine>
+              <addrLine><geogName codedval="7013962" auth.uri="http://vocab.getty.edu/page/tgn/" auth="TGN">Washington, DC</geogName>20004</addrLine>
+              <addrLine><geogName codedval="7012149" auth.uri="http://vocab.getty.edu/page/tgn/" auth="TGN">United States</geogName></addrLine>
+            </address>
+          </corpName>
+        </funder>
+        <respStmt>
+          <corpName role="publisher">MEI Project</corpName>
+        </respStmt>
+      </seriesStmt>
+    </fileDesc>
+    <encodingDesc>
+      <appInfo>
+        <application version="v1.0_beta" xml:id="mei21To30">
+          <name>mei21To30.xsl</name>
+          <ptr target="https://github.com/music-encoding/encoding-tools/blob/main/mei21To30/mei21To30.xsl"/>
+        </application>
+        <application version="v1.0_beta" xml:id="mei30To40">
+          <name>mei30To40.xsl</name>
+          <ptr target="https://github.com/music-encoding/encoding-tools/blob/main/mei30To40/mei30To40.xsl"/>
+        </application>
+        <application version="v1.0" xml:id="mei40To50.xsl">
+          <name>mei40To50.xsl</name>
+          <ptr target="https://github.com/music-encoding/encoding-tools/blob/main/mei40To50/mei40To50.xsl"/>
+        </application>
+        <application version="v0.0.1-alpha" xml:id="meiLint_v0.0.1-alpha">
+          <name>meiLint.xsl</name>
+          <ptr target="https://github.com/music-encoding/encoding-tools/blob/main/meiLint/meiLint.xsl"/>
+        </application>
+      </appInfo>
+    </encodingDesc>
+    <revisionDesc>
+      <change n="1">
+        <respStmt>
+          <persName xml:id="KR">Kristina Richts</persName>
+        </respStmt>
+        <changeDesc>
+          <p>Addition of header information</p>
+        </changeDesc>
+        <date isodate="2011-12-15"/>
+      </change>
+      <change n="2" resp="#mei21To30">
+        <changeDesc>
+          <p>Converted to version 3.0.0 using mei21To30.xsl, version 1.0 beta</p>
+        </changeDesc>
+        <date isodate="2015-11-18"/>
+      </change>
+      <change n="3" resp="#mei30To40">
+        <changeDesc>
+          <p>Converted to MEI version 4.0.0 using mei30To40.xsl, version 1.0 beta</p>
+        </changeDesc>
+        <date isodate="2019-01-03"/>
+      </change>
+      <change n="4">
+        <respStmt>
+          <persName>Benjamin W. Bohl</persName>
+          <persName>Stefan Münnich</persName>
+        </respStmt>
+        <changeDesc>
+          <p><list>
+              <li>update xml-model schema references to v4.0.1</li>
+              <li>update meiversion attributes to 4.0.1</li>
+              <li>add missing responsibility statements to change elements</li>
+              <li>unify documentation of mei version upgrades (appInfo and revisionDesc)</li>
+              <li>linted with
+                <ref target="#meiLint_v0.0.1-alpha">meiLint.xsl</ref>
+              </li>
+            </list></p>
+        </changeDesc>
+        <date isodate="2023-07-27T17:11:29+02:00"/>
+      </change>
+      <change n="5" resp="#mei40To50.xsl">
+        <changeDesc>
+          <p>Converted to MEI version 5.0 using mei40To50.xsl, version 1.0</p>
+        </changeDesc>
+        <date isodate="2023-07-31"/>
+      </change>
+      <change n="6" resp="#meiLint_v0.0.1-alpha">
+        <changeDesc>
+          <p>Applied lint mode.</p>
+        </changeDesc>
+        <date isodate="2023-07-31T15:44:10+02:00"/>
+      </change>
+    </revisionDesc>
+  </meiHead>
+  <music>
+    <body>
+      <mdiv>
+        <score>
+          <scoreDef meter.count="4" meter.unit="4" keysig="0">
+            <staffGrp xml:id="P1" symbol="brace">
+              <label>Part_1</label>
+              <staffDef n="1" lines="5" clef.line="4" clef.shape="F" keysig="0"/>
+              <staffDef n="2" lines="5" clef.line="4" clef.shape="F" keysig="0"/>
+            </staffGrp>
+          </scoreDef>
+          <section>
+            <measure n="1" xml:id="d1e12">
+              <!-- By unraveling the layer structure it can be determined which ties cut across layers and which do not. Those that do not can be represented with @tie, while cross-layer ties must be captured using tie elements. If desired, ties that do not cross layers may be represented using tie elements as well. -->
+              <staff n="1">
+                <layer n="1">
+                  <rest dur="2"/>
+                  <beam>
+                    <note xml:id="a" dur="8" pname="e" oct="3" stem.dir="up"/>
+                    <note xml:id="b" dur="8" pname="f" accid="s" oct="3" stem.dir="up"/>
+                    <note dur="8" pname="a" accid="n" oct="3" stem.dir="up"/>
+                    <note dur="8" pname="e" accid="f" oct="4" stem.dir="up" tie="i"/>
+                  </beam>
+                </layer>
+                <layer n="2">
+                  <space dur="2"/>
+                  <space dur="8"/>
+                  <note dur="8" pname="f" accid="s" oct="3" stem.dir="down"/>
+                  <note dur="4" pname="a" oct="3"/>
+                </layer>
+                <layer n="3">
+                  <space dur="2"/>
+                  <space dur="4"/>
+                  <note xml:id="c" dur="4" pname="f" oct="3" stem.dir="down"/>
+                </layer>
+                <layer n="4">
+                  <space dur="2" dots="1"/>
+                  <note dur="2" pname="e" oct="3" ho="2"/>
+                </layer>
+              </staff>
+              <staff n="2">
+                <layer n="1">
+                  <beam>
+                    <note dur="8" pname="c" oct="2"/>
+                    <note dur="8" pname="f" accid="s" oct="2"/>
+                    <note dur="8" pname="a" oct="2" tie="i" xml:id="d"/>
+                    <note dur="8" pname="c" oct="3" tie="i"/>
+                  </beam>
+                  <note dur="2" pname="c" oct="3" tie="m"/>
+                </layer>
+                <layer n="2">
+                  <note dur="2" pname="c" oct="2" tie="m"/>
+                  <chord dur="2">
+                    <note pname="c" oct="2" tie="i"/>
+                    <note pname="f" oct="2" tie="i"/>
+                    <note xml:id="e" pname="a" oct="2" tie="i"/>
+                  </chord>
+                </layer>
+                <layer n="3">
+                  <space dur="8"/>
+                  <note stem.dir="down" dur="8" pname="f" oct="2" tie="i"/>
+                  <note stem.dir="down" ho="2" dur="4" pname="f" oct="2" tie="i"/>
+                  <note ho="0" dur="2" pname="f" oct="2"/>
+                </layer>
+                <layer n="4">
+                  <space dur="4"/>
+                  <note dur="4" pname="a" oct="2"/>
+                </layer>
+              </staff>
+              <!-- x-layer tie -->
+              <tie staff="1" startid="#b" endid="#c" bulge="-1 50%"/>
+              <!-- x-layer tie -->
+              <tie staff="1" startid="#d" endid="#e" bulge="-1 50%"/>
+            </measure>
+            <measure n="2">
+              <staff n="1">
+                <layer n="1">
+                  <chord dur="2">
+                    <note pname="a" oct="3"/>
+                    <note pname="e" accid="f" oct="4"/>
+                  </chord>
+                </layer>
+                <layer n="2">
+                  <note dur="8" pname="a" oct="3" stem.dir="down"/>
+                  <note dur="8" pname="f" accid="f" oct="3" stem.dir="down"/>
+                  <note dur="4" pname="e" accid="f" oct="3" tie="i" stem.dir="down"/>
+                  <note dur="2" pname="e" accid="f" oct="3" stem.dir="down"/>
+                </layer>
+                <layer n="3">
+                  <space dur="8"/>
+                  <note dur="8" pname="f" accid="s" oct="3" tie="i" stem.dir="up"/>
+                  <note dur="4" pname="f" accid="s" oct="3" tie="i" stem.dir="up"/>
+                  <note dur="2" pname="f" accid="s" oct="3" stem.dir="up"/>
+                </layer>
+              </staff>
+              <staff n="2">
+                <layer n="1">
+                  <note dur="4" dots="1" pname="c" oct="3"/>
+                  <note dur="8" pname="c" oct="3" tie="i"/>
+                  <note dur="4" dots="1" pname="c" oct="3"/>
+                  <note dur="8" pname="c" oct="3"/>
+                </layer>
+                <layer n="2">
+                  <chord dur="2">
+                    <note pname="c" oct="2"/>
+                    <note pname="f" oct="2"/>
+                    <note pname="a" oct="2"/>
+                  </chord>
+                  <space dur="4"/>
+                  <note ho="4" dur="4" pname="c" oct="2"/>
+                </layer>
+                <layer n="3">
+                  <space dur="2"/>
+                  <note dur="2" pname="a" oct="2" xml:id="f"/>
+                </layer>
+                <layer n="4">
+                  <space dur="2"/>
+                  <beam>
+                    <note dur="8" pname="a" oct="2" xml:id="g" ho="1.75"/>
+                    <note dur="8" pname="f" accid="s" oct="2"/>
+                  </beam>
+                </layer>
+                <layer n="5">
+                  <space dur="2"/>
+                  <space dur="8"/>
+                  <note dur="4" dots="1" pname="f" accid.ges="s" oct="2"/>
+                </layer>
+              </staff>
+              <!-- x-layer tie -->
+              <tie staff="2" startid="#f" endid="#g" bulge="-1 50%"/>
+            </measure>
+          </section>
+        </score>
+      </mdiv>
+    </body>
+  </music>
+</mei>

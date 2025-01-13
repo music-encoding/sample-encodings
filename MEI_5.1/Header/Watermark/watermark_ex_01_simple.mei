@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://music-encoding.org/schema/5.0/mei-all_anyStart.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://music-encoding.org/schema/5.0/mei-all_anyStart.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<!-- 2023-07-27T17:11:42+02:00 – update xml-model schema references to v4.0.1; update meiversion attributes to 4.0.1; add missing responsibility statements to change elements; unify documentation of mei version upgrades (appInfo and revisionDesc); lint with: https://github.com/music-encoding/encoding-tools/blob/main/meiLint/meiLint.xsl – v0.0.1-alpha -->
+<!-- 2023-07-31T15:44:26+02:00 – Applied lint mode. Agent: https://github.com/music-encoding/encoding-tools/blob/main/meiLint/meiLint.xsl – v0.0.1-alpha -->
+<watermark xmlns="http://www.music-encoding.org/ns/mei" meiversion="5.0+anyStart">
+  <title>Welhartiz</title>
+  <date label="usage" startdate="1815" enddate="1816">1815–1816</date>
+  <annot>shield with bend, above lily, below additional motif: “JAA”, countermark lettering: „WELHARTIZ”.</annot>
+  <locus>upper right corner [position on the page, where you found the watermark]</locus>
+</watermark>
