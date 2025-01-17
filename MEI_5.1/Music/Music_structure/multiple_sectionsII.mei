@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="https://music-encoding.org/schema/5.0/mei-all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<?xml-model href="https://music-encoding.org/schema/5.0/mei-all.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
-<mei xmlns="http://www.music-encoding.org/ns/mei" meiversion="5.0">
+<?xml-model href="https://music-encoding.org/schema/5.1/mei-all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://music-encoding.org/schema/5.1/mei-all.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<mei xmlns="http://www.music-encoding.org/ns/mei" meiversion="5.1">
   <meiHead>
     <fileDesc>
       <titleStmt>
@@ -92,6 +92,14 @@
           <ptr target="https://github.com/music-encoding/encoding-tools/blob/main/mei40To50/mei40To50.xsl"/>
         </application>
         <application version="v0.0.1-alpha" xml:id="meiLint_v0.0.1-alpha">
+          <name>meiLint.xsl</name>
+          <ptr target="https://github.com/music-encoding/encoding-tools/blob/main/meiLint/meiLint.xsl"/>
+        </application>
+        <application version="v1.0" xml:id="mei50To51">
+          <name>mei50To51.xsl</name>
+          <ptr target="https://github.com/music-encoding/encoding-tools/blob/main/mei50To51/mei50To51.xsl"/>
+        </application>
+        <application version="v1.0.0" xml:id="meiLint_v1.0.0">
           <name>meiLint.xsl</name>
           <ptr target="https://github.com/music-encoding/encoding-tools/blob/main/meiLint/meiLint.xsl"/>
         </application>
@@ -245,6 +253,18 @@
           <p>Applied lint mode.</p>
         </changeDesc>
         <date isodate="2023-07-31T15:43:19+02:00"/>
+      </change>
+      <change n="12" resp="#mei50To51">
+        <changeDesc>
+          <p>Converted to MEI version 5.1 using mei50To51.xsl, version 1.0</p>
+        </changeDesc>
+        <date isodate="2025-01-17"/>
+      </change>
+      <change n="13" resp="#meiLint_v1.0.0">
+        <changeDesc>
+          <p>Applied lint mode.</p>
+        </changeDesc>
+        <date isodate="2025-01-17"/>
       </change>
     </revisionDesc>
   </meiHead>
@@ -618,8 +638,7 @@
                     </beam>
                   </layer>
                 </staff>
-                <!-- <tie tstamp="2.75" staff="1" curvedir="below" startid="#d1053044e11494" endid="#d1053044e12113"/> <tie tstamp="3" staff="1" curvedir="above" startid="#d1053044e11517" endid="#d1053044e12092"/> -->
-              </measure>
+                <!-- <tie tstamp="2.75" staff="1" curvedir="below" startid="#d1053044e11494" endid="#d1053044e12113"/> <tie tstamp="3" staff="1" curvedir="above" startid="#d1053044e11517" endid="#d1053044e12092"/> --></measure>
             </ending>
             <sb/>
             <ending n="2">
@@ -1223,13 +1242,11 @@
                   </beam>
                 </layer>
               </staff>
-              <!-- <slur tstamp="2.75" tstamp2="37m+1" curvedir="above" startid="#d1053044e25427" endid="#d1053044e48444" staff="1"/> <slur tstamp="3" tstamp2="37m+1.25" curvedir="below" startid="#d1053044e25451" endid="#d1053044e48467" staff="1"/> <slur tstamp="3" tstamp2="37m+1" curvedir="above" startid="#d1053044e25451" endid="#d1053044e48444" staff="1"/> -->
-            </measure>
+              <!-- <slur tstamp="2.75" tstamp2="37m+1" curvedir="above" startid="#d1053044e25427" endid="#d1053044e48444" staff="1"/> <slur tstamp="3" tstamp2="37m+1.25" curvedir="below" startid="#d1053044e25451" endid="#d1053044e48467" staff="1"/> <slur tstamp="3" tstamp2="37m+1" curvedir="above" startid="#d1053044e25451" endid="#d1053044e48444" staff="1"/> --></measure>
           </section>
           <section n="4">
             <sb/>
-            <!-- ... -->
-          </section>
+            <!-- ... --></section>
           <section n="5">
             <staffDef keysig="5f" lines="5" n="1"/>
             <staffDef keysig="5f" lines="5" n="2"/>
@@ -1603,8 +1620,7 @@
                   </beam>
                 </layer>
               </staff>
-              <!-- <tie tstamp="1.75" staff="1" curvedir="below" startid="#d1053044e33349" endid="#d1053044e33417"/> <tie tstamp="2" staff="1" curvedir="above" startid="#d1053044e33372" endid="#d1053044e33394"/> -->
-            </measure>
+              <!-- <tie tstamp="1.75" staff="1" curvedir="below" startid="#d1053044e33349" endid="#d1053044e33417"/> <tie tstamp="2" staff="1" curvedir="above" startid="#d1053044e33372" endid="#d1053044e33394"/> --></measure>
             <measure n="64" xml:id="d1053044e34109">
               <staff n="1">
                 <layer n="1">
@@ -1826,8 +1842,7 @@
                     </beam>
                   </layer>
                 </staff>
-                <!-- <slur tstamp="1.25" curvedir="above" startid="#d1053044e36323" endid="#d1053044e36367" staff="1"/> <slur tstamp="2.25" curvedir="above" startid="#d1053044e36404" endid="#d1053044e36448" staff="1"/> -->
-              </measure>
+                <!-- <slur tstamp="1.25" curvedir="above" startid="#d1053044e36323" endid="#d1053044e36367" staff="1"/> <slur tstamp="2.25" curvedir="above" startid="#d1053044e36404" endid="#d1053044e36448" staff="1"/> --></measure>
             </ending>
             <ending n="2">
               <measure n="68" xml:id="d1053044e36889" right="dbl">
@@ -1875,8 +1890,7 @@
                 </staff>
                 <dynam tstamp="1" place="above" staff="2">mf</dynam>
                 <hairpin tstamp="1.5" tstamp2="1m+1" form="cres" place="below" staff="1"/>
-                <!-- <tie tstamp="2.75" staff="1" curvedir="above" startid="#d1053044e37371" endid="#d1053044e37732"/> <tie tstamp="3" staff="1" curvedir="below" startid="#d1053044e37394" endid="#d1053044e37755"/> -->
-              </measure>
+                <!-- <tie tstamp="2.75" staff="1" curvedir="above" startid="#d1053044e37371" endid="#d1053044e37732"/> <tie tstamp="3" staff="1" curvedir="below" startid="#d1053044e37394" endid="#d1053044e37755"/> --></measure>
             </ending>
           </section>
           <section n="6">
@@ -2081,8 +2095,7 @@
                   </beam>
                 </layer>
               </staff>
-              <!-- <tie tstamp="2.75" staff="1" curvedir="above" startid="#d1053044e40546" endid="#d1053044e40940"/> <tie tstamp="3" staff="1" curvedir="below" startid="#d1053044e40569" endid="#d1053044e40963"/> -->
-            </measure>
+              <!-- <tie tstamp="2.75" staff="1" curvedir="above" startid="#d1053044e40546" endid="#d1053044e40940"/> <tie tstamp="3" staff="1" curvedir="below" startid="#d1053044e40569" endid="#d1053044e40963"/> --></measure>
             <measure n="73" xml:id="d1053044e40938">
               <staff n="1">
                 <layer n="1">
@@ -2128,8 +2141,7 @@
                   </beam>
                 </layer>
               </staff>
-              <!-- <tie tstamp="2.75" staff="1" curvedir="below" startid="#d1053044e41117" endid="#d1053044e41739"/> <tie tstamp="3" staff="1" curvedir="above" startid="#d1053044e41142" endid="#d1053044e41716"/> -->
-            </measure>
+              <!-- <tie tstamp="2.75" staff="1" curvedir="below" startid="#d1053044e41117" endid="#d1053044e41739"/> <tie tstamp="3" staff="1" curvedir="above" startid="#d1053044e41142" endid="#d1053044e41716"/> --></measure>
             <!-- ... -->
             <ending n="1">
               <measure n="84" xml:id="d1053044e49371" right="rptend">
@@ -2182,8 +2194,7 @@
                     </beam>
                   </layer>
                 </staff>
-                <!-- <tie tstamp="1.75" staff="1" curvedir="below" startid="#d1053044e49642" endid="#d1053044e49704"/> <tie tstamp="2" staff="1" curvedir="above" startid="#d1053044e49663" endid="#d1053044e49683"/> -->
-              </measure>
+                <!-- <tie tstamp="1.75" staff="1" curvedir="below" startid="#d1053044e49642" endid="#d1053044e49704"/> <tie tstamp="2" staff="1" curvedir="above" startid="#d1053044e49663" endid="#d1053044e49683"/> --></measure>
             </ending>
             <ending n="2">
               <measure n="85" xml:id="d1053044e50117" right="end">

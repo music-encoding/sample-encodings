@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="https://music-encoding.org/schema/5.0/mei-all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<?xml-model href="https://music-encoding.org/schema/5.0/mei-all.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
-<mei xmlns="http://www.music-encoding.org/ns/mei" meiversion="5.0">
+<?xml-model href="https://music-encoding.org/schema/5.1/mei-all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://music-encoding.org/schema/5.1/mei-all.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<mei xmlns="http://www.music-encoding.org/ns/mei" meiversion="5.1">
   <meiHead>
     <fileDesc>
       <titleStmt>
@@ -90,6 +90,14 @@
           <ptr target="https://github.com/music-encoding/encoding-tools/blob/main/mei40To50/mei40To50.xsl"/>
         </application>
         <application version="v0.0.1-alpha" xml:id="meiLint_v0.0.1-alpha">
+          <name>meiLint.xsl</name>
+          <ptr target="https://github.com/music-encoding/encoding-tools/blob/main/meiLint/meiLint.xsl"/>
+        </application>
+        <application version="v1.0" xml:id="mei50To51">
+          <name>mei50To51.xsl</name>
+          <ptr target="https://github.com/music-encoding/encoding-tools/blob/main/mei50To51/mei50To51.xsl"/>
+        </application>
+        <application version="v1.0.0" xml:id="meiLint_v1.0.0">
           <name>meiLint.xsl</name>
           <ptr target="https://github.com/music-encoding/encoding-tools/blob/main/meiLint/meiLint.xsl"/>
         </application>
@@ -204,6 +212,18 @@
           <p>Applied lint mode.</p>
         </changeDesc>
         <date isodate="2023-07-31T15:40:40+02:00"/>
+      </change>
+      <change n="8" resp="#mei50To51">
+        <changeDesc>
+          <p>Converted to MEI version 5.1 using mei50To51.xsl, version 1.0</p>
+        </changeDesc>
+        <date isodate="2025-01-17"/>
+      </change>
+      <change n="9" resp="#meiLint_v1.0.0">
+        <changeDesc>
+          <p>Applied lint mode.</p>
+        </changeDesc>
+        <date isodate="2025-01-17"/>
       </change>
     </revisionDesc>
   </meiHead>
@@ -673,8 +693,7 @@
                   <rest dur="2"/>
                   <!-- rest below the staff -->
                   <rest dur="4"/>
-                  <!-- rest below the staff -->
-                </layer>
+                  <!-- rest below the staff --></layer>
               </staff>
               <staff n="2" visible="false"/>
               <dir staff="1" place="below" tstamp="3">(fine)</dir>
@@ -758,8 +777,7 @@
                   <rest dur="4"/>
                   <!-- below staff -->
                   <rest dur="2"/>
-                  <!-- below staff -->
-                </layer>
+                  <!-- below staff --></layer>
               </staff>
               <staff n="2" visible="false"/>
               <reh staff="1" tstamp="0" place="above"><rend rend="box">A</rend></reh>

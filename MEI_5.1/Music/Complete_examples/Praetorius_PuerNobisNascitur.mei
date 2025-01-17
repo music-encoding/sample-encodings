@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="https://music-encoding.org/schema/5.0/mei-all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<?xml-model href="https://music-encoding.org/schema/5.0/mei-all.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
-<mei xmlns="http://www.music-encoding.org/ns/mei" meiversion="5.0">
+<?xml-model href="https://music-encoding.org/schema/5.1/mei-all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://music-encoding.org/schema/5.1/mei-all.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<mei xmlns="http://www.music-encoding.org/ns/mei" meiversion="5.1">
   <meiHead>
     <fileDesc>
       <titleStmt>
@@ -105,6 +105,14 @@
           <ptr target="https://github.com/music-encoding/encoding-tools/blob/main/mei40To50/mei40To50.xsl"/>
         </application>
         <application version="v0.0.1-alpha" xml:id="meiLint_v0.0.1-alpha">
+          <name>meiLint.xsl</name>
+          <ptr target="https://github.com/music-encoding/encoding-tools/blob/main/meiLint/meiLint.xsl"/>
+        </application>
+        <application version="v1.0" xml:id="mei50To51">
+          <name>mei50To51.xsl</name>
+          <ptr target="https://github.com/music-encoding/encoding-tools/blob/main/mei50To51/mei50To51.xsl"/>
+        </application>
+        <application version="v1.0.0" xml:id="meiLint_v1.0.0">
           <name>meiLint.xsl</name>
           <ptr target="https://github.com/music-encoding/encoding-tools/blob/main/meiLint/meiLint.xsl"/>
         </application>
@@ -247,6 +255,18 @@
           <p>Applied lint mode.</p>
         </changeDesc>
         <date isodate="2023-07-31T15:40:55+02:00"/>
+      </change>
+      <change n="13" resp="#mei50To51">
+        <changeDesc>
+          <p>Converted to MEI version 5.1 using mei50To51.xsl, version 1.0</p>
+        </changeDesc>
+        <date isodate="2025-01-17"/>
+      </change>
+      <change n="14" resp="#meiLint_v1.0.0">
+        <changeDesc>
+          <p>Applied lint mode.</p>
+        </changeDesc>
+        <date isodate="2025-01-17"/>
       </change>
     </revisionDesc>
   </meiHead>
@@ -2633,8 +2653,7 @@
               <slur tstamp="1" curvedir="above" startid="#d5130e9138" endid="#d5130e9198" staff="3" tstamp2="0m+4" lform="dashed"/>
               <slur tstamp="1" curvedir="above" startid="#d5130e9225" endid="#d5130e9253" staff="4" tstamp2="0m+2"/>
               <slur tstamp="1" curvedir="above" startid="#d5130e9225" endid="#d5130e9269" staff="4" tstamp2="0m+4" lform="dashed"/>
-              <!-- added dashed slurs -->
-            </measure>
+              <!-- added dashed slurs --></measure>
           </section>
           <section>
             <measure n="17" xml:id="d5130e9295">
@@ -3023,8 +3042,7 @@
               <slur tstamp="1" curvedir="above" startid="#d5130e10150" endid="#d5130e10178" tstamp2="0m+2" lform="dashed"/>
               <slur tstamp="1" curvedir="above" startid="#d5130e10275" endid="#d5130e10301" tstamp2="0m+2" lform="dashed"/>
               <slur tstamp="1" curvedir="above" startid="#d5130e10396" endid="#d5130e10424" tstamp2="0m+2" lform="dashed"/>
-              <!-- added @rend -->
-            </measure>
+              <!-- added @rend --></measure>
             <measure n="19" xml:id="d5130e10517">
               <staff n="1">
                 <layer n="1">

@@ -1,9 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="https://music-encoding.org/schema/5.0/mei-all_anyStart.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<?xml-model href="https://music-encoding.org/schema/5.0/mei-all_anyStart.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="https://music-encoding.org/schema/5.1/mei-all_anyStart.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://music-encoding.org/schema/5.1/mei-all_anyStart.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
 <!-- 2023-07-27T17:12:01+02:00 – update xml-model schema references to v4.0.1; update meiversion attributes to 4.0.1; add missing responsibility statements to change elements; unify documentation of mei version upgrades (appInfo and revisionDesc); lint with: https://github.com/music-encoding/encoding-tools/blob/main/meiLint/meiLint.xsl – v0.0.1-alpha -->
 <!-- 2023-07-31T15:44:47+02:00 – Applied lint mode. Agent: https://github.com/music-encoding/encoding-tools/blob/main/meiLint/meiLint.xsl – v0.0.1-alpha -->
-<perfMedium xmlns="http://www.music-encoding.org/ns/mei" meiversion="5.0+anyStart">
+<!-- 2025-01-17 – Converted to MEI version 5.1+anyStart using mei50To51.xsl, version 1.0 Agent: https://github.com/music-encoding/encoding-tools/blob/main/mei50To51/mei50To51.xsl – v1.0 -->
+<!-- 2025-01-17 – Applied lint mode. Agent: https://github.com/music-encoding/encoding-tools/blob/main/meiLint/meiLint.xsl – v1.0.0 -->
+<perfMedium xmlns="http://www.music-encoding.org/ns/mei" meiversion="5.1+anyStart">
   <head>A | Trio | for | Three Performers | on the | Piano forte, | [...] J. W. Holder, | op. 31</head>
   <perfResList>
     <!-- piano 3 hands -->

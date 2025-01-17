@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="https://music-encoding.org/schema/5.0/mei-all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<?xml-model href="https://music-encoding.org/schema/5.0/mei-all.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
-<mei xmlns="http://www.music-encoding.org/ns/mei" meiversion="5.0">
+<?xml-model href="https://music-encoding.org/schema/5.1/mei-all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://music-encoding.org/schema/5.1/mei-all.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<mei xmlns="http://www.music-encoding.org/ns/mei" meiversion="5.1">
   <meiHead>
     <fileDesc>
       <titleStmt>
@@ -100,6 +100,14 @@
           <ptr target="https://github.com/music-encoding/encoding-tools/blob/main/mei40To50/mei40To50.xsl"/>
         </application>
         <application version="v0.0.1-alpha" xml:id="meiLint_v0.0.1-alpha">
+          <name>meiLint.xsl</name>
+          <ptr target="https://github.com/music-encoding/encoding-tools/blob/main/meiLint/meiLint.xsl"/>
+        </application>
+        <application version="v1.0" xml:id="mei50To51">
+          <name>mei50To51.xsl</name>
+          <ptr target="https://github.com/music-encoding/encoding-tools/blob/main/mei50To51/mei50To51.xsl"/>
+        </application>
+        <application version="v1.0.0" xml:id="meiLint_v1.0.0">
           <name>meiLint.xsl</name>
           <ptr target="https://github.com/music-encoding/encoding-tools/blob/main/meiLint/meiLint.xsl"/>
         </application>
@@ -264,6 +272,18 @@
         </changeDesc>
         <date isodate="2023-07-31T15:43:32+02:00"/>
       </change>
+      <change n="12" resp="#mei50To51">
+        <changeDesc>
+          <p>Converted to MEI version 5.1 using mei50To51.xsl, version 1.0</p>
+        </changeDesc>
+        <date isodate="2025-01-17"/>
+      </change>
+      <change n="13" resp="#meiLint_v1.0.0">
+        <changeDesc>
+          <p>Applied lint mode.</p>
+        </changeDesc>
+        <date isodate="2025-01-17"/>
+      </change>
     </revisionDesc>
   </meiHead>
   <music>
@@ -278,8 +298,7 @@
             </staffGrp>
           </scoreDef>
           <section>
-            <!-- music goes here -->
-          </section>
+            <!-- music goes here --></section>
         </score>
       </mdiv>
       <mdiv n="Act1">
@@ -287,31 +306,25 @@
           <mdiv n="Act1Scene1Chorus1" label="Ah, se intorno a quest'urna funesta">
             <score>
               <scoreDef>
-                <!-- score and staffDefs goes here -->
-              </scoreDef>
+                <!-- score and staffDefs goes here --></scoreDef>
               <section>
-                <!-- music goes here -->
-              </section>
+                <!-- music goes here --></section>
             </score>
           </mdiv>
           <mdiv n="Act1Scene1Rezitativo" label="Basta, basta, o compagni">
             <score>
               <scoreDef>
-                <!-- score and staffDefs goes here -->
-              </scoreDef>
+                <!-- score and staffDefs goes here --></scoreDef>
               <section>
-                <!-- music goes here -->
-              </section>
+                <!-- music goes here --></section>
             </score>
           </mdiv>
           <mdiv n="Act1Scene1Chorus2" label="Ah, se intorno a quest'urna funesta">
             <score>
               <scoreDef>
-                <!-- score and staffDefs goes here -->
-              </scoreDef>
+                <!-- score and staffDefs goes here --></scoreDef>
               <section>
-                <!-- music goes here -->
-              </section>
+                <!-- music goes here --></section>
             </score>
           </mdiv>
         </mdiv>
@@ -319,23 +332,19 @@
       <mdiv n="Act2">
         <mdiv n="Act2Scene1">
           <mdiv n="Act2Scene1Ballo" label="Ballo">
-            <!-- music -->
-          </mdiv>
+            <!-- music --></mdiv>
           <mdiv n="Act2Scene1Chorus" label="Chi mai dell' Erebo fra caligini">
-            <!-- music -->
-          </mdiv>
+            <!-- music --></mdiv>
         </mdiv>
         <mdiv n="Act2Scene2">
           <mdiv n="Act2Scene2Ballo" label="Ballo">
-            <!-- music -->
-          </mdiv>
+            <!-- music --></mdiv>
         </mdiv>
       </mdiv>
       <mdiv n="Act3">
         <mdiv n="Act3Scene1">
           <mdiv n="Act3Scene1Recitativo">
-            <!-- music -->
-          </mdiv>
+            <!-- music --></mdiv>
         </mdiv>
         <!-- ... -->
         <mdiv n="Act3Scene1Aria" label="Che farò senza Euridice" decls="#work1">
@@ -1584,11 +1593,9 @@
           </score>
         </mdiv>
         <mdiv n="Act3Scene1Recitativo" label="Ah finisca e per sempre">
-          <!-- music -->
-        </mdiv>
+          <!-- music --></mdiv>
         <mdiv>
-          <!-- ... -->
-        </mdiv>
+          <!-- ... --></mdiv>
       </mdiv>
     </body>
   </music>
