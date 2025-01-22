@@ -1,0 +1,214 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://music-encoding.org/schema/5.1/mei-all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://music-encoding.org/schema/5.1/mei-all.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<meiCorpus xmlns="http://www.music-encoding.org/ns/mei" meiversion="5.1">
+  <meiHead>
+    <fileDesc>
+      <titleStmt>
+        <title>Document starts with meiCorpus root element</title>
+      </titleStmt>
+      <pubStmt>
+        <unpub/>
+      </pubStmt>
+      <sourceDesc>
+        <source>
+          <bibl>
+            <title>Die christliche Liederdatenbank</title>
+            <title>Liederbuch: Ev. Gesangbuch</title>
+            <imprint>
+              <identifier type="URI">http://www.liederdatenbank.de/songbook/8984</identifier>
+            </imprint>
+          </bibl>
+        </source>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <appInfo>
+        <application version="v1.0_beta" xml:id="mei30To40">
+          <name>mei30To40.xsl</name>
+          <ptr target="https://github.com/music-encoding/encoding-tools/blob/main/mei30To40/mei30To40.xsl"/>
+        </application>
+        <application version="v0.0.1-alpha" xml:id="meiLint_v0.0.1-alpha">
+          <name>meiLint.xsl</name>
+          <ptr target="https://github.com/music-encoding/encoding-tools/blob/main/meiLint/meiLint.xsl"/>
+        </application>
+        <application version="v1.0" xml:id="mei40To50.xsl">
+          <name>mei40To50.xsl</name>
+          <ptr target="https://github.com/music-encoding/encoding-tools/blob/main/mei40To50/mei40To50.xsl"/>
+        </application>
+        <application version="v1.0" xml:id="mei50To51">
+          <name>mei50To51.xsl</name>
+          <ptr target="https://github.com/music-encoding/encoding-tools/blob/main/mei50To51/mei50To51.xsl"/>
+        </application>
+        <application version="v1.0.0" xml:id="meiLint_v1.0.0">
+          <name>meiLint.xsl</name>
+          <ptr target="https://github.com/music-encoding/encoding-tools/blob/main/meiLint/meiLint.xsl"/>
+        </application>
+      </appInfo>
+      <editorialDecl>
+        <p>A typical MEI document contains an MEI element, which in turn contains metadata, represented by an MEIHead element, and the musical text itself, represented by a music element. It is possible to group several related MEI documents by using the entry point meiCorpus, which consists of a header for the group, and one or more &lt;mei&gt; elements, each with its own complete header. This is an example for the use of the entry point &lt;meiCorpus&gt;.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc>
+      <change n="1" resp="#mei30To40">
+        <changeDesc>
+          <p>Converted to MEI version 4.0.0 using mei30To40.xsl, version 1.0 beta</p>
+        </changeDesc>
+        <date isodate="2019-01-03"/>
+      </change>
+      <change n="2">
+        <respStmt>
+          <persName>Benjamin W. Bohl</persName>
+          <persName>Stefan Münnich</persName>
+        </respStmt>
+        <changeDesc>
+          <p><list>
+              <li>update xml-model schema references to v4.0.1</li>
+              <li>update meiversion attributes to 4.0.1</li>
+              <li>add missing responsibility statements to change elements</li>
+              <li>unify documentation of mei version upgrades (appInfo and revisionDesc)</li>
+              <li>linted with
+                <ref target="#meiLint_v0.0.1-alpha">meiLint.xsl</ref>
+              </li>
+            </list></p>
+        </changeDesc>
+        <date isodate="2023-07-27T17:11:02+02:00"/>
+      </change>
+      <change n="3" resp="#mei40To50.xsl">
+        <changeDesc>
+          <p>Converted to MEI version 5.0 using mei40To50.xsl, version 1.0</p>
+        </changeDesc>
+        <date isodate="2023-07-31"/>
+      </change>
+      <change n="4" resp="#meiLint_v0.0.1-alpha">
+        <changeDesc>
+          <p>Applied lint mode.</p>
+        </changeDesc>
+        <date isodate="2023-07-31T15:43:37+02:00"/>
+      </change>
+      <change n="5" resp="#mei50To51">
+        <changeDesc>
+          <p>Converted to MEI version 5.1 using mei50To51.xsl, version 1.0</p>
+        </changeDesc>
+        <date isodate="2025-01-17"/>
+      </change>
+      <change n="6" resp="#meiLint_v1.0.0">
+        <changeDesc>
+          <p>Applied lint mode.</p>
+        </changeDesc>
+        <date isodate="2025-01-17"/>
+      </change>
+    </revisionDesc>
+  </meiHead>
+  <mei xml:id="song1">
+    <meiHead>
+      <fileDesc>
+        <titleStmt>
+          <title>Macht hoch die Tür</title>
+          <lyricist>
+            <persName role="lyricist">Georg Weissel</persName>
+          </lyricist>
+        </titleStmt>
+        <pubStmt/>
+      </fileDesc>
+      <workList>
+        <work>
+          <title/>
+          <history>
+            <eventList>
+              <event>
+                <desc>Text:</desc>
+                <date>1642</date>
+              </event>
+              <event>
+                <desc>Melodie:<date>1704</date><geogName>Halle</geogName></desc>
+              </event>
+            </eventList>
+          </history>
+        </work>
+      </workList>
+      <revisionDesc>
+        <change n="1" resp="#mei40To50.xsl">
+          <changeDesc>
+            <p>Converted to MEI version 5.0 using mei40To50.xsl, version 1.0</p>
+          </changeDesc>
+          <date isodate="2023-07-31"/>
+        </change>
+      </revisionDesc>
+    </meiHead>
+    <music/>
+  </mei>
+  <mei xml:id="song2">
+    <meiHead>
+      <fileDesc>
+        <titleStmt>
+          <title>Er ist die rechte Freudensonn (Kanon)</title>
+          <respStmt>
+            <resp>Text</resp>
+            <persName>Georg Weissel</persName>
+          </respStmt>
+          <respStmt>
+            <resp>Melody</resp>
+            <persName>Paul Ernst Ruppel</persName>
+          </respStmt>
+        </titleStmt>
+        <pubStmt/>
+      </fileDesc>
+      <workList>
+        <work>
+          <title/>
+          <history>
+            <eventList>
+              <event>
+                <p>Text:<date cert="unknown">(1623)</date><date>1642</date></p>
+              </event>
+            </eventList>
+          </history>
+        </work>
+      </workList>
+      <revisionDesc>
+        <change n="1" resp="#mei40To50.xsl">
+          <changeDesc>
+            <p>Converted to MEI version 5.0 using mei40To50.xsl, version 1.0</p>
+          </changeDesc>
+          <date isodate="2023-07-31"/>
+        </change>
+      </revisionDesc>
+    </meiHead>
+    <music/>
+  </mei>
+  <!-- etc. -->
+  <mei xml:id="song714">
+    <meiHead>
+      <fileDesc>
+        <titleStmt>
+          <title>Siehe, das ist Gottes Lamm (Kanon)</title>
+        </titleStmt>
+        <pubStmt/>
+      </fileDesc>
+      <workList>
+        <work>
+          <title/>
+          <history>
+            <eventList>
+              <event>
+                <desc>Melodie:</desc>
+                <date>1972</date>
+                <persName>Rolf Schweizer</persName>
+              </event>
+            </eventList>
+          </history>
+        </work>
+      </workList>
+      <revisionDesc>
+        <change n="1" resp="#mei40To50.xsl">
+          <changeDesc>
+            <p>Converted to MEI version 5.0 using mei40To50.xsl, version 1.0</p>
+          </changeDesc>
+          <date isodate="2023-07-31"/>
+        </change>
+      </revisionDesc>
+    </meiHead>
+    <music/>
+  </mei>
+</meiCorpus>
